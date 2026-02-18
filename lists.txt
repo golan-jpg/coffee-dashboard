@@ -1,0 +1,13 @@
+# Add your Google Maps list URLs below, one per line
+# Lines starting with # are comments and will be ignored
+# Example:
+# https://maps.app.goo.gl/abc123
+https://maps.app.goo.gl/p7LjQVN1SVy3PKUW9
+https://maps.app.goo.gl/M3cFi5P9BsfMGS186
+https://maps.app.goo.gl/V7XxfsN4viaX1RNKA
+https://maps.app.goo.gl/1Frzhd6cJyGJuAAa9
+https://maps.app.goo.gl/7cyEig6EHEYMrdhD6
+https://maps.app.goo.gl/6xNTmmKNPT1ia68x8
+https://maps.app.goo.gl/MP9bqjUeD9rM4tNv7
+https://maps.app.goo.gl/DB8gr1ycrs8GBvGL6
+

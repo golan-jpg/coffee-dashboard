@@ -1,0 +1,468 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ── Header ────────────────────────────────────── */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  background: var(--brand-brown);
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.header-left h1 {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header-subtitle {
+  font-size: var(--text-sm);
+  opacity: 0.75;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.city-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.city-selector label {
+  font-weight: 500;
+}
+
+.city-selector select {
+  padding: 0.5rem 1rem;
+  font-size: var(--text-base);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+/* ── Layout ────────────────────────────────────── */
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ── Sidebar ───────────────────────────────────── */
+
+.sidebar {
+  width: 320px;
+  background: white;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 1.25rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.count {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}
+
+.loading {
+  color: var(--brand-brown);
+  font-size: var(--text-sm);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.error {
+  padding: 1rem;
+  background: #fee;
+  color: #c00;
+  font-size: var(--text-sm);
+}
+
+/* ── Mode Toggle ───────────────────────────────── */
+
+.mode-toggle {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.mode-toggle button {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  border: none;
+  background: var(--gray-100);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: background var(--transition);
+}
+
+.mode-toggle button:first-child {
+  border-radius: var(--radius-md) 0 0 0;
+}
+
+.mode-toggle button:last-child {
+  border-radius: 0 var(--radius-md) 0 0;
+}
+
+.mode-toggle button.active {
+  background: var(--brand-brown);
+  color: white;
+  font-weight: 600;
+}
+
+.mode-toggle button:hover:not(.active) {
+  background: var(--gray-200);
+}
+
+/* ── Legend & Filters ──────────────────────────── */
+
+.legend {
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot.specialty {
+  background: var(--brand-gold);
+}
+
+.dot.regular {
+  background: var(--brand-blue);
+}
+
+.dot.google {
+  background: var(--brand-green);
+}
+
+.checkbox-control {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.checkbox-control input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.filter-control {
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-control label {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.filter-control input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+/* ── Cafe List ─────────────────────────────────── */
+
+.cafe-list {
+  flex: 1;
+  overflow-y: auto;
+  list-style: none;
+  padding: var(--space-2) 0;
+}
+
+.cafe-item {
+  margin: var(--space-2) var(--space-3);
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  background: white;
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  transition: box-shadow var(--transition), background var(--transition);
+}
+
+.cafe-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.cafe-item.selected {
+  background: #e8f4f8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-left: 4px solid var(--brand-brown);
+  border-radius: var(--radius-md);
+}
+
+.cafe-item.specialty {
+  border-left: 4px solid var(--brand-gold);
+  border-radius: var(--radius-md);
+}
+
+.cafe-item.specialty.selected {
+  border-left: 4px solid var(--brand-gold-dark);
+}
+
+.cafe-item.google-place {
+  border-left: 4px solid var(--brand-green);
+  border-radius: var(--radius-md);
+}
+
+.cafe-item.google-place.selected {
+  border-left: 4px solid var(--brand-green-dark);
+}
+
+.google-link {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: var(--text-xs);
+  color: var(--brand-green);
+  text-decoration: none;
+}
+
+.google-link:hover {
+  text-decoration: underline;
+}
+
+/* ── Cafe Item Typography ──────────────────────── */
+
+.cafe-name {
+  font-weight: 600;
+  font-size: var(--text-base);
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cafe-address {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.cafe-explanation {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+
+/* ── Score Badge ───────────────────────────────── */
+
+.score-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.score-badge.score-high {
+  background: #22c55e;
+  color: white;
+}
+
+.score-badge.score-mid {
+  background: #daa520;
+  color: white;
+}
+
+.score-badge.score-low {
+  background: #94a3b8;
+  color: white;
+}
+
+/* ── Specialty Badge (sidebar) ─────────────────── */
+
+.specialty-badge {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.15rem 0.5rem;
+  background: var(--brand-gold);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/* ── Map ───────────────────────────────────────── */
+
+.map-container {
+  flex: 1;
+  min-height: 400px;
+}
+
+/* ── Leaflet Popup ─────────────────────────────── */
+
+.popup-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.popup-content strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-base);
+}
+
+.popup-content p {
+  margin: 0.25rem 0;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.popup-content a {
+  color: var(--brand-brown);
+}
+
+.popup-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.4rem;
+  background: var(--brand-gold);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 600;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.popup-badge.google-badge {
+  background: var(--brand-green);
+}
+
+/* ── Responsive ────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-height: 40vh;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .header-left h1 {
+    font-size: var(--text-xl);
+  }
+
+  .header-subtitle {
+    font-size: var(--text-xs);
+  }
+
+  .cafe-item {
+    margin: var(--space-2) var(--space-2);
+  }
+}
+.app-header {
+  background: linear-gradient(135deg, #5a3e2b, #8b5e3c);
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.app-header h1 {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.header-subtitle {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.cafe-item {
+  background: white;
+  border-radius: 12px;
+  padding: 0.9rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cafe-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+.score-high {
+  background: #2ecc71;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.score-mid {
+  background: #f39c12;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.score-low {
+  background: #e74c3c;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+}

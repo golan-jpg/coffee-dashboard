@@ -1,0 +1,32 @@
+# Query: cities
+# ContextLines: 1
+
+5 results - 1 file
+
+src\App.jsx:
+   69  
+   70: // European cities with coordinates
+   71: // Cities with coordinates
+const cities = [
+  { name: "Berlin", lat: 52.52, lon: 13.405 },
+
+  // 🇮🇱 Israel
+  { name: "Tel Aviv", lat: 32.0853, lon: 34.7818 },
+  { name: "Jerusalem", lat: 31.7683, lon: 35.2137 },
+  { name: "Haifa", lat: 32.7940, lon: 34.9896 },
+  { name: "Eilat", lat: 29.5577, lon: 34.9519 },
+  { name: "Beer Sheva", lat: 31.2520, lon: 34.7913 }
+];
+
+
+  109  function App() {
+  110:   const [selectedCity, setSelectedCity] = useState(cities[0]);
+  111    const [cafes, setCafes] = useState([]);
+
+  204    const handleCityChange = (e) => {
+  205:     const city = cities.find(c => c.name === e.target.value);
+  206      setSelectedCity(city);
+
+  223            <select id="city" value={selectedCity.name} onChange={handleCityChange}>
+  224:             {cities.map(city => (
+  225                <option key={city.name} value={city.name}>{city.name}</option>

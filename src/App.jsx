@@ -4000,6 +4000,23 @@ function App() {
                   className={`cafe-item ${place.source === "google" ? "google-place" : place.isSpecialty ? "specialty" : ""} ${selectedCafe?.id === place.id ? "selected" : ""} ${openNowStatus === false ? "closed-now" : openNowStatus === true ? "open-now" : ""}`}
                   onClick={() => handleSidebarCafeClick(place)}
                 >
+                  {place.photoUrl && (
+                    <img
+                      src={place.photoUrl}
+                      alt={place.name}
+                      style={{
+                        width: 'calc(100% + 2.1rem)',
+                        height: '160px',
+                        objectFit: 'cover',
+                        borderRadius: '20px 20px 0 0',
+                        marginLeft: '-1.05rem',
+                        marginRight: '-1.05rem',
+                        marginTop: '-1rem',
+                        marginBottom: '0.75rem'
+                      }}
+                      onError={(e) => { e.target.style.display = 'none'; }}
+                    />
+                  )}
                   <div className="cafe-header">
                     <span className="cafe-name">{place.name}</span>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 4, position: 'absolute', top: 8, right: 8 }}>

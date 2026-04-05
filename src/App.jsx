@@ -3342,7 +3342,7 @@ function App() {
       <header className="header">
         <div className="header-left">
           <h1>CupRoam</h1>
-          <p className="header-subtitle">Discover the best specialty cafés worldwide</p>
+          <p className="header-subtitle">CupRoam — Your next great cup</p>
         </div>
         <div className="city-selector">
           <div className="city-selector-group">
@@ -3369,7 +3369,7 @@ function App() {
 
           <div className="sidebar-header-content">
             <h2>Coffee Shops</h2>
-            <p className="sidebar-subtitle">Browse around and pick a spot</p>
+            <p className="sidebar-subtitle">Search, filter, and explore</p>
             <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
               <button onClick={handleExportManualPlaces}>ייצוא מקומות ידניים (JSON)</button>
               <button onClick={() => importInputRef.current?.click()}>ייבוא מקובץ JSON</button>

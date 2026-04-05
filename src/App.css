@@ -1474,6 +1474,20 @@ hide-button:hover {
     touch-action: none !important;
   }
 
+  .map-container .leaflet-top.leaflet-left {
+    left: auto;
+    right: 10px;
+    top: 52px;
+  }
+
+  .map-container .leaflet-control-zoom {
+    margin: 0;
+  }
+
+  .map-container .leaflet-popup-content-wrapper {
+    max-width: min(82vw, 340px);
+  }
+
   .header {
     flex-direction: column;
     align-items: stretch;

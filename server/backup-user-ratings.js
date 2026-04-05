@@ -46,6 +46,108 @@ function uniqueIds(values) {
   return Array.from(new Set((Array.isArray(values) ? values : []).filter(Boolean)));
 }
 
+function normalizeManualPlaces(value) {
+  if (!Array.isArray(value)) return [];
+
+  const seen = new Set();
+
+  return value.reduce((acc, item) => {
+    if (!item || typeof item !== 'object' || Array.isArray(item)) return acc;
+
+    const id = String(item.id || '').trim();
+    const name = String(item.name || '').trim();
+    const lat = Number(item.lat);
+    const lon = Number(item.lon);
+
+    if (!id || seen.has(id) || !name || !Number.isFinite(lat) || !Number.isFinite(lon)) {
+      return acc;
+    }
+
+    seen.add(id);
+    acc.push({
+      ...item,
+      id,
+      name,
+      lat,
+      lon,
+      notes: String(item.notes || ''),
+      cityName: String(item.cityName || ''),
+      source: String(item.source || 'manual'),
+      updatedAt: Number.isFinite(Number(item.updatedAt)) ? Number(item.updatedAt) : undefined,
+    });
+    return acc;
+  }, []);
+}
+
+function readManualPlacesFile(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return [];
+    return normalizeManualPlaces(JSON.parse(fs.readFileSync(filePath, 'utf8')));
+  } catch {
+    return [];
+  }
+}
+
+function normalizePlaceOverrideEntry(value) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return null;
+
+  const next = {};
+
+  if (Object.prototype.hasOwnProperty.call(value, 'name')) next.name = String(value.name || '').trim();
+  if (Object.prototype.hasOwnProperty.call(value, 'address')) next.address = String(value.address || '').trim();
+  if (Object.prototype.hasOwnProperty.call(value, 'notes')) next.notes = String(value.notes || '').trim();
+  if (Object.prototype.hasOwnProperty.call(value, 'cityName')) next.cityName = String(value.cityName || '').trim();
+  if (Object.prototype.hasOwnProperty.call(value, 'source')) next.source = String(value.source || '').trim();
+
+  if (Object.prototype.hasOwnProperty.call(value, 'lat')) {
+    const lat = Number(value.lat);
+    if (Number.isFinite(lat)) next.lat = lat;
+  }
+
+  if (Object.prototype.hasOwnProperty.call(value, 'lon')) {
+    const lon = Number(value.lon);
+    if (Number.isFinite(lon)) next.lon = lon;
+  }
+
+  if (Object.prototype.hasOwnProperty.call(value, 'specialtyScore')) {
+    const specialtyScore = Number(value.specialtyScore);
+    if (Number.isFinite(specialtyScore)) next.specialtyScore = Math.max(0, Math.min(100, specialtyScore));
+  }
+
+  if (value.deleted === true) next.deleted = true;
+
+  if (Object.prototype.hasOwnProperty.call(value, 'updatedAt')) {
+    const updatedAt = Number(value.updatedAt);
+    if (Number.isFinite(updatedAt)) next.updatedAt = updatedAt;
+  }
+
+  return Object.keys(next).length > 0 ? next : null;
+}
+
+function normalizePlaceOverrides(value) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+
+  return Object.entries(value).reduce((acc, [id, entry]) => {
+    const normalizedId = String(id || '').trim();
+    if (!normalizedId) return acc;
+
+    const normalizedEntry = normalizePlaceOverrideEntry(entry);
+    if (!normalizedEntry) return acc;
+
+    acc[normalizedId] = normalizedEntry;
+    return acc;
+  }, {});
+}
+
+function readPlaceOverridesFile(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return {};
+    return normalizePlaceOverrides(JSON.parse(fs.readFileSync(filePath, 'utf8')));
+  } catch {
+    return {};
+  }
+}
+
 app.get('/api/backup-user-ratings', (_req, res) => {
   try {
     const ratingsPath = path.resolve('userRatings.json');
@@ -106,6 +208,58 @@ app.post('/api/backup-hidden-place-ids', (req, res) => {
   } catch (error) {
     console.error('backup-hidden-place-ids failed:', error);
     res.status(500).json({ ok: false, error: 'Failed saving hidden-place-ids backup' });
+  }
+});
+
+app.get('/api/backup-manual-places', (_req, res) => {
+  try {
+    const manualPlacesPath = path.resolve('manualPlaces.json');
+    const manualPlaces = readManualPlacesFile(manualPlacesPath);
+
+    res.json({ ok: true, manualPlaces });
+  } catch (error) {
+    console.error('get backup-manual-places failed:', error);
+    res.status(500).json({ ok: false, error: 'Failed reading manual places backup' });
+  }
+});
+
+app.post('/api/backup-manual-places', (req, res) => {
+  try {
+    const manualPlaces = normalizeManualPlaces(req.body);
+    const manualPlacesPath = path.resolve('manualPlaces.json');
+
+    fs.writeFileSync(manualPlacesPath, JSON.stringify(manualPlaces, null, 2), 'utf8');
+
+    res.json({ ok: true, message: 'Manual places saved.', count: manualPlaces.length });
+  } catch (error) {
+    console.error('backup-manual-places failed:', error);
+    res.status(500).json({ ok: false, error: 'Failed saving manual places backup' });
+  }
+});
+
+app.get('/api/backup-place-overrides', (_req, res) => {
+  try {
+    const placeOverridesPath = path.resolve('placeOverrides.json');
+    const placeOverrides = readPlaceOverridesFile(placeOverridesPath);
+
+    res.json({ ok: true, placeOverrides });
+  } catch (error) {
+    console.error('get backup-place-overrides failed:', error);
+    res.status(500).json({ ok: false, error: 'Failed reading place overrides backup' });
+  }
+});
+
+app.post('/api/backup-place-overrides', (req, res) => {
+  try {
+    const placeOverrides = normalizePlaceOverrides(req.body);
+    const placeOverridesPath = path.resolve('placeOverrides.json');
+
+    fs.writeFileSync(placeOverridesPath, JSON.stringify(placeOverrides, null, 2), 'utf8');
+
+    res.json({ ok: true, message: 'Place overrides saved.', count: Object.keys(placeOverrides).length });
+  } catch (error) {
+    console.error('backup-place-overrides failed:', error);
+    res.status(500).json({ ok: false, error: 'Failed saving place overrides backup' });
   }
 });
 

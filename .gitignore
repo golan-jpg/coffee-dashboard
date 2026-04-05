@@ -28,6 +28,8 @@ dist-ssr
 # Local runtime state / backups
 userRatings.json
 hiddenPlaceIds.json
+manualPlaces.json
+placeOverrides.json
 *.bak
 *.save
-src/data/hiddenPlaceIds-backup.json
+# src/data/hiddenPlaceIds-backup.json is tracked (source of truth for live site)

@@ -124,6 +124,8 @@ These routes are available in production under the same domain:
 
 - `GET/POST /api/backup-user-ratings`
 - `GET/POST /api/backup-hidden-place-ids`
+- `GET/POST /api/backup-manual-places`
+- `GET/POST /api/backup-place-overrides`
 - `POST /api/report-error`
 - `GET /api/reverse-geocode`
 

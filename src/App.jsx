@@ -23,6 +23,7 @@ import {
 } from "./utils/calculateSpecialtyScore";
 
 import { useManualPlaces } from "./hooks/useManualPlaces";
+import { usePlaceOverrides } from "./hooks/usePlaceOverrides";
 import { geocodeAddress } from "./utils/geocodeAddress";
 
 import AdvancedScoringPanel from "./components/AdvancedScoringPanel";
@@ -1293,6 +1294,72 @@ function getLegacyPlaceIds(place) {
   return ids.filter(Boolean);
 }
 
+function getPlaceOverrideKeys(place) {
+  if (!place) return [];
+  return Array.from(new Set([place.id, ...getLegacyPlaceIds(place)].filter(Boolean)));
+}
+
+function getPlaceOverrideEntry(place, persistedPlaceOverrides) {
+  if (!place || !persistedPlaceOverrides || typeof persistedPlaceOverrides !== "object") return null;
+
+  for (const key of getPlaceOverrideKeys(place)) {
+    const entry = persistedPlaceOverrides[key];
+    if (entry && typeof entry === "object" && !Array.isArray(entry)) {
+      return entry;
+    }
+  }
+
+  return null;
+}
+
+function applyPlaceFieldOverrides(place, persistedPlaceOverrides) {
+  const override = getPlaceOverrideEntry(place, persistedPlaceOverrides);
+  if (!override) return place;
+
+  const next = { ...place };
+
+  if (Object.prototype.hasOwnProperty.call(override, "name")) next.name = override.name;
+  if (Object.prototype.hasOwnProperty.call(override, "address")) next.address = override.address;
+  if (Object.prototype.hasOwnProperty.call(override, "notes")) next.notes = override.notes;
+  if (Object.prototype.hasOwnProperty.call(override, "lat") && Number.isFinite(Number(override.lat))) next.lat = Number(override.lat);
+  if (Object.prototype.hasOwnProperty.call(override, "lon") && Number.isFinite(Number(override.lon))) next.lon = Number(override.lon);
+
+  return next;
+}
+
+function applyPlaceComputedOverrides(place, persistedPlaceOverrides) {
+  const override = getPlaceOverrideEntry(place, persistedPlaceOverrides);
+  if (!override) return place;
+
+  let next = { ...place };
+
+  if (Object.prototype.hasOwnProperty.call(override, "specialtyScore") && Number.isFinite(Number(override.specialtyScore))) {
+    const nextScore = Math.max(0, Math.min(100, Number(override.specialtyScore)));
+    const previousScore = Number(place?.specialtyScore || 0);
+
+    next = {
+      ...next,
+      specialtyScore: nextScore,
+      scoreExplanation: "Live record override",
+      scoreReasons: [
+        ...(Array.isArray(next.scoreReasons) ? next.scoreReasons : []),
+        { label: "Live record override", points: nextScore - previousScore },
+      ],
+      isSpecialty: isSpecialtyCoffee({ ...next, specialtyScore: nextScore }),
+    };
+  }
+
+  if (override.deleted === true) {
+    next = { ...next, __deletedByOverride: true };
+  }
+
+  return next;
+}
+
+function hasPersistedPlaceOverride(place, persistedPlaceOverrides) {
+  return Boolean(getPlaceOverrideEntry(place, persistedPlaceOverrides));
+}
+
 function parseSeededStableId(value) {
   const id = String(value || "");
   if (!id.startsWith("seeded-")) return null;
@@ -1701,8 +1768,10 @@ function App() {
   }, []);
 
   const googlePlaces = useMemo(
-    () => flattenGoogleListsData(googleListsData),
-    [googleListsData]
+    () => flattenGoogleListsData(googleListsData)
+      .map((place) => applyPlaceComputedOverrides(applyPlaceFieldOverrides(place, placeOverrides), placeOverrides))
+      .filter((place) => !place.__deletedByOverride),
+    [googleListsData, placeOverrides]
   );
 
   const cities = useMemo(() => buildCities(SEEDED_META_CITIES), []);
@@ -1713,6 +1782,8 @@ function App() {
 
   const manualPlacesApi = useManualPlaces();
   const { manualPlaces, add: addManualPlace, update: updateManualPlace, remove: removeManualPlace, setAll: setAllManualPlaces } = manualPlacesApi;
+  const placeOverridesApi = usePlaceOverrides();
+  const { placeOverrides, upsert: upsertPlaceOverride, remove: removePlaceOverride } = placeOverridesApi;
 
   // ...existing code...
 
@@ -1898,6 +1969,9 @@ function App() {
   // manualForm must be defined before any usage in JSX
   const [manualForm, setManualForm] = useState({ name: "", lat: "", lon: "", notes: "", gmapsLink: "", loadingGmaps: false, gmapsPreview: null, address: "" });
   // manual places UI
+  const [placeOverrideForm, setPlaceOverrideForm] = useState({ name: "", address: "", notes: "", specialtyScore: "" });
+  const [editingPlaceOverrideId, setEditingPlaceOverrideId] = useState(null);
+  const [placeOverrideError, setPlaceOverrideError] = useState("");
   const [geocodeError, setGeocodeError] = useState(null);
   const [addMode, setAddMode] = useState(false);
   const [showManualForm, setShowManualForm] = useState(false);
@@ -1979,6 +2053,12 @@ function App() {
     setAddMode(false);
   }
 
+  function resetPlaceOverrideFormState() {
+    setEditingPlaceOverrideId(null);
+    setPlaceOverrideForm({ name: "", address: "", notes: "", specialtyScore: "" });
+    setPlaceOverrideError("");
+  }
+
   function handleManualSubmit(e) {
     e.preventDefault();
     if (!manualForm.name) return;
@@ -2037,6 +2117,106 @@ function App() {
     removeManualPlace(id);
     if (editingManualId === id) {
       resetManualFormState();
+    }
+  }
+
+  function handlePlaceOverrideEdit(place) {
+    if (!place || place.source === "manual") return;
+
+    const override = getPlaceOverrideEntry(place, placeOverrides);
+
+    setEditingPlaceOverrideId(place.id);
+    setPlaceOverrideForm({
+      name: override && Object.prototype.hasOwnProperty.call(override, "name")
+        ? String(override.name || "")
+        : String(place.name || ""),
+      address: override && Object.prototype.hasOwnProperty.call(override, "address")
+        ? String(override.address || "")
+        : String(place.address || ""),
+      notes: override && Object.prototype.hasOwnProperty.call(override, "notes")
+        ? String(override.notes || "")
+        : String(place.notes || ""),
+      specialtyScore: override && Object.prototype.hasOwnProperty.call(override, "specialtyScore") && Number.isFinite(Number(override.specialtyScore))
+        ? String(Math.round(Number(override.specialtyScore)))
+        : "",
+    });
+    setPlaceOverrideError("");
+  }
+
+  function handlePlaceOverrideSubmit(e) {
+    e.preventDefault();
+    if (!editingPlaceOverrideId) return;
+
+    const activePlace = knownPlacesByOverrideKey.get(editingPlaceOverrideId) || null;
+
+    const name = String(placeOverrideForm.name || "").trim();
+    if (!name) {
+      setPlaceOverrideError("Name is required.");
+      return;
+    }
+
+    const specialtyScoreRaw = String(placeOverrideForm.specialtyScore || "").trim();
+    const patch = {
+      name,
+      address: String(placeOverrideForm.address || "").trim(),
+      notes: String(placeOverrideForm.notes || "").trim(),
+      cityName: String(activePlace?.cityName || activePlace?.city || "").trim(),
+      source: String(activePlace?.source || "").trim(),
+      updatedAt: Date.now(),
+    };
+
+    if (specialtyScoreRaw) {
+      const specialtyScore = Number(specialtyScoreRaw);
+      if (!Number.isFinite(specialtyScore)) {
+        setPlaceOverrideError("Score must be a valid number between 0 and 100.");
+        return;
+      }
+      patch.specialtyScore = Math.max(0, Math.min(100, Math.round(specialtyScore)));
+    }
+
+    upsertPlaceOverride(editingPlaceOverrideId, patch);
+    resetPlaceOverrideFormState();
+  }
+
+  function handleResetPlaceOverride(place) {
+    getPlaceOverrideKeys(place).forEach((key) => removePlaceOverride(key));
+    resetPlaceOverrideFormState();
+  }
+
+  function handleDeletePlace(place) {
+    if (!place) return;
+
+    if (place.source === "manual") {
+      handleManualDelete(place.id);
+      return;
+    }
+
+    upsertPlaceOverride(place.id, {
+      deleted: true,
+      name: String(place.name || "").trim(),
+      address: String(place.address || "").trim(),
+      notes: String(place.notes || "").trim(),
+      cityName: String(place.cityName || place.city || "").trim(),
+      source: String(place.source || "").trim(),
+      updatedAt: Date.now(),
+    });
+
+    if (selectedCafe?.id === place.id) {
+      setSelectedCafe(null);
+    }
+    if (pinnedCafeId === place.id) {
+      setPinnedCafeId(null);
+      restoreSidebarScroll();
+    }
+    if (editingPlaceOverrideId === place.id) {
+      resetPlaceOverrideFormState();
+    }
+  }
+
+  function handleRestorePlaceOverride(overrideId) {
+    removePlaceOverride(overrideId);
+    if (editingPlaceOverrideId === overrideId) {
+      resetPlaceOverrideFormState();
     }
   }
 
@@ -2315,19 +2495,22 @@ function App() {
       ...customWeights,
     };
     return rawCafes.map(cafe => {
-      const { score, explanation, reasons, placeType, confidence } = calculateSpecialtyScore(cafe.name, cafe.osmTags, config);
+      const baseCafe = applyPlaceFieldOverrides(cafe, placeOverrides);
+      const { score, explanation, reasons, placeType, confidence } = calculateSpecialtyScore(baseCafe.name, baseCafe.osmTags, config);
       const scored = {
-        ...cafe,
+        ...baseCafe,
         specialtyScore: score,
         scoreExplanation: explanation,
         scoreReasons: reasons,
         placeType,
         confidence,
-        isSpecialty: isSpecialtyCoffee({ ...cafe, specialtyScore: score }),
+        isSpecialty: isSpecialtyCoffee({ ...baseCafe, specialtyScore: score }),
       };
-      return applyPriorityBoost(scored, getPlaceUserRating(scored, userRatings));
-    }).sort((a, b) => b.specialtyScore - a.specialtyScore);
-  }, [rawCafes, customWeights, userRatings]);
+      const overridden = applyPlaceComputedOverrides(scored, placeOverrides);
+      return applyPriorityBoost(overridden, getPlaceUserRating(overridden, userRatings));
+    }).filter((place) => !place.__deletedByOverride)
+      .sort((a, b) => b.specialtyScore - a.specialtyScore);
+  }, [rawCafes, customWeights, userRatings, placeOverrides]);
 
   const filteredCafes = dedupePlaces(
     cafes
@@ -2372,7 +2555,7 @@ function App() {
         confidence,
       };
       return applyPriorityBoost(scored, userRatings[place.id]);
-    });
+    }).filter((place) => !place.__deletedByOverride);
   }, [filteredGooglePlaces, customWeights, userRatings]);
 
   const auditExcludedPlaces = useMemo(() => {
@@ -2461,7 +2644,7 @@ function App() {
   const seededCityPlaces = useMemo(() => {
     const cityPlaces = (seededPlacesByCity[selectedCity.name] || [])
       .map((place, rawIndex) => ({
-        ...place,
+        ...applyPlaceFieldOverrides(place, placeOverrides),
         __seededRawIndex: rawIndex,
       }))
       .filter((place) => isPlaceInSelectedCityScope(place, selectedCity, localScopeCities));
@@ -2503,9 +2686,10 @@ function App() {
           isSpecialty: isSpecialtyCoffee({ ...p, specialtyScore: boostedSeededScore }),
         };
 
-        return applyPriorityBoost(scored, getPlaceUserRating(scored, userRatings));
-      }), selectedCity.name);
-  }, [selectedCity, seededPlacesByCity, customWeights, userRatings, localScopeCities]);
+        const overridden = applyPlaceComputedOverrides(scored, placeOverrides);
+        return applyPriorityBoost(overridden, getPlaceUserRating(overridden, userRatings));
+      }).filter((place) => !place.__deletedByOverride), selectedCity.name);
+  }, [selectedCity, seededPlacesByCity, customWeights, userRatings, localScopeCities, placeOverrides]);
 
   const seededLegacyToStableIdMap = useMemo(() => {
     const map = new Map();
@@ -2687,6 +2871,46 @@ function App() {
     const selected = effectivePlaces[selectedIndex];
     return [selected, ...effectivePlaces.slice(0, selectedIndex), ...effectivePlaces.slice(selectedIndex + 1)];
   }, [effectivePlaces, pinnedCafeId, selectedCafe, hasActiveUiFilters]);
+
+  const knownPlacesByOverrideKey = useMemo(() => {
+    const map = new Map();
+
+    [
+      ...orderedEffectivePlaces,
+      ...effectivePlaces,
+      ...displayedPlaces,
+      ...seededCityPlaces,
+      ...manualPlacesForCity,
+      ...scoredGooglePlaces,
+      ...cafes,
+      ...googlePlaces,
+    ].forEach((place) => {
+      getPlaceOverrideKeys(place).forEach((key) => {
+        if (!key || map.has(key)) return;
+        map.set(key, place);
+      });
+    });
+
+    return map;
+  }, [orderedEffectivePlaces, effectivePlaces, displayedPlaces, seededCityPlaces, manualPlacesForCity, scoredGooglePlaces, cafes, googlePlaces]);
+
+  const managedPlaceOverrides = useMemo(() => {
+    return Object.entries(placeOverrides || {})
+      .map(([id, override]) => {
+        const matchedPlace = knownPlacesByOverrideKey.get(id) || null;
+        return {
+          id,
+          override,
+          place: matchedPlace,
+          name: override?.name || matchedPlace?.name || id,
+          cityName: override?.cityName || matchedPlace?.cityName || matchedPlace?.city || "",
+          source: override?.source || matchedPlace?.source || "",
+          deleted: override?.deleted === true,
+          updatedAt: Number(override?.updatedAt || 0) || 0,
+        };
+      })
+      .sort((a, b) => b.updatedAt - a.updatedAt || a.name.localeCompare(b.name));
+  }, [placeOverrides, knownPlacesByOverrideKey]);
 
   const nearestPlaceInfo = useMemo(() => {
     if (!userLocation || !Array.isArray(effectivePlaces) || effectivePlaces.length === 0) return null;
@@ -3490,6 +3714,99 @@ function App() {
             <button className="reset-hidden" onClick={resetAllFilters}>Reset all filters</button>
           </div>
 
+          {editingPlaceOverrideId && (
+            <div className="manual-panel">
+              <div className="manual-panel-header">
+                <strong>Edit live record</strong>
+              </div>
+              <form className="manual-form" onSubmit={handlePlaceOverrideSubmit}>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  value={placeOverrideForm.name}
+                  onChange={(e) => setPlaceOverrideForm((prev) => ({ ...prev, name: e.target.value }))}
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Address"
+                  value={placeOverrideForm.address}
+                  onChange={(e) => setPlaceOverrideForm((prev) => ({ ...prev, address: e.target.value }))}
+                />
+                <textarea
+                  rows={2}
+                  placeholder="Notes"
+                  value={placeOverrideForm.notes}
+                  onChange={(e) => setPlaceOverrideForm((prev) => ({ ...prev, notes: e.target.value }))}
+                />
+                <input
+                  type="number"
+                  min="0"
+                  max="100"
+                  placeholder="Override score (optional)"
+                  value={placeOverrideForm.specialtyScore}
+                  onChange={(e) => setPlaceOverrideForm((prev) => ({ ...prev, specialtyScore: e.target.value }))}
+                />
+                {placeOverrideError && <div style={{ color: "red", marginBottom: 8 }}>{placeOverrideError}</div>}
+                <div className="manual-form-actions">
+                  <button className="reset-hidden" type="submit">Save live override</button>
+                  <button className="reset-hidden" type="button" onClick={resetPlaceOverrideFormState}>Cancel</button>
+                  <button
+                    className="reset-hidden"
+                    type="button"
+                    onClick={() => {
+                      const activePlace = orderedEffectivePlaces.find((place) => place.id === editingPlaceOverrideId);
+                      if (activePlace) {
+                        handleResetPlaceOverride(activePlace);
+                      } else {
+                        removePlaceOverride(editingPlaceOverrideId);
+                        resetPlaceOverrideFormState();
+                      }
+                    }}
+                  >
+                    Reset record
+                  </button>
+                </div>
+              </form>
+            </div>
+          )}
+
+          {managedPlaceOverrides.length > 0 && (
+            <details className="advanced-tools">
+              <summary>Live overrides ({managedPlaceOverrides.length})</summary>
+              <ul className="manual-list">
+                {managedPlaceOverrides.map((entry) => (
+                  <li key={entry.id} className="manual-list-item">
+                    <div className="manual-list-main">
+                      <span className="manual-list-name">{entry.name}</span>
+                      <span className="manual-list-coords">
+                        {[entry.cityName, entry.source].filter(Boolean).join(" · ") || entry.id}
+                      </span>
+                      <span className="manual-list-notes">
+                        {entry.deleted ? "Deleted by live override" : "Edited by live override"}
+                      </span>
+                    </div>
+                    <div className="manual-list-actions">
+                      {entry.place && !entry.deleted && (
+                        <button className="reset-hidden" type="button" onClick={() => handlePlaceOverrideEdit(entry.place)}>
+                          Edit
+                        </button>
+                      )}
+                      {entry.place && !entry.deleted && (
+                        <button className="reset-hidden" type="button" onClick={() => handleSidebarCafeClick(entry.place)}>
+                          Focus
+                        </button>
+                      )}
+                      <button className="reset-hidden" type="button" onClick={() => handleRestorePlaceOverride(entry.id)}>
+                        {entry.deleted ? "Restore" : "Clear"}
+                      </button>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
+
           {dataMode !== "google" && (
             <div className="manual-panel">
               <div className="manual-panel-header">
@@ -3690,6 +4007,21 @@ function App() {
                     <div style={{ display: 'flex', alignItems: 'center', gap: 4, position: 'absolute', top: 8, right: 8 }}>
                       <button
                         className="hide-button"
+                        aria-label="Edit"
+                        title="Edit record"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          if (place.source === "manual") {
+                            handleManualEdit(place);
+                            return;
+                          }
+                          handlePlaceOverrideEdit(place);
+                        }}
+                      >
+                        ✎
+                      </button>
+                      <button
+                        className="hide-button"
                         aria-label="Hide"
                         onClick={(e) => { e.stopPropagation(); handleHidePlace(place.id); }}
                       >
@@ -3704,9 +4036,7 @@ function App() {
                           onClick={(e) => {
                             e.stopPropagation();
                             if (window.confirm('האם אתה בטוח שברצונך להסיר את המקום הזה?')) {
-                              console.log('Trying to remove place:', place);
-                              // Hide the place for all sources
-                              handleHidePlace(place.id);
+                              handleDeletePlace(place);
                             }
                           }}
                         >
@@ -3717,6 +4047,9 @@ function App() {
                     <div className="cafe-badges">
                       {pinnedCafeId === place.id && (
                         <span className="pinned-badge" title="Pinned" aria-label="Pinned">📌</span>
+                      )}
+                      {hasPersistedPlaceOverride(place, placeOverrides) && (
+                        <span className="user-verified-badge" title="Live override active">Live override</span>
                       )}
                       {place.needsCoords && !getFiniteLatLon(place) && (
                         <span className="low-data-badge" title="Missing map coordinates">Needs coords</span>

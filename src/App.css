@@ -1080,6 +1080,8 @@ html, body, #root {
   /* allow the map container to shrink within the flex layout */
   min-height: 0;
   height: 100%;
+  position: relative;
+  overscroll-behavior: contain;
 }
 
 /* Ensure Leaflet's internal container fills the map container */
@@ -1088,6 +1090,21 @@ html, body, #root {
   height: 100% !important;
   width: 100% !important;
   min-height: 0;
+}
+
+.map-gesture-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 600;
+  border: 1px solid rgba(111, 78, 55, 0.28);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text-primary);
+  border-radius: 999px;
+  padding: 0.42rem 0.72rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
 }
 
 /* JSON import/export actions */
@@ -1447,6 +1464,14 @@ hide-button:hover {
     order: 2;
     min-height: 320px;
     height: 38vh;
+  }
+
+  .map-container.map-interaction-locked .leaflet-container {
+    touch-action: pan-y !important;
+  }
+
+  .map-container.map-interaction-enabled .leaflet-container {
+    touch-action: none !important;
   }
 
   .header {

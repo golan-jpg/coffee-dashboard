@@ -2483,7 +2483,56 @@ function App() {
 
   // map instance ref (react-leaflet whenCreated)
   const [mapInstance, setMapInstance] = useState(null);
+  const [isMobileTouch, setIsMobileTouch] = useState(false);
+  const [mapInteractionEnabled, setMapInteractionEnabled] = useState(false);
   const [showScoreLabels, setShowScoreLabels] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const updateMobileTouch = () => {
+      const coarsePointer = window.matchMedia("(pointer: coarse)").matches;
+      const narrowViewport = window.innerWidth <= 768;
+      const mobile = coarsePointer || narrowViewport;
+      setIsMobileTouch(mobile);
+      setMapInteractionEnabled(!mobile);
+    };
+
+    updateMobileTouch();
+    window.addEventListener("resize", updateMobileTouch);
+    return () => window.removeEventListener("resize", updateMobileTouch);
+  }, []);
+
+  useEffect(() => {
+    if (!mapInstance) return;
+
+    const allowFullMapGestures = !isMobileTouch || mapInteractionEnabled;
+
+    if (mapInstance.dragging) {
+      if (allowFullMapGestures) mapInstance.dragging.enable();
+      else mapInstance.dragging.disable();
+    }
+    if (mapInstance.touchZoom) {
+      if (allowFullMapGestures) mapInstance.touchZoom.enable();
+      else mapInstance.touchZoom.disable();
+    }
+    if (mapInstance.doubleClickZoom) {
+      if (allowFullMapGestures) mapInstance.doubleClickZoom.enable();
+      else mapInstance.doubleClickZoom.disable();
+    }
+    if (mapInstance.boxZoom) {
+      if (allowFullMapGestures) mapInstance.boxZoom.enable();
+      else mapInstance.boxZoom.disable();
+    }
+    if (mapInstance.scrollWheelZoom) {
+      if (allowFullMapGestures) mapInstance.scrollWheelZoom.enable();
+      else mapInstance.scrollWheelZoom.disable();
+    }
+    if (mapInstance.keyboard) {
+      if (allowFullMapGestures) mapInstance.keyboard.enable();
+      else mapInstance.keyboard.disable();
+    }
+  }, [mapInstance, isMobileTouch, mapInteractionEnabled]);
 
   // Re-score cafes when scoring mode or custom weights change
   const cafes = useMemo(() => {
@@ -3478,7 +3527,16 @@ function App() {
           </div>
         </aside>
 
-        <div className="map-container">
+        <div className={`map-container ${isMobileTouch ? (mapInteractionEnabled ? "map-interaction-enabled" : "map-interaction-locked") : ""}`}>
+          {isMobileTouch && (
+            <button
+              type="button"
+              className="map-gesture-toggle"
+              onClick={() => setMapInteractionEnabled((value) => !value)}
+            >
+              {mapInteractionEnabled ? "Lock map scroll" : "Move map"}
+            </button>
+          )}
           <MapContainer
             center={[selectedCity.lat, selectedCity.lon]}
             zoom={DEFAULT_CITY_ZOOM}

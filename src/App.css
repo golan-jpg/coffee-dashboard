@@ -1092,19 +1092,27 @@ html, body, #root {
   min-height: 0;
 }
 
-.map-gesture-toggle {
+.map-touch-hint {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  left: 50%;
+  top: 12px;
+  transform: translateX(-50%) translateY(-8px);
   z-index: 600;
-  border: 1px solid rgba(111, 78, 55, 0.28);
-  background: rgba(255, 255, 255, 0.92);
-  color: var(--text-primary);
+  pointer-events: none;
+  opacity: 0;
+  background: rgba(30, 20, 10, 0.86);
+  color: #fff;
   border-radius: 999px;
-  padding: 0.42rem 0.72rem;
-  font-size: 0.78rem;
+  padding: 0.44rem 0.8rem;
+  font-size: 0.74rem;
   font-weight: 600;
-  line-height: 1;
+  white-space: nowrap;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.map-touch-hint.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* JSON import/export actions */
@@ -1510,16 +1518,11 @@ hide-button:hover {
     max-width: min(82vw, 340px);
   }
 
-  .map-gesture-toggle {
-    top: auto;
-    right: 10px;
-    bottom: 10px;
-    min-height: 38px;
-    padding: 0.52rem 0.85rem;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
-    border-color: rgba(255, 255, 255, 0.65);
-    background: rgba(30, 20, 10, 0.86);
-    color: #fff;
+  .map-touch-hint {
+    top: 10px;
+    max-width: 84vw;
+    white-space: normal;
+    text-align: center;
   }
 
   .header {

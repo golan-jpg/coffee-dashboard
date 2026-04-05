@@ -2485,6 +2485,8 @@ function App() {
   const [mapInstance, setMapInstance] = useState(null);
   const [isMobileTouch, setIsMobileTouch] = useState(false);
   const [mapInteractionEnabled, setMapInteractionEnabled] = useState(false);
+  const [showMapTouchHint, setShowMapTouchHint] = useState(false);
+  const mapContainerRef = useRef(null);
   const [showScoreLabels, setShowScoreLabels] = useState(false);
 
   useEffect(() => {
@@ -2533,6 +2535,59 @@ function App() {
       else mapInstance.keyboard.disable();
     }
   }, [mapInstance, isMobileTouch, mapInteractionEnabled]);
+
+  useEffect(() => {
+    if (!isMobileTouch) {
+      setShowMapTouchHint(false);
+      return;
+    }
+
+    const container = mapContainerRef.current;
+    if (!container) return;
+
+    let hintTimeoutId = null;
+
+    const onTouchStart = (event) => {
+      if (event.touches.length >= 2) {
+        setMapInteractionEnabled(true);
+        setShowMapTouchHint(false);
+        if (hintTimeoutId) {
+          window.clearTimeout(hintTimeoutId);
+          hintTimeoutId = null;
+        }
+        return;
+      }
+
+      if (!mapInteractionEnabled && !addMode) {
+        setShowMapTouchHint(true);
+        if (hintTimeoutId) window.clearTimeout(hintTimeoutId);
+        hintTimeoutId = window.setTimeout(() => {
+          setShowMapTouchHint(false);
+          hintTimeoutId = null;
+        }, 1800);
+      }
+    };
+
+    const onTouchEnd = (event) => {
+      if (addMode) return;
+      if (event.touches.length < 2) {
+        setMapInteractionEnabled(false);
+      }
+    };
+
+    container.addEventListener("touchstart", onTouchStart, { passive: true });
+    container.addEventListener("touchend", onTouchEnd, { passive: true });
+    container.addEventListener("touchcancel", onTouchEnd, { passive: true });
+
+    return () => {
+      container.removeEventListener("touchstart", onTouchStart);
+      container.removeEventListener("touchend", onTouchEnd);
+      container.removeEventListener("touchcancel", onTouchEnd);
+      if (hintTimeoutId) {
+        window.clearTimeout(hintTimeoutId);
+      }
+    };
+  }, [isMobileTouch, mapInteractionEnabled, addMode]);
 
   useEffect(() => {
     if (!isMobileTouch || !mapInteractionEnabled || addMode) return;
@@ -3537,15 +3592,14 @@ function App() {
           </div>
         </aside>
 
-        <div className={`map-container ${isMobileTouch ? (mapInteractionEnabled ? "map-interaction-enabled" : "map-interaction-locked") : ""}`}>
-          {isMobileTouch && (
-            <button
-              type="button"
-              className="map-gesture-toggle"
-              onClick={() => setMapInteractionEnabled((value) => !value)}
-            >
-              {mapInteractionEnabled ? "Map unlocked (tap to lock)" : "Move map"}
-            </button>
+        <div
+          ref={mapContainerRef}
+          className={`map-container ${isMobileTouch ? (mapInteractionEnabled ? "map-interaction-enabled" : "map-interaction-locked") : ""}`}
+        >
+          {isMobileTouch && !mapInteractionEnabled && !addMode && (
+            <div className={`map-touch-hint ${showMapTouchHint ? "visible" : ""}`}>
+              Use two fingers to move the map
+            </div>
           )}
           <MapContainer
             center={[selectedCity.lat, selectedCity.lon]}

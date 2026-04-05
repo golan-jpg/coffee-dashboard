@@ -1767,6 +1767,11 @@ function App() {
     };
   }, []);
 
+  const manualPlacesApi = useManualPlaces();
+  const { manualPlaces, add: addManualPlace, update: updateManualPlace, remove: removeManualPlace, setAll: setAllManualPlaces } = manualPlacesApi;
+  const placeOverridesApi = usePlaceOverrides();
+  const { placeOverrides, upsert: upsertPlaceOverride, remove: removePlaceOverride } = placeOverridesApi;
+
   const googlePlaces = useMemo(
     () => flattenGoogleListsData(googleListsData)
       .map((place) => applyPlaceComputedOverrides(applyPlaceFieldOverrides(place, placeOverrides), placeOverrides))
@@ -1779,13 +1784,6 @@ function App() {
     () => new Map(SEEDED_META_CITIES.map((city) => [city.name, city])),
     []
   );
-
-  const manualPlacesApi = useManualPlaces();
-  const { manualPlaces, add: addManualPlace, update: updateManualPlace, remove: removeManualPlace, setAll: setAllManualPlaces } = manualPlacesApi;
-  const placeOverridesApi = usePlaceOverrides();
-  const { placeOverrides, upsert: upsertPlaceOverride, remove: removePlaceOverride } = placeOverridesApi;
-
-  // ...existing code...
 
   const [selectedCity, setSelectedCity] = useState(() => getInitialCityFromStorage(cities));
   const [selectedCountry, setSelectedCountry] = useState(() => {

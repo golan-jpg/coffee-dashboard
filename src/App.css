@@ -797,6 +797,7 @@ html, body, #root {
 }
 
 .cafe-item {
+  position: relative;
   margin: var(--space-2) var(--space-3);
   padding: 1rem 1.05rem 1rem 1.15rem;
   border-radius: 22px;
@@ -918,6 +919,10 @@ html, body, #root {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .cafe-address {
@@ -1267,6 +1272,9 @@ html, body, #root {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* leave room for the 3 absolutely-positioned action buttons (✎ × 🗑) */
+  padding-right: 88px;
+  min-width: 0;
 }
 .cafe-badges {
   display: flex;
@@ -1274,6 +1282,7 @@ html, body, #root {
   gap: 0.4rem;
   flex-wrap: wrap;
   justify-content: flex-end;
+  min-width: 0;
 }
 .google-badge {
   display: inline-block;
@@ -1432,6 +1441,7 @@ hide-button:hover {
     order: 3;
     max-height: 42vh;
     overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .map-container {

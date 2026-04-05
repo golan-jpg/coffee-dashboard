@@ -1451,6 +1451,8 @@ hide-button:hover {
     overflow: visible;
     padding-top: 0;
     padding-bottom: 0.5rem;
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
   }
 
   .sidebar-bottom {
@@ -1458,12 +1460,19 @@ hide-button:hover {
     max-height: 42vh;
     overflow-y: auto;
     overflow-x: hidden;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: y proximity;
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
   }
 
   .map-container {
     order: 2;
     min-height: 320px;
     height: 38vh;
+    border-radius: 14px;
+    overflow: hidden;
+    margin: 0.15rem 0.4rem 0.25rem;
   }
 
   .map-container.map-interaction-locked .leaflet-container {
@@ -1474,18 +1483,43 @@ hide-button:hover {
     touch-action: none !important;
   }
 
+  .map-container.map-interaction-locked .leaflet-control-zoom {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+  }
+
+  .map-container.map-interaction-enabled .leaflet-control-zoom {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
   .map-container .leaflet-top.leaflet-left {
     left: auto;
     right: 10px;
-    top: 52px;
+    top: 10px;
   }
 
   .map-container .leaflet-control-zoom {
     margin: 0;
+    transition: opacity 160ms ease, transform 160ms ease;
   }
 
   .map-container .leaflet-popup-content-wrapper {
     max-width: min(82vw, 340px);
+  }
+
+  .map-gesture-toggle {
+    top: auto;
+    right: 10px;
+    bottom: 10px;
+    min-height: 38px;
+    padding: 0.52rem 0.85rem;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.65);
+    background: rgba(30, 20, 10, 0.86);
+    color: #fff;
   }
 
   .header {
@@ -1575,6 +1609,7 @@ hide-button:hover {
 
   .cafe-item {
     margin: var(--space-2) var(--space-2);
+    scroll-snap-align: start;
   }
 
   .scoring-mode {

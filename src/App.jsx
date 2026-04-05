@@ -2534,6 +2534,16 @@ function App() {
     }
   }, [mapInstance, isMobileTouch, mapInteractionEnabled]);
 
+  useEffect(() => {
+    if (!isMobileTouch || !mapInteractionEnabled || addMode) return;
+
+    const timeoutId = window.setTimeout(() => {
+      setMapInteractionEnabled(false);
+    }, 6500);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [isMobileTouch, mapInteractionEnabled, addMode]);
+
   // Re-score cafes when scoring mode or custom weights change
   const cafes = useMemo(() => {
     // Use custom weights instead of preset
@@ -3534,7 +3544,7 @@ function App() {
               className="map-gesture-toggle"
               onClick={() => setMapInteractionEnabled((value) => !value)}
             >
-              {mapInteractionEnabled ? "Lock map scroll" : "Move map"}
+              {mapInteractionEnabled ? "Map unlocked (tap to lock)" : "Move map"}
             </button>
           )}
           <MapContainer

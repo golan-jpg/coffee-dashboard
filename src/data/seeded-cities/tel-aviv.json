@@ -1,0 +1,148 @@
+[
+  {
+    "name": "F*CKN SUNDAY",
+    "lat": 32.059459,
+    "lon": 34.773853,
+    "address": "Levinski St 61, Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "manual update from provided address (Levinski 61)"
+  },
+  {
+    "id": "manual-tel-aviv-loki-coffee",
+    "name": "Loki Coffee",
+    "lat": 32.05587082064249,
+    "lon": 34.76622341211797,
+    "address": "Ma'on St 5, Tel Aviv-Yafo",
+    "source": "manual",
+    "isSpecialty": true,
+    "specialtyScore": 90,
+    "needsCoords": false,
+    "notes": "הוזן ידנית ע\"י המשתמש, דירוג 4 כוכבים בריסטה."
+  },
+  {
+    "id": "manual-tel-aviv-origem-coffee",
+    "name": "ORIGEM Coffee",
+    "lat": 32.08793187510911,
+    "lon": 34.774928455822874,
+    "address": "Dizengoff St 203, Tel Aviv-Yafo, 6311501",
+    "source": "manual",
+    "isSpecialty": true,
+    "specialtyScore": 80,
+    "needsCoords": false,
+    "notes": "הוזן ידנית, ציון 80"
+  },
+  {
+    "name": "Café Levinsky 41",
+    "address": "Levinsky 41, Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.0598436,
+    "lon": 34.7716925,
+    "notes": "geocoded (Café Levinsky 41, Tel Aviv, ישראל)"
+  },
+  {
+    "name": "Nahat Coffee",
+    "lat": 32.0783941,
+    "lon": 34.7745013,
+    "address": "Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "added from OSM branch match"
+  },
+  {
+    "name": "Cafelix Shlomo Hamelech",
+    "lat": 32.0774668,
+    "lon": 34.7767309,
+    "address": "Shlomo HaMelekh St, Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "added from Google list coordinates"
+  },
+  {
+    "name": "Cafelix - Jaffa",
+    "lat": 32.0566057,
+    "lon": 34.7611305,
+    "address": "Jaffa, Tel Aviv-Yafo, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "added from OSM branch match"
+  },
+  {
+    "name": "Cafelix - Levinsky",
+    "lat": 32.0602434,
+    "lon": 34.772115,
+    "address": "Levinsky area, Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "added from OSM branch match"
+  },
+  {
+    "name": "HOC",
+    "address": "House of Coffee, Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.0651297,
+    "lon": 34.7668321,
+    "notes": "matched to OSM: House of Coffee"
+  },
+  {
+    "name": "MEA",
+    "address": "Tel Aviv, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "lat": null,
+    "lon": null,
+    "notes": "requested by user; still needs exact branch/address confirmation"
+  },
+  {
+    "name": "Mae - אבן גבירול",
+    "lat": 32.083343,
+    "lon": 34.781571,
+    "address": "אבן גבירול 98, תל אביב",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "Mae Cafe branch, specialty roaster chain"
+  },
+  {
+    "name": "Mae - מונטיפיורי",
+    "lat": 32.064803,
+    "lon": 34.76928,
+    "address": "מונטיפיורי 3, תל אביב",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "Mae Cafe branch, specialty roaster chain"
+  },
+  {
+    "name": "Mae - שרונה",
+    "lat": 32.071955,
+    "lon": 34.788181,
+    "address": "רב אלוף דוד אלעזר 17, פארק שרונה, תל אביב",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "Mae Cafe branch, specialty roaster chain"
+  },
+  {
+    "name": "Nomena Roasters",
+    "address": "Allenby St 54, Tel Aviv-Yafo, 6382205, Israel",
+    "city": "Tel Aviv",
+    "state": "Tel Aviv",
+    "country": "Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "notes": "בית קפה ובית קלייה. ציון 4.8 בגוגל.",
+    "lat": 32.0655,
+    "lon": 34.7707
+  }
+]

@@ -1,0 +1,21 @@
+# Query: CircleMarker
+# ContextLines: 1
+
+4 results - 1 file
+
+src/App.jsx:
+    1  import { useState, useEffect, useMemo } from "react";
+    2: import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker } from "react-leaflet";
+    3  import L from "leaflet";
+
+  825              {uiFilteredPlaces && uiFilteredPlaces.length > 0 && uiFilteredPlaces[0].lat && uiFilteredPlaces[0].lon && (
+  826:               <CircleMarker
+  827                  center={[uiFilteredPlaces[0].lat, uiFilteredPlaces[0].lon]}
+
+  833              {uiFilteredPlaces.map(place => (
+  834:               <CircleMarker
+  835                  key={place.id}
+
+  864                  </Popup>
+  865:               </CircleMarker>
+  866              ))}

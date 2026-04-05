@@ -1,0 +1,169 @@
+{
+  "explicitNonCoffeeKeywords": [
+    "roladin",
+    "רולדין",
+    "maafe neeman",
+    "מאפה נאמן",
+    "greg patisserie",
+    "גרג קונדיטוריה",
+    "hadasa patisserie",
+    "קונדיטוריה",
+    "bubble tea",
+    "bubble_tea",
+    "bubble",
+    "boba",
+    "dessert",
+    "ice cream",
+    "ice_cream",
+    "gelato",
+    "frozen yogurt",
+    "frozen_yogurt",
+    "tea house",
+    "teahouse",
+    "mochi",
+    "yogurt bar",
+    "bubbleteacup",
+    "square bubbles"
+  ],
+  "explicitCoffeeAllowKeywords": [
+    "cafelix",
+    "קפליקס",
+    "nahat",
+    "נחת",
+    "waycup",
+    "ווייקאפ",
+    "coffee lab",
+    "קופי לאב"
+  ],
+  "byCity": {
+    "Tel Aviv": {
+      "aliases": [
+          "tel aviv",
+          "תל אביב",
+          "tel aviv-yafo",
+          "תל אביב-יפו",
+          "tel-aviv",
+          "yafo",
+          "jaffa",
+          "יפו",
+          "rabin square",
+          "kikar rabin"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "the streets",
+        "streets",
+        "the street",
+        "mochikva",
+        "mochikvah",
+        "מוצ'יקווה",
+        "העוגן",
+        "haogen",
+        "ha ogen",
+        "ha-ogen",
+        "jekyll and hyde",
+        "jekyll & hyde",
+        "jackyl and hyde",
+        "jackyl & hyde",
+        "ג׳קייל אנד הייד",
+        "ג'קייל אנד הייד",
+        "ג׳קיל אנד הייד",
+        "ג'קיל אנד הייד",
+        "cocktail bar",
+        "wine bar",
+        "speakeasy",
+        "בר קוקטיילים",
+        "בר יין",
+        "dalal",
+        "dallal",
+        "דלאל"
+      ],
+      "explicitCoffeeAllowKeywords": [
+        "פאקינג סאנדיי",
+        "fckn_sunday",
+        "fckn sunday",
+        "f*ckn sunday",
+        "f*ckn_sunday",
+        "levinski st 61",
+        "coffee, matcha & goods",
+        "fucking sunday",
+        "f*cking sunday"
+      ]
+    },
+    "Berlin": {
+      "aliases": [
+        "berlin",
+        "ברלין"
+      ],
+      "explicitNonCoffeeKeywords": [],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Paris": {
+      "aliases": [
+        "paris",
+        "פריז"
+      ],
+      "explicitNonCoffeeKeywords": [],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Copenhagen": {
+      "aliases": [
+        "copenhagen",
+        "københavn"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "kabys",
+        "kaby's"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Haifa": {
+      "aliases": [
+        "haifa",
+        "חיפה"
+      ],
+      "explicitNonCoffeeKeywords": [],
+      "explicitCoffeeAllowKeywords": [
+        "טליק קפה",
+        "טלק קפה",
+        "talik cafe",
+        "talek cafe",
+        "libira",
+        "ליבירה",
+        "קפה סמי",
+        "קפה אווא",
+        "קפה נעימה",
+        "naima",
+        "סמרה",
+        "samra",
+        "tsafon roasters",
+        "צפון רוסטרס",
+        "קפה דקל",
+        "קפה שכנים",
+        "קפה בירדי",
+        "birdy"
+      ]
+    },
+    "Ramat Gan": {
+      "aliases": [
+        "ramat gan",
+        "רמת גן",
+        "givatayim",
+        "גבעתיים"
+      ],
+      "explicitNonCoffeeKeywords": [],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Ra'anana": {
+      "aliases": [
+        "ra'anana",
+        "raanana",
+        "רעננה"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "cafelix shlomo hamelech",
+        "קפליקס שלמה המלך"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    }
+  }
+}

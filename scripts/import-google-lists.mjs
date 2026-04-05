@@ -5,7 +5,7 @@
  *
  * Reads Google Maps list URLs from lists.txt and extracts place data
  * using Playwright to scrape the pages.
- *
+
  * Usage: node scripts/import-google-lists.mjs
  */
 
@@ -18,12 +18,160 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const projectRoot = join(__dirname, '..');
 
-const LISTS_FILE = join(projectRoot, 'lists.txt');
+const LISTS_FILE = join(projectRoot, 'lists.txt'); 
+
 const OUTPUT_FILE = join(projectRoot, 'src', 'data', 'googleLists.json');
+const PLACE_OVERRIDES_FILE = join(projectRoot, 'src', 'data', 'placeOverrides.json');
 
 // Delay helper
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const coffeeKeywords = ["coffee", "cafe", "café", "espresso", "roaster", "specialty", "קפה", "בית קפה", "אספרסו", "קלייה", "רוסטר"];
+const bakeryKeywords = ["bakery", "patisserie", "pastry", "מאפיה", "מאפייה", "קונדיטוריה", "מאפים"];
+const negativeKeywords = ["restaurant", "bar", "pub", "pizza", "sushi", "מסעדה", "בר", "פיצה", "סושי", "גריל", "המבורגר"];
+const defaultExplicitNonCoffeeKeywords = [
+  "roladin",
+  "רולדין",
+  "maafe neeman",
+  "מאפה נאמן",
+  "greg patisserie",
+  "גרג קונדיטוריה",
+  "hadasa patisserie",
+  "קונדיטוריה",
+];
+const defaultExplicitCoffeeAllowKeywords = [
+  "cafelix",
+  "קפליקס",
+  "nahat",
+  "נחת",
+  "waycup",
+  "ווייקאפ",
+  "coffee lab",
+  "קופי לאב",
+];
 
+function normalizeCityKey(value) {
+  return String(value || '').trim().toLowerCase();
+}
+
+function normalizeKeywords(list, fallback) {
+  if (!Array.isArray(list)) return fallback;
+
+  const normalized = list
+    .map((item) => String(item || '').trim().toLowerCase())
+    .filter(Boolean);
+
+  return normalized.length > 0 ? Array.from(new Set(normalized)) : fallback;
+}
+
+function normalizeCityOverrides(byCity) {
+  if (!byCity || typeof byCity !== 'object') return [];
+
+  return Object.entries(byCity).reduce((acc, [cityName, config]) => {
+    const cityKey = normalizeCityKey(cityName);
+    if (!cityKey) return acc;
+
+    const aliases = Array.from(new Set([
+      cityKey,
+      ...normalizeKeywords(config?.aliases, []),
+    ]));
+
+    acc.push({
+      cityKey,
+      aliases,
+      explicitNonCoffeeKeywords: normalizeKeywords(config?.explicitNonCoffeeKeywords, []),
+      explicitCoffeeAllowKeywords: normalizeKeywords(config?.explicitCoffeeAllowKeywords, []),
+    });
+
+    return acc;
+  }, []);
+}
+
+function loadPlaceOverrides() {
+  try {
+    if (!existsSync(PLACE_OVERRIDES_FILE)) {
+      return {
+        explicitNonCoffeeKeywords: defaultExplicitNonCoffeeKeywords,
+        explicitCoffeeAllowKeywords: defaultExplicitCoffeeAllowKeywords,
+        citySpecificOverrides: [],
+      };
+    }
+
+    const raw = readFileSync(PLACE_OVERRIDES_FILE, 'utf-8');
+    const parsed = JSON.parse(raw);
+
+    return {
+      explicitNonCoffeeKeywords: normalizeKeywords(
+        parsed?.explicitNonCoffeeKeywords,
+        defaultExplicitNonCoffeeKeywords
+      ),
+      explicitCoffeeAllowKeywords: normalizeKeywords(
+        parsed?.explicitCoffeeAllowKeywords,
+        defaultExplicitCoffeeAllowKeywords
+      ),
+      citySpecificOverrides: normalizeCityOverrides(parsed?.byCity),
+    };
+  } catch {
+    return {
+      explicitNonCoffeeKeywords: defaultExplicitNonCoffeeKeywords,
+      explicitCoffeeAllowKeywords: defaultExplicitCoffeeAllowKeywords,
+      citySpecificOverrides: [],
+    };
+  }
+}
+
+const placeOverrides = loadPlaceOverrides();
+const explicitNonCoffeeKeywords = placeOverrides.explicitNonCoffeeKeywords;
+const explicitCoffeeAllowKeywords = placeOverrides.explicitCoffeeAllowKeywords;
+const citySpecificOverrides = placeOverrides.citySpecificOverrides;
+
+function getPlaceText(place) {
+  return [place.name, place.address].filter(Boolean).join(" ").toLowerCase();
+}
+
+function getOverrideKeywordsForPlace(place, normalizedText) {
+  const text = normalizedText || getPlaceText(place);
+  const nonCoffeeKeywords = [...explicitNonCoffeeKeywords];
+  const coffeeAllowKeywords = [...explicitCoffeeAllowKeywords];
+
+  citySpecificOverrides.forEach((cityConfig) => {
+    const isCityMatch = cityConfig.aliases.some((alias) => text.includes(alias));
+    if (!isCityMatch) return;
+
+    nonCoffeeKeywords.push(...cityConfig.explicitNonCoffeeKeywords);
+    coffeeAllowKeywords.push(...cityConfig.explicitCoffeeAllowKeywords);
+  });
+
+  return {
+    explicitNonCoffeeKeywords: Array.from(new Set(nonCoffeeKeywords)),
+    explicitCoffeeAllowKeywords: Array.from(new Set(coffeeAllowKeywords)),
+  };
+}
+
+function isExplicitlyExcludedPlace(place) {
+  const text = getPlaceText(place);
+  const { explicitNonCoffeeKeywords: nonCoffeeKeywords } = getOverrideKeywordsForPlace(place, text);
+  return nonCoffeeKeywords.some((keyword) => text.includes(keyword));
+}
+
+function isExplicitlyAllowedCoffeePlace(place) {
+  const text = getPlaceText(place);
+  const { explicitCoffeeAllowKeywords: coffeeAllowKeywords } = getOverrideKeywordsForPlace(place, text);
+  return coffeeAllowKeywords.some((keyword) => text.includes(keyword));
+}
+
+function looksLikeCoffeePlace(place, mode = "coffeeOnly") {
+  if (isExplicitlyExcludedPlace(place)) return false;
+  if (mode !== "all" && isExplicitlyAllowedCoffeePlace(place)) return true;
+
+  const text = [place.name, place.address].filter(Boolean).join(" ").toLowerCase();
+  const isCoffee = coffeeKeywords.some((keyword) => text.includes(keyword));
+  const isBakery = bakeryKeywords.some((keyword) => text.includes(keyword));
+  const isNegative = negativeKeywords.some((keyword) => text.includes(keyword));
+
+  if (mode === "all") return true;
+  if (mode === "coffeeAndBakery") return (isCoffee || isBakery) && !isNegative;
+  return isCoffee && !isNegative;
+}
 /**
  * Extract coordinates from a Google Maps URL
  */
@@ -55,6 +203,75 @@ function extractCoordsFromUrl(url) {
   }
 
   return null;
+}
+
+function extractPlacesFromEntityListResponse(responseText) {
+  if (!responseText) return [];
+
+  try {
+    const jsonText = responseText.startsWith(")]}'")
+      ? responseText.slice(responseText.indexOf('\n') + 1)
+      : responseText;
+    const data = JSON.parse(jsonText);
+    const root = Array.isArray(data) ? data[0] : null;
+    const listItems = Array.isArray(root?.[8]) ? root[8] : [];
+    const places = [];
+    const seen = new Set();
+
+    for (const item of listItems) {
+      const details = Array.isArray(item?.[1]) ? item[1] : null;
+      const name = typeof item?.[2] === 'string' ? item[2].trim() : null;
+      const address = details
+        ? (typeof details[4] === 'string' && details[4].trim()) || (typeof details[2] === 'string' && details[2].trim())
+        : null;
+      const coords = Array.isArray(details?.[5]) ? details[5] : null;
+
+      if (!name || !details) continue;
+
+      const dedupeKey = `${name.toLowerCase()}|${(address || '').toLowerCase()}`;
+      if (seen.has(dedupeKey)) continue;
+      seen.add(dedupeKey);
+
+      const place = { name };
+
+      if (address) {
+        place.address = address;
+      }
+
+      if (Array.isArray(coords) && typeof coords[2] === 'number' && typeof coords[3] === 'number') {
+        place.latitude = coords[2];
+        place.longitude = coords[3];
+        place.googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${coords[2]},${coords[3]}`;
+      }
+
+      places.push(place);
+    }
+
+    return places;
+  } catch {
+    return [];
+  }
+}
+
+async function extractPlacesFromEntityListApi(page) {
+  try {
+    const endpoint = await page.evaluate(() => {
+      const link = document.querySelector('link[href*="entitylist/getlist"]');
+      return link?.getAttribute('href') || null;
+    });
+
+    if (!endpoint) return [];
+
+    const responseText = await page.evaluate(async (href) => {
+      const response = await fetch(href, { credentials: 'include' });
+      return response.ok ? await response.text() : null;
+    }, endpoint);
+
+    return extractPlacesFromEntityListResponse(responseText);
+  } catch (error) {
+    console.log(`  Entity list API extraction failed: ${error.message}`);
+    return [];
+  }
 }
 
 /**
@@ -118,11 +335,17 @@ async function scrapeList(page, listUrl) {
     // Look for place entries in the list
     const places = [];
 
+    const entityListPlaces = await extractPlacesFromEntityListApi(page);
+    if (entityListPlaces.length > 0) {
+      places.push(...entityListPlaces);
+      console.log(`  Entity list API found: ${entityListPlaces.length}`);
+    }
+
     // Selector for list items (may need adjustment based on Google's current HTML)
     // Google Maps lists typically show places as clickable items
     const placeElements = await page.$$('[data-item-id], [data-cid], .fontHeadlineSmall');
 
-    if (placeElements.length === 0) {
+    if (places.length === 0 && placeElements.length === 0) {
       // Alternative: try to find any links that look like place links
       const allLinks = await page.$$('a[href*="/maps/place/"]');
 
@@ -489,8 +712,16 @@ async function main() {
           console.log(`    ${i + 1}/${listData.places.length}: ${place.name} (error: ${e.message})`);
         }
       }
-    }
 
+      const rawFilterMode = process.env.GOOGLE_FILTER_MODE || 'coffeeOnly';
+      const filterMode = ['coffeeOnly', 'coffeeAndBakery', 'all'].includes(rawFilterMode)
+        ? rawFilterMode
+        : 'coffeeOnly';
+      const totalBeforeFilter = listData.places.length;
+
+      listData.places = listData.places.filter((place) => looksLikeCoffeePlace(place, filterMode));
+      console.log(`  Coffee filter: kept ${listData.places.length}/${totalBeforeFilter} (${filterMode})`);
+    }
     results.lists.push(listData);
   }
 

@@ -26,6 +26,18 @@ export const SCORING_PRESETS = {
     genericPenalty: -15,
     restaurantPenalty: -10,
   },
+  precision: {
+    label: "Precision",
+    baseline: 50,
+    specialtyKeywords: 31,
+    roaster: 10,
+    website: 6,
+    openingHours: 3,
+    wifiAccess: 2,
+    chainPenalty: -52,
+    genericPenalty: -15,
+    restaurantPenalty: -10,
+  },
   discovery: {
     label: "Discovery",
     baseline: 60,
@@ -64,26 +76,65 @@ export function classifyPlace(tags, name = '') {
   const cuisine = (tags?.cuisine || '').toLowerCase();
   const shop = (tags?.shop || '').toLowerCase();
 
+  const coffeeKeywords = [
+    'cafe', 'café', 'coffee', 'espresso', 'barista', 'roaster', 'roastery',
+    'v60', 'chemex', 'aeropress', 'filter coffee', 'brew bar', 'drip bar',
+    'specialty', 'speciality', 'cupping', 'קפה', 'קלייה',
+  ];
+
+  // Strong non-coffee signals should win even if amenity=cafe is present
+  const restaurantKeywords = [
+    'restaurant', 'bistro', 'grill', 'sushi', 'pizza', 'burger', 'food',
+    'brunch', 'breakfast', 'מסעדה', 'ביסטרו', 'גריל', 'סושי', 'פיצה', 'המבורגר', 'בראנץ', 'ארוחת בוקר'
+  ];
+  const barKeywords = [
+    'bar', 'pub', 'wine_bar', 'wine', 'cocktail', 'tavern', 'nightclub',
+    'בר', 'פאב', 'יין', 'קוקטייל'
+  ];
+  const nonCoffeeKeywords = [
+    'bubble_tea', 'bubble tea', 'boba', 'tea_house', 'tea house',
+    'dessert', 'dessert_bar', 'ice_cream', 'ice cream', 'gelato',
+    'frozen_yogurt', 'frozen yogurt', 'yogurt', 'mochi',
+    'waffle', 'crepe', 'donut', 'doughnut',
+    'bakery', 'patisserie', 'pastry', 'boulangerie', 'bäckerei'
+  ];
+
+  const combined = `${nameLower} ${amenity} ${cuisine} ${shop}`;
+  const looksLikeRestaurant = restaurantKeywords.some(kw => combined.includes(kw));
+  const looksLikeBar = barKeywords.some(kw => combined.includes(kw));
+  const looksLikeNonCoffee = nonCoffeeKeywords.some(kw => combined.includes(kw));
+  const hasCoffeeSignal = coffeeKeywords.some(kw => nameLower.includes(kw) || cuisine.includes(kw));
+
+  if (looksLikeBar) {
+    return 'bar';
+  }
+
+  if (looksLikeRestaurant) {
+    return 'restaurant';
+  }
+
+  if (looksLikeNonCoffee && !hasCoffeeSignal) {
+    return 'other';
+  }
+
   // Check for coffee-specific amenities
   if (amenity === 'cafe' || amenity === 'coffee' || shop === 'coffee') {
     return 'coffee';
   }
 
   // Check for coffee in name or cuisine
-  const coffeeKeywords = ['cafe', 'café', 'coffee', 'espresso', 'barista', 'roaster', 'roastery'];
   if (coffeeKeywords.some(kw => nameLower.includes(kw) || cuisine.includes(kw))) {
     return 'coffee';
   }
 
-  // Check for restaurant
-  if (amenity === 'restaurant' || cuisine.includes('restaurant') || nameLower.includes('restaurant')) {
-    return 'restaurant';
+  // Check for bar/pub by amenity fallback
+  if (amenity === 'bar' || amenity === 'pub') {
+    return 'bar';
   }
 
-  // Check for bar/pub
-  const barKeywords = ['bar', 'pub', 'tavern', 'nightclub'];
-  if (amenity === 'bar' || amenity === 'pub' || barKeywords.some(kw => nameLower.includes(kw) || amenity.includes(kw))) {
-    return 'bar';
+  // Check for restaurant fallback
+  if (amenity === 'restaurant') {
+    return 'restaurant';
   }
 
   // Check for bakery
@@ -157,6 +208,21 @@ export function calculateSpecialtyScore(cafeName, osmTags, config = SCORING_PRES
   const reasons = [];
   const nameLower = (cafeName || '').toLowerCase();
   const brand = (osmTags?.brand || '').toLowerCase();
+  const placeType = classifyPlace(osmTags, cafeName);
+  const lowDataThreshold = 40;
+  const lowDataScoreCap = 65;
+  const verifiedSpecialtyTagKeys = [
+    'specialty_coffee', 'third_wave', 'single_origin',
+    'filter_coffee', 'espresso_bar', 'manual_brew',
+    'roastery', 'in_house_roasting', 'micro_roaster',
+    'guest_roasters', 'direct_trade', 'traceability',
+    'v60', 'chemex', 'aeropress', 'kalita',
+    'batch_brew', 'cold_brew', 'espresso_tonics',
+    'quality_grinder', 'espresso_machine_pro', 'precision_brewing',
+    'weighing_scale', 'latte_art', 'barista_focus',
+    'tasting_notes', 'cupping', 'coffee_workshop',
+  ];
+  const hasVerifiedSpecialtySignal = verifiedSpecialtyTagKeys.some((key) => osmTags?.[key] && osmTags[key] !== 'no');
 
   // Known chain cafes (heavy penalty)
   const chains = [
@@ -165,7 +231,13 @@ export function calculateSpecialtyScore(cafeName, osmTags, config = SCORING_PRES
     'greggs', 'subway', 'krispy kreme', 'coffee republic', 'wild bean cafe',
     'segafredo', 'lavazza', 'illy', 'tchibo', 'balzac coffee', 'einstein kaffee',
     'starbucks reserve', 'coffee#1', 'café amazon', 'wayne\'s coffee',
-    'espresso house', 'baresso', 'joe & the juice', 'le pain quotidien'
+    'espresso house', 'baresso', 'joe & the juice', 'le pain quotidien',
+    'aroma', 'aroma espresso bar', 'ארומה',
+    'benedict', 'בנדיקט'
+  ];
+
+  const weakChains = [
+    'aroma', 'aroma espresso bar', 'ארומה'
   ];
 
   // Generic names (moderate penalty)
@@ -178,24 +250,34 @@ export function calculateSpecialtyScore(cafeName, osmTags, config = SCORING_PRES
   const specialtyKeywords = [
     'specialty', 'speciality', 'artisan', 'craft',
     'micro-roast', 'third wave', 'single origin', 'pour over', 'filter bar',
-    'coffee lab', 'kaffeelabor', 'torrefazione'
+    'coffee lab', 'kaffeelabor', 'torrefazione',
+    // brewing methods
+    'v60', 'chemex', 'aeropress', 'kalita', 'batch brew', 'cold brew',
+    'filter coffee', 'manual brew', 'drip bar', 'brew bar',
+    // experience / culture
+    'cupping', 'tasting notes', 'latte art', 'barista', 'coffee workshop',
+    'קלייה', 'מקור יחיד', 'ספיישלטי', 'פילטר קפה',
   ];
 
   // Roaster-related keywords
   const roasterKeywords = [
-    'roaster', 'roastery', 'coffee roasters', 'kaffeerösterei'
+    'roaster', 'roastery', 'coffee roasters', 'kaffeerösterei',
+    'micro roaster', 'in-house roast', 'fresh roast',
+    'rösterei', 'torrefazione', 'brûlerie',
+    'קלייה', 'בית קלייה', 'קלאי',
   ];
 
   // Restaurant-related keywords (negative)
   const restaurantKeywords = [
     'restaurant', 'bistro', 'grill', 'sushi', 'pizza', 'bar', 'pub',
-    'eatery', 'kitchen', 'diner', 'burger', 'food'
+    'eatery', 'kitchen', 'diner', 'burger', 'food', 'brunch', 'breakfast', 'בראנץ', 'ארוחת בוקר'
   ];
 
   // === PENALTIES ===
 
   // Chain detection (name or brand tag)
   const isChain = chains.some(chain => nameLower.includes(chain) || brand.includes(chain));
+  const isWeakChain = weakChains.some(chain => nameLower.includes(chain) || brand.includes(chain));
   if (isChain) {
     const penalty = config.chainPenalty || -40;
     score += penalty;
@@ -255,12 +337,97 @@ export function calculateSpecialtyScore(cafeName, osmTags, config = SCORING_PRES
       score += bonus;
       reasons.push({ label: 'WiFi available', points: bonus });
     }
+
+    // --- Specialty coffee OSM tags ---
+
+    // Core specialty identity (+15 if any present)
+    const coreSpecialtyTags = [
+      'specialty_coffee', 'third_wave', 'single_origin',
+      'filter_coffee', 'espresso_bar', 'manual_brew',
+    ];
+    const hasCoreSpecialty = coreSpecialtyTags.some(t => osmTags[t] && osmTags[t] !== 'no');
+    if (hasCoreSpecialty) {
+      const bonus = 15;
+      score += bonus;
+      const matched = coreSpecialtyTags.filter(t => osmTags[t] && osmTags[t] !== 'no').join(', ');
+      reasons.push({ label: `Specialty tag (${matched})`, points: bonus });
+    }
+
+    // Roasting / sourcing (+12 if any present)
+    const roastingTags = [
+      'roastery', 'in_house_roasting', 'micro_roaster',
+      'guest_roasters', 'direct_trade', 'traceability',
+    ];
+    const hasRoasting = roastingTags.some(t => osmTags[t] && osmTags[t] !== 'no');
+    if (hasRoasting && !matchedRoaster) {
+      const bonus = 12;
+      score += bonus;
+      const matched = roastingTags.filter(t => osmTags[t] && osmTags[t] !== 'no').join(', ');
+      reasons.push({ label: `Roasting tag (${matched})`, points: bonus });
+    }
+
+    // Brewing methods — capped at +10 (2 pts each, max 5)
+    const brewingTags = [
+      'v60', 'chemex', 'aeropress', 'kalita',
+      'batch_brew', 'cold_brew', 'espresso_tonics',
+    ];
+    const brewCount = brewingTags.filter(t => osmTags[t] && osmTags[t] !== 'no').length;
+    if (brewCount > 0) {
+      const bonus = Math.min(10, brewCount * 2);
+      score += bonus;
+      const matched = brewingTags.filter(t => osmTags[t] && osmTags[t] !== 'no').join(', ');
+      reasons.push({ label: `Brew methods (${matched})`, points: bonus });
+    }
+
+    // Equipment / quality — capped at +8 (2 pts each, max 4)
+    const equipmentTags = [
+      'quality_grinder', 'espresso_machine_pro',
+      'precision_brewing', 'weighing_scale',
+    ];
+    const equipCount = equipmentTags.filter(t => osmTags[t] && osmTags[t] !== 'no').length;
+    if (equipCount > 0) {
+      const bonus = Math.min(8, equipCount * 2);
+      score += bonus;
+      const matched = equipmentTags.filter(t => osmTags[t] && osmTags[t] !== 'no').join(', ');
+      reasons.push({ label: `Equipment (${matched})`, points: bonus });
+    }
+
+    // Experience / community — capped at +6 (2 pts each, max 3)
+    const experienceTags = [
+      'latte_art', 'barista_focus', 'tasting_notes',
+      'cupping', 'coffee_workshop',
+    ];
+    const expCount = experienceTags.filter(t => osmTags[t] && osmTags[t] !== 'no').length;
+    if (expCount > 0) {
+      const bonus = Math.min(6, expCount * 2);
+      score += bonus;
+      const matched = experienceTags.filter(t => osmTags[t] && osmTags[t] !== 'no').join(', ');
+      reasons.push({ label: `Experience (${matched})`, points: bonus });
+    }
   }
 
   // Build explanation
-  const finalScore = Math.max(0, Math.min(100, score));
-  const placeType = classifyPlace(osmTags, cafeName);
+  let finalScore = Math.max(0, Math.min(100, score));
+  if (isWeakChain) {
+    finalScore = Math.min(finalScore, 20);
+    reasons.push({ label: 'Weak chain cap', points: finalScore - score });
+  }
+  if (placeType !== 'coffee') {
+    const capped = Math.min(finalScore, 40);
+    if (capped !== finalScore) {
+      reasons.push({ label: 'Not pure coffee (score cap)', points: capped - finalScore });
+      finalScore = capped;
+    }
+  }
+
   const confidence = computeConfidence(osmTags);
+  if (confidence < lowDataThreshold && !hasVerifiedSpecialtySignal) {
+    const capped = Math.min(finalScore, lowDataScoreCap);
+    if (capped !== finalScore) {
+      reasons.push({ label: 'Low data (score cap)', points: capped - finalScore });
+      finalScore = capped;
+    }
+  }
 
   let explanation;
 

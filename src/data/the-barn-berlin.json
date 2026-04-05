@@ -1,0 +1,92 @@
+[
+  {
+    "name": "THE BARN Café Mitte",
+    "address": "Auguststraße 58, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "THE BARN Schönhauser Allee Café",
+    "address": "Schönhauser Allee 8, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "THE BARN Ku'damm",
+    "address": "Kurfürstendamm 21, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "The Barn Café Checkpoint Charlie",
+    "address": "Friedrichstraße 215, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "The Barn Café Potsdamer Platz",
+    "address": "Alte Potsdamer Str. 5, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "The Barn Café Hackescher Markt",
+    "address": "Neue Schönhauser Str. 12, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "The Barn Café Neukölln",
+    "address": "Friedelstraße 27, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "THE BARN Coffee Roasters Berlin",
+    "address": "Bellevuestraße 1, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "The Barn Café Nordbahnhof",
+    "address": "Invalidenstraße 112, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "The Barn Café Rosenthaler Platz",
+    "address": "Weinbergsweg 1, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "phone": "+49 30 44046292",
+    "isSpecialty": true,
+    "source": "manual"
+  }
+]

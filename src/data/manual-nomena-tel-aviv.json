@@ -1,0 +1,13 @@
+{
+  "id": "manual-tel-aviv-nomena-roasters",
+  "name": "Nomena Roasters",
+  "address": "Allenby St 54, Tel Aviv-Yafo, 6382205, Israel",
+  "city": "Tel Aviv",
+  "state": "Tel Aviv",
+  "country": "Israel",
+  "source": "manual",
+  "isSpecialty": true,
+  "notes": "בית קפה ובית קלייה. ציון 4.8 בגוגל.",
+  "lat": 32.0655,
+  "lon": 34.7707
+}

@@ -24,3 +24,10 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Local runtime state / backups
+userRatings.json
+hiddenPlaceIds.json
+*.bak
+*.save
+src/data/hiddenPlaceIds-backup.json

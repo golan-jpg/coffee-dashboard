@@ -1,0 +1,550 @@
+{
+  "cities": [
+    {
+      "name": "Aarhus",
+      "lat": 56.15727833333332,
+      "lon": 10.210206277777779,
+      "file": "aarhus.json"
+    },
+    {
+      "name": "Amsterdam",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "file": "amsterdam.json"
+    },
+    {
+      "name": "Ankara",
+      "lat": 39.91147970246667,
+      "lon": 32.836391688666666,
+      "file": "ankara.json"
+    },
+    {
+      "name": "Antwerp",
+      "lat": 51.21394529285713,
+      "lon": 4.412552437642858,
+      "file": "antwerp.json"
+    },
+    {
+      "name": "Athens",
+      "lat": 37.98718108610001,
+      "lon": 23.73731564853334,
+      "file": "athens.json"
+    },
+    {
+      "name": "Banskabystrica",
+      "lat": 48.73664910230001,
+      "lon": 19.147706871500002,
+      "file": "banskabystrica.json"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.3874,
+      "lon": 2.1686,
+      "file": "barcelona.json"
+    },
+    {
+      "name": "Belgrade",
+      "lat": 44.81213179189189,
+      "lon": 20.464671983783784,
+      "file": "belgrade.json"
+    },
+    {
+      "name": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "file": "berlin.json"
+    },
+    {
+      "name": "Bern",
+      "lat": 46.9500166125,
+      "lon": 7.447603524999999,
+      "file": "bern.json"
+    },
+    {
+      "name": "Brasov",
+      "lat": 45.64867928294737,
+      "lon": 25.59767494615789,
+      "file": "brasov.json"
+    },
+    {
+      "name": "Bratislava",
+      "lat": 48.15155236886814,
+      "lon": 17.114984954516487,
+      "file": "bratislava.json"
+    },
+    {
+      "name": "Brno",
+      "lat": 49.202452015644425,
+      "lon": 16.604156443066667,
+      "file": "brno.json"
+    },
+    {
+      "name": "Brussels",
+      "lat": 50.84003340117242,
+      "lon": 4.361574174827587,
+      "file": "brussels.json"
+    },
+    {
+      "name": "Bucharest",
+      "lat": 44.44694293725835,
+      "lon": 26.09520794941668,
+      "file": "bucharest.json"
+    },
+    {
+      "name": "Budapest",
+      "lat": 47.50072854149496,
+      "lon": 19.05683711739394,
+      "file": "budapest.json"
+    },
+    {
+      "name": "Chisinau Moldova",
+      "lat": 47.01670452500001,
+      "lon": 28.836326250000003,
+      "file": "chisinau-moldova.json"
+    },
+    {
+      "name": "Cluj Napoca",
+      "lat": 46.768923451857155,
+      "lon": 23.59078649078571,
+      "file": "cluj-napoca.json"
+    },
+    {
+      "name": "Cologne",
+      "lat": 50.939278556906245,
+      "lon": 6.9440612122187515,
+      "file": "cologne.json"
+    },
+    {
+      "name": "Copenhagen",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "file": "copenhagen.json"
+    },
+    {
+      "name": "Cork",
+      "lat": 51.8692953,
+      "lon": -8.51114813,
+      "file": "cork.json"
+    },
+    {
+      "name": "Dublin",
+      "lat": 53.34406347534041,
+      "lon": -6.256555479255321,
+      "file": "dublin.json"
+    },
+    {
+      "name": "Edinburgh",
+      "lat": 55.95391732139286,
+      "lon": -3.1916843000357145,
+      "file": "edinburgh.json"
+    },
+    {
+      "name": "Florence",
+      "lat": 43.76958547727273,
+      "lon": 11.259576527090909,
+      "file": "florence.json"
+    },
+    {
+      "name": "Geneva",
+      "lat": 46.20420209434483,
+      "lon": 6.145982593448274,
+      "file": "geneva.json"
+    },
+    {
+      "name": "Ghent",
+      "lat": 51.05072907777779,
+      "lon": 3.727042305555556,
+      "file": "ghent.json"
+    },
+    {
+      "name": "Glasgow",
+      "lat": 55.86187978966666,
+      "lon": -4.278862556458333,
+      "file": "glasgow.json"
+    },
+    {
+      "name": "Gothenburg",
+      "lat": 57.70521456153846,
+      "lon": 11.957219776923077,
+      "file": "gothenburg.json"
+    },
+    {
+      "name": "Haifa",
+      "lat": 32.794,
+      "lon": 34.9896,
+      "file": "haifa.json"
+    },
+    {
+      "name": "Hamburg",
+      "lat": 53.56659882586046,
+      "lon": 9.972803877255815,
+      "file": "hamburg.json"
+    },
+    {
+      "name": "Helsinki",
+      "lat": 60.17206086666666,
+      "lon": 24.942654273333336,
+      "file": "helsinki.json"
+    },
+    {
+      "name": "Istanbul",
+      "lat": 41.02199920704545,
+      "lon": 28.991560035977276,
+      "file": "istanbul.json"
+    },
+    {
+      "name": "Jerusalem",
+      "lat": 31.7804,
+      "lon": 35.224,
+      "file": "jerusalem.json"
+    },
+    {
+      "name": "Kharkiv",
+      "lat": 50.0153396125,
+      "lon": 36.2317215375,
+      "file": "kharkiv.json"
+    },
+    {
+      "name": "Kosice",
+      "lat": 48.721898228571426,
+      "lon": 21.2558717,
+      "file": "kosice.json"
+    },
+    {
+      "name": "Krakow",
+      "lat": 50.05996378177359,
+      "lon": 19.94241745711321,
+      "file": "krakow.json"
+    },
+    {
+      "name": "Kyiv",
+      "lat": 50.449101596631586,
+      "lon": 30.52172170707895,
+      "file": "kyiv.json"
+    },
+    {
+      "name": "Lausanne",
+      "lat": 46.51947912727272,
+      "lon": 6.630234090909091,
+      "file": "lausanne.json"
+    },
+    {
+      "name": "Leuven",
+      "lat": 50.881536848375,
+      "lon": 4.704141338625,
+      "file": "leuven.json"
+    },
+    {
+      "name": "Limassol Cyprus",
+      "lat": 34.68349933333333,
+      "lon": 33.05437976666666,
+      "file": "limassol-cyprus.json"
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.7223,
+      "lon": -9.1393,
+      "file": "lisbon.json"
+    },
+    {
+      "name": "Ljubljana",
+      "lat": 46.05230094285714,
+      "lon": 14.507706392857143,
+      "file": "ljubljana.json"
+    },
+    {
+      "name": "London",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "file": "london.json"
+    },
+    {
+      "name": "Luxembourg City",
+      "lat": 49.60897790909091,
+      "lon": 6.129381136363636,
+      "file": "luxembourg-city.json"
+    },
+    {
+      "name": "Lviv",
+      "lat": 49.921373518749995,
+      "lon": 24.06489155,
+      "file": "lviv.json"
+    },
+    {
+      "name": "Lyon",
+      "lat": 45.763280255,
+      "lon": 4.83487908,
+      "file": "lyon.json"
+    },
+    {
+      "name": "Madrid",
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "file": "madrid.json"
+    },
+    {
+      "name": "Malmo",
+      "lat": 55.59948298866667,
+      "lon": 13.002351716888889,
+      "file": "malmo.json"
+    },
+    {
+      "name": "Manchester",
+      "lat": 53.4728096111111,
+      "lon": -2.2448243333333333,
+      "file": "manchester.json"
+    },
+    {
+      "name": "Marseille",
+      "lat": 43.29239852447058,
+      "lon": 5.376742381588236,
+      "file": "marseille.json"
+    },
+    {
+      "name": "Milan",
+      "lat": 45.47300790566666,
+      "lon": 9.180527555000001,
+      "file": "milan.json"
+    },
+    {
+      "name": "Minsk",
+      "lat": 53.91293995983333,
+      "lon": 27.57893375675,
+      "file": "minsk.json"
+    },
+    {
+      "name": "Munich",
+      "lat": 48.13747668139537,
+      "lon": 11.569582113953485,
+      "file": "munich.json"
+    },
+    {
+      "name": "Nice",
+      "lat": 43.69932583529412,
+      "lon": 7.271678329411764,
+      "file": "nice.json"
+    },
+    {
+      "name": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "file": "new-york.json"
+    },
+    {
+      "name": "Nicosia",
+      "lat": 35.16689921333333,
+      "lon": 33.35824536666667,
+      "file": "nicosia.json"
+    },
+    {
+      "name": "Olomouc",
+      "lat": 49.594978856615406,
+      "lon": 17.252844443423076,
+      "file": "olomouc.json"
+    },
+    {
+      "name": "Oslo",
+      "lat": 59.918285334944436,
+      "lon": 10.754843351333333,
+      "file": "oslo.json"
+    },
+    {
+      "name": "Ostrava",
+      "lat": 49.83004699269565,
+      "lon": 18.26551838773913,
+      "file": "ostrava.json"
+    },
+    {
+      "name": "Palma",
+      "lat": 39.57126790967742,
+      "lon": 2.645687116129033,
+      "file": "palma.json"
+    },
+    {
+      "name": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "file": "paris.json"
+    },
+    {
+      "name": "Porto",
+      "lat": 41.1579,
+      "lon": -8.6291,
+      "file": "porto.json"
+    },
+    {
+      "name": "Poznan",
+      "lat": 52.40701219896876,
+      "lon": 16.916578763218748,
+      "file": "poznan.json"
+    },
+    {
+      "name": "Prague",
+      "lat": 50.0755,
+      "lon": 14.4378,
+      "file": "prague.json"
+    },
+    {
+      "name": "Presov",
+      "lat": 48.9973532498,
+      "lon": 21.2402525929,
+      "file": "presov.json"
+    },
+    {
+      "name": "Ra'anana",
+      "lat": 32.1976,
+      "lon": 34.8711,
+      "file": "ra-anana.json"
+    },
+    {
+      "name": "Ramat Gan",
+      "lat": 32.0827,
+      "lon": 34.802,
+      "file": "ramat-gan.json"
+    },
+    {
+      "name": "Riga",
+      "lat": 56.956329749999995,
+      "lon": 24.116802990000004,
+      "file": "riga.json"
+    },
+    {
+      "name": "Rome",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "file": "rome.json"
+    },
+    {
+      "name": "Rotterdam",
+      "lat": 51.92043255714285,
+      "lon": 4.477689946428571,
+      "file": "rotterdam.json"
+    },
+    {
+      "name": "Salzburg",
+      "lat": 47.80060938888889,
+      "lon": 13.048676122222222,
+      "file": "salzburg.json"
+    },
+    {
+      "name": "Skopje Northmacedonia",
+      "lat": 41.996328266666666,
+      "lon": 21.425842733333337,
+      "file": "skopje-northmacedonia.json"
+    },
+    {
+      "name": "Sofia",
+      "lat": 42.686365083783784,
+      "lon": 23.326832545945948,
+      "file": "sofia.json"
+    },
+    {
+      "name": "Split",
+      "lat": 43.509375840000004,
+      "lon": 16.443964779999998,
+      "file": "split.json"
+    },
+    {
+      "name": "Stockholm",
+      "lat": 59.3242653375,
+      "lon": 18.05740518125,
+      "file": "stockholm.json"
+    },
+    {
+      "name": "Tallinn",
+      "lat": 59.441296571479995,
+      "lon": 24.74160457408,
+      "file": "tallinn.json"
+    },
+    {
+      "name": "Tbilisi",
+      "lat": 41.70455632499999,
+      "lon": 44.78835337499999,
+      "file": "tbilisi.json"
+    },
+    {
+      "name": "Tel Aviv",
+      "lat": 32.0853,
+      "lon": 34.7818,
+      "file": "tel-aviv.json"
+    },
+    {
+      "name": "The Hague",
+      "lat": 52.086930624499985,
+      "lon": 4.287579971666667,
+      "file": "the-hague.json"
+    },
+    {
+      "name": "Thessaloniki",
+      "lat": 40.63097785625,
+      "lon": 22.950182168749997,
+      "file": "thessaloniki.json"
+    },
+    {
+      "name": "Timisoara",
+      "lat": 45.75373193571428,
+      "lon": 21.2285167,
+      "file": "timisoara.json"
+    },
+    {
+      "name": "Torino",
+      "lat": 45.071988392307695,
+      "lon": 7.6847397769230765,
+      "file": "torino.json"
+    },
+    {
+      "name": "Utrecht",
+      "lat": 52.09023353333333,
+      "lon": 5.116491000000001,
+      "file": "utrecht.json"
+    },
+    {
+      "name": "Valencia",
+      "lat": 39.468394636821415,
+      "lon": -0.36795433233928565,
+      "file": "valencia.json"
+    },
+    {
+      "name": "Varna Bulgaria",
+      "lat": 43.202668153124996,
+      "lon": 27.915117853625002,
+      "file": "varna-bulgaria.json"
+    },
+    {
+      "name": "Vienna",
+      "lat": 48.2082,
+      "lon": 16.3738,
+      "file": "vienna.json"
+    },
+    {
+      "name": "Vilnius",
+      "lat": 54.68530090235482,
+      "lon": 25.283288867580644,
+      "file": "vilnius.json"
+    },
+    {
+      "name": "Warsaw",
+      "lat": 52.2310509157816,
+      "lon": 21.00391033174713,
+      "file": "warsaw.json"
+    },
+    {
+      "name": "Wroclaw",
+      "lat": 51.11564905071429,
+      "lon": 17.033031913607143,
+      "file": "wroclaw.json"
+    },
+    {
+      "name": "Zagreb",
+      "lat": 45.809488204761905,
+      "lon": 15.973141904761903,
+      "file": "zagreb.json"
+    },
+    {
+      "name": "Zurich",
+      "lat": 47.37894304813334,
+      "lon": 8.5306634414,
+      "file": "zurich.json"
+    }
+  ]
+}

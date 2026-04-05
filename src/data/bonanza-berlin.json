@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Bonanza Coffee Roasters",
+    "address": "Adalbertstraße 70, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "Bonanza Coffee Mitte",
+    "address": "Alte Schönhauser Str. 15, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "Bonanza Coffee",
+    "address": "Jägerstraße 58 - 60, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "isSpecialty": true,
+    "source": "manual"
+  },
+  {
+    "name": "Bonanza Coffee Heroes",
+    "address": "Oderberger Str. 35, Berlin, Germany",
+    "city": "Berlin",
+    "country": "Germany",
+    "isSpecialty": true,
+    "source": "manual"
+  }
+]

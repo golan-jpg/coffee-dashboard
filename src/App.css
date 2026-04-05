@@ -81,7 +81,7 @@ html, body, #root {
 
 .main-content {
   display: grid;
-  grid-template-columns: 340px minmax(0, 1fr);
+  grid-template-columns: 370px minmax(0, 1fr);
   grid-template-rows: auto minmax(0, 1fr);
   flex: 1;
   /* allow inner scrolling containers to work properly */
@@ -920,9 +920,8 @@ html, body, #root {
   align-items: center;
   gap: 0.5rem;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .cafe-address {

@@ -1,1 +1,1904 @@
-[{"name": "SHED Kingsland", "lat": 51.5386279, "lon": -0.0764445, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Devotion Coffee", "lat": 51.538835, "lon": -0.0990245, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Soto Coffee", "lat": 51.5417353, "lon": -0.1173316, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Specialty Cafetiere", "lat": 51.5317801, "lon": -0.0629956, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Naive", "lat": 51.4746161, "lon": -0.2005225, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rua coffee Bar", "lat": 51.5522519, "lon": -0.1125094, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "18Grams Coffee", "lat": 51.4775767, "lon": -0.0153594, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafi Cafe", "lat": 51.5223048, "lon": -0.1407478, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KOUB", "lat": 51.4928813, "lon": -0.1495939, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tamp Coffee", "lat": 51.4920243, "lon": -0.2560769, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gramndegrees", "lat": 51.5304762, "lon": -0.0774617, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Castiglione", "lat": 51.5087994, "lon": -0.1303245, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "LONG & SHORT", "lat": 51.5805343, "lon": -0.0325884, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Third coffee", "lat": 51.4882659, "lon": -0.138694, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "15grams", "lat": 51.48129145, "lon": -0.009728088, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Yellow Warbler", "lat": 51.5632505, "lon": -0.0724408, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rosslyn Coffee Royal Exchange", "lat": 51.5138463, "lon": -0.0868818, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wired Co", "lat": 51.546482, "lon": -0.190567, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Allpress Espresso Bar", "lat": 51.524389, "lon": -0.074343, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Batch Baby", "lat": 51.5391583, "lon": -0.0813921, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "White Mulberries", "lat": 51.5071992, "lon": -0.0712399, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Campbell and Syme", "lat": 51.589468, "lon": -0.163207, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "sawyer and gray", "lat": 51.5462944, "lon": -0.1012331, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Perky Blenders - Project 660", "lat": 51.5700259, "lon": -0.0080034, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rosslyn Coffee Leadenhall Market", "lat": 51.5122445, "lon": -0.0833798, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CHILL HOUSE COFFEE", "lat": 51.5062841, "lon": -0.146854, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ginger & White", "lat": 51.5554692, "lon": -0.1780222, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Hanover", "lat": 51.5137269, "lon": -0.1451025, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gecko Coffeehouse", "lat": 51.5245291, "lon": -0.0727712, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nostos Coffee", "lat": 51.4986733, "lon": -0.1333018, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Maya's Coffee Stores", "lat": 51.5133955, "lon": -0.0954493, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Story Coffee Devonshire Square", "lat": 51.5166672, "lon": -0.0776906, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Farm & Flynn", "lat": 51.4343496, "lon": -0.1623275, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Local Hero", "lat": 51.476311, "lon": -0.204721, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Element Coffee", "lat": 51.4994196, "lon": -0.3150097, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SHED Clapham", "lat": 51.4527135, "lon": -0.1476987, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rosslyn Coffee Tower 42", "lat": 51.515341, "lon": -0.08416, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Perky Blenders - Leytonstone kiosk", "lat": 51.5681985, "lon": 0.007968, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wylie's Coffee", "lat": 51.4448561, "lon": -0.2040354, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "day trip", "lat": 51.5402361, "lon": -0.089845, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Saint Nine Coffee", "lat": 51.5052665, "lon": -0.0986911, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Saddle London", "lat": 51.4989909, "lon": -0.1658386, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Guillam Coffee House", "lat": 51.5121276, "lon": -0.1912895, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nude Espresso Roastery", "lat": 51.5204634, "lon": -0.0727785, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Origin Coffee at The British Library", "lat": 51.5291649, "lon": -0.1267078, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Qima Cafe", "lat": 51.523978, "lon": -0.1399175, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Farine", "lat": 51.4532204, "lon": -0.1847978, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Iris & June", "lat": 51.4968153, "lon": -0.1360433, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Antipode", "lat": 51.491013, "lon": -0.223938, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BLAS", "lat": 51.5351579, "lon": -0.0484975, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Leigh's", "lat": 51.5433034, "lon": -0.0820088, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Echo Espresso", "lat": 51.4843717, "lon": -0.0935757, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Carnival Coffee Roasters", "lat": 51.413566, "lon": -0.0516205, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fabrica X", "lat": 51.5326851, "lon": -0.1222579, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Omotesando", "lat": 51.5165903, "lon": -0.1347236, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Roastery & Cafe", "lat": 51.4997609, "lon": -0.0763058, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Perky Blenders - Hoe Street", "lat": 51.5828956, "lon": -0.0188633, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Spitalfields", "lat": 51.5208753, "lon": -0.0752577, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Esters", "lat": 51.560102439, "lon": -0.078067034, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urban Botanica", "lat": 51.4870894, "lon": -0.1116595, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Clerkenwell's Coffee & Books", "lat": 51.5246428, "lon": -0.1024573, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Chief Coffee", "lat": 51.493965, "lon": -0.254819, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Paradox Design + Coffee", "lat": 51.5375921, "lon": -0.0587374, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Seven Dials", "lat": 51.5128683, "lon": -0.1273714, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Moonstruck Cafe", "lat": 51.4780625, "lon": -0.1232211, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lantana Cafe Fitzrovia", "lat": 51.5189743, "lon": -0.1359508, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Formative Coffee", "lat": 51.4978634, "lon": -0.1354725, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Velasquez and Van Wezel", "lat": 51.5819282, "lon": -0.126542, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Third Coffee", "lat": 51.4156211, "lon": -0.1948396, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Compane Camden Passage", "lat": 51.5354167, "lon": -0.1033627, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Robin Craft Cafe", "lat": 51.466721, "lon": -0.2669706, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Frequency", "lat": 51.529076, "lon": -0.116074, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lodestar Coffee", "lat": 51.5552538, "lon": -0.056211, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Amoret", "lat": 51.510792, "lon": -0.1975809, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jimmy and The Bee", "lat": 51.5263078, "lon": -0.1002352, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KillBean", "lat": 51.5383987, "lon": -0.1905418, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Intermission", "lat": 51.547197071, "lon": -0.191399038, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Old Spike Piccadilly", "lat": 51.5109516, "lon": -0.1359502, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nostos Coffee", "lat": 51.477117, "lon": -0.1469577, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stir Coffee", "lat": 51.454478, "lon": -0.119603, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oscar’s SE13", "lat": 51.45645, "lon": -0.020202, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Fields Beneath", "lat": 51.546541, "lon": -0.1466664, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "1930 Coffee Co", "lat": 51.5265204, "lon": -0.0996861, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Climpson & Sons Cafe", "lat": 51.537452, "lon": -0.061291, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Alchemy Cafe - Shoreditch", "lat": 51.5236075, "lon": -0.0841822, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gramos Coffee Bar (underground)", "lat": 51.531811, "lon": -0.1237958, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Saint Espresso", "lat": 51.5320712, "lon": -0.1076122, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hucks Cafe", "lat": 51.57916, "lon": -0.012577, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Profile", "lat": 51.5535107, "lon": -0.0984823, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Old Spike", "lat": 51.4651552, "lon": -0.0666088, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "High Grade", "lat": 51.5212867, "lon": -0.0718985, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wa Cafe", "lat": 51.515913, "lon": -0.302005, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Buhler and Co", "lat": 51.5905938, "lon": -0.0170676, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "640 East", "lat": 51.50278, "lon": -0.01491, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Music and Beans", "lat": 51.579871, "lon": -0.099423, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Brigade", "lat": 51.522781, "lon": -0.1524049, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Store Street Espresso", "lat": 51.4926736, "lon": -0.2211703, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Story Coffee St John's Hill", "lat": 51.461031, "lon": -0.174409, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Guillam Coffee House", "lat": 51.5096115, "lon": -0.1942895, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Colonna & Small’s", "lat": 51.5216329, "lon": -0.1099519, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "46b Espresso Hut", "lat": 51.5502944, "lon": -0.042925, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Friends of Ours Hoxton", "lat": 51.529109, "lon": -0.083759, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan - East Sheen", "lat": 51.4646361, "lon": -0.2663154, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elsewhere Coffee Roastery and Brew Bar", "lat": 51.4792354, "lon": -0.0267556, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Host Cafe", "lat": 51.512691, "lon": -0.093534, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Feel Good", "lat": 51.4445682, "lon": -0.206998, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Prufrock Coffee", "lat": 51.5199272, "lon": -0.1094739, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Calico Coffee", "lat": 51.5012521, "lon": -0.1120692, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeine", "lat": 51.5168536, "lon": -0.1371591, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Parcafe", "lat": 51.507394, "lon": -0.152914, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Wren", "lat": 51.5120889, "lon": -0.0968887, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Origin Coffee Shoreditch", "lat": 51.5263022, "lon": -0.0811054, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Somerset House", "lat": 51.5113789, "lon": -0.1168724, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Simmos Coffee", "lat": 51.5380919, "lon": -0.0218647, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lumberjack", "lat": 51.473474, "lon": -0.08825, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brickwood Coffee and Bread", "lat": 51.4612018, "lon": -0.1383804, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rosslyn Coffee Queen Victoria Street", "lat": 51.5125801, "lon": -0.0935035, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fee & Brown", "lat": 51.409108, "lon": -0.025281, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Store Street Espresso", "lat": 51.5201103, "lon": -0.1306445, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brixton blend", "lat": 51.462768, "lon": -0.115651, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Story Coffee Wandsworth", "lat": 51.457189, "lon": -0.1935079, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "EspressoBase Speciality Coffee", "lat": 51.5176605, "lon": -0.124534, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hagen Espresso Bar", "lat": 51.4879278, "lon": -0.1672444, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Guillam Coffee House", "lat": 51.499014, "lon": -0.1838413, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Circus", "lat": 51.577916, "lon": -0.123459, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Scenery", "lat": 51.5036648, "lon": -0.0992968, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Carbon Kopi", "lat": 51.48643, "lon": -0.21484, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rondor Coffee", "lat": 51.4740214, "lon": -0.2010016, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Bermondsey", "lat": 51.4980106, "lon": -0.0812506, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse St. Mary Axe", "lat": 51.5153662, "lon": -0.0789935, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Aether Coffee Lab", "lat": 51.5025871, "lon": -0.0132831, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Espresso Room", "lat": 51.5218888, "lon": -0.1197445, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rosslyn Coffee London Wall", "lat": 51.5176899, "lon": -0.0890369, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "yume.", "lat": 51.4654946, "lon": -0.0360183, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Page Common Coffeehouse", "lat": 51.5093786, "lon": -0.126773, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fink’s Salt & Sweet", "lat": 51.5612658, "lon": -0.0962492, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Attendant", "lat": 51.525669, "lon": -0.082509, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The little One", "lat": 51.54255, "lon": -0.155672, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Guillam Coffee House", "lat": 51.5078205, "lon": -0.1448339, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Perky Blenders - Walthamstow Kiosk", "lat": 51.5845112, "lon": -0.020449, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Tower Bridge", "lat": 51.5037368, "lon": -0.0746038, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Attendant (Fitzrovia)", "lat": 51.519277, "lon": -0.140689, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hagen Espresso Bar", "lat": 51.514818, "lon": -0.1994786, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caravan Coffee Roasters at The Office Group 210 Euston", "lat": 51.5261297, "lon": -0.13533, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brunswick East", "lat": 51.5491708, "lon": -0.0768994, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Snoozzze Coffee", "lat": 51.5199192, "lon": -0.102202, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kin Cafe", "lat": 51.5193427, "lon": -0.1403111, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeine", "lat": 51.518445613, "lon": -0.140424035, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Perky Blenders - Finchley Road Station", "lat": 51.5469267, "lon": -0.1798528, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Fetter Lane", "lat": 51.5167357, "lon": -0.109173, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nkora", "lat": 51.527601, "lon": -0.0769, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Special Guests", "lat": 51.5191276, "lon": -0.1528896, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café VOLT", "lat": 51.5004506, "lon": -0.0970118, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Browns of Brockley", "lat": 51.464405, "lon": -0.036984, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wylie's Coffee", "lat": 51.4546302, "lon": -0.3195123, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Catalyst", "lat": 51.5198051, "lon": -0.1119989, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bija Coffee", "lat": 51.5092772, "lon": -0.1331594, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "THE BARN Café London", "lat": 51.520769, "lon": -0.1371561, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nagare Coffee", "lat": 51.5189455, "lon": -0.0769362, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stonebros cafe", "lat": 51.5538845, "lon": -0.0451994, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cable Co.", "lat": 51.5348417, "lon": -0.2194528, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Bishopsgate", "lat": 51.5153323, "lon": -0.080412, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Allpress Espresso Roastery Cafe", "lat": 51.546358, "lon": -0.070515, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "F. Mondays", "lat": 51.4539805, "lon": -0.1204713, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ozone Coffee Roasters", "lat": 51.5247067, "lon": -0.0867314, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan Coffee School", "lat": 51.5131139, "lon": -0.3066972, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sofu Coffee", "lat": 51.5246428, "lon": -0.1024573, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Origin Coffee Southwark", "lat": 51.5042922, "lon": -0.1035745, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Coffee Traveller", "lat": 51.486592, "lon": -0.280825, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rastro Café", "lat": 51.5275172, "lon": -0.0566087, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bean + Brew", "lat": 51.59768595, "lon": -0.110071203, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SHED Hatch / Haggerston", "lat": 51.5383888, "lon": -0.0759806, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Four Boroughs", "lat": 51.4194623, "lon": -0.0789797, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TRAMPOLINE", "lat": 51.5349713, "lon": -0.1037844, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urban Baristas Bounds Green Rd", "lat": 51.6070393, "lon": -0.124256, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan Stamford Brook", "lat": 51.49352, "lon": -0.244896, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Penny Drop", "lat": 51.5205066, "lon": -0.1352069, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dark Arts Coffee", "lat": 51.5473411, "lon": -0.045745, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Another Brother", "lat": 51.4619573, "lon": -0.2069128, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Curators Coffee", "lat": 51.5120832, "lon": -0.0825571, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Press Room", "lat": 51.4475588, "lon": -0.3289169, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WatchHouse Covent Garden", "lat": 51.5111047, "lon": -0.1224397, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Chancery Press", "lat": 51.5159191, "lon": -0.1122007, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urban Baristas Middlesex St", "lat": 51.5163379, "lon": -0.0767828, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bluebelles of Portobello", "lat": 51.521359, "lon": -0.2100126, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Clarnico", "lat": 51.5462861, "lon": -0.0205073, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Store Street Espresso", "lat": 51.5257018, "lon": -0.1250211, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Milk", "lat": 51.4444826, "lon": -0.1508225, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Flying Horse Coffee", "lat": 51.5105199, "lon": -0.2256213, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Level Crossing Records", "lat": 51.4673531, "lon": -0.2664772, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bake Street", "lat": 51.55871, "lon": -0.066648, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "No41 Coffee and Kitchen", "lat": 51.4440647, "lon": -0.0428023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Good As Gold", "lat": 51.4636206, "lon": -0.0389627, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lift Coffee", "lat": 51.5074465, "lon": -0.1949432, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Compane Princes Arcade", "lat": 51.5085348, "lon": -0.1375634, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Flying Horse Coffee", "lat": 51.5213107, "lon": -0.2096356, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Servesmiths", "lat": 51.444862, "lon": -0.0242265, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dose", "lat": 51.5194359, "lon": -0.0992533, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Juliet’s Quality Foods", "lat": 51.4254451, "lon": -0.1647668, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wildcard", "lat": 51.5309396, "lon": -0.2168318, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Vagabond", "lat": 51.5481133, "lon": -0.106739, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urban Baristas Wapping", "lat": 51.504483, "lon": -0.055847, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "SHED Kingsland",
+    "lat": 51.5386279,
+    "lon": -0.0764445,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Devotion Coffee",
+    "lat": 51.538835,
+    "lon": -0.0990245,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Soto Coffee",
+    "lat": 51.5417353,
+    "lon": -0.1173316,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Specialty Cafetiere",
+    "lat": 51.5317801,
+    "lon": -0.0629956,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Naive",
+    "lat": 51.4746161,
+    "lon": -0.2005225,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rua coffee Bar",
+    "lat": 51.5522519,
+    "lon": -0.1125094,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "18Grams Coffee",
+    "lat": 51.4775767,
+    "lon": -0.0153594,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Kafi Cafe",
+    "lat": 51.5223048,
+    "lon": -0.1407478,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "KOUB",
+    "lat": 51.4928813,
+    "lon": -0.1495939,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Tamp Coffee",
+    "lat": 51.4920243,
+    "lon": -0.2560769,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Gramndegrees",
+    "lat": 51.5304762,
+    "lon": -0.0774617,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Castiglione",
+    "lat": 51.5087994,
+    "lon": -0.1303245,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "LONG & SHORT",
+    "lat": 51.5805343,
+    "lon": -0.0325884,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Third coffee",
+    "lat": 51.4882659,
+    "lon": -0.138694,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "15grams",
+    "lat": 51.48129145,
+    "lon": -0.009728088,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Yellow Warbler",
+    "lat": 51.5632505,
+    "lon": -0.0724408,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rosslyn Coffee Royal Exchange",
+    "lat": 51.5138463,
+    "lon": -0.0868818,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Wired Co",
+    "lat": 51.546482,
+    "lon": -0.190567,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Allpress Espresso Bar",
+    "lat": 51.524389,
+    "lon": -0.074343,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Batch Baby",
+    "lat": 51.5391583,
+    "lon": -0.0813921,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "White Mulberries",
+    "lat": 51.5071992,
+    "lon": -0.0712399,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Campbell and Syme",
+    "lat": 51.589468,
+    "lon": -0.163207,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "sawyer and gray",
+    "lat": 51.5462944,
+    "lon": -0.1012331,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Perky Blenders - Project 660",
+    "lat": 51.5700259,
+    "lon": -0.0080034,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rosslyn Coffee Leadenhall Market",
+    "lat": 51.5122445,
+    "lon": -0.0833798,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "CHILL HOUSE COFFEE",
+    "lat": 51.5062841,
+    "lon": -0.146854,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Ginger & White",
+    "lat": 51.5554692,
+    "lon": -0.1780222,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Hanover",
+    "lat": 51.5137269,
+    "lon": -0.1451025,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Gecko Coffeehouse",
+    "lat": 51.5245291,
+    "lon": -0.0727712,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Nostos Coffee",
+    "lat": 51.4986733,
+    "lon": -0.1333018,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Maya's Coffee Stores",
+    "lat": 51.5133955,
+    "lon": -0.0954493,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Story Coffee Devonshire Square",
+    "lat": 51.5166672,
+    "lon": -0.0776906,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Farm & Flynn",
+    "lat": 51.4343496,
+    "lon": -0.1623275,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Local Hero",
+    "lat": 51.476311,
+    "lon": -0.204721,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Element Coffee",
+    "lat": 51.4994196,
+    "lon": -0.3150097,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "SHED Clapham",
+    "lat": 51.4527135,
+    "lon": -0.1476987,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rosslyn Coffee Tower 42",
+    "lat": 51.515341,
+    "lon": -0.08416,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Perky Blenders - Leytonstone kiosk",
+    "lat": 51.5681985,
+    "lon": 0.007968,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Wylie's Coffee",
+    "lat": 51.4448561,
+    "lon": -0.2040354,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "day trip",
+    "lat": 51.5402361,
+    "lon": -0.089845,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Saint Nine Coffee",
+    "lat": 51.5052665,
+    "lon": -0.0986911,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Saddle London",
+    "lat": 51.4989909,
+    "lon": -0.1658386,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Guillam Coffee House",
+    "lat": 51.5121276,
+    "lon": -0.1912895,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Nude Espresso Roastery",
+    "lat": 51.5204634,
+    "lon": -0.0727785,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Origin Coffee at The British Library",
+    "lat": 51.5291649,
+    "lon": -0.1267078,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Qima Cafe",
+    "lat": 51.523978,
+    "lon": -0.1399175,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Farine",
+    "lat": 51.4532204,
+    "lon": -0.1847978,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Iris & June",
+    "lat": 51.4968153,
+    "lon": -0.1360433,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Antipode",
+    "lat": 51.491013,
+    "lon": -0.223938,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "BLAS",
+    "lat": 51.5351579,
+    "lon": -0.0484975,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Leigh's",
+    "lat": 51.5433034,
+    "lon": -0.0820088,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Echo Espresso",
+    "lat": 51.4843717,
+    "lon": -0.0935757,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Carnival Coffee Roasters",
+    "lat": 51.413566,
+    "lon": -0.0516205,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Fabrica X",
+    "lat": 51.5326851,
+    "lon": -0.1222579,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Omotesando",
+    "lat": 51.5165903,
+    "lon": -0.1347236,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Roastery & Cafe",
+    "lat": 51.4997609,
+    "lon": -0.0763058,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Perky Blenders - Hoe Street",
+    "lat": 51.5828956,
+    "lon": -0.0188633,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Spitalfields",
+    "lat": 51.5208753,
+    "lon": -0.0752577,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Esters",
+    "lat": 51.560102439,
+    "lon": -0.078067034,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Urban Botanica",
+    "lat": 51.4870894,
+    "lon": -0.1116595,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Clerkenwell's Coffee & Books",
+    "lat": 51.5246428,
+    "lon": -0.1024573,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Chief Coffee",
+    "lat": 51.493965,
+    "lon": -0.254819,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Paradox Design + Coffee",
+    "lat": 51.5375921,
+    "lon": -0.0587374,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Seven Dials",
+    "lat": 51.5128683,
+    "lon": -0.1273714,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Moonstruck Cafe",
+    "lat": 51.4780625,
+    "lon": -0.1232211,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Lantana Cafe Fitzrovia",
+    "lat": 51.5189743,
+    "lon": -0.1359508,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Formative Coffee",
+    "lat": 51.4978634,
+    "lon": -0.1354725,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Velasquez and Van Wezel",
+    "lat": 51.5819282,
+    "lon": -0.126542,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Third Coffee",
+    "lat": 51.4156211,
+    "lon": -0.1948396,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Compane Camden Passage",
+    "lat": 51.5354167,
+    "lon": -0.1033627,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Robin Craft Cafe",
+    "lat": 51.466721,
+    "lon": -0.2669706,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Frequency",
+    "lat": 51.529076,
+    "lon": -0.116074,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Lodestar Coffee",
+    "lat": 51.5552538,
+    "lon": -0.056211,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Amoret",
+    "lat": 51.510792,
+    "lon": -0.1975809,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Jimmy and The Bee",
+    "lat": 51.5263078,
+    "lon": -0.1002352,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "KillBean",
+    "lat": 51.5383987,
+    "lon": -0.1905418,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Intermission",
+    "lat": 51.547197071,
+    "lon": -0.191399038,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Old Spike Piccadilly",
+    "lat": 51.5109516,
+    "lon": -0.1359502,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Nostos Coffee",
+    "lat": 51.477117,
+    "lon": -0.1469577,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Stir Coffee",
+    "lat": 51.454478,
+    "lon": -0.119603,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Oscar’s SE13",
+    "lat": 51.45645,
+    "lon": -0.020202,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The Fields Beneath",
+    "lat": 51.546541,
+    "lon": -0.1466664,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "1930 Coffee Co",
+    "lat": 51.5265204,
+    "lon": -0.0996861,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Climpson & Sons Cafe",
+    "lat": 51.537452,
+    "lon": -0.061291,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Alchemy Cafe - Shoreditch",
+    "lat": 51.5236075,
+    "lon": -0.0841822,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Gramos Coffee Bar (underground)",
+    "lat": 51.531811,
+    "lon": -0.1237958,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Saint Espresso",
+    "lat": 51.5320712,
+    "lon": -0.1076122,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Hucks Cafe",
+    "lat": 51.57916,
+    "lon": -0.012577,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Profile",
+    "lat": 51.5535107,
+    "lon": -0.0984823,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Old Spike",
+    "lat": 51.4651552,
+    "lon": -0.0666088,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "High Grade",
+    "lat": 51.5212867,
+    "lon": -0.0718985,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Wa Cafe",
+    "lat": 51.515913,
+    "lon": -0.302005,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Buhler and Co",
+    "lat": 51.5905938,
+    "lon": -0.0170676,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "640 East",
+    "lat": 51.50278,
+    "lon": -0.01491,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Music and Beans",
+    "lat": 51.579871,
+    "lon": -0.099423,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Coffee Brigade",
+    "lat": 51.522781,
+    "lon": -0.1524049,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Store Street Espresso",
+    "lat": 51.4926736,
+    "lon": -0.2211703,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Story Coffee St John's Hill",
+    "lat": 51.461031,
+    "lon": -0.174409,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Guillam Coffee House",
+    "lat": 51.5096115,
+    "lon": -0.1942895,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Colonna & Small’s",
+    "lat": 51.5216329,
+    "lon": -0.1099519,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "46b Espresso Hut",
+    "lat": 51.5502944,
+    "lon": -0.042925,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Friends of Ours Hoxton",
+    "lat": 51.529109,
+    "lon": -0.083759,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Artisan - East Sheen",
+    "lat": 51.4646361,
+    "lon": -0.2663154,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Elsewhere Coffee Roastery and Brew Bar",
+    "lat": 51.4792354,
+    "lon": -0.0267556,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Host Cafe",
+    "lat": 51.512691,
+    "lon": -0.093534,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Feel Good",
+    "lat": 51.4445682,
+    "lon": -0.206998,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Prufrock Coffee",
+    "lat": 51.5199272,
+    "lon": -0.1094739,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Calico Coffee",
+    "lat": 51.5012521,
+    "lon": -0.1120692,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Kaffeine",
+    "lat": 51.5168536,
+    "lon": -0.1371591,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Parcafe",
+    "lat": 51.507394,
+    "lon": -0.152914,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The Wren",
+    "lat": 51.5120889,
+    "lon": -0.0968887,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Origin Coffee Shoreditch",
+    "lat": 51.5263022,
+    "lon": -0.0811054,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Somerset House",
+    "lat": 51.5113789,
+    "lon": -0.1168724,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Simmos Coffee",
+    "lat": 51.5380919,
+    "lon": -0.0218647,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Lumberjack",
+    "lat": 51.473474,
+    "lon": -0.08825,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Brickwood Coffee and Bread",
+    "lat": 51.4612018,
+    "lon": -0.1383804,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rosslyn Coffee Queen Victoria Street",
+    "lat": 51.5125801,
+    "lon": -0.0935035,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Fee & Brown",
+    "lat": 51.409108,
+    "lon": -0.025281,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Store Street Espresso",
+    "lat": 51.5201103,
+    "lon": -0.1306445,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Brixton blend",
+    "lat": 51.462768,
+    "lon": -0.115651,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Story Coffee Wandsworth",
+    "lat": 51.457189,
+    "lon": -0.1935079,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "EspressoBase Speciality Coffee",
+    "lat": 51.5176605,
+    "lon": -0.124534,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Hagen Espresso Bar",
+    "lat": 51.4879278,
+    "lon": -0.1672444,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Guillam Coffee House",
+    "lat": 51.499014,
+    "lon": -0.1838413,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Coffee Circus",
+    "lat": 51.577916,
+    "lon": -0.123459,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Scenery",
+    "lat": 51.5036648,
+    "lon": -0.0992968,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Carbon Kopi",
+    "lat": 51.48643,
+    "lon": -0.21484,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rondor Coffee",
+    "lat": 51.4740214,
+    "lon": -0.2010016,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Bermondsey",
+    "lat": 51.4980106,
+    "lon": -0.0812506,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse St. Mary Axe",
+    "lat": 51.5153662,
+    "lon": -0.0789935,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Aether Coffee Lab",
+    "lat": 51.5025871,
+    "lon": -0.0132831,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The Espresso Room",
+    "lat": 51.5218888,
+    "lon": -0.1197445,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rosslyn Coffee London Wall",
+    "lat": 51.5176899,
+    "lon": -0.0890369,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "yume.",
+    "lat": 51.4654946,
+    "lon": -0.0360183,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Page Common Coffeehouse",
+    "lat": 51.5093786,
+    "lon": -0.126773,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Fink’s Salt & Sweet",
+    "lat": 51.5612658,
+    "lon": -0.0962492,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Attendant",
+    "lat": 51.525669,
+    "lon": -0.082509,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The little One",
+    "lat": 51.54255,
+    "lon": -0.155672,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Guillam Coffee House",
+    "lat": 51.5078205,
+    "lon": -0.1448339,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Perky Blenders - Walthamstow Kiosk",
+    "lat": 51.5845112,
+    "lon": -0.020449,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Tower Bridge",
+    "lat": 51.5037368,
+    "lon": -0.0746038,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Attendant (Fitzrovia)",
+    "lat": 51.519277,
+    "lon": -0.140689,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Hagen Espresso Bar",
+    "lat": 51.514818,
+    "lon": -0.1994786,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Caravan Coffee Roasters at The Office Group 210 Euston",
+    "lat": 51.5261297,
+    "lon": -0.13533,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Brunswick East",
+    "lat": 51.5491708,
+    "lon": -0.0768994,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Snoozzze Coffee",
+    "lat": 51.5199192,
+    "lon": -0.102202,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Kin Cafe",
+    "lat": 51.5193427,
+    "lon": -0.1403111,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Kaffeine",
+    "lat": 51.518445613,
+    "lon": -0.140424035,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Perky Blenders - Finchley Road Station",
+    "lat": 51.5469267,
+    "lon": -0.1798528,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Fetter Lane",
+    "lat": 51.5167357,
+    "lon": -0.109173,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Nkora",
+    "lat": 51.527601,
+    "lon": -0.0769,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Special Guests",
+    "lat": 51.5191276,
+    "lon": -0.1528896,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Café VOLT",
+    "lat": 51.5004506,
+    "lon": -0.0970118,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Browns of Brockley",
+    "lat": 51.464405,
+    "lon": -0.036984,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Wylie's Coffee",
+    "lat": 51.4546302,
+    "lon": -0.3195123,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Catalyst",
+    "lat": 51.5198051,
+    "lon": -0.1119989,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Bija Coffee",
+    "lat": 51.5092772,
+    "lon": -0.1331594,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "THE BARN Café London",
+    "lat": 51.520769,
+    "lon": -0.1371561,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Nagare Coffee",
+    "lat": 51.5189455,
+    "lon": -0.0769362,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Stonebros cafe",
+    "lat": 51.5538845,
+    "lon": -0.0451994,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Cable Co.",
+    "lat": 51.5348417,
+    "lon": -0.2194528,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Bishopsgate",
+    "lat": 51.5153323,
+    "lon": -0.080412,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Allpress Espresso Roastery Cafe",
+    "lat": 51.546358,
+    "lon": -0.070515,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "F. Mondays",
+    "lat": 51.4539805,
+    "lon": -0.1204713,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Ozone Coffee Roasters",
+    "lat": 51.5247067,
+    "lon": -0.0867314,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Artisan Coffee School",
+    "lat": 51.5131139,
+    "lon": -0.3066972,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Sofu Coffee",
+    "lat": 51.5246428,
+    "lon": -0.1024573,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Origin Coffee Southwark",
+    "lat": 51.5042922,
+    "lon": -0.1035745,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The Coffee Traveller",
+    "lat": 51.486592,
+    "lon": -0.280825,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Rastro Café",
+    "lat": 51.5275172,
+    "lon": -0.0566087,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Bean + Brew",
+    "lat": 51.59768595,
+    "lon": -0.110071203,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "SHED Hatch / Haggerston",
+    "lat": 51.5383888,
+    "lon": -0.0759806,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Four Boroughs",
+    "lat": 51.4194623,
+    "lon": -0.0789797,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "TRAMPOLINE",
+    "lat": 51.5349713,
+    "lon": -0.1037844,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Urban Baristas Bounds Green Rd",
+    "lat": 51.6070393,
+    "lon": -0.124256,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Artisan Stamford Brook",
+    "lat": 51.49352,
+    "lon": -0.244896,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The Penny Drop",
+    "lat": 51.5205066,
+    "lon": -0.1352069,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Dark Arts Coffee",
+    "lat": 51.5473411,
+    "lon": -0.045745,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Another Brother",
+    "lat": 51.4619573,
+    "lon": -0.2069128,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Curators Coffee",
+    "lat": 51.5120832,
+    "lon": -0.0825571,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "The Press Room",
+    "lat": 51.4475588,
+    "lon": -0.3289169,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "WatchHouse Covent Garden",
+    "lat": 51.5111047,
+    "lon": -0.1224397,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Chancery Press",
+    "lat": 51.5159191,
+    "lon": -0.1122007,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Urban Baristas Middlesex St",
+    "lat": 51.5163379,
+    "lon": -0.0767828,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Bluebelles of Portobello",
+    "lat": 51.521359,
+    "lon": -0.2100126,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Clarnico",
+    "lat": 51.5462861,
+    "lon": -0.0205073,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Store Street Espresso",
+    "lat": 51.5257018,
+    "lon": -0.1250211,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Milk",
+    "lat": 51.4444826,
+    "lon": -0.1508225,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Flying Horse Coffee",
+    "lat": 51.5105199,
+    "lon": -0.2256213,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Level Crossing Records",
+    "lat": 51.4673531,
+    "lon": -0.2664772,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Bake Street",
+    "lat": 51.55871,
+    "lon": -0.066648,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "No41 Coffee and Kitchen",
+    "lat": 51.4440647,
+    "lon": -0.0428023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Good As Gold",
+    "lat": 51.4636206,
+    "lon": -0.0389627,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Lift Coffee",
+    "lat": 51.5074465,
+    "lon": -0.1949432,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Compane Princes Arcade",
+    "lat": 51.5085348,
+    "lon": -0.1375634,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Flying Horse Coffee",
+    "lat": 51.5213107,
+    "lon": -0.2096356,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Servesmiths",
+    "lat": 51.444862,
+    "lon": -0.0242265,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Dose",
+    "lat": 51.5194359,
+    "lon": -0.0992533,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Juliet’s Quality Foods",
+    "lat": 51.4254451,
+    "lon": -0.1647668,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Wildcard",
+    "lat": 51.5309396,
+    "lon": -0.2168318,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Vagabond",
+    "lat": 51.5481133,
+    "lon": -0.106739,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "name": "Urban Baristas Wapping",
+    "lat": 51.504483,
+    "lon": -0.055847,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false
+  },
+  {
+    "id": "seeded-london-15grams-coffee-house",
+    "name": "15grams Coffee House",
+    "lat": 51.4853,
+    "lon": -0.0023,
+    "address": "28 Greenwich Church St, London, UK",
+    "city": "London",
+    "cityName": "London",
+    "source": "specialty-finder",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "confidence": 95,
+    "specialty": true
+  },
+  {
+    "id": "seeded-london-climpson---sons-caf-",
+    "name": "Climpson & Sons Café",
+    "lat": 51.5413,
+    "lon": -0.0748,
+    "address": "67 Broadway Market, London, UK",
+    "city": "London",
+    "cityName": "London",
+    "source": "specialty-finder",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "confidence": 95,
+    "specialty": true
+  },
+  {
+    "id": "seeded-london-kaffeine---fitzrovia",
+    "name": "Kaffeine | Fitzrovia",
+    "lat": 51.5169,
+    "lon": -0.1388,
+    "address": "66 Great Titchfield St., London, UK",
+    "city": "London",
+    "cityName": "London",
+    "source": "specialty-finder",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "confidence": 95,
+    "specialty": true
+  },
+  {
+    "id": "seeded-london-monmouth-coffee-company",
+    "name": "Monmouth Coffee Company",
+    "lat": 51.5106,
+    "lon": -0.1234,
+    "address": "27 Monmouth St, London, UK",
+    "city": "London",
+    "cityName": "London",
+    "source": "specialty-finder",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "confidence": 95,
+    "specialty": true
+  },
+  {
+    "id": "seeded-london-origin-coffee",
+    "name": "Origin Coffee",
+    "lat": 51.5272,
+    "lon": -0.0734,
+    "address": "65 Charlotte Rd, London, UK",
+    "city": "London",
+    "cityName": "London",
+    "source": "specialty-finder",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "confidence": 95,
+    "specialty": true
+  },
+  {
+    "id": "seeded-london-paradox-design-and-coffee",
+    "name": "Paradox Design and Coffee",
+    "lat": 51.5406,
+    "lon": -0.0768,
+    "address": "13-23 Westgate St, London, UK",
+    "city": "London",
+    "cityName": "London",
+    "source": "specialty-finder",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "confidence": 95,
+    "specialty": true
+  }
+]

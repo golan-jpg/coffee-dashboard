@@ -2051,22 +2051,12 @@ function App() {
   const [selectedCafe, setSelectedCafe] = useState(null);
   const [pinnedCafeId, setPinnedCafeId] = useState(null);
   const [minScore, setMinScore] = useState(0);
-  const [dataMode, setDataMode] = useState(() => {
-    const savedMode = localStorage.getItem("dataMode");
-    return DATA_MODES.includes(savedMode) ? savedMode : "combined";
-  });
+  const [dataMode, setDataMode] = useState("combined");
   const [googleFilterMode, setGoogleFilterMode] = useState(() => {
     const savedFilter = localStorage.getItem("googleFilterMode");
     return GOOGLE_FILTER_MODES.includes(savedFilter) ? savedFilter : "coffeeOnly";
   });
   const [fetchCounter, setFetchCounter] = useState(0);
-  // label for UI badge
-  const modeLabel =
-    dataMode === "google"
-      ? "Google Lists"
-      : dataMode === "osm"
-        ? "OSM"
-        : "Combined";
 
   // retry button handler
   const retryFetch = () => setFetchCounter((c) => c + 1);
@@ -3638,7 +3628,6 @@ function App() {
             </div>
             <div className="sidebar-header-right">
               <span className="city-name">{getDisplayCityName(selectedCity.name)}</span>
-              <span className="mode-badge">{modeLabel}</span>
               {loading && dataMode !== "google" && <span className="loading">Loading...</span>}
               {(!loading || dataMode === "google") && <span className="count">{effectivePlaces.length} found</span>}
               {(!loading && dataMode !== "google" && osmUnnamedFilteredCount > 0) && (
@@ -3665,12 +3654,6 @@ function App() {
             </div>
           )}
 
-          <div className="mode-toggle">
-            <button className={dataMode === "google" ? "active" : ""} onClick={() => setDataMode("google")}>Google Lists</button>
-            <button className={dataMode === "osm" ? "active" : ""} onClick={() => setDataMode("osm")}>OSM Discovery</button>
-            <button className={dataMode === "combined" ? "active" : ""} onClick={() => setDataMode("combined")}>Combined</button>
-          </div>
-          
           <div className="search-controls">
             <input
               type="search"

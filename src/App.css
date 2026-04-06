@@ -1542,8 +1542,8 @@ hide-button:hover {
 
   .map-container {
     order: 2;
-    min-height: 220px;
-    height: min(26vh, 280px);
+    min-height: 300px;
+    height: min(38vh, 420px);
     border-radius: 14px;
     overflow: hidden;
     margin: 0.15rem 0.4rem 0.25rem;
@@ -1823,8 +1823,8 @@ hide-button:hover {
   }
 
   .map-container {
-    min-height: 200px;
-    height: min(24vh, 240px);
+    min-height: 260px;
+    height: min(34vh, 340px);
   }
 
   .sidebar-header-content {

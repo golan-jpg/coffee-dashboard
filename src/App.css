@@ -1562,6 +1562,10 @@ hide-button:hover {
     touch-action: none !important;
   }
 
+  .map-container.map-selection-active .leaflet-container {
+    touch-action: none !important;
+  }
+
   .map-container.map-interaction-locked .leaflet-control-zoom {
     opacity: 0;
     pointer-events: none;

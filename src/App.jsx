@@ -2622,6 +2622,7 @@ function App() {
   const [showMapTouchHint, setShowMapTouchHint] = useState(false);
   const mapContainerRef = useRef(null);
   const [showScoreLabels, setShowScoreLabels] = useState(false);
+  const hasActivePlaceSelection = Boolean(pinnedCafeId || selectedCafe?.id);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -2642,7 +2643,7 @@ function App() {
   useEffect(() => {
     if (!mapInstance) return;
 
-    const allowFullMapGestures = !isMobileTouch || mapInteractionEnabled;
+    const allowFullMapGestures = !isMobileTouch || mapInteractionEnabled || hasActivePlaceSelection;
 
     if (mapInstance.dragging) {
       if (allowFullMapGestures) mapInstance.dragging.enable();
@@ -2668,7 +2669,13 @@ function App() {
       if (allowFullMapGestures) mapInstance.keyboard.enable();
       else mapInstance.keyboard.disable();
     }
-  }, [mapInstance, isMobileTouch, mapInteractionEnabled]);
+  }, [mapInstance, isMobileTouch, mapInteractionEnabled, hasActivePlaceSelection]);
+
+  useEffect(() => {
+    if (!isMobileTouch) return;
+    if (!hasActivePlaceSelection) return;
+    setMapInteractionEnabled(true);
+  }, [isMobileTouch, hasActivePlaceSelection]);
 
   useEffect(() => {
     if (!isMobileTouch) {
@@ -2724,14 +2731,14 @@ function App() {
   }, [isMobileTouch, mapInteractionEnabled, addMode]);
 
   useEffect(() => {
-    if (!isMobileTouch || !mapInteractionEnabled || addMode) return;
+    if (!isMobileTouch || !mapInteractionEnabled || addMode || hasActivePlaceSelection) return;
 
     const timeoutId = window.setTimeout(() => {
       setMapInteractionEnabled(false);
     }, 6500);
 
     return () => window.clearTimeout(timeoutId);
-  }, [isMobileTouch, mapInteractionEnabled, addMode]);
+  }, [isMobileTouch, mapInteractionEnabled, addMode, hasActivePlaceSelection]);
 
   // Re-score cafes when scoring mode or custom weights change
   const cafes = useMemo(() => {
@@ -3733,9 +3740,9 @@ function App() {
 
         <div
           ref={mapContainerRef}
-          className={`map-container ${isMobileTouch ? (mapInteractionEnabled ? "map-interaction-enabled" : "map-interaction-locked") : ""}`}
+          className={`map-container ${isMobileTouch ? (mapInteractionEnabled || hasActivePlaceSelection ? "map-interaction-enabled" : "map-interaction-locked") : ""} ${hasActivePlaceSelection ? "map-selection-active" : ""}`}
         >
-          {isMobileTouch && !mapInteractionEnabled && !addMode && (
+          {isMobileTouch && !mapInteractionEnabled && !hasActivePlaceSelection && !addMode && (
             <div className={`map-touch-hint ${showMapTouchHint ? "visible" : ""}`}>
               Use two fingers to move the map
             </div>

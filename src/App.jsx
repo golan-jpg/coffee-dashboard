@@ -574,15 +574,19 @@ async function reverseGeocodeLatLon(lat, lon) {
 function flattenGoogleListsData(data) {
   const lists = Array.isArray(data?.lists) ? data.lists : [];
   return lists.flatMap((list, listIdx) =>
-    (Array.isArray(list?.places) ? list.places : []).map((place, placeIdx) => ({
-      id: `google-${listIdx}-${placeIdx}`,
-      name: place.name,
-      lat: Number(place.latitude ?? place.lat),
-      lon: Number(place.longitude ?? place.lon),
-      address: extractPlaceAddress(place),
-      googleMapsUrl: place.googleMapsUrl,
-      source: "google",
-    }))
+    (Array.isArray(list?.places) ? list.places : []).map((place, placeIdx) => {
+      const coords = getFiniteLatLon(place) || { lat: null, lon: null };
+
+      return {
+        id: `google-${listIdx}-${placeIdx}`,
+        name: place.name,
+        lat: coords.lat,
+        lon: coords.lon,
+        address: extractPlaceAddress(place),
+        googleMapsUrl: place.googleMapsUrl,
+        source: "google",
+      };
+    })
   );
 }
 
@@ -975,15 +979,136 @@ function getCityFilterRadiusKm(cityName) {
   // Use overpass radius directly, min 3.5km for small cities
   return Math.min(CITY_FILTER_RADIUS_KM, Math.max(3.5, overpassKm));
 }
-function getFiniteLatLon(place) {
-  const lat = Number(place?.lat);
-  const lon = Number(place?.lon);
-  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
-  return { lat, lon };
+
+const loggedSwappedCoordinatePlaceIds = new Set();
+const swappedCoordinateListeners = new Set();
+
+function subscribeSwappedCoordinateEvents(listener) {
+  if (typeof listener !== "function") return () => {};
+  swappedCoordinateListeners.add(listener);
+  return () => {
+    swappedCoordinateListeners.delete(listener);
+  };
+}
+
+function notifySwappedCoordinate(place, selectedCity, finalCoords) {
+  const payload = {
+    id: place?.id || null,
+    name: place?.name || null,
+    city: selectedCity?.name || null,
+    finalLat: finalCoords?.lat ?? null,
+    finalLon: finalCoords?.lon ?? null,
+    total: loggedSwappedCoordinatePlaceIds.size,
+  };
+
+  swappedCoordinateListeners.forEach((listener) => {
+    try {
+      listener(payload);
+    } catch {
+      // ignore debug-listener failures
+    }
+  });
+}
+
+function parseNumericCoordinate(value) {
+  if (value === null || value === undefined) return null;
+  if (typeof value === "number") return Number.isFinite(value) ? value : null;
+
+  const normalized = String(value).trim().replace(",", ".");
+  if (!normalized) return null;
+
+  const parsed = Number(normalized);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function normalizeLatLonPair(lat, lon, selectedCity) {
+  const directValid = Math.abs(lat) <= 90 && Math.abs(lon) <= 180;
+  const swappedValid = Math.abs(lon) <= 90 && Math.abs(lat) <= 180;
+
+  if (!directValid && !swappedValid) return null;
+
+  if (selectedCity && directValid && swappedValid) {
+    const directDistance = haversineKm(selectedCity.lat, selectedCity.lon, lat, lon);
+    const swappedDistance = haversineKm(selectedCity.lat, selectedCity.lon, lon, lat);
+
+    if (Number.isFinite(swappedDistance) && Number.isFinite(directDistance) && swappedDistance + 0.2 < directDistance) {
+      return { lat: lon, lon: lat, swapped: true };
+    }
+
+    return { lat, lon, swapped: false };
+  }
+
+  if (directValid) return { lat, lon, swapped: false };
+  if (swappedValid) return { lat: lon, lon: lat, swapped: true };
+  return null;
+}
+
+function getFiniteLatLon(place, selectedCity = null) {
+  const latCandidates = [
+    place?.lat,
+    place?.latitude,
+    place?.coords?.lat,
+    place?.location?.lat,
+  ]
+    .map(parseNumericCoordinate)
+    .filter((value) => value !== null);
+
+  const lonCandidates = [
+    place?.lon,
+    place?.lng,
+    place?.longitude,
+    place?.coords?.lon,
+    place?.coords?.lng,
+    place?.location?.lon,
+    place?.location?.lng,
+  ]
+    .map(parseNumericCoordinate)
+    .filter((value) => value !== null);
+
+  if (latCandidates.length === 0 || lonCandidates.length === 0) return null;
+
+  let best = null;
+
+  for (let latIndex = 0; latIndex < latCandidates.length; latIndex += 1) {
+    for (let lonIndex = 0; lonIndex < lonCandidates.length; lonIndex += 1) {
+      const normalized = normalizeLatLonPair(latCandidates[latIndex], lonCandidates[lonIndex], selectedCity);
+      if (!normalized) continue;
+
+      const priorityPenalty = latIndex * 0.001 + lonIndex * 0.001;
+      const distanceScore = selectedCity
+        ? haversineKm(selectedCity.lat, selectedCity.lon, normalized.lat, normalized.lon)
+        : 0;
+      const score = (Number.isFinite(distanceScore) ? distanceScore : Number.MAX_SAFE_INTEGER) + priorityPenalty;
+
+      if (!best || score < best.score) {
+        best = { ...normalized, score };
+      }
+    }
+  }
+
+  if (!best) return null;
+
+  if (import.meta.env.DEV && best.swapped) {
+    const placeKey = String(place?.id || `${place?.name || "unknown"}:${best.lat.toFixed(5)}:${best.lon.toFixed(5)}`);
+    if (!loggedSwappedCoordinatePlaceIds.has(placeKey)) {
+      loggedSwappedCoordinatePlaceIds.add(placeKey);
+      const payload = {
+        id: place?.id || null,
+        name: place?.name || null,
+        city: selectedCity?.name || null,
+        finalLat: best.lat,
+        finalLon: best.lon,
+      };
+      console.warn("[coords] swapped lat/lon", payload);
+      notifySwappedCoordinate(place, selectedCity, best);
+    }
+  }
+
+  return { lat: best.lat, lon: best.lon };
 }
 
 function isPlaceWithinCityRadius(place, selectedCity, radiusKm = CITY_FILTER_RADIUS_KM) {
-  const coords = getFiniteLatLon(place);
+  const coords = getFiniteLatLon(place, selectedCity);
   if (!coords || !selectedCity) return false;
   return haversineKm(selectedCity.lat, selectedCity.lon, coords.lat, coords.lon) <= radiusKm;
 }
@@ -1978,6 +2103,15 @@ function App() {
   const [userLocation, setUserLocation] = useState(null);
   const [isTrackingUserLocation, setIsTrackingUserLocation] = useState(false);
   const [userLocationError, setUserLocationError] = useState("");
+  const [devSwappedCoordsCount, setDevSwappedCoordsCount] = useState(() => loggedSwappedCoordinatePlaceIds.size);
+
+  useEffect(() => {
+    if (!import.meta.env.DEV) return undefined;
+    setDevSwappedCoordsCount(loggedSwappedCoordinatePlaceIds.size);
+    return subscribeSwappedCoordinateEvents((payload) => {
+      setDevSwappedCoordsCount(payload.total);
+    });
+  }, []);
 
   const stopUserLocationTracking = () => {
     if (typeof window !== "undefined" && window.navigator?.geolocation && geolocationWatchRef.current != null) {
@@ -3273,7 +3407,7 @@ function App() {
     if (cityAutoFitRef.current.fittedWithPlaces) return;
 
     const latlngs = effectiveMappablePlaces
-      .map((place) => getFiniteLatLon(place))
+      .map((place) => getFiniteLatLon(place, selectedCity))
       .filter(Boolean)
       .map((coords) => [coords.lat, coords.lon]);
 
@@ -3301,7 +3435,7 @@ function App() {
     if (!mapInstance) return;
     if (!effectiveMappablePlaces || effectiveMappablePlaces.length === 0) return;
     const latlngs = effectiveMappablePlaces
-      .map((place) => getFiniteLatLon(place))
+      .map((place) => getFiniteLatLon(place, selectedCity))
       .filter(Boolean)
       .map((coords) => [coords.lat, coords.lon]);
 
@@ -3589,6 +3723,11 @@ function App() {
                 {Number.isFinite(userLocation.accuracy) ? ` (±${Math.round(userLocation.accuracy)}m)` : ""}
               </div>
             )}
+            {import.meta.env.DEV && devSwappedCoordsCount > 0 && (
+              <div className="location-hint" title="Number of unique places where lat/lon was auto-swapped in this session">
+                Coord swaps (session): {devSwappedCoordsCount}
+              </div>
+            )}
           </div>
         </aside>
 
@@ -3661,7 +3800,7 @@ function App() {
 
             {effectiveMappablePlaces.map(place => (
               (() => {
-                const coords = getFiniteLatLon(place);
+                const coords = getFiniteLatLon(place, selectedCity);
                 if (!coords) return null;
                 const placeAddress = getPlaceAddress(place);
                 const openNowStatus = getPlaceOpenNowStatus(place);
@@ -3747,7 +3886,7 @@ function App() {
           </MapContainer>
         </div>
 
-        <aside className="sidebar sidebar-bottom" ref={sidebarRef}>
+        <aside className={`${isMobileTouch ? "mobile-bottom-panel" : "sidebar"} sidebar-bottom`} ref={sidebarRef}>
 
           <details className="advanced-tools">
             <summary>Advanced tools</summary>
@@ -4141,7 +4280,7 @@ function App() {
                   )}
                   <div className="cafe-header">
                     <span className="cafe-name">{place.name}</span>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 4, position: 'absolute', top: 8, right: 8 }}>
+                    <div className="cafe-actions">
                       <button
                         className="hide-button"
                         aria-label="Edit"
@@ -4169,7 +4308,6 @@ function App() {
                           className="remove-button"
                           aria-label="Remove"
                           title="Remove this place from the site"
-                          style={{ color: 'red', fontWeight: 'bold', background: 'none', border: 'none', cursor: 'pointer', fontSize: 18 }}
                           onClick={(e) => {
                             e.stopPropagation();
                             if (window.confirm('האם אתה בטוח שברצונך להסיר את המקום הזה?')) {

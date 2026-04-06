@@ -3630,9 +3630,6 @@ function App() {
               <span className="city-name">{getDisplayCityName(selectedCity.name)}</span>
               {loading && dataMode !== "google" && <span className="loading">Loading...</span>}
               {(!loading || dataMode === "google") && <span className="count">{effectivePlaces.length} found</span>}
-              {(!loading && dataMode !== "google" && osmUnnamedFilteredCount > 0) && (
-                <span className="count">{osmUnnamedFilteredCount} no-name hidden</span>
-              )}
               {nearestPlaceInfo && (
                 <span className="nearest-badge" title={nearestPlaceInfo.place.name}>
                   Nearest: {nearestPlaceInfo.place.name} ({formatDistance(nearestPlaceInfo.distanceKm)})
@@ -3957,12 +3954,6 @@ function App() {
             )}
           </div>
 
-          <div className="hidden-manager">
-            <span>Hidden: {hiddenPlaceIds.length}</span>
-            <button className="reset-hidden" onClick={() => setHiddenPlaceIds([])}>Reset hidden</button>
-            <button className="reset-hidden" onClick={resetAllFilters}>Reset all filters</button>
-          </div>
-
           {editingPlaceOverrideId && (
             <div className="manual-panel">
               <div className="manual-panel-header">
@@ -4054,137 +4045,6 @@ function App() {
                 ))}
               </ul>
             </details>
-          )}
-
-          {dataMode !== "google" && (
-            <div className="manual-panel">
-              <div className="manual-panel-header">
-                <strong>Manual places: {manualPlacesForCity.length}</strong>
-                <button
-                  className={`fit-button${addMode ? " fit-button-active" : ""}`}
-                  onClick={() => {
-                    setAddMode((prev) => {
-                      const next = !prev;
-                      if (!next) setPickedPoint(null);
-                      return next;
-                    });
-                  }}
-                  title="Toggle map pick mode"
-                  type="button"
-                >
-                  {addMode ? "Picking: ON" : "Pick on map"}
-                </button>
-              </div>
-
-              <div className="manual-panel-actions">
-                <button
-                  className="reset-hidden"
-                  type="button"
-                  onClick={() => {
-                    setEditingManualId(null);
-                    setShowManualForm((prev) => !prev);
-                  }}
-                >
-                  {showManualForm ? "Hide form" : "Add manual place"}
-                </button>
-                {addMode && <span className="manual-pick-hint">Click on map to fill lat/lon</span>}
-              </div>
-
-              {showManualForm && (
-                <form className="manual-form" onSubmit={handleManualSubmit}>
-                  {addingManual && (
-                    <div style={{ color: '#1976d2', marginBottom: 8, fontWeight: 500 }}>
-                      Adding place...
-                    </div>
-                  )}
-                  <input
-                    type="text"
-                    placeholder="Name"
-                    value={manualForm.name}
-                    onChange={(e) => setManualForm((prev) => ({ ...prev, name: e.target.value }))}
-                    required
-                  />
-                  <input
-                    type="text"
-                    placeholder="Address (optional)"
-                    value={manualForm.address || ""}
-                    onChange={async (e) => {
-                      const address = e.target.value;
-                      setManualForm((prev) => ({ ...prev, address }));
-                      if (address.length > 5) {
-                        try {
-                          const coords = await geocodeAddress(address);
-                          if (coords) {
-                            setManualForm((prev) => ({ ...prev, lat: coords.lat, lon: coords.lon }));
-                            setGeocodeError(null);
-                          } else {
-                            setGeocodeError("Could not find coordinates for this address.");
-                          }
-                        } catch (err) {
-                          setGeocodeError("Geocoding failed. Please try again.");
-                        }
-                      } else {
-                        setGeocodeError(null);
-                      }
-                    }}
-                  />
-                  {geocodeError && (
-                    <div style={{ color: 'red', marginBottom: 8 }}>{geocodeError}</div>
-                  )}
-                  <div className="manual-form-row">
-                    <input
-                      type="number"
-                      step="any"
-                      placeholder="Latitude"
-                      value={manualForm.lat}
-                      onChange={(e) => setManualForm((prev) => ({ ...prev, lat: e.target.value }))}
-                      required={!manualForm.address}
-                    />
-                    <input
-                      type="number"
-                      step="any"
-                      placeholder="Longitude"
-                      value={manualForm.lon}
-                      onChange={(e) => setManualForm((prev) => ({ ...prev, lon: e.target.value }))}
-                      required={!manualForm.address}
-                    />
-                  </div>
-
-                  <textarea
-                    rows={2}
-                    placeholder="Notes (optional)"
-                    value={manualForm.notes}
-                    onChange={(e) => setManualForm((prev) => ({ ...prev, notes: e.target.value }))}
-                  />
-                  <div className="manual-form-actions">
-                    <button className="reset-hidden" type="submit">
-                      {editingManualId ? "Save changes" : "Add place"}
-                    </button>
-                    <button className="reset-hidden" type="button" onClick={resetManualFormState}>
-                      Cancel
-                    </button>
-                  </div>
-                </form>
-              )}
-
-              {manualPlacesForCity.length > 0 && (
-                <ul className="manual-list">
-                  {manualPlacesForCity.map((place) => (
-                    <li key={place.id} className="manual-list-item">
-                      <div className="manual-list-main">
-                        <span className="manual-list-name">{place.name}</span>
-                        <span className="manual-list-coords">{place.address || "Address not available"}</span>
-                        {place.notes && <span className="manual-list-notes">{place.notes}</span>}
-                      </div>
-                      <div className="manual-list-actions">
-                        <button className="reset-hidden" type="button" onClick={() => handleManualEdit(place)}>Edit</button>
-                        <button className="reset-hidden" type="button" onClick={() => handleManualDelete(place.id)}>Delete</button>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
           )}
 
           {auditMode && (
@@ -4285,13 +4145,6 @@ function App() {
                         }}
                       >
                         ✎
-                      </button>
-                      <button
-                        className="hide-button"
-                        aria-label="Hide"
-                        onClick={(e) => { e.stopPropagation(); handleHidePlace(place.id); }}
-                      >
-                        ×
                       </button>
                       {true && (
                         <button

@@ -370,6 +370,20 @@ function isPlaceInSelectedCityScope(place, selectedCity, candidateCities) {
   return true;
 }
 
+function isLikelyOffshoreOutlier(place, selectedCity) {
+  if (!selectedCity?.name) return false;
+
+  const coords = getFiniteLatLon(place, selectedCity);
+  if (!coords) return false;
+
+  if (selectedCity.name === "Tel Aviv") {
+    const estimatedCoastLon = 34.742 + (coords.lat - 32.02) * 0.35;
+    return coords.lon < (estimatedCoastLon - 0.0015);
+  }
+
+  return false;
+}
+
 function isCoffeePlace(place) {
   const text = [place.name, place.address, place.description]
     .filter(Boolean)
@@ -2809,13 +2823,15 @@ function App() {
       .filter((cafe) => hasManualUserRating(cafe.id, userRatings) || cafe.specialtyScore >= minScore)
       .filter((cafe) => cafe.placeType === "coffee")
       .filter((cafe) => isPlaceInSelectedCityScope(cafe, selectedCity, localScopeCities))
+      .filter((cafe) => !isLikelyOffshoreOutlier(cafe, selectedCity))
       .filter((cafe) => isStrictOsmCoffeePlace(cafe, selectedCity.name)),
     selectedCity.name
   );
 
   const filteredGooglePlaces = useMemo(
     () => dedupePlaces(
-      filterGooglePlacesByModeAndCity(googlePlaces, googleFilterMode, selectedCity, cityFilterRadiusKm, localScopeCities),
+      filterGooglePlacesByModeAndCity(googlePlaces, googleFilterMode, selectedCity, cityFilterRadiusKm, localScopeCities)
+        .filter((place) => !isLikelyOffshoreOutlier(place, selectedCity)),
       selectedCity.name
     ),
     [googlePlaces, googleFilterMode, selectedCity, cityFilterRadiusKm, localScopeCities]
@@ -2920,6 +2936,7 @@ function App() {
     return sourcePlaces.filter((place) => (
       !isPlaceHidden(place, hiddenPlaceIds)
       && isPlaceInSelectedCityScope(place, selectedCity, localScopeCities)
+      && !isLikelyOffshoreOutlier(place, selectedCity)
     ));
   }, [dataMode, scoredGooglePlaces, filteredCafes, hiddenPlaceIds, selectedCity, localScopeCities]);
 
@@ -2932,7 +2949,8 @@ function App() {
         ...applyPlaceFieldOverrides(place, placeOverrides),
         __seededRawIndex: rawIndex,
       }))
-      .filter((place) => isPlaceInSelectedCityScope(place, selectedCity, localScopeCities));
+      .filter((place) => isPlaceInSelectedCityScope(place, selectedCity, localScopeCities))
+      .filter((place) => !isLikelyOffshoreOutlier(place, selectedCity));
     const config = {
       baseline: 50,
       ...customWeights,

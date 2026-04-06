@@ -7,7 +7,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "manual update from provided address (Levinski 61)"
+    "notes": "manual update from provided address (Levinski 61)",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFdr5Tw9k0tj3To246SB-cVM4yZGoVMI77CRutUJoBB0klFldK_R-pkTIy9Kn-Cm-EWi7UWErdzeAL1_a4IdfqMvjxWlKKq-g=s4800-w800"
   },
   {
     "id": "manual-tel-aviv-loki-coffee",
@@ -19,7 +20,8 @@
     "isSpecialty": true,
     "specialtyScore": 90,
     "needsCoords": false,
-    "notes": "הוזן ידנית ע\"י המשתמש, דירוג 4 כוכבים בריסטה."
+    "notes": "הוזן ידנית ע\"י המשתמש, דירוג 4 כוכבים בריסטה.",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFR0vcW-iznMci7AMbsyrIdXoF43TPKaOScIUx8EqD92k7mmGN65irn2kk6uUXO0p70ndcBNEqQpReqZgyDwon-z0GYN9aJtg=s4800-w800"
   },
   {
     "id": "manual-tel-aviv-origem-coffee",
@@ -31,7 +33,8 @@
     "isSpecialty": true,
     "specialtyScore": 80,
     "needsCoords": false,
-    "notes": "הוזן ידנית, ציון 80"
+    "notes": "הוזן ידנית, ציון 80",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFaqMeoqfOBVJP9-TIY0ox6p-DAERBTVYHICdWynmzMAx_nwoUXhgFdgw2kLQhOvUbi6BqpYB1mTEskMrFbH7WSiAiEjAvVjfuSEFNK3QqQhozU2C8Am7v32hRALKTFLMlWC1Uj3m0glTu8=s4800-w800"
   },
   {
     "name": "Café Levinsky 41",
@@ -41,7 +44,8 @@
     "needsCoords": false,
     "lat": 32.0598436,
     "lon": 34.7716925,
-    "notes": "geocoded (Café Levinsky 41, Tel Aviv, ישראל)"
+    "notes": "geocoded (Café Levinsky 41, Tel Aviv, ישראל)",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEOqwWBg4VdvicAhSiZmKrvHW8vEPR28s2keASfyVpO1IbYuw9M5MC29ala_XdBqM_WntKAYg9tNJ3G4fwIrkCKA0b_XpNpRw=s4800-w800"
   },
   {
     "name": "Nahat Coffee",
@@ -51,7 +55,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "added from OSM branch match"
+    "notes": "added from OSM branch match",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFE38RQSDyr2tf3yScipGrnxWYYEf7r9nt-sGclDJToS0izplWnn9lKJmrnCW67xqJueiY1O6ynDc3wXObcChIrxKmzsuUTFK-1Zkel-bH7_6eI7BdxmsCOe0pg7aaesujoSUSgn0UTbM95=s4800-w800"
   },
   {
     "name": "Cafelix Shlomo Hamelech",
@@ -61,7 +66,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "added from Google list coordinates"
+    "notes": "added from Google list coordinates",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFpcfzV811LQHGh8ecvWeOFAFbCJh5M2yqE7l58oejEJFMDBhmL8HTPzhZNVxdgNYQ-k0kZ38t4wDY4M8f3y2r-WL_BnztN=s4800-w800"
   },
   {
     "name": "Cafelix - Jaffa",
@@ -71,7 +77,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "added from OSM branch match"
+    "notes": "added from OSM branch match",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGoyfaRVI6k3O5GH7CeGJHJ8h-B5-7N5cUjiU_hBg69eSpCnvjSPL9635iygTLLl_re7Xgjb-xrPfwLzym9TZfnHVRDn31QzA=s4800-w800"
   },
   {
     "name": "Cafelix - Levinsky",
@@ -81,7 +88,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "added from OSM branch match"
+    "notes": "added from OSM branch match",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE6XPfe3V3f1V1e4Z92P-8r14WETj9qcQGCHfV4o01pLYsCFrtn2d3NnkdVDbg0u_cTbqZiJGQ0xa3AqYtxYf80efHkmhtK4A=s4800-w800"
   },
   {
     "name": "HOC",
@@ -91,7 +99,8 @@
     "needsCoords": false,
     "lat": 32.0651297,
     "lon": 34.7668321,
-    "notes": "matched to OSM: House of Coffee"
+    "notes": "matched to OSM: House of Coffee",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHr1TLCkROmXxh84MsrtQrAPDlmW_15elWqy08JVDyMFeAyI0Ss95TxGIfi80-A2l4sbOel7veFvzH8tTN0FWQLHC40fuNJxRTwuew-mDWPEjcw9LrZQla6CfG1Cb8LAeJvBJraUyT01WS0=s4800-w800"
   },
   {
     "name": "MEA",
@@ -101,7 +110,8 @@
     "needsCoords": true,
     "lat": null,
     "lon": null,
-    "notes": "requested by user; still needs exact branch/address confirmation"
+    "notes": "requested by user; still needs exact branch/address confirmation",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGRsHFHjuvAxyGYIOwWlDa_oqGNwC5H80QXVLUpir21OyMkREedM6aDPJfbflCFiOJm8VzYC0r03A-7YIv_7B5eID7D3zSnDA=s4800-w800"
   },
   {
     "name": "Mae - אבן גבירול",
@@ -111,7 +121,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "Mae Cafe branch, specialty roaster chain"
+    "notes": "Mae Cafe branch, specialty roaster chain",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGRsHFHjuvAxyGYIOwWlDa_oqGNwC5H80QXVLUpir21OyMkREedM6aDPJfbflCFiOJm8VzYC0r03A-7YIv_7B5eID7D3zSnDA=s4800-w800"
   },
   {
     "name": "Mae - מונטיפיורי",
@@ -121,7 +132,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "Mae Cafe branch, specialty roaster chain"
+    "notes": "Mae Cafe branch, specialty roaster chain",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGouVGP-BKTXcDhYLFq8dXnp_g2cWhVd1Uc9enh-6XIcRa_cg8dPrJKEdxTFvKtnVDwGv1WrFbSG8GOHZp6H62HVSiBKtrvhQ=s4800-w800"
   },
   {
     "name": "Mae - שרונה",
@@ -131,7 +143,8 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "Mae Cafe branch, specialty roaster chain"
+    "notes": "Mae Cafe branch, specialty roaster chain",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFNljXZb7vgLADAfAdP8CcsDM39-qmN1dSbt2h3xLJYyAjrlFmzrESuKPN1HQQOA8VAVyl1DQzkeRsiSwuCYcEAs4DKTLWzJQ=s4800-w800"
   },
   {
     "name": "Nomena Roasters",
@@ -143,7 +156,8 @@
     "isSpecialty": true,
     "notes": "בית קפה ובית קלייה. ציון 4.8 בגוגל.",
     "lat": 32.0655,
-    "lon": 34.7707
+    "lon": 34.7707,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHyV9NjKL8datfYytmeMAvyV6m9AHZMGHtA52ZZIaOcWysBGcR2RtG_dE1hk22BxlNfVOSPiOUO9_wZknvkG6RFHs45CRbdjg=s4800-w800"
   },
   {
     "id": "seeded-telaviv-ada-hanina-cafe",

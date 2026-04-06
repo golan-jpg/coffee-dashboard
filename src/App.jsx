@@ -2103,6 +2103,51 @@ function App() {
     });
   }, []);
 
+  const PRIMARY_GEOLOCATION_OPTIONS = {
+    enableHighAccuracy: true,
+    maximumAge: 15000,
+    timeout: 20000,
+  };
+
+  const FALLBACK_GEOLOCATION_OPTIONS = {
+    enableHighAccuracy: false,
+    maximumAge: 120000,
+    timeout: 20000,
+  };
+
+  const applyGeolocationSuccess = (position) => {
+    setUserLocation({
+      lat: position.coords.latitude,
+      lon: position.coords.longitude,
+      accuracy: position.coords.accuracy,
+    });
+    setUserLocationError("");
+  };
+
+  const applyGeolocationError = (error) => {
+    if (error?.code === 1) {
+      setUserLocationError("Location permission was denied. Allow location in browser site settings and try again.");
+    } else if (error?.code === 2) {
+      setUserLocationError("Unable to get current location. Check GPS/network and try again.");
+    } else if (error?.code === 3) {
+      setUserLocationError("Location request timed out. Please try again.");
+    } else {
+      setUserLocationError("Failed to track your location.");
+    }
+    setIsTrackingUserLocation(false);
+    geolocationWatchRef.current = null;
+  };
+
+  const beginGeolocationWatch = (options = PRIMARY_GEOLOCATION_OPTIONS) => {
+    if (typeof window === "undefined" || !window.navigator?.geolocation) return;
+
+    geolocationWatchRef.current = window.navigator.geolocation.watchPosition(
+      applyGeolocationSuccess,
+      applyGeolocationError,
+      options
+    );
+  };
+
   const stopUserLocationTracking = () => {
     if (typeof window !== "undefined" && window.navigator?.geolocation && geolocationWatchRef.current != null) {
       window.navigator.geolocation.clearWatch(geolocationWatchRef.current);
@@ -2117,6 +2162,22 @@ function App() {
       return;
     }
 
+    if (!window.isSecureContext) {
+      setUserLocationError("Location requires HTTPS secure context.");
+      return;
+    }
+
+    if (window.navigator?.permissions?.query) {
+      window.navigator.permissions
+        .query({ name: "geolocation" })
+        .then((result) => {
+          if (result?.state === "denied") {
+            setUserLocationError("Location permission is blocked in browser settings.");
+          }
+        })
+        .catch(() => {});
+    }
+
     if (geolocationWatchRef.current != null) {
       window.navigator.geolocation.clearWatch(geolocationWatchRef.current);
       geolocationWatchRef.current = null;
@@ -2125,32 +2186,20 @@ function App() {
     setUserLocationError("");
     setIsTrackingUserLocation(true);
 
-    geolocationWatchRef.current = window.navigator.geolocation.watchPosition(
+    window.navigator.geolocation.getCurrentPosition(
       (position) => {
-        setUserLocation({
-          lat: position.coords.latitude,
-          lon: position.coords.longitude,
-          accuracy: position.coords.accuracy,
-        });
-        setUserLocationError("");
+        applyGeolocationSuccess(position);
+        beginGeolocationWatch(PRIMARY_GEOLOCATION_OPTIONS);
       },
       (error) => {
         if (error?.code === 1) {
-          setUserLocationError("Location permission was denied");
-        } else if (error?.code === 2) {
-          setUserLocationError("Unable to get current location");
-        } else if (error?.code === 3) {
-          setUserLocationError("Location request timed out");
-        } else {
-          setUserLocationError("Failed to track your location");
+          applyGeolocationError(error);
+          return;
         }
-        setIsTrackingUserLocation(false);
+
+        beginGeolocationWatch(FALLBACK_GEOLOCATION_OPTIONS);
       },
-      {
-        enableHighAccuracy: true,
-        maximumAge: 15000,
-        timeout: 20000,
-      }
+      PRIMARY_GEOLOCATION_OPTIONS
     );
   };
 

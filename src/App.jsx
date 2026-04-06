@@ -2923,14 +2923,7 @@ function App() {
     ));
   }, [dataMode, scoredGooglePlaces, filteredCafes, hiddenPlaceIds, selectedCity, localScopeCities]);
 
-  const manualPlacesForCity = useMemo(
-    () => dedupePlaces(manualPlaces.filter((place) => {
-      if (!isPlaceInSelectedCityScope(place, selectedCity, localScopeCities)) return false;
-      // ...existing code...
-      return !place?.cityName || place.cityName === selectedCity.name;
-    }), selectedCity.name),
-    [manualPlaces, selectedCity, localScopeCities]
-  );
+  const manualPlacesForCity = useMemo(() => [], []);
 
   // Seeded (curated) places for the selected city — always shown regardless of mode
   const seededCityPlaces = useMemo(() => {
@@ -3029,16 +3022,16 @@ function App() {
     });
   }, [seededLegacyToStableIdMap]);
 
-  // ✅ manual + seeded נכנסים לפני ה-UI filtering (except Google-only mode)
+  // ✅ seeded נכנסים לפני ה-UI filtering
   const displayedPlaces = useMemo(() => {
-    const base = dataMode === "google" ? baseDisplayedPlaces : [...manualPlacesForCity, ...baseDisplayedPlaces];
+    const base = baseDisplayedPlaces;
     const baseNames = new Set(base.map((p) => (p.name || "").toLowerCase()));
     const newSeeded = seededCityPlaces.filter((p) => !baseNames.has((p.name || "").toLowerCase()));
 
     // ...existing code...
     const allPlaces = dedupePlaces([...newSeeded, ...base], selectedCity.name);
     return allPlaces;
-  }, [dataMode, manualPlacesForCity, baseDisplayedPlaces, seededCityPlaces, selectedCity.name]);
+  }, [baseDisplayedPlaces, seededCityPlaces, selectedCity.name]);
 
   const availableAreas = useMemo(() => {
     const areas = Array.from(

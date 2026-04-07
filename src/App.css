@@ -1902,9 +1902,10 @@ html, body, #root {
   }
 
   .city-selector-panel {
-    margin-top: 0.25rem;
+    margin: 0.75rem;
     padding: 0.85rem;
     gap: 0.75rem;
+    border-radius: 20px;
   }
 
   .city-selector {

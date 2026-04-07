@@ -1,1 +1,82 @@
-[{"name": "Kofein", "lat": 50.016445, "lon": 36.226411, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Makers", "lat": 49.997162, "lon": 36.2392078, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cats and Coffee", "lat": 50.0029161, "lon": 36.2471576, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MORE", "lat": 50.0081333, "lon": 36.2220214, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Some Like It Hot", "lat": 50.0110067, "lon": 36.2413106, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kytyk", "lat": 50.0710196, "lon": 36.2078838, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pakufuda", "lat": 50.0053656, "lon": 36.2246679, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "HALF AN HOUR", "lat": 50.0106686, "lon": 36.2451122, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Kofein",
+    "lat": 50.016445,
+    "lon": 36.226411,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEPqziU147KsVZnPDWAlZE99-0qpWD3S9UX-VODgL2dzm2dktdbzDJwT5ODkPOdsvMFCgdLABi0uD5TekfMJY2oT4yApZAtq8X0P1AyAAYL1hhYxRYWJGifQlflOvt-owdlXVDJ-EvLXtLF0BEcdr7l=s4800-w800"
+  },
+  {
+    "name": "Makers",
+    "lat": 49.997162,
+    "lon": 36.2392078,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFJwDvjLUPOwvmGLBlTWa0qNnuYipMRx4z_5_cpTM1zmHtezigCa84d5P0JuK5tZ_vH02nesNY0Kxtrcz-6TUfRyGOBA-7ukqKpHTJ1DbN1wbQPfpGgylnNrukvVOS5G4rH_JON669H8cmKFfvEtTY1=s4800-w800"
+  },
+  {
+    "name": "Cats and Coffee",
+    "lat": 50.0029161,
+    "lon": 36.2471576,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFXh0EcaBZGAq80lGc_SlvIUI-m_egtF75q_7AeF9XCCLL-cM2umjBXev2YeUz421NHjvlgCKfWzmIlmueUpzYDiLla_jKFXA=s4800-w800"
+  },
+  {
+    "name": "MORE",
+    "lat": 50.0081333,
+    "lon": 36.2220214,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFeD6OBlrCyeJDXq2YwxR5IGu1XRCcnA1oqHy_BBj1EVqm_0cGjOj2Dkg0GGLNv6NORgdGxXSb3a-1K0QG6odGJr0-gMCSJ7g=s4800-w800"
+  },
+  {
+    "name": "Some Like It Hot",
+    "lat": 50.0110067,
+    "lon": 36.2413106,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFAAGYv_MzY1TO-EsHQfSCMj-EQwKphx9YiLubYNFzPiqLN_xfgrJNT4BNIiiCXWBA0V8mjjyijrmK53iV9bFGQfhbznF5u7Q=s4800-w800"
+  },
+  {
+    "name": "Kytyk",
+    "lat": 50.0710196,
+    "lon": 36.2078838,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFXh0EcaBZGAq80lGc_SlvIUI-m_egtF75q_7AeF9XCCLL-cM2umjBXev2YeUz421NHjvlgCKfWzmIlmueUpzYDiLla_jKFXA=s4800-w800"
+  },
+  {
+    "name": "Pakufuda",
+    "lat": 50.0053656,
+    "lon": 36.2246679,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGa7sUwPNyYP-7X13EPa12LX1LnZGVSg4gKD4iZv8OjO3wM6_OLGtdYbE357VVPGbCdrJahO_5b2e87rN2JhyC7q3Q36Lqnmw=s4800-w800"
+  },
+  {
+    "name": "HALF AN HOUR",
+    "lat": 50.0106686,
+    "lon": 36.2451122,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFAAGYv_MzY1TO-EsHQfSCMj-EQwKphx9YiLubYNFzPiqLN_xfgrJNT4BNIiiCXWBA0V8mjjyijrmK53iV9bFGQfhbznF5u7Q=s4800-w800"
+  }
+]

@@ -1,1 +1,692 @@
-[{"name": "VOGEL Kaffee", "lat": 48.2250454, "lon": 16.3932222, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Good Coffee Society Lab", "lat": 48.2216415, "lon": 16.3599841, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Goldener Papagei", "lat": 48.2136826, "lon": 16.3820214, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TOP 02 – Desserts, Gelato & Coffee", "lat": 48.2146048, "lon": 16.3579187, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Good Coffee Society", "lat": 48.1961349, "lon": 16.3422226, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Don Joaco Coffee", "lat": 48.1871491, "lon": 16.3529198, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fenster Cafe", "lat": 48.210861983, "lon": 16.377137482, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kleines Wiener Café", "lat": 48.2130857, "lon": 16.3496295, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Salzi", "lat": 48.2154675, "lon": 16.3769435, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Club 1130", "lat": 48.1874468, "lon": 16.2843311, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BALTHASAR Kaffee Bar", "lat": 48.2148778, "lon": 16.3852945, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Exchange", "lat": 48.2100151, "lon": 16.3807289, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Süssmund Kaffee", "lat": 48.205943, "lon": 16.372282, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Pirates", "lat": 48.217349335, "lon": 16.351057962, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "GOTA Coffee Experts", "lat": 48.1914159, "lon": 16.3269116, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SiL", "lat": 48.2031954, "lon": 16.3628841, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Miners Naschmarkt", "lat": 48.2001607, "lon": 16.3652155, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OTOTO Store & Specialty Coffee", "lat": 48.2155364, "lon": 16.3838851, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Comet", "lat": 48.2043633, "lon": 16.3516193, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Junkie Pilgramgasse", "lat": 48.1917578, "lon": 16.3570052, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Joseph Brot Landstraßer Hauptstraße", "lat": 48.2055272, "lon": 16.3859738, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oak Brew", "lat": 48.1926549, "lon": 16.3666711, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OTOTO Store & Coffee", "lat": 48.2017563, "lon": 16.345195, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "small batch", "lat": 48.2178387, "lon": 16.3795041, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeefabrik", "lat": 48.1958824, "lon": 16.3684117, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jonas Reindl Coffee Roasters", "lat": 48.2149852, "lon": 16.3618803, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "kaffemik", "lat": 48.1991539, "lon": 16.3509685, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Carl Ludwig Cafe", "lat": 48.1953674, "lon": 16.3694696, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "No Panic Coffee Paniglgasse", "lat": 48.19816, "lon": 16.368518, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jonas Reindl Coffee Roasters", "lat": 48.21028, "lon": 16.3449304, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Junkie Kirchengasse", "lat": 48.2019243, "lon": 16.3517186, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Pelican Coffee Company", "lat": 48.215662, "lon": 16.3482617, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Truth", "lat": 48.2289636, "lon": 16.3548455, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafana | Coffee & Roastery", "lat": 48.2195219, "lon": 16.3880816, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jonas Reindl Coffee Roasters", "lat": 48.20171417, "lon": 16.34549896, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cottageroasters", "lat": 48.210643, "lon": 16.3768924, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeefabrik", "lat": 48.1967417, "lon": 16.3477064, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KAFFÄTSCHERL", "lat": 48.2021598, "lon": 16.3528396, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ALT WIEN KAFFEE", "lat": 48.198141, "lon": 16.364018, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jonas Reindl Coffee Roasters", "lat": 48.2045929, "lon": 16.3884676, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MANANA cafẽ", "lat": 48.2249925, "lon": 16.3430955, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Die Cafetière", "lat": 48.2129206, "lon": 16.3678795, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Atelier 7 The Café", "lat": 48.2073521, "lon": 16.377058, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffé a Casa", "lat": 48.2138064, "lon": 16.3672743, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Josua Coffee", "lat": 48.1945232, "lon": 16.3506147, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COFFEEWERK | Specialty Coffee", "lat": 48.1941437, "lon": 16.3356363, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hafi Books + Coffee", "lat": 48.1963235, "lon": 16.3582632, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffè a Casa", "lat": 48.2436534, "lon": 16.3418397, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BEANDEPENDENT", "lat": 48.2236285, "lon": 16.3848793, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Joseph Brot Führichgasse", "lat": 48.2049915, "lon": 16.369765, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Good Coffee Society 1020", "lat": 48.219629, "lon": 16.4055713, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ihana", "lat": 48.2199818, "lon": 16.3769427, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "LIEBEN WIR - Coffee Concept Store", "lat": 48.2134691, "lon": 16.3728956, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee and Beard", "lat": 48.2232081, "lon": 16.3520279, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Telegraph", "lat": 48.2162073, "lon": 16.3566135, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeemodul", "lat": 48.209606712, "lon": 16.34848237, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NÜD Coffee & Art", "lat": 48.2035301, "lon": 16.372164, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Baristas United", "lat": 48.2034567, "lon": 16.3891504, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffè a Casa", "lat": 48.2196051, "lon": 16.3643998, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brass Monkey", "lat": 48.2015192, "lon": 16.4005106, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nuk 13", "lat": 48.1852773, "lon": 16.299214, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elias Coffee Shop", "lat": 48.204505, "lon": 16.3772712, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brass Monkey", "lat": 48.1949076, "lon": 16.3508793, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Truth Wollzeile", "lat": 48.2093966, "lon": 16.3747986, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koun Coffee", "lat": 48.1940699, "lon": 16.3674852, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Le Café Fokus", "lat": 48.2191686, "lon": 16.3799647, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Loka", "lat": 48.1884852, "lon": 16.3539192, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe de Fleur", "lat": 48.196719, "lon": 16.3375982, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "People on Caffeine", "lat": 48.2145809, "lon": 16.3529368, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "VOGEL Kaffee",
+    "lat": 48.2250454,
+    "lon": 16.3932222,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGkPwEo4Uzf9L4APEDqUQTfqxYQwS2yJl_cCJ6RRnwH_XNKHT_glp1pgJswGFbawbwyW8SGbnUjqNAGiu_1WhHFGLbbmpS_dA=s4800-w800"
+  },
+  {
+    "name": "The Good Coffee Society Lab",
+    "lat": 48.2216415,
+    "lon": 16.3599841,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHWYCj4C7LZ3ylch7HQuatqumXCvGcTuiiKV9fYYevqxwfTj0LK_WZaCsuw3JxwtcVNMpDjv_5G5joaKv7XJe6_yJcbtjWIZw=s4800-w800"
+  },
+  {
+    "name": "Goldener Papagei",
+    "lat": 48.2136826,
+    "lon": 16.3820214,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE48HD_fpQXySH-PSbl2cF4z6Ku3o7E1pWc_AVP5PyScvXurxwEJS2Ihd_IpAy7BH-lCMAVAC1x1-qy1amd8MiyjAxRFh3pnw=s4800-w800"
+  },
+  {
+    "name": "TOP 02 – Desserts, Gelato & Coffee",
+    "lat": 48.2146048,
+    "lon": 16.3579187,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFMaJuARE-Y65X3TMcx7AXRrWZAgBVK-A7MtREwnbmKHKupvLZCw4bYmkxrGso5SnkocBM2H0W5KCG4j_-dvOIuHkE08193Rg=s4800-w800"
+  },
+  {
+    "name": "The Good Coffee Society",
+    "lat": 48.1961349,
+    "lon": 16.3422226,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGkUwweNf5f9bEngsvJ6Tq-eOdlFirMiLFrWcSl4bQY9fvLdgMVyUMZ3flcTTC1rqAKtIMT3bE5k2qh6ABqA6hpU8qFRs9zXQ=s4800-w800"
+  },
+  {
+    "name": "Don Joaco Coffee",
+    "lat": 48.1871491,
+    "lon": 16.3529198,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGO3aqEoywJC55F98TMCp0qgt8CC4gPf12Jq0Ywj_44K6l8H6TaJU1lRLKVzr35THPr4d1PtKpflKGUiop1TA1hXSitqatr8g=s4800-w800"
+  },
+  {
+    "name": "Fenster Cafe",
+    "lat": 48.210861983,
+    "lon": 16.377137482,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGf4hW-FTyaencbbBOAdVPSGKHItjNky0aqPP00Esf2ihLyDD5s9FBihQ8NHp3uLTagKiaOnDwrbwClEIy62eNK1-qp3t0ypg=s4800-w800"
+  },
+  {
+    "name": "Kleines Wiener Café",
+    "lat": 48.2130857,
+    "lon": 16.3496295,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH3Sav5rMz80WsqvXM4fynaF7A9U4UQk_IfdnkJFxYbaCtqfv48Vl2wdXx1pXDIJA9Dm5BxKgenUrMvCx_qWKcG-FyPdbHZjQ=s4800-w800"
+  },
+  {
+    "name": "Salzi",
+    "lat": 48.2154675,
+    "lon": 16.3769435,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHyvtTUPP0ZfRBkwKxp7YZKEQb5oTk3jR0G8EKo26_bJoqWRskOxzV2M_oH3EfE8wkoroeE_BZWmn230bsbE3Tks4Uhr0bChg=s4800-w800"
+  },
+  {
+    "name": "Coffee Club 1130",
+    "lat": 48.1874468,
+    "lon": 16.2843311,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG18FPL8Lsom-HBoFM06Ttye-neLq9AcaMXowQgSy-yZ3stsOuJ8sbUssbRGOIL07GxGK6xu2rUMJOp1Of37KsL73PPC-DG4g=s4800-w800"
+  },
+  {
+    "name": "BALTHASAR Kaffee Bar",
+    "lat": 48.2148778,
+    "lon": 16.3852945,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHad21TmRt-PyrPp94JJrmkERZH1dQEtwy2e1Yy5Qb13QgYBn1QuoV4tz0vq3Wmpz4dv2mgEJ__uOzxTc3EFV542eVoNMVp-w=s4800-w800"
+  },
+  {
+    "name": "Café Exchange",
+    "lat": 48.2100151,
+    "lon": 16.3807289,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGO_mHxTCh52047enwiLH6rwR_75gfiCkUwJc_TeGf89nBZXsy0MBPytRMhGFOJpLTHT4sj39hYw51pu94VKTZa_HLchRPITg=s4800-w800"
+  },
+  {
+    "name": "Süssmund Kaffee",
+    "lat": 48.205943,
+    "lon": 16.372282,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqET5w3-RGt7f9h62yUyJ1VV3Mh8_N8YcGgmor-H37x5MmGdaAPFrU3symVJxK7HHJ9QwWf7Pd9bXOL5WSlRQ_gPFbAV6ve2Uw=s4800-w800"
+  },
+  {
+    "name": "Coffee Pirates",
+    "lat": 48.217349335,
+    "lon": 16.351057962,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEwJ7MYns6NacTr4y3vO24BwTFXQcmMRxxZ70yT338lWqH2OiYE1U4CW5-s9Mrf2mX3ZpYNgMs4D5RkuBQsjvovJh9BejK5Pw=s4800-w648"
+  },
+  {
+    "name": "GOTA Coffee Experts",
+    "lat": 48.1914159,
+    "lon": 16.3269116,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF4SJ3n6t8tdmIkWArA6qr-j1C2AcGTO1epaUKboPaRBBOFxPqsTXZm006fcOAcft7tbqiO91L6TTVy-JNZq1FzY0kP616YR_ez1oFnJ2fPrAeTbL8O5Qi7JJu-AvzsBJFB3PeTxkRZyVdopdw28saO=s4800-w800"
+  },
+  {
+    "name": "SiL",
+    "lat": 48.2031954,
+    "lon": 16.3628841,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEjAC-69PxgIfhdXrb0LtX141XgikHg3gzdEOFqqNFbgB_HH4mID1Su75Dx3PPTvMqEHa3ce_qi8nNTc5_sjPVrwHi5GoxcYQ=s4800-w800"
+  },
+  {
+    "name": "The Miners Naschmarkt",
+    "lat": 48.2001607,
+    "lon": 16.3652155,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqExkgrVrwzQOjfTIinKDbMy9Mjyo9_HxOURY2Igrsvngq2aUxTGu2uKQNAXeGHhbyZ9jr6dYuRt-Bp8foA5vgsD-g_TyJiEqQ=s4800-w800"
+  },
+  {
+    "name": "OTOTO Store & Specialty Coffee",
+    "lat": 48.2155364,
+    "lon": 16.3838851,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEX0yY0RIyXCW1KCSHURmdbbVzgs_9Nt_9iujE7BXS3TRm8inQaG2aWiIENoJbGSRJPAlW-3Aj3hFk9EMmukv5658bfpZE7Rw=s4800-w800"
+  },
+  {
+    "name": "Café Comet",
+    "lat": 48.2043633,
+    "lon": 16.3516193,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFVqZOd_uHwBftroElVEqM4rR0Qg88YCEVo-eiM7yLMn4H8b795-GNWdGiIfX-jmXDN9cKb3R10LzWrvCtXnsPgzXR9tC2pHQ=s4800-w800"
+  },
+  {
+    "name": "Coffee Junkie Pilgramgasse",
+    "lat": 48.1917578,
+    "lon": 16.3570052,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHwi-A1x1mP-qXihu194wmyVHKCVUI3wLCAYg6BZZ56T-dfJr8h6-Bzdo7INoOFx1qtIl2psDq_I01Gc9bnHp2AgGpI_CHB_A=s4800-w800"
+  },
+  {
+    "name": "Joseph Brot Landstraßer Hauptstraße",
+    "lat": 48.2055272,
+    "lon": 16.3859738,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGWdkfibASFLpOyPcrf7Z8RKfwvs1hcm66m5QT242UZmPGhOzpKC9EbdzynNsYFB3-yKCCVFX3mv5r7JxPYgvZtI9vy7E5XgA=s4800-w800"
+  },
+  {
+    "name": "Oak Brew",
+    "lat": 48.1926549,
+    "lon": 16.3666711,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFl6W02G_fI06YuelbrTImVHppd65ibbzisc0SaRif67pk4f99nrxkSx1T_8YgqtSYLU_Tp81KVsBXxkOxiyj19mZ_0RJhCtA=s4800-w800"
+  },
+  {
+    "name": "OTOTO Store & Coffee",
+    "lat": 48.2017563,
+    "lon": 16.345195,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEX0yY0RIyXCW1KCSHURmdbbVzgs_9Nt_9iujE7BXS3TRm8inQaG2aWiIENoJbGSRJPAlW-3Aj3hFk9EMmukv5658bfpZE7Rw=s4800-w800"
+  },
+  {
+    "name": "small batch",
+    "lat": 48.2178387,
+    "lon": 16.3795041,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE79VwMgQfpXmwfWk9jKjD6GPjboOn2oL2XDC6ZwA37t4U9bxtGH5ow9hKa9Sp35BhLC4cZ3ibhlOBro3R34bJr1FHSK6wlS9rusoytw6zIWFythP1DDkNwPLJMED0vPRcfczkuyg-7Sg_jVuVjV7Q=s4800-w800"
+  },
+  {
+    "name": "Kaffeefabrik",
+    "lat": 48.1958824,
+    "lon": 16.3684117,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFKECb405hvn-uL8FCy_4IKyN8yUATz6SylbO2XliTlDVujmZSnzFrUJ3VtbhnQCtrbGhgFaNHMynd7HSIbIlokMO6uIyu6qfZa2KzP-NB80uGu3LDLb_PIog9T7IylnZFTqUFB-m-T_f-8=s4800-w676"
+  },
+  {
+    "name": "Jonas Reindl Coffee Roasters",
+    "lat": 48.2149852,
+    "lon": 16.3618803,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmkXwSBfE3Du-FODtMINhLhXpVDeZbHQlKTG6730uMPYsTT6xLil9naRyI9piV_cJy0OPqlkZV5_Z30XucIXmsynNtzamcnOHASzSIPpI9_KsXHfK8dbd9wzkvIc-ICdDrEM_nT1LggUnX=s4800-w800"
+  },
+  {
+    "name": "kaffemik",
+    "lat": 48.1991539,
+    "lon": 16.3509685,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFhLhxu-yDlo-wBcNP3Kp77UbyjTki_x5GjPpZlxXZAL7yN6AW8X13KTo-aVsrfIHYP8iP8sfmV8uMPTj3VFxynWbWuPlMkSg=s4800-w800"
+  },
+  {
+    "name": "Carl Ludwig Cafe",
+    "lat": 48.1953674,
+    "lon": 16.3694696,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_IDJJoZHzD2FwxlwcPiCQG8YQxF0dcjAZ5wR7tLIt-YPGIRFFAK9qlXZwsjF6T8tfj4wcrof54h3WCyG-AN8mZ2tqkkSigJfxZfJdv6CdcE6J2mDE5LH9ioYEjxgiMnUQXC8X9wl16A7q=s4800-w800"
+  },
+  {
+    "name": "No Panic Coffee Paniglgasse",
+    "lat": 48.19816,
+    "lon": 16.368518,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEXzTe4teNspiKm4VFQcy2xJb5vsvLJkj8HoTDOKDl5hX84CcQw28Ze_SAiZ4N3a6qI1gpmW0CCrAMRVc0NbeAYDsF50qSlnI0n35GhoDZvdwU6-P3yAhhvva5DSJIrbybt-jmN73ZUi08=s4800-w800"
+  },
+  {
+    "name": "Jonas Reindl Coffee Roasters",
+    "lat": 48.21028,
+    "lon": 16.3449304,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmkXwSBfE3Du-FODtMINhLhXpVDeZbHQlKTG6730uMPYsTT6xLil9naRyI9piV_cJy0OPqlkZV5_Z30XucIXmsynNtzamcnOHASzSIPpI9_KsXHfK8dbd9wzkvIc-ICdDrEM_nT1LggUnX=s4800-w800"
+  },
+  {
+    "name": "Coffee Junkie Kirchengasse",
+    "lat": 48.2019243,
+    "lon": 16.3517186,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEQcDy5Lt8jRX96rP3jpVTmDjOT3HgYb3TodmOh-DcHaa__YFMJ1vzfKC2YcTr4EdEfckjdIsjuivJ_mTHelcchvadWV6BE7A=s4800-w800"
+  },
+  {
+    "name": "The Pelican Coffee Company",
+    "lat": 48.215662,
+    "lon": 16.3482617,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFuIOm9aRv9Q6kFw7J5rWNTsipzL2oalvvtGtRDYfF5ov_GDr2zvbO8KOjPsEpY6YYnEtghJhvPg69WkKETDNE7z2fJnpbV3w=s4800-w800"
+  },
+  {
+    "name": "Café Truth",
+    "lat": 48.2289636,
+    "lon": 16.3548455,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF-1S3oWuPY66hK4mD8F7B2hkP4EqM4yZmXjJl3aub38czjmRSFr4YpUDPbXeZ0g71fDjivqCYY5XJo3BJ0Imwp4kaSCcoZqg=s4800-w800"
+  },
+  {
+    "name": "Kafana | Coffee & Roastery",
+    "lat": 48.2195219,
+    "lon": 16.3880816,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFHPqdmUmP9N6l2EQ2m6zUs8qvtGMraQJ2G9X5gN5yIzOAo16cPSEYKDBspLhFiO76rUPJp0P2uQrzrtOIBSX65rJM65VLlVw=s4800-w800"
+  },
+  {
+    "name": "Jonas Reindl Coffee Roasters",
+    "lat": 48.20171417,
+    "lon": 16.34549896,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmkXwSBfE3Du-FODtMINhLhXpVDeZbHQlKTG6730uMPYsTT6xLil9naRyI9piV_cJy0OPqlkZV5_Z30XucIXmsynNtzamcnOHASzSIPpI9_KsXHfK8dbd9wzkvIc-ICdDrEM_nT1LggUnX=s4800-w800"
+  },
+  {
+    "name": "Cottageroasters",
+    "lat": 48.210643,
+    "lon": 16.3768924,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHrawJVCEG7j0wIf_iuFZpTzswMxbtp0YU0wRtEBbYgVtixPuWyhVfbYd4tr0RuwaQiqs0y2Ioez5VMBDj3WK6Zor73fqPCXQ=s4800-w800"
+  },
+  {
+    "name": "Kaffeefabrik",
+    "lat": 48.1967417,
+    "lon": 16.3477064,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFKECb405hvn-uL8FCy_4IKyN8yUATz6SylbO2XliTlDVujmZSnzFrUJ3VtbhnQCtrbGhgFaNHMynd7HSIbIlokMO6uIyu6qfZa2KzP-NB80uGu3LDLb_PIog9T7IylnZFTqUFB-m-T_f-8=s4800-w676"
+  },
+  {
+    "name": "KAFFÄTSCHERL",
+    "lat": 48.2021598,
+    "lon": 16.3528396,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEKg0OukPKWlvvjMg8OCHWYSivf1khZfFqFb-w5FE9u0On38Y82AcI6H9kQsf3Zbnx1G5S3bkCdsC3bmSFGJqgwy5IU-lXBciVVzpbJ4OZac6COPmbkSwQR6EKENwa-kBkRdqDI6adcRaAbG3TIGLVg=s4800-w800"
+  },
+  {
+    "name": "ALT WIEN KAFFEE",
+    "lat": 48.198141,
+    "lon": 16.364018,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNExodF9DILxykE7e7t9VLUwjtB2Vi5ZXIt8l2pZ8niWqrJ2tE9OqFM6S2jTMX6b_9iy-67-_lxbeFeNbjpTBTYYD6Wvc-j4lO5-NTBk7EQxBRfUfB9TB_z1EpahX7llIh9GIO6yEBFXOmCJ6YxhN3xI=s4800-w800"
+  },
+  {
+    "name": "Jonas Reindl Coffee Roasters",
+    "lat": 48.2045929,
+    "lon": 16.3884676,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmkXwSBfE3Du-FODtMINhLhXpVDeZbHQlKTG6730uMPYsTT6xLil9naRyI9piV_cJy0OPqlkZV5_Z30XucIXmsynNtzamcnOHASzSIPpI9_KsXHfK8dbd9wzkvIc-ICdDrEM_nT1LggUnX=s4800-w800"
+  },
+  {
+    "name": "MANANA cafẽ",
+    "lat": 48.2249925,
+    "lon": 16.3430955,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHkgw7IwfCKHsN1JHDaG32wXp1ogsOypHTNoiF8aMd4EDquchS8AtcbdORnpQkUFcE4nhYY-Lwrdpmu--9SuwfBEB3iTl_bNQ=s4800-w800"
+  },
+  {
+    "name": "Die Cafetière",
+    "lat": 48.2129206,
+    "lon": 16.3678795,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEiQP8TcFzISZikGFz9ADtb2pGr8guP8YK-G6UwTvp9jB7UmUu0wuCdrERVqCbAnaPB6NKrdmkDnMHHIUMlmG3WGuiseTJc3A=s4800-w730"
+  },
+  {
+    "name": "Atelier 7 The Café",
+    "lat": 48.2073521,
+    "lon": 16.377058,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE0h3tzCkakgEVXx5rg8WRAXSQyScVL_cFWB0tUUxE1EddK_GG5MKP-warnQkeIco0pwnwH1ck7_BFBrtKTtM6meOOMxwHozA=s4800-w800"
+  },
+  {
+    "name": "Caffé a Casa",
+    "lat": 48.2138064,
+    "lon": 16.3672743,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4pcY1SPFqvLF9LKMT-U1EAwB28OcUTL0ypFhGZmqpI8V6gQcks6ilsXS-TsTnpnmmorKjbEWdMMUtweOFsIvckUaLxmXE1iMyggupC0hWB6vc7xA_W7xiRVl7GnhG1Xh6Lwp273nLl-ud=s4800-w800"
+  },
+  {
+    "name": "Josua Coffee",
+    "lat": 48.1945232,
+    "lon": 16.3506147,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEhiaD50M8nq-gnDXzcYOzzrkUkyvOiRu5FVufluEw2VVkMNwCIXs6WC2EK7y5vHhQu-JK-NmAIJsMREqFjWhtFI9Avnc2dF8R-RZWTIDnWcMXlikBomaPiyE82R8_NEACdJyxZvXGcFdJqIRqaTxk=s4800-w800"
+  },
+  {
+    "name": "COFFEEWERK | Specialty Coffee",
+    "lat": 48.1941437,
+    "lon": 16.3356363,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHe_7HT5Yj0UTonAXN8anVkkzh7zv-pUK9UICCWRGpktR3CSpEi0tRu7ff-8e80E0w1NXU2eFsd8E7j_UQBDteYnB-9LMtm0Q=s4800-w800"
+  },
+  {
+    "name": "Hafi Books + Coffee",
+    "lat": 48.1963235,
+    "lon": 16.3582632,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG6Ar7eAZufE9zrg_d0idNllsZFH81BO3Qd4FkxlvH3M3uPy099xAGyA6W2jANnKnk5JMjNSChY0HZySBFWm021Jn6lny4DqrjffNzEe4wVbxg9v-BmoOaczzZW2Bz5D37qONvPLCI5s2qePUyyyS0=s4800-w800"
+  },
+  {
+    "name": "Caffè a Casa",
+    "lat": 48.2436534,
+    "lon": 16.3418397,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4pcY1SPFqvLF9LKMT-U1EAwB28OcUTL0ypFhGZmqpI8V6gQcks6ilsXS-TsTnpnmmorKjbEWdMMUtweOFsIvckUaLxmXE1iMyggupC0hWB6vc7xA_W7xiRVl7GnhG1Xh6Lwp273nLl-ud=s4800-w800"
+  },
+  {
+    "name": "BEANDEPENDENT",
+    "lat": 48.2236285,
+    "lon": 16.3848793,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEknHFAL4QHQtayaM_VO3twYP7uzoq3vYblOb2NJbpzSsUeZDckB6CyCr9CRQMDpeLbYji0lcVeby1h4S409jNaEmu7qhiyrw=s4800-w800"
+  },
+  {
+    "name": "Joseph Brot Führichgasse",
+    "lat": 48.2049915,
+    "lon": 16.369765,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF_zoe-uGNwb72qRAUgyhTGzhZBMiQNPbYehYyz8fN8pszVY_0zNG-C2xNpfVTv1eJnV06-3iXu7_0jwAkgRrWK47Npb2TdHg=s4800-w800"
+  },
+  {
+    "name": "The Good Coffee Society 1020",
+    "lat": 48.219629,
+    "lon": 16.4055713,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrI56JnjvnU48FsrwEMwNrmAjLdhKrECDDZ9gbCdgLF9CCG4B-AWRJndHD_bbURSsERgQpV1kDNWoYYdTMqCvbhy19gq3abg=s4800-w800"
+  },
+  {
+    "name": "Ihana",
+    "lat": 48.2199818,
+    "lon": 16.3769427,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHEv1Xx3Fc7UPB512LdjNltaG1Vye_bM7ASHCjrh2qLxDnOdSvWScnrZxIqmwl5Ky3pbAyo7Gq5di31kxJhIv_LCW41q5hsPQ=s4800-w800"
+  },
+  {
+    "name": "LIEBEN WIR - Coffee Concept Store",
+    "lat": 48.2134691,
+    "lon": 16.3728956,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEr0J_EF_ujz5Z0FbTCTKJRKTgMo-hJfH4GRMw5yLBffeTBph40S2EAyNTp4mr1pUkQtNMH4wi4zQcBYQMWA6p8pj0D4iGC4A=s4800-w800"
+  },
+  {
+    "name": "Coffee and Beard",
+    "lat": 48.2232081,
+    "lon": 16.3520279,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmeOvAUF1yhK_rHTE8spXOj8oemm3hWII2aZFAA421I3ufhYtoxxQuns6uUPN49-HjIF5YMDiPzbHX66J2AK_Vr_zwbxB8MfZ97dMCZ1iBcFrooMP1RRgcRA6u2T0gTx-ay_C_zBEJ1xNzCw=s4800-w800"
+  },
+  {
+    "name": "Cafe Telegraph",
+    "lat": 48.2162073,
+    "lon": 16.3566135,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGlZBvXuD7vKeYy_5w0w8zbojTaP-SuRSUGTtAWVDQZ0L-e1l5OY2yjyNojoA5j_N96KdtR2R-ph_MCdvaPpSD-ROpjrmXIWQ=s4800-w800"
+  },
+  {
+    "name": "Kaffeemodul",
+    "lat": 48.209606712,
+    "lon": 16.34848237,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEcCs3qKCH-Vq10AxfyvvAiVZnMaQiFi7QqbULIE_H7q5wrnpLcnyMnCKom1nlGIMG6nBnUKKRoPGNLAKcJQqQWVIOQD7cKVQ=s4800-w750"
+  },
+  {
+    "name": "NÜD Coffee & Art",
+    "lat": 48.2035301,
+    "lon": 16.372164,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqExPS2XTkemUgTkqr3Ll3Qu-dSYt5mfT6V0DxpT-WRjV7sisyB0ANt3AGX8J6A23glA6nBeLutZCGXUBM3Lf_ExqXk-WlZP2w=s4800-w800"
+  },
+  {
+    "name": "Baristas United",
+    "lat": 48.2034567,
+    "lon": 16.3891504,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNExY86x6wwKSBn_Gb8EaNq5wXxyZuQ1xpkiVytmvL5zYGnCKKcmDh-FNesuAj6W0o0myYVB1qL4T9h9IUFFgBDFo7l3Jn0Tfo94QWqTBzSAXxoo4TlqwRfp9Pj8BzpFib8nmYHuWD3Y-QajJYIhgJw=s4800-w800"
+  },
+  {
+    "name": "Caffè a Casa",
+    "lat": 48.2196051,
+    "lon": 16.3643998,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4pcY1SPFqvLF9LKMT-U1EAwB28OcUTL0ypFhGZmqpI8V6gQcks6ilsXS-TsTnpnmmorKjbEWdMMUtweOFsIvckUaLxmXE1iMyggupC0hWB6vc7xA_W7xiRVl7GnhG1Xh6Lwp273nLl-ud=s4800-w800"
+  },
+  {
+    "name": "Brass Monkey",
+    "lat": 48.2015192,
+    "lon": 16.4005106,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEbgwpWWVsVpKX0hK3kW4EBW6IsNiIdRiJBVM92uAYe4RdqKkNnA96iHnQVtqkUHX5eqcpuSYqjmhyJRa8w3e-ytHbueyaaeQ=s4800-w800"
+  },
+  {
+    "name": "Nuk 13",
+    "lat": 48.1852773,
+    "lon": 16.299214,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG-7BJDHsOIAkciCxsHYQmOP96YdGf4dwKzrw4xHdEPMn4ji-zorv2U60jirMSJbTsbxdDaTY8S1UrNlUR3xxNiWMi-n4SQ-w=s4800-w800"
+  },
+  {
+    "name": "Elias Coffee Shop",
+    "lat": 48.204505,
+    "lon": 16.3772712,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFvr38n_ImdahDM2wCumkkEV0O_-mitIwePlfohvUHqjL38Ui_Fz2AnYoPI2-Hlq7jtz1qAn1GqwQkz7P1x1gpQw1OoTEvaKg=s4800-w800"
+  },
+  {
+    "name": "Brass Monkey",
+    "lat": 48.1949076,
+    "lon": 16.3508793,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEbgwpWWVsVpKX0hK3kW4EBW6IsNiIdRiJBVM92uAYe4RdqKkNnA96iHnQVtqkUHX5eqcpuSYqjmhyJRa8w3e-ytHbueyaaeQ=s4800-w800"
+  },
+  {
+    "name": "Café Truth Wollzeile",
+    "lat": 48.2093966,
+    "lon": 16.3747986,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF-1S3oWuPY66hK4mD8F7B2hkP4EqM4yZmXjJl3aub38czjmRSFr4YpUDPbXeZ0g71fDjivqCYY5XJo3BJ0Imwp4kaSCcoZqg=s4800-w800"
+  },
+  {
+    "name": "Koun Coffee",
+    "lat": 48.1940699,
+    "lon": 16.3674852,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYGZM5dHjZj14NXf3qBYe5d11oUheX-HsqABmqFJuz36dO3SRABlt-Q-KTkkOvfeeCoNjWZhLbfumZO_S8C53O8XBUQUAwug=s4800-w800"
+  },
+  {
+    "name": "Le Café Fokus",
+    "lat": 48.2191686,
+    "lon": 16.3799647,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFyLs0B5w_QEiR1YJqztYtV2CIbQCnnfVnA0gNriJdn-wW6l6yJd6fx_gQkaiE25qIsdj1W1P4ghnTrkP9X1PJbGK618uKEBCilrlKIOYLVIVp_jxlwtjm-Ep8TxM1G0zInW2UXJrdUxBf_dcRV7Cs=s4800-w800"
+  },
+  {
+    "name": "Loka",
+    "lat": 48.1884852,
+    "lon": 16.3539192,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGoftn2y5vGJtTX62ZySjJrEIWzy2CS5_u73JfnweI77h9ySM4H1vWyPzjKMY3uE9dgGz3y9gBs9GH2WLhlzTWCHtq3KpFe9g=s4800-w800"
+  },
+  {
+    "name": "Cafe de Fleur",
+    "lat": 48.196719,
+    "lon": 16.3375982,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEAZ7lVeBL-cd0iKrGgXoeyxnjzlMCfeBcjy4KT3JRq206qn2GlJWO_-09-KuQdG1frJVhq1Ia7rp4L9n30bjT_ZpP9DPytcA=s4800-w800"
+  },
+  {
+    "name": "People on Caffeine",
+    "lat": 48.2145809,
+    "lon": 16.3529368,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGo-z2-lKK1dLxFfyIWv_N97Hh2W50BczLwtR09ftUw0k4S_UseQ0lyLUDeEunAOaeoEDQmnEHUZNWR_4jN-4wUQoFpHBaM3D-bDMvW1eyOd4pwPDs9NzI_U3lITC5n0CsPB5dqcRsCubUZyg=s4800-w800"
+  }
+]

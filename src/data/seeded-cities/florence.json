@@ -1,1 +1,112 @@
-[{"name": "TODOMODO", "lat": 43.7715528, "lon": 11.2480472, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ditta Artigianale Dittaneri", "lat": 43.7681001, "lon": 11.2586342, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ditta Artigianale Ferrucci", "lat": 43.7639605, "lon": 11.2701624, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ditta Artigianale Dittasprone", "lat": 43.7669563, "lon": 11.2508928, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ditta Artigianale Carducci", "lat": 43.771704232, "lon": 11.266490757, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Mantra", "lat": 43.7712266, "lon": 11.2679448, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Melaleuca bakery + bistrot", "lat": 43.7668496, "lon": 11.2600481, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Manly The Office", "lat": 43.7708873, "lon": 11.2386128, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ditta Artigianale Riva d'Arno", "lat": 43.7697128, "lon": 11.2464655, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fluid - specialty coffee", "lat": 43.7711801, "lon": 11.2682498, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CAFFETTERIA EMMETI", "lat": 43.773309918, "lon": 11.279793441, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "TODOMODO",
+    "lat": 43.7715528,
+    "lon": 11.2480472,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEGCpe47-0eOqH8x59K8DHvuX-zqFfpUCmfVJjIW8wTW-hHypaB2oVCTMMIX7JHkBBJMjzryKgAk7V9lQxjb8i8AF8PrLiViqhqRCW4dCe10iSDwiyD5H1aCHtnfE3PqnGZasFZVdMrSc4uSQ=s4800-w800"
+  },
+  {
+    "name": "Ditta Artigianale Dittaneri",
+    "lat": 43.7681001,
+    "lon": 11.2586342,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHecqX3zONZEYZl-Hc17aEypU2KF0-X7mlp_r_xIFdPNRLL2AxBbC1ee-VPhk2UOlnZ93R31T4ZSq1iPYxyQ9fEYWy_NhrV8Q=s4800-w800"
+  },
+  {
+    "name": "Ditta Artigianale Ferrucci",
+    "lat": 43.7639605,
+    "lon": 11.2701624,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGav7tLibEUi3XknEHyr_g9XnE_R_WCpo8uh11XmjcrDIW6k5qm6NZ_AFT6Gfhfg_9op8l3sILiZ2_FFM9meOeQfpbKG5j7qw=s4800-w800"
+  },
+  {
+    "name": "Ditta Artigianale Dittasprone",
+    "lat": 43.7669563,
+    "lon": 11.2508928,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgUX-h3m9QmquQu_jIiZz_4xdFYTFKi4blrzR9oceZO2x8TAIDF65d4nD8o7oT8Z0lx9HXNwmvZOxkv5XbNB3DuXi9l8JKdQ=s4800-w800"
+  },
+  {
+    "name": "Ditta Artigianale Carducci",
+    "lat": 43.771704232,
+    "lon": 11.266490757,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYqoStcZOO_wXIDWPNTFtokcA3aJ5_Xqh2bJ27Nl2xGPowNZddEpmyqf72aYrffIRYklkVRv2xQkbeE0pk32wUdf7T1RarpA=s4800-w800"
+  },
+  {
+    "name": "Coffee Mantra",
+    "lat": 43.7712266,
+    "lon": 11.2679448,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEyF4dxe70Q7wl_oMDQbYfzL63c3Y_D3PmPU8vJIkx5iutanuWWFrL-RjsBFonIKcOVfWsFSf48OR6IWGY3onDSusyUZotHPQ=s4800-w800"
+  },
+  {
+    "name": "Melaleuca bakery + bistrot",
+    "lat": 43.7668496,
+    "lon": 11.2600481,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEVm4wQ0rDG3JbIKOk8nyvNo_BlLh69geGL8ybm0l5JipNagsel6Q2h4BEZaPgpPR_4vyiaS5LvqT78HKMM9fjOxrCRBEKpjA=s4800-w800"
+  },
+  {
+    "name": "Manly The Office",
+    "lat": 43.7708873,
+    "lon": 11.2386128,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGsil07oHUr7Fs1aXwoT5oWNkuwAAzxg9HzzsqKQBTe37dNjlMx7Veb2t-mrZOHR1919BnE7GvadHqWhLAqNLbpBlfKkkJzMw=s4800-w800"
+  },
+  {
+    "name": "Ditta Artigianale Riva d'Arno",
+    "lat": 43.7697128,
+    "lon": 11.2464655,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYRblzzmwCDoKUSV5QS0xw0REmpEfVJvoGjEPNom5esfx-ecDLqp4US1nQX2HGJ5NJX8m93mo_2or__Ne6Sk8tZUugL5Fw6A=s4800-w800"
+  },
+  {
+    "name": "Fluid - specialty coffee",
+    "lat": 43.7711801,
+    "lon": 11.2682498,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG7fdlGtDE5xft_3f0bP0NekQLCVLCDI4zwEX-HAoEl3Q6ZUMwcVtgjVnDXEsOv_NTMfDh98yCGT215qus_hjmK36BEc6tSAX9gm7VLb1OtOb8NPz3eqej0MQbVzdLIWDKfxs6S9aFviMdERdZDfhzJ=s4800-w800"
+  },
+  {
+    "name": "CAFFETTERIA EMMETI",
+    "lat": 43.773309918,
+    "lon": 11.279793441,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHUlMMKL6DhxNtLx4bJfPdhW6AdOjP3vOID5xVeQSKUGrBUE4XslZXp49M_T41r-48BSf04rycMJKZjjPcTJMdDlAYZk75GzVHRdLQ3DX8szjTatgxhd-dJDFp_-NGVc4f3CacuJAcphsM5=s4800-w800"
+  }
+]

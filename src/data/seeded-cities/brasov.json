@@ -1,1 +1,192 @@
-[{"name": "Urbanistic Coffee", "lat": 45.64248, "lon": 25.624028, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Manole Coffee Shop", "lat": 45.649351, "lon": 25.6002421, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sonora", "lat": 45.6560473, "lon": 25.587264, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Connect Specialty Coffee", "lat": 45.6549985, "lon": 25.5831336, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Croitoria de cafea", "lat": 45.648060876, "lon": 25.598393977, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BO coffee shop", "lat": 45.640718, "lon": 25.5894502, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Book Coffee Shop", "lat": 45.6439091, "lon": 25.5921023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "M2 caffeteria", "lat": 45.6464744, "lon": 25.6014095, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meron Brasov", "lat": 45.6433407, "lon": 25.5910632, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boiler x Vodafone", "lat": 45.6422083, "lon": 25.5904187, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CH9 Specialty Coffee", "lat": 45.6409405, "lon": 25.5873739, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MANNA MANNA", "lat": 45.6512855, "lon": 25.5993926, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Prăjitoria de cafea C R O P", "lat": 45.6581488, "lon": 25.6073071, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NOLA coffeeshop", "lat": 45.640165, "lon": 25.588098, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Manole Coffee Roastery", "lat": 45.6462068, "lon": 25.600047, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafeteca", "lat": 45.6482784, "lon": 25.6041527, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Schilthorn", "lat": 45.6680019, "lon": 25.6153386, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Twinbeans Coffeeshop", "lat": 45.6366428, "lon": 25.5818172, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Breakaway", "lat": 45.6676485, "lon": 25.6147913, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Urbanistic Coffee",
+    "lat": 45.64248,
+    "lon": 25.624028,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGCevndu9mr9AuKWDbx5qpkF88nhtTTjrX5_sxn4FApJvhaSykpoVb75pH1Wf2bX8ktCdFBhta3FJ-vbP_Q4X3ppenc1DUTwQ=s4800-w800"
+  },
+  {
+    "name": "Manole Coffee Shop",
+    "lat": 45.649351,
+    "lon": 25.6002421,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFUB1sIn6kFa04D0Cqi7uBubEJT6WbIpRR3vxbQ1vpikPDgAGvh-DtGkG_xNGz91hg-keEbPLIb_6oKY4afmQC01cd5uCMfpA=s4800-w800"
+  },
+  {
+    "name": "Sonora",
+    "lat": 45.6560473,
+    "lon": 25.587264,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrximFKWLO-6cN492tH5qwZzoZMRaBFqITLGIXuTInvYP8gVA0AQIR5nt218LDwxY3YWO6j2d4w0L3jN1deWTlgAqEhjuVKA=s4800-w800"
+  },
+  {
+    "name": "Connect Specialty Coffee",
+    "lat": 45.6549985,
+    "lon": 25.5831336,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYGvevSyxKg2JS1UwofHqzUUYfF1sAoZz7S1DxFEcPRuMZYyqb8hJDTSCBTEOIVzVKbTYG9QwcWJ3i9AJXbvbrmBhFkZoQ-A=s4800-w800"
+  },
+  {
+    "name": "Croitoria de cafea",
+    "lat": 45.648060876,
+    "lon": 25.598393977,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFQTSOUdu2e5XXNOuMJgMsUreH1Kti9kmfD2Zw5Y1P4SHWxe7PfE7OEEFWUzMvIcO6N4PX6JhmhCixHUJsAxOguJHidzVtlnA=s4800-w800"
+  },
+  {
+    "name": "BO coffee shop",
+    "lat": 45.640718,
+    "lon": 25.5894502,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH5cYUzhBkLNz_6KC0WSx7osCScINokxVvEVuFK5EayfelvnOkV01UjtAPDaMbz2HFFT9xl0U-FF9vHbNBtjqvUGQUYrnVgfg=s4800-w800"
+  },
+  {
+    "name": "Book Coffee Shop",
+    "lat": 45.6439091,
+    "lon": 25.5921023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG6P9Pmxql-_uNgSr5Vdic53hrSGMenO97_pyElWdxwxNK1PL2x3yv0RYXNd9tJQgwWw3pN3bDhE2f5vpxTPFarwPRfCh5iGg=s4800-w800"
+  },
+  {
+    "name": "M2 caffeteria",
+    "lat": 45.6464744,
+    "lon": 25.6014095,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFSB58gmiheegPbJsgRaLJPLh2HUjxyUU4GS1LnZ28-jNvqJIwUXSo2SxptWTTMeCmysrT26vaeGBg0OOZkOf4iuHARefnnBw=s4800-w800"
+  },
+  {
+    "name": "Meron Brasov",
+    "lat": 45.6433407,
+    "lon": 25.5910632,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGoatliM06VwedIsRu99z04NL3QWclj3dtXVLFtQAv6mom_LBzHxqbCEGavvMU_J5aWINa_cMnkdm2S42fBD5AuZCLLr5RNxQ=s4800-w800"
+  },
+  {
+    "name": "Boiler x Vodafone",
+    "lat": 45.6422083,
+    "lon": 25.5904187,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFKZN-wXVondz7SdxkaJNSdAunVwIsZJ9pLLu8ATh8DSX46wRxhgFvXepXk4_h_-K3EZj6-XTy2vFaOdeAz-QgJe7PKcUwvqzr3oORSm2SddbcbXzhjdsdy5YR2ftQGhbm9TeoXX2L6uEn0Ylug7nLk=s4800-w800"
+  },
+  {
+    "name": "CH9 Specialty Coffee",
+    "lat": 45.6409405,
+    "lon": 25.5873739,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGkUtalBG1LkB92q4KX8OMTirtth79rZTah89gba7qMpG-8bzwuRjkNQqbm-0f70WG19xNPFczuSb12LlDVG814aq7p3Zhiyw=s4800-w800"
+  },
+  {
+    "name": "MANNA MANNA",
+    "lat": 45.6512855,
+    "lon": 25.5993926,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG1XIpI3nDJjCP4OoXPDXPA9T0j0ooBnySc5OvVnbaz7nRKoNIoUVW0F1h7MMrLgAj-irCV8ah9z7CShA-DCWqlnzzoaTVokA=s4800-w800"
+  },
+  {
+    "name": "Prăjitoria de cafea C R O P",
+    "lat": 45.6581488,
+    "lon": 25.6073071,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHZ6JXDoeNCm88ylVvQaoRlcgdHwx2CkUo0NmhhBelkjSoM0h6gBf2hbZT63DP6LufBqqNQA26fxOPLDUS46GE-CCy3FaE6Tg=s4800-w749"
+  },
+  {
+    "name": "NOLA coffeeshop",
+    "lat": 45.640165,
+    "lon": 25.588098,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH6yXC-EAPxMABHscP8ZY7Wa9tBUGo_F4TvY49EQO9oDX1QE2GhB-99zZiTM73_Z3X7lX98K-2ylyd2_6hja0qXYtWXGFodUWGYXr-0h0ruO1IkumV1I_Vj4gqa-9snhHT48jeF6N-1o-1YRw=s4800-w800"
+  },
+  {
+    "name": "Manole Coffee Roastery",
+    "lat": 45.6462068,
+    "lon": 25.600047,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEadv7nOeSw85Dr3G6cpdjKbveu2qdB8HuVO2K2PPmRb9I_e52qgAUXSRfBhhLhnrdlb0vGhy7dCGz-xSBsjmWitFd_XYyohA=s4800-w800"
+  },
+  {
+    "name": "Cafeteca",
+    "lat": 45.6482784,
+    "lon": 25.6041527,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGQto2qMF6yjjuZ5XBVElJmyuz8tV825Bv_-mCYut3XkQsGAfRF1rqG10IJzWB76Am-vbTIS5vBmijipEjzQoyFO7R2zbrsJA=s4800-w800"
+  },
+  {
+    "name": "Schilthorn",
+    "lat": 45.6680019,
+    "lon": 25.6153386,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEdCvyKOdF530iVkK0rowFBcKiExc3mTyL26ov0S3fHmfozYQKi7z4yT--SrIwbIjTx7t-7MackfJXPB6-3tob7ehF47CjWCNoHSAhjcI_t5MvOrj_7oU-4AANHNM-3Ic38Lb7uclPmhlOTbA=s4800-w800"
+  },
+  {
+    "name": "Twinbeans Coffeeshop",
+    "lat": 45.6366428,
+    "lon": 25.5818172,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFcqJIjS2Sfgw0CrCq4z0smgAcYq6LCt2Msdm_UgvMZDKkx1gqerFYveL3-7ovkV2TVj0YMsxBGz8t543xsVDovVwGDw2GGA9ujLgzdDy9qA6Z1ojVPUMMUPgJPsAaL2sLy_TJDj_rWRILzrQ=s4800-w800"
+  },
+  {
+    "name": "Breakaway",
+    "lat": 45.6676485,
+    "lon": 25.6147913,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHV9vcpi7p6i_yVrAb9BOTfO_ugXvW7-N6PLGYhyPWaAwHcz3xzcqYURNXekeJk_cRe9xlS1lv0oP8tcSa4gGAr_-lDlFyTfw=s4800-w800"
+  }
+]

@@ -1,1 +1,122 @@
-[{"name": "SU Roastery", "lat": 41.9908512, "lon": 21.4275573, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Forty3 Specialty Coffee & Pretzels", "lat": 42.0005375, "lon": 21.407285, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lobby", "lat": 42.0028285, "lon": 21.4181354, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Dude Specialty Coffee", "lat": 41.9978001, "lon": 21.4198865, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Aj na kafe", "lat": 41.9942609, "lon": 21.4732796, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "DABOV Specialty Coffee Skopje", "lat": 41.9976677, "lon": 21.405705, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lusso Specialty Coffee", "lat": 41.9961937, "lon": 21.4153291, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Arrosto.specialtycaffe", "lat": 41.9833883, "lon": 21.4550758, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Breza", "lat": 42.0089449, "lon": 21.3861686, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lipa Leninova", "lat": 42.0020879, "lon": 21.4264476, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "EDGE Specialty Coffee", "lat": 41.9968767, "lon": 21.423032, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Duplo Specialty Coffee Shop", "lat": 41.9845018, "lon": 21.4522109, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "SU Roastery",
+    "lat": 41.9908512,
+    "lon": 21.4275573,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGNL6Ze_fp1qMGhjTuxzI5jgKAL8nmv-ncyzOrcz8q-cdX1QHnqZyMcaucveO9UFhpI05dytrUFJ7Eodv0TI_xbmq0zfOj1wg=s4800-w768"
+  },
+  {
+    "name": "Forty3 Specialty Coffee & Pretzels",
+    "lat": 42.0005375,
+    "lon": 21.407285,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-drKVDX7_Vahqs0Sy_Aws7lObERileTeqplUl8qf7lIYG8Io8xzDAzH-_o8Dm_dtIgIC2PxDMV0Muk4r9dOcZTOID1stbnA=s4800-w800"
+  },
+  {
+    "name": "Lobby",
+    "lat": 42.0028285,
+    "lon": 21.4181354,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFSiBNPgGVu3mIvvdC7-hTBCjUuJIcKZIkS3F7gOV9Bd308J9cGvuEAyaUtUvu7mBkxWeQt_sSPSW9RxBfXniE9T8CubkXijA=s4800-w800"
+  },
+  {
+    "name": "The Dude Specialty Coffee",
+    "lat": 41.9978001,
+    "lon": 21.4198865,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG5D-Mz5-GXg2BX5Cj4_YVjUowpKpZEIJUQa2SmjsUk7Y_uWXuezzR4LDCoeUxsoYeQAEFsWiLzsK0mc8AbKDS0TAL29wjbFQ=s4800-w800"
+  },
+  {
+    "name": "Aj na kafe",
+    "lat": 41.9942609,
+    "lon": 21.4732796,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGzV_L88FasAkKypU2Dlh9b6B18hPmXR5ejp_nBDa01uq4OIFmi4Nc-dnNQmr0q7repc5GSNXkHF2MrHV1Izl1lJSskQjLHdw=s4800-w800"
+  },
+  {
+    "name": "DABOV Specialty Coffee Skopje",
+    "lat": 41.9976677,
+    "lon": 21.405705,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJswAnPc2uHcpxzLSXA5PZdGhMsY_Q_wjxQ9eiB0DlrYY-d7g22H1uGipD6vA0ofUv88X3jyhrIjYfnhKfgobs7asR1Ne04w=s4800-w800"
+  },
+  {
+    "name": "Lusso Specialty Coffee",
+    "lat": 41.9961937,
+    "lon": 21.4153291,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE-vrOWYUwcOX6z2zOgkDEVTi3xXTeb0vFAJF3EqvWUCJsZNbKsC9_Yh-Et1321LLPLhGPV-Tal0GpopqBAbjIri88uzisz9y9kmsbGPwD-q-GjO9lxBRy1oepllggJNDOW_aGZx9H9Uo-hkg=s4800-w800"
+  },
+  {
+    "name": "Arrosto.specialtycaffe",
+    "lat": 41.9833883,
+    "lon": 21.4550758,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE3z8Jc0LP84hMPdVMqr14mSq4X9IMozXRJc_3CdNxxoaAZxmUXB8ouh0sbc6b0mCqlapouDy5da5nXLdssfzbGmG_ARFol8Q=s4800-w800"
+  },
+  {
+    "name": "Breza",
+    "lat": 42.0089449,
+    "lon": 21.3861686,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFVuK3k3D-Htdt58BGdDi-LEBX22aOYT7IcUb98mmdgAcTU8ytlxtclG3X9fMqqQ2a6qmV_4X_cGMPhqdBD0WpkEzZgRiaAHg=s4800-w800"
+  },
+  {
+    "name": "Lipa Leninova",
+    "lat": 42.0020879,
+    "lon": 21.4264476,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFPBRtQ1FLz0sbsOaAQh35fbEhYNAKUeeF_l8b9RLG6JS1ovrHfO3q91rFZ6WkFmqigSdmLnh1GNbk06LCufsmu7QsKbFqLtw=s4800-w800"
+  },
+  {
+    "name": "EDGE Specialty Coffee",
+    "lat": 41.9968767,
+    "lon": 21.423032,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGghLsfPV6xrjCKFgkOy1uJjTgcHm_2c--T53syPj9dY9GZsog6XUC4M8EHmD0fMO-iMowgdV3xhSdKJ2E4lk1Dt-GiboaQUA=s4800-w765"
+  },
+  {
+    "name": "Duplo Specialty Coffee Shop",
+    "lat": 41.9845018,
+    "lon": 21.4522109,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHdvXYbwh4dOwYys7flOoIdKekA2Upz_qQJ59V2m1VJTnSL8-j2Si-Cff_hlA6do9mOTb1NpyBmYSN8eZTvhGZZPQZbWY6FoZefZK_sIyoEzS0nKQ6wJx9bfvPIO9n8g767IxdtL_Vs-nOkKw=s4800-w800"
+  }
+]

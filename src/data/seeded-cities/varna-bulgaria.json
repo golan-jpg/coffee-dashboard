@@ -1,1 +1,82 @@
-[{"name": "43.12 Coffee", "lat": 43.1997418, "lon": 27.9154545, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "43.12 Concept Coffee", "lat": 43.2038659, "lon": 27.916935, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jasmin Coffee Roastery", "lat": 43.2015475, "lon": 27.9156882, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blend Coffee & Social Place", "lat": 43.2089259, "lon": 27.9217628, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "DABOV Specialty Coffee Varna", "lat": 43.2047753, "lon": 27.9161622, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wholehearted Cafe", "lat": 43.1999629, "lon": 27.912834, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee & Tea house", "lat": 43.203313325, "lon": 27.906876629, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Bookstore", "lat": 43.1992126, "lon": 27.9152295, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "43.12 Coffee",
+    "lat": 43.1997418,
+    "lon": 27.9154545,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH8arHUdtOBs3tWPl6T4v0aXZpZMeC-8zGsgdErdYKgW_aZNCodMhKDn20pXXu2ne2RAAZSx0BB6mDdKHp8L2JzS7KlbodI4g=s4800-w800"
+  },
+  {
+    "name": "43.12 Concept Coffee",
+    "lat": 43.2038659,
+    "lon": 27.916935,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGdmlLMAGx6K3LIraLkgEkjNcn9JTmKeItkSVMGnSSJKjImlDJfOsqN2mXe9xY9uiBAH6BnYw6I0M5h7Smpk8i7T0QgqScAqg=s4800-w800"
+  },
+  {
+    "name": "Jasmin Coffee Roastery",
+    "lat": 43.2015475,
+    "lon": 27.9156882,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGU1AKSQ-sHSDTumVfuswHI_0Z6JK5HXLHXFWBSx8R3r6rBL6PdtFdNB7-GFvHab8PMlsSuMcXZWoWep3WeFcrOf8OPqye-tA=s4800-w800"
+  },
+  {
+    "name": "Blend Coffee & Social Place",
+    "lat": 43.2089259,
+    "lon": 27.9217628,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFycZ727Fc_wDrnw8L5RWMG-ZmJ1FL2HQTtJoWCVID3baw7QvZjKuxpkOjMb9czA2fo1DZI5oRUIocpI9c144IMPKhSkgOydw=s4800-w800"
+  },
+  {
+    "name": "DABOV Specialty Coffee Varna",
+    "lat": 43.2047753,
+    "lon": 27.9161622,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHs5pU8u1OVUv32b9Ew6S4Kt528Ap2OdtCn6q3M7GPGLw9fMUwVa2KNa_ECRkK8-RjeAwcIPhaP7FOPuX_1dVS6bu_RXKwDGygsHBmmf6zqb-VvFPoWh7vpHsIX4StV1r-ScetQED9pmlg=s4800-w800"
+  },
+  {
+    "name": "Wholehearted Cafe",
+    "lat": 43.1999629,
+    "lon": 27.912834,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEzvFYPzwI7ez05oOQNomERMoGIz_0kroLfnLLE_toqbqXcux9-584Smt0wCC7RYvBxTHk4O6gahOll2NFFI5xMxr0rc33MIg=s4800-w800"
+  },
+  {
+    "name": "Coffee & Tea house",
+    "lat": 43.203313325,
+    "lon": 27.906876629,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEFHNLZILeMjSFRCMdGh8TKHKHLxdJUoYa4dK-MFLAJRkrT7lPOqGCnWJj2W8G0bwQNov-37vPbF4h0bVFdJMBopCqr-zFZ9iBk-mlez9jAwWzY0_WaVYvaaM-6TVDaaOGftJqG7v0htYks=s4800-w800"
+  },
+  {
+    "name": "The Bookstore",
+    "lat": 43.1992126,
+    "lon": 27.9152295,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG5zAJT8vGt_0wR5QIMIOc2-t6szn11ZvSMBWkcNTbxiWRKkG8CSuPaLNsLy7_WEQkYu7pRixh-x8bUgzCPLbV6-KtWJwKS4A=s4800-w800"
+  }
+]

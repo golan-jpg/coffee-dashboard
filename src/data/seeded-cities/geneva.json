@@ -1,1 +1,292 @@
-[{"name": "Coffee & Maté", "lat": 46.2148301, "lon": 6.1467721, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boréal Coffee Shop Mont Blanc", "lat": 46.208851919, "lon": 6.144028902, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Utopia Coffee Shop", "lat": 46.2031418, "lon": 6.1575191, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Utopia Coffee Shop", "lat": 46.2052494, "lon": 6.1322777, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ferdinand", "lat": 46.1998137, "lon": 6.1489322, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boréal Coffee Shop Rue du Stand", "lat": 46.203517017, "lon": 6.140635908, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Calico", "lat": 46.2070952, "lon": 6.1436387, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MAME", "lat": 46.1961324, "lon": 6.144214, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee UP", "lat": 46.2078259, "lon": 6.1406623, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Corde Coffee", "lat": 46.2029903, "lon": 6.160065, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boréal Coffee Shop Eaux-Vives", "lat": 46.2007957, "lon": 6.1601993, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oh Martine!", "lat": 46.2111766, "lon": 6.1420309, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sublime Coffee", "lat": 46.1965107, "lon": 6.1442094, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oh Martine!", "lat": 46.199864, "lon": 6.1626682, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "995 Concept", "lat": 46.2049793, "lon": 6.1580324, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "My Little Cup", "lat": 46.2214225, "lon": 6.1480049, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "My Little Cup Eaux-Vives", "lat": 46.2035218, "lon": 6.1574264, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Universe", "lat": 46.1939742, "lon": 6.1401009, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Barista Lab", "lat": 46.2011449, "lon": 6.1314837, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Beau Coffee", "lat": 46.1957338, "lon": 6.156883, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Overflow Studio", "lat": 46.2024616, "lon": 6.1513101, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Madame", "lat": 46.1962489, "lon": 6.1385614, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Filomena", "lat": 46.2112945, "lon": 6.1458606, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Horace", "lat": 46.2030831, "lon": 6.1350811, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Birdie Food & Coffee", "lat": 46.1999825, "lon": 6.1377379, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CHOU", "lat": 46.2065209, "lon": 6.1616028, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Corde Coffee", "lat": 46.2065104, "lon": 6.1421388, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MAME", "lat": 46.2072543, "lon": 6.1400346, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Greenwheel Coffee", "lat": 46.2099333, "lon": 6.1213829, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Coffee & Maté",
+    "lat": 46.2148301,
+    "lon": 6.1467721,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGkakQCc4loCBWXlXb6R6rISlRdlTNg4nSqqqlWB_I-cV_uM9l2dKfqvlJ14UPZX9xkrPKQVm-QHAQYNgWbw7gDvmNRBquVVA=s4800-w800"
+  },
+  {
+    "name": "Boréal Coffee Shop Mont Blanc",
+    "lat": 46.208851919,
+    "lon": 6.144028902,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE3B0WjMJCTCi38spCAduDZZ9LdZ7vBr_05MiSwIyVjkBkLBLeHRQAU2Af6Dfv3ZRm8SgrfHPLH8btN40WjJ2mmVKDTHuXvrw=s4800-w800"
+  },
+  {
+    "name": "Utopia Coffee Shop",
+    "lat": 46.2031418,
+    "lon": 6.1575191,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTdcGrA8qDqhA3fKOKvGzfDdPfkAykMIYidkG5T8xqPR6hy3nhW9Sxzlqz23_cum8LaioPs5Zj5vSJyEIac1xxYQMmRKYI8g=s4800-w800"
+  },
+  {
+    "name": "Utopia Coffee Shop",
+    "lat": 46.2052494,
+    "lon": 6.1322777,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTdcGrA8qDqhA3fKOKvGzfDdPfkAykMIYidkG5T8xqPR6hy3nhW9Sxzlqz23_cum8LaioPs5Zj5vSJyEIac1xxYQMmRKYI8g=s4800-w800"
+  },
+  {
+    "name": "Ferdinand",
+    "lat": 46.1998137,
+    "lon": 6.1489322,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqENeg5Sf6z7nl1oEk-TVGaIv8MkSNxNak3lxC_VS3YEtke9New7zy8JvtnIj1gHeRFdRf9bOwcHFx3iUjtP6V8Vrh_-bWPd1w=s4800-w800"
+  },
+  {
+    "name": "Boréal Coffee Shop Rue du Stand",
+    "lat": 46.203517017,
+    "lon": 6.140635908,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHIQZPH3x8CGAv-uHMM6c3pvhyhCeAdCcT129MQM7By5tsXIGpobttuiEHQ9imuvVtMJKJLFgAQi9_w5JHY8FmWmT7oCr93Bw=s4800-w800"
+  },
+  {
+    "name": "Café Calico",
+    "lat": 46.2070952,
+    "lon": 6.1436387,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHp9O6BsCiVd99rCGQMY--fxhuhd1S47Jgs9ZeVLXiCr4xJOEh7HwPV_PGfV2bnhphF-rcqxVg5p52I2YCLAR-ZcOK2Af8aSQ=s4800-w800"
+  },
+  {
+    "name": "MAME",
+    "lat": 46.1961324,
+    "lon": 6.144214,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHdDmqXcCJ0jedBqIs4UNSzaY2gPk77D7jnpLaiJFIOIk-SbP_IOIXopv9E2bYLE36sCvercnkGUKhQbvbIJ3M-KlfM_vsbmg=s4800-w800"
+  },
+  {
+    "name": "Coffee UP",
+    "lat": 46.2078259,
+    "lon": 6.1406623,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHm_dc-7qikx3ZPHSw1sqeUwLSHLsQ8HAiv44TzwO0NZW92BmyLiB280C2fIQQWAdM6CK1AmYYsyh3Vep3xltp2A9XVLZh0Zw=s4800-w800"
+  },
+  {
+    "name": "Corde Coffee",
+    "lat": 46.2029903,
+    "lon": 6.160065,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKmoFoC5RBlvXZlf-HkmdCiZMTAxvddQ0eQyUwX8rMFwn4EqSlEV0soxpcpG6257ExZ8FKsgLkCIhMuSCBDCreej8CcNSFpA=s4800-w800"
+  },
+  {
+    "name": "Boréal Coffee Shop Eaux-Vives",
+    "lat": 46.2007957,
+    "lon": 6.1601993,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKyoWvL5OYBlRN8qss2IhJlKUsG-WaQgCTB2rKc4n1QEHT2fiLRAuWiyUbS0WXuP6Q45q3OnB3S-4d-XyyxLmpGywl_5nn_A=s4800-w800"
+  },
+  {
+    "name": "Oh Martine!",
+    "lat": 46.2111766,
+    "lon": 6.1420309,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGDcM1JbfPLqPvvOgw4RdjSSCvWtxerggPmFuJephrGzME3JWAMP1y-dK4MfqE0koPXpJJEcR-xB-lAM8vTgxe4i11gpLpr1Q=s4800-w800"
+  },
+  {
+    "name": "Sublime Coffee",
+    "lat": 46.1965107,
+    "lon": 6.1442094,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE5f_hcJquw-6NhOMchollDVN12R5gWoYNl_TqxOZiy6pAqYtgpjT06UwwruDDrEMleNboMIk63FtL_ihY84m7C7o3e58USnQ=s4800-w800"
+  },
+  {
+    "name": "Oh Martine!",
+    "lat": 46.199864,
+    "lon": 6.1626682,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGDcM1JbfPLqPvvOgw4RdjSSCvWtxerggPmFuJephrGzME3JWAMP1y-dK4MfqE0koPXpJJEcR-xB-lAM8vTgxe4i11gpLpr1Q=s4800-w800"
+  },
+  {
+    "name": "995 Concept",
+    "lat": 46.2049793,
+    "lon": 6.1580324,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHjtxfq3PbSdTfSpi2sR4s4Vbxmhyp5tsC9_fQu9p_jRFdJ4FWDtsjQh1hzoloKgWmM9SpFykMmnYmRlSXvlIffGAu_tZmKkg=s4800-w800"
+  },
+  {
+    "name": "My Little Cup",
+    "lat": 46.2214225,
+    "lon": 6.1480049,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHKNhLzsqLMkvQE8XtBQ8bnb3anHnbxOXlrPoqeZC_ulpss5awAlih91nKHVeYNSwwTSQxaD1s4pFgsMsJO-VAqHazeIARJ=s4800-w800"
+  },
+  {
+    "name": "My Little Cup Eaux-Vives",
+    "lat": 46.2035218,
+    "lon": 6.1574264,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHKNhLzsqLMkvQE8XtBQ8bnb3anHnbxOXlrPoqeZC_ulpss5awAlih91nKHVeYNSwwTSQxaD1s4pFgsMsJO-VAqHazeIARJ=s4800-w800"
+  },
+  {
+    "name": "Universe",
+    "lat": 46.1939742,
+    "lon": 6.1401009,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnAIAPVMoKUeQdJnsBddAahgF3veorPNpdzv3DxTvWqnpvlq7JLxbs4iRIzVd1AlGrKQJINb0qeBYS2DfedmzvcaCimOHqXw=s4800-w800"
+  },
+  {
+    "name": "The Barista Lab",
+    "lat": 46.2011449,
+    "lon": 6.1314837,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEr_K2LWODXzhuQJ9b0RV9ipUWjS2Ix12Y11RKakgxG73yXcxrh75e55F4o4MQhhSnXBLSj8Dh0jyEAThz5PWZ00T3Gob6C6w=s4800-w800"
+  },
+  {
+    "name": "Beau Coffee",
+    "lat": 46.1957338,
+    "lon": 6.156883,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFGALJrU7Q6mUaD1FoP-S4I_-GCdXVG0L9WJc5UKZTZMB13GUBi1SDEezDdU15uAWAF45kgiP21yGN6Xd3nZBrIeKVCds6gd1dc_xCW1k-CuTMQiq1G4yfy174JZDvxk-8RGIyqtqUltZKd-wn8yTIn=s4800-w800"
+  },
+  {
+    "name": "Overflow Studio",
+    "lat": 46.2024616,
+    "lon": 6.1513101,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNErTMoYaUAJE1Bd0BuAI8t9BDofFK2tDGCBTrKoNmt_xhPgiWGoPgqUHLARI4r3q-JME5wSZ0nho329GV5Crps2mppT8w8KxnkBKE8XdbS7CIElcvjqJT0jON7U8_DBPFTesP0Qdo6rxCQdZy4waQAQ=s4800-w800"
+  },
+  {
+    "name": "Madame",
+    "lat": 46.1962489,
+    "lon": 6.1385614,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGedGSggjifHw8nIDHV3p_l554ilSx1d2pEekV6FmrKfCOQ6kMH3_MM4l_bZFxzd8L5Z5DgJklC0F5KoxqmjaMElYsDMbqJ-w=s4800-w800"
+  },
+  {
+    "name": "Filomena",
+    "lat": 46.2112945,
+    "lon": 6.1458606,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFvdpNNtrUOCXczIEukcK-TuTEmmm5B8GEBpQnNuOBJJ0koAuCOWWd709lqDn2pUOpQq2tysFqZT91Ppfyic7QgV0kjik5xLA=s4800-w800"
+  },
+  {
+    "name": "Horace",
+    "lat": 46.2030831,
+    "lon": 6.1350811,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGKTUA5vWuPDdNI4SQevHSW2QxczfZ8gf6cUsSc1nOo8XtVBF-POtfNXJ-1i2hfqyQZMRDYvW9x6rtM1An8TQVruDpjOZzdZw=s4800-w800"
+  },
+  {
+    "name": "Birdie Food & Coffee",
+    "lat": 46.1999825,
+    "lon": 6.1377379,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEZBmFfkFTUY6cyWL6U4ccZ8vukS-xzV7MW43odkZ9GrjxjIdUFU8et3TcCTrVg7PAK2Qs7qTF6BJ-Jc34qWMCj_3T8MZxD=s4800-w800"
+  },
+  {
+    "name": "CHOU",
+    "lat": 46.2065209,
+    "lon": 6.1616028,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH5pAP9fMKZd9ffEcVzRMa-2XMG4YlsX8ZWCYKUycOe5pvYfKFwzBNybRDOhaFpH0e4N7aBY8cYkvmsgMlq0XqBPm8uUnJyl_v9IQgAi5arwrwILmILCgDZd5oeedRlFHkEOEILDojb957E=s4800-w800"
+  },
+  {
+    "name": "Corde Coffee",
+    "lat": 46.2065104,
+    "lon": 6.1421388,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKmoFoC5RBlvXZlf-HkmdCiZMTAxvddQ0eQyUwX8rMFwn4EqSlEV0soxpcpG6257ExZ8FKsgLkCIhMuSCBDCreej8CcNSFpA=s4800-w800"
+  },
+  {
+    "name": "MAME",
+    "lat": 46.2072543,
+    "lon": 6.1400346,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHdDmqXcCJ0jedBqIs4UNSzaY2gPk77D7jnpLaiJFIOIk-SbP_IOIXopv9E2bYLE36sCvercnkGUKhQbvbIJ3M-KlfM_vsbmg=s4800-w800"
+  },
+  {
+    "name": "Greenwheel Coffee",
+    "lat": 46.2099333,
+    "lon": 6.1213829,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHeIPpwOHLIE_-pfSBQJrs5mlswcLN6T5BKekJQpXwelqEfvkB8Ys8poFaU5tsdQLW2wDwHVeEvQTGELS-6HXRjf-MjzqlU1w=s4800-w800"
+  }
+]

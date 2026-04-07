@@ -1,1 +1,182 @@
-[{"name": "Tim Wendelboe", "lat": 59.923371229, "lon": 10.755699724, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Supreme Roastworks", "lat": 59.9280861, "lon": 10.7592826, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Papegøye", "lat": 59.9137032, "lon": 10.7661672, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kuro Oslo", "lat": 59.9207441, "lon": 10.7631274, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kiosk!", "lat": 59.9075639, "lon": 10.7816392, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffebrenneriet Grønlandsleiret", "lat": 59.91163, "lon": 10.766953, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fuglen Coffee Roasters", "lat": 59.9062171, "lon": 10.7746492, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mocca Kaffebar", "lat": 59.9194325, "lon": 10.718625, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hernández Oslo", "lat": 59.9314373, "lon": 10.7494079, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dapper bar", "lat": 59.9211568, "lon": 10.7583338, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Java Espressobar", "lat": 59.9243908, "lon": 10.739653, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Solberg & Hansen Concept Store", "lat": 59.9224454, "lon": 10.7518716, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lille Oslo Kaffebrenneri", "lat": 59.918766, "lon": 10.757499, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fuglen", "lat": 59.9170851, "lon": 10.7400063, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Talormade Bispevika", "lat": 59.9067135, "lon": 10.7574965, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pust kaffebar", "lat": 59.9305406, "lon": 10.715018, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hakone", "lat": 59.9138937, "lon": 10.7507774, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kampen Kaffe & Bar", "lat": 59.9119587, "lon": 10.7809735, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Tim Wendelboe",
+    "lat": 59.923371229,
+    "lon": 10.755699724,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFmmus1StEri4QAkaCOJQT4yYFCYjDJNqjuNcX4lTqRF1Wc0M1Kysg-rBZlj8dWLhkz46906D05oYRQbO0xg910uhkbXKu9lz2aFnQXvp94FDh5AtedvHZSnOtXqBIIqVVaRzJP1LoY4adO=s4800-w800"
+  },
+  {
+    "name": "Supreme Roastworks",
+    "lat": 59.9280861,
+    "lon": 10.7592826,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGepaGnUWS6RRN-KvUJxuUuPiXBnfQV9RUsQZNW7gHXkQerTNePLrZfEaCVXO66-MbLickJCIt9OwSTW9qMBIuxDdYi13uRhQ=s4800-w800"
+  },
+  {
+    "name": "Papegøye",
+    "lat": 59.9137032,
+    "lon": 10.7661672,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEMydijmVJmqcmFkq6zvesEnctPMPmA4b7KIZEda9yS4uaO6ZoHGLWFxxTFQ5iXnKxZeHLkCb6xWgLmgMkFFX0ysQnL1u0aMM0rV2DbSjPHfJ0RC17XHQlKQ7UGUdCDV9-0v4D56whW-ink=s4800-w800"
+  },
+  {
+    "name": "Kuro Oslo",
+    "lat": 59.9207441,
+    "lon": 10.7631274,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGTlIoVbFQWMshvX7SrWIc5l341J2zRNiPmVatnoJdhndkxrPkH2d_jQC4fZhscIPw0XECkN3uui_T62fAOJnF24Cz6YiwKZj1eSqc4ZeqqCOZAytpmm6KLT4f_sw3OrVbXfI_42WCZNSSC=s4800-w800"
+  },
+  {
+    "name": "Kiosk!",
+    "lat": 59.9075639,
+    "lon": 10.7816392,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGtLbWFDv5gyvm2BpGQcL0TrLcnPzbANd_FvZGJnbUKYsx3K67tAPxhG2iuchlXFd3WqdIDNqN4TiPCmuHyHlRPyqTMYTB71A=s4800-w800"
+  },
+  {
+    "name": "Kaffebrenneriet Grønlandsleiret",
+    "lat": 59.91163,
+    "lon": 10.766953,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEAHe54EzxRBQWahKgDvYIOHNn9FVMR22-pW66VzfXoXVRJ02TCmUyVXX1WFW77wgo9BnIRCdVNj67lpXlLuJ0h_0oTdJlxj14MmJUnZ65Fqc_XwiypodbDb8qDWw_IQdQMfLBQYha7f6mU=s4800-w800"
+  },
+  {
+    "name": "Fuglen Coffee Roasters",
+    "lat": 59.9062171,
+    "lon": 10.7746492,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFUxFHbxnLt6Cj_ndrJ1ZI_heNfhHal0UrdfooNXb1iN3Z9cwFgWjpK2x3kD28rtatEgMDbXl0qOov-85VMhKUxbmLpEkMVkQ=s4800-w800"
+  },
+  {
+    "name": "Mocca Kaffebar",
+    "lat": 59.9194325,
+    "lon": 10.718625,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgMIJN3wdeQPA8a8MH4BH1Kn-V8kV8Zyq1wyG3N3o8tB7PmV4dl9TRgaZKRt1z6guuRD7nmx8cF2dMXUMvzDotNbRVKvw3=s4800-w800"
+  },
+  {
+    "name": "Hernández Oslo",
+    "lat": 59.9314373,
+    "lon": 10.7494079,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEBIQXVKRc4YRcvmRoFAimOvdHZO4jCq3X6rHua9SceBEysOV06lqFB6pCKdIsJTUeTRU2EWAuXY5RniESxvc4bFDe5WfAn4XmlLyq409-RI129CQDXu2DiVBrjbQFUaFuuh5xmGXoe2Tk=s4800-w800"
+  },
+  {
+    "name": "Dapper bar",
+    "lat": 59.9211568,
+    "lon": 10.7583338,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGhYb16EUw8Ar1xULok2W6odcI35TxtftrlLs0P1Gl2r0Qae7YzLEmgT1u7DK41BKsuyneM_Z08rHhp55iNyZSIy6dfSvGo5w=s4800-w800"
+  },
+  {
+    "name": "Java Espressobar",
+    "lat": 59.9243908,
+    "lon": 10.739653,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGWZVoN_cpmbx_YgUJHxIEjMGJpehAslU6Zh5_gmAnH8Ug5I4McUBpSoqjgwgkSifGPOXlVNGf9pYxjvQG1QSBeWAtk59wDdw=s4800-w800"
+  },
+  {
+    "name": "Solberg & Hansen Concept Store",
+    "lat": 59.9224454,
+    "lon": 10.7518716,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHEhfqYO-L4ymq6EvNBcQLDD-gaDGwMFKjXeHUY5XJMXzIf52hyi3L882k2S6jh_TSQMFNyq9URwmQaZccV_8eakiC9RBxVAQ=s4800-w800"
+  },
+  {
+    "name": "Lille Oslo Kaffebrenneri",
+    "lat": 59.918766,
+    "lon": 10.757499,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFG767LaMOVock5Tzn-6IJpg368e-iNHMqNp5OMNvM_0e8_OZ3M30e2YyZ1iE1rwoRcv_DrgSSNZN7sva4_Cui2s7NMThHkwr3aAZpYwqqEjdD5kJG4v6jlVUFzvzhMJFz9o1-9ltOqUVyymTUTPK7h=s4800-w800"
+  },
+  {
+    "name": "Fuglen",
+    "lat": 59.9170851,
+    "lon": 10.7400063,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFUxFHbxnLt6Cj_ndrJ1ZI_heNfhHal0UrdfooNXb1iN3Z9cwFgWjpK2x3kD28rtatEgMDbXl0qOov-85VMhKUxbmLpEkMVkQ=s4800-w800"
+  },
+  {
+    "name": "Talormade Bispevika",
+    "lat": 59.9067135,
+    "lon": 10.7574965,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFVrDZ8CaReGYjprjNwCl0Sq0NYgnyQssB0VPfITyPnCc1rn0ta19MHd-AF9azFW6sY-eNBnY_HLHpBWtn-lK677di2vP-9=s4800-w800"
+  },
+  {
+    "name": "Pust kaffebar",
+    "lat": 59.9305406,
+    "lon": 10.715018,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFazHcp9oOCftfOz1CoBxrbgv6b7RExz5YnnrtQ1mTmTSNL6Yv6_YO4axEi_TMxjhSXhrjAM1QRr8EWLaR47oZT1EqVOmLWBg=s4800-w800"
+  },
+  {
+    "name": "Hakone",
+    "lat": 59.9138937,
+    "lon": 10.7507774,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH6FavsmVRobEQtCcYHSFjm70feHuC7rWUqrJxD-FNnzSSH4FLrf8cvcdLWOOjrg475KNDjV696lAkYw14MSWnYgKXhPyfzyQ=s4800-w800"
+  },
+  {
+    "name": "Kampen Kaffe & Bar",
+    "lat": 59.9119587,
+    "lon": 10.7809735,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgDHbVLRUYPzW9iLI1GsxmzrACI31X_htTZTUGeTcHtxeU4Gptvgf5f8wfEfGAREWwE4lnaIhg8ZQ7E-bEuGArkj6ux3ud_g=s4800-w800"
+  }
+]

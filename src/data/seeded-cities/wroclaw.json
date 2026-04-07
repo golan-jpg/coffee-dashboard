@@ -1,1 +1,282 @@
-[{"name": "DOPPIO", "lat": 51.1313053, "lon": 16.9902615, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Good Good Coffeebar", "lat": 51.1016638, "lon": 17.0283954, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gniazdo", "lat": 51.1053861, "lon": 17.0315415, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mio Cafe e Vino", "lat": 51.1236411, "lon": 17.0401695, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Enklawa Coffee Roastery & Cafe", "lat": 51.1224788, "lon": 17.0350234, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BRÚ speciality coffee & bakehouse", "lat": 51.1162419, "lon": 17.033067, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pompidu", "lat": 51.117505, "lon": 17.0471467, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kawastrofa", "lat": 51.1146411, "lon": 17.0267743, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Odżywiasta Cafe", "lat": 51.1563845, "lon": 16.8958364, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ww Café", "lat": 51.1232986, "lon": 17.0563871, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Targowa", "lat": 51.11264772, "lon": 17.040449381, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kanapa Espresso&Wine Bar", "lat": 51.1207718, "lon": 17.0362464, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Noon | Specialty coffee & food", "lat": 51.1174245, "lon": 17.0453765, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Larks", "lat": 51.1118884, "lon": 17.0321835, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Paloma Coffee", "lat": 51.1095699, "lon": 17.0287231, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Łyk", "lat": 51.113516, "lon": 17.0312957, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OTO Coffee Bar", "lat": 51.109314, "lon": 17.0245791, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KIOSSO", "lat": 51.1106863, "lon": 17.0371832, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cherubinowy Wędrowiec", "lat": 51.1131946, "lon": 17.036593, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WUWAcafe", "lat": 51.1045125, "lon": 17.0841698, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Chmiel kawę", "lat": 51.1113602, "lon": 17.0352362, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rozrusznik", "lat": 51.1167135, "lon": 17.0311931, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kraj Coffee", "lat": 51.1136898, "lon": 17.0337787, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TOGO espresso bar", "lat": 51.1084793, "lon": 17.0365924, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lokalna Palarnia Mała Czarna", "lat": 51.1174699, "lon": 17.0904813, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Yello Coffee", "lat": 51.1118327, "lon": 17.0545353, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "El Gato Coffee Roasters", "lat": 51.1122032, "lon": 17.0314123, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Popiol i diament", "lat": 51.1103529, "lon": 17.0302618, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "DOPPIO",
+    "lat": 51.1313053,
+    "lon": 16.9902615,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHu_l6VF0ezaysmT24F6f4A6T6hAtODN6yVxolhSiNiBGS5MU2PSfRGavSFaG6I0QMMdgpjlHJEQZB8fymWY1uFq1cZlx-afg=s4800-w800"
+  },
+  {
+    "name": "Good Good Coffeebar",
+    "lat": 51.1016638,
+    "lon": 17.0283954,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEGMoLIZGzChjnKF-yER9atkYL3C2jiH3GkAose4eTbvu1Kuo8z-W6kmiQHK76tI1Le4Ee9h3HbfArTs2P8-3BQYARnD2uwkQ=s4800-w720"
+  },
+  {
+    "name": "Gniazdo",
+    "lat": 51.1053861,
+    "lon": 17.0315415,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE9uC2AZdHnkvyEEuT0pZjU85g3gnMpkUM-qtlWV0HBrmgG3HZXxj12v1symLYs_FlVN3BV-6GAOgXlgVudiZ9wzA66SBV2ig=s4800-w800"
+  },
+  {
+    "name": "Mio Cafe e Vino",
+    "lat": 51.1236411,
+    "lon": 17.0401695,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHBVqkdbl9z75yWBUq9I9vrHn0MVEKHMJpFQE_XAUuQtTSb6s1lTlD3W2sbJWkOWc3dDsIJksjH1kMzxAlZQuwkyT1Pf1BaDrmD0g8RQFV654_DAbgGmZtMW6D5vLXCGokFMIid0l8mR0hKj3C8Xyae=s4800-w800"
+  },
+  {
+    "name": "Enklawa Coffee Roastery & Cafe",
+    "lat": 51.1224788,
+    "lon": 17.0350234,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG9bDb3gCWZye4QmIWo2yFijwRv_LHHdw9fDs1cBP13YpbWJW_Ss98Y-NG2HTwxEHF9UZtXug2v3YKbpjSGl8HdB_R_OxMd7g=s4800-w800"
+  },
+  {
+    "name": "BRÚ speciality coffee & bakehouse",
+    "lat": 51.1162419,
+    "lon": 17.033067,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFtNDYEvBl-vdG-MTtPMISPCCbUg1vwYwiBxqy19aCFRgaJqdixkdjroRO1Gtwrh-Qg79exb-BHWRFrBtiuRwpMZuL5-08fRIdy7qIoXdhZdDz6AfGvaBUy3Ob1T2LVOjCNgWHqAOkO7oIlJ3cK6ev7=s4800-w800"
+  },
+  {
+    "name": "Pompidu",
+    "lat": 51.117505,
+    "lon": 17.0471467,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHg98Wtbt5CaY5liq0Tg7VnRbWbJjeWhkTEpXhEYZBtKjabz5TwTwKMU3GDPPw1o-AeF5FuwjG-RwwmvVj25Pg3swKpNeyumg=s4800-w800"
+  },
+  {
+    "name": "Kawastrofa",
+    "lat": 51.1146411,
+    "lon": 17.0267743,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHv3yTwPGe03Y_q9IYe6uZqqCwZggEYZ0Z0SwX6b-x345KXKUqEGXq_AE3n6rG0nz4EwHR9vYwVJVwybPTjZ5NXwcGUnqflkbGaZgmkeGzJPue3u7oFHoiCeqNw3sQugDqFEmtOAw7Hs1yU=s4800-w800"
+  },
+  {
+    "name": "Odżywiasta Cafe",
+    "lat": 51.1563845,
+    "lon": 16.8958364,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEO9A3eHfKE00-moiAfBo9iM0-NBdXJJfh4SMQsN_DED3JImXiAi4FioUl60D3fnCP_J21b3WZF5_bmsHQJW409HBGxZLZQWw=s4800-w800"
+  },
+  {
+    "name": "ww Café",
+    "lat": 51.1232986,
+    "lon": 17.0563871,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF4di3clvDO8-pQcjcOwUfxD8NFP5x2HVb3lW9c-sAJWSDBSzMXwv_dZibqC3DEqGkDZk7EIrlBqPUFiFCkXnscMqWBdpeHLw=s4800-w800"
+  },
+  {
+    "name": "Cafe Targowa",
+    "lat": 51.11264772,
+    "lon": 17.040449381,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjSH0LHpje4vjl47jG7uuVIyhrqxcGXwH83oWj98UaOEk4tV7oa-iHnHQDqpUAvnVbAfV14lx4GOfRe2TcylfEFTWbxpC8Mg=s4800-w800"
+  },
+  {
+    "name": "Kanapa Espresso&Wine Bar",
+    "lat": 51.1207718,
+    "lon": 17.0362464,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEpdv6iubNaEKIG3_832ikihsf3n_PJNShB-evHq-4C2ki7d7-s0tobglMth8Nujnl3F6sTvsWiVEua0x1Qsm-jpmTye2rnkw=s4800-w800"
+  },
+  {
+    "name": "Noon | Specialty coffee & food",
+    "lat": 51.1174245,
+    "lon": 17.0453765,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHWu6r4QAXtNi_3W15WdqjgZKVPljgiEC32-cW3lX4uqx2RPxCfK1VJWLTcAsC_PSVMvyTwXzDxLxZgP8aOruEyuL58x-0WPw=s4800-w800"
+  },
+  {
+    "name": "Larks",
+    "lat": 51.1118884,
+    "lon": 17.0321835,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGG9E3zRsZX7CT96poIvdNsD_gxjlSmCd-MtdnZW8yeM4nUfxQLz5H5OFsV1-nFeT3zFyIno9HXx104MI78Nshr2jff3ZxfpA=s4800-w800"
+  },
+  {
+    "name": "Paloma Coffee",
+    "lat": 51.1095699,
+    "lon": 17.0287231,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKgUGcC44Sd8OSHnJVYL5qb8EVyyJmWakFR9Jm1DNfq_yZHF_XcBMSH4Z9_wtt-10vqk_qoGPBALqhKn0AtgmRYmjzQf7ODw=s4800-w800"
+  },
+  {
+    "name": "Łyk",
+    "lat": 51.113516,
+    "lon": 17.0312957,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHo0pYWAWC23__osFBDLkeYLgy9SYdpeH5Kl4kpWJTnjDl9-HUNg8ug5762aIoQArjt03ni8HQV5dS7ryeiTyz9BQZuf2tea9j0SK3FsKKAGtpHgplGulqZgxfTkJNqcL2jCFzkvBsGMZZoWrD2KOc=s4800-w800"
+  },
+  {
+    "name": "OTO Coffee Bar",
+    "lat": 51.109314,
+    "lon": 17.0245791,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWe6rb2QNV19H6kI9rdk-4D65PwyOsXTCQ2h7bm7JVSuDa_m7SsS-ZW0fdbByurdVHAzbNlyK_YqEB3F7_ZWwR8BENYckRll6aX42hZNUtGFB3GwjafCDrNRhYj183l7RUTxnRZApQFKM4=s4800-w800"
+  },
+  {
+    "name": "KIOSSO",
+    "lat": 51.1106863,
+    "lon": 17.0371832,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEr21mRWBJcY8umkgdQ_moPE02Z51D82v8JrmB-x2ydEa2XwHjjUprQne19QGZyTNpV96KQTTY1x6B4U9c5zv10PxDBHuyl3A=s4800-w800"
+  },
+  {
+    "name": "Cherubinowy Wędrowiec",
+    "lat": 51.1131946,
+    "lon": 17.036593,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFBhmRMefb5vqhRB3NPQto7nMP6yXRdOO92xqYHuBTs-jURmMQrkiPVZ3EYZVWMSXp-u926Aa0p-_dPmYyNjkwvMdQqNFuG5hrquRyr1CCzq6j9eDSXwQA4BuzVOoOPoxAymfujCrEb7QUc=s4800-w800"
+  },
+  {
+    "name": "WUWAcafe",
+    "lat": 51.1045125,
+    "lon": 17.0841698,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFqylRhi0bt8yVhNsnWOM6dcywct5PzGWuLXTRKZOgM1qvssnuX9H_JR3rDUOpOv__YwHWCXW3pPadTyNhddw_wMjIRsPlujA=s4800-w800"
+  },
+  {
+    "name": "Chmiel kawę",
+    "lat": 51.1113602,
+    "lon": 17.0352362,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFAm-FU4lYpt_4CGvvbrDpYpcd1TommOtOtvG7NjP9xhOPKWLyGk9fUOteh_G0vlhA5i756OznRl1ujjTgqKJ-uCU7bSnE4VQ=s4800-w800"
+  },
+  {
+    "name": "Rozrusznik",
+    "lat": 51.1167135,
+    "lon": 17.0311931,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGMN0r0WXbmjMMQBIcMu4ptVhEaOgHzPQg0apQxVzP5zHTvU_BUeiiG1bUkMM1La9pkuqEGXH0fWCBtQfvR_Xze2XanVCR3ab3zQF09S-PrfVj9P8spj8T6S7Ama2sS3_23iPSf9tjCWY_6PyCturqJ=s4800-w800"
+  },
+  {
+    "name": "Kraj Coffee",
+    "lat": 51.1136898,
+    "lon": 17.0337787,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF6V6HuM4ZDAtPMDmMu1RBpJ6BGmCt3U4dZJoTE_gEIkhn54MR-fwKdStN1AmlASqedQp-HnDp-Jn4Hlt9hUtFzXdOjg81OuPSnaUqDgBrgRetMAwTHVJ_QVSN_T9dQsZ9zuaoe9AzC1uQc=s4800-w800"
+  },
+  {
+    "name": "TOGO espresso bar",
+    "lat": 51.1084793,
+    "lon": 17.0365924,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGmY1Fvu7I4F2DizK9OGnXZD-ti4rfT9M-dIupVpujjOYZK2oC7xPJLXKvQnSTcBWON-byDTTuEvDIgu93mf16Af0m8n27ziLKJoyUmc85UObCO8a-mXBiKwpePIM6DrFUendIKt3jov_KIMoeE6rE=s4800-w800"
+  },
+  {
+    "name": "Lokalna Palarnia Mała Czarna",
+    "lat": 51.1174699,
+    "lon": 17.0904813,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFx8X3UZG7nNO6cEiGxdy9EJn9QbPQXX2mmu7S1QVsGiL3GUz3kPDzmoSRvdSKOUED8_95kZu0W8tM8YFgHkbgboqDq9AFsvA=s4800-w800"
+  },
+  {
+    "name": "Yello Coffee",
+    "lat": 51.1118327,
+    "lon": 17.0545353,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHbq-k9AnLXKY7v84-nLvzJkI8Fk8HYt_Mse8iYV6m3oClwr89jx-vySa8jlkQoOeZ6DqxUEZ0UPEu-t6AY1xQDA7gkgVkD1g=s4800-w800"
+  },
+  {
+    "name": "El Gato Coffee Roasters",
+    "lat": 51.1122032,
+    "lon": 17.0314123,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqET8YNUTlR6KlHMvKfX0UWw37_k-9Am5ISxlGDYR_6LgsdLgNVENBv2WzuOmk-DyEnX34QVh61Cr_J9jVbWkJe6v3G9Y6FHrg=s4800-w800"
+  },
+  {
+    "name": "Popiol i diament",
+    "lat": 51.1103529,
+    "lon": 17.0302618,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEjFkqQhptQYRIvwEzj9rMnkSdWCBg-gZasUXK_Ue-KonG2B58gcArd3vQHSUVIlBNvqoLMOjbrgSk53WjIE8w1e25b1gmbLQ=s4800-w800"
+  }
+]

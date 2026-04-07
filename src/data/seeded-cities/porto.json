@@ -1,1 +1,262 @@
-[{"name": "Rosi. Café & more", "lat": 41.1510145, "lon": -8.6212186, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Combi Coffee", "lat": 41.14662, "lon": -8.601488, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SO Coffee Roasters", "lat": 41.1484785, "lon": -8.6150598, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Baco Coffee Lab", "lat": 41.153159, "lon": -8.6241742, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Senzu Coffee Roasters", "lat": 41.15016, "lon": -8.6210614, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "7g Roaster", "lat": 41.137024, "lon": -8.613996, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Comum", "lat": 41.1514514, "lon": -8.6175963, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dona Mira", "lat": 41.1454795, "lon": -8.5974089, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "the grow", "lat": 41.1525068, "lon": -8.6086908, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kuji Coffee and Community", "lat": 41.1526339, "lon": -8.6205282, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "H a k k o", "lat": 41.1513095, "lon": -8.621281, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "At Street.Coffee - FOZ", "lat": 41.150359, "lon": -8.676032, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "GLAD", "lat": 41.1487933, "lon": -8.6098053, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Época Porto", "lat": 41.14789, "lon": -8.620442, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "von&vonnie microroasters", "lat": 41.1472013, "lon": -8.5892769, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "DOM | Specialty coffee & Brunch", "lat": 41.1561404, "lon": -8.6188613, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mel Living", "lat": 41.1499779, "lon": -8.6042598, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "A Certain Cafe", "lat": 41.147049, "lon": -8.6004915, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "At Street.Coffee - CLERIGOS", "lat": 41.1477286, "lon": -8.6138734, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "C'alma", "lat": 41.1467575, "lon": -8.6105707, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gather Porto", "lat": 41.1500126, "lon": -8.614071, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mesa 325", "lat": 41.148209572, "lon": -8.597366363, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Passaporte", "lat": 41.1501742, "lon": -8.5916266, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Canvas Speciality Coffee and Brunch", "lat": 41.1452439, "lon": -8.603678, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Francisco", "lat": 41.1509254, "lon": -8.6120108, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Combi Coffee Roastery", "lat": 41.1606356, "lon": -8.6554298, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Rosi. Café & more",
+    "lat": 41.1510145,
+    "lon": -8.6212186,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE7wB0xZ5Ui2Osl-HVct8v4JLExfcm86cw3-rjSlMrN2Qqr91tuzUeGAFfmO_UZhRaLxyOqnT0KKUmGXTL4yNpnzs4fmH8Z_w=s4800-w800"
+  },
+  {
+    "name": "Combi Coffee",
+    "lat": 41.14662,
+    "lon": -8.601488,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFJu59HTtvYaF-bA0DksRYsM9SnqAV5tTfrNnFt7gCK77ZLKVGeEWWmPf9I3-ekK_dV19kSZeLZKciVKVjTWJt72exZWqtM6Q=s4800-w800"
+  },
+  {
+    "name": "SO Coffee Roasters",
+    "lat": 41.1484785,
+    "lon": -8.6150598,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-yQ8Q0_-YLgKb4UMIB6WMArN4GCe4vQxZcVjQCB_EdcdYQprWJbJk96kYziHIBjehBj3W8JhceCzMtZClFz1bxNQmxCvq=s4800-w800"
+  },
+  {
+    "name": "Baco Coffee Lab",
+    "lat": 41.153159,
+    "lon": -8.6241742,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-8vv5JlucrMnnnp9qkSs3mlt2r8YwAWhz_byHyZMVKK28KKEUm4BDQo_jDt6aZIS1OrtE-wTIoEwxx_urvuNFAroEBjL6BQ=s4800-w800"
+  },
+  {
+    "name": "Senzu Coffee Roasters",
+    "lat": 41.15016,
+    "lon": -8.6210614,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFho0pjm2OqIobZo0ZXaJ5zzCDs2fT8jGFvb7IMgG7VyrNf8hfsYXorqOjV93keqY_ECMDfsYebi78yOAldiYkZnTL9aeYckQ=s4800-w800"
+  },
+  {
+    "name": "7g Roaster",
+    "lat": 41.137024,
+    "lon": -8.613996,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGC4sA8m2AcKpV4x5ObSWnE1LXI4ZzK_ARDl8rR1X2jhexQ8Q0LFuKi_xRJQKhRKi5e2XU91CJd7ZG72IBLo2EJ6P4Ffb8m8w=s4800-w550"
+  },
+  {
+    "name": "Comum",
+    "lat": 41.1514514,
+    "lon": -8.6175963,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHhElcE4CAM-6h1UCo1BXCLZp-0xOMSRQtd0Fb0XFZmH90dQM3D5JRwroYq4ZfjP-U8kMF06YUwnII4bGG9a4VgLFLNtSaAA4AzWRZD1H6Stt2iK2AoQaEUgoxfyoYPCiWnapH2iJHnrDar2bEaLqBs=s4800-w800"
+  },
+  {
+    "name": "Dona Mira",
+    "lat": 41.1454795,
+    "lon": -8.5974089,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGFmEf5iT3o8e4jR57yIK2H2h3EI7PAxy6dHY06cPm4nF78rLUcyKagsIosnFtfhJpvvkXXejbaqzjZfd1rZjRZqPbL5DkJ=s4800-w800"
+  },
+  {
+    "name": "the grow",
+    "lat": 41.1525068,
+    "lon": -8.6086908,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG5EsLkfSA8UdNTOfFXsbvnhPaURAcMdi4aFNf6d6g-V_lSlWRlZhe0_db7X0a9NskwJFMgM5nCKKooIYctNWLpz0LIwj2UlbZ5Kx7qV0p12jUQBWwIJ3p0w3V47IK7-DiVBJ7N8eWwNO88XvBaMAiO=s4800-w800"
+  },
+  {
+    "name": "Kuji Coffee and Community",
+    "lat": 41.1526339,
+    "lon": -8.6205282,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE13XMPBo9M8yRf701PnD01prVy3cAs3Z9fpDZFH0S4FLtnyC_FOfyq8OFb5dEr1aVh_LcLY-NPtQVeDyapvwAeDy8Ls0zzfL06JpoJI7uJ0YKMNsGuUWpzz24e5F4Xyu_-_zSgilnOueyy=s4800-w800"
+  },
+  {
+    "name": "H a k k o",
+    "lat": 41.1513095,
+    "lon": -8.621281,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEO9ryighMxddwTOHXFfL9GNcsBHiC0q4F0kKHjUXJiGrwMyLlU1mG73l9tPyCFWEQJQQPF0585CzKEvP1lO9KKQx9bgDnHbDxiyCBBtLBqLtgmWuiIUQQsSvnkjSN3RcfDPwhf1-G2pDQ588BSmUii=s4800-w800"
+  },
+  {
+    "name": "At Street.Coffee - FOZ",
+    "lat": 41.150359,
+    "lon": -8.676032,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEp0FgaBjy3yLb__hypP7sktY7xrKtYOEN_SALFuiJjvnc_umHjiWH11voJf5QaGy-fjPbAUgRPN9G19Zhu1H3Ml-W4i0Y83dPMD6O0vRZOIsfzwRAe8TB7L3njZ594wEVpU7TF3vkAg1TrILWMBEDN=s4800-w800"
+  },
+  {
+    "name": "GLAD",
+    "lat": 41.1487933,
+    "lon": -8.6098053,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwRvsTimIpGZcu-XkcQrWbJKKf553D0XicK47yYLH1UDbGMPMoKFRixH79kF99Rznr36f3yxOX5y6cppYk8axdu8WlPXe2UYMniRwgO49ojcN9cB3APAOgtDAJ2YFZ6H2N_zOSNtYz7UX_ylfw8QQ=s4800-w800"
+  },
+  {
+    "name": "Época Porto",
+    "lat": 41.14789,
+    "lon": -8.620442,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGM11_fY_NVcbYWgYXTATXPjYOvgxTUgNcE2jq9_W3a-hWmXkgznr0nlUXVgsB7MBYRknv2UGlO9GOU0vGzEJmZiTkHqHL7aFeB4HA59ajpqRoIpjsPPUYK2OU1cO5xSaSb1Xswol08vQx_=s4800-w800"
+  },
+  {
+    "name": "von&vonnie microroasters",
+    "lat": 41.1472013,
+    "lon": -8.5892769,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEu3eIpq3lvdNUEsOLv52LlB4Hd1eUcdVTgj24gLULMmekdY4nwtzdU6O3kDEZ8840ii7ju9Nq9Y_Nte8fmIRHGPz3ekTMlag=s4800-w800"
+  },
+  {
+    "name": "DOM | Specialty coffee & Brunch",
+    "lat": 41.1561404,
+    "lon": -8.6188613,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFkv9ihStt02GTD0JvAN4C4MtH27-RTJOkJ_4LP9xSQpUiKu1S0oDt2akApNOSeo5j4Hh65x6UMVSoS1LQRqtMXrlA-WH7ZMQ=s4800-w800"
+  },
+  {
+    "name": "Mel Living",
+    "lat": 41.1499779,
+    "lon": -8.6042598,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGaoeGAnsj6_a0bJi1ydHpiRPp5_KPJSFQtExX4jka8kspuuwEYrrSwHPASIQ3Iso2IwXQVXBXlXbe4blCNxwxSgYiMhEBdow=s4800-w800"
+  },
+  {
+    "name": "A Certain Cafe",
+    "lat": 41.147049,
+    "lon": -8.6004915,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF42AtMvlBDvQMHmM84WYneP0t3QF6ief99hjN6jTXrm0eKYrXdzKbFZVML9_XJy0eapcXYYAoaGl2qoOzHk0g5y2IyARMhyA=s4800-w672"
+  },
+  {
+    "name": "At Street.Coffee - CLERIGOS",
+    "lat": 41.1477286,
+    "lon": -8.6138734,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHrBl08yePFqmHkaGZhEFk3hR4oe7ABhepKm7BSgUbbzvgULNUXG0cabKLUViTTEo9xsjTu273iLZnL5dUD_bDZQZnOfOIfhg=s4800-w800"
+  },
+  {
+    "name": "C'alma",
+    "lat": 41.1467575,
+    "lon": -8.6105707,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH0qWFPxGNxiUIR141ye13fkhIve_aLGMqxfrzwHrjvJYGgTtRByMQ1KCELYZnuI5oEhrMxG7gfbJhxOzlTWYLDjugPnYQ7mg0IJuIekv4PswsczgB-iKmn280YkUW_H5JpiUUdx3zGtIZh=s4800-w800"
+  },
+  {
+    "name": "Gather Porto",
+    "lat": 41.1500126,
+    "lon": -8.614071,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF9rV8NHIkMV1g9pQAKQU0F3v-ZaHVREkGIdmJ1zFz7wWpJGNtI1lywsTkQWjBnZCpMEXuz1mapucbXMjOfgFtLMFNXk6KK5Q=s4800-w800"
+  },
+  {
+    "name": "Mesa 325",
+    "lat": 41.148209572,
+    "lon": -8.597366363,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEU7OPUXGswKRMf9ewUPuV04V84n17f8OJoFSzbvwF_viyYOIV-XeWDwy3vFl2bFPaKlOV5m2jP_82-ibVv38bRMB2_oypEHHsGe1SJt_WJYfkArQEIS4Fyrw4oSDZvIPfytYJDEoAHN653=s4800-w800"
+  },
+  {
+    "name": "Cafe Passaporte",
+    "lat": 41.1501742,
+    "lon": -8.5916266,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJpNdDI5m1DG3u2Fl3LQgwnZTGXuVgflc45iGuICHV5-Ce885OGRMcdTKi-VevZeDN9sjaDtTZcuwiNzRy5tZA25VX36n3Yw=s4800-w800"
+  },
+  {
+    "name": "Canvas Speciality Coffee and Brunch",
+    "lat": 41.1452439,
+    "lon": -8.603678,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGVluFMQLjyKbV40tx2CC9lKs_kIG-Kjj3sea4G-9_7gFHSvHw9FXGnsA4oooYD1yY3H1lnw790SPpyGXrL1gwMT04B7WRO9Q=s4800-w800"
+  },
+  {
+    "name": "Francisco",
+    "lat": 41.1509254,
+    "lon": -8.6120108,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFfjwwmezrd3kOATgbIVJ5Y7EMtzSseViG1GJExxPqHC2yVeExWnBHADrG2TP0DYfCTl08XreWx-0l-syi2ON7gDj_NMgP8SVV6s26jCZ-Ju1DLJMM0kKU7BMdafel1XPGqYBGDsbQo4mehBQ=s4800-w800"
+  },
+  {
+    "name": "Combi Coffee Roastery",
+    "lat": 41.1606356,
+    "lon": -8.6554298,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFJu59HTtvYaF-bA0DksRYsM9SnqAV5tTfrNnFt7gCK77ZLKVGeEWWmPf9I3-ekK_dV19kSZeLZKciVKVjTWJt72exZWqtM6Q=s4800-w800"
+  }
+]

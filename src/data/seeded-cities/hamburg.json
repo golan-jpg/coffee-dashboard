@@ -1,1 +1,432 @@
-[{"name": "Golden Bean", "lat": 53.5772294, "lon": 9.9475586, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Hat Coffee", "lat": 53.5730794, "lon": 9.9605195, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Marshall Street", "lat": 53.5486409, "lon": 9.9981479, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CODOS Roastery", "lat": 53.55339, "lon": 9.92888, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CODOS Altona", "lat": 53.5522286, "lon": 9.9398521, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Drilling", "lat": 53.558321, "lon": 9.9082562, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elbgold Winterhude", "lat": 53.5830582, "lon": 10.0099007, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Playground Coffee", "lat": 53.551671, "lon": 9.9653847, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "1407 Breakfast Club", "lat": 53.5751692, "lon": 9.9576162, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elbgold Roastery", "lat": 53.563209039, "lon": 9.967131615, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Planten Coffee", "lat": 53.5577688, "lon": 9.9901399, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Juicy Project", "lat": 53.5583832, "lon": 9.9679557, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Erste Liebe Bar", "lat": 53.5492237, "lon": 9.9848163, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elbgold Eppendorf", "lat": 53.583963, "lon": 9.983953, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Studio Gusto", "lat": 53.579777, "lon": 9.9463693, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "THIRDROOM", "lat": 53.5756438, "lon": 9.955215, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elbgold Innenstadt", "lat": 53.5495853, "lon": 9.9931031, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blanco Coffee", "lat": 53.5585161, "lon": 10.0124331, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "kropkå", "lat": 53.580144, "lon": 9.968322, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OMEN Café", "lat": 53.5504947, "lon": 9.9975055, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Basement Coffee", "lat": 53.5568129, "lon": 9.9626543, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Salotto Café", "lat": 53.5563725, "lon": 9.9377003, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Copenhagen Coffee Lab", "lat": 53.5566967, "lon": 9.967173, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lowinsky's NY Coffee & Tea", "lat": 53.5834306, "lon": 9.9800226, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nord Coast Coffee Eimsbüttel", "lat": 53.5797169, "lon": 9.9662733, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Public Coffee Roasters Wexstrasse", "lat": 53.5513791, "lon": 9.9825301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bean There", "lat": 53.5846983, "lon": 10.0132079, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blackline", "lat": 53.571766088, "lon": 9.958521724, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Good One Café", "lat": 53.56847, "lon": 9.95514, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Delight", "lat": 53.5550643, "lon": 9.9268206, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Noor Coffee", "lat": 53.5830895, "lon": 10.014601, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nord Coast Coffee Roastery", "lat": 53.5465468, "lon": 9.9880256, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stockholm Coffee Roasters", "lat": 53.582767285, "lon": 10.011897683, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Special Connection", "lat": 53.545704, "lon": 9.951714, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Belum Coffeebar", "lat": 53.59454, "lon": 9.98448, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Manufact Coffee Roasters", "lat": 53.5598213, "lon": 9.9670714, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brühwerk", "lat": 53.5535823, "lon": 9.9988105, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Marshall street Coffee Eimsbüttel", "lat": 53.5670066, "lon": 9.9566157, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "goldenblack", "lat": 53.5587501, "lon": 9.9753179, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Isioka Coffee", "lat": 53.5857723, "lon": 10.008167, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Public Coffee Roasters Lappenbergsallee", "lat": 53.5775461, "lon": 9.9416448, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nord Coast Coffee Eppendorf", "lat": 53.5832999, "lon": 9.9857073, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Golden Bean", "lat": 53.5814196, "lon": 10.0134096, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Golden Bean",
+    "lat": 53.5772294,
+    "lon": 9.9475586,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGBH0_ATswdzfJLqUPOS2xHUtSyhQ4kUDskzoMIX-1i5T5IWsK_8hWwy2Axu2f-un_qd0IN9nykbl5BD3TDJsm8S55unf2HqRYqB9NMk8K1suHB3KAcPvk-gHt4fReBu1Wzwv1DVrD_cDWb=s4800-w800"
+  },
+  {
+    "name": "Black Hat Coffee",
+    "lat": 53.5730794,
+    "lon": 9.9605195,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEy8VcWak-VbQz9EDd8xZhU_XZwnOFaBayKe-5HzE57UAp96x7_C11LnHVmmxJMykLc7FWtoMSmJSdnOSJrcZx8NQMmeWGVkw=s4800-w800"
+  },
+  {
+    "name": "Marshall Street",
+    "lat": 53.5486409,
+    "lon": 9.9981479,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE2NX4oavnb0IJUq0cLiYsPx2CCQ3i0oKBfJzwrnqhhgO9npSuTLdH6YU_ytZvFjPWC2Xp_f-ZJ9OoYJfszGQ8Plwh8jKQRt5r2Bc0gwqcuWV_3mrv_iMXUpmd-pmAzG_YkBRBvWRN4uj5LuQ=s4800-w800"
+  },
+  {
+    "name": "CODOS Roastery",
+    "lat": 53.55339,
+    "lon": 9.92888,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqESQlrhWlnZYCuvjIPNouI9FSJduWSQ1PUgmLF4Om2HRwS7IHO6nX1tlZUvkSUiX6Z8RYsVQUp5UH7w7VXrcETI_QrBo_tYSg=s4800-w800"
+  },
+  {
+    "name": "CODOS Altona",
+    "lat": 53.5522286,
+    "lon": 9.9398521,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE7mCLpJkNdpzBt-TsbaDUFkRv5v1i8NjyLwY7KHs-PUyP2OUWjz1U9d-79FBI69DIr7gCdWSgfoMWyC_cxhQknwUtQ40wdYw=s4800-w800"
+  },
+  {
+    "name": "Drilling",
+    "lat": 53.558321,
+    "lon": 9.9082562,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEjtf_er1BKvDn7tKN2uf0Q361In1FuektfKXAp73cdKnl8hcGFuDLKd9cP3JmgoapBG5oe8mOMsphi4oychLSII2hCZhulag=s4800-w800"
+  },
+  {
+    "name": "Elbgold Winterhude",
+    "lat": 53.5830582,
+    "lon": 10.0099007,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH0Yag_6L5wjxUtl6Jq185Z7M9Pb4g1vlCQEBGHOOM8xNWpuz-RqYEhQpVD10RmHuSDu8V-k4dCZJhDETN4AoE9y04YC7EdVd8dFQRf6f8UvPwPgNod-GgLilo9SfzTKKXHWWCDSPjfZ-iUjQ=s4800-w800"
+  },
+  {
+    "name": "Playground Coffee",
+    "lat": 53.551671,
+    "lon": 9.9653847,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEjwln6Q_VQtQz8yqoMaI5XSHuUoik1IIOQj_v1FJOtwZs3le7YlC84SNv8EGkXSx_Ep-QojAttB2jz_ZfnJK4CYBimV6nKo9qbcDiEFxtDERk8uys0s-v7E-QooEawpnaaFiQb7JbpIU3ooz52odWQ=s4800-w800"
+  },
+  {
+    "name": "1407 Breakfast Club",
+    "lat": 53.5751692,
+    "lon": 9.9576162,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEY1Yhf9u4xCwq0w34Jn_dIdNtZF6DejPRDTLpv7skFA8slwTC4OFX_tTscndkqXVYTYFSuuUcyA4TCmSm1_XscWQEcnTJT6A=s4800-w800"
+  },
+  {
+    "name": "Elbgold Roastery",
+    "lat": 53.563209039,
+    "lon": 9.967131615,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHJrpIgmXxtTohldli0XB7jKLA2yzvXY__1gyVsgjJuxLbh5u2Ml2ODCDgTVbT_W1BW9Kv1t2dnDk7d4dFORPssT0mdCzywsQ=s4800-w800"
+  },
+  {
+    "name": "Planten Coffee",
+    "lat": 53.5577688,
+    "lon": 9.9901399,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGM9-BV0r3hMiEuroCJTTxfvYsE2fFgUMRFeCP9WemQQrU7EwmXd4LFLG6f7ZZr2xIczsqwKJVfLOkS2pyge2jcksRnBnDmNSWH_3HPS1hBGuZ3nmV2hUFxI37YQBZ_t7nk7UVqtrBCRn6W=s4800-w800"
+  },
+  {
+    "name": "Juicy Project",
+    "lat": 53.5583832,
+    "lon": 9.9679557,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE4lEeXFHocMGO9d2Ke2fHXXobpsFclk73N5QJ9pzNG-Iie1048DQKlextIoMwIRhYm_DFqDy0d395Pr6BFfVZgXGRx8fSMVgg_xN4PkJGQVccKqZ49ARjmYHkxDIXhkjoNv0ha43ELJjdLGI-vWo4=s4800-w800"
+  },
+  {
+    "name": "Erste Liebe Bar",
+    "lat": 53.5492237,
+    "lon": 9.9848163,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFH0QLDNLV5GJWmxN9xgzplmB4PR2BO_MiWW_-9wADYTgEqV7aoXS8VhUCNeJkCDjI5cY93VyvGGCz26ZEz40PGCY4dKmx4JA=s4800-w800"
+  },
+  {
+    "name": "Elbgold Eppendorf",
+    "lat": 53.583963,
+    "lon": 9.983953,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEPcs-jSuG8KJY2ABFW7QQfhAeZqbVvzbk2vXbIqR_Y1XR-EQ_qwv0pg6N4XDQTXOu4_7jF4BL8HADiSi83tZccduEblHmBAu7TOKg9xGh2EEJLOn7PnxsEJBZM9no1v-EnOLnjlYFhFiXZ=s4800-w800"
+  },
+  {
+    "name": "Studio Gusto",
+    "lat": 53.579777,
+    "lon": 9.9463693,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFHt2Tket9kZKwo1PPl_VnrR5B8RGReJHWQIb-bnCQ7ZJR1-k5muRO8YAvz6zuTIxGIeiDIrGxs-fkRQdzn3Q1TLBRjeUh3WYDgJhbMOIS3I1p754-toybwrLUw0UvYMFcakmcVZXQqMBZQeg=s4800-w800"
+  },
+  {
+    "name": "THIRDROOM",
+    "lat": 53.5756438,
+    "lon": 9.955215,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHmWF-wffNrUVDJGEpSVoWFWPiUMW-NeEAf0bhYBUXcO-6NpyEJzWN_m-NFrbThgGIWOz3CeYki-7Bo6AYWGncEeu_-aJSZ5la9Q3VzbM21A_5-dNybwB4ubgU6XWWOUL8_0uJGHn4LMMuROw=s4800-w800"
+  },
+  {
+    "name": "Elbgold Innenstadt",
+    "lat": 53.5495853,
+    "lon": 9.9931031,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGLf7nHgBYXPZaamS9mAc5XbMqA4oDMvdJsx6U6qOHRM2A97R2AesZ4YFLUqBUJqjEc8MNmYraxcsjb-xE_A4k2IrJYqwV4jA=s4800-w800"
+  },
+  {
+    "name": "Blanco Coffee",
+    "lat": 53.5585161,
+    "lon": 10.0124331,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG82Ht0mRgIQfAG3qP4HLg0bVefBCyMexx2aN-ZnluodbNxsjS6CeOLr42XAPWnJ1fTAXNcIEwwoF-ymfGjGNGjCR6bCB8fRw=s4800-w800"
+  },
+  {
+    "name": "kropkå",
+    "lat": 53.580144,
+    "lon": 9.968322,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEEIn65M-7Bg52riO3YJxwStH9Xyb_djx4YjGg_36FG99LGvULtl5zJZygEQkx6SH5q5Uo6sGFXGHgdL0lzukEYfIlCHk9SGQ=s4800-w800"
+  },
+  {
+    "name": "OMEN Café",
+    "lat": 53.5504947,
+    "lon": 9.9975055,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHJMeqkcuFxLwn2q78W9u_eIKccUiOCJdhdMw372rWfEvJ5nFRFBhLtMmtXmb2E-m9IiiYODOf7bzfEjItaoqJyNKWAmO60Wg_5Ck031GJyagq2M9kWLS5JXXA-6VgoGd4TLjo58-1vlxA1=s4800-w800"
+  },
+  {
+    "name": "Basement Coffee",
+    "lat": 53.5568129,
+    "lon": 9.9626543,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGBbiQNDXYGORjFyQL5dfc0A6blJTDM_Idw9NsqyDMguPkJtQzGtkbDap2YP4ilz2dEKeLgLLSjf5n0iR-NSxsoLXYxcCPkRzZV7JUQNZIWbI-bxS2-Kus0SG3TlTh6yte4r4GKrEJZc4H0iw=s4800-w800"
+  },
+  {
+    "name": "Salotto Café",
+    "lat": 53.5563725,
+    "lon": 9.9377003,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH-MbhkdWxWfk90yxPP6ImrGHeMDW2PTb76Eq2fBjS6Vn-G6XLr875ttDx35e02PpIgOYom7ykKhJOMwREo97dyvID_p8FZNaBMZd9CHo-vqZJbaey1rBQM9AYPQsAyjuJnOpR-nAF5mQuMv8IbyINH=s4800-w800"
+  },
+  {
+    "name": "Copenhagen Coffee Lab",
+    "lat": 53.5566967,
+    "lon": 9.967173,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFXXXVLSCK7mAmMfTgqQ8CdPDLqi9PCU51NRqRSm7oe8P3HikZQOX9cGiFTHVA-1BgppdusvH4sZvbuK7ZBirJ7p7Vd-BcxL6TozK7HZ835uPFx9bykpeqA1aykXsz3j-5A4AbUEzv-q_4=s4800-w800"
+  },
+  {
+    "name": "Lowinsky's NY Coffee & Tea",
+    "lat": 53.5834306,
+    "lon": 9.9800226,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGGje7oOnP5XKn_Wz1kBH73TIKqn3ECBGDxItcLNuSqTslmdB53nfYaGbt1TqFZp3j65Py5TyGDU00p_VwTrrRAT5I_e67CZA=s4800-w800"
+  },
+  {
+    "name": "Nord Coast Coffee Eimsbüttel",
+    "lat": 53.5797169,
+    "lon": 9.9662733,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEu2Rwxpp2WEvaf0AQEubie30NqIua_c8wIq-PpvtNG4YiQZybckh5etvmaDzxjl1c4N-AMxITdoCwQJCFM-0XFcON1JQ1RuW47EFqCKG5H7whZpGzCwdmITNc41z6MZ-yUEeycL09o0pI=s4800-w800"
+  },
+  {
+    "name": "Public Coffee Roasters Wexstrasse",
+    "lat": 53.5513791,
+    "lon": 9.9825301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-CUawldqaGhufXSB4q3ntFWemUTuUmfkrnOIacjYvfx6DF8fx_FbtcwPsTFdV2kaeLzq00I6ieY_QTTqo3Sqt3VpXJukNcw=s4800-w800"
+  },
+  {
+    "name": "Bean There",
+    "lat": 53.5846983,
+    "lon": 10.0132079,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEtORy5ikNBIINkXPw9TCpR4Nuq5VvQFvNdA9ABS09vEeh8hmwiKlYKpxBkS7xcu8JiVtVUnoDSmg31JHu7MLtJGHzp5FdKjQ=s4800-w800"
+  },
+  {
+    "name": "Blackline",
+    "lat": 53.571766088,
+    "lon": 9.958521724,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKD4-2D4FrWb5ZP3ZrI11f9dFa8atQh0NoZ0nB-AcRED8mwtF78eih8NIbhXIK-1iRKxFw6kfBFx42nPlHSDist6R_huDReA=s4800-w800"
+  },
+  {
+    "name": "Good One Café",
+    "lat": 53.56847,
+    "lon": 9.95514,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE8Et3yIZoygmyPe_vhSmAW-C5ApUkP-OjxW3YrCVcpsVwCts_1koggmO5du3Fm1en76MtMPHF1gXrO_uQJXDQtsuOIWyofWw=s4800-w800"
+  },
+  {
+    "name": "Black Delight",
+    "lat": 53.5550643,
+    "lon": 9.9268206,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKJWy-Hyctm6cCgNK4BQqpxN7CaZq084MN8WLUknpN461rx4LxD6hZbGZDMoj7k9Z7vzNYanHqWDiqomBjV8bP_OM70UIbiA=s4800-w800"
+  },
+  {
+    "name": "Noor Coffee",
+    "lat": 53.5830895,
+    "lon": 10.014601,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEyBdCsqLb3DpooNG2GK3_XwDYr_cfDrW6tcbAuIezQ_uEP2FsxWK7KR8YLwCDDxDPwTppdpWhfGx9XP0KYBismmOpnNyMwK3C9WAW7gqM8TDysahhADPit-DqsxMeOGvftv9KU03-OdsPUYE3lMfQ=s4800-w800"
+  },
+  {
+    "name": "Nord Coast Coffee Roastery",
+    "lat": 53.5465468,
+    "lon": 9.9880256,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG8IZ0osZ-xz7OhUz_3UhcR9bxdsETs3G06G70O-ry4IodPtyQJ5hdms0GD36cxJJmal1ydgjfkw2Kll7CL3uZVKVOXI4QMXg=s4800-w800"
+  },
+  {
+    "name": "Stockholm Coffee Roasters",
+    "lat": 53.582767285,
+    "lon": 10.011897683,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqERC8kZ8AnWfBU2FCvmyaJbINFw5BIT3uT6T5fsqYGhxWUe7LQWJQegUFbKdkoTgnagBqFnjwL3VcfKkFTYdPZfE1AOLTvT_w=s4800-w800"
+  },
+  {
+    "name": "The Special Connection",
+    "lat": 53.545704,
+    "lon": 9.951714,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEbN6c1xr5HcZyw8SqweI4CgS6vBH8HEVFpGyTDxEC5V7R1KD40YlJKsKy2iowJW8_OvLaG7AOMPb01dhFMCpuaaW2oQXmA9g=s4800-w800"
+  },
+  {
+    "name": "Belum Coffeebar",
+    "lat": 53.59454,
+    "lon": 9.98448,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgeeR6KHFk62YuRT2skX1sy8aA3HmzwsN1d3HqMK3WPeplnP9c-Zbc5VY4oi9cLzUSZpSMxoUPRiqfDuDaRTb2BnCF_Y4KGA=s4800-w800"
+  },
+  {
+    "name": "Manufact Coffee Roasters",
+    "lat": 53.5598213,
+    "lon": 9.9670714,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHDJoL10CKRzuaOVDkGkZr5DxckGwYaXQGmkg-nIQQrtlxyCiyvuyME12HjbD-itIWc4BDIdyGjqIyL39_WcZ_XtEAs19pAdeqdpXDXlQXfKxcj3IaKG1huGquHFDwml2wjF01hnHOsCR3q=s4800-w800"
+  },
+  {
+    "name": "Brühwerk",
+    "lat": 53.5535823,
+    "lon": 9.9988105,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFTukbX9k7zx5nky4QboKKCUvG8v2q5abEWYYcZGzrvS2vgX7w-toSmjMlv2M1UI7YOAwg_NLR2-XYcBK9MUtenKp_NY485wA=s4800-w800"
+  },
+  {
+    "name": "Marshall street Coffee Eimsbüttel",
+    "lat": 53.5670066,
+    "lon": 9.9566157,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE2NX4oavnb0IJUq0cLiYsPx2CCQ3i0oKBfJzwrnqhhgO9npSuTLdH6YU_ytZvFjPWC2Xp_f-ZJ9OoYJfszGQ8Plwh8jKQRt5r2Bc0gwqcuWV_3mrv_iMXUpmd-pmAzG_YkBRBvWRN4uj5LuQ=s4800-w800"
+  },
+  {
+    "name": "goldenblack",
+    "lat": 53.5587501,
+    "lon": 9.9753179,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEpcbiRo1jHDEt6PTWBmtrjeSrHK5yg4zTfkuH6Nlfyu6_LAB3BLnkwLQJjwr6L6teos9HBZvtn3nm5ge5XjzUoYeM5pkGzRw=s4800-w800"
+  },
+  {
+    "name": "Isioka Coffee",
+    "lat": 53.5857723,
+    "lon": 10.008167,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGev_bNeCWtiBiKiR4kJJpjP0BFZ75td6y0OVkJCAIYDyFYQ3fWf7rsulKUK8rQ5evMByA_ep7nBcu27DnhSy_LvGThfEWOGg=s4800-w800"
+  },
+  {
+    "name": "Public Coffee Roasters Lappenbergsallee",
+    "lat": 53.5775461,
+    "lon": 9.9416448,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHjKvk1nmYg6qQmBNlRgJC9W0G7B8xSGXfB8IU8LyupN_oq1mjduAoMrL8-jrGOAexprNs_Tw47QpZrc4d1jVYjXIInkFO_pKjzXzhdx9e4uB9M0B9bn4SW2ET1qJ7PlnLPWMQKySKRBDIwNQ=s4800-w800"
+  },
+  {
+    "name": "Nord Coast Coffee Eppendorf",
+    "lat": 53.5832999,
+    "lon": 9.9857073,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNECQLCBaTQrYpZMEwMZP37t0FBQ9GZqo6wBdw98d9biMr3EAF-3iA-EUBnohSfgtmIpTO6HZPG2AG2bOxBON-z9oFo7vRM91xIsBFF-zpz_cbcJyKZrzxF0k8dTlGX28Vpe8Ok0wCtSedOO=s4800-w800"
+  },
+  {
+    "name": "Golden Bean",
+    "lat": 53.5814196,
+    "lon": 10.0134096,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGBH0_ATswdzfJLqUPOS2xHUtSyhQ4kUDskzoMIX-1i5T5IWsK_8hWwy2Axu2f-un_qd0IN9nykbl5BD3TDJsm8S55unf2HqRYqB9NMk8K1suHB3KAcPvk-gHt4fReBu1Wzwv1DVrD_cDWb=s4800-w800"
+  }
+]

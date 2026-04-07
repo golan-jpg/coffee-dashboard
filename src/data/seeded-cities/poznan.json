@@ -1,1 +1,322 @@
-[{"name": "Kaferdam", "lat": 52.4070242, "lon": 16.9381119, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MIEL", "lat": 52.405988, "lon": 16.928847, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stragan Kawiarnia", "lat": 52.4069558, "lon": 16.9250014, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Vandal Store & Café", "lat": 52.3966377, "lon": 16.9036497, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blask", "lat": 52.4080597, "lon": 16.921556, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Trzecia Kawa", "lat": 52.4137, "lon": 16.897549, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Łoki Toki", "lat": 52.3852466, "lon": 16.9157006, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Piece of Cake", "lat": 52.41215, "lon": 16.9324644, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pączuś i Kawusia", "lat": 52.3948637, "lon": 16.9025264, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dżungla Cafe", "lat": 52.399267, "lon": 16.904328, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Plan", "lat": 52.4032992, "lon": 16.9412965, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "bardzo", "lat": 52.4102112, "lon": 16.9354714, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Body Balance specialty coffee & people", "lat": 52.4082516, "lon": 16.9253476, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kahawa", "lat": 52.409403, "lon": 16.924707, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SMASH cafe&roastery", "lat": 52.3986287, "lon": 16.921626, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TACZAKA 20", "lat": 52.4054521, "lon": 16.9231079, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "de nata", "lat": 52.4115552, "lon": 16.8995161, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mówish Mash", "lat": 52.4091084, "lon": 16.9022527, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Moon and back", "lat": 52.4154629, "lon": 16.9046567, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Młyńska", "lat": 52.4108548, "lon": 16.9259891, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaferdam Zamek", "lat": 52.4076351, "lon": 16.9184729, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "STRAG.", "lat": 52.4115284, "lon": 16.8956447, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Uno", "lat": 52.410551267, "lon": 16.904169023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oldskulowa Cafe & Restaurant", "lat": 52.4085817, "lon": 16.9209107, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Czarne Mleko", "lat": 52.4132238, "lon": 16.9008073, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wartka Kawiarnia", "lat": 52.4052697, "lon": 16.9233596, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Golden Ticket", "lat": 52.4143225, "lon": 16.895489, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lastryko Cafe", "lat": 52.4064517, "lon": 16.9240137, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "inna piekarnia", "lat": 52.407765, "lon": 16.925184, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sweet Surrender", "lat": 52.4121586, "lon": 16.9138049, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Untitled", "lat": 52.4034056, "lon": 16.9298543, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tekstura", "lat": 52.4113772, "lon": 16.9051049, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Kaferdam",
+    "lat": 52.4070242,
+    "lon": 16.9381119,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNERx2hY1XP9E-W1yuIYuIr2-K2UNvhWCLy_VW677qstdDmhI-pj-f-5Eeli-iBj8cOiqUX6HCCqCtIcx3zE1XwKTTwA6Cvv2bsTu0S4mbageGH8L1yFgsCDDxF2fVNNFEFOGQoycf22ZEiguE2-ifrP=s4800-w800"
+  },
+  {
+    "name": "MIEL",
+    "lat": 52.405988,
+    "lon": 16.928847,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF37zfo2NHPzSW2HTMNbdqjyTG_Liuzvg2Kc7WGaqNV4RiQEv_VGOW9YBeT_rm6MsOoObKSOWd-Th5AgheV-RnrxkB-qyTmSg=s4800-w800"
+  },
+  {
+    "name": "Stragan Kawiarnia",
+    "lat": 52.4069558,
+    "lon": 16.9250014,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNELs2PW59q7NhOuV8kf8Mh0LfwkuEh8mvwwU5uYGSIEpJ_D5EZR_pgTQF60eJ9k5AsRoiEKmpZZs_FSe2jMQY3n0MWeyEsWJ6Xs2Y_R1ciVp29AkHaxJXLxILCBDtNLG7LYONs0du9rHbFK=s4800-w800"
+  },
+  {
+    "name": "Vandal Store & Café",
+    "lat": 52.3966377,
+    "lon": 16.9036497,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHoHUYnCiobFYM5jg3vpU9cF2diE7-JGbOV_xkrDq4KFewywHD0r3bVKej-NCSmBRN0U5NzpbpZ9cRBfCxyk3D3PnBhHhvgBg=s4800-w800"
+  },
+  {
+    "name": "Blask",
+    "lat": 52.4080597,
+    "lon": 16.921556,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEfSLIUvIgMBnHgZN2vGMii3C2df0FMrYzf6z0miQqOqT_ODj7oZsxwiDgdEd_mEzlZXK1JPpaXjK0pMGHxS_Tudijy2b5_3w=s4800-w800"
+  },
+  {
+    "name": "Trzecia Kawa",
+    "lat": 52.4137,
+    "lon": 16.897549,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGDRsk_gFmCa-f6N8urC6E15KIchQHVbK19Hl58C_cvXY8_Lvc6wO2eAhl_sFjz9_e4Y9EZnhhiwNkq-GtEKM0g9g4eatY3-g=s4800-w800"
+  },
+  {
+    "name": "Łoki Toki",
+    "lat": 52.3852466,
+    "lon": 16.9157006,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHgielXh7zIfhgE75ReWJuouo4a5od98QrSmNKRbhab7_oAPCPSKp-YktjUZ0yQ4wWwaTpWbdkxtTW9nCXRQaFQP02-xTMOgA=s4800-w800"
+  },
+  {
+    "name": "Piece of Cake",
+    "lat": 52.41215,
+    "lon": 16.9324644,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHIRwHHu_zofn1pCNHzuGpSKxyFsCeOxMu5AhiitrXqzPxR5D9vz9_B6nuJ4OAJMwZ4QuC7_6FlMScJjyNcUSRvi9SHt59Xt5cLFmIHNlxBGqrOTmYq3zei2xizyyIPOiUsHND4STP_li1S=s4800-w800"
+  },
+  {
+    "name": "Pączuś i Kawusia",
+    "lat": 52.3948637,
+    "lon": 16.9025264,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHftvZ1KNKolCydYCf2UfPZY3JLD19DRHa864FGE6UMboLW0St1_vynJiebz_2Ek90qeVJ7ZuxVfnZ2NQKJKAw323w8h7SDKQ=s4800-w800"
+  },
+  {
+    "name": "Dżungla Cafe",
+    "lat": 52.399267,
+    "lon": 16.904328,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGSwtayQRMoM5dVy4OPZwE-QeYc4vnvBhsK-IwWG5maedsxQZ56EVuS2cLOgk-RhkH_IchqJ_nWl3Go5tvRmYHeXvC0sUpmZg=s4800-w800"
+  },
+  {
+    "name": "Plan",
+    "lat": 52.4032992,
+    "lon": 16.9412965,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHM7TVLd5bbvcOrXT6uWQ5B1Tg3TEiauwlX93FAGXM2SgmM03xRyldaPigXe9xfqovCh7EvRh49AygQ3QMb4TLfDkOi6h16vw=s4800-w800"
+  },
+  {
+    "name": "bardzo",
+    "lat": 52.4102112,
+    "lon": 16.9354714,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEhCr_hydlz-JXEY3RS0uqkVv5ggd6QlrK6JO8nxp-k-IEc9DXtUwqkY_nToQ-6t_bkFpvkoy5SCil2s25We6jjRur3dd6VIw=s4800-w800"
+  },
+  {
+    "name": "Body Balance specialty coffee & people",
+    "lat": 52.4082516,
+    "lon": 16.9253476,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGkSMS2j9-n4kfGhNNUVpjfcWjYXlJk6F1-BiZtxrk00byu3reTvv-sRYiqQaKD5Q2h4l5oWtrNNjKMkOrycsFTna28m8DqMQ=s4800-w800"
+  },
+  {
+    "name": "Kahawa",
+    "lat": 52.409403,
+    "lon": 16.924707,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEksKhWM-iYqXMc_i0ppIM3qjatAGhMtemaxclsGnJ0zWjh-pUPUfttndiEVjR9eU0FsRpLPG3RtDbkHnFOviFo6iuIFx8Ibw=s4800-w800"
+  },
+  {
+    "name": "SMASH cafe&roastery",
+    "lat": 52.3986287,
+    "lon": 16.921626,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHyywAzUpY3wVOu9RCqZnjh5TGtzbkKDjaPCvwQ7Jd-LU8MjGPAzOjx_gykWilZQ6qJdKMqBIBalK-gZUeRahZaJPKpyhi49_winXlq-iPo8QpGOP5knCy4kFWfg6nYOjCzvOOo05NrAiMX=s4800-w800"
+  },
+  {
+    "name": "TACZAKA 20",
+    "lat": 52.4054521,
+    "lon": 16.9231079,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGi7viFviieHzGLIuDIr1fBhB2hiob2ApdlLpojM2hgooxBzaO6R5wRO7HpqcMJJRLRKWKQ76BJ4yD60KS4krBflRZ0WKq97Cl_6z3x4kvdEF-2-dv7xgKbGMbeVVNxvFcjD7vyxxNpWRu35g=s4800-w800"
+  },
+  {
+    "name": "de nata",
+    "lat": 52.4115552,
+    "lon": 16.8995161,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEAIb1JrdRDGJHmU1UkZ8uN6iDum_dBBzU1Ki3uSCIIql_cU4yyf6cbezWXE5hqKbKjzOj_oKpBEkTAPeSvNj09VO6LWzd4xg=s4800-w800"
+  },
+  {
+    "name": "Mówish Mash",
+    "lat": 52.4091084,
+    "lon": 16.9022527,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNERlxOUg7JzYrHvZHSVLdJ33-vBbNUp3dLDEG37S1bad1jJADINf9RSBI49Mw9MP76bKvMAVmS2x-FQ4qxdJYxssY2nc2Ohy-qRpbpakzYHxveRrH9LD6uKrXUByOVpvddEYvQoDBRpTC1SnA=s4800-w800"
+  },
+  {
+    "name": "Moon and back",
+    "lat": 52.4154629,
+    "lon": 16.9046567,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHu8q7gup54WQXFtashP-jHSR6Mk4pXXaaUrOsdmEHmuQ5RU4h-t86BuWIVgNgqZcToomBnLiB2PkgpcmG6Pu28sqOz7KP4Ag=s4800-w800"
+  },
+  {
+    "name": "Cafe Młyńska",
+    "lat": 52.4108548,
+    "lon": 16.9259891,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEIC8ndSbt3xIeq_SuEjjGB0HcY1WoHJXkslrCOyITMYeIF5oFzMYFoFdgPbgKS1t33zp7dmHuj1600_hPNtD-8aTF1HLiO9A=s4800-w800"
+  },
+  {
+    "name": "Kaferdam Zamek",
+    "lat": 52.4076351,
+    "lon": 16.9184729,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGGlKUq292C0zzMfrnx-hP_nhHaUpN_JC5ZEGod62fllVPOFZ7jWY_ADMjpgAxxcdVeamlvfeBTCLAv4vEDS-QGqt4rsJS_--IzuXBgmrYxz_w0Y2YR_7hP6CbxJy30kA8vZ_X9ionZkLX7p-WMbczF=s4800-w800"
+  },
+  {
+    "name": "STRAG.",
+    "lat": 52.4115284,
+    "lon": 16.8956447,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEBrUnF9teLXen0VPDhkENIEOMNej2ZF_Tnp4b1Ry9-84xF9Lx8FX0MXpKbL-1fqjILTCcwLgpskQg9j1gFwTqdGcKfpu5IiK9e2CJdhaR4EAwczs5WL2fygvfezsjw8RDsVT_OAOr_X5iv=s4800-w800"
+  },
+  {
+    "name": "Uno",
+    "lat": 52.410551267,
+    "lon": 16.904169023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF4lBhgrHFsjoPCE-nfazuZBtMQ5Sw2hFDwKCO9Tj2a1DjQnu7JRXU--SOz3kvEsPrPQWBRjYrCwoV_X-t9JCa0033YpToj1A=s4800-w800"
+  },
+  {
+    "name": "Oldskulowa Cafe & Restaurant",
+    "lat": 52.4085817,
+    "lon": 16.9209107,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHHl0mR_zDAVSNf3kSey30y8u6xn_1gbSm2PCrS9O6-FecCVLPLQDhHsD8QKo-GxO_8r9HXaSBQOfoZfT-O7pHWTolbE-WJVA=s4800-w800"
+  },
+  {
+    "name": "Czarne Mleko",
+    "lat": 52.4132238,
+    "lon": 16.9008073,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGOGUqbWIGiDl_N8sDtJhHZ8jG_Yx9svLvGUhApDa0rhil8q9Q5H5hJq_dk-F6ucxATYdcLRPVr14kqBl5oN9vB2pKqO2RSvA=s4800-w800"
+  },
+  {
+    "name": "Wartka Kawiarnia",
+    "lat": 52.4052697,
+    "lon": 16.9233596,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF0wlEeuP_ancBtn59uXbYLpJOk-Ydhy-hznff9voerN38qVrsWno0H5IjS2QN83lEPJPT1BlhfsuL81j0V_ZlYNVae2BUnBQvavMAwQAhS4n2NiTIulhM_rlyjyosd8ZUzMRKnLKfvTZ1l-kxNrRWb=s4800-w800"
+  },
+  {
+    "name": "Golden Ticket",
+    "lat": 52.4143225,
+    "lon": 16.895489,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFb5t9dk6KHzYKsRMySs3zdPo7kImlQlv53YZKxr0WMjZdUuzijRtCkhrDvPbqSUOw4kw9MbQMNVcYBWJp8x-4h4ATSDFN5jg=s4800-w800"
+  },
+  {
+    "name": "Lastryko Cafe",
+    "lat": 52.4064517,
+    "lon": 16.9240137,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG8SMuOhOm6Vnz1K32AVcm3NGrUQX2ABx8vviqSQPOCRyJN7NXtR6nfW-CO6BBO03fuJ14xua8Z6fS6eEhI1alNQIpHEheThWJRmiETUtDBORuNYKH9gAOw6aVByimP6JdhVks0ZgX59umk=s4800-w800"
+  },
+  {
+    "name": "inna piekarnia",
+    "lat": 52.407765,
+    "lon": 16.925184,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqENR_FMqKmUZgiShJgXHu3Sp1V977l1bu8aS8wTAUHSJr8HHdYn1715-2BDveGXITmADbhCyEH2IcopdKr4VJntx7cAfHO9BA=s4800-w800"
+  },
+  {
+    "name": "Sweet Surrender",
+    "lat": 52.4121586,
+    "lon": 16.9138049,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGZECUKvpuieVc7eL1qhExyLVQPM083b93VC9ul7Ton4xK3GxELHzIzh4k1GyZqbb5mLT-covrnTNcMgvbfg83H4jchvxfkTw=s4800-w800"
+  },
+  {
+    "name": "Untitled",
+    "lat": 52.4034056,
+    "lon": 16.9298543,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGrCpClYbDa_et6nO3IboqLgvkcOAx9orxqXIX4ovnp3kx4a6csm1NeHPcbC8UeOWdnETSN7uYvnaY-_3a6DmMtZ7xttn9HAQ=s4800-w800"
+  },
+  {
+    "name": "Tekstura",
+    "lat": 52.4113772,
+    "lon": 16.9051049,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH2i8jcMfGWzPFgeAmK0KFrZZJ786R3LHCkyPzJjh4qSqnQm8M90AUAQZI2W0T3BYzDoXFip_IuW9pKWmgmAPFNPBhafJ2_Zl6j0DEDJM-gHtPAs3h2pS30Bm3EWx56AWZGnNQn3U1-d3VVDChrnTEL=s4800-w800"
+  }
+]

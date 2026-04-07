@@ -1,1 +1,13 @@
-[{"name": "Mae - רעננה", "lat": 32.1976788, "lon": 34.8811941, "address": "זרחין 13, I-TECH פארק, רעננה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "Mae Cafe branch"}]
+[
+  {
+    "name": "Mae - רעננה",
+    "lat": 32.1976788,
+    "lon": 34.8811941,
+    "address": "זרחין 13, I-TECH פארק, רעננה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "Mae Cafe branch",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFUwsfzYjpGIQ_F3dt_4Ojt6pM5rY1ebQIw9hx9q32BD89SqXbUjttk2j-JtKpbEI25ylkEXYG5bY-PtFghlQcXjbd9YoesaA=s4800-w800"
+  }
+]

@@ -1,1 +1,162 @@
-[{"name": "Chehovych", "lat": 49.8315466, "lon": 23.9967203, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "7sevenheaven", "lat": 49.7576783, "lon": 24.0178852, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Svit Kavy Roastery", "lat": 49.8269652, "lon": 23.9901022, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Saturdays coffee", "lat": 49.8391865, "lon": 24.0345333, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Honey", "lat": 49.8432493, "lon": 24.0061576, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Svit Kavy", "lat": 49.840444, "lon": 24.03068, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Svit Kavy na Rynku", "lat": 49.8418475, "lon": 24.0305664, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Folks+Beans", "lat": 49.8380426, "lon": 24.0370192, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "7sevenheaven", "lat": 49.8577212, "lon": 24.0299216, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mitte", "lat": 51.2144817, "lon": 24.6833303, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CODE", "lat": 49.8383311, "lon": 24.0323429, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Honey", "lat": 49.8326592, "lon": 24.0348958, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Karpe Coffee", "lat": 49.8420726, "lon": 24.025806, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Honey", "lat": 49.8458701, "lon": 24.0100572, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Honey", "lat": 49.8403536, "lon": 24.0266014, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kulturrra", "lat": 49.8515268, "lon": 24.0516454, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Chehovych",
+    "lat": 49.8315466,
+    "lon": 23.9967203,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHRlyaZqQ4cMDV2nvqzJvH87_solTHO5VgGunpvo9WYbZKa6aDI_Hw1b6QA778QMt1GDXvqQC2GmYgk3bVqX-l8NH5qDCQYBw=s4800-w800"
+  },
+  {
+    "name": "7sevenheaven",
+    "lat": 49.7576783,
+    "lon": 24.0178852,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEkxCZmUfaVEHw8X-XRU9rJrF-F4p-BX9lJXzYuPgap1ZKYP0-U9_N6Nmd3uGFninEOn3wPznqkLPAhmQmsYSAevEpJL-6i5g=s4800-w800"
+  },
+  {
+    "name": "Svit Kavy Roastery",
+    "lat": 49.8269652,
+    "lon": 23.9901022,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGygsLTInJDShC5sO1WJKFxet40kqEP5pnj2xc0m_zoH6uoWBWwL890q8uJxs0kGlWucECl6vQqh3Pc1KKYu-GUPhHQ1WCk4w=s4800-w800"
+  },
+  {
+    "name": "Saturdays coffee",
+    "lat": 49.8391865,
+    "lon": 24.0345333,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGj6_AUXa9d04Y0VNnto2yrqc3e7KllxOLdkFBqri8txdguZHWMtLHpeDG39U49W34qBFlC7HVVNnQPT_Vavuw8BeQ5loD-=s4800-w800"
+  },
+  {
+    "name": "Black Honey",
+    "lat": 49.8432493,
+    "lon": 24.0061576,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEMksKcy7m0aC1EIobn0fi_T1FCQ5Q_eZsv2dpcoau--mOH8fiYeuPcpB1hUAlvaj2Lgk-CvWRBYvSWAYJU7qbVnvNRFW5Eng=s4800-w800"
+  },
+  {
+    "name": "Svit Kavy",
+    "lat": 49.840444,
+    "lon": 24.03068,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEDl1DlMSugz1FS0hD0P-WoRL4fnVfAKapoifD7o9i961anaxSXUu4IskK6ct_MkRfQy7bCi11wtoWqfTXTbfkYk86E3fa9FOXBbIZ_Qo_7nIwYqWUwkQKVOq-C12pDQZFeesA1nSrYdDiR=s4800-w800"
+  },
+  {
+    "name": "Svit Kavy na Rynku",
+    "lat": 49.8418475,
+    "lon": 24.0305664,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEsr-uXpSLrx6utstY4llXhDcgrHlZWWrMrk2NzOX93PSvtw9DwifekZG3d1tVhODCu9M9YCX3ntvDrxMm4sV4NfXnsfAvlQw=s4800-w800"
+  },
+  {
+    "name": "Folks+Beans",
+    "lat": 49.8380426,
+    "lon": 24.0370192,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGIEavSCyJERPRVb9S8NECcy0J6pfs781w92QIFnuH4GuzO49At8MVxOcWItANCXpmk_6HKg3EsgJ5CNYSK-o6lLa4qZNowJQ=s4800-w540"
+  },
+  {
+    "name": "7sevenheaven",
+    "lat": 49.8577212,
+    "lon": 24.0299216,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEkxCZmUfaVEHw8X-XRU9rJrF-F4p-BX9lJXzYuPgap1ZKYP0-U9_N6Nmd3uGFninEOn3wPznqkLPAhmQmsYSAevEpJL-6i5g=s4800-w800"
+  },
+  {
+    "name": "Mitte",
+    "lat": 51.2144817,
+    "lon": 24.6833303,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEw3yyoc5m5k1VzkGPtGd_03rJaEHYf2_gSioZMpfbCznYxFaTPFrsxEWBOALHYRPy_nmZTO0kfuHl81vvf0GGTKUQDVppNzA=s4800-w800"
+  },
+  {
+    "name": "CODE",
+    "lat": 49.8383311,
+    "lon": 24.0323429,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGitYmJzBOBvlw9SYStOwbd8_lFpuQjNDfBnOhDjwPxGZ6Airow76e-iWYKqZAklLSJ6dP62_o-QGxwgbqQ0UQoolbFhCZlQw=s4800-w800"
+  },
+  {
+    "name": "Black Honey",
+    "lat": 49.8326592,
+    "lon": 24.0348958,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEMksKcy7m0aC1EIobn0fi_T1FCQ5Q_eZsv2dpcoau--mOH8fiYeuPcpB1hUAlvaj2Lgk-CvWRBYvSWAYJU7qbVnvNRFW5Eng=s4800-w800"
+  },
+  {
+    "name": "Karpe Coffee",
+    "lat": 49.8420726,
+    "lon": 24.025806,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHtUtDN6iPbpZembgrKUorvVoI1Xy60---wNGsI4Xq9fWe7BIdUImWoGtCGPv3Dmuq6kj5ae1DvrbJQBjTOTfhlKnqms4GSNg=s4800-w800"
+  },
+  {
+    "name": "Black Honey",
+    "lat": 49.8458701,
+    "lon": 24.0100572,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEMksKcy7m0aC1EIobn0fi_T1FCQ5Q_eZsv2dpcoau--mOH8fiYeuPcpB1hUAlvaj2Lgk-CvWRBYvSWAYJU7qbVnvNRFW5Eng=s4800-w800"
+  },
+  {
+    "name": "Black Honey",
+    "lat": 49.8403536,
+    "lon": 24.0266014,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEMksKcy7m0aC1EIobn0fi_T1FCQ5Q_eZsv2dpcoau--mOH8fiYeuPcpB1hUAlvaj2Lgk-CvWRBYvSWAYJU7qbVnvNRFW5Eng=s4800-w800"
+  },
+  {
+    "name": "Kulturrra",
+    "lat": 49.8515268,
+    "lon": 24.0516454,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHpvU5N4k7lB68rLvxPB4iF-mK0MDtJS8vq1Wl94rJcE9avceI61yYZ0N7t8_YZdiFKpLl6VWMpk2o8z696hr6BLnukYDPnP7lTHJQL47eZfs7camqKNU2Y2hjJRUYQjQRQFnBFYS2wfagG-9tjL1A=s4800-w800"
+  }
+]

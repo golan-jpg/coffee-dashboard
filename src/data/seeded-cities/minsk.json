@@ -1,1 +1,122 @@
-[{"name": "Why Knot?", "lat": 53.8955889, "lon": 27.5542014, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "RED COFFEE STORE", "lat": 53.8912841, "lon": 27.573206, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OK | НО", "lat": 53.938175, "lon": 27.533384, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kitchen Coffee Roasters", "lat": 53.8899523, "lon": 27.5698599, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "1801 coffee", "lat": 53.9254926, "lon": 27.6156066, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SeaDog&Friends", "lat": 53.9635373, "lon": 27.660539, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Место", "lat": 53.912220949, "lon": 27.578862011, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sherlock Coffee Hall", "lat": 53.893974469, "lon": 27.55112797, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Zerno", "lat": 53.912424, "lon": 27.5807669, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tiden", "lat": 53.913045, "lon": 27.5676009, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee 26", "lat": 53.8921856, "lon": 27.5556609, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Terytoryja kawy", "lat": 53.9273993, "lon": 27.6063895, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Why Knot?",
+    "lat": 53.8955889,
+    "lon": 27.5542014,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE2CcQ6y2CfF-e8FkRfWDJRnxXtCOujYc0auqbZDbrOvq17VQYTc3PvegR3pAf4FTzbJmnxqCB-7ONjaRxHsLuBZNSH_bpAwA=s4800-w800"
+  },
+  {
+    "name": "RED COFFEE STORE",
+    "lat": 53.8912841,
+    "lon": 27.573206,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHW9XdKAP5k9-q0MLNK93uwX3V7YEprpLBTHR-FwVFnRBqN382udykYyZqBy8RYdIcNoOG1fB2i8TM0hvHj3anakUVt6Kw9qA=s4800-w800"
+  },
+  {
+    "name": "OK | НО",
+    "lat": 53.938175,
+    "lon": 27.533384,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH69h8JIK1uH-UXI0mDaB95mj5i429QNUvUTtTf3Nd-rvYHvOCTiI-Wc45iKMO9VZYwhGChrm1KxFXv20r4Wa5qvOUwpJLdKgV1NXCnlQ01bHBEiTzE9fKr_YIEbQj5_fJwn-OwpfbZ2Eu4=s4800-w800"
+  },
+  {
+    "name": "Kitchen Coffee Roasters",
+    "lat": 53.8899523,
+    "lon": 27.5698599,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEy24k6k9OPBZEo9dMBYjJKeWqBV74e-8xmA94yQh7U3OHrMywJoXxkcBoVYDVyNleYLqBv6pv9GjGIsM5CnzvC-_5b1RsHwA=s4800-w800"
+  },
+  {
+    "name": "1801 coffee",
+    "lat": 53.9254926,
+    "lon": 27.6156066,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH4TYwgJjZx2uuM8bRFV9Z7_l1ZiEm134wPzTPM28ZX0tnNVZIWyOLz2uksr6EQfKtyl5JM0ivVtXzn4yV6_BueRJXcEYfU_w=s4800-w800"
+  },
+  {
+    "name": "SeaDog&Friends",
+    "lat": 53.9635373,
+    "lon": 27.660539,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHpGk__UobMh4o88h8U5CQfYLw35JZnBbcKX2eUp0B6-jQYeMLrJQiXOgq-R-gaCELISXrKMVTfCTZR0VWK52pfgHugCGp-AQ=s4800-w800"
+  },
+  {
+    "name": "Место",
+    "lat": 53.912220949,
+    "lon": 27.578862011,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHNJ24g8uq2GasSDkWd8zI8LEcvD7-7K6z1kkBY9VXwQHODNfz0sS8Gd4CLxL2TdQHG_MhQaJAmlTnZl7BU7KzPqgGZgiL-270Bbf9NSYAxdPcyocURgy3uC_7N-7j2htcakvApLDXbkAw=s4800-w800"
+  },
+  {
+    "name": "Sherlock Coffee Hall",
+    "lat": 53.893974469,
+    "lon": 27.55112797,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHUzhf3_TqCZxSc1o_dSa0cn9u4Wrqg32HMpQgYLKqQghClHM6nKQCINMu7VnwF5UNWOY815IcOOLC5lNqgGGZacW02UceY-w=s4800-w800"
+  },
+  {
+    "name": "Cafe Zerno",
+    "lat": 53.912424,
+    "lon": 27.5807669,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFxmUl_6NsPWqrXiS0o6x0Bc6OWLeLlzfMsGD87OjXUSe8Wh29v5a0RAh64bY0qZi-b-YhbWn_OWyFFf0bThOTsNOrJSwwWlA=s4800-w800"
+  },
+  {
+    "name": "Tiden",
+    "lat": 53.913045,
+    "lon": 27.5676009,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEGWBoUr7tG4f7G7LU_8sUAyLStrt8aiZUIpd9dx7w6hibjktrwDpov3Y4Q5V0jD8iEbpuTGCZMoucFhMjikWnCjUMSqAM14w=s4800-w800"
+  },
+  {
+    "name": "Coffee 26",
+    "lat": 53.8921856,
+    "lon": 27.5556609,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWdXrQpR1bSNT-2ZL7rfwMftvAYxK7OvGz7jGYqUmvmBS_tmgGLzDTHBebX8j7Px0E9U7zBt-DtKVqP55k5WQAWTebFzjaX-XCbMb73nE2NkDefiwxaQjmPEuoKiSneBtdy_A6pikFUQ8=s4800-w800"
+  },
+  {
+    "name": "Terytoryja kawy",
+    "lat": 53.9273993,
+    "lon": 27.6063895,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEsCfmdp3Aqr5dLGizo1PSy852rzoULk98cHM6VArLkgVf3Vo-zVAQ4ErYe03KNddLUSK3pX4wje4GhoZpk9B0oH0VaUPcn0w=s4800-w800"
+  }
+]

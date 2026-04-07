@@ -1,1 +1,282 @@
-[{"name": "Espressobar Kopi Soesoe", "lat": 51.901204, "lon": 4.4843329, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bar Bocht", "lat": 51.9240518, "lon": 4.4911164, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sound Kitchen", "lat": 51.9086783, "lon": 4.4640293, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Booon", "lat": 51.9278975, "lon": 4.4729475, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Schot Coffee Roasters", "lat": 51.9051835, "lon": 4.4438886, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Man Met Bril Koffie", "lat": 51.93055, "lon": 4.474113, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hopper Noord", "lat": 51.932047, "lon": 4.485594, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Harvest Cafe & Bakery", "lat": 51.9157692, "lon": 4.4858486, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Roast", "lat": 51.9180781, "lon": 4.4578484, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Casa Dawn", "lat": 51.902892, "lon": 4.5033512, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dune", "lat": 51.9105704, "lon": 4.477101, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SOCOCO W70 - social coffeebar", "lat": 51.9236729, "lon": 4.4755754, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kuub Coffee", "lat": 51.9202298, "lon": 4.4906864, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ripsnorter", "lat": 51.9229532, "lon": 4.4890114, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "33rd street coffee", "lat": 51.9454328, "lon": 4.4787945, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Evermore", "lat": 51.907584, "lon": 4.455101, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SOCOCO specialty coffee", "lat": 51.9020959, "lon": 4.4487771, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bonza", "lat": 51.9288498, "lon": 4.4786906, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "No 10 Coffee", "lat": 51.922908, "lon": 4.4933883, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Grounded", "lat": 51.926894, "lon": 4.472496, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "New Jozi Coffeehouse", "lat": 51.9257341, "lon": 4.486404, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mecca Oasis", "lat": 51.930118, "lon": 4.4805301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Man Met Bril Koffie Hotel", "lat": 51.935108, "lon": 4.490376, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Spicekix Coffee Lab", "lat": 51.9299282, "lon": 4.5029449, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "büro bobo", "lat": 51.9065239, "lon": 4.4551226, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafecito Meent", "lat": 51.92277, "lon": 4.4841697, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Giraffe coffee bar & academy", "lat": 51.9226805, "lon": 4.4934169, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fortune", "lat": 51.9217067, "lon": 4.4596627, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Espressobar Kopi Soesoe",
+    "lat": 51.901204,
+    "lon": 4.4843329,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEpxtDbRjya5lFhlVURrOOvyfEorQ5OVoP6_qATChpVd6FiKY1qvQoTDRkf0Iw4NC0ERjUjelFPb-f_fUi14vzFPrbMWElL1A=s4800-w800"
+  },
+  {
+    "name": "Bar Bocht",
+    "lat": 51.9240518,
+    "lon": 4.4911164,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEuNxOgoxFdDiGdBMmwB1O_GbpK1wO8oV7PQa-JcgnW62vRoVGpa7hWLvedksCM9r5OvAsyg8TGIbyBQWhLSga0cnbPvXYOOg=s4800-w800"
+  },
+  {
+    "name": "Sound Kitchen",
+    "lat": 51.9086783,
+    "lon": 4.4640293,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFoCeXRBXAK4Fu5ejjIhVHBUapfzvpYVzX8eJ4HYB_05-FAPSpuE3yK2Ra10zMe0gmg_GU0xuvhHDkntj04WK_UZ0yOQSxDqA=s4800-w800"
+  },
+  {
+    "name": "Booon",
+    "lat": 51.9278975,
+    "lon": 4.4729475,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqELP7xbhFODz9RFaydTQb7cu7HAII7MOp8xVOrPfhrkZCilD10j4WiWuJO-FO8ykKHxMGgpC7nBI5RU0nWIIXNHtR0KcAlkAA=s4800-w800"
+  },
+  {
+    "name": "Schot Coffee Roasters",
+    "lat": 51.9051835,
+    "lon": 4.4438886,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHg08INSIOYXyHnK3_VIbAgz2-UpJotzayk47WgcPXJ-XPEJPL1SHhRY0GCJgyOpj7f6V5LZ-eiJCc20qQcCsDVi0JquM3ybg=s4800-w800"
+  },
+  {
+    "name": "Man Met Bril Koffie",
+    "lat": 51.93055,
+    "lon": 4.474113,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGB7eYvLdNJW6BN8pMArEsTd38-2RkU3BOfjVZwakRC9a3LpT2B_zK1cEiR2YhfxwSYGVt6GVj-louNE9tviqYZ02J9pVIt8g9wfiSirdV0UKan678LTt8F04fi7L-Y3Dxnhsm1lt2zDxyFWQ=s4800-w800"
+  },
+  {
+    "name": "Hopper Noord",
+    "lat": 51.932047,
+    "lon": 4.485594,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE0W2sD4-8wKvkZURskUCKrz-m_HnrNQi4QOmMWuaejWVjI6L4PbOwMJ-1Gkk5LbVzbUx5QzhnUKZL0mAwpP6bnGoCX6Qx0wdxmaPrZO8LELAwe6to8rG2VnYFgMLVQcQI7-Doc2MC6dbkh=s4800-w800"
+  },
+  {
+    "name": "Harvest Cafe & Bakery",
+    "lat": 51.9157692,
+    "lon": 4.4858486,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgA1UojBCZtyrZ_jwOG4KJoLvxk_ppnZXtaC7sa-tVVOghvBfG1bavUvOx-txikghzyuLNQGmXYy6vF6Ucsk-HdszW4mHJa-JFwNsrdD0uFZTvu8uPQKg0aZSdFtakXGz0kf9yTobIsFmM_WRrkxX1=s4800-w800"
+  },
+  {
+    "name": "Roast",
+    "lat": 51.9180781,
+    "lon": 4.4578484,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG_Y7VnI5o_s9Y5ljNHGJHAmL_lNl-jl7oTZvBQDE28nTvNAwFzWd1uSiZyBH7a2cyxgqHeNn-3B9Qjxrz4Fhr6hIQNiMcAiw=s4800-w800"
+  },
+  {
+    "name": "Casa Dawn",
+    "lat": 51.902892,
+    "lon": 4.5033512,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHsQ2vorrPfIShCFMAxoVoDL1FMm4D9eEKZHRhtTOdZyx6rMj0tYFztSW6ZvdFWvUTMKIAtCqmwg_MXn3IqZ1SOwFg1in75ZcKBKQaohYImzSNQrT1BYl71nHLoQTp-00X4XC2CbgpK-W37Nzeaq_k=s4800-w800"
+  },
+  {
+    "name": "Dune",
+    "lat": 51.9105704,
+    "lon": 4.477101,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE8KCa7YPfrCdH6Z1u0Qw8eTvt5UG6tOu4jglrh7F9KzBHK4QuHVh98PbkwUWykEEd74I_2hsFVITp3hNSdCisG_C5r213IZQ=s4800-w800"
+  },
+  {
+    "name": "SOCOCO W70 - social coffeebar",
+    "lat": 51.9236729,
+    "lon": 4.4755754,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFBmUjGb_5-_HGLi1sgBBhafH67u2X-8x6Q6DnVBBRrT4zL90Zm9syJsOufAJdxkOmTQ7ogOyOUR6gFSvPh1DvukxfiZh-p_A=s4800-w800"
+  },
+  {
+    "name": "Kuub Coffee",
+    "lat": 51.9202298,
+    "lon": 4.4906864,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEoJVVhHZDMEUjDTvqEjS7syyZ2nlO5E-aRgjwzj9EDuLyVX6wjDLIK0U-LTUDLryNqLaMNg4g2ALvnZ5PBzpN8KlwogQ6iIg=s4800-w800"
+  },
+  {
+    "name": "Ripsnorter",
+    "lat": 51.9229532,
+    "lon": 4.4890114,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEl5pgkZkUThdvh1VCNMi1yaCrUbmNbqn6aNyJu6MoMzdgQzNYhivVGiQCPK1DCBxaPH9INwX-qUoM_DYaK28r91XN38YM8wYhOzDFua1AAQSRSK1z1ojpJ-AA2-UmUqJdKAitCFBbT3FX191r_9lnl=s4800-w800"
+  },
+  {
+    "name": "33rd street coffee",
+    "lat": 51.9454328,
+    "lon": 4.4787945,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFMxNeo8yfxy-v9SJuLVzAH44mI2V62XkqPwEhUDsVtf4-pQAwEUUO5Y1T8SVWJIVqnB_JYPRlgLSYdB0p9BgNtUSTrD52bXQ=s4800-w800"
+  },
+  {
+    "name": "Evermore",
+    "lat": 51.907584,
+    "lon": 4.455101,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHn-v4zMgAH8rhE5TMWipFTMB_bx6hFA4QkTkJYawxOyKwBtHft3OrZ2rZpbi3x66EDT9YaYdPoiO25rwqJM3wIC0gqUTankA=s4800-w800"
+  },
+  {
+    "name": "SOCOCO specialty coffee",
+    "lat": 51.9020959,
+    "lon": 4.4487771,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGym6tPQ4yZKLZFU6kDSaEeapy6GdrpBFcSWIC_x8QS8Y2R6lF5Isf29EgJIPMcM5R0W-J0t1V79qX2CW3tyEgRqAp4dTGyOg=s4800-w800"
+  },
+  {
+    "name": "Bonza",
+    "lat": 51.9288498,
+    "lon": 4.4786906,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEuiSmyTV6whDQz1UTUwa-CzsHhIWSN8AUJH0KGrJy76gHkdJiXnWLGMmDx7WjWADcj5hlf_5NZ1Otj3iUa8A2bmO_tAv46Yw=s4800-w800"
+  },
+  {
+    "name": "No 10 Coffee",
+    "lat": 51.922908,
+    "lon": 4.4933883,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFF2xj6hV16VpquL5SUTCUTBihuldUKI_f7MEs8BQrWzubZOtgNCaQW4pBvbT5f95CO2mkuGnoXG3UTduL6hezfM_voweRzWg=s4800-w800"
+  },
+  {
+    "name": "Grounded",
+    "lat": 51.926894,
+    "lon": 4.472496,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFTPihTBWW90ENIrawKZgRjwRqryvkux5pLqP9tSXDpgt4RjOjJlM-YG-CNxsii9zFaR1imEjVDoA8q2ZuURE_M9ZTVqlp6Eg=s4800-w800"
+  },
+  {
+    "name": "New Jozi Coffeehouse",
+    "lat": 51.9257341,
+    "lon": 4.486404,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGV9pj0phOa-V1lj36tVvN003irP2D2Oc1BW5bTDcIrRgSkjC1hTzPO1k-jqHcEM3Io2xxhfhbQj0AP4gOnftTqRMyATwIGNQ=s4800-w800"
+  },
+  {
+    "name": "Mecca Oasis",
+    "lat": 51.930118,
+    "lon": 4.4805301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGKXc2MA7iw1vAx9eucc7MImJ5g5pGoY8I60OgwV5fb0sz9K4fZWu10-BZcdt3mAlIqyTSFUW4GTNd6xMFsyEs94o9a8BDYCA=s4800-w800"
+  },
+  {
+    "name": "Man Met Bril Koffie Hotel",
+    "lat": 51.935108,
+    "lon": 4.490376,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEUNEKR7EVs6fqbZvC9fTNS8bVMEb0FzrOzSA7KS-ZxFvKGQvIhMXNp84BuEXAe2vECQr90iAS7JjXXLCgXa9nVylUbiDXYDcp1-cSMs_TMAMevx1y1WC1e3qz9NbFDMhmDKPQPf0Nu__AgqKB1FU8h=s4800-w800"
+  },
+  {
+    "name": "Spicekix Coffee Lab",
+    "lat": 51.9299282,
+    "lon": 4.5029449,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHDYUg-67D0Pdiw42idJM14UoYfQKm6CedUZZqarZJo6wgh-LHdBM4VUG_5rBPeny1ub4F3g5RBj9bx4dPab9757PPn3O4YEg=s4800-w800"
+  },
+  {
+    "name": "büro bobo",
+    "lat": 51.9065239,
+    "lon": 4.4551226,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEhi30gAz4aJQcdzC4L__o4D23MrDxJGRR_1bxI94jOAoYrWc1jZNcfDkJWrAKSqPzcnYwZPt6nxgrCJsdCgVw6Usxc6ryETw=s4800-w800"
+  },
+  {
+    "name": "Cafecito Meent",
+    "lat": 51.92277,
+    "lon": 4.4841697,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEDEDahcqgmlorBo5yAAL0wpynYRYomzmg9ZVGpp3-P9N5tu1QedU66z0C9dNq0t8m_TfErkmQe7o7jVl6_tZguC23hrQ8H6Gh_EnwzbRoQcfMDB-sJZmEXdPVIOzvPEVTescTeIC6sQccl=s4800-w800"
+  },
+  {
+    "name": "Giraffe coffee bar & academy",
+    "lat": 51.9226805,
+    "lon": 4.4934169,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-5fUlnrgeCSq81zBpj--u_jvilmyzQt5nCIglx22afVzYxd66WMejLzKOVtODB86tCmxdgS_PVvBOrTjM818i8V4ARf6GeQ=s4800-w800"
+  },
+  {
+    "name": "Fortune",
+    "lat": 51.9217067,
+    "lon": 4.4596627,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGO-ZYRP4PLSRTLAhpjUSEsB8M1rFremhVpQJ0PJ-oCfiNex786Y-N9GhJBHUTEKvGDjXiRkjvjQqiyC2McAKZ3jM9n9hywaA=s4800-w800"
+  }
+]

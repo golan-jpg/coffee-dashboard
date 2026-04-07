@@ -1,1 +1,372 @@
-[{"name": "Kafeterija Mlin", "lat": 44.818477, "lon": 20.4238229, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sonder Dorćol", "lat": 44.8189028, "lon": 20.4716628, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MATES Coffee Roasters", "lat": 44.823699, "lon": 20.4591582, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sonder Vračar", "lat": 44.8017302, "lon": 20.4738707, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fuka", "lat": 44.8451911, "lon": 20.4134469, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Drip Specialty Coffee", "lat": 44.8192136, "lon": 20.461999, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lokal Coffee Roasters", "lat": 44.8034434, "lon": 20.4701629, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "VERA CAFE", "lat": 44.8185059, "lon": 20.4545715, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Uzitak Coffee", "lat": 44.8153277, "lon": 20.4667112, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "D59B", "lat": 44.8218979, "lon": 20.4582717, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MIR Specialty Coffee", "lat": 44.8011695, "lon": 20.4867347, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Eliscaffe", "lat": 44.822378, "lon": 20.4188465, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artist Speciality Coffee", "lat": 44.8149429, "lon": 20.4654855, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hotel Beograd 1937", "lat": 44.8077423, "lon": 20.4579527, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "7AM Roasters", "lat": 44.7928916, "lon": 20.4735552, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Evergreen Coffee", "lat": 44.8146346, "lon": 20.4651644, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koppa Coffee", "lat": 44.7994715, "lon": 20.4698298, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafeterija", "lat": 44.821395, "lon": 20.46876, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "UGAO Specialty Coffee", "lat": 44.8285132, "lon": 20.4525206, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Way Cup Kafeterija", "lat": 44.7920764, "lon": 20.4997818, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dusha", "lat": 44.8004176, "lon": 20.4797176, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Senica", "lat": 44.816771, "lon": 20.4664385, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Simbol specialty coffee shop", "lat": 44.8138972, "lon": 20.4631283, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Java Coffee Serbia", "lat": 44.7884961, "lon": 20.4377705, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Cups Coffee House", "lat": 44.8381315, "lon": 20.4151397, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Cups Coffee House", "lat": 44.8176057, "lon": 20.4764794, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Noku", "lat": 44.8129607, "lon": 20.5373717, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "7AM", "lat": 44.8049358, "lon": 20.4724941, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tokar kafeterija", "lat": 44.8107765, "lon": 20.4766485, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Forum", "lat": 44.820605, "lon": 20.4692783, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rocket Coffee", "lat": 44.8143955, "lon": 20.4515047, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kuca Speciality Coffee", "lat": 44.7874597, "lon": 20.4907075, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Šoljica Specialty Coffee & Tea Bar", "lat": 44.8130723, "lon": 20.4624411, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Focus Coffee", "lat": 44.8006703, "lon": 20.4535304, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SLOJ", "lat": 44.7984475, "lon": 20.4850929, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "PRZIONICA", "lat": 44.823266, "lon": 20.4676265, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koppa coffee BLV", "lat": 44.8053643, "lon": 20.4751847, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Kafeterija Mlin",
+    "lat": 44.818477,
+    "lon": 20.4238229,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFoAcDgQLl3_fc7WQ6MNbyYUXbZvqbi7ziwK2c6GpORpVPuD0jRMA-7ayZgw4zefjdTYJJ_pXeajG2bCkSWd5ICSH3QLtW_Bg=s4800-w800"
+  },
+  {
+    "name": "Sonder Dorćol",
+    "lat": 44.8189028,
+    "lon": 20.4716628,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHtNMHg8F2V1H3MX9zl4k5WxUqv65CMdRE-uqA6BZaaKyRJcURik3KFi2I7hGXOrY6aIbAmMTTaTyaXqyvq-1wR11xvrUfGnkZkSxktSVObojWjV8_pjceecyEBjzYQO4vOY5XGEgy2o2RPpYUqo-vj=s4800-w800"
+  },
+  {
+    "name": "MATES Coffee Roasters",
+    "lat": 44.823699,
+    "lon": 20.4591582,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_BTyRLWEferCidISwsnoy1BpjewWzzZFE25VSNFXOj6RmEUj6TdDsgRKKvsBSgqikUuuVpVTExevD1Y1JyvkN-Av8Y2LofQ=s4800-w800"
+  },
+  {
+    "name": "Sonder Vračar",
+    "lat": 44.8017302,
+    "lon": 20.4738707,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnWyKlEJpfnVnjdlmobnWUOgvFlNgLdkpEueSG7RNGblTXIrfeW5Ov547Mn39lvNg7trN1EsxPFPjbTm_H9LEDxJ-0OHFBWQ=s4800-w800"
+  },
+  {
+    "name": "Fuka",
+    "lat": 44.8451911,
+    "lon": 20.4134469,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHahO8kT_y3zAT7v6meKn7PKTvqK1HIQJR6XeLlJGnkaTs48JJAJ3nJLzRxQDFQ0YEq73Jtr6_DSWP-RKJMPcd8mpl_UNJ19Q=s4800-w800"
+  },
+  {
+    "name": "Drip Specialty Coffee",
+    "lat": 44.8192136,
+    "lon": 20.461999,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFp-nHRAFxhvlsDsYgb2F0mz80U-26ALZjyF0gwWdceT5p7qpH78KPYuj7K9tSx9cH-HdZl43n4Cnd6P5WWU0-cgj0wbxHcOQ=s4800-w800"
+  },
+  {
+    "name": "Lokal Coffee Roasters",
+    "lat": 44.8034434,
+    "lon": 20.4701629,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHbv0KXokTW6VuySKcypB6yX32X-BTZqHMPOVxcK_YN5zgKA4b8XRdEiZNKgItBZy2q_3VcGmWXGBiLdy7hfbVinHmoXIjrFA=s4800-w800"
+  },
+  {
+    "name": "VERA CAFE",
+    "lat": 44.8185059,
+    "lon": 20.4545715,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEyvwRUi0gY9pW8ke8RTvttv6BZMhrscHkCxm97iTxuHo4REC3OvJ4cMFdk5cS7v07Y1yZMYbGJStqmGryfkrdswso0QuYjPQ=s4800-w722"
+  },
+  {
+    "name": "Uzitak Coffee",
+    "lat": 44.8153277,
+    "lon": 20.4667112,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFprH6yxDlRJz22MzNMIxLu5mLM8993VXGwW46kPcTs1SBJ3m1Q98itVnfFGYQjcMrxnvrF24O0lbd9O4-ScYOMqTnmAQ3XfQ=s4800-w800"
+  },
+  {
+    "name": "D59B",
+    "lat": 44.8218979,
+    "lon": 20.4582717,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEdfD96R68r7_CVCp9NqnZk8ONmoGVE7ydUA-z1hGKQsOOHoiAQf9wUOpnsjpYcbYRs2XS5Xk2MCE4aZ2-ZtmotS2Pg-wUrbg=s4800-w800"
+  },
+  {
+    "name": "MIR Specialty Coffee",
+    "lat": 44.8011695,
+    "lon": 20.4867347,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHcRleoKlf2cwVN-srRoOEUhlbjSeC4y_jsvnXw4jZUZouaaIYfZjLQ7FwDJkSzG_KeAfhLdVTvIguhIPfssbVzvhO7uAky5A=s4800-w800"
+  },
+  {
+    "name": "Eliscaffe",
+    "lat": 44.822378,
+    "lon": 20.4188465,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHfSmx7vpZktKnnNS-ZRXWNQvx4sZuyT5C9BGdQclZEsMOmMDcdovqhSvdaL_NAI40MM8T6kmsHevGH5yRkTsbJrq232-tMyw=s4800-w800"
+  },
+  {
+    "name": "Artist Speciality Coffee",
+    "lat": 44.8149429,
+    "lon": 20.4654855,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEng3xPs_ig30QTfxiNk5Cilz8IOd6KcS6WbL4_anEpSlEbCXT1TuazoKKKzsXmh4ayn-sJ8SzmH98iQV2C_GHazgmOZlXlQC3VIcdEmSv6gpaLGaDM39cJicweXsYvg74NrWHFxM2R1V3t=s4800-w800"
+  },
+  {
+    "name": "Hotel Beograd 1937",
+    "lat": 44.8077423,
+    "lon": 20.4579527,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEz0O4aGwt_CYXKoB5K5eY9Mu7uvG-qxS5lTunnfqwDiE9l-025SmBo8RRXSRnhnUytzRX1C1qHVGHkQ5DmB0a1MDhLu7vQrA=s4800-w800"
+  },
+  {
+    "name": "7AM Roasters",
+    "lat": 44.7928916,
+    "lon": 20.4735552,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHMCaSFz9Y8taMct0k7gFtUlHZG6XgDIOmGEzE0vMgBpYwq8pwhnlCbvrLh3RWLxQTMXMQ1Tf8zzyZnofm_ySPUd5VgrSdFMw=s4800-w800"
+  },
+  {
+    "name": "Evergreen Coffee",
+    "lat": 44.8146346,
+    "lon": 20.4651644,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGpzO9JmNcdU_1XNMkooa33fyv3vB8sOO9_SsHLIjnl0QTue47Nfur7tHuLF16nDcxjNQkWZ8vl6PzUFquq0a8K_9EaUQ-T6w=s4800-w800"
+  },
+  {
+    "name": "Koppa Coffee",
+    "lat": 44.7994715,
+    "lon": 20.4698298,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFPSRO6JFQhZv11WptWRfhSA8_FuxhhQTE3F99kJCDvGwY_V98-LtfiPzPEg329DD0_XAFb667HNVATzmhAX0wGYbUuzvyM4w=s4800-w800"
+  },
+  {
+    "name": "Kafeterija",
+    "lat": 44.821395,
+    "lon": 20.46876,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFz6kDZLYGNFkFQuYvBJicWCe_6sucMcTeLryjKMoNfbVVB0BUyhTUhsuGGjtpJ_6WgHrxkUoIdc6_AerVQ1l0R_1BeU0mtXg=s4800-w800"
+  },
+  {
+    "name": "UGAO Specialty Coffee",
+    "lat": 44.8285132,
+    "lon": 20.4525206,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGlgNyGT4jgSqgK0bWFrFq5Y2PnBOLFZrwrjWJW3xSRowKqXwrIQKbjUOzq0eQvvW2EcxYurra8LON3V2Lc4vZOanzUszjEnQ=s4800-w800"
+  },
+  {
+    "name": "Way Cup Kafeterija",
+    "lat": 44.7920764,
+    "lon": 20.4997818,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqERPXUB6FY6Ln7LRGDqLq2mtxs09NapA9RPoExWa6qI4X6PJbNqdTrGhptgUlTYtr_ieuqR-JhLr8YsC_kjrZb_dC2Z4XvcJg=s4800-w800"
+  },
+  {
+    "name": "Dusha",
+    "lat": 44.8004176,
+    "lon": 20.4797176,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFJqvwUSTlMZRCHJvPiSgrfM5y09b3ZxADKoA9lQnrH882OJS6IslukFmPc2f3rPBKAhh_1XGpZUVo7xbUWRaW4P31Cu7myviel8PFWigHf9vZAJPabN0OvK4bIhZbFE3L_Niw-P7ul1PEp1GgQ7fI=s4800-w800"
+  },
+  {
+    "name": "Senica",
+    "lat": 44.816771,
+    "lon": 20.4664385,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF76zXRIp-rY0tZ78MGlz0DjYBGenp4N35R5mJC8eu9biFe71G3KNs3sBpul2ZQ2Unt49_zZF5HAS4Hk_uQ8HIh0wjkEbKgNA=s4800-w800"
+  },
+  {
+    "name": "Simbol specialty coffee shop",
+    "lat": 44.8138972,
+    "lon": 20.4631283,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHmz_rJK8pPBllCnVbVC1hVNIVXIPfG2RX9thT0zJb6ICCvVZLoNmZEy8sa1GwaHRwWo3AGrsfRXeFhlVzNzhVnhPu7dmpl10cf_yyBkDEDkVJ7ht0sl9QcVFmvtQJwFbefB9S8wqM7iCjzDyxWF3I=s4800-w800"
+  },
+  {
+    "name": "Java Coffee Serbia",
+    "lat": 44.7884961,
+    "lon": 20.4377705,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG05Us3-exj5-Ohipn00fBmHiDP3mANjz_GWkmL4btMBjv0QXiZGPFsae4MhU4wOMpfKoLP_NvASqq4uVJJl41nwxctqF_4=s4800-w800"
+  },
+  {
+    "name": "The Cups Coffee House",
+    "lat": 44.8381315,
+    "lon": 20.4151397,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGmFyNquiS7_PQiEhE-nVe8xu_bF8YS1DI6nmi8jhrCJd1c-UbsFzNiLqjfRsxKGxDMbw9pcqPDDmzhJMvKYtB7h8PoJcjafg=s4800-w800"
+  },
+  {
+    "name": "The Cups Coffee House",
+    "lat": 44.8176057,
+    "lon": 20.4764794,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGmFyNquiS7_PQiEhE-nVe8xu_bF8YS1DI6nmi8jhrCJd1c-UbsFzNiLqjfRsxKGxDMbw9pcqPDDmzhJMvKYtB7h8PoJcjafg=s4800-w800"
+  },
+  {
+    "name": "Noku",
+    "lat": 44.8129607,
+    "lon": 20.5373717,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGzdAn4V_a0SsloaNNEbyWocRai9mfwKKMedfh5kOfle-3MCyK8thCLeVpgRQ5OOnsF1WVP_vE0a-kNxa2doNUgDUprUsePtg=s4800-w800"
+  },
+  {
+    "name": "7AM",
+    "lat": 44.8049358,
+    "lon": 20.4724941,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHMCaSFz9Y8taMct0k7gFtUlHZG6XgDIOmGEzE0vMgBpYwq8pwhnlCbvrLh3RWLxQTMXMQ1Tf8zzyZnofm_ySPUd5VgrSdFMw=s4800-w800"
+  },
+  {
+    "name": "Tokar kafeterija",
+    "lat": 44.8107765,
+    "lon": 20.4766485,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGLWeSFmpOD-xXizm4RHaRen1liQ-tunB50regfEiIdHKls1CgHiv5Td05aYi_zyl3QTJ3q9z89LSGBjYk0B-69ofAE7-9RTQ=s4800-w800"
+  },
+  {
+    "name": "Forum",
+    "lat": 44.820605,
+    "lon": 20.4692783,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF28JCT8DhPw0wangebU4-ZH1PJIQn2idnqX_u85agDvmAztiDW1p2qDqF8wkKUQa5wve4yU-8UBu3FHD1kpsdlELmXUH6MHQ=s4800-w800"
+  },
+  {
+    "name": "Rocket Coffee",
+    "lat": 44.8143955,
+    "lon": 20.4515047,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEBYHFd-bGKPN1EH46hVCoV-XdNVF3Tuo2eVtzTqeSToO_fKx-AKILxhDT0puAq2yTI-67r0xJzus2Cb9iRYVRwxTd0kXeaIw=s4800-w800"
+  },
+  {
+    "name": "Kuca Speciality Coffee",
+    "lat": 44.7874597,
+    "lon": 20.4907075,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE7eMPEZz9i_wwAXW-7TrkQX_ctWRfXOZ9R7xLtQezMaco3X5ceROjoPq8jWerlFV3EnkoH0XRMNdVGaYos6vJtUpUPT_Zw=s4800-w800"
+  },
+  {
+    "name": "Šoljica Specialty Coffee & Tea Bar",
+    "lat": 44.8130723,
+    "lon": 20.4624411,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGaK5xdPfe7s7fNnMFEqWNXJSg19mf71w0wm5RE_RQ3LKGfCh4ytx2KuP2wHY1OzKh_CFo59eAcgS0Ohe7bXzzvwheat7PaDw=s4800-w800"
+  },
+  {
+    "name": "Focus Coffee",
+    "lat": 44.8006703,
+    "lon": 20.4535304,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGG53LIV6b4cE9AEx5DwP0Ysw3bACY81-c6NkssLFhf6dvMozvFea0Qqq5mdZTojiFLzddhzHtOjW5D05YRcRwgA-oodBcxog=s4800-w800"
+  },
+  {
+    "name": "SLOJ",
+    "lat": 44.7984475,
+    "lon": 20.4850929,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG4SLf4-728KU89P6z-Guud_TAgYVgoLFKLrCx2Rk5eYmD5TrpW8p_oAth29YHGVk5GUIRYoAK3V-e0OpNNYQQGnxTl_ljAhg=s4800-w800"
+  },
+  {
+    "name": "PRZIONICA",
+    "lat": 44.823266,
+    "lon": 20.4676265,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEY-9OI8fWcD_6GoxXyClKjLYaNOOHLUlOxmXtNNV9cRpx9u1pgx6EMCS3WABFegYaXkE_-MXsdliD7ccFx8-N9OgLy8386Ng=s4800-w800"
+  },
+  {
+    "name": "Koppa coffee BLV",
+    "lat": 44.8053643,
+    "lon": 20.4751847,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHiNq7qBHrZQcAcoM91nlg62ZWUl7F2M-_QDsuVfmE1vVzZhOA-LyKH6CWJPEeRd6uZw-pTpraCe30CRZfIuUWTJ12ZTIIv8A=s4800-w800"
+  }
+]

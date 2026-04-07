@@ -1,1 +1,182 @@
-[{"name": "WAY Specialty Coffee Roasters", "lat": 51.065704, "lon": 3.7303828, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Labath", "lat": 51.0543678, "lon": 3.7167552, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WAY Specialty Coffee Bakery", "lat": 51.041121, "lon": 3.7405461, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MYST", "lat": 51.050804, "lon": 3.7296329, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WAY Specialty Coffee Shop", "lat": 51.0523525, "lon": 3.7233597, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bidon Coffee&Bicycle", "lat": 51.053921, "lon": 3.730717, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koffeine", "lat": 51.052744, "lon": 3.725757, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SMØRBRØD", "lat": 51.0454867, "lon": 3.729976, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Take Five Espressobar", "lat": 51.052288, "lon": 3.724344, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Goya Coffee", "lat": 51.0463788, "lon": 3.7216696, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Full Circle Astrid", "lat": 51.0365913, "lon": 3.7130091, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Chocolate Maker", "lat": 51.0554924, "lon": 3.7247601, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Vandekerckhove's Koffiebranderij", "lat": 51.0503167, "lon": 3.7292556, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Peaberry Coffeebar", "lat": 51.052236, "lon": 3.7275433, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Take Five Espressobar", "lat": 51.0494026, "lon": 3.7282444, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WAY Specialty Coffee Bar", "lat": 51.052139, "lon": 3.719882, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "De Dikke Ziel", "lat": 51.05277, "lon": 3.737729, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Full Circle Coffee", "lat": 51.0490076, "lon": 3.7331977, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "WAY Specialty Coffee Roasters",
+    "lat": 51.065704,
+    "lon": 3.7303828,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHat3935ibho83hsMrQZJ1JPLjPi_MgFLB0JJmPSCTOsuA48g7nrzROnZaQ9KhFQYKsP-JOlru_zAmTEe-jAMNiRe2WX2nDuQ=s4800-w800"
+  },
+  {
+    "name": "Café Labath",
+    "lat": 51.0543678,
+    "lon": 3.7167552,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG27ARfFICR8jRQ2Jty8m28wcHvsEiojpLbuy2jmUijRzo1aImGxQnWxXfuePgONlLxpTQ7fAWEr2TLjU_l8oqwwY6cMtZuiQ=s4800-w800"
+  },
+  {
+    "name": "WAY Specialty Coffee Bakery",
+    "lat": 51.041121,
+    "lon": 3.7405461,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWYS2lTYHhSf8YQuXlax8v8KzEsOPkWw9oiB_l3djTOMGld85-CKryV_kKu8BwfrBFwp1k8e-k6PxUUWzPAHjiCFyWyArGltkn_mfbAIwEVuuQO7LfnbO4HgPp6eTV15_fol9nL7FHU5vj=s4800-w800"
+  },
+  {
+    "name": "MYST",
+    "lat": 51.050804,
+    "lon": 3.7296329,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFEM9ALOqFbnRu_hxDf0MzgqfG2hIe7WqlT-J6PoXWtgPNM6Rzdn0PJBOcHLCkW5fdIX5V3qgj-FDAxCdePadM2mwb9Ir3lJAmVGxHqLTunfuKwVs5rxD6VYGaS1f9xNyNmgdyasSpC2Fzo=s4800-w800"
+  },
+  {
+    "name": "WAY Specialty Coffee Shop",
+    "lat": 51.0523525,
+    "lon": 3.7233597,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWYS2lTYHhSf8YQuXlax8v8KzEsOPkWw9oiB_l3djTOMGld85-CKryV_kKu8BwfrBFwp1k8e-k6PxUUWzPAHjiCFyWyArGltkn_mfbAIwEVuuQO7LfnbO4HgPp6eTV15_fol9nL7FHU5vj=s4800-w800"
+  },
+  {
+    "name": "Bidon Coffee&Bicycle",
+    "lat": 51.053921,
+    "lon": 3.730717,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGZJtX3Cwrd5LtCnsK-84MYXwuXWifhlVHJ4tidHPyqs_FOs-fHUFZmFNHv8JBMshIjYV6NnmPqZTgIEvCYqg7eDkUwIoEn-Q=s4800-w800"
+  },
+  {
+    "name": "Koffeine",
+    "lat": 51.052744,
+    "lon": 3.725757,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFNr52DFF2zilBIin-qBIJBl-kSCZTWOHGejuhTeC47QSqPNHQLDCYV7K_ZBVHSF-dFhkPaZhnDOWM8RX3loSaD07rgyc4oAg=s4800-w800"
+  },
+  {
+    "name": "SMØRBRØD",
+    "lat": 51.0454867,
+    "lon": 3.729976,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGSNZCJDOyTY6uz8g_uPJ2UKygsVwtmRmVeZbNVs6zXFI1E44u0Bq14k9eh2qTteSzVn7cIJ4MzRpIxi4d8LQjHly0Rwvbl3w=s4800-w800"
+  },
+  {
+    "name": "Take Five Espressobar",
+    "lat": 51.052288,
+    "lon": 3.724344,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH3qBtjpC7_q9sBlH3wjaR4chCw1FKq1aDvmFBFlmdH1SiQNQUTeTXEeWpyoLY_zjnF0QFaGSA8n5BoUEqJjOZpjiiQ4So3319Xn719ey2Ydfp9kFoYzmBRq8FIfU39stZiJuvqI6eDThSj=s4800-w800"
+  },
+  {
+    "name": "Goya Coffee",
+    "lat": 51.0463788,
+    "lon": 3.7216696,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHT593UfMcjXRe8pDmxFL6yQ06s-XFuHJKHkVsFs8miQHPw6g8ZbrvEWl9aJkbm0B_hgBp9fxmNvhaj55-T4qDyc0JXr4xaLaIf2yVtREDMUVQYx6vNN8GpwNrapNHTR1HFdH4JBXOfFzwYaz4LX3nD=s4800-w800"
+  },
+  {
+    "name": "Full Circle Astrid",
+    "lat": 51.0365913,
+    "lon": 3.7130091,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF2ZWCRDd9-KkKiUhF7___G3lvJhDOSI5w-r1Pmf6JmhPziCUdsVUHopInydb6rYY2aKPE3QbDV4Wvj827TEHa9Rpzo7Od8mH22jUq2dXjmCvQDxf23L367YLjoJeFfN_B72xpiCPwKCUA=s4800-w800"
+  },
+  {
+    "name": "The Chocolate Maker",
+    "lat": 51.0554924,
+    "lon": 3.7247601,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFxU5WbF3J2kW0eFWlpVySMxinlkez8NnaYjBfWQYJVW0za0ciJC5kkTAdrXsGd_f4Y8B_-PhlGoozCCv3iQRZoaCjAuoS_Nw=s4800-w800"
+  },
+  {
+    "name": "Vandekerckhove's Koffiebranderij",
+    "lat": 51.0503167,
+    "lon": 3.7292556,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFSEC-sgv8i--NRSNYoORMdHTvhTT-uzFJ40BSPpfqZmRoRUC9bf-0brmfuLwKFOtDIyP1xfvae7OR-FhSuxe1zoC84pHmJnA=s4800-w800"
+  },
+  {
+    "name": "Peaberry Coffeebar",
+    "lat": 51.052236,
+    "lon": 3.7275433,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEd8vAYxYOhnTlWQCdXkciI3Igi4gHz60eitXcjY-_6BIgUjON86fCIfxJw8qQvxsUG05LqMts-QXj5pdkSclHM-yQMZm_q0A=s4800-w800"
+  },
+  {
+    "name": "Take Five Espressobar",
+    "lat": 51.0494026,
+    "lon": 3.7282444,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH3qBtjpC7_q9sBlH3wjaR4chCw1FKq1aDvmFBFlmdH1SiQNQUTeTXEeWpyoLY_zjnF0QFaGSA8n5BoUEqJjOZpjiiQ4So3319Xn719ey2Ydfp9kFoYzmBRq8FIfU39stZiJuvqI6eDThSj=s4800-w800"
+  },
+  {
+    "name": "WAY Specialty Coffee Bar",
+    "lat": 51.052139,
+    "lon": 3.719882,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWYS2lTYHhSf8YQuXlax8v8KzEsOPkWw9oiB_l3djTOMGld85-CKryV_kKu8BwfrBFwp1k8e-k6PxUUWzPAHjiCFyWyArGltkn_mfbAIwEVuuQO7LfnbO4HgPp6eTV15_fol9nL7FHU5vj=s4800-w800"
+  },
+  {
+    "name": "De Dikke Ziel",
+    "lat": 51.05277,
+    "lon": 3.737729,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEMicU1cZgsYjV-ZA5yv3xdgV9JOpokGrlACU73uzwRwmquAwswI-n2GAkrprk9IwuyR1hX3_FQLX_TeR1EAnYp7GTQ_OH8=s4800-w800"
+  },
+  {
+    "name": "Full Circle Coffee",
+    "lat": 51.0490076,
+    "lon": 3.7331977,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHNL58XCYbcY-YdhyUBEEyYDtI34iWBQ5IKkY5dZ7X4gSj0sJxf83UYYuVdTvudzINlcJ2Bwtludmh0ZXquoq6nKODWBFRUaOY8lE48ipoxzQn5L9JkZgv3nX3jMD5wjzF5JUitcZu6XXTa=s4800-w800"
+  }
+]

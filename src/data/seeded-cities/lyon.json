@@ -1,1 +1,202 @@
-[{"name": "Rakwé Lafayette", "lat": 45.7636862, "lon": 4.8432029, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rakwé - ainay", "lat": 45.753611, "lon": 4.8303114, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mokxa Boutique Croix-Rousse", "lat": 45.7752072, "lon": 4.8311732, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ZEITGEIST Café", "lat": 45.7675857, "lon": 4.8310813, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "LOUTSA", "lat": 45.7470258, "lon": 4.837654, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Boite a Cafe", "lat": 45.7695041, "lon": 4.8341146, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "AME café", "lat": 45.7531328, "lon": 4.8401665, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Anahera", "lat": 45.7521313, "lon": 4.845772, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mokxa Boutique Grand Hôtel-Dieu", "lat": 45.758888, "lon": 4.8361249, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Papé", "lat": 45.7685232, "lon": 4.8311494, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "FIKA", "lat": 45.769679, "lon": 4.8291761, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Slake Terreaux (Formerly known as Diploid)", "lat": 45.7660244, "lon": 4.8323795, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rakwé Le Romarin", "lat": 45.7694906, "lon": 4.8356702, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Puzzle Café", "lat": 45.761144, "lon": 4.828176, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Slake Jacobins - Coffee shop", "lat": 45.7610218, "lon": 4.8327614, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Celsius roasters", "lat": 45.7690876, "lon": 4.8337088, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Magma coffee shop", "lat": 45.7486814, "lon": 4.8390638, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rakwé Sèze", "lat": 45.7678675, "lon": 4.8449852, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "crema", "lat": 45.7770792, "lon": 4.8330322, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mill factory", "lat": 45.7662343, "lon": 4.8278782, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Rakwé Lafayette",
+    "lat": 45.7636862,
+    "lon": 4.8432029,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHoB-vdkhB--ManM3mrU5YXHMVyCUC3o2_VuuyEk2DW9C4B3tOdz_5KTjzhGohTuVO3J1miJO9qMq6fA4E7BXyN53GUR8sChg=s4800-w800"
+  },
+  {
+    "name": "Rakwé - ainay",
+    "lat": 45.753611,
+    "lon": 4.8303114,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE8LLVTf26mKR9vemSEXWvnSpywi0aw7mfp6TgLwC1oHnx0NZmQGNOnO1uuMLpgKJx1uM6iiPPnGQ6KtoduEEa2JURpSYi2rg=s4800-w800"
+  },
+  {
+    "name": "Mokxa Boutique Croix-Rousse",
+    "lat": 45.7752072,
+    "lon": 4.8311732,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFznDM6lg-NBqAfO3GROakF35_HEQ4WwZDl86zyZginmR8L6srVIExw6zcu4JzzN3UPnecQlrVnsw5M5IxKnquDc7BUW6KU8A=s4800-w800"
+  },
+  {
+    "name": "ZEITGEIST Café",
+    "lat": 45.7675857,
+    "lon": 4.8310813,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjxM4JDEhV8kzk1U2ugPruwjUI0OSVkF23I9A6HlOhtFc9M09shGHgBHrGZNjS8drNkqe9u8RiEg_8BZSZZVhSMLrUu0dMbQ=s4800-w800"
+  },
+  {
+    "name": "LOUTSA",
+    "lat": 45.7470258,
+    "lon": 4.837654,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFC4cPWkTmARW_LVEWpx5k3RfyUuEuZBLi-xrvgz3N4Ys8Umgh_2ShSFXAuAQDKG1mluK6TKcYnnMF_g02hHobQFTdXpIyM-Q=s4800-w800"
+  },
+  {
+    "name": "La Boite a Cafe",
+    "lat": 45.7695041,
+    "lon": 4.8341146,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGvNaZxEzPY0YSZ1xg8-3ApffHb08OLwoTjHEdhGYYB88AsF1fbcsioGUG3Wbs35Bb805EtbJszfdv-BShydmKu-uAsYgRPDhmt-ETVe4xyF_BYJBpTMQGW3rk4_hVH5E6cd_iCeKVwXByA=s4800-w800"
+  },
+  {
+    "name": "AME café",
+    "lat": 45.7531328,
+    "lon": 4.8401665,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgigEVLkvEhWeqpae8lfK7HuU59hocU8ttVNfteyTtZcpr347jgndjv3qlbDf66ohnkUeEdAyzftMzphovyzq6YFCScCi1Tg=s4800-w800"
+  },
+  {
+    "name": "Anahera",
+    "lat": 45.7521313,
+    "lon": 4.845772,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqELu6cobWZMH5YTBzLNsGvya_HKQGZkdsFPEK23fjlyL8AmsHL7XLzEA5w6w8bK98-MzMEmPZF3vb6sFN5G4S4J5Mb0KgRDjQ=s4800-w800"
+  },
+  {
+    "name": "Mokxa Boutique Grand Hôtel-Dieu",
+    "lat": 45.758888,
+    "lon": 4.8361249,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHX54u6aLkfr23kLxX4M0-KweIaqg-Db6tuKJh4fbn-Vj8ygwshHmjHofxVjFrP0k0R8efD0UlammRZBz58FS0raKRbgV3ADQ=s4800-w800"
+  },
+  {
+    "name": "Papé",
+    "lat": 45.7685232,
+    "lon": 4.8311494,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEZn4FZBDx8R_zj5FUY7GkriMUymsiqhJaNEDgE6318jALDst5WL9jArWIS8Mlf50NW9i7f5o2CHeFsi4Q1xqWgCWLCqwAIpA=s4800-w800"
+  },
+  {
+    "name": "FIKA",
+    "lat": 45.769679,
+    "lon": 4.8291761,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFM-3_mTfwdGzpDJYXahNdT-5_S_Hi82AsDLkOF2tCyaxtpiJ25DXKj36fLhS9HjIaLGOyIGblSW24Cg2_9G6r0aNVJVa04WQ=s4800-w800"
+  },
+  {
+    "name": "Slake Terreaux (Formerly known as Diploid)",
+    "lat": 45.7660244,
+    "lon": 4.8323795,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFLPXG0SNz9ovOkGKyi5RtzN_Fk13-lDiZUHuwxhdSOOU-Jo_9uKSiAuAkbxjwWB3-PQ1W_yWNqHqOkMoItbB5ugjR1s59YKA=s4800-w800"
+  },
+  {
+    "name": "Rakwé Le Romarin",
+    "lat": 45.7694906,
+    "lon": 4.8356702,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGNkjU8jPR-dg5zv5D24Hsr80ZqcMt4yR8bXz3lOi7ozjir2Su9sFbHhH53FFxAxpeKY3ifJtNkj83MOekbvTjHYypB5YiSbQ=s4800-w800"
+  },
+  {
+    "name": "Puzzle Café",
+    "lat": 45.761144,
+    "lon": 4.828176,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG-0YlqCUTjkGACvA7suCZHuxkdh7jTgjATHNWKtn_zeImwLEMndD9nC_yMx79DK6t8M7jMSP60-ugBUKlJXmP_1mOsPjfyHw=s4800-w800"
+  },
+  {
+    "name": "Slake Jacobins - Coffee shop",
+    "lat": 45.7610218,
+    "lon": 4.8327614,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFLPXG0SNz9ovOkGKyi5RtzN_Fk13-lDiZUHuwxhdSOOU-Jo_9uKSiAuAkbxjwWB3-PQ1W_yWNqHqOkMoItbB5ugjR1s59YKA=s4800-w800"
+  },
+  {
+    "name": "Celsius roasters",
+    "lat": 45.7690876,
+    "lon": 4.8337088,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFFi2ZlAU1llHVwJ9nPYFGzIJL6Vf5n2LRSNHhgUp1v4tLvMkFKW8-XvFazdyPeLKrlXZDyVp_nDUkATMeEyf3E0ZWQ-0BB_w=s4800-w800"
+  },
+  {
+    "name": "Magma coffee shop",
+    "lat": 45.7486814,
+    "lon": 4.8390638,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH96Km8WD47UZ90IfpnJ2EOasI2oDf2OBeYaXVZQ4klwCA2xGJ2yZgeF13qnKcngRaghj7yIn9rBx057Xp-ZTbiQTgLdffhLA=s4800-w800"
+  },
+  {
+    "name": "Rakwé Sèze",
+    "lat": 45.7678675,
+    "lon": 4.8449852,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF_8J3ahMDuIaudirYhScwyJk9gfeSnAX0-7C9KxRpf5a2QFZNIz7sAnc7Oq3cZR3f90TjT_5UFseWdXpIzoLAx2ex11jDgYg=s4800-w800"
+  },
+  {
+    "name": "crema",
+    "lat": 45.7770792,
+    "lon": 4.8330322,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGxufBex6GOdokN4BB91UD3MNSLzIrKJRZmD9tnAj6F9WuAmZROKLCdPdIR4GxkbZb9APmgUFjt_ZnY3OMYpcODGSYbx9qbMfSJNdGsSSkjT-gc4GtDegne4qltmhtM6MtFRT3hMt-XG1IjRpJ3lWOX=s4800-w800"
+  },
+  {
+    "name": "Mill factory",
+    "lat": 45.7662343,
+    "lon": 4.8278782,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEvVORiQEDpFBgFUTf9ugJBW2-yNxxmCxySlS4Ap7Y1Lp6hH0mkXyk7g_-Ga52ZQriKVdS74oBG7DJ7R0HMDAWdSkBlls6QwQ=s4800-w800"
+  }
+]

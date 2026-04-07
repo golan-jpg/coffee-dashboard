@@ -1,1 +1,142 @@
-[{"name": "Stow", "lat": 46.0469682, "lon": 14.5040947, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavarna STOW Cukrarna", "lat": 46.0500372, "lon": 14.5200127, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bagel Embassy", "lat": 46.0526593, "lon": 14.5049746, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": ".raw Specialty Coffee & Concept Shop", "lat": 46.0566976, "lon": 14.5058711, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavarna Specialka", "lat": 46.0515644, "lon": 14.5153521, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Moderna", "lat": 46.0530997, "lon": 14.4990684, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "R&B Café Roasters", "lat": 46.0552775, "lon": 14.5045218, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "PRAŽARNA", "lat": 46.0664559, "lon": 14.5092649, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CRNO ZRNO", "lat": 46.0466208, "lon": 14.5077111, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sir William´s pub", "lat": 46.054362, "lon": 14.5073936, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mala Pražarna", "lat": 46.045057, "lon": 14.5050876, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stow 2GO", "lat": 46.051412, "lon": 14.5055724, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tri Marije Coffee Trailer", "lat": 46.0513667, "lon": 14.5091083, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Čokl cafe", "lat": 46.0506349, "lon": 14.5098562, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Stow",
+    "lat": 46.0469682,
+    "lon": 14.5040947,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFg1CdhkAycODkVStJqEafszIP3iSwCoOF5gJg7gw7Z_PhWDr11nLit_y9jHybkeiMI3PBQxoHnSYXBIDZQASyFXV3WnSpDKQ=s4800-w800"
+  },
+  {
+    "name": "Kavarna STOW Cukrarna",
+    "lat": 46.0500372,
+    "lon": 14.5200127,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFg1CdhkAycODkVStJqEafszIP3iSwCoOF5gJg7gw7Z_PhWDr11nLit_y9jHybkeiMI3PBQxoHnSYXBIDZQASyFXV3WnSpDKQ=s4800-w800"
+  },
+  {
+    "name": "Bagel Embassy",
+    "lat": 46.0526593,
+    "lon": 14.5049746,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHjVh6Xk_bLnjMRN6DfHFbLQjSUkB-U6yUqfYfoOwMcgFUp9jPAXHp0o4_4ZHnyiP8gYxNRXfuf090KfrouvB42EN9XHVMRnQ=s4800-w800"
+  },
+  {
+    "name": ".raw Specialty Coffee & Concept Shop",
+    "lat": 46.0566976,
+    "lon": 14.5058711,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEY_aeGBiOq4IcKZACmobxDrXikCC1vB1rvAPjNqxQnWpjyt5HwIA6rFADx4-POM6iVONnhmkh328TanuVB-QeaHqVK99Yn6QuqfIaCnDFp7Pu_ldbGFF-rx7VtkxgWRfC6Alzm6BY9__Qm3rm5MU6g=s4800-w800"
+  },
+  {
+    "name": "Kavarna Specialka",
+    "lat": 46.0515644,
+    "lon": 14.5153521,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGY97nYAP4lY8YaNtTsuy8CECDoL8hx4RKN-UaLYNBLtw2dYQTUtLwLiL68HpCKnnevHcfU-m0efquwG2rnAGqu9k1T1Qgjww=s4800-w800"
+  },
+  {
+    "name": "Moderna",
+    "lat": 46.0530997,
+    "lon": 14.4990684,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFAQk11SJcNnN51qcXHlACbNxFYomc4-PisgIKti5LpCBwa-y5d1Ml5Pa5eWMmMdgNDL81xF0x1oJxbOnr_aA-MWyxVhOPWWaa0d-lWhGaMpROLJrQqt437c2p3ViPNC45FLVWZjWJftnpl2ZV3DqY=s4800-w800"
+  },
+  {
+    "name": "R&B Café Roasters",
+    "lat": 46.0552775,
+    "lon": 14.5045218,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHdSdQd7H7rPTvQ_CTenKH_l1GUq_3di4RDV6iOSRXlK32N35dneFuiRa0hwOAr8_6Hfm6nLYtURFHExorOlqp1vuf-rgZgcA=s4800-w800"
+  },
+  {
+    "name": "PRAŽARNA",
+    "lat": 46.0664559,
+    "lon": 14.5092649,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFqQKIKTB4fY6e4b0sDslu3QnZDIlg0zwb3945Lit5z8RogmSw6GTz-1pM4igzcMmZXSfs4CLiUTYJW5l3To3fu7GUIQJ8ldmi32Js6KaLOsXE3bY-dCpykX3_MmO-HeIn6KPU_7_7C_TQP=s4800-w800"
+  },
+  {
+    "name": "CRNO ZRNO",
+    "lat": 46.0466208,
+    "lon": 14.5077111,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFvpOJJqtVqpbrfBcQZH-OlVTHaodMYwEyBQDa-KciVN12GDGIKS2Lck5BWl-PMpn3MOqj2flPB97VrHI91u46gAMd3H48EOQ=s4800-w750"
+  },
+  {
+    "name": "Sir William´s pub",
+    "lat": 46.054362,
+    "lon": 14.5073936,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH9wwJXatYhvMYWdG4nIvYj_lZXzRm_bEyYC74DGizC55W0G5dRKw0OC-DMZbr6sOC9QMdT-VJjmCFwqcf3UtmGKhRI-v88Jg=s4800-w800"
+  },
+  {
+    "name": "Mala Pražarna",
+    "lat": 46.045057,
+    "lon": 14.5050876,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFqQKIKTB4fY6e4b0sDslu3QnZDIlg0zwb3945Lit5z8RogmSw6GTz-1pM4igzcMmZXSfs4CLiUTYJW5l3To3fu7GUIQJ8ldmi32Js6KaLOsXE3bY-dCpykX3_MmO-HeIn6KPU_7_7C_TQP=s4800-w800"
+  },
+  {
+    "name": "Stow 2GO",
+    "lat": 46.051412,
+    "lon": 14.5055724,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGZ6EA3cJEJEPZtj7whUyiED58sKgMHJJchiMFH223foyExGQA_UsmkSDMM8z0Wf7TYtgpB4MsYo0Gya6bB7v5738-IRTgE9g=s4800-w800"
+  },
+  {
+    "name": "Tri Marije Coffee Trailer",
+    "lat": 46.0513667,
+    "lon": 14.5091083,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFw6vqLonfRZgNRXflEEqJF7voxhQ5O92veEVDblc0vdiwpYSsQ1y_yjfR5u4Qeg3fsA6Xg0eZiP2dzi_XwsWc-hluOlOAwAQ=s4800-w800"
+  },
+  {
+    "name": "Čokl cafe",
+    "lat": 46.0506349,
+    "lon": 14.5098562,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHnyabr-6uCy5lCu8F5v0raVLx8yBRuIU7Ahl0tTXHJ_HzpcE_xC01jf_MX0MmgrxqGHWSk-nyHXT_6cfwyDBdGVWuD1-hKbg=s4800-w800"
+  }
+]

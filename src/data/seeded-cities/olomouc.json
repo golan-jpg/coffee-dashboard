@@ -1,1 +1,262 @@
-[{"name": "Kikafe", "lat": 49.5961964, "lon": 17.2516393, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café na cucky", "lat": 49.592293, "lon": 17.2521704, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pikola Olomouc", "lat": 49.595050515, "lon": 17.253438556, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OCNO ESPRESSO BAR", "lat": 49.5942531, "lon": 17.2528754, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jazz Fresh Café", "lat": 49.596055, "lon": 17.2520596, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SPOT COFFEE & BAR", "lat": 49.5914764, "lon": 17.2493114, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafe Na Vrcholu", "lat": 49.5935526, "lon": 17.2125959, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pikola Sedmička", "lat": 49.59647, "lon": 17.2485575, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Druhý domov", "lat": 49.5971946, "lon": 17.2681025, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Litera", "lat": 49.5935164, "lon": 17.2467209, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The coffee station", "lat": 49.5951998, "lon": 17.217297, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Jan", "lat": 49.5911, "lon": 17.248391, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Telegraph pulse", "lat": 49.590673, "lon": 17.2764035, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "FANA kafe", "lat": 49.6153728, "lon": 17.2916291, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavárna v Lese", "lat": 49.5931751, "lon": 17.2533994, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Lyrata", "lat": 49.5906807, "lon": 17.2635769, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Traffic Coffee", "lat": 49.5951874, "lon": 17.2423493, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "concept coffee.", "lat": 49.594818, "lon": 17.2536955, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Long Story Short", "lat": 49.5976563, "lon": 17.258837, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Love Coffee", "lat": 49.5930243, "lon": 17.2751913, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kofe Brāk", "lat": 49.5953049, "lon": 17.2533887, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafec ve Vile Primavesi", "lat": 49.5940237, "lon": 17.2552027, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KAFE JAK LUSK", "lat": 49.594931457, "lon": 17.247025073, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "JáSám", "lat": 49.5943863, "lon": 17.251202, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NAMÍSTĚ", "lat": 49.5951084, "lon": 17.2482734, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafe jak lusk - espresso bar", "lat": 49.5927501, "lon": 17.2506222, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Kikafe",
+    "lat": 49.5961964,
+    "lon": 17.2516393,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHAaExj2k6Wxp1a5qPbO4vSFuqTMwoM42H0TKcm_6s9PLEM7SIZIVCvZjSw-ZF-1SJDiB7htFbpB5XGzm5nZkNgEOQnlT9lMojYf4bwZCWiQA5CTP-eCgd7pWEkGneIhH89TXGQ13d3Bi6I=s4800-w800"
+  },
+  {
+    "name": "Café na cucky",
+    "lat": 49.592293,
+    "lon": 17.2521704,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH1kJ6FBhbQFYnUY2yX2lBjewdn_o3bUg6gGfi1AXK9SF_CIkn1pl9g8YicjTyOX6tj1x09zEAV3K6uJfTki-D0sgXu26foNw=s4800-w800"
+  },
+  {
+    "name": "Pikola Olomouc",
+    "lat": 49.595050515,
+    "lon": 17.253438556,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFoCQu9aYvpgkT5XSB-GVi76jA9BlHZ1ayOQ9hIOXlh5NwiCX4F3i8ARrRqhJEi1ToEmD9M8-9c4R9BsI1oY-MF6tk6uADgCLZJ_Qa1pIt-CSb7aKqHqCPlvb-RPsSqQfdxzGZfpgxJYd3C=s4800-w800"
+  },
+  {
+    "name": "OCNO ESPRESSO BAR",
+    "lat": 49.5942531,
+    "lon": 17.2528754,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE5FtkXvBVz_WZM0ukc7KKyNDHK_cJbgaK8FwJ2tK9an7tkZycnRxP9a3b4LKoFrqxRnhsrFaonR2herrlBWyXjzdHr6_EVndrp2T5upX2fj4XdmHMCwNYBGoJrDofPvbRJswYZyLRdoO2ohw=s4800-w800"
+  },
+  {
+    "name": "Jazz Fresh Café",
+    "lat": 49.596055,
+    "lon": 17.2520596,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF87W8vvRa1aAnQiXxxX0fS8x5wSIQ2l7xZBT0vGG3D0J2Hz5ilHfx9NOF0TDl8bYwdjG8-LK5XC9Mts-X1kd-elVWaa86H7w=s4800-w720"
+  },
+  {
+    "name": "SPOT COFFEE & BAR",
+    "lat": 49.5914764,
+    "lon": 17.2493114,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGiRCGVc_a_h9lkbE0v5_kBIkrElSCHk554SKOIK0VUqh8wWgE3v03nj3EVP3anZjp9H0v2ooqy96xpbaK0NCY0l2Mzoabf7g=s4800-w800"
+  },
+  {
+    "name": "Kafe Na Vrcholu",
+    "lat": 49.5935526,
+    "lon": 17.2125959,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGhp0WI9wp077BG4lSUwexx3_Dy2If6qzCXmwL6C-SCle35ZB39cQJ2kYCZoekpM05aTbLTxsgbORshKIVdR5z39blYjCRGmf5ury5VSbQNxKEsIHHcxjyC3wC3KorLxJFWCV-Opwa6hzkU=s4800-w800"
+  },
+  {
+    "name": "Pikola Sedmička",
+    "lat": 49.59647,
+    "lon": 17.2485575,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFvuo1zvvIC6VzOX3wc5tGH6J6uEvwaaskVBzV840HEJagvluqjisSdNt2PP4DIm_Dq5SfKNinvzaGePfiSd7aMmEH0_5BmYw=s4800-w800"
+  },
+  {
+    "name": "Druhý domov",
+    "lat": 49.5971946,
+    "lon": 17.2681025,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGBGL6PbDn9nTck9hPY-Xx1MoMcHh2ZOneDKorsiDuBmP-AMjHgpKY3aMD6Hzf-TJs3aCB2Cxn-CUqXMuq1N_aXJpFF5JD7HA=s4800-w800"
+  },
+  {
+    "name": "Café Litera",
+    "lat": 49.5935164,
+    "lon": 17.2467209,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEBALPKfYXnpB9OFWeJXTg0MIF0wqr0qzgaZLB7C5tPBv2HSVgm6aK773dL_0xqOw4dV34GGgVgHsIt0gFfGjwJiAMb92XQVw=s4800-w800"
+  },
+  {
+    "name": "The coffee station",
+    "lat": 49.5951998,
+    "lon": 17.217297,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEGi7FSFWW_rJ7-TO1bkE3XANn7oY6XacMEZ9GFJZGkBaijnc0i_OvGgLGUsGknS07pN_-7XXq2mwsO1B7d5eVxy_32Ah5vsQ=s4800-w800"
+  },
+  {
+    "name": "Cafe Jan",
+    "lat": 49.5911,
+    "lon": 17.248391,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGU1ta2niEw4h1BuvPIcCHYWXzXO6RK9cwj9HvATuBG4WqvFCoxuUGS3qgqgG5DbLGcSZucca6aD83aSsS4En3mhGBY3hRUaA=s4800-w800"
+  },
+  {
+    "name": "Telegraph pulse",
+    "lat": 49.590673,
+    "lon": 17.2764035,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE00H7IqZDYEeqCbs9cjaJ7b6DoNpRr8QIZiJVLJAbdG8Bf9LbknC5P9OCXgUJThjzXPq1p6TFr2U6IyOpmZzquf7TqOPlwwg=s4800-w800"
+  },
+  {
+    "name": "FANA kafe",
+    "lat": 49.6153728,
+    "lon": 17.2916291,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGJf8WxJpfSmodm5U1WBCc-jW_FkIlxpQqAELFPK1Gg9YXqL1T52Kqwa9Qy9qK2TEqeeuQ-gUbZq46oagPKuanK0ks85j0QDAIzFdQKNR2jHI-4w1uZfjGD8oL8WACTr1dddebS0YZtuNzwLw=s4800-w800"
+  },
+  {
+    "name": "Kavárna v Lese",
+    "lat": 49.5931751,
+    "lon": 17.2533994,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE9xr5nWiIUgSiK_BFLoJm7tLsV64M0Php_z3hsjdwcijg9qQ2IBz-1YyF-O63xXBq1vI2rCIpyD5DLoCFN7rAE7Yf5bP4n052ooTsiiaaLof6GQsaWbHVFTM4_CJGbo3tl5Yj5pvUMqSce=s4800-w800"
+  },
+  {
+    "name": "Café Lyrata",
+    "lat": 49.5906807,
+    "lon": 17.2635769,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFHo2aNbBPBh0kgBDEZOMVY4ph0CmqXO-0NoepOjQlpEUJL4hrmNzMcvdZ53tw6YphD_HWptf0IfXZo4848Etpl3Qn-joj6pOfv2QvFHebRShj2yD4OKk5BjJmKsEz8_LAIOcSj6Bv4YhubvKHP3gyu=s4800-w800"
+  },
+  {
+    "name": "Traffic Coffee",
+    "lat": 49.5951874,
+    "lon": 17.2423493,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGxF9tkiMenDVyEPlhjLz2dDOrQ8Uv-1IPC6DehQcdADYZaYXocjY5qXomHf5Rajmd--dg3ROEqNhNboS0cTxd4CkAfDZMXVRcs17CO_7Ck_yGy8rIOf1rHRESiFo1e5NFqT86mNOPB2yw=s4800-w800"
+  },
+  {
+    "name": "concept coffee.",
+    "lat": 49.594818,
+    "lon": 17.2536955,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFfpN3OxcpLAoNTceB6IEmfONYvxqaOzkmggO9vlmv7md-daSy9G7a9goCE3HDonbNBjO8G6pjI-Nz79taLgfoZ4fFgbbeklg=s4800-w800"
+  },
+  {
+    "name": "Long Story Short",
+    "lat": 49.5976563,
+    "lon": 17.258837,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEOW7GMeD7GE1trwtcT3d5EpeViRrms_azKAOz8LsZHNyv6Q4ae1A7J94k6OaM80GHAk-i94DSjr7aL3OBJuj_IdMY2iQdK9g=s4800-w800"
+  },
+  {
+    "name": "Love Coffee",
+    "lat": 49.5930243,
+    "lon": 17.2751913,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFi24lh2SGH_Tg8gXPDFAe9JUwPwLHO6Tu0R5dryc1tgfpLbGEIiy_lk4lEu6CJLcokBfJ7K0jATmC5ZP5cMwsG1wsJGgs2EA=s4800-w800"
+  },
+  {
+    "name": "Kofe Brāk",
+    "lat": 49.5953049,
+    "lon": 17.2533887,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEowyVTpqakQ5YAx_4zqtffvbqZJrDAQrMUl37zctT4IJZtA3xwe2z7BcTgorBFwL5BRBTdfiLBKUlbUnw4CBF1wbwk2LXfeg=s4800-w800"
+  },
+  {
+    "name": "Kafec ve Vile Primavesi",
+    "lat": 49.5940237,
+    "lon": 17.2552027,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFSQjMJGw9R_XrIFug61zTgME4-XmAyWLLDbpmMF2S6raY0UkGwM8uFOV3mqjuvnecI8-wI6hzfcoLPPbv5bnaV14X9ZsQLjQ=s4800-w800"
+  },
+  {
+    "name": "KAFE JAK LUSK",
+    "lat": 49.594931457,
+    "lon": 17.247025073,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFiUEtL-UtXCbFO3dnlnNMJ4zDRXbUEr1UcZPBAmzzSojNtVZlujVy1Ag2hGda0v9P90Anj-wpUNPdpv8Yc84b4XfeDOuZWSg=s4800-w800"
+  },
+  {
+    "name": "JáSám",
+    "lat": 49.5943863,
+    "lon": 17.251202,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEDwNSHoS2fj0SekwAtDNZ72Ok-YUU7-50DGoJcoCRSdDrksuBxTc_nhRFNrrc3mcfM0kjtVwN9F9vgdSchm6jlqHCmuQOWsw=s4800-w800"
+  },
+  {
+    "name": "NAMÍSTĚ",
+    "lat": 49.5951084,
+    "lon": 17.2482734,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG3vw59LiqcIZwf1C6M9mMbnkRdnDP2xklBULRsJK4I7PUj3_IcISfhj3rKIt4yjSIXqum_p_kcCZ5CyA9YdD6TKzJ7g9q4DNBVKyyjwTCxYkhfL1gE1rkMQXH9-BH5bu0L4fxSs6gcbR9SO8U_G28=s4800-w800"
+  },
+  {
+    "name": "Kafe jak lusk - espresso bar",
+    "lat": 49.5927501,
+    "lon": 17.2506222,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHYoXwu_I0A_Z9vkXxcq5CH1iGRJRw7Iljf_hf2FAixe3c8xa4pJ7YRj-7NZlHaYUh3lHK_UGlpAszV_t1iDv59u6A2uDF8sR_PmjqBsuJNV6eKU553FwOtue4wgeowiLxQ0ssoD0HrujCd=s4800-w800"
+  }
+]

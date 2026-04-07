@@ -1,1 +1,162 @@
-[{"name": "Rafiki Outdoors", "lat": 40.633951, "lon": 22.941514, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Peach Boy Delliou", "lat": 40.6304555, "lon": 22.9522276, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NAKED Specialty", "lat": 40.6350444, "lon": 22.9494642, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Valenio", "lat": 40.6314553, "lon": 22.9459048, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Citron Pâtisserie-Café", "lat": 40.6600813, "lon": 22.9449461, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Timi’s", "lat": 40.6327041, "lon": 22.9444584, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "shed", "lat": 40.6351542, "lon": 22.9483799, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hue", "lat": 40.6362711, "lon": 22.9472011, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cho Ban", "lat": 40.6290169, "lon": 22.9512968, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "dekaepta", "lat": 40.631316, "lon": 22.9494713, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ataraxia", "lat": 40.6168827, "lon": 22.961675, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sortie", "lat": 40.6333863, "lon": 22.9522172, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Roasters Kolektiva", "lat": 40.5815262, "lon": 22.9509869, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sip", "lat": 40.6301959, "lon": 22.9515334, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lyke Skg", "lat": 40.6339741, "lon": 22.9451906, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kolektiva Lab", "lat": 40.6442307, "lon": 22.9664474, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Rafiki Outdoors",
+    "lat": 40.633951,
+    "lon": 22.941514,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHY24C9O1l6dvT-vrJRLhNlc19skhe4tA02izc7Li0QNO-NWGhPxWNqIaZa5woZU6HEku6SJRFMrrJO3g9QnQzrrWjAQgXcH6hatJftWA2b21_mt3vWKqgOVJw2ijK0v4VyClYKSyqaabk3HvbyecPV=s4800-w800"
+  },
+  {
+    "name": "Peach Boy Delliou",
+    "lat": 40.6304555,
+    "lon": 22.9522276,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFJgFLeNZ3-oyDhhTAU-bHhpGjRyHu7BwUUEGJW2se432xTdlYoQ-OgRdxXYMLWftY6zBWb5L5vmHNjREPLHCJDtnef7tU6yQ=s4800-w800"
+  },
+  {
+    "name": "NAKED Specialty",
+    "lat": 40.6350444,
+    "lon": 22.9494642,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGsreGLK8cTe5SAkU9_QVuEis9oDNmApGkk-ovYq_Cnzm3Ijr-tv32iof8r_rRIAlhxKY-Bdop0cwabEmKMRIfLChSVJ33FhQ=s4800-w800"
+  },
+  {
+    "name": "Valenio",
+    "lat": 40.6314553,
+    "lon": 22.9459048,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHRdOItIs4ICQ1RCErrSUZAdEViNald-osN0TpOVeo3VmkEiPe7LEYQUdKACgAztb4pDwdcxSL7wyJPdi4wiM59M7rmAk6NOA=s4800-w800"
+  },
+  {
+    "name": "Citron Pâtisserie-Café",
+    "lat": 40.6600813,
+    "lon": 22.9449461,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJ9vv20oEwfdlj1_IDMKS202EBLzKdLdF7U14K2HnBi7RbxAW3_7S2RTS2UiHGbN_8hOxP4J60ddO7LyKkDvCuuReshu7PTg=s4800-w800"
+  },
+  {
+    "name": "Timi’s",
+    "lat": 40.6327041,
+    "lon": 22.9444584,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF6xzK3iMNjU9oBLi4v2mSl_1xHctimxouZTJGRTNqvo9wROM2hZKp9e2tlUDPScG_C2ysWAsYHG8Nmm3qfxWT3W1Pd7hO9=s4800-w800"
+  },
+  {
+    "name": "shed",
+    "lat": 40.6351542,
+    "lon": 22.9483799,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHdTIaVaj7jXxK5URSxh4Xhv6Wj343uU3tKIRVvNOrJN6IG35j-4V0AQabaeeFMS5cfIFYSzOaXdcvgEpmcVvoCSqny9M_l9g=s4800-w800"
+  },
+  {
+    "name": "Hue",
+    "lat": 40.6362711,
+    "lon": 22.9472011,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGfE9y1nJioHTbpSjlVG7iXXWB9DAkrWa2mb2bqg5JKvXWUCYj4wiGqM1XpTQDZUPveJjjKRoxtHs-uETpQ0xQVKqcot-GD_qeaVffwFbrEeejvKZC2kXJSOYcgdBVC5mpiMyN62GgjR2vN=s4800-w800"
+  },
+  {
+    "name": "Cho Ban",
+    "lat": 40.6290169,
+    "lon": 22.9512968,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHz_8bP8H7JQDfycYmaZdkweZDJvYaekQozLg0rqBMjGxl_f2W_MhtYTFBLCcOKSp26NJ_99e37bGJDIsbnzSxJyBdZeHDKKw=s4800-w800"
+  },
+  {
+    "name": "dekaepta",
+    "lat": 40.631316,
+    "lon": 22.9494713,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHhjTlmXpP6Dp6tmkVQdebT-6TnDxdO3E1DTyqAHl8_OBlF93z_Yf6IcttBIQq9Hya4cu20ow_YYUNdidViJDOnRXK2D9AdnQ=s4800-w800"
+  },
+  {
+    "name": "Ataraxia",
+    "lat": 40.6168827,
+    "lon": 22.961675,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFuQoYkNF-rNC8ToiKfimvPZJNc24oKgDCQKkNPQ4VHT78pI_SphTn8jUpGt_xdQja9bzqug7oESMrMqkKrg4QYf0KNqi0VlQ=s4800-w800"
+  },
+  {
+    "name": "Sortie",
+    "lat": 40.6333863,
+    "lon": 22.9522172,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHVIGqzadKpiH0-GUsY1oSDP-4NTrzu0HPr1dNqZL-Mr5ge612K6Mkajaefateaxsp6Zl9t5eICn4lKMrY84TWmWde2YUnwbg=s4800-w800"
+  },
+  {
+    "name": "Roasters Kolektiva",
+    "lat": 40.5815262,
+    "lon": 22.9509869,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFNmqEPVBbo4WO0eT-nkNL4SMdssXzRsq9uHddWxgQXsvVKX0t-B2p3tTLQpgcbWN-R-ZbshonL5gNzN7foD5QXayNiTopPXA=s4800-w800"
+  },
+  {
+    "name": "Sip",
+    "lat": 40.6301959,
+    "lon": 22.9515334,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH8KD3OKHpQbRLMSUZM_Yag5DjiG3zQhJ6C1KG3r1mqcqzhqNg38rvVImmlz7PTRYS4m-48MZuAWajRkbzDmhMSV-G7TZIBpw=s4800-w800"
+  },
+  {
+    "name": "Lyke Skg",
+    "lat": 40.6339741,
+    "lon": 22.9451906,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH-FbktvFSJ8DfX6Bqru7I1l7lyz9eia62Xx6fQVDEp7yFX4wMyff8pipGEhd0GrN1xR8ugcrFdtqRHaB9OHduEkImIZS6pqg=s4800-w800"
+  },
+  {
+    "name": "Kolektiva Lab",
+    "lat": 40.6442307,
+    "lon": 22.9664474,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGv41d4cy1tjAonoOZpI1pc1DxSDyaL_DxHYm0dLtnM3qdNnTkkdX9bESaJRj-ln6rhIbTc0WtbAsVgk-cy09LRytH7BXGnIA=s4800-w800"
+  }
+]

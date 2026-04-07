@@ -1,1 +1,302 @@
-[{"name": "Rent a Barista Stauffacher", "lat": 47.3735203, "lon": 8.5315268, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Le Petit Marais", "lat": 47.3895431, "lon": 8.494687, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "robins coffee", "lat": 47.3757403, "lon": 8.5444532, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Commercial - The Project", "lat": 47.3773193, "lon": 8.5219809, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "169 West", "lat": 47.373898564, "lon": 8.518078923, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rent a Barista Oerlikon", "lat": 47.4135952, "lon": 8.5514097, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MAME", "lat": 47.3642411, "lon": 8.5494766, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bar Butter", "lat": 47.3789484, "lon": 8.5278405, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bean Bank Coffee", "lat": 47.3694093, "lon": 8.5365418, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Auer&Co", "lat": 47.384833, "lon": 8.533675, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MAME", "lat": 47.3849639, "lon": 8.5273789, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "miró manufactura de café", "lat": 47.37860198, "lon": 8.525723219, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bean Bank Coffee & Co", "lat": 47.3779004, "lon": 8.5330302, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OKO", "lat": 47.372732, "lon": 8.5282291, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Commercial - The Project Bahnhofstrasse", "lat": 47.3746895, "lon": 8.5385862, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lamassu", "lat": 47.3788743, "lon": 8.5438862, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bros Beans & Beats", "lat": 47.3727972, "lon": 8.5252659, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Grande Café & Bar", "lat": 47.3754306, "lon": 8.543675, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "miró Passage Sihlquai", "lat": 47.3795693, "lon": 8.5369338, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nude Café", "lat": 47.388692, "lon": 8.5301993, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Neue Milchbar", "lat": 47.3690371, "lon": 8.5402131, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ViCAFE Rösterei & Kaffeebar", "lat": 47.3881531, "lon": 8.5016196, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ombak Coffee Zürich", "lat": 47.3766044, "lon": 8.5249304, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "slurp.", "lat": 47.3768166, "lon": 8.5200158, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffeebar Tessinerplatz", "lat": 47.3638923, "lon": 8.5320544, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tuttee Fruttee Coffee", "lat": 47.3726576, "lon": 8.5262939, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe am Platz", "lat": 47.3911801, "lon": 8.5382941, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hype Specialty Coffee & vibes", "lat": 47.3804113, "lon": 8.5479395, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boréal Coffee Talacker", "lat": 47.3719285, "lon": 8.5350215, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COLLECTIVE BAKERY", "lat": 47.3923107, "lon": 8.5109427, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Rent a Barista Stauffacher",
+    "lat": 47.3735203,
+    "lon": 8.5315268,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH95tewqcSmAWPClVbuG27l-pSdwOGk3vmG2OoE-pF5xva2Kui9-_eJIgKbGai9Pyc1hLcjYv_wf8WhAadrNPSr0J3rFrvhJw=s4800-w800"
+  },
+  {
+    "name": "Le Petit Marais",
+    "lat": 47.3895431,
+    "lon": 8.494687,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFQwKGT7r045Lz2TF-jhYoT4tFMlNhGR_u7eLPKSG56F5nFmE2ByPQD86DDC27HPoobFPlKaBtVoLwNU688LK8GsdCEZnKE6w=s4800-w800"
+  },
+  {
+    "name": "robins coffee",
+    "lat": 47.3757403,
+    "lon": 8.5444532,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHAok3tYCfNMTaW4jJE56wP1GoPHOS6rBPqXGWfQZu_82Y3eufmlmJK4OD8jNTZAHI5gUytw2qub6gd26F7FG8EYx6e8P9ebg=s4800-w800"
+  },
+  {
+    "name": "Commercial - The Project",
+    "lat": 47.3773193,
+    "lon": 8.5219809,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFvdrkzRKN0uMFxy8tAF7O-3k5QatiPbFbRDBYD0BzVx_CGLyiSDMKT4rOnP1K89JoIGOkGdJR0-I7_K0BbI4vMOU30jGoxdxBksPB0UPEmk_wNuSty6E5-EfAebVl_NSZrcJJeBBHidpi14qNN-I8=s4800-w800"
+  },
+  {
+    "name": "169 West",
+    "lat": 47.373898564,
+    "lon": 8.518078923,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHEujxkgn33inGfXhc1eyoICj0jezH8nKJIfiB3CRnkRn_i6S0KV4DmLX4oZLltBDzrh91inea8fOFIiYB_SesE7DRW5Mw6iw=s4800-w800"
+  },
+  {
+    "name": "Rent a Barista Oerlikon",
+    "lat": 47.4135952,
+    "lon": 8.5514097,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGVRlW2L_q0z_vdOa5WDLOzdeQODkRqSGn_KRxR-ttN-nPKGZAgOhjMuwqD_VKY5BjE2UXgNc1XAVDKziKgCZeXldIb5PI06g=s4800-w800"
+  },
+  {
+    "name": "MAME",
+    "lat": 47.3642411,
+    "lon": 8.5494766,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFyFU3I8NrDcNMizpiW5l_tocIjbl4RRk8i6jn_rV6qkTiLybhExuWFNok_F6d4UzWU_jie2BHn60YRThGSb__27hya_8hNkDsAHV0Jkg5nulRKABS2Bhs-L01m-dlJECCzpNO-jUEqsnsq=s4800-w800"
+  },
+  {
+    "name": "Bar Butter",
+    "lat": 47.3789484,
+    "lon": 8.5278405,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHeeHObJw-6oLE3f8TSAihAI15kjhauMbruVVUXk5iXjNWpeengoyk7tlhiMZLnmczsa0-ZCgxYmswHcM5oTk9CKN5cH2lP9g=s4800-w800"
+  },
+  {
+    "name": "Bean Bank Coffee",
+    "lat": 47.3694093,
+    "lon": 8.5365418,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHIeknaETaFZ1U0dxowjQSPd6GNxlj43I7hG14c6UNH9FMr-zbUBqYLdi8W3wlIgJh1FlrmlBzXDwDzq9RKh8amALcl44JndQ=s4800-w800"
+  },
+  {
+    "name": "Auer&Co",
+    "lat": 47.384833,
+    "lon": 8.533675,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHjqwmsCD-AZKQ0qDBLjleMan_-VKL7X9OWzYBjaJ2H_P_cH7BUK_AcGFfmU7EHN4hipgP-yQvFOKswPAi2puOoRTgYoOK_dw=s4800-w800"
+  },
+  {
+    "name": "MAME",
+    "lat": 47.3849639,
+    "lon": 8.5273789,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFyFU3I8NrDcNMizpiW5l_tocIjbl4RRk8i6jn_rV6qkTiLybhExuWFNok_F6d4UzWU_jie2BHn60YRThGSb__27hya_8hNkDsAHV0Jkg5nulRKABS2Bhs-L01m-dlJECCzpNO-jUEqsnsq=s4800-w800"
+  },
+  {
+    "name": "miró manufactura de café",
+    "lat": 47.37860198,
+    "lon": 8.525723219,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGO_HZn5X9zMUAxaimLOOT0MKDO7_ZaZ9TG5dkD1giMEAYz_24EVomKvIfzZlzrJCj1cIiSpdjk4q2wC0Gb5ffmUM27XAvORg=s4800-w800"
+  },
+  {
+    "name": "Bean Bank Coffee & Co",
+    "lat": 47.3779004,
+    "lon": 8.5330302,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHIeknaETaFZ1U0dxowjQSPd6GNxlj43I7hG14c6UNH9FMr-zbUBqYLdi8W3wlIgJh1FlrmlBzXDwDzq9RKh8amALcl44JndQ=s4800-w800"
+  },
+  {
+    "name": "OKO",
+    "lat": 47.372732,
+    "lon": 8.5282291,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHpLO0iE7yJOWVLIsQgVx6AedEmUcRQHPW0evbw5cYN28OnEuk0owveyJshQikAxgD2TGMEn9bDgZyS0fVGGitD2Az7qdVlpaFm9K2NAczNxFHQClETxHJQYAR5EzXQvC2tA-5A31DnpUs=s4800-w800"
+  },
+  {
+    "name": "Commercial - The Project Bahnhofstrasse",
+    "lat": 47.3746895,
+    "lon": 8.5385862,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFPHOP6GmSvXXwTkZo8TGNke6_3TrI6kKljhmITz5gncfyu6l4QVWzL7g2YyfIxJZN-NP6ffG2oT6RDmtBbu9WsPzZ3VCpCng=s4800-w800"
+  },
+  {
+    "name": "Lamassu",
+    "lat": 47.3788743,
+    "lon": 8.5438862,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEg4OP864BMdn0pHZUUHyWnle7cOdk9lzPsmKupKwRbt8GHK4lzMoOaChzWWymC525Mm100hdeY7k2fC6y-2EUjhKaRJu5F9Q=s4800-w800"
+  },
+  {
+    "name": "Bros Beans & Beats",
+    "lat": 47.3727972,
+    "lon": 8.5252659,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHJssRBFdk9GYncoOKRVv3FYzuAtGV_ICzman2tJgJOyO5f0H4RD6ySwVM23e1h9GtwStcd4dCxT5cGwq9nClWf4DAFERXLnHX47i8r_2EUIDNYb7O7g3BYnZ2YdfNNfIUFKiRESHQXzg3Vsg=s4800-w800"
+  },
+  {
+    "name": "Grande Café & Bar",
+    "lat": 47.3754306,
+    "lon": 8.543675,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEydYklBi4i0jHjBIaaiPEdrJMrnrE7ABvx1xXLv31Y0V6mA3Iyh3Yf8pS2ssJfNuzUgWMsjjOEoDb38XI7TofTEa3nEATKFFzzSuVqxvjY6yfYkNtES_11IU3Maa-zGYkYZWMxzPy01EcO=s4800-w800"
+  },
+  {
+    "name": "miró Passage Sihlquai",
+    "lat": 47.3795693,
+    "lon": 8.5369338,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFDzLsjLTTLX6wUvH5FY5797aqgEKlRRzoz4qC-OvDI9flZIKL4IJ2qJXXbEG7DfcFEMTmWq2JbWCE0V1ad0JpsMiqXYJ-wirm6PMxslCE-j9qRxSJTXnPXM0zIlSpxHZheO9ou9cvXFqkgCQ=s4800-w800"
+  },
+  {
+    "name": "Nude Café",
+    "lat": 47.388692,
+    "lon": 8.5301993,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEGgdxPaJKzNtGyhAizedMa8MiBl6j03QP6Pnc1-B_zxBp5WJ8o2-M8AWp5htRQytC7Z4kL3vmd9XWA2J7FGst2ZK3hQGfMqg=s4800-w800"
+  },
+  {
+    "name": "Neue Milchbar",
+    "lat": 47.3690371,
+    "lon": 8.5402131,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHZ1YzJp5Xb7-L3UXHe2r1nJGDkEkjBNiFiG52l6pEP1kq4q1UGpoc3YwGwyGfpPkne9XQfq4tnnvRAORUo8Yfy3XyXci7iwQ=s4800-w800"
+  },
+  {
+    "name": "ViCAFE Rösterei & Kaffeebar",
+    "lat": 47.3881531,
+    "lon": 8.5016196,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEWI3Q6OBKdHuEdYjc4BzjtuAGQIu4nFlj6K94K27l9gO14q2RCw89S8UY6TPna2Bo_PyIbZ5HCOnrouUiyIgAkIKXAvnA1j8pgW2wM4WhcrBu5eJjiOyPklu1dA8dIp7z0adsJkbVxOPKWwg=s4800-w800"
+  },
+  {
+    "name": "Ombak Coffee Zürich",
+    "lat": 47.3766044,
+    "lon": 8.5249304,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGYWFX-Iv2bKXPnIf5pLgYj63ztJ5lRCgUd_486Gi33aPO2EpaBuTj8GzmNRTzPsuQk1eji57WS3A5RrI3Qndt2X5v31Y3oNQ=s4800-w800"
+  },
+  {
+    "name": "slurp.",
+    "lat": 47.3768166,
+    "lon": 8.5200158,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHMEKIvOIhnb0PTtooFj3Ai4NatSl5Wx97gu1mCOme0r5xK5bPkswuH-HacdehsOPs_3WmEaOocQhetqUMGHTsrNrPkfVlpEQ=s4800-w800"
+  },
+  {
+    "name": "Coffeebar Tessinerplatz",
+    "lat": 47.3638923,
+    "lon": 8.5320544,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNESCjxKe_4ICvHbMukI1OdTgbuEa6BkDDQegyb2KIzkkKv7-VszL7FI5wJQB1c3DFPX-yfbzcOo65gwuhI02ePzVNc9UGuuDEEc9DXsUyyMAsz5Ht84NHR4q7xRWo-N3rmCjU0dyEYA7Q=s4800-w800"
+  },
+  {
+    "name": "Tuttee Fruttee Coffee",
+    "lat": 47.3726576,
+    "lon": 8.5262939,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH91_Nr4W1I6N2EsUf_1XVGUa_8AiAKmgdpv3mkz9PZ7mGOkU2yhL7mufN6ztWzSgUCZNGfZ8nIprA-BFiKKxGNbexKbcUA5A=s4800-w800"
+  },
+  {
+    "name": "Cafe am Platz",
+    "lat": 47.3911801,
+    "lon": 8.5382941,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE6vxjg8Gr-eXktcfcs5c1z2wevHOQaCnQncCBZ2qxtQerOkZI-lOC1GCWIUSH3wJgLDZCi3mF7w1QXVcq0C4akBRZXn7Qn3Q=s4800-w750"
+  },
+  {
+    "name": "Hype Specialty Coffee & vibes",
+    "lat": 47.3804113,
+    "lon": 8.5479395,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEwi7-F0MuF9lbViYWJ1Dxjs7iJUDLfLXteL1qrHBUcHrLEUcDG5yznx1ROTo_DySRiAMgKI_Od13OLSweYuoHVvuMdE9F9RqhApGXWSg8kDZUPZZIR_i9jBIQisC8NeoWGhlIsf1DIs5IhLtlE5v5L=s4800-w800"
+  },
+  {
+    "name": "Boréal Coffee Talacker",
+    "lat": 47.3719285,
+    "lon": 8.5350215,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGDlpv_voiuwXm5FhhdnR7g2lrF2PBeRyPXxrnhJeIIDbHG8iZDmEmGhl_ZnOaiZZclLT0rR3RAfr0GysUiR1y8JUl4bNSjOw=s4800-w800"
+  },
+  {
+    "name": "COLLECTIVE BAKERY",
+    "lat": 47.3923107,
+    "lon": 8.5109427,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGoBicF1QsH0WuRZMxlF5mT29rlKa0r2DOVi035XafLFDCUFfo0op4Ib71ltULuTcsczmMjJMbK3JLVs2MRH4k1a1xhdtetTQ=s4800-w800"
+  }
+]

@@ -1,1 +1,152 @@
-[{"name": "Fratello La Torrefazione", "lat": 60.1697649, "lon": 24.948038, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Johan & Nyström", "lat": 60.1689684, "lon": 24.9600192, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Helsingin Kahvipaahtimo", "lat": 60.1915641, "lon": 24.9589215, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rams Roasters", "lat": 60.1580874, "lon": 24.9491024, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffecentralen", "lat": 60.1677805, "lon": 24.9324487, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafetoria Café & Shop", "lat": 60.1732947, "lon": 24.9229554, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffa Roastery", "lat": 60.1585133, "lon": 24.9341655, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Andante", "lat": 60.1627741, "lon": 24.93902, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kahvila Sävy", "lat": 60.189245, "lon": 24.9584627, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "El Fant", "lat": 60.1687495, "lon": 24.9536996, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Outrun Cafe", "lat": 60.199136, "lon": 24.9415711, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "18 Grams", "lat": 60.157959, "lon": 24.9157212, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Enchanté Café", "lat": 60.1671009, "lon": 24.9346804, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lykke", "lat": 60.1700235, "lon": 24.9278482, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Maja Coffee Roastery", "lat": 60.1779517, "lon": 24.9631602, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Fratello La Torrefazione",
+    "lat": 60.1697649,
+    "lon": 24.948038,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGAc4FKuZJQxBba0-W9vzay3Gys2QTCSeEPMUYUjvPLwb0yj6rtQYZ6hphoEk9dWx5aKF9z7EpN7JC8vocpxnwjIyNUeS5y1A=s4800-w800"
+  },
+  {
+    "name": "Johan & Nyström",
+    "lat": 60.1689684,
+    "lon": 24.9600192,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHEzkg3t1Bwk_Dvp0F62KByvnPRnUNdb8ntffuzd6ql9F4MZU8znh6zkcLnSlcrppxBJaEqfEcsit6V325y9fizl0LoG3icjw=s4800-w568"
+  },
+  {
+    "name": "Helsingin Kahvipaahtimo",
+    "lat": 60.1915641,
+    "lon": 24.9589215,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGsdX1UavZ1jp1YH4w0OhAncS_n0ME8E6cMnHnOoY9X6cJ_ZZCW8WqJV4KMOVTRjH9IW20pRNJ4SQRHAe0CAjDi3ZJkG06lyg=s4800-w800"
+  },
+  {
+    "name": "Rams Roasters",
+    "lat": 60.1580874,
+    "lon": 24.9491024,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE7k6UYUCgVqEOGYcIL11hIUBjZzTyqfXQNAviESAReUh476uuCc1k6_BtrEAcjylVJimN0yrb4quu6Gx5v7ZwWMyhk_3OoHg=s4800-w800"
+  },
+  {
+    "name": "Kaffecentralen",
+    "lat": 60.1677805,
+    "lon": 24.9324487,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFpI_bvYorjgtshlbl3kIio8Gmws9Jy0kLYpSLRHdvPuwAIkIParTcO1mapIcadVzmCyLnB-4TzvwLxAIm7Vx2-PDACjhW0XWtKZMrV4-0uKfkLDcrMt4OJBo9fQ9AUuk4ce-Uh9RPXlJnuYw=s4800-w800"
+  },
+  {
+    "name": "Cafetoria Café & Shop",
+    "lat": 60.1732947,
+    "lon": 24.9229554,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFGJsnH7jx_6hOsMPStbknj1qcmkuYQV4ter-Eh6lJA_vbKOSclJCoDqAgTikdmmRE6rg3QUl9sAqKIeA6ENcL6w6LVTvnS=s4800-w600"
+  },
+  {
+    "name": "Kaffa Roastery",
+    "lat": 60.1585133,
+    "lon": 24.9341655,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGVyO49ba9kstCuSTQWlKNMvFZveXygxXQGLInvZ5Ii_AmI63Ox1R9DJY8BaOaPWNlrjoYLRzUPg7J2gMi532BB3tZgoe2SpA=s4800-w800"
+  },
+  {
+    "name": "Andante",
+    "lat": 60.1627741,
+    "lon": 24.93902,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHw1l4d3ZPks7C72PxSui7dpVL3vmDXF_--OfRc5C2vwpndwzn6dvbFy4s6Ql1cBfpKKK_I_mjvdrhyUo_fkBuMo3nCcbq9LO3JrMdRMF5H7s2U_yJYrWnPjF1c1NUUchU7OJ_NUJCG2M7w=s4800-w800"
+  },
+  {
+    "name": "Kahvila Sävy",
+    "lat": 60.189245,
+    "lon": 24.9584627,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHMMf9IGSWWh-Sks7sZ46A1w1YL5U1fbjxW6YDP2KdOgmtjmpEadRsbLvu-xX9vdbe6cQiSLMi5P2QZhGrte8Jn6QR348DNwg=s4800-w339"
+  },
+  {
+    "name": "El Fant",
+    "lat": 60.1687495,
+    "lon": 24.9536996,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGdsghNH221fM6JuU7wGwdZn5Ll7fteTRq5cDjk_Fcf9LAbA_CFjhoprRJnuB84wVeYpOJSS2vzpbXk5_Bdcj0Yw03gSz5HHQ=s4800-w800"
+  },
+  {
+    "name": "Outrun Cafe",
+    "lat": 60.199136,
+    "lon": 24.9415711,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFFQxsiFuAm6UaG1ic4aPrnYp7YjYuQ7ohJMN-84OOA6nf9nxD_r3S6o2rH8ozhrDkOPS5_UperCxLaoZTjwZjKNUWHXDV69g=s4800-w800"
+  },
+  {
+    "name": "18 Grams",
+    "lat": 60.157959,
+    "lon": 24.9157212,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGX9oBdtOmttTF-kItfY5NkELSgw1t5ntB8GgH3HHB-gY_1eVAataP2sAp2SbOuKQuEaXgIhL7U1TAF5rI9FL5740fpyEy7nn9leX6jAlRDvdODBxT367b1J8OhOTym1599bgG-CL1zXtTwc81DPVh9=s4800-w800"
+  },
+  {
+    "name": "Enchanté Café",
+    "lat": 60.1671009,
+    "lon": 24.9346804,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEzdyYeNsKiLVNeX1i2hx4SDUnaOs59y4TpdG_8bNZslfe69SqNjNiaULk2__yYFR2ijdpZj975VlT6L0eEHE5MVf2EE6Fnog=s4800-w800"
+  },
+  {
+    "name": "Lykke",
+    "lat": 60.1700235,
+    "lon": 24.9278482,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFyhZpRlNnyXc9tM-fak10MG64kMcwJMOTLWI4KmOhy9S3k7cd7SZrL6tzMqZlkddpgvcrSXUkEGmK0gxg_rfKZmQ6iDwYw7vMNerGlX9xub6gOEArybahlRKJmjCixCkyHxNBnGvHPIM9M=s4800-w800"
+  },
+  {
+    "name": "Maja Coffee Roastery",
+    "lat": 60.1779517,
+    "lon": 24.9631602,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFO80-J_rzr6-rSAB2Hv3jXfbGsNkhhN4fKaoBzafxWoVVN3kmiUSHxZK3zxhOnSeW5rbfbKWpj_uEGBQOFa3bGEZfykHSkgX1BtJxEUQMOrjO4DQDyChWdcCUe0kwWk7RCRMUUP4L40k-3JQ=s4800-w800"
+  }
+]

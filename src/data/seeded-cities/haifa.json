@@ -1,1 +1,156 @@
-[{"name": "Cafein", "lat": 32.80398, "lon": 34.98746, "address": "Haifa, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "OSM-confirmed"}, {"name": "שתיים סוכר", "lat": 32.80064, "lon": 34.98222, "address": "Haifa, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "OSM-confirmed"}, {"name": "קפה לואיז", "lat": 32.79635, "lon": 34.98392, "address": "Haifa, Israel", "source": "seeded", "isSpecialty": false, "needsCoords": false, "notes": "OSM-confirmed"}, {"name": "קפה ליבירה", "address": "הנמל 26, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8192937, "lon": 35.0004989, "notes": "added from hey-fa specialty list; geocoded by HaNamal 26, Haifa, Israel"}, {"name": "קפה סמי", "address": "דרך העצמאות 90, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": true, "lat": null, "lon": null, "notes": "added from hey-fa specialty list; needs exact coords"}, {"name": "קפה אווא", "address": "דרך העצמאות 53, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": true, "lat": null, "lon": null, "notes": "added from hey-fa specialty list; needs exact coords"}, {"name": "קפה נעימה", "address": "דרך יפו 49, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": true, "lat": null, "lon": null, "notes": "added from hey-fa specialty list; needs exact coords"}, {"name": "קפה נעימה - ואדי סאליב", "address": "ואדי סאליב 2, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8068111, "lon": 35.0074283, "notes": "added from hey-fa specialty list; geocoded by Wadi Salib 2, Haifa, Israel"}, {"name": "סמרה", "address": "הבנקים 11, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8201448, "lon": 34.9972771, "notes": "added from hey-fa specialty list; geocoded by HaBankim 11, Haifa, Israel"}, {"name": "Tsafon Roasters", "address": "הנביאים 17, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8135999, "lon": 34.9961721, "notes": "added from hey-fa specialty list; geocoded by HaNeviim 17, Haifa, Israel"}, {"name": "קפה טליק", "address": "סירקין 21, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8098515, "lon": 35.0001562, "notes": "added from hey-fa specialty list; geocoded by Sirkin 21, Haifa, Israel"}, {"name": "קפה דקל", "address": "נורדאו 26, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.807933, "lon": 34.9996765, "notes": "added from hey-fa specialty list; geocoded by Nordau 26, Haifa, Israel"}, {"name": "קפה שכנים", "address": "שדרות הנשיא 116, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8034377, "lon": 34.9868702, "notes": "added from hey-fa specialty list; geocoded by Sderot HaNassi 116, Haifa, Israel"}, {"name": "קפה בירדי", "address": "שדרות מוריה 9, חיפה", "source": "seeded", "isSpecialty": true, "needsCoords": false, "lat": 32.8021747, "lon": 34.9843873, "notes": "added from hey-fa specialty list; geocoded by שדרות מוריה 9 חיפה"}]
+[
+  {
+    "name": "Cafein",
+    "lat": 32.80398,
+    "lon": 34.98746,
+    "address": "Haifa, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "OSM-confirmed",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGtEMa5cmr-ct5xcUyXcyL4jkgTuTh36UwZHurnPYX_mSp1R4HcQewCLUOX4xqX4V0ZOqUfTwZwpqYoT_gPN86W4g0GpeZd_boep9KmH57hv-KQ4WRSVLj01pN6KokCQrpkxBYUDZtLjqKwvA=s4800-w800"
+  },
+  {
+    "name": "שתיים סוכר",
+    "lat": 32.80064,
+    "lon": 34.98222,
+    "address": "Haifa, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "OSM-confirmed",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHjPrVkAfOLmF4iSpBm4v87fjsMpSGbvcI2hWG5SI0FYzBLDuY35UPfCe-WA-ylIQFCwKkPNOcoF-4_GS3NIROEvAKVCDxtlg=s4800-w800"
+  },
+  {
+    "name": "קפה לואיז",
+    "lat": 32.79635,
+    "lon": 34.98392,
+    "address": "Haifa, Israel",
+    "source": "seeded",
+    "isSpecialty": false,
+    "needsCoords": false,
+    "notes": "OSM-confirmed",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG6Nbgy6lfExEiUjBSIG2QoTQS8IbVhHx6K1Bu9Rx0N52Cb8FwiSvWju3glGV62PSQk6LS1zDj2FQJyULqJ4PFAMJga34lS9mFsEu_pZbScYV1UH_YSNB9Ng4emG6n-iPoXCqowI0jpNPs4=s4800-w800"
+  },
+  {
+    "name": "קפה ליבירה",
+    "address": "הנמל 26, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8192937,
+    "lon": 35.0004989,
+    "notes": "added from hey-fa specialty list; geocoded by HaNamal 26, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE2MgXfZdVETDzKPNS4mYohIE8slGtV2aLfkhaqUBIKrRGHgpMHKH-nPhGvFa96ZpklFG9ktEPmIoxK_9ljzOlIde6v4-1-Aw=s4800-w800"
+  },
+  {
+    "name": "קפה סמי",
+    "address": "דרך העצמאות 90, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "lat": null,
+    "lon": null,
+    "notes": "added from hey-fa specialty list; needs exact coords",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFtoHWam7l3bhfBvIsPsyasKeR5eT8TIElS68Zs9CoVGOqthMhQASOguArgolTACqf-JnFW1tgjd6N7L7PnDk7KQerIU7AZ1v7Y3SqOkcSii4cK2ZRmKrcG53USm6WXeIR_PKGtXalB0UWCxQ=s4800-w800"
+  },
+  {
+    "name": "קפה אווא",
+    "address": "דרך העצמאות 53, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "lat": null,
+    "lon": null,
+    "notes": "added from hey-fa specialty list; needs exact coords",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHTj19W_v-IMS3QyYR9HlepdvMUL4TxCL1T_krtSZhHJVzoVoagAtORRNQMTmLaozXUt3TGCO1honAdO-hdGhAV3wfWeb1S=s4800-w800"
+  },
+  {
+    "name": "קפה נעימה",
+    "address": "דרך יפו 49, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "lat": null,
+    "lon": null,
+    "notes": "added from hey-fa specialty list; needs exact coords",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGi17bFD3u_QJ27NF0Z2ZwBr-nD6byzAtesC6bG4c_aQmqluCJ8X9tKTDHokSlQ8H2Uwv53B_qf8It6wdzaLxXiaoCjmdbH-9-mZQdCxfa6aiK9hvRPE9Qj8YRQdah2LagDzexlb6T9334i=s4800-w800"
+  },
+  {
+    "name": "קפה נעימה - ואדי סאליב",
+    "address": "ואדי סאליב 2, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8068111,
+    "lon": 35.0074283,
+    "notes": "added from hey-fa specialty list; geocoded by Wadi Salib 2, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGi17bFD3u_QJ27NF0Z2ZwBr-nD6byzAtesC6bG4c_aQmqluCJ8X9tKTDHokSlQ8H2Uwv53B_qf8It6wdzaLxXiaoCjmdbH-9-mZQdCxfa6aiK9hvRPE9Qj8YRQdah2LagDzexlb6T9334i=s4800-w800"
+  },
+  {
+    "name": "סמרה",
+    "address": "הבנקים 11, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8201448,
+    "lon": 34.9972771,
+    "notes": "added from hey-fa specialty list; geocoded by HaBankim 11, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF8a4qh0mWjETcPBdoO5ltNyZ4sVAEF57S6gUTd0_qHZBJ0y12I5rDPWY5CdwaCAMjJYUxqmVXM2avZlWygqr6K3te7610PzA=s4800-w800"
+  },
+  {
+    "name": "Tsafon Roasters",
+    "address": "הנביאים 17, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8135999,
+    "lon": 34.9961721,
+    "notes": "added from hey-fa specialty list; geocoded by HaNeviim 17, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF-uWSPBJw1z9APSiMZEBpvMuWrGi9mgWJ9vMeTR3guElAvH5Op6IyAWcZDwVuRpGI72CF1g77JFlW2uZc3XQCjRxic-OXB3Q=s4800-w800"
+  },
+  {
+    "name": "קפה טליק",
+    "address": "סירקין 21, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8098515,
+    "lon": 35.0001562,
+    "notes": "added from hey-fa specialty list; geocoded by Sirkin 21, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGCuEFxuTR2xPUyq_NfqQEVZWtYYxVr7F2fIsoRzEjyjiu_sVqdCZvcOukGYdU77iA0QeQ8ARrf8JRufYtzjEKfZktd27UT_yRCUZGajMgefuuuOorQrdkn6PYcdyJsowASXyz1e76fhiatTw=s4800-w800"
+  },
+  {
+    "name": "קפה דקל",
+    "address": "נורדאו 26, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.807933,
+    "lon": 34.9996765,
+    "notes": "added from hey-fa specialty list; geocoded by Nordau 26, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFlj5GLFpcb9iaspFpTey8pr6kJrJG_buxZVgt7qZWzmqvMc5RsPQBrD2HyCvJwCZVsrbxDq6rbBjylsHZA6KkzKrjuXrvYrECDaVo3Jxpm8qGXnzq-QYpVDdQRIb3QN0KnSnEeqm2UAik=s4800-w800"
+  },
+  {
+    "name": "קפה שכנים",
+    "address": "שדרות הנשיא 116, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8034377,
+    "lon": 34.9868702,
+    "notes": "added from hey-fa specialty list; geocoded by Sderot HaNassi 116, Haifa, Israel",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGGGO2sffy0GA5uoljjbee4u7I9akdh5K9_u5F1VgHE1MgfYqwrpWyzfv7lv2CjoW4pQqACVhsEdA-Ub5xBAPCIGx-5ndJB-Q=s4800-w800"
+  },
+  {
+    "name": "קפה בירדי",
+    "address": "שדרות מוריה 9, חיפה",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "lat": 32.8021747,
+    "lon": 34.9843873,
+    "notes": "added from hey-fa specialty list; geocoded by שדרות מוריה 9 חיפה",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHcA25ZXn3pInXthAKeoRnEEHq5VNT7o4CUPw1esnEo6Wa130x2sTugoLP2p4lkS72Y5znhAl_7x2zn1li6oswiO7lq7qVtIw=s4800-w800"
+  }
+]

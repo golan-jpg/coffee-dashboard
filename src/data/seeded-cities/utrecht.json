@@ -1,1 +1,212 @@
-[{"name": "Fufu Coffee Studio", "lat": 52.0984916, "lon": 5.1248741, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Brew", "lat": 52.094608, "lon": 5.1133401, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koffie & ik", "lat": 52.0931858, "lon": 5.1010912, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koffie Leute", "lat": 52.0794752, "lon": 5.1225502, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rocking Chair", "lat": 52.1012131, "lon": 5.1206848, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dagger Coffee", "lat": 52.063012, "lon": 5.108152, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mos Coffee Bar", "lat": 52.0979486, "lon": 5.1207939, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dagger Coffee", "lat": 52.1001943, "lon": 5.1118748, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ukiyo Koffie", "lat": 52.0853242, "lon": 5.1474538, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cupp", "lat": 52.0929105, "lon": 5.1256329, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "30ML Nachtegaalstraat", "lat": 52.0914665, "lon": 5.1316089, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blackbird bio-kaffee", "lat": 52.0883633, "lon": 5.1217786, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "30ML Leidsche Rijn", "lat": 52.09677, "lon": 5.062916, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "‘t Koffieboontje", "lat": 52.0938349, "lon": 5.1169804, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Keen Coffee Bar", "lat": 52.0925061, "lon": 5.1200664, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tijm Tuinwijk", "lat": 52.1024412, "lon": 5.1240377, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cupp", "lat": 52.0780742, "lon": 5.107988, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Village", "lat": 52.0949691, "lon": 5.1202177, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tijm Centrum", "lat": 52.0899928, "lon": 5.1207983, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ohøj Coffee Roasting", "lat": 52.0763275, "lon": 5.1140332, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeetaria", "lat": 52.0837953, "lon": 5.109438, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Fufu Coffee Studio",
+    "lat": 52.0984916,
+    "lon": 5.1248741,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFEzEZLQ_bMDSDwI-0Kn_FQ0nq4vkbInvtIzc80MJ8ESSG0epGJ9FAbxuThIu3anEnEjf6Tt9HHNgumJL-CuHhckw95F-E4gg=s4800-w800"
+  },
+  {
+    "name": "Black Brew",
+    "lat": 52.094608,
+    "lon": 5.1133401,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEszyPRfo22QeEJnTnPXVSc08ueWrIdT_2bzgdqsgoZx5jSntuuqGU5Wlm63RnEDkcJzN_pBdGjdW3-3JNN2lJxMr8zFxWyng=s4800-w800"
+  },
+  {
+    "name": "Koffie & ik",
+    "lat": 52.0931858,
+    "lon": 5.1010912,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-mji8k9t8yLbMTBsUBpuq6UudtAWagcPnBDZpL8Rp1tpM9J1ITB4FWYThzZ36NNisnShniWzL9GBJAUzKVHB0aYhOqR6WWw=s4800-w800"
+  },
+  {
+    "name": "Koffie Leute",
+    "lat": 52.0794752,
+    "lon": 5.1225502,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF3d1V6dObeY7tgYC4W6ed7cxAjblIhPWICpKHvnAhbR7DU5_1G-u8-eVrTapEKisWdBbboGnmovcPdhgGo8ydT7xSPENc2Ow=s4800-w800"
+  },
+  {
+    "name": "Rocking Chair",
+    "lat": 52.1012131,
+    "lon": 5.1206848,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGZihM66VfX_Eq1blJLDjJjKPz4kjf613FcH0bwbBw4AyFY9vtHKJO_iCPTU-eilP_e8F-6xVkz5t9TwDxSfTU46nlQk-rmxg=s4800-w800"
+  },
+  {
+    "name": "Dagger Coffee",
+    "lat": 52.063012,
+    "lon": 5.108152,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgqc5LaYykRq6QWfNmnO06SBAcWWv0i0BRjOo8hW1PNW3bTWOyF-w7xeWuv3kFgRQpDKoDtt0N3IOX13jKsNN1m5O5n11Kk3diPORN5IHCVbDS4n49hi4m0h1z9bE5mjte-zUtSxOA-rk=s4800-w800"
+  },
+  {
+    "name": "Mos Coffee Bar",
+    "lat": 52.0979486,
+    "lon": 5.1207939,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwQt0IUeYkDZtjA1_S7aM801SCpAT_ICg2eTLlqf1dLoeH6I8k6hM8M1AiYaFd8SFsRDQpSpFYXJc2rgoCANeK2s2GHJD4OmHJaLHkezHNOcvgekb6vSGzwLMAUJFcIMeVGhqKL1yQGwHG=s4800-w800"
+  },
+  {
+    "name": "Dagger Coffee",
+    "lat": 52.1001943,
+    "lon": 5.1118748,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgqc5LaYykRq6QWfNmnO06SBAcWWv0i0BRjOo8hW1PNW3bTWOyF-w7xeWuv3kFgRQpDKoDtt0N3IOX13jKsNN1m5O5n11Kk3diPORN5IHCVbDS4n49hi4m0h1z9bE5mjte-zUtSxOA-rk=s4800-w800"
+  },
+  {
+    "name": "Ukiyo Koffie",
+    "lat": 52.0853242,
+    "lon": 5.1474538,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHrb0aF5d86YZJgsdXa6fKN9i4sOjMacpS8nbeVLhNJUPKDcf2hXoCz1b_d_LmH_hXGRVDqYA_AG-ZMVwGhxWUtpJ8yXPHWew=s4800-w800"
+  },
+  {
+    "name": "Cupp",
+    "lat": 52.0929105,
+    "lon": 5.1256329,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYNXfix4-7BTlpXF8dXrg1gAPOCRTC59kJi8xUvJ_cUiUL1cWlXEmH5-eTGw_C_HeRFUN-4_POQD9mDzkcqnrfYdxsibqMYA=s4800-w800"
+  },
+  {
+    "name": "30ML Nachtegaalstraat",
+    "lat": 52.0914665,
+    "lon": 5.1316089,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHCR1n5HreS1lmF8l_xmrE2W5rlgmojZT0W-edkd1csLpFr4bFBqOangmolkg_gbRFAFVjocbSiJ_wG26_R39IA8THZusmP_A=s4800-w800"
+  },
+  {
+    "name": "Blackbird bio-kaffee",
+    "lat": 52.0883633,
+    "lon": 5.1217786,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGdQCGFKRdyTaOrwD4M0oRxeRD3DHaMyY1xHJeThgvrvvzjwgxgzOlQbwhtLb-y6QVajzAPWko1P6hCroxigmHn6Ys6JjwBDg=s4800-w800"
+  },
+  {
+    "name": "30ML Leidsche Rijn",
+    "lat": 52.09677,
+    "lon": 5.062916,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE-Os8I47Fv31EfJ9Pq0ZNg1nm4yXGRlqStKrsPYJEMprOx7_oSejbIg7KjGJts7dc7ld2TLn2a4L32cmG9UV8ETLY3ZdsbLVgRHQ0VrdbvcmfbGCSCzs2G_3ZyQDD_YhOmZJBVYmTvQzgK_w=s4800-w800"
+  },
+  {
+    "name": "‘t Koffieboontje",
+    "lat": 52.0938349,
+    "lon": 5.1169804,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFniT0yAET0ss9C7gewynqNo_4h1ilPo6b0WGe_LYVLRI547tELXvfWbrYLH-XMMOh4GRMllsLhRiwtKUss2SAhpAXODKX0iA=s4800-w800"
+  },
+  {
+    "name": "Keen Coffee Bar",
+    "lat": 52.0925061,
+    "lon": 5.1200664,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFwrCQx2JShhYgOQWb92aSBz2ibG9Fy1a07lDdtQ4Hglz9jW7SsDrfpmt1p0QIdxKp7XJ1lx4-7yNVocL3hyTIGAtELo0HBJA=s4800-w800"
+  },
+  {
+    "name": "Tijm Tuinwijk",
+    "lat": 52.1024412,
+    "lon": 5.1240377,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFRbfz5HOcX3-mJSIujxVVyvP7VnPyrU3fyJmLU93FOH0jBoLyfpcbFTQPNNqncyfLffTxKEs8ZRPSGo8u3LqywLn-SyZgZcw=s4800-w800"
+  },
+  {
+    "name": "Cupp",
+    "lat": 52.0780742,
+    "lon": 5.107988,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYNXfix4-7BTlpXF8dXrg1gAPOCRTC59kJi8xUvJ_cUiUL1cWlXEmH5-eTGw_C_HeRFUN-4_POQD9mDzkcqnrfYdxsibqMYA=s4800-w800"
+  },
+  {
+    "name": "The Village",
+    "lat": 52.0949691,
+    "lon": 5.1202177,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE6FfHV0Cv-iZxBWDGIzigaMhJYm0fyMB4s4zbIf7tbLFNLX4XnbCVsyKOdp8tTq7FXCr-_-QF6pdD3ku2_NQqHTAUI8MmqVm2w39-YvI9_yruwR3yUKKgDavi0PLKito88jHB2bnyFMy1o=s4800-w800"
+  },
+  {
+    "name": "Tijm Centrum",
+    "lat": 52.0899928,
+    "lon": 5.1207983,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFRbfz5HOcX3-mJSIujxVVyvP7VnPyrU3fyJmLU93FOH0jBoLyfpcbFTQPNNqncyfLffTxKEs8ZRPSGo8u3LqywLn-SyZgZcw=s4800-w800"
+  },
+  {
+    "name": "Ohøj Coffee Roasting",
+    "lat": 52.0763275,
+    "lon": 5.1140332,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF1mNE_wVRwyLgL56Myg5VobFG1ASGElpJw1Dz5SG_8AHATJ8D5F37uIeivtJBbT7aMlkAILqaZeD9pyT_UNlsEhdW2ybkcjlyV_-h-1cwI50WyeF4s6fbOro0rY-YSUn2sF9uGnzXZT6us=s4800-w800"
+  },
+  {
+    "name": "Kaffeetaria",
+    "lat": 52.0837953,
+    "lon": 5.109438,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGZHmhMGwHuKefPYpNWA_6zDHqwmZGlybW9nKEfPeGe0o2W4aCQdu1XQRgZuPMpFtRJVC4SmgPtPIwrCN_yaj4ASLBeq-OkTtXjmt9j7c5_QSuE-6thcPauBSZXCtqKR0KarWvQc2AVw3M=s4800-w800"
+  }
+]

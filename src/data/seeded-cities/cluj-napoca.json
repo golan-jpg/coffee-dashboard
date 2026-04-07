@@ -1,1 +1,282 @@
-[{"name": "LET’S COFFEE", "lat": 46.7711656, "lon": 23.5850726, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Olivo Bistro & Caffe", "lat": 46.769664389, "lon": 23.591925949, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Olivo Coffee Culture", "lat": 46.7717231, "lon": 23.5867412, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artigiamo", "lat": 46.7690162, "lon": 23.6297191, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cuppa", "lat": 46.763495125, "lon": 23.58409363, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ROAdSTED", "lat": 46.770541, "lon": 23.5507351, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tamper Coffee", "lat": 46.7686714, "lon": 23.5994492, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Laboratorium", "lat": 46.7737335, "lon": 23.5876722, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meron NAPOCA", "lat": 46.768391, "lon": 23.58924, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bujole", "lat": 46.7695899, "lon": 23.5887934, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Cup Izlazului", "lat": 46.7554848, "lon": 23.5577756, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Victor Fresh To Go", "lat": 46.764302448, "lon": 23.585015237, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Și", "lat": 46.7689896, "lon": 23.5913267, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fū Coffee", "lat": 46.7766814, "lon": 23.6040654, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brewtiful", "lat": 46.7710779, "lon": 23.5957891, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elements coffee shop", "lat": 46.77349, "lon": 23.589838, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Cup Zorilor", "lat": 46.7557964, "lon": 23.5935135, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ruya", "lat": 46.7682844, "lon": 23.588642, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Cup Manastur", "lat": 46.7595594, "lon": 23.5628416, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Cup Ira", "lat": 46.7815183, "lon": 23.636625, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nish", "lat": 46.7743886, "lon": 23.587277, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "YUME Coffee Roasters", "lat": 46.77910459, "lon": 23.590708226, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Emozia fain si simplu", "lat": 46.7672463, "lon": 23.6024, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meron GALLERY", "lat": 46.7748054, "lon": 23.5869077, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Moo’d", "lat": 46.7676097, "lon": 23.5873581, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hotpipes Roastery", "lat": 46.759046, "lon": 23.5923601, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "eggcetera", "lat": 46.7727721, "lon": 23.5876416, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gook", "lat": 46.7637081, "lon": 23.6084945, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "LET’S COFFEE",
+    "lat": 46.7711656,
+    "lon": 23.5850726,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFrcEd4WUCNUaKDI_TdKYRD3k27QfcG9pJj2JAgS_qQoW1Z-0LChkLM2g9s5a5zNqUhKLrn1rYsZrqRJj850ljQrItk7bMwie3ZWDWN_RRimcA1TFV8Cb93B8x28Jew1DIqUkUeRj58t9Y=s4800-w800"
+  },
+  {
+    "name": "Olivo Bistro & Caffe",
+    "lat": 46.769664389,
+    "lon": 23.591925949,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH-c3at7SRkfL1eNzm4BP3ChU5IPtMK376uGJ6A83iy8AWRldhDg1VhUGn1Oy_MhT0OZaNvZkqOjkXU5jmcQ_GiIcyifXZUog=s4800-w800"
+  },
+  {
+    "name": "Olivo Coffee Culture",
+    "lat": 46.7717231,
+    "lon": 23.5867412,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHAF1T_lzXazweQ4GoHGMWF6DR_uOyeUinxCe10MYAZ-r_rZoSpFzHapPPIKvvJp2YzDZIyqZwkQ2Qf9xvxNG1ufXRLBBTh6A=s4800-w800"
+  },
+  {
+    "name": "Artigiamo",
+    "lat": 46.7690162,
+    "lon": 23.6297191,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEgb52LCkg-RRQYSBZ5jMBQa6nlIW8eVDPabIYinUWanJmEnXwyf84cPpIUoBzsUjL_E87OYvcYcOPemK8po6ARBbjd53fnWA=s4800-w800"
+  },
+  {
+    "name": "Cuppa",
+    "lat": 46.763495125,
+    "lon": 23.58409363,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGvc6dl86sFFL_YSghFxZ0llkdZrTfWuqIKaYEgw0osgqU7YpmXP-P8Q1KU4093mL-HDX1KKCTTPQRglxliTOUNOey9CwrjcIxULvN-LjdFMYyOIQX_1HhXZF1MgXf5BH7k9R-aiLhOCImO=s4800-w800"
+  },
+  {
+    "name": "ROAdSTED",
+    "lat": 46.770541,
+    "lon": 23.5507351,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFk5HtBMTp7f6OfhSzpFxqSZN4bI9CepEYh3R4nwlewUlED2MpHjRbNFgwGt6ebe5itFqoaG2kws6q8VRSA1VDqOvjdBwliKA=s4800-w793"
+  },
+  {
+    "name": "Tamper Coffee",
+    "lat": 46.7686714,
+    "lon": 23.5994492,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFXT3ZIiRDvStP5OYdeJrXAt3WBWD_1gEw584UdVkybLWv2cPYjKL_kMi2dcrAPrCbH5OTpmvM_VS5Zwh2Jr7OKDWZdkEYdyA=s4800-w800"
+  },
+  {
+    "name": "Laboratorium",
+    "lat": 46.7737335,
+    "lon": 23.5876722,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFJcyr-vp70c5i2V2lN9yYdubz4BrURQczYTHCdkNVB4DMrkx6ok8201Er8y9A8GwyunTzNbI1NL6GLggLxdPS8AyWkFBRHyQ=s4800-w800"
+  },
+  {
+    "name": "Meron NAPOCA",
+    "lat": 46.768391,
+    "lon": 23.58924,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEY4v8wHmByMdH1rKdAsPR6AiXlfPAbaY8Rgjs9adAsZl3WUZ4Xqn6lw_dPFjg3_DgICTmeUC-r2rg5mNXVWW_idhr94fB57A=s4800-w800"
+  },
+  {
+    "name": "Bujole",
+    "lat": 46.7695899,
+    "lon": 23.5887934,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFDm8ZNq-wmtkuIFHlKSUhiQ0k3wY1XI90DvHe11S0AM6h78-v1ywoDfS09BdILDk9wCEFc-Lh0Wi92r92jY7qp6mOEAwT6tQ=s4800-w800"
+  },
+  {
+    "name": "Coffee Cup Izlazului",
+    "lat": 46.7554848,
+    "lon": 23.5577756,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoCSFcMAzezR99mwMEHzaeZnQGPS0aG8z_GsfE5_Yt4UiOLDSbQhSqvqqFdeU_HYb0jXjG0gJt5X2UdwmCJR5bqHo2yNZme1UQyZICBU12CNvVH-4zcJrwDyT08B1NP4-5M_8yxORE6eit=s4800-w800"
+  },
+  {
+    "name": "Victor Fresh To Go",
+    "lat": 46.764302448,
+    "lon": 23.585015237,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGKc_O0pDCvIShsVP1vx7AKcSJCYlz5q5RfKiVX3H-PrYOce-zCzPGDnFnEJkAmKE2eI3TACSZk5YVy8VJuP84XKb_MPmP4DImaiJP9lLnw8jR7BaexDt30iG1dezDnFcjoSkLHwKM1pv1T=s4800-w550"
+  },
+  {
+    "name": "Și",
+    "lat": 46.7689896,
+    "lon": 23.5913267,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGlsXnfMqpzN_kHSFdJTKAt2zIQUOaNjFZDlkMwm9rNpK3P17tYvuTktvKXjLL1RIF5wn1WLwCpPm9PuXCfrU4KncNzFKe_ajxwFUpSPigtQROlVzr8xOSt58SOT3YptL_tRsCMR-HKLE_-50l69gg=s4800-w800"
+  },
+  {
+    "name": "Fū Coffee",
+    "lat": 46.7766814,
+    "lon": 23.6040654,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHqbQdFtp16WuVuV2ALNJOiBA_OO9UBAV60VjIqQpL_h_nYAKnde1O6NBMUlbPpFtarBEdQYHoxcILtxgX7WkeU-Auv0SCxSw=s4800-w800"
+  },
+  {
+    "name": "Brewtiful",
+    "lat": 46.7710779,
+    "lon": 23.5957891,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHg1Dh1M865UBg23VLJclXT0Wvw5cmLawaZDYOgLMX7ykwiupr4uCDJ59s6i5tlPH3ouWkIMfmNLZGd7q7ecvocvqx5mNvuGg=s4800-w800"
+  },
+  {
+    "name": "Elements coffee shop",
+    "lat": 46.77349,
+    "lon": 23.589838,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGhTD-rloLExoNNuQvMrM24quAwNwA7TtmVy68SbJc2CZGE4lfxd5N_S4sJFFFGbdk3-ylw7hhCC5-U9aokSKgBsutuK8jjmEbxFgiUPTnp2809mB4Aj_6uQT6i74q-d9ipUvH7fwv7LLlw=s4800-w800"
+  },
+  {
+    "name": "Coffee Cup Zorilor",
+    "lat": 46.7557964,
+    "lon": 23.5935135,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFX0iyxkcTiPPFv6aDl01Jo6qm_xQMcHTwKZCEhaDG2Zk8vgCHHEawM7ScbhGABwRWwR-mS4fsudMFqpdTnGqOf8WmO8NKJcpmXQHce1lF9Za3hhYOkSLq8XC4BiibFw-SHAmPl6olsUMJCVQ=s4800-w800"
+  },
+  {
+    "name": "Ruya",
+    "lat": 46.7682844,
+    "lon": 23.588642,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGke7hsRWWBEQmZRQXdq7zLIxt06p8WtQL1Nock92B50BkO3vZ56_3aVd9GC2iJjzAynswduaP7SwhdNAVVDS4f8g7CD6opng=s4800-w800"
+  },
+  {
+    "name": "Coffee Cup Manastur",
+    "lat": 46.7595594,
+    "lon": 23.5628416,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoCSFcMAzezR99mwMEHzaeZnQGPS0aG8z_GsfE5_Yt4UiOLDSbQhSqvqqFdeU_HYb0jXjG0gJt5X2UdwmCJR5bqHo2yNZme1UQyZICBU12CNvVH-4zcJrwDyT08B1NP4-5M_8yxORE6eit=s4800-w800"
+  },
+  {
+    "name": "Coffee Cup Ira",
+    "lat": 46.7815183,
+    "lon": 23.636625,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoCSFcMAzezR99mwMEHzaeZnQGPS0aG8z_GsfE5_Yt4UiOLDSbQhSqvqqFdeU_HYb0jXjG0gJt5X2UdwmCJR5bqHo2yNZme1UQyZICBU12CNvVH-4zcJrwDyT08B1NP4-5M_8yxORE6eit=s4800-w800"
+  },
+  {
+    "name": "Nish",
+    "lat": 46.7743886,
+    "lon": 23.587277,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHQzVzdP6BCGvOp4OPwXhsn4bxnhhhTnnM40xN9HgGjjzQvUPBRc51YMKZCFqq31F75EVN8070ZB7TS_l5JYXZGOU_vvBYYeo5KVPTj_nPyrHft9CiGVtLeX4zBIs5M6nYnkRGp-6kCYiOAQ25Z448n=s4800-w800"
+  },
+  {
+    "name": "YUME Coffee Roasters",
+    "lat": 46.77910459,
+    "lon": 23.590708226,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGI-7TaVrsumLcxwPyfUuwZClkByTbwz22HoWAsg4R26uq6_BaWjvI-QjR7StAH6FHeyWyM1eV_IP74TmwUVzAsiyL46w6nHw=s4800-w800"
+  },
+  {
+    "name": "Emozia fain si simplu",
+    "lat": 46.7672463,
+    "lon": 23.6024,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGHLW1Irk7GcRa8TU895lymeBtPHZYVDjKOFEqaRMbdjrkjQNPrjSeLnTANLaIFLJwj6OQ-ylRzVnWgGQ3Mv8e49FkVlS6al_HIpYl3qFO65Q9TheoeifmcfSW_JsGq_gJl-IOG5UntXDK10SSjancP=s4800-w800"
+  },
+  {
+    "name": "Meron GALLERY",
+    "lat": 46.7748054,
+    "lon": 23.5869077,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFbBp91oqhQpi6NGg0iDQngoWP1gIvHVKpTQjlf4uIxJqvn2aeRi8xBh5grQ-Be_InHaA2UgqMEHSUCT8nlWg6ii93av425TQ=s4800-w800"
+  },
+  {
+    "name": "Moo’d",
+    "lat": 46.7676097,
+    "lon": 23.5873581,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHmxmMSHsJJQXG4JbOc1Uc_s2cNM59gB2azXHI3b-oYhQoviw6ygXTyRCMT4ELFGDhMe5kzFCz-IdgDd8p7n0A931FyRVgvbg=s4800-w800"
+  },
+  {
+    "name": "Hotpipes Roastery",
+    "lat": 46.759046,
+    "lon": 23.5923601,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEsFzH4DjRXPTtmINqzfv42PAUldPjCrntXxYW-GykNJGWnJ0K6u_BViM77VyM-bf2mp9PiQ0uYnb3g9LyltAMFivUhi-60ZQ=s4800-w800"
+  },
+  {
+    "name": "eggcetera",
+    "lat": 46.7727721,
+    "lon": 23.5876416,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGtH6Mc7VJKPcXHPe2JtboZ9HCCeZ7cAuBVAVRr828ZQUUAH_IwdPvdQkmwNPqXgw5Vh3Xz40qbZqGIInVJIxa2HoJIFm4HEZ1I3d6kRr8n5Hbxijq7YUr2akLRUEy8kWCgyXyxOGhuGOED4uu6usQ=s4800-w800"
+  },
+  {
+    "name": "Gook",
+    "lat": 46.7637081,
+    "lon": 23.6084945,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4IQ5jtlZULoolYd5ZCKKxu6mX9Zn1aVc9WlZKMGCgxcWAEJ9wa1wik0Z-pTF7a7Ljxy8wgpPw9IUMj1BhoAehpnspmuls18Vr0SWIQWdHkyWDlhkmpPig28LPLjhMxntEhQ2z_egyhUBjfg=s4800-w800"
+  }
+]

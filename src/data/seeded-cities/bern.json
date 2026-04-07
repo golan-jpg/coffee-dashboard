@@ -1,1 +1,82 @@
-[{"name": "noy", "lat": 46.957904, "lon": 7.4535109, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Friend or Foe", "lat": 46.9478182, "lon": 7.4463403, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ojo de Café", "lat": 46.9577273, "lon": 7.4538789, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Aromawerk", "lat": 46.9404474, "lon": 7.4382359, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SCHROETER KAFFEE", "lat": 46.9584877, "lon": 7.4536141, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Drip Roasters", "lat": 46.9417966, "lon": 7.4312717, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "VERSA", "lat": 46.9485564, "lon": 7.4477942, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Coaching Club", "lat": 46.9473953, "lon": 7.4561822, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "noy",
+    "lat": 46.957904,
+    "lon": 7.4535109,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFS1xcvMfMG2DefmHZpgQHvf805HAPzeeuVISvdRYxItJUOwbDJZOjOi02IGcyvXgVn2XXf3KuBSeWGE4-EtFeinPtjrPuVow=s4800-w800"
+  },
+  {
+    "name": "Friend or Foe",
+    "lat": 46.9478182,
+    "lon": 7.4463403,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHlBHC9HhAhTS0H10FL9Tr2JfUIua0h1-FI-t9vrnxaqqWwR5qbR0FMG8mqe4kp5fdYOyaJMz5ilemypFtRUB9mL3WtGt06ag=s4800-w800"
+  },
+  {
+    "name": "Ojo de Café",
+    "lat": 46.9577273,
+    "lon": 7.4538789,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF8Ug8X7RyhXZelhv6I2yLiIuYUBe4lY-Cymvx4tzYgfnyPyWgY54jJTVcOzpVWuJFXJGktrD-Pm1z31qDMSseiACfb_NVKng=s4800-w800"
+  },
+  {
+    "name": "Aromawerk",
+    "lat": 46.9404474,
+    "lon": 7.4382359,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG3kmxrCrF8zaFoxEs13dfsvADnEg10whbKsX6AsC581-rnApRLhhomT9i8_LrMIVk341WRMW5Wx_ix3iHj_qtBqXIDmFn7gw=s4800-w800"
+  },
+  {
+    "name": "SCHROETER KAFFEE",
+    "lat": 46.9584877,
+    "lon": 7.4536141,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHTzfUWb6mI4Av317xyuokkoJAZRoHPL9LqWBLpaFkb1BI8vB2lGKoaTs5C3Qh1uZaEGdg4-ZFBRn56ic_P8R7-rAqDrptbSw=s4800-w800"
+  },
+  {
+    "name": "Drip Roasters",
+    "lat": 46.9417966,
+    "lon": 7.4312717,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGcA18vj1T-53O0dNdh0H-sAx88gVB_d7J9SoFrqTN365vZs0RyD2TQ8ZTdWTbYRdrOToFE78TKOXs7Gs3SDy_KxWvw8r7bHQ=s4800-w800"
+  },
+  {
+    "name": "VERSA",
+    "lat": 46.9485564,
+    "lon": 7.4477942,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFJ0-JIKSzBiYNLa-6YqZr2NFg1oS40aSxZtJ8a-hXApZBLymxCCXoBDpMViMV6nPRBW-VgxaK8fEkkyPyPKuD_SsUjLL--8lzg2RTwbgQFa5jWUuVuxMAa9mjytglw5V4jjRs6ZWzFM_umItefRAnU=s4800-w800"
+  },
+  {
+    "name": "Coffee Coaching Club",
+    "lat": 46.9473953,
+    "lon": 7.4561822,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHx3nuk4exY1QTBAqYSmHCNAuKFu0DFBNlzooYugeg646H33NVo39vNjxq4dMncZEW0yc_Q_-5G4rXdgqxxOmfBaCISEcE6qg=s4800-w800"
+  }
+]

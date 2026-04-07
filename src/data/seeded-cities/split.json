@@ -1,1 +1,102 @@
-[{"name": "Meštar o’ Kave Specialty Coffee", "lat": 43.5083831, "lon": 16.439029, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tinel Specialty Coffee Shop - Split", "lat": 43.5096771, "lon": 16.4359556, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kava2", "lat": 43.5133529, "lon": 16.4379186, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BL3ND", "lat": 43.5066221, "lon": 16.4659056, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Utopia Specialty Coffee Shop", "lat": 43.5077027, "lon": 16.4648064, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ka Kantun", "lat": 43.5090765, "lon": 16.4402099, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "D16 UNIQUE", "lat": 43.5095969, "lon": 16.4376437, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stow Coffee Roasters Split", "lat": 43.5116875, "lon": 16.4363832, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "4coffee soul food", "lat": 43.5088458, "lon": 16.4416419, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "D16 Coffee", "lat": 43.5088138, "lon": 16.4401539, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Meštar o’ Kave Specialty Coffee",
+    "lat": 43.5083831,
+    "lon": 16.439029,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrQxv6hNRr3-ZerCLgIKkDR4bDO1BfWCQaGmZNMgrCNgZrdmGwXYBNgmBYW4r1OXhsNZBWUhzylTKnSF1OgXLwSJBGR7FL-Q=s4800-w800"
+  },
+  {
+    "name": "Tinel Specialty Coffee Shop - Split",
+    "lat": 43.5096771,
+    "lon": 16.4359556,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFusjlXKMgjtGfHOm0OzvfxdRsR601bk4MMFhGXp3vANTI6agse_xlI5i_DDwLIKeSz49P5CX8ERDa4fcw1rbV6XIdIxZ5CSg=s4800-w800"
+  },
+  {
+    "name": "Kava2",
+    "lat": 43.5133529,
+    "lon": 16.4379186,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH-9Wk8Wkj7uSQgrkMFAH4Lp33J2LqCxIMZXlrCh-0sXGAzaGiAXqU88N2f173Z67XbftqNBNLfnZS0DYqVQS2uksRROcReQQ=s4800-w800"
+  },
+  {
+    "name": "BL3ND",
+    "lat": 43.5066221,
+    "lon": 16.4659056,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGGISRWbuzh5RozO3B5V8rc-iFFJL_3neOObDGCEeyzQzzYj__WwPVME5nmoDZDhx5RVhw2yhl20GafnXlZRzN7zK-uec8CMQ=s4800-w800"
+  },
+  {
+    "name": "Utopia Specialty Coffee Shop",
+    "lat": 43.5077027,
+    "lon": 16.4648064,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHabytLmvNIZAdvwOr3bdYoWPJ1cSR5XviQh-9B9xv6eJq-iqzLeiY8ybiXmjti8NhDheIzZ0VzLM7nO50Wtty2hKOQ7GRYn9-URiAvXxSr2acVSuQF6JIo3y8o8RvxnzFJi9EEejQPb4Sy3A=s4800-w800"
+  },
+  {
+    "name": "Ka Kantun",
+    "lat": 43.5090765,
+    "lon": 16.4402099,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG3cW51UjLzLnAx3yBjiwslEgFy_spnFfUnRtz2VDibtKI-Q3x-9ky5vJWb03-ILqMc_SUk_b-aOUAu277oy-a59YLSSiTJFw=s4800-w800"
+  },
+  {
+    "name": "D16 UNIQUE",
+    "lat": 43.5095969,
+    "lon": 16.4376437,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHU3JCpic0Oaq_nQItApYfs5T7VhPTCs_vctf4al44IQQEc-eaYOmq-XeC1e1DALBd1EDl0AZOMif6jXTrP9iEzbLIQeSGiaJb-9DOpBbW7TnbRQJW6PBEohknIHz1gZOcMQOZfnOyLJ7oFUIGGSlj2=s4800-w800"
+  },
+  {
+    "name": "Stow Coffee Roasters Split",
+    "lat": 43.5116875,
+    "lon": 16.4363832,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFPWxAomQfEUE77jfmnt-7YQqvFbwSgyWr23azUAIFuh9DQJrQLyQVisuVxyloC_t5b0ZhNe1N1ZqoKqvTH86jCrF1ejFusIQ=s4800-w800"
+  },
+  {
+    "name": "4coffee soul food",
+    "lat": 43.5088458,
+    "lon": 16.4416419,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHWewuMtV6c3K4qBp6tyrlTCuHwsZI4YUoXK59NQuxuuMEWrif1qflTjzjitPmhaqH5ZuIFk-LUMyxioXg1tW1C6VAxVVE6wS7h_fiDFrJNtSNzWHK0h83h7oxoHlCksIzoPlT7DCKT53vZ=s4800-w800"
+  },
+  {
+    "name": "D16 Coffee",
+    "lat": 43.5088138,
+    "lon": 16.4401539,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHU3JCpic0Oaq_nQItApYfs5T7VhPTCs_vctf4al44IQQEc-eaYOmq-XeC1e1DALBd1EDl0AZOMif6jXTrP9iEzbLIQeSGiaJb-9DOpBbW7TnbRQJW6PBEohknIHz1gZOcMQOZfnOyLJ7oFUIGGSlj2=s4800-w800"
+  }
+]

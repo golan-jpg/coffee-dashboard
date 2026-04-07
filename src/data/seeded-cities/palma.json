@@ -1,1 +1,312 @@
-[{"name": "Greengo Palma", "lat": 39.5762121, "lon": 2.6410209, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OTRA", "lat": 39.571189, "lon": 2.6534921, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "HOTTO", "lat": 39.5704542, "lon": 2.6554203, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mi Manera Specialty Coffee", "lat": 39.5702017, "lon": 2.6492816, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Surry Hills Coffee", "lat": 39.5742445, "lon": 2.6503962, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CAPA.", "lat": 39.5707134, "lon": 2.6435292, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BACAN", "lat": 39.5735003, "lon": 2.6444497, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Noti Coffee Roasters", "lat": 39.5730219, "lon": 2.6528221, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elefante", "lat": 39.5496966, "lon": 2.5972042, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mistral Coffee Banc", "lat": 39.5711087, "lon": 2.650784, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mistral Coffee House", "lat": 39.5718159, "lon": 2.6498043, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "El Grano de Café", "lat": 39.5729374, "lon": 2.6545955, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rapha Cycling Cafe", "lat": 39.5694457, "lon": 2.6483433, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Molienda Arxiduc", "lat": 39.578315, "lon": 2.6533548, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Riutort", "lat": 39.5739455, "lon": 2.6499064, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Origenes Café", "lat": 39.572451, "lon": 2.634781, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Acco speciality coffee", "lat": 39.5701248, "lon": 2.6513836, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NOIA CAFE", "lat": 39.5536547, "lon": 2.6047148, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Plumo", "lat": 39.5692708, "lon": 2.6531631, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kofi - Specialty coffee roasters & bagels", "lat": 39.5716886, "lon": 2.6545689, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Arabay Coffee", "lat": 39.5710613, "lon": 2.6525526, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MEnUT", "lat": 39.57292, "lon": 2.6425604, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rosevelvet Eatery", "lat": 39.5775423, "lon": 2.6503454, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Molienda Bisbe Campins", "lat": 39.5750049, "lon": 2.6457811, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mama Carmens Coffee & Bakery", "lat": 39.5727813, "lon": 2.6345316, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mise en Place", "lat": 39.5710243, "lon": 2.6521077, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Barn Mallorca", "lat": 39.573418, "lon": 2.649365, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Olula Café", "lat": 39.5760253, "lon": 2.6483426, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "THE BARN La Rambla", "lat": 39.5734114, "lon": 2.6493422, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nano Coffee Lab.", "lat": 39.5714253, "lon": 2.6461824, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fika Farina", "lat": 39.5706993, "lon": 2.6521736, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Greengo Palma",
+    "lat": 39.5762121,
+    "lon": 2.6410209,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGu2YDQJ8RqB2rtGiJTTXwBZNoknH0RsM6HpjAHLdaySnKARp8xVL4zKgnMZYKTwNTcEXE0dt3nkM-dK5eOREajw01LQm47=s4800-w768"
+  },
+  {
+    "name": "OTRA",
+    "lat": 39.571189,
+    "lon": 2.6534921,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE3I-ebBEOWDAgXLlBZOaK6RdSLsqxlN_9FLPNZFt8RZELeuykTUfR2nYrSFVxsVWzJOIN8COtQKpo10sO0sU1LXtpiqsn5mg=s4800-w800"
+  },
+  {
+    "name": "HOTTO",
+    "lat": 39.5704542,
+    "lon": 2.6554203,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF3Rp8Y-Lh_86P9aPnFEm-WBMlItd86ZZDr4SeWP0WNeaH1skBwvHRM4SIGt05XHOJ6X2O0EN02KLPRb_JsqquLlDw0zb16wg=s4800-w800"
+  },
+  {
+    "name": "Mi Manera Specialty Coffee",
+    "lat": 39.5702017,
+    "lon": 2.6492816,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGll9HJEJIttfEjRiQDPgo8UMKXd5SAs2U9mm8qzyrLTq5fw_dmr7f8WlrczbBAUiI0cbYJ8ojJvtVb3GTi44EjjBy30BavWbjyhK4jPo_uwvyKDIkB6st9jvdNtelqmB9V6md2bbv6H56fNNJNNTU=s4800-w800"
+  },
+  {
+    "name": "Surry Hills Coffee",
+    "lat": 39.5742445,
+    "lon": 2.6503962,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG1I5_QFWTIS5ddgmQiygs0oh_cLr3ycdpyVVPHPExjJO0w-5HuiT7FtUNXekCKye4rtcgCLr1ces-IAlwavR7T1JK0OnLQ3e7zbE8W1i0gIAQMyARFSb7sU_qh3Af-PQ-6YZBcMYhtEjGk=s4800-w800"
+  },
+  {
+    "name": "CAPA.",
+    "lat": 39.5707134,
+    "lon": 2.6435292,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG6ojU6UHSl1KzkO_z7rr8_bm6RUP7Gpn3pmzp0qtrwCqcf7KzBtDbJZHcw7DW83AmkWmigoCpISDfhfMAnWVdL6D8Hu9i6HA=s4800-w800"
+  },
+  {
+    "name": "BACAN",
+    "lat": 39.5735003,
+    "lon": 2.6444497,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFNiWthVdXI0VJ6i7jFl2fjvXRrEjDxiq-ARXUD_hJqctb891ay3wL3cB5G80PbUNH77vVH7-bVrDytd5xIyat-DJOUU_PhOA=s4800-w800"
+  },
+  {
+    "name": "Noti Coffee Roasters",
+    "lat": 39.5730219,
+    "lon": 2.6528221,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFRbVM-IsK_E8Ak5TnqHfIjBkR3QY-dPbHVdHCqB6j1-X4bZ5YBNDSyF2ZzpjruyAVFLlRmMqsIClHLna1Qn86a4dEtKMX_Iw=s4800-w800"
+  },
+  {
+    "name": "Elefante",
+    "lat": 39.5496966,
+    "lon": 2.5972042,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH2ppeKsKiS9jYWZnHPNXO94GhjXQ6ECqVh68blwsxoV10jXQQ9MvwA2kKk-NQWiQbR7y7WJzZgOHDtKCjPJg2zp5WFG1q7NtDd9mjSr5sclE-EZBpwx19xvozrBCzksG073TBAK7oA8rHS=s4800-w800"
+  },
+  {
+    "name": "Mistral Coffee Banc",
+    "lat": 39.5711087,
+    "lon": 2.650784,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF2LriYt9_GfHCKfebSoNGXftIStKb9WXkEyxTaf16zirD3CikP64w2gYemPjVPnVXSvau7R78CRA3oxrntUvzZLoYy0_73AUlxyzkRE9ZOFst15H0TXZbsTY0l3OEuowYnCoewxd51o80J=s4800-w800"
+  },
+  {
+    "name": "Mistral Coffee House",
+    "lat": 39.5718159,
+    "lon": 2.6498043,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHUWmUQDMcCF3cuPuzCLSPgzBfMVYusju6l4NVA6noi3PNNClqdXJZzWfZNhXCPw3ir6HdxE0QmMVkbxjDCZ15UhocQR1owWA=s4800-w800"
+  },
+  {
+    "name": "El Grano de Café",
+    "lat": 39.5729374,
+    "lon": 2.6545955,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFnU_rilvIW1n1KIGciNbmvLulN57IbyaZiuIclIb9kJ7RROcZObBOPB2MoBip3ZYl7j1HKClJfMPtDAmfmouMy7e49Z7AZaQ=s4800-w800"
+  },
+  {
+    "name": "Rapha Cycling Cafe",
+    "lat": 39.5694457,
+    "lon": 2.6483433,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEZgzJlWJn_v6K_ApzJDZTumNy-pVVwhPk3fLtb58l_h_xFMYQQFJlvaiX9RA6hgtO3kI4NtdIDwIs7asQ2D2-5K1Mqum5x3Q=s4800-w800"
+  },
+  {
+    "name": "La Molienda Arxiduc",
+    "lat": 39.578315,
+    "lon": 2.6533548,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHe-oPBtjxpmhEtDNsSWoqx99qVPVEWipeCvlEemu1K4GX2bBwRnjE5gZuJ5txM95o9eaDzca6hN1Njq5uwda3OfP7gg6z-uw=s4800-w800"
+  },
+  {
+    "name": "Cafe Riutort",
+    "lat": 39.5739455,
+    "lon": 2.6499064,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFH2s293CDvix7DM7zz3EHEsNrUr9jD9ktV5r1vOaoIMCNdU0LqpNQ807O8R-WM2NsOn6fv338W20txPQyTgbEA7911RzqpfQ=s4800-w800"
+  },
+  {
+    "name": "Origenes Café",
+    "lat": 39.572451,
+    "lon": 2.634781,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHz6ptNEpYE3HtgOF2k_sSSL1bh6K9UEeWVx1evm51HQiFglmnquWmowzMx6VGlfhofpF_DJOOyjhOdr1zXP7BDRLbXtAPz-A=s4800-w800"
+  },
+  {
+    "name": "Acco speciality coffee",
+    "lat": 39.5701248,
+    "lon": 2.6513836,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEoW-f2wKZhJAZ8d2ultxxgCqzcJ5QLjZLvhK9aoE7qzZWX3AamEPMMXuYbVp_JRHLnQpeLAIUwXNKNIQxWfHxNX3HZHWRTzw=s4800-w800"
+  },
+  {
+    "name": "NOIA CAFE",
+    "lat": 39.5536547,
+    "lon": 2.6047148,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHPOJJsLaHYIg82NdCyPPn6QqL_kM_zw5BGXAA6dtPLvFlokXLICTIxVgPvNkvlrfxbGlQmbOif87EyoWugBqqM0u6_f3upTg=s4800-w800"
+  },
+  {
+    "name": "Plumo",
+    "lat": 39.5692708,
+    "lon": 2.6531631,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFQVENz7_datUrsUL_5GvOUXmNgHyUy6icTJppi6gh3GbDD0MIqWW6HYd1qdquXBIJBTGelI59odikm6IfSV6GtQAgeZt6Fwg=s4800-w800"
+  },
+  {
+    "name": "Kofi - Specialty coffee roasters & bagels",
+    "lat": 39.5716886,
+    "lon": 2.6545689,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFKsL6AC3wjUoqiAKAYnFRZdtOmRQVoviwh_HDvJwjbt61NsBX_LigGY2KMB8AsY5IS0OpUs90x5u5tpj2anY6dc2ShiqH8pA=s4800-w800"
+  },
+  {
+    "name": "Arabay Coffee",
+    "lat": 39.5710613,
+    "lon": 2.6525526,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEGhz8VM9H5Cfwmsl7UZQDloTjvxkmifbPE7-l0NTLDKn6gRjOKSqQ2svoVmTu_D72XWMGR9MpN5Lt_vqJAp4g_QYaUwhCtEHD_XvJenCx1aI5tWSzztZ1c188InQ_IhW4hEkdApc_YbpXv=s4800-w800"
+  },
+  {
+    "name": "MEnUT",
+    "lat": 39.57292,
+    "lon": 2.6425604,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG4hKAvSPSIx3aW1RS1BlqFzqJagMygX1UJ5U-rJVJIBrdhSNpsm0cWfSGkS4-kVLTK3XqWhEolY4gHhMMWKOwlh1Vj8ukNQw=s4800-w800"
+  },
+  {
+    "name": "Rosevelvet Eatery",
+    "lat": 39.5775423,
+    "lon": 2.6503454,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFC6aLf8-HmLmAmPQ6OiDBmSzbEgXBR3mY8Vwp1xhiQSG8SVZGKQakD-eaWHsAMDibYvD2AQoxUUbnw1rqwvJQWDrRjg794bg=s4800-w800"
+  },
+  {
+    "name": "La Molienda Bisbe Campins",
+    "lat": 39.5750049,
+    "lon": 2.6457811,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF6q-R00UT4LSdJZSledTRD187O-zeo-d86lhqnuhuZvThisZ2_Kezs0Dsvw5RE_9P04XFU7I1t7wXKb9EsLyGs3iynp-a6ZugIo-V-063zW9JJTtFaTFsMqn-qSqD8FV1xDcIFTWAY-VE=s4800-w800"
+  },
+  {
+    "name": "Mama Carmens Coffee & Bakery",
+    "lat": 39.5727813,
+    "lon": 2.6345316,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTGQ9obqmEX5tTYjAolplq-W8h2AXQEdWbdhG4wsRpWHUgDFby5YwW9V3KWiUAPiffAutjfWL_1Qqj1tp_1zYsBhAk80FwoQ=s4800-w800"
+  },
+  {
+    "name": "Mise en Place",
+    "lat": 39.5710243,
+    "lon": 2.6521077,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGLzKTTmWY5I_CP9elsjfebpKQVP4LLWmqPqUGH2xK_oMpyDvs-IIGPuSDJIUIakv7lfirIqRruTJQM63HwQsqiFwGD2lFNmtYD5_MJMZ5MkjRrKWwlPReeVjqB04Yberz9FD52PIK7HMZ7=s4800-w800"
+  },
+  {
+    "name": "The Barn Mallorca",
+    "lat": 39.573418,
+    "lon": 2.649365,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGWZH3LffiRVM97LnVmjDcuXH6lScHUYvrX0XX8xN6s52XAewX_OwNMH8ivNbG8JZO3sPdghuhi942vzFRVUKs8elSDUbYiww=s4800-w800"
+  },
+  {
+    "name": "Olula Café",
+    "lat": 39.5760253,
+    "lon": 2.6483426,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGdjqnj8I2bXMYBI-_AU-QsYI47RsNbGrZawpxJbwnbRQaAGF0pi8snGM906AQwkGJEy2LUwNTEUy6nJI8NnSFuLTyhX3XkSRhArwLIJkH2Wsxsglrgp7pe-hDHyU81_xeU2ldTSJbEDLGJpg=s4800-w800"
+  },
+  {
+    "name": "THE BARN La Rambla",
+    "lat": 39.5734114,
+    "lon": 2.6493422,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGWZH3LffiRVM97LnVmjDcuXH6lScHUYvrX0XX8xN6s52XAewX_OwNMH8ivNbG8JZO3sPdghuhi942vzFRVUKs8elSDUbYiww=s4800-w800"
+  },
+  {
+    "name": "Nano Coffee Lab.",
+    "lat": 39.5714253,
+    "lon": 2.6461824,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHT-0MQ5mwJkNIBS0dKpweBicBTuJbIVPC1PyczGdwS3jW4H-lwfw_XOdDN2t0Uccx6LpmC-uzoNaZBy4GXV1UbVMojLWWsNw=s4800-w800"
+  },
+  {
+    "name": "Fika Farina",
+    "lat": 39.5706993,
+    "lon": 2.6521736,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEMFNjJuGMZeqKyvezP_Auj5i13NBeZoqsifjM5gp6vlkncYhQfURcYghRn-7wSpfKECs0EEXKQD0-TlqJZZ4h_O_Q1CF_gGuxyKWMl0K9ZuJ0iQUtlSNRL5yE2evsuiJ5vt8sag0q5Nw4P-g=s4800-w800"
+  }
+]

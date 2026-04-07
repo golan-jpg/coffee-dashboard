@@ -1,1 +1,152 @@
-[{"name": "Hound Coffee&Eatery", "lat": 39.87005524, "lon": 32.8581267, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Drupe coffee&stuff", "lat": 39.9286301, "lon": 32.825297, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rubber Soul", "lat": 39.904026, "lon": 32.862715, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ROR Cafe & Roastery", "lat": 39.921956, "lon": 32.825651, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kakule Kahve", "lat": 39.914948129, "lon": 32.857775509, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Yiti Kahve", "lat": 39.8842164, "lon": 32.854074, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rispetto Coffee Co.", "lat": 39.923007268, "lon": 32.825040221, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lagetom Coffee", "lat": 39.931801, "lon": 32.827222, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "3 Cores Coffee & Roastery", "lat": 39.9268116, "lon": 32.8517929, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hoopoe Coffee", "lat": 39.9219269, "lon": 32.8257679, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "PROD Coffee & Roastery", "lat": 39.9281364, "lon": 32.824486, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Solvay 1927 Coffee", "lat": 39.8919445, "lon": 32.7886702, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bosco", "lat": 39.928468, "lon": 32.81942, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Main Coffee Co.", "lat": 39.9011, "lon": 32.8496189, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nitka Coffee & Roastery", "lat": 39.895168, "lon": 32.850218, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Hound Coffee&Eatery",
+    "lat": 39.87005524,
+    "lon": 32.8581267,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoX23tigcZfPD9edGx8f2ljQIdCooH7eaGEbsZlr4fnJlqziGGojXnlFcBMGi4FsqqOT03YsprypDGO4dnvRCXl2xc_Ym2rCMi2qb6qLT6M3P_Un7Hd9eIT33y2qNgQMH32fKcSoLTWfSG=s4800-w800"
+  },
+  {
+    "name": "Drupe coffee&stuff",
+    "lat": 39.9286301,
+    "lon": 32.825297,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFb-80IkXv2jgvkezkk1nA1vdukWEC906nnEA_gxC9_zBG23TMHmjsKF3p20eiPH0kPc1Vw58khgK0lD4Qh0aVfh0dALqjO0Q=s4800-w667"
+  },
+  {
+    "name": "Rubber Soul",
+    "lat": 39.904026,
+    "lon": 32.862715,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFphOBfosCLb0o_ajtqh3qoUDpvVr80vLb_IHZEt2KZfms8mv70gE0g00MavSf4Z0_t2PMIYERP08fLdk1UMQCN0km2dkvBRQ=s4800-w800"
+  },
+  {
+    "name": "ROR Cafe & Roastery",
+    "lat": 39.921956,
+    "lon": 32.825651,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHd7wnPo-Ytwg0X177m18QrBXZ25fXDeS8GGY0M8SKQn4zgSQK_KSBHYQV8tE-n1OJJ-ZGReZIFhG6fBWLvhJpz2IODM9y1=s4800-w800"
+  },
+  {
+    "name": "Kakule Kahve",
+    "lat": 39.914948129,
+    "lon": 32.857775509,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEtIrVOn5MFGB9t1phNz8cVWgvl0r4H12w4PCTcAPPN5MZomTwVHBVMoZxFqiBoL0vyk-lQvgWz4roG-MzV5fYQqzGO2hhGxhuGGVfrB8efb-cxt_XP1HNEh-ddp42T2X_DPa_20VYfT8c=s4800-w800"
+  },
+  {
+    "name": "Yiti Kahve",
+    "lat": 39.8842164,
+    "lon": 32.854074,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFFItdzu2FCs3g2jyOtibv5zpefEMgC006e6410F35ezTD4NBTvJTVJ13EwbNthwUMZBon_J3ARyIBim2CdKdTXqZpZnKgaxMy3NmiGE3L97q_LEeQM7BbRjoXzS4KDr3bV6eZHsBYbf_6p=s4800-w800"
+  },
+  {
+    "name": "Rispetto Coffee Co.",
+    "lat": 39.923007268,
+    "lon": 32.825040221,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGRE1Sc9IHXDHAIm44PGkdhfSlC7kKpWkcDI4LaLeWdthbLxZtR2bCle4VHZPTglGYEUqi_xzpD6LoN0OIFaYyg3my92-nXVtQiZJQD7b_WO6l6Uk8Xd6I6nYD0U1DEgfZ0qUSWRnSh08rV=s4800-w800"
+  },
+  {
+    "name": "Lagetom Coffee",
+    "lat": 39.931801,
+    "lon": 32.827222,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHipu0VSQwPt5ZL-LchfWuKwqngjYpR6jHeLssUxVoj8Y1uxcCFlAnpIJHzQGNolBjh-B_Do9DN42-JyAgPHIK0HVmjLSzhtw=s4800-w800"
+  },
+  {
+    "name": "3 Cores Coffee & Roastery",
+    "lat": 39.9268116,
+    "lon": 32.8517929,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG4Zv1Kgu8RS2qKt7blZiy1AG4YLbE8mEOtY-U9EQF9EqppjqdKXzTmP-j07PldoGHH7iNr6yYH2CcNOcZ5mzNENui6bh-_WA=s4800-w800"
+  },
+  {
+    "name": "Hoopoe Coffee",
+    "lat": 39.9219269,
+    "lon": 32.8257679,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHrNcpusQ80I147GD_CMdGI6gbTF_qrZ691RWoOAwiTjMJLFHePmO6r8G62tqkofGVzpfCV1_iAR_X_KQH7QlYYHF3lmNMomk9-923zjNTPRdQVxXbiAco5aZI2J5NpYHDu-k3KOcfEtLpC=s4800-w800"
+  },
+  {
+    "name": "PROD Coffee & Roastery",
+    "lat": 39.9281364,
+    "lon": 32.824486,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHfQa9cDdK4X5DFmjfUmXU82kXhsmxQzduRtKk7X7nmLZXrjlI33NCKA8zyXkq9X3XppXZy1EVEbF9P_trblGKsYnyr_kzducQVChCIo35yUlPCJGBTeeB6MdwH4dJLOxzWQLYG2_2R-izy=s4800-w800"
+  },
+  {
+    "name": "Solvay 1927 Coffee",
+    "lat": 39.8919445,
+    "lon": 32.7886702,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG_AdcTGTpIU0GuqKdl_z6JTKTTJA7FHoxEXxJY64z-eeXiGnDQZspowx5Vm2NVA5Q_GY1XPvaXFp4_nYKKoKTOds-t6Q24TA=s4800-w800"
+  },
+  {
+    "name": "Bosco",
+    "lat": 39.928468,
+    "lon": 32.81942,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHRs7v5WZaHSl6onG-axAxmqCgwBnWY3HZjkm_SDR7pnnNRQ9OoJrNWChgIjW2YNkwPUrgksHAYOWiBLtGf04X0fYev1EaiOQ=s4800-w800"
+  },
+  {
+    "name": "Main Coffee Co.",
+    "lat": 39.9011,
+    "lon": 32.8496189,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEx6Cz29dkC06IoDRhj7kf2TcmXMNjub0HnVz07JQM_bR-JDsrVofkdIiB0yDQ-SRA64YIUnfim7-vDjZm02cXydGr3ljM1bKcP6L39veke_TQT8aVZbQHQ-NcGx5uvzA63vT7uMOISc0Q=s4800-w800"
+  },
+  {
+    "name": "Nitka Coffee & Roastery",
+    "lat": 39.895168,
+    "lon": 32.850218,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFTWkI3dpng3kiQBOBqx22OMMZ6YDu4LhGgxzc_f_iywhQpGG_lxInc7hV7RFhIieKkstQEaLXT4I52csSeXd_NqQdXEfDXhyYsVm5rv-_mpxvyEpsD2tlEJNS8whNUcl9EU-UXDt578BnsnQ=s4800-w800"
+  }
+]

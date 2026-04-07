@@ -1,1 +1,612 @@
-[{"name":"DAK Coffee Roasters Showroom","lat":52.3684127,"lon":4.8673105,"address":"Bellamyplein 16, 1053AS Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Nomos Coffee","lat":52.3506889,"lon":4.8539543,"address":"Zeilstraat 45-3, 1075SC Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Priesthood","lat":52.376584,"lon":4.899513,"address":"Prins Hendrikkade 51, 1012AC Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"4850","lat":52.3577937,"lon":4.913378,"address":"Blasiusstraat 165, 1091CP Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Saint-Jean","lat":52.3803056,"lon":4.8842824,"address":"Lindengracht 158-2, 1015KK Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Badeta - Watergraafsmeer","lat":52.3505682,"lon":4.9385593,"address":"Helmholtzstraat 37, 1098LD Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Elevate Coffee Lab","lat":52.3515732,"lon":4.8945192,"address":"Van der Helstplein 8-H, 1072PH Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Sango","lat":52.3784959,"lon":4.8942721,"address":"1012 SW Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Bean There Co.","lat":52.3736652,"lon":4.9678066,"address":"Roepie Kruizestraat 2, 1095MC Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Espressofabriek Westergas","lat":52.386143042,"lon":4.872023463,"address":"Pazzanistraat 39, 1014DB Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Margo’s Amsterdam","lat":52.3777616,"lon":4.883549,"address":"Eerste Tuindwarsstraat 2A, 1015 RT Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"MLT Bakery & Coffee","lat":52.3598745,"lon":4.8618342,"address":"Pieter Langendijkstraat 53-3, 1054XZ Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"The Miners Oud-West","lat":52.3673869,"lon":4.8688386,"address":"Tollensstraat, 1053 RS Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Screaming Beans","lat":52.3686094,"lon":4.9021188,"address":"Waterlooplein 129, 1011PG Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Five Ways Coffee Roasters","lat":52.3598712,"lon":4.9123059,"address":"Boerhaaveplein 5, 1091DH Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Back to Black Weteringstraat","lat":52.361051,"lon":4.888573,"address":"Weteringstraat 48, 1017SP Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Taal Coffee","lat":52.3602119,"lon":4.8582577,"address":"Wilhelminastraat 211-H, 1054WG Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Maracuyá","lat":52.3638782,"lon":4.8634461,"address":"Jan Pieter Heijestraat 95, 1053GM Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Harmani Microroasterie","lat":52.3548868,"lon":4.888565,"address":"Frans Halsstraat 89-H, 1072BP Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Badeta - VanWou / Albertcuyp","lat":52.3569733,"lon":4.8994519,"address":"Van Woustraat 14-H, 1073LL Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Skina","lat":52.3689174,"lon":4.8713245,"address":"Potgieterstraat 71-1, 1053XV Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Coffee Bru","lat":52.3570875,"lon":4.9176981,"address":"Beukenplein 14, 1091KC Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Wakuli specialty coffee bar","lat":52.3559863,"lon":4.9280085,"address":"Oranje-Vrijstaatkade 5, 1093KS Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Badeta - De Pijp","lat":52.3523812,"lon":4.8947452,"address":"Tweede Van der Helststraat 18-H, 1072PD Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Friedhats FUKU Cafe","lat":52.38142155902457,"lon":4.855224142329151,"address":"Bos en Lommerweg 136 HS, 1055 ED Amsterdam, Netherlands","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"uncommon","lat":52.3632828,"lon":4.8752135,"address":"Eerste Constantijn Huygensstraat 63-1, 1054BT Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Luuk's Coffee","lat":52.3787639,"lon":4.8862575,"address":"Westerstraat 3, 1015LT Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Black Gold Amsterdam","lat":52.371788,"lon":4.9030432,"address":"Korte Koningsstraat 11B, 1011EX Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Caffènation Amsterdam","lat":52.354718,"lon":4.849319,"address":"Warmondstraat 120, 1058KZ Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Cafecito Overtoom","lat":52.3589308,"lon":4.8606317,"address":"Overtoom 429-H, 1054KE Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Cafecito Beethovenstraat","lat":52.3492805,"lon":4.8778544,"address":"Beethovenstraat 19-H, 1077HM Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"LERA","lat":52.3524323,"lon":4.8910493,"address":"Ferdinand Bolstraat, 1072 LG Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"LOT61","lat":52.3668339,"lon":4.870300144,"address":"Kinkerstraat 112-4, 1053ED Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Yusu","lat":52.3598821,"lon":4.9110865,"address":"Andreas Bonnstraat 2, 1091AX Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Back to Black Van Hallstraat","lat":52.3793993,"lon":4.8714727,"address":"Van Hallstraat 268, 1051HM Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Monks Coffee Roasters","lat":52.3712151,"lon":4.8702463,"address":"Bilderdijkstraat 46-H, 1052NB Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Esthétique cafe","lat":52.3504381,"lon":4.8603269,"address":"Des Présstraat 7-3, 1075NT Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Scandinavian Embassy","lat":52.353474255,"lon":4.894267693,"address":"Sarphatipark 34E, 1072PB Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Rum Baba","lat":52.3559936,"lon":4.9265403,"address":"Pretoriusstraat 15, 1092EW Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Morning Owl Coffee","lat":52.3746793,"lon":4.9008684,"address":"Zeedijk 71, 1012AS Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Clapham Specialty Coffee","lat":52.3562255,"lon":4.8710219,"address":"Willemsparkweg 152-H, 1071HS Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"NU koffie & delicatessen","lat":52.3765931,"lon":4.8822931,"address":"Tweede Egelantiersdwarsstraat 13-H, 1015SB Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"a Sense of Place","lat":52.380878,"lon":4.8826239,"address":"Willemsstraat 141-1, 1015JC Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Gentle Place Coffee","lat":52.394723,"lon":4.8998311,"address":"Lia Doranastraat 79, 1031HK Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Screaming Beans","lat":52.3689415,"lon":4.8838849,"address":"Runstraat 6, 1016 GK Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Cafecito Nassaukade","lat":52.3684435,"lon":4.8758971,"address":"Nassaukade 330-1A, 1053LT Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Good Beans Coffee","lat":52.382401,"lon":4.88724,"address":"Binnen Oranjestraat 4-H, 1013JA Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"De Koffieschenkerij","lat":52.3741579,"lon":4.8983543,"address":"Oudekerksplein 27, 1012GX Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Bocca Coffee","lat":52.364447,"lon":4.886827,"address":"Kerkstraat 96-1, 1017GP Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"TOKI","lat":52.382911,"lon":4.885517,"address":"Binnen Dommersstraat 15, 1013HK Amsterdam, Netherlands","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"white label coffee west","lat":52.370419645,"lon":4.851581678,"address":"Jan Evertsenstraat 136-H, 1056EK Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"LOT61","lat":52.3515355,"lon":4.8602111,"address":"Hendrik Jacobszstraat 18-1, 1075PD Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Lova","lat":52.3841947,"lon":4.8846434,"address":"Haarlemmerdijk 184-3, 1013JK Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Five Ways","lat":52.3659977,"lon":4.8671922,"address":"Kinkerstraat 188, 1053EM Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Haku Specialty Coffee","lat":52.373288,"lon":4.8808005,"address":"Rozengracht 69, 1016LT Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Coffee District","lat":52.358013701,"lon":4.877635539,"address":"Willemsparkweg 8-H, 1071HD Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Cafecito Van Baerlestraat","lat":52.3542065,"lon":4.8816198,"address":"Van Baerlestraat 83-H, 1071AS Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Espressofabriek IJburg","lat":52.3519334,"lon":5.0019645,"address":"Julius Pergerstraat 1, 1087KN Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Barmhartig Koffie","lat":52.374092,"lon":4.938665,"address":"Veemkade 1288, 1019CZ Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Trakteren","lat":52.3626377,"lon":4.8642344,"address":"Jan Pieter Heijestraat 119A, 1054MD Amsterdam, Nederland","source":"seeded","isSpecialty":true,"needsCoords":false},{"name":"Hummingbird Coffee Amsterdam","lat":52.37171140778942,"lon":4.88953045767085,"address":"Spuistraat 217, 1012 RN Amsterdam, Netherlands","source":"seeded","isSpecialty":true,"needsCoords":false}]
+[
+  {
+    "name": "DAK Coffee Roasters Showroom",
+    "lat": 52.3684127,
+    "lon": 4.8673105,
+    "address": "Bellamyplein 16, 1053AS Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGga1fb7FPICH4kxAZUotDF0OgJ3YUbi9e95_qgNH0mHy_ftDVXLXe3PUztlVJUzGI6cH1eVszEnNUGjn7mSCEXqcda1oAL7w=s4800-w800"
+  },
+  {
+    "name": "Nomos Coffee",
+    "lat": 52.3506889,
+    "lon": 4.8539543,
+    "address": "Zeilstraat 45-3, 1075SC Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGPQoo7rPARNz0CvPcxGPmUwN5t4_f3mxfRa0kyIaLc82TAZFf5rDx9-oIi16wvD0bUb1uUDO7tN8I1W3b4djcVNS3OwOgz_g=s4800-w800"
+  },
+  {
+    "name": "Priesthood",
+    "lat": 52.376584,
+    "lon": 4.899513,
+    "address": "Prins Hendrikkade 51, 1012AC Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEAEDFLoxxvkD6GlLlIXCat8BpIHHcbH5GYNOJGiAjWxcwkJ28pz1ruWbRjsKXjdiNveX9VDsDdFtHwMjpvSNMO024LcSKlkw=s4800-w800"
+  },
+  {
+    "name": "4850",
+    "lat": 52.3577937,
+    "lon": 4.913378,
+    "address": "Blasiusstraat 165, 1091CP Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFjKCLpiOL7g9Aya9kz9itg6RGWPoYHp3XxV6FrsEc2o7wEvdHiJzd0AEU543oC6ItA5CQWfxd5-KRhn2dUWB-GIH3YBvkx3Q=s4800-w800"
+  },
+  {
+    "name": "Saint-Jean",
+    "lat": 52.3803056,
+    "lon": 4.8842824,
+    "address": "Lindengracht 158-2, 1015KK Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFsQO_UOjV7TlZhPDjBw7RfGM0IZSDK0I5hMLIQEfRZif2ZxVM_jRLY7Y0n0dgKs-wbF2MdDjRgtvOd5TnWM4dMPASf-cjPbw=s4800-w800"
+  },
+  {
+    "name": "Badeta - Watergraafsmeer",
+    "lat": 52.3505682,
+    "lon": 4.9385593,
+    "address": "Helmholtzstraat 37, 1098LD Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHGO5mENQH_qn7GN1rFyMIK8E3KeppKndyhcZoARlm0LoDzT_jqy0dl3cO0xvp1rgITunbVE9UyCb_kwgR3NQ3WtMYFkJ1u9_2-14E2a6hcyKXaYZmSiQrx3pRoqk7RFADzi8E0EIxcTpJCgQ=s4800-w800"
+  },
+  {
+    "name": "Elevate Coffee Lab",
+    "lat": 52.3515732,
+    "lon": 4.8945192,
+    "address": "Van der Helstplein 8-H, 1072PH Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG9OX9fdRY1hvxoTjgcp0HjkXYvoyKUYgqPuvKIfxmo-bT13pdkdPnCteTYND6XuKlfh4tohh9mdet04Py2yrDGSo8dR0ukpw_rVLi4FaAZDwykAHZ5RnZOabh6hT4lQQwwUvxVl6q-XmirI-wJ2gNI=s4800-w800"
+  },
+  {
+    "name": "Sango",
+    "lat": 52.3784959,
+    "lon": 4.8942721,
+    "address": "1012 SW Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHEnoUnuXKDCl3blAQSAOUVeZ7ADMDv1GlXPna8Y8AMVI2Hj__aZKhFs--tYmEZItBxO3BVhESWTNGgd6WlWUPvdpqa1qI-_A=s4800-w800"
+  },
+  {
+    "name": "Bean There Co.",
+    "lat": 52.3736652,
+    "lon": 4.9678066,
+    "address": "Roepie Kruizestraat 2, 1095MC Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGDQ0aGoqxesqz2g46hklThTXS14l4pV-ah1xKnCIS1S35jRx8ZIIBJ7nCIN1PMJC7HAwmP2IHXaiSBR0R7d-rsqb8oXFesKouUQcduGhz8ZSDbfNetTZwSQJ29j-0mZ3L0xawIVuoZ3iKdbI545d8-=s4800-w800"
+  },
+  {
+    "name": "Espressofabriek Westergas",
+    "lat": 52.386143042,
+    "lon": 4.872023463,
+    "address": "Pazzanistraat 39, 1014DB Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF5vlWRPdTGVGIEpb0HX1_mbMQHHyTkPctLZz3glE-i8YvauzxgYsn8OhXdNWuTGlMpMjAEGciUWu6_Bm3M9L3vL7xhc15NfbhLRxQ9IxWXFq3MG-9sb0BMHwTg0BzpOyCV77cNDTfPXrO-=s4800-w800"
+  },
+  {
+    "name": "Margo’s Amsterdam",
+    "lat": 52.3777616,
+    "lon": 4.883549,
+    "address": "Eerste Tuindwarsstraat 2A, 1015 RT Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGBxt1ELq5vK-ItG2whJqOV9J4f91liTm6_4MCFETF28GVAgpQ9nCfrKMLtbwFUUMeujsgLF6ALZDeumV5ot-xqbHAc_0qhTQ=s4800-w800"
+  },
+  {
+    "name": "MLT Bakery & Coffee",
+    "lat": 52.3598745,
+    "lon": 4.8618342,
+    "address": "Pieter Langendijkstraat 53-3, 1054XZ Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE6-X0s7YhYDydgQOXGjSLMyGj8dLczpVbekkOaqmNNF8QtV3uSswn302q9GUqjOnajvIULxF7xhnukRnhBSJyIx_nNo_U3ZQ=s4800-w800"
+  },
+  {
+    "name": "The Miners Oud-West",
+    "lat": 52.3673869,
+    "lon": 4.8688386,
+    "address": "Tollensstraat, 1053 RS Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG7WhpS-tO0FBjIacPuaMAtrSBYyxXLs4yUddmVPLr5c5H2pZRrB1WEpd5oWaVy_fSjFqLlJMHpZcI_3DMENzij9-z9WbsL4w=s4800-w800"
+  },
+  {
+    "name": "Screaming Beans",
+    "lat": 52.3686094,
+    "lon": 4.9021188,
+    "address": "Waterlooplein 129, 1011PG Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGeLGYndXSS-JAvSHpj7LciqQ8cOoGjtCtqDP8uxX7DC1R3JTGWUMi9BNPDqTTlqtdcjx0jSlYA7kpCHyCbJm8Jse80A_6P73DHuSqf8NvebR_pbDhVrXmEpzBVXqlkwoMwmre4xMs6oT9C=s4800-w800"
+  },
+  {
+    "name": "Five Ways Coffee Roasters",
+    "lat": 52.3598712,
+    "lon": 4.9123059,
+    "address": "Boerhaaveplein 5, 1091DH Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqkNFa69tv64oVdxuDV9OULA4ZbVPhqoUofGe-JNrBbvDs3v5vz3LXyN1rX8BwbiNIk2FGnUwDiRfVhMFjPTnGPeq5Lh6Kww=s4800-w800"
+  },
+  {
+    "name": "Back to Black Weteringstraat",
+    "lat": 52.361051,
+    "lon": 4.888573,
+    "address": "Weteringstraat 48, 1017SP Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_1Db6PiOqafKGA1H_CFMhN9roaLo6LrMbVkW0f2iTU91FkI-XNQ9CEru5VjFzqlMwzLZR-q2OwodxCx8g1irbTpETZyvUtA=s4800-w800"
+  },
+  {
+    "name": "Taal Coffee",
+    "lat": 52.3602119,
+    "lon": 4.8582577,
+    "address": "Wilhelminastraat 211-H, 1054WG Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFlYNa2cTHeAvuTAlWNMx_6RZaStCcn1VAhgMMyxUllScgt_quWGHvAuyHN7ixLjTsSr5Ie422wBaHeAYqdFmCcLMr_Dg04Jw=s4800-w800"
+  },
+  {
+    "name": "Maracuyá",
+    "lat": 52.3638782,
+    "lon": 4.8634461,
+    "address": "Jan Pieter Heijestraat 95, 1053GM Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEz7DBnxGCTXe5zYwxulTUxLZK_OxLsnaI7_s534RTr-Y4MA8xgyFfORmNphpPMXpjnHLFWacpq3dy4Ij2JjPqjgODV_O9xL1maSeXzO-f4brE8cJ7vcrAU-H24pPuUKFDKgQU97F-TPvl9lg=s4800-w800"
+  },
+  {
+    "name": "Harmani Microroasterie",
+    "lat": 52.3548868,
+    "lon": 4.888565,
+    "address": "Frans Halsstraat 89-H, 1072BP Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHtxpcFMfgqKEDmLwnvfGqIczysYwlk_hTU-unesMfcoONDKHavP7mvUlg-z1F2ZWlKuloYMrLpcpDNumBVvM9YyddMNIoUx59_e54TFOUVwYQkPh-Q1lPXZggfCnnvI9VxSc9jT6LOunk=s4800-w800"
+  },
+  {
+    "name": "Badeta - VanWou / Albertcuyp",
+    "lat": 52.3569733,
+    "lon": 4.8994519,
+    "address": "Van Woustraat 14-H, 1073LL Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHwIhITbgyzRhEEHTAzY6Kz8QpCVXdaM3ZLLGSkmi-gDBdEybzLhCSYeJdwA8S_ZauyuPkJS5qJmvdVaPalaQN_aHTSIPT0HQ=s4800-w800"
+  },
+  {
+    "name": "Skina",
+    "lat": 52.3689174,
+    "lon": 4.8713245,
+    "address": "Potgieterstraat 71-1, 1053XV Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHYZ4r_Mj88KbdGSAYOxyM8E2cIdeNIlQhphQSBpT6KvsEtXvzrwkiQ1llygB1AC0NWZW_Li8hSTiz3aKoI81C2fup3MjaqHxIs8kbIdg9jS2GuD_fsi5bNKKizj4i1m_FEMaZtDfwVZhI5nK0fTeK2=s4800-w800"
+  },
+  {
+    "name": "Coffee Bru",
+    "lat": 52.3570875,
+    "lon": 4.9176981,
+    "address": "Beukenplein 14, 1091KC Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE7Vni81uTRc-cGcSFCqx7HhZ8ecFQi-ByPumNV7i-hhhY148K-hWtw2eCTS63WmTo8zub74dxxH2ZFKLiHwFpnIhZNIVde0foTWwk4Ztl78PfGIV9WMTubRnGDiby6VHH1Fd9QsB81LpwQjA=s4800-w800"
+  },
+  {
+    "name": "Wakuli specialty coffee bar",
+    "lat": 52.3559863,
+    "lon": 4.9280085,
+    "address": "Oranje-Vrijstaatkade 5, 1093KS Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH7NI0TuAbhgtQUew3ipGUVN30uOuSgd1gxIcowX9N1vrM2g4B3tEA_OZ3mgE2p99VOWP_RyptG-KW8qg9HURpfl6FM6eQajA=s4800-w800"
+  },
+  {
+    "name": "Badeta - De Pijp",
+    "lat": 52.3523812,
+    "lon": 4.8947452,
+    "address": "Tweede Van der Helststraat 18-H, 1072PD Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFZB3TQcYEb9yrY_GSZTdTiUIThO-5dnoCJm-iXT34cCDNpZoLLvDZIHXiLCR7h9Mv0MeMC6UqvaDVil7lyA3hWj-IBBfI3YQ=s4800-w800"
+  },
+  {
+    "name": "Friedhats FUKU Cafe",
+    "lat": 52.38142155902457,
+    "lon": 4.855224142329151,
+    "address": "Bos en Lommerweg 136 HS, 1055 ED Amsterdam, Netherlands",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEw-lyb9Sie8_PBAbr4QBNOjpapYcuXOvT2NYafXfp0tNL6hiszS2zTLBEjZXpV2Za3WD3XxELNaCDY1p0TRn1eqhocJ5om0A=s4800-w800"
+  },
+  {
+    "name": "uncommon",
+    "lat": 52.3632828,
+    "lon": 4.8752135,
+    "address": "Eerste Constantijn Huygensstraat 63-1, 1054BT Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGYU0WAv4ft3UcMrxzNDvuIIYoJZJ2ykVjKdo791CLb3ccfP3cR6UMf07yqr_lX3AYDjb43y5PySzls8eRcwmZGIFafbVnYWh70NU5evjcReSCLHp40bFx_D37f8mCFR54YMfF7nMOenJ7f=s4800-w800"
+  },
+  {
+    "name": "Luuk's Coffee",
+    "lat": 52.3787639,
+    "lon": 4.8862575,
+    "address": "Westerstraat 3, 1015LT Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHz72VN1a8hiqwmJndPhIDpZwbVp7W-XR0UOBBp40lnqfMcNfRBuwCzzlXYRtiX1krCcK6dTn3kGHT4rZSW52-y1v0sjsDM5g=s4800-w800"
+  },
+  {
+    "name": "Black Gold Amsterdam",
+    "lat": 52.371788,
+    "lon": 4.9030432,
+    "address": "Korte Koningsstraat 11B, 1011EX Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGUlyq4hpCf368wHtvT8D-nPdwHy9erLnE6G6y-2kBziVTQAt8PMFPF6txvMoj0LMnN7CjFk3fYDsteL2uPL2ZqNPKZQ8aOeg=s4800-w800"
+  },
+  {
+    "name": "Caffènation Amsterdam",
+    "lat": 52.354718,
+    "lon": 4.849319,
+    "address": "Warmondstraat 120, 1058KZ Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH93HmPnax_oYDZ625kRTN6coCWzRtudNXtkxXhUeYdHNgno1BSA3bYM9rc0fYTNzOmPxO7SlUjmXXxe2RvxYqpadIQOGUL2g=s4800-w800"
+  },
+  {
+    "name": "Cafecito Overtoom",
+    "lat": 52.3589308,
+    "lon": 4.8606317,
+    "address": "Overtoom 429-H, 1054KE Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGkD-ktjtGXGrjrTrPfBNdTVPI1NQWAaKWxWjyF1MocIMoJlaxVVNmTJOmQ6fpS4ullUSFhoaX48au5O4VG7PFfbRoij2foEA=s4800-w800"
+  },
+  {
+    "name": "Cafecito Beethovenstraat",
+    "lat": 52.3492805,
+    "lon": 4.8778544,
+    "address": "Beethovenstraat 19-H, 1077HM Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGLuVpooxo73nGkV1lKXrFJnrJCsTGPlJFCEr5tkbEI1ezn-t3N_zKB_yJIE_9bANmkQxWdKwDFAai4TFy2nqAuyteEhUhu-YWb-g-7NYVNzan4_Tx0tX0e3_IiGC7R7oGglyIu6l1DBBEfm6cYBc4=s4800-w800"
+  },
+  {
+    "name": "LERA",
+    "lat": 52.3524323,
+    "lon": 4.8910493,
+    "address": "Ferdinand Bolstraat, 1072 LG Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFW8ufJtqFU5dWahhWBVH_5G6lGQmRwbjKCINuuGt-9Ph5Lc_OEDlI4f6AHn00vocy21VEgi5PI_r0uAcEXpVgqyFCujc-Bzbd5CZFBHED191o_rLQpiVXwAdZwJzkJOl29LAzm_IJXDVrraFYL1Pc=s4800-w800"
+  },
+  {
+    "name": "LOT61",
+    "lat": 52.3668339,
+    "lon": 4.870300144,
+    "address": "Kinkerstraat 112-4, 1053ED Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH76lwl5xFC24opbdhxekiKOxbPBm8h5eR3FmISNy_2WrbUyNFQSNctk-yVlrHvakuL64Qi2-2sQ1o8qVqNbjDMIY-l0mP4nagNzpuFMnZOHqzmyZ2lXjCvS-a5KC4NQVhhpZS-6hp16dBa=s4800-w800"
+  },
+  {
+    "name": "Yusu",
+    "lat": 52.3598821,
+    "lon": 4.9110865,
+    "address": "Andreas Bonnstraat 2, 1091AX Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNESX61yuI4q_VazRTwYI_n896p6lrVA5rE2-HscUxMTk08v_uvkKBPd-8Nks7HdQbEvfKh6w4R7qAkYMpcE6xP2KAst4po8bzNm9aM0DnL7zXgcYGC8-Zz_0gjlop5Nd502TjlfsNluAGOw7pU4QBKw=s4800-w800"
+  },
+  {
+    "name": "Back to Black Van Hallstraat",
+    "lat": 52.3793993,
+    "lon": 4.8714727,
+    "address": "Van Hallstraat 268, 1051HM Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGwxfgNvDUoc5zlcdpFiwaJR2ZlfrD2b4EgJcc1orGBBrhY_Vhuf3CNmPc0XajT-BuZ0zefAW1iOwhX7uIDXTsZV2-9vwXk9XXICrZeRGOBSqcvX0yN4zKS23j12StIPldmyikuq88qMjM5uw=s4800-w800"
+  },
+  {
+    "name": "Monks Coffee Roasters",
+    "lat": 52.3712151,
+    "lon": 4.8702463,
+    "address": "Bilderdijkstraat 46-H, 1052NB Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEtZ_RRjrW78qRCcEorXU2YE-4uFUDkNJLHHGHqW8L6PoMVLi8NZ0C5pcpYzEcOsvkc1l8pJ_7feYGNDCHj8kWFoUkaF9TCwg=s4800-w800"
+  },
+  {
+    "name": "Esthétique cafe",
+    "lat": 52.3504381,
+    "lon": 4.8603269,
+    "address": "Des Présstraat 7-3, 1075NT Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjhrVwZJqV8_oMD89kVyERploM4Ro3NTxJp1qQ6XXKmB7ffdDP6l2PRXbmhXOnWjwnM423oZYYglNnPoaZuJWeMex50mrV2A=s4800-w800"
+  },
+  {
+    "name": "Scandinavian Embassy",
+    "lat": 52.353474255,
+    "lon": 4.894267693,
+    "address": "Sarphatipark 34E, 1072PB Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHc_YGnxvaJYVuOuEdOvq8x0zOLNZJ53DSIToE7wPemvmzabeZ7Kg_5aynndJWWjw0SKFeSrujvX-6eUeVttLxqkmV-h1opCQ=s4800-w800"
+  },
+  {
+    "name": "Rum Baba",
+    "lat": 52.3559936,
+    "lon": 4.9265403,
+    "address": "Pretoriusstraat 15, 1092EW Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEttrkfvA9x2EXKKR8G4y60LFZaRIlK1d1QVFFy0ahQksZ93C8rlljgC9JcI9OFRWxrqbTho37ohhPsWOKR1fAkaqfRXQJ4uoILzixJHs9YEtOEZzUR5Ah7_23a5L8JgncxvC9Y2BkfMpMv_DHAxclu=s4800-w800"
+  },
+  {
+    "name": "Morning Owl Coffee",
+    "lat": 52.3746793,
+    "lon": 4.9008684,
+    "address": "Zeedijk 71, 1012AS Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH7stMnRqL6EhbQBXyN5erP8dMEDq1QNGtJqY69fB5DsnsAoxbDbrrR0YbWy9dhFJuhSitb_rgnNgJU6fWwvH2N3umZeGX9hg=s4800-w800"
+  },
+  {
+    "name": "Clapham Specialty Coffee",
+    "lat": 52.3562255,
+    "lon": 4.8710219,
+    "address": "Willemsparkweg 152-H, 1071HS Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE9oo54LFsZ35g7YUojbYdVhCTz92UW5OECp4vha77YscYdtywY43jbTHFQZroPN-su55SNKYqCsdOlhIk6BV_fE2ZD9ROpTUtxdwNL4F8BVX4dWiTBJmSdortt7OoBSu2GnPUNZYsi39CkHieLhPc=s4800-w800"
+  },
+  {
+    "name": "NU koffie & delicatessen",
+    "lat": 52.3765931,
+    "lon": 4.8822931,
+    "address": "Tweede Egelantiersdwarsstraat 13-H, 1015SB Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHZYBiKpqyNBiNgnY1A81h0b8eCa9DQ3EO1sSx5YYd1x-OOty9AgH2MAhQZLSa8ApsHras8r35YA7MNZOl7tLa2LByIa00V-w=s4800-w800"
+  },
+  {
+    "name": "a Sense of Place",
+    "lat": 52.380878,
+    "lon": 4.8826239,
+    "address": "Willemsstraat 141-1, 1015JC Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHZV98tUMRKoryUYm54yAypHCeoiAAmuR56Hr-TohemuxskLkAEjUQP9CSnQQlbEPrHZ0dM3ei2v_6E94EYLQHLA8r1EIf_-w=s4800-w800"
+  },
+  {
+    "name": "Gentle Place Coffee",
+    "lat": 52.394723,
+    "lon": 4.8998311,
+    "address": "Lia Doranastraat 79, 1031HK Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHzihBHZIR9EgzIf1AP3NDavtztZX9XATqa8J2z8aREZ1FWbSECP1joOZ6HOhGiDhnbIRJZqOOxIAe3BhqfavNgDbQouvbm2Q=s4800-w800"
+  },
+  {
+    "name": "Screaming Beans",
+    "lat": 52.3689415,
+    "lon": 4.8838849,
+    "address": "Runstraat 6, 1016 GK Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGeLGYndXSS-JAvSHpj7LciqQ8cOoGjtCtqDP8uxX7DC1R3JTGWUMi9BNPDqTTlqtdcjx0jSlYA7kpCHyCbJm8Jse80A_6P73DHuSqf8NvebR_pbDhVrXmEpzBVXqlkwoMwmre4xMs6oT9C=s4800-w800"
+  },
+  {
+    "name": "Cafecito Nassaukade",
+    "lat": 52.3684435,
+    "lon": 4.8758971,
+    "address": "Nassaukade 330-1A, 1053LT Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGfh86P14A4Ecp7mYuXDwImVzUANv6XBUOEGVAzIckLzk6um9esxC-aiSixOqvZqNuo8IVzl9ppuzNiUrVX4Xq0IYg4dLqeRw=s4800-w800"
+  },
+  {
+    "name": "Good Beans Coffee",
+    "lat": 52.382401,
+    "lon": 4.88724,
+    "address": "Binnen Oranjestraat 4-H, 1013JA Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFOMF3wNOnMCbdy3NqD94eyb3Pal1zquJRNQRqqM7L360L0ag0kIn-xEZDRbAj15v2HR4sI-lMrqA5Y8DyxB9jwBi5i-19Ojg=s4800-w800"
+  },
+  {
+    "name": "De Koffieschenkerij",
+    "lat": 52.3741579,
+    "lon": 4.8983543,
+    "address": "Oudekerksplein 27, 1012GX Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHKr9eIB9tC7S7ikyT1gcha5xh9L7mQTt5at8jXZcu79YA0eqvMt4jIflO4TvtOFk16xQkA3TGQBAdSebVyoHsxN9_nVBheEpYpD5EgOCl3Kneh6hhiozDKyOuzZ572km4v7yQWfqPXobj7=s4800-w800"
+  },
+  {
+    "name": "Bocca Coffee",
+    "lat": 52.364447,
+    "lon": 4.886827,
+    "address": "Kerkstraat 96-1, 1017GP Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFSGo_Tv3qp8YH3yRb5uVQNrYvBY2jwIWrkYgqNfGAdH4pkFSuYf6oGkcMunCJ8VN6S3OiqWPOtPURSRHf-yMd6PMKPHOIhsBhwZXWr8MxQ10OJIyF0-2BV9O58POPCC_auR4g78p5jomc=s4800-w800"
+  },
+  {
+    "name": "TOKI",
+    "lat": 52.382911,
+    "lon": 4.885517,
+    "address": "Binnen Dommersstraat 15, 1013HK Amsterdam, Netherlands",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF2FjLeJxTq3EYyG3zm5PahvUviiW1ktc72k6U7ziWkZjKqKpV0OK4mU_tJ3YoJfP89fF3GLsPffq5N9WHnm64bWQNpxzC-lA=s4800-w800"
+  },
+  {
+    "name": "white label coffee west",
+    "lat": 52.370419645,
+    "lon": 4.851581678,
+    "address": "Jan Evertsenstraat 136-H, 1056EK Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHXfLny5Su7Cr0ML11xskHUeXbUBWFhG7bmszq4ThV_lIpItgcEnIW-wOvmkx4LaTbHZqWTWg2n2NcPYcKDZZqkzCsKdVq5ig=s4800-w800"
+  },
+  {
+    "name": "LOT61",
+    "lat": 52.3515355,
+    "lon": 4.8602111,
+    "address": "Hendrik Jacobszstraat 18-1, 1075PD Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH76lwl5xFC24opbdhxekiKOxbPBm8h5eR3FmISNy_2WrbUyNFQSNctk-yVlrHvakuL64Qi2-2sQ1o8qVqNbjDMIY-l0mP4nagNzpuFMnZOHqzmyZ2lXjCvS-a5KC4NQVhhpZS-6hp16dBa=s4800-w800"
+  },
+  {
+    "name": "Lova",
+    "lat": 52.3841947,
+    "lon": 4.8846434,
+    "address": "Haarlemmerdijk 184-3, 1013JK Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHuR8srXgLfE2YOvIShzm8h_4rIQSioKuQCr0l_5dMQUPTJCW2hlESrfWHV6Ewv6keS00uzPrLbhWeHXZT2Djp4sjs0Bd65-A=s4800-w800"
+  },
+  {
+    "name": "Five Ways",
+    "lat": 52.3659977,
+    "lon": 4.8671922,
+    "address": "Kinkerstraat 188, 1053EM Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqkNFa69tv64oVdxuDV9OULA4ZbVPhqoUofGe-JNrBbvDs3v5vz3LXyN1rX8BwbiNIk2FGnUwDiRfVhMFjPTnGPeq5Lh6Kww=s4800-w800"
+  },
+  {
+    "name": "Haku Specialty Coffee",
+    "lat": 52.373288,
+    "lon": 4.8808005,
+    "address": "Rozengracht 69, 1016LT Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGaP4xJOjc96WgNvj-qXdTP5qTwZGHdUXe_a5r__x3uznbL7BOGzTNRBpV3S0kfh04dim6tm6Ktsxr8Bwx1oTutuF27Emcj9g=s4800-w800"
+  },
+  {
+    "name": "Coffee District",
+    "lat": 52.358013701,
+    "lon": 4.877635539,
+    "address": "Willemsparkweg 8-H, 1071HD Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFRk8Ivo5bzaI9gPKBAJQKJCXTxOGxFcGDBxq-W5xrn6Z4LGt2JyTRTHR0vrwL7Ro-ODZBDMg4h-vGQkEZDXm51EpXWrdC8kS1AZ-YZnjAL_byL_kdbA4T0-S8tp5PVAQ8n0VJQEU1MRQyAqQ=s4800-w800"
+  },
+  {
+    "name": "Cafecito Van Baerlestraat",
+    "lat": 52.3542065,
+    "lon": 4.8816198,
+    "address": "Van Baerlestraat 83-H, 1071AS Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHb6Wq3V2IAepD6eOx8dG9FM6rlxTW3R-mpCJUFwE-tQshcq4Sjx7B46LPduJfheeUe8feP4tmOtM7ZuiMVTM2er0rZRFOJpg=s4800-w800"
+  },
+  {
+    "name": "Espressofabriek IJburg",
+    "lat": 52.3519334,
+    "lon": 5.0019645,
+    "address": "Julius Pergerstraat 1, 1087KN Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF_-RBdKrFassgE3YhhsiZPanpPLoMgYMQrjWYpSIS9cgWI83e-jTs2V7DtVEeRNnZmsIdHfNVHHpNVsxwEf-K7zbcN-7Z2XWipUQMoJl2pRv4W9whFGFXgop-A7Yi5ZZcN6IJxHlAzGq-zmA=s4800-w800"
+  },
+  {
+    "name": "Barmhartig Koffie",
+    "lat": 52.374092,
+    "lon": 4.938665,
+    "address": "Veemkade 1288, 1019CZ Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHv3Z-nuPlQDxGaLLhfdCguUD64izs3kTTBhGzhCMj7XF96bu1ia-HjMIvJA4A_OKOFb2CzSBQHNw0BRmZ9IlNtV9D_E-OdjQ=s4800-w590"
+  },
+  {
+    "name": "Trakteren",
+    "lat": 52.3626377,
+    "lon": 4.8642344,
+    "address": "Jan Pieter Heijestraat 119A, 1054MD Amsterdam, Nederland",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEliQUX7WQ6Nr7R_2-yZygzFIpF9nuR-_h9Zj2odomqieN243i4Tn1qCrYQy6AW-p64dZfQsu4T07ztzW5Om8ZhybpBOeqDkhx5i1zgHWxEurNKvUi9EqmwXwy0HIwZg5mInd6AihU9DZ4ep6VJQ14=s4800-w800"
+  },
+  {
+    "name": "Hummingbird Coffee Amsterdam",
+    "lat": 52.37171140778942,
+    "lon": 4.88953045767085,
+    "address": "Spuistraat 217, 1012 RN Amsterdam, Netherlands",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFloD5KQ1ieNmXjJhDegJhF_vphkIzhfXrVYIQjdJdNDGgrzt8t9MAbkUZTfOO4M2y_-PKk4wNSi0qDcFUAcfgVXIGnAEnrig=s4800-w712"
+  }
+]

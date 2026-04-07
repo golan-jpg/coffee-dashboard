@@ -1,1 +1,252 @@
-[{"name": "Cafe KIOSK No1", "lat": 59.435306, "lon": 24.7331863, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Paper Mill Coffee", "lat": 59.4261018, "lon": 24.7779116, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kalve Coffee Tatari", "lat": 59.4309435, "lon": 24.7455696, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kalve Coffee Kadriorg", "lat": 59.4350482, "lon": 24.7732126, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Brick Coffee Roastery", "lat": 59.4398251, "lon": 24.7303945, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe KIOSK No2", "lat": 59.435387187, "lon": 24.747409952, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "RØST", "lat": 59.4390795, "lon": 24.7582327, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rocket Bean Café", "lat": 59.4420384, "lon": 24.7384989, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Böns Pagaristuudio", "lat": 59.438092, "lon": 24.7501263, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Colab", "lat": 59.4468575, "lon": 24.7344532, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe KIOSK No3", "lat": 59.455004, "lon": 24.6753681, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe KIOSK No4", "lat": 59.4448508, "lon": 24.735406, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Värav Coffee and Toast", "lat": 59.4414969, "lon": 24.7508932, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gourmet Coffee Kadriorg", "lat": 59.4378543, "lon": 24.7828243, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "INTI cafe", "lat": 59.4486873, "lon": 24.7214263, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kalve Coffee Golden Gate", "lat": 59.4397498, "lon": 24.7585613, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Paper Mill Coffee Viru", "lat": 59.436233, "lon": 24.7557681, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Paper Mill Coffee Volta", "lat": 59.4499521, "lon": 24.7235409, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KOKOMO Coffee Roasters", "lat": 59.4552667, "lon": 24.6756657, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SANGA", "lat": 59.4394766, "lon": 24.7568616, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Surfcafe Tallinn", "lat": 59.440915, "lon": 24.7358247, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fika - Leib ja Kohv", "lat": 59.4396431, "lon": 24.7285056, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kodû Coffee Roasters", "lat": 59.4436753, "lon": 24.7557897, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bekker Pagariäri", "lat": 59.4489742, "lon": 24.7105092, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SUME Café", "lat": 59.441956, "lon": 24.784174, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Cafe KIOSK No1",
+    "lat": 59.435306,
+    "lon": 24.7331863,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH9iuq0YJu4BeTL7oFUiE5wc_7SCa9xTOXahPqhgTH2jLai_1fV8e6kyrKeZ-PJ2I80GUUfjePoWiwyr7KOEZif2rT94Vsnjw=s4800-w800"
+  },
+  {
+    "name": "Paper Mill Coffee",
+    "lat": 59.4261018,
+    "lon": 24.7779116,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG3pLMVqHqe88kiKiNc4J1_9l6uFyBdcPC5xEcCxmm6VbSb3yjZAiCUUob3xtZXFb8cKAVYwAXBNSGORQCYP1N7IcXtT7ngxQ=s4800-w800"
+  },
+  {
+    "name": "Kalve Coffee Tatari",
+    "lat": 59.4309435,
+    "lon": 24.7455696,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGguQpJu9sxP6oj2bHXF4_hW3OYM5HRx-52zSooWkUWypq5l7voismYydCv2bd0kkhvnG-IDng7PJ_cFfbcgVsZa1lvkFBO-A=s4800-w800"
+  },
+  {
+    "name": "Kalve Coffee Kadriorg",
+    "lat": 59.4350482,
+    "lon": 24.7732126,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFcjM0jNlDL-WTloZ_rlsbhI4lvgN8W68aoyW_Ton0ds_3pyDb8L4pWSquG9bYvQq7fhCYuOI28ooeRpVeOlpqFzndwf7HR1g=s4800-w800"
+  },
+  {
+    "name": "The Brick Coffee Roastery",
+    "lat": 59.4398251,
+    "lon": 24.7303945,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJqt1nalVXVL7TzLybNWRf13CbLk7iaPU4UcGif540eIpy2529tk6iK00vfkaXN5nWuFOdUakQOxRRslHyThvi0Tdrrl7rYw=s4800-w800"
+  },
+  {
+    "name": "Cafe KIOSK No2",
+    "lat": 59.435387187,
+    "lon": 24.747409952,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHMkDyTxNVlw_QXMQgkJO4Oqz0z0B9Grt7V4fEPtOZPzShjer3WSk0EjRHKtVtghCWn1MPFdZ7zwOiaZWxRNUJQYbR5DOwpVomx7JG-cahNQ4gJaKFBSV4TBsCbPX8dH3uB4nGhUalVtdBDdQ=s4800-w800"
+  },
+  {
+    "name": "RØST",
+    "lat": 59.4390795,
+    "lon": 24.7582327,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF70BnyCRXTNDb_i2QQjxkg952e0hMfrQF9et6Uxk8Ws5vbrZ_lPzU1rT6NCM-Rxx6TsPW8i7Xnft1-YwQvfCsbXQKo4c1ryNLmSIHvRyddakLWGRKaq8sCVQYjTekuEZ2iUDHrPvJ_lDjMWLIwW6Fi=s4800-w800"
+  },
+  {
+    "name": "Rocket Bean Café",
+    "lat": 59.4420384,
+    "lon": 24.7384989,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEQSPOKq5iqlLPUbVJY-4tv7PZElijIeByBbZVg8Odoakt3QHKvohBRoFSpHZpFeF4nzWwyIijJdW9EITid-HKF3hXKggr6YbZMszmQ2HiLMIqQPova9oOrC5Uqcy3zZMjk1Qa4y9bqcS0=s4800-w800"
+  },
+  {
+    "name": "Böns Pagaristuudio",
+    "lat": 59.438092,
+    "lon": 24.7501263,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEVX3yoUfpm1TxrvobmCJUT69OLKHg0MisJUhoy9RqF5Ngj2-dQN2l0wJAvkLXGEZ5PDQZiET0YRtRcQ4_Tn8n8hin1C8NEpg=s4800-w800"
+  },
+  {
+    "name": "Colab",
+    "lat": 59.4468575,
+    "lon": 24.7344532,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqESHjkn6rD8fyrvK5f86LqDWeiU9prFxZSvkKb_tRwVfb9fh-d1JJxCeZRVzQejyJcMUfQ28I6YkzT0LLhsBZuYe1ZJv8VUCA=s4800-w800"
+  },
+  {
+    "name": "Cafe KIOSK No3",
+    "lat": 59.455004,
+    "lon": 24.6753681,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGPdnAPkiUhWyB2VK3bVcuzg0jgb3ZMv4qA-h4Oa4I68W5WFDloQxVX2zTdIPqL8UC8QZLHAlAlxyBrcyCPU30fpBTOnGk2Ww=s4800-w800"
+  },
+  {
+    "name": "Cafe KIOSK No4",
+    "lat": 59.4448508,
+    "lon": 24.735406,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFQXifj-103MfZA2MbXKHKqvoX2ATXTqwr59JfILYf5LXxamlbOmShKmxJfOsFETO8vxDIL0ZIAjhdsTVdJNSQ_EhFWvsx1D82FUCqT2rPv0sKIuVI4sql_PPSlCMOnlfc2MX7EBi4MO6n7fpkNNnZ0=s4800-w800"
+  },
+  {
+    "name": "Värav Coffee and Toast",
+    "lat": 59.4414969,
+    "lon": 24.7508932,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_8kHnCHw8Uu9g2yf9rM8GpV5RcYpsL_6sY_PTY5yEcqd1cnWuHMZJeQXwKMt5Le3MvK392rIw5xhkPHPbHbrKDK_RPdhdJw=s4800-w800"
+  },
+  {
+    "name": "Gourmet Coffee Kadriorg",
+    "lat": 59.4378543,
+    "lon": 24.7828243,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHquh3IIvRSdAsFwBVxiDLeSIVs06vTiH4pqY13UUq94HpwZUWdg6YlExavXOuKlTna8Lg35luylJ6ItczRmIHyJ16JFU36sQ=s4800-w800"
+  },
+  {
+    "name": "INTI cafe",
+    "lat": 59.4486873,
+    "lon": 24.7214263,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEwMMrCdADwzT56IMNGxyKrEEtx_8rKWCAZkqFAlL7HA8k6YWQPNKD50NklMquEtrpppYE0-motCwKgDurV4xvrqPlzPgiiTw=s4800-w800"
+  },
+  {
+    "name": "Kalve Coffee Golden Gate",
+    "lat": 59.4397498,
+    "lon": 24.7585613,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFV2oGFJT0KvPrjAvF9FGAjG-uxRT4Xgt5b9Ye3_Ezf1LHwrbFDKqXGmJffX5mgluTA6sMr1vn2HrKptTuMp-fgH-G3uoXOvw=s4800-w800"
+  },
+  {
+    "name": "Paper Mill Coffee Viru",
+    "lat": 59.436233,
+    "lon": 24.7557681,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEa84kZhLPhO1G7DMSjDkm-ziHiAMNqWTjgOtiTJ5wyolz2NSHXoSuLc0GGTkSS4reaJcCc-RYJQ3_j5iwn5Buf0A-V2SoNMQ=s4800-w800"
+  },
+  {
+    "name": "Paper Mill Coffee Volta",
+    "lat": 59.4499521,
+    "lon": 24.7235409,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqELPYioQeDKkGhTFvYI1HJ3Va4C8N39OJZygAl_glpph3GqsenrlUYi2DtJux-C01QP4JefXLyRJuh8GtVsG75SUtVIQoCnwA=s4800-w800"
+  },
+  {
+    "name": "KOKOMO Coffee Roasters",
+    "lat": 59.4552667,
+    "lon": 24.6756657,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH5qgcS32ALEbMmiRKg5A4Wojz3XSdFnaKkxccgctH8fLFxQX6bYknyNFNSIeHmREr-6HH1uHTWGp_nRtjaxH1vUfySYOGo0w=s4800-w750"
+  },
+  {
+    "name": "SANGA",
+    "lat": 59.4394766,
+    "lon": 24.7568616,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH6wt_FfErFKPFgJpy9CqLgL-Up-9AeXsCfAfxHv5w1lzl3U2lNJjNV6kwzXIuxvfpZOmE5vg-V218CRvD167kgGPaJh9hp3PoLby9nKjXyeMTaP6wCdRnIrBhkybkjpXBT_gKDmvAijqMsJH1xEDLS=s4800-w800"
+  },
+  {
+    "name": "Surfcafe Tallinn",
+    "lat": 59.440915,
+    "lon": 24.7358247,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEexoXXzzt8pQrIn9exIEBMI6BuGwIia4-q3T5CTJ92JWrl-rEMlnWRGA9j2cURGKoqzAdxdd8Jrf9bIlgxrkfehgOZ5T1IR3mVnJ5MI2QpuGq7U5f2eTKEerHx5FTGCpcRQUlv5S_T-wBi2A=s4800-w800"
+  },
+  {
+    "name": "Fika - Leib ja Kohv",
+    "lat": 59.4396431,
+    "lon": 24.7285056,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEUGuKYkajGQnHk_-mUFT90EL3JlSJBM5Tzt-8oI9gg8l9cjfXG8breh8WCa14fN-78zARUDWXQMSie-kZXeQNFnIZgbgWXxA=s4800-w800"
+  },
+  {
+    "name": "Kodû Coffee Roasters",
+    "lat": 59.4436753,
+    "lon": 24.7557897,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEUxFMjRglmGQnfTfQwU5k9NWuEZ93fyLnFkSprg4vbkB6GBQ0AJQ0SGsVEO2dzzcx4A9idc3r2N3pyL-R9c0fiCzHmnMAGrw=s4800-w800"
+  },
+  {
+    "name": "Bekker Pagariäri",
+    "lat": 59.4489742,
+    "lon": 24.7105092,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEV7vD_mvR6h66D64EgXW2qtF-12SK7lrWt_oEj9JVN91CVfG8g_ZVtyUDEiIDLI8Pfkv7-WxAefqMrzQ69F7FQL7MGXFNFkA=s4800-w800"
+  },
+  {
+    "name": "SUME Café",
+    "lat": 59.441956,
+    "lon": 24.784174,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFASyXWf1JJeIYLwPNGOwBrz0UXK5dZfJY2DVOKN3g9LBip6XE6huGNthDm7tAJ6WajT9aXp6eMtmaOysrnuRWDXHEbLHyu2g=s4800-w690"
+  }
+]

@@ -1,1 +1,242 @@
-[{"name": "Shavi Coffee Roasters", "lat": 41.704122, "lon": 44.7840896, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Salty", "lat": 41.7160747, "lon": 44.7743736, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Lab", "lat": 41.725673, "lon": 44.754915, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BNKR BLACK Specialty Coffee Roasters", "lat": 41.6987103, "lon": 44.8032039, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OKRO Coffee Roastery & Bakery", "lat": 41.7094078, "lon": 44.7820775, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Shukura", "lat": 41.7084352, "lon": 44.7601533, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Probarista", "lat": 41.7185128, "lon": 44.7980803, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Eleven Window", "lat": 41.6952304, "lon": 44.7932364, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BNKR WHITE Specialty Coffee Roasters", "lat": 41.6987103, "lon": 44.8032039, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "They said books coffeeshop", "lat": 41.705493, "lon": 44.7900705, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Red Man Cafe", "lat": 41.7050015, "lon": 44.7835409, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NUR", "lat": 41.7087136, "lon": 44.7614131, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Shavi Coffee Roasters The Garage", "lat": 41.6895483, "lon": 44.8017532, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brewio", "lat": 41.7097723, "lon": 44.8041397, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "PULP", "lat": 41.7059778, "lon": 44.7814868, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lui Coffee", "lat": 41.7097255, "lon": 44.7680518, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Daily Grind", "lat": 41.6931364, "lon": 44.802658, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Beanbourbon roasters", "lat": 41.6898655, "lon": 44.8069131, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brewio Old Town", "lat": 41.6894721, "lon": 44.8072835, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Unity Kava", "lat": 41.6911247, "lon": 44.8021549, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SALI | Specialty Coffee & Breakfast", "lat": 41.6932823, "lon": 44.8055385, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffeine by Workin", "lat": 41.7261897, "lon": 44.7690286, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Shavi Coffee Roasters The Ninoshvili", "lat": 41.7114994, "lon": 44.8016915, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BNKR", "lat": 41.7056732, "lon": 44.7814234, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Shavi Coffee Roasters",
+    "lat": 41.704122,
+    "lon": 44.7840896,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFtIr-1VR4Kdv71TtrFnCVwXHWHK2S_ORiOiwy66qpaJcfuIX-I67OK7BV-miEPQM0vmzwu25uVmVvABXrpROVu_JgdI_K7SA=s4800-w800"
+  },
+  {
+    "name": "Salty",
+    "lat": 41.7160747,
+    "lon": 44.7743736,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEANCWYm5iX3W-2xE1IErMhHWPbE_z0ArpwV7NfrqWlnh59b4nCRiLEmnrkWIDrn9H29KHPdNIZfIXavIrN5w7QPEFUyjknGQ=s4800-w800"
+  },
+  {
+    "name": "Coffee Lab",
+    "lat": 41.725673,
+    "lon": 44.754915,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG-Rona5E0E3cOcZ2Qto2E0QzUpCVgpZ5gTgeyCZ_U08iBx3p6qg1xiGChqFz1-EJco0dkTkjIm1c1wUzA3Tdh5fLMhr9hSbg=s4800-w800"
+  },
+  {
+    "name": "BNKR BLACK Specialty Coffee Roasters",
+    "lat": 41.6987103,
+    "lon": 44.8032039,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGS7-eRZQtpaDyt_BSV1L_sMvl9KfYEowvwOphNOfM71uoZ92yuYYn8ZvnqwwH-7QqOz0OIKjxGVzhbbsOCGJ4ttYyZWAntcABZYfIOFAmrI7CUQO-kOdvrkaZoilI6ASnSPmZiYi7gfyCo5VpUe2Iq=s4800-w800"
+  },
+  {
+    "name": "OKRO Coffee Roastery & Bakery",
+    "lat": 41.7094078,
+    "lon": 44.7820775,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFWKqxk4xUlBuMuE07eSbioA6TB3eNdoHBNVGDyrtFqvEcbCcJK_-COxz6QzzmctmvFlZ1WLMxKKbJl0BVxCPI7Eq8VZ055=s4800-w800"
+  },
+  {
+    "name": "Shukura",
+    "lat": 41.7084352,
+    "lon": 44.7601533,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHvZqXyrmzqI9ovPIEqX4uyIruldHbB_Iz7Z7e_EhQPQfxnS8IEVyHpHWCqz93w0_BssvgXtLhVa9TJ1rVdQrh1JdsiDFUOvQ=s4800-w800"
+  },
+  {
+    "name": "Probarista",
+    "lat": 41.7185128,
+    "lon": 44.7980803,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHTIVL75lYfgXPyrBNzYUDqAGn40n0S27XFxl5cnsNybyFuQhDuSFpzB8D1olGHSP9VPIqH4OLhKnwW-aI47J0HWQB0J2fGgQ=s4800-w800"
+  },
+  {
+    "name": "Eleven Window",
+    "lat": 41.6952304,
+    "lon": 44.7932364,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFN5pRvArykqbt3sxtZooQx9GhncuDfIsqJO5_NVILNLL43TZrB54oYWS6eay2J1H8NnMqh6fejYtAITTEKxvX6R3lWFWBrnQ=s4800-w800"
+  },
+  {
+    "name": "BNKR WHITE Specialty Coffee Roasters",
+    "lat": 41.6987103,
+    "lon": 44.8032039,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGS7-eRZQtpaDyt_BSV1L_sMvl9KfYEowvwOphNOfM71uoZ92yuYYn8ZvnqwwH-7QqOz0OIKjxGVzhbbsOCGJ4ttYyZWAntcABZYfIOFAmrI7CUQO-kOdvrkaZoilI6ASnSPmZiYi7gfyCo5VpUe2Iq=s4800-w800"
+  },
+  {
+    "name": "They said books coffeeshop",
+    "lat": 41.705493,
+    "lon": 44.7900705,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJAOZddyDSAfgov3FRsOTrzqyU77uulZ3H6ikA5238djEdpKVWCwMa8o9KZ3K7nZnzU_7O3j8c2jMhoWVBTjrv15Ttk2XMvA=s4800-w800"
+  },
+  {
+    "name": "Red Man Cafe",
+    "lat": 41.7050015,
+    "lon": 44.7835409,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFQ4ECCvkFD1YT9_UvaLWzXpgf-x0Vj4tDz6MSAEBXhx7p-3J0Rpa9VYXjCe8iIXy7KwHelRYoyFZ2pVK-zIhgWRFRTUjVddg=s4800-w800"
+  },
+  {
+    "name": "NUR",
+    "lat": 41.7087136,
+    "lon": 44.7614131,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFEslQgBpKT1jef7FSooieMa8tKuan7g_OmtdFNDu-YStmGDNfbilji1cSGoN743j7LctDxeNong-btnQimPVOevfzxn7Y3Xw=s4800-w800"
+  },
+  {
+    "name": "Shavi Coffee Roasters The Garage",
+    "lat": 41.6895483,
+    "lon": 44.8017532,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGazSzEdDilvC0pYsBFjzL1S71-VzAKgs3wUzFNlDFq-3Iy8ShBX3pOWpxxKTGET9EkN7h-ku7pg5OABe_GuXhkna3RXAixXlMvyrlFIUJ4GhWhdd-61j6sDt8cDitu9LWwWSjbF3TZW6CA=s4800-w800"
+  },
+  {
+    "name": "Brewio",
+    "lat": 41.7097723,
+    "lon": 44.8041397,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGIEiEZcGZxe8xdDtqvA8wucM0isYfIhsw6qMY4Za8Na0Y7vGgTRv4n4yHKZxbT94dmqZ6A6o_TH23jx686okUw6SNqNAzJCQ=s4800-w800"
+  },
+  {
+    "name": "PULP",
+    "lat": 41.7059778,
+    "lon": 44.7814868,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEIR7DAuFrjwcThLuKtZWbrX5bjwpYHz4XrBozhDGNoxIJKoN0paH1dfI8WFJYDl649rBt0aso2x-X801tt64pCc0Vk9EQdAg=s4800-w800"
+  },
+  {
+    "name": "Lui Coffee",
+    "lat": 41.7097255,
+    "lon": 44.7680518,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHmZzW9iD7rIJBgpTuEWYkLv7caqwcVw_Xmo9lBnmTUtp2TZn9Ru7uvf5gDpfXFc7ZROoHbkG4rv4MDHnxj1iic8zMOX3QzNg=s4800-w800"
+  },
+  {
+    "name": "Daily Grind",
+    "lat": 41.6931364,
+    "lon": 44.802658,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnMYypaalI8Oa3B9zD5neqwpUDaZ0Pi68nHxsz8CoBNfgvHOBMXe6CekW7tI_OxFDoSDT8iCXUR1lfxpFFHp0n9_yOZXhWwQ=s4800-w800"
+  },
+  {
+    "name": "Beanbourbon roasters",
+    "lat": 41.6898655,
+    "lon": 44.8069131,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNECm1Xc5SVXUt0KJhNUBbf2gi1Qu1dhLmnvMurYCVlCybzvBEPn4HUw6RVoRUItYRPBCT_GfS1AQYpbtH25ybw14GixbliHV5WvHRqdDRpEA8IABQQUXsz8z-Qo3nWS9olaZBMM5axpxokQWlMRfRv-=s4800-w800"
+  },
+  {
+    "name": "Brewio Old Town",
+    "lat": 41.6894721,
+    "lon": 44.8072835,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHER7bNDaTuDDZDQtuEvqsX3zuNnmqpRDRinngBwqTaMJCqYPcCTjBwx3vcPIlXoetTtLwoH-_mQc5IiEF0n-2zNR3ESJPYCw=s4800-w800"
+  },
+  {
+    "name": "Unity Kava",
+    "lat": 41.6911247,
+    "lon": 44.8021549,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjaEN0p0-s9zluN0Heo6uiQ2OBF-h2FYFkaj3uSd93w0NztzFjbzb0XXZqZ-NuefC-UzPVr8EXEm9ZQYv7_0PJEyPr8mNUKg=s4800-w800"
+  },
+  {
+    "name": "SALI | Specialty Coffee & Breakfast",
+    "lat": 41.6932823,
+    "lon": 44.8055385,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEZqsOg5CTsBQs2qWGVRjTX30ewzlu83K08AnqN_Q0SIij4fT-AK9rnM6H3P9UY189r6RWScnziheZtQc-dgVhPTPP5d4XxaA=s4800-w800"
+  },
+  {
+    "name": "Caffeine by Workin",
+    "lat": 41.7261897,
+    "lon": 44.7690286,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFqnMPOt-8pvv9B-RknEW8fQ5kBSfqEA9V_d_5IeW-pie2ES3CQih5WVa_d-y794wF8AcY5z6gzzpo2gOwlrX4BFZwpsU238w=s4800-w800"
+  },
+  {
+    "name": "Shavi Coffee Roasters The Ninoshvili",
+    "lat": 41.7114994,
+    "lon": 44.8016915,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGBhHAPrF33vsGke4I1r3QUoz82UAnl8A3y8mm18K5i9zeyUkwe1VWRIMl-XcAh0NrL6jmw-uNEcbOYYSPFkgAvmI1xASRefCH_U-KBqoNsyRM0V4kGK8Q8_2-ZezUlO7dJAZRIzHmtDL10Ow=s4800-w800"
+  },
+  {
+    "name": "BNKR",
+    "lat": 41.7056732,
+    "lon": 44.7814234,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGS7-eRZQtpaDyt_BSV1L_sMvl9KfYEowvwOphNOfM71uoZ92yuYYn8ZvnqwwH-7QqOz0OIKjxGVzhbbsOCGJ4ttYyZWAntcABZYfIOFAmrI7CUQO-kOdvrkaZoilI6ASnSPmZiYi7gfyCo5VpUe2Iq=s4800-w800"
+  }
+]

@@ -1,1 +1,652 @@
-[{"name": "Sonny", "lat": 55.6769645, "lon": 12.5742551, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Andersen & Maillard Coffee Shop & Bakery", "lat": 55.6813728, "lon": 12.5824663, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ROAST Coffee - Sydhavn", "lat": 55.655527, "lon": 12.5514075, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "norange", "lat": 55.690965, "lon": 12.5616589, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Trianglen", "lat": 55.6997392, "lon": 12.5780151, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffe", "lat": 55.6690986, "lon": 12.5527064, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Christianshavn", "lat": 55.6735292, "lon": 12.5918981, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Prolog Coffee Bar Frederiksberg", "lat": 55.6837853, "lon": 12.5049175, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "HIPHOP", "lat": 55.7024333, "lon": 12.5408417, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Darcy's Kaffe", "lat": 55.6853205, "lon": 12.5532861, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KAF", "lat": 55.6908042, "lon": 12.5579692, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Collective Jægersborggade", "lat": 55.693746601, "lon": 12.542193711, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Artisan", "lat": 55.6919995, "lon": 12.5688717, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Collective Bakery", "lat": 55.6967659, "lon": 12.5455458, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Collective Bernikow", "lat": 55.680028, "lon": 12.582379, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Orsa coffee", "lat": 55.6724723, "lon": 12.5552817, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Enghave Kaffe", "lat": 55.666984, "lon": 12.54777, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Store Kongensgade", "lat": 55.6889378, "lon": 12.5897343, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lille Bakery", "lat": 55.6900908, "lon": 12.6131531, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pontes Roastery & Coffee Bar", "lat": 55.6619396, "lon": 12.5178504, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Prolog Coffee Bar", "lat": 55.668301, "lon": 12.557452, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lokal", "lat": 55.6660799, "lon": 12.5520445, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Roast Coffee - Islands Brygge", "lat": 55.66831, "lon": 12.57949, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Postbyen", "lat": 55.6697731, "lon": 12.5694301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Alice ice cream & coffee", "lat": 55.668423, "lon": 12.597074, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Strandlodsvej", "lat": 55.6652417, "lon": 12.6220161, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Collective Godthåbsvej", "lat": 55.687099032, "lon": 12.533520162, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Istedgade", "lat": 55.6696954, "lon": 12.5545865, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kontra Coffee", "lat": 55.695771, "lon": 12.5808138, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Yellow Bird Coffee", "lat": 55.661075, "lon": 12.631956, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Bag Elefanterne", "lat": 55.6678869, "lon": 12.5321351, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Bredgade", "lat": 55.6838538, "lon": 12.5900286, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dallas Coffee", "lat": 55.6981139, "lon": 12.5791895, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KAFFEDEPARTEMENTET", "lat": 55.707737, "lon": 12.524996, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Saftig", "lat": 55.6940564, "lon": 12.5510487, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Social Brew", "lat": 55.6749433, "lon": 12.5617693, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Collective Sankt Hans Torv", "lat": 55.6905624, "lon": 12.5602396, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Cabra", "lat": 55.6815858, "lon": 12.5790398, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sonny", "lat": 55.673298, "lon": 12.548232, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Orientkaj", "lat": 55.7122019, "lon": 12.5943034, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ROAST Coffee - Studiestræde", "lat": 55.6787606, "lon": 12.5696522, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OC Depot", "lat": 55.6837769, "lon": 12.5700363, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Andersen & Maillard Coffee Shop and Roastery", "lat": 55.6903659, "lon": 12.5551042, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KALA", "lat": 55.6920897, "lon": 12.5667802, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Holy Bean Coffee & Cocktails", "lat": 55.6886302, "lon": 12.5622422, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Illum Rooftop", "lat": 55.6791011, "lon": 12.5798862, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rist", "lat": 55.6732518, "lon": 12.5500816, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Dosseringen", "lat": 55.688194, "lon": 12.563391, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Impact Roasters Langgade St.", "lat": 55.666954, "lon": 12.5042919, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "April", "lat": 55.6810496, "lon": 12.5796293, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee collective Carlsberg Byen", "lat": 55.6652556, "lon": 12.5336069, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Atelier September", "lat": 55.7405874, "lon": 12.5781331, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pas Normal Studios Copenhagen", "lat": 55.7072604, "lon": 12.5929091, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Jorcks Passage", "lat": 55.6787298, "lon": 12.5743427, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Prolog Coffee Bar", "lat": 55.7051691, "lon": 12.5806168, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Collective Torvehallerne", "lat": 55.683581977, "lon": 12.569429576, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffice Coffee", "lat": 55.6668222, "lon": 12.6110344, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Andersen & Maillard Artisan Bakery", "lat": 55.7072013, "lon": 12.5966835, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Buna & Co.", "lat": 55.6716743, "lon": 12.545354, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Prolog Coffee Bar Papirøen", "lat": 55.6783534, "lon": 12.5987225, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ROAST Coffee - Vesterport", "lat": 55.6757251, "lon": 12.5624033, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Illum 4. Floor", "lat": 55.679475, "lon": 12.5806323, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Impact Roasters Valby St.", "lat": 55.6639726, "lon": 12.514415, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Original Coffee Vandkunsten", "lat": 55.6762988, "lon": 12.5743579, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Impact Roasters Flintholm Alle", "lat": 55.685442, "lon": 12.4992117, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Sonny",
+    "lat": 55.6769645,
+    "lon": 12.5742551,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGr04X052jbXJke5ZqkZpwTDj6HDOxNJJSK0fMYyoUts3dYd1F7y1pWxJZZmt9rJlEwabvuF4TlAFsddg9n-4Nr0fIBeXJlUUKW6TN5YU3tE9a_DiQQNVbZpbcX9VqbDLjrTDT4uvoFrdB2CWwrJvxp=s4800-w800"
+  },
+  {
+    "name": "Andersen & Maillard Coffee Shop & Bakery",
+    "lat": 55.6813728,
+    "lon": 12.5824663,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGVxaiGbhq3dpy3gY-RaUgtZufLyzzska0525J-j75IMXV2iJfY4iSSyHJLuKvysScGacRB7trdKaHAnDYDjsTUk9s5LD85Fz9bfr4ljV6_jzlin4KiAq-59JBehl3mFV1o5iK7sWM_FBCg5Q=s4800-w800"
+  },
+  {
+    "name": "ROAST Coffee - Sydhavn",
+    "lat": 55.655527,
+    "lon": 12.5514075,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNElFYxLtCSqIpZz3SgfgHzO-kViC41J1em8woqNk2jfbo3L2sLbxoE_RedAOr9uo3sbceVBRih0WrxnxkPa_xA1aUBA_trkaOefVClPInqklr3QhwyCL3vkch3dJkri4nGKgufiHQPLqLld8Ht8qvfw=s4800-w800"
+  },
+  {
+    "name": "norange",
+    "lat": 55.690965,
+    "lon": 12.5616589,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHmhAiTdRmkBmmOSzaDj3Y6-oqETdZECp4P8z1LQfchiDPnp1pvMzQeutYFjtSq-5urzbDi1KkYH1N3w-a4uuSJU7ua3kSDxQ=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Trianglen",
+    "lat": 55.6997392,
+    "lon": 12.5780151,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEZlcrFn5djq09OGrjJXxic-2MH0MZiCrUGZbE8y77iN1Im-AAahb1MZA0hS_Xx7Wn_yS-FuehXfR7f3sThBizP6mNh1fMnQA=s4800-w593"
+  },
+  {
+    "name": "Kaffe",
+    "lat": 55.6690986,
+    "lon": 12.5527064,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqES5EOutyqgT-adNKOSg_kL1iE3MyQKSUIpiHCr0vZKmnxtVMS0unfsb9RMGycd5KfSCVk9wZIXFdKopTyrjXyF66JYSi8BdQ=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Christianshavn",
+    "lat": 55.6735292,
+    "lon": 12.5918981,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEaQwH51D_ErAAdbhHOTXg0lt9iu-9H88e6DwDOl5M5IklBImxwfn0JZtsnaZn7U0-s3iRfs4aiIAZkVIVrvLHAfmAO9-LP4Q=s4800-w800"
+  },
+  {
+    "name": "Prolog Coffee Bar Frederiksberg",
+    "lat": 55.6837853,
+    "lon": 12.5049175,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_S0BYhttrXBGujiSESvMqWJX9l68SPucGl8mJS3CadAw7LlCuIP4L1BK5RAGglgShnOReMochZt-efMw96_ud3N5YI6EKQhWJ_iOegyctQdrX21zRBLKcUJiL4ogWNAT6zi_2PQ71Lwjg=s4800-w800"
+  },
+  {
+    "name": "HIPHOP",
+    "lat": 55.7024333,
+    "lon": 12.5408417,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG08E_SbGJ41-McheXS1WPWsS6yHGJYeUCnJ3P05VElzwtRCb0Wa4LC9RdwouM88VbMOt0RPBMEPegxDpcO_bZ0BMvXU721v7b0qk_S9_r3HoiuhrhSX0eMINFRyClEIKE4gTech-Cqcq_mMw=s4800-w800"
+  },
+  {
+    "name": "Darcy's Kaffe",
+    "lat": 55.6853205,
+    "lon": 12.5532861,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEYwzkv1rEOmBRpOZZifMA5MOMLiyIh7BeWmM6QFPPLOEwUInKob2yCLdBGQ8pkNXXY5BLlT4pb_BtmPknoRivU2YTrHrhQZ-jFpwD0tqcrhwZJsqF0Z74E6BTPbF-Sh67cqB_S0UwchCvdYuV5yHNc=s4800-w800"
+  },
+  {
+    "name": "KAF",
+    "lat": 55.6908042,
+    "lon": 12.5579692,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEzGOYj4POGo7LlezN75jYi0xh685ZNL8FMx-GxU8r9YxjZLtwGJYRB3FbCHud2BmYOLBxYJ0aMOGDOvfUX9EwDXhWWUG93zHdaZb3BZtY4LkKWbJhT9Vi6QMp5qLoW67SQoTQTAQ6lmqkc=s4800-w800"
+  },
+  {
+    "name": "Coffee Collective Jægersborggade",
+    "lat": 55.693746601,
+    "lon": 12.542193711,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqES5EOutyqgT-adNKOSg_kL1iE3MyQKSUIpiHCr0vZKmnxtVMS0unfsb9RMGycd5KfSCVk9wZIXFdKopTyrjXyF66JYSi8BdQ=s4800-w800"
+  },
+  {
+    "name": "The Artisan",
+    "lat": 55.6919995,
+    "lon": 12.5688717,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHjBTV2yguFpy8cV7ozTYJDzb2B72PisqOymcs2ZyKUB2KWXBspggUUFUTNnuWH8why56_mI6w8hT8-1ewVFtD9ZWaFqb0xP1Hvnp2SSntTTcdYais8FrbFhDOi03xS45M6oMgezRfvifvqoA=s4800-w800"
+  },
+  {
+    "name": "Collective Bakery",
+    "lat": 55.6967659,
+    "lon": 12.5455458,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFDUh47w-p_UbMzsAox1sewZuWlCSsBFSYBQUAWecjDmNU_XZEkIB-fK0OQpT6T2npEsjaKWUMaiNDNbAfPjlhShkrJ0hFJebr_xYH-ty4UfA6T6x2D6XJrGJxTQPG5BuwTnF3Hsr-zNmCc=s4800-w800"
+  },
+  {
+    "name": "Coffee Collective Bernikow",
+    "lat": 55.680028,
+    "lon": 12.582379,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFTlL9nAIQnP9UeFD30ZIifeJk2VvX6O85hgWDToU4psvUk6UN7T7ALPBS7nUSeJefM8cMpWbVDGmbWd2Fkn7Yy6OBCk23nrg=s4800-w800"
+  },
+  {
+    "name": "Orsa coffee",
+    "lat": 55.6724723,
+    "lon": 12.5552817,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH_gVJKBPpg91AXg1SZ49Js3Yvdcud74uOnQKZEYpzwzIxHixxqA5U6AeMeAEAs-2i0A4MY1wbVk0pcTlhaJ4hq1ikkjQ7Jfw=s4800-w800"
+  },
+  {
+    "name": "Enghave Kaffe",
+    "lat": 55.666984,
+    "lon": 12.54777,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGKFSh-5jbQ4DX3dCqXtnPMrQY5fZWy5-seeBJIMrrXbwDeRN3SfINxxRH9g-qMrE1d4xRBg7biI8bhFHdTfcz3ixKUGE2nLg=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Store Kongensgade",
+    "lat": 55.6889378,
+    "lon": 12.5897343,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGtXURY887E8oVk9QOLQEFUaL2TKSrOjS3tmTfg1KOMTsf-7jVv5g3UH5kzW9Fb4i1i7BXIV3_DJdoldtVCuCj_uxiPM2qccqeN5tWJjs5mZXlo9PijytW6RV9YMKa9AGUpYnB1Uv-kRac=s4800-w800"
+  },
+  {
+    "name": "Lille Bakery",
+    "lat": 55.6900908,
+    "lon": 12.6131531,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEqHK7xzGL4UN4ld5HE-oMGXlPQOAdfS4Gg4UErE05QGc9J2Zmsx6QZ97QcN4wX5v8ZIh4vOIJvNowqAkKB8SdbnH7C7u3qqPhZolnDQB9Lu9gK3E7RjSqBppnKPcHj_j5bvj4kEhc8LqYhs1PP3ehn=s4800-w800"
+  },
+  {
+    "name": "Pontes Roastery & Coffee Bar",
+    "lat": 55.6619396,
+    "lon": 12.5178504,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFJsvbCDHF37VZA2GeLieuFg_YRjH2zSLOaBxscgp6FHW1s3NIGfmOd_PRdX4VyhhYUA1918GhjEMvMrgDH3isk67bPhBkCgQ=s4800-w800"
+  },
+  {
+    "name": "Prolog Coffee Bar",
+    "lat": 55.668301,
+    "lon": 12.557452,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_S0BYhttrXBGujiSESvMqWJX9l68SPucGl8mJS3CadAw7LlCuIP4L1BK5RAGglgShnOReMochZt-efMw96_ud3N5YI6EKQhWJ_iOegyctQdrX21zRBLKcUJiL4ogWNAT6zi_2PQ71Lwjg=s4800-w800"
+  },
+  {
+    "name": "Lokal",
+    "lat": 55.6660799,
+    "lon": 12.5520445,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEZ_HVEZnfR8RGUKI2xcKd-UtLlW2RgPWHs-sqmvZNWI2Our0vs1jTTb5Ld2LgVssyeHpFqU9N_5w9Po5ki5H9K46HJp27kT-byVOJ-9l8cLELweD5sHH_t04b3A-uupZ4smfaEqPY_OBJuJH8PWfWS=s4800-w800"
+  },
+  {
+    "name": "Roast Coffee - Islands Brygge",
+    "lat": 55.66831,
+    "lon": 12.57949,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGPktxj_R4wFFRuegn9nUzev6TH2e68l0gwN39G837ulsuKx873O1B23VdrQlym7NtHfelV4bANnKIPZzrWpzeGE-1TfMs_3A=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Postbyen",
+    "lat": 55.6697731,
+    "lon": 12.5694301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE44PJaQnWZOT3AbuhqTBIqYe5HMJ7F8E7jZXuh2jWyLdQMlIhuh2eAdZhPG2Pwy1ayXOtOsDA79t3luHvJSq3Oa99HYrAlvYr_uHJrlDvPUl6gr-8aZFGXCBTY0AaBlQ8fW5SHjlwdQEFYoAqNjZV2=s4800-w800"
+  },
+  {
+    "name": "Alice ice cream & coffee",
+    "lat": 55.668423,
+    "lon": 12.597074,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGEJdFZDp1zhW6kkW1BEr-DnjEiYHqAKHWw24KJpTjs7nIuXcpKKCiMN3YR5K6GEdAxtGJRRwZYNANEYOeOEwAuFxm_-t6Xho4CwEIjuv_O5p7EQ0RlGssN_Cscu2vNwZGwrksqk0_nuEB4=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Strandlodsvej",
+    "lat": 55.6652417,
+    "lon": 12.6220161,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGf3G00w87qWVrgmtGiFnaU82ZAteQxwAq8LJi3osaz_iIh_7lL9eUxYvV7uFzbkjYfujB8t1qpPSNX8cPsA9wkpcmrfk6JAw=s4800-w800"
+  },
+  {
+    "name": "Coffee Collective Godthåbsvej",
+    "lat": 55.687099032,
+    "lon": 12.533520162,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEfe_QnE4qW-FZqpjGPTPzQrDSPWf11zDEmqESA5AWuItHzKtdhO2RfEFqHQACSNDBa-8k8UEZ31WXXCGaJwGWBvPfG6A_D_w=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Istedgade",
+    "lat": 55.6696954,
+    "lon": 12.5545865,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH3J0ykhjrFquVyjBUcMhQRDknYFwGWfYwJ0o773Z1TrI58VQotbzkRW5LYurlw5b-JBgRsVXDJ_fwGIaQN2-l-Rda5KE2ZAg=s4800-w800"
+  },
+  {
+    "name": "Kontra Coffee",
+    "lat": 55.695771,
+    "lon": 12.5808138,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHALDZGRnx_mo-w0epuGPOv-C8wLEt8_7ba2R1Gjl-9jeoadddZQAkLpLC5CDThD6YpxNr-DhZtV_lMP3sBYSebn3XF5OKKxg=s4800-w800"
+  },
+  {
+    "name": "Yellow Bird Coffee",
+    "lat": 55.661075,
+    "lon": 12.631956,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEXGPLAmpHYF0Eeqgjo04aQrcANN6m3j3tweC0cy3sC-sXytfK93iiRV3-a6KqA6TBZODUR0Daaz5fcuBaPJ1Sa31Rh7VXzzg=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Bag Elefanterne",
+    "lat": 55.6678869,
+    "lon": 12.5321351,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEoDgjJUoNrPDrEs1AG-UmPXtldYPlDQTtF5p88JHG0a0tzDYQgAeB4igw-vCx9jRvUF3uZlgPd6eLNBuO38LDov8ihEHwsYw=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Bredgade",
+    "lat": 55.6838538,
+    "lon": 12.5900286,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFuMj03gbctsICvZ5AGHJE1s0WgT_BmIeORKU8O8IqdhcLZaw79XS6kv4cLY3r8Y4-n__5CYofaJr4HtOb_ojec_Zwo3WslVg=s4800-w800"
+  },
+  {
+    "name": "Dallas Coffee",
+    "lat": 55.6981139,
+    "lon": 12.5791895,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEYJ56yf1SMJfViKRiDL2VUQCcvARYucPLPc4k8SThdrVmWrzLdZjb496AwCJePt7us-Y2Ykcl78qNa6pORmqW1xSCaZHkK1Q=s4800-w800"
+  },
+  {
+    "name": "KAFFEDEPARTEMENTET",
+    "lat": 55.707737,
+    "lon": 12.524996,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHCDJcyUwLnd5jwMPn5jizRq3hrzSThBZwBY0hIEy6nKgs1r9IxkQhuJeGi_FqsUS-byLii9C4A0_U4KyG-AAJ7xBhGiYfsi7DAKg2yVf-1zgVYMTQ7wR-gz2o3fh9_LDrPY7Xni_cS6IFjyw=s4800-w800"
+  },
+  {
+    "name": "Saftig",
+    "lat": 55.6940564,
+    "lon": 12.5510487,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHCs8QTHxlEBI0DTC2mh8hYV30F0NpEjZE1OuqK6_zWj59WlMZKwS0befzBo0PnoRWFsvjzvbZ-KbEBxwrHY4Sl8qQ7cGe_aIYAYKtAEJ6qoTnkC8p6iurUToG8ogQ31O_1CZyN64PnNF9v38rEDpsQ=s4800-w800"
+  },
+  {
+    "name": "Social Brew",
+    "lat": 55.6749433,
+    "lon": 12.5617693,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGByEWZDNBiOnigzvnoFMVCaVuRiriok64m3_PKVg4cM3injUSju2dJJraHOeDUFJcaRcqWkX6Rn1KaRGvjQKR5l6O2R8ufgQ=s4800-w800"
+  },
+  {
+    "name": "Coffee Collective Sankt Hans Torv",
+    "lat": 55.6905624,
+    "lon": 12.5602396,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEyLj0aWynKRzXgmuxp-prAUHDG5_tqOwDAFl9KH-wI5TMyRVLDZhLBKxvKVL3aLVMTpZ7uaHj4CrlhTNrDAUQDbKa1I9fxbQ=s4800-w800"
+  },
+  {
+    "name": "La Cabra",
+    "lat": 55.6815858,
+    "lon": 12.5790398,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFxW5UHkrNUsvovRzGV4zpS_0-u1wfdC7l7awDoyvxcj_qJw2HXe4PZd-a-Xnrf17IpvIzjuY44e8uvM5nlO08Q1gz7ety1QA=s4800-w800"
+  },
+  {
+    "name": "Sonny",
+    "lat": 55.673298,
+    "lon": 12.548232,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGr04X052jbXJke5ZqkZpwTDj6HDOxNJJSK0fMYyoUts3dYd1F7y1pWxJZZmt9rJlEwabvuF4TlAFsddg9n-4Nr0fIBeXJlUUKW6TN5YU3tE9a_DiQQNVbZpbcX9VqbDLjrTDT4uvoFrdB2CWwrJvxp=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Orientkaj",
+    "lat": 55.7122019,
+    "lon": 12.5943034,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGQIm5Fw8d_gUTA78p-VSyghOP3DhLtwC8eWjUHMCn8eRHVbG20meBX7f9nU9vEB8aZsPgdLiTrNojt1TWboVxt7ZwbFLPriQ=s4800-w800"
+  },
+  {
+    "name": "ROAST Coffee - Studiestræde",
+    "lat": 55.6787606,
+    "lon": 12.5696522,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEWjIu_BjIlLokhiVIInC7Y5PYNeE70IutYOiyW77Cg2dCL_Lz6iCUZiewRALJ7v88nM0mGicUi0j8HN2jKctvx2rSLiUOJgg=s4800-w800"
+  },
+  {
+    "name": "OC Depot",
+    "lat": 55.6837769,
+    "lon": 12.5700363,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG0ggm24sHDkbJtOf9NHOYpihjEZEPPlrlyEisptPg2I7Zu6D_Sftm8C3zlNU4Gb06zFmatvvtS1nY8rKqMuCMWl38PorhIQw=s4800-w646"
+  },
+  {
+    "name": "Andersen & Maillard Coffee Shop and Roastery",
+    "lat": 55.6903659,
+    "lon": 12.5551042,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGVxaiGbhq3dpy3gY-RaUgtZufLyzzska0525J-j75IMXV2iJfY4iSSyHJLuKvysScGacRB7trdKaHAnDYDjsTUk9s5LD85Fz9bfr4ljV6_jzlin4KiAq-59JBehl3mFV1o5iK7sWM_FBCg5Q=s4800-w800"
+  },
+  {
+    "name": "KALA",
+    "lat": 55.6920897,
+    "lon": 12.5667802,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE6Gfl898yhg1N8Okk1fqRC4_7qyKGX9I-owP6yY10VHdhXG85vMf44DDWnbLzIyMcFNh3L1D2RUJL0GlAvgB13QCB1Q5KNMQ=s4800-w800"
+  },
+  {
+    "name": "Holy Bean Coffee & Cocktails",
+    "lat": 55.6886302,
+    "lon": 12.5622422,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH18X_9hZfuwdM3tM3tUjwUACelR2embtGLhQL-jG0jgdKPbbR05i1KBsyV_e-MJAhTTrPH-mwrIx3s1zyh8efPJ_mFemRubKtwpPg-NpU-75rMoIqtkF8pNuVd6-GzIoTJtbdaAR6bmqmIPmT4fpsG=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Illum Rooftop",
+    "lat": 55.6791011,
+    "lon": 12.5798862,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEaRrtC21bVxXErWWQVSZtmgfXtlXpmjBOhhz_hlucp1THahCGh7qogo30xZn91PfiGMcWccUxJuhZ2aEFdJFO5YvAZKoV7aA=s4800-w800"
+  },
+  {
+    "name": "Rist",
+    "lat": 55.6732518,
+    "lon": 12.5500816,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHF4I-ofwCEBA47oxkKpXtLuj-6Q65eh5RDV4HcoAB2qfenLLXAmoTgDqPM_DDk5CEj_fQ2ST9u-0M6BDr9ujItxxRcwy5lVDbktg5JX8ygbMAzcC5h_BEgWhI4qJTRbjmkIZF0HpT5dNuA=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Dosseringen",
+    "lat": 55.688194,
+    "lon": 12.563391,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHEeaf1MzbFaoRRkuKaDFM-pell4x4TJIzP7K4C1rWfNUorhd7qKDf5KM3YqWkNDg-DOA60JrZIdCQs34Jr6Pc0XlYVo5HaSg=s4800-w598"
+  },
+  {
+    "name": "Impact Roasters Langgade St.",
+    "lat": 55.666954,
+    "lon": 12.5042919,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHGZ3p7p-tqeox49JNL96EhM63cKY6Nrx5EjpDWuSJC3_ExYA3ZIFO-8Wo0Vpok4ktyaoQ4b6ztMS7_yA1yXBYJ4M_I7i057w=s4800-w800"
+  },
+  {
+    "name": "April",
+    "lat": 55.6810496,
+    "lon": 12.5796293,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF5OlBDycC2P7qz4wxGaFRM0CYRQ9R6Z0yYTFYdy6B1TAL90-T4RiPqa4EA-8lUTphrHVvtUvcCsELjH_1czyBiPuBxDh-kcg=s4800-w800"
+  },
+  {
+    "name": "Coffee collective Carlsberg Byen",
+    "lat": 55.6652556,
+    "lon": 12.5336069,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFMWYTbMUun3OYUI5l-Nwtdt84dDi1080fhF8yD5IgxK0fhUAKYkcfEE1J9NWvkQPIH8DJZlzj9HnA7yxpbPbX9wDTrTq4EzbYX5EIJatZ6OR3ybiHZUFuHp30DMmXDLRzdL24N4gQoE7eZ=s4800-w800"
+  },
+  {
+    "name": "Atelier September",
+    "lat": 55.7405874,
+    "lon": 12.5781331,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHtFSGtJUcEGz3to-mJAg5Dm2mCut58Ag_IpCzQyfXziLuqTJ3iswKijw5kQNU1-kk7WAn-4YiQbrCAN7xvkn4Gz421SNCIJ5lke6G637ZRnWY2qAKPd29qe5iSndkYPKcjP6yqpt68LnAi=s4800-w800"
+  },
+  {
+    "name": "Pas Normal Studios Copenhagen",
+    "lat": 55.7072604,
+    "lon": 12.5929091,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGa1BxQN2eo_gL14EsP702_qOgjKDol5QhRtzqS2oTcaVggCwaKqulAh0MtJWa74xSHLOqZGP6BWMeAhNiqaG0WYWDixpk1Lg=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Jorcks Passage",
+    "lat": 55.6787298,
+    "lon": 12.5743427,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGEP65h412M1HCpXjxOnjvGIm0vnXnF43pIJnO54lBZxmpkq-OMXPistVu432HI2_yXDC1DEcfXh1jqTIpIdGFBDV6fdWVbQw=s4800-w800"
+  },
+  {
+    "name": "Prolog Coffee Bar",
+    "lat": 55.7051691,
+    "lon": 12.5806168,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_S0BYhttrXBGujiSESvMqWJX9l68SPucGl8mJS3CadAw7LlCuIP4L1BK5RAGglgShnOReMochZt-efMw96_ud3N5YI6EKQhWJ_iOegyctQdrX21zRBLKcUJiL4ogWNAT6zi_2PQ71Lwjg=s4800-w800"
+  },
+  {
+    "name": "Coffee Collective Torvehallerne",
+    "lat": 55.683581977,
+    "lon": 12.569429576,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF57cyKAqTPo_twvuBNgDQsbN534ngxU80KdcEx2LEbM7rp1hOL70lrPyWHosRkW_nmzxkBq-C56QVANQ_5j0L3QieSMiRuVQ=s4800-w800"
+  },
+  {
+    "name": "Coffice Coffee",
+    "lat": 55.6668222,
+    "lon": 12.6110344,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFzUVSGIwBJAypfnOEccmDd-FfgmxQMPIulNMPKSjXTfay4fInQck0H1rcaYNfMxW9Ia5Li7AfV9xR--MxscWRNLnfywurcyA=s4800-w800"
+  },
+  {
+    "name": "Andersen & Maillard Artisan Bakery",
+    "lat": 55.7072013,
+    "lon": 12.5966835,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGVxaiGbhq3dpy3gY-RaUgtZufLyzzska0525J-j75IMXV2iJfY4iSSyHJLuKvysScGacRB7trdKaHAnDYDjsTUk9s5LD85Fz9bfr4ljV6_jzlin4KiAq-59JBehl3mFV1o5iK7sWM_FBCg5Q=s4800-w800"
+  },
+  {
+    "name": "Buna & Co.",
+    "lat": 55.6716743,
+    "lon": 12.545354,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGFgk0wFqM39wpvQu4NSlShKTgAxJsBYF079o_1AF6z-8Boj9VwSHrGXTshYEB5tRxXESu-IieXcS7Vgrj8T07XQCYlCTUctQ=s4800-w800"
+  },
+  {
+    "name": "Prolog Coffee Bar Papirøen",
+    "lat": 55.6783534,
+    "lon": 12.5987225,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE-k90VI6AdmO-6z0B4BVq-wC8nq_OrMIKBXVZ0H8179-0gtmKsGy4XgFBor_GJwCNLUu1Cn5BMCUsQgPNBhXOY2bqZPHrzBuU5AgJ4z7_8w3jeAnMzGmNmzKzixtxyvbx2QyMGfQ_YG8QgbcWAQwDB=s4800-w800"
+  },
+  {
+    "name": "ROAST Coffee - Vesterport",
+    "lat": 55.6757251,
+    "lon": 12.5624033,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE6QIg29ObUkeOEnv5kNztGa3lBifuhZQ8qDfRLPMeKwDZ-toxxI8MAht0n1jej3bGrfDEyoGyvJacAHDHsP-WTsSIsPSzNiwejIQUBEQac8qRQJeI1T2r0eLsPXycEDZJUeSkTCuz6aICv=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Illum 4. Floor",
+    "lat": 55.679475,
+    "lon": 12.5806323,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHT_BchL1srFHIbA9WN6eFMfFowpApiUBnQrja-H81hQhtAAhqysl31gMHF14Q1_kr3-iPGEWyMQm4Cd5bUWau0cmdjKI-D_A=s4800-w800"
+  },
+  {
+    "name": "Impact Roasters Valby St.",
+    "lat": 55.6639726,
+    "lon": 12.514415,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHGZ3p7p-tqeox49JNL96EhM63cKY6Nrx5EjpDWuSJC3_ExYA3ZIFO-8Wo0Vpok4ktyaoQ4b6ztMS7_yA1yXBYJ4M_I7i057w=s4800-w800"
+  },
+  {
+    "name": "Original Coffee Vandkunsten",
+    "lat": 55.6762988,
+    "lon": 12.5743579,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFAJP8per8CVLpxAkHWIBsfwduXX3DnonlOQjGRwC4wpcpHTpH8qwqa7kQASHekNlfTGsIY6T5zBnWWyzp3TiUPHym6FwZpag=s4800-w800"
+  },
+  {
+    "name": "Impact Roasters Flintholm Alle",
+    "lat": 55.685442,
+    "lon": 12.4992117,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHWlFQunKLYdwMOZr0MoLsT7GiR4ILwsdQsiC-Diyr7VaMA58s8hGNpdXkYV-L9pYfshYNfAf9cmcpoMjCYnYGGS2_pGR_22w=s4800-w800"
+  }
+]

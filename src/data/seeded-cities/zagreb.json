@@ -1,1 +1,212 @@
-[{"name": "Holographik Space", "lat": 45.8076517, "lon": 15.95749, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urania Bar", "lat": 45.8150968, "lon": 15.9967801, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Figa Garden bar", "lat": 45.808155, "lon": 15.97262, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cogito Coffee Zagreb (Varsavska)", "lat": 45.8118463, "lon": 15.9725485, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Eliscaffe", "lat": 45.8127303, "lon": 15.9658333, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe u dvoristu", "lat": 45.8073264, "lon": 15.9729664, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bonk coffee & bikes", "lat": 45.794343, "lon": 15.9094632, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CHI - Specialty Coffee Roasters", "lat": 45.8084697, "lon": 15.9746103, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Filteraj", "lat": 45.8135392, "lon": 15.9793723, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Monocycle", "lat": 45.809442, "lon": 15.9862049, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Broom 44", "lat": 45.814049, "lon": 15.9775087, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavantura", "lat": 45.7869424, "lon": 15.9510682, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Quahwa", "lat": 45.8109874, "lon": 15.975528, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cynic Zagreb", "lat": 45.8122725, "lon": 15.9860224, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Luta", "lat": 45.8110081, "lon": 15.9893282, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cogito Coffee Deželićeva", "lat": 45.8106798, "lon": 15.963631, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Express Bar", "lat": 45.8118867, "lon": 15.9791301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Teneo Coffee Shop", "lat": 45.8002933, "lon": 15.9549616, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "WORKSHOP", "lat": 45.8186363, "lon": 15.979122, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kava Kavana", "lat": 45.8225288, "lon": 16.0119653, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Specialty Coffee Zagreb", "lat": 45.8113676, "lon": 15.9798255, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Holographik Space",
+    "lat": 45.8076517,
+    "lon": 15.95749,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHGjJxOh40IrwYfSvHDvv3LeMme5oqgDwV5e6qBArRhkXZ1KDzqCUvX_cIe9B0DWUI3Br8iGyFSpnXsDg56jmw06rBsa7Lc4eN04HlGfd9Ks79icsJwLzTNSohNd0QddGJzTiXThB23q4an=s4800-w800"
+  },
+  {
+    "name": "Urania Bar",
+    "lat": 45.8150968,
+    "lon": 15.9967801,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGcxqMNq1e1BNDMhY_yfPoXyVR51YoR_c_2hxiCm8fL2Kp3lVctWfgXPCyW0WfcfsKHIpSFP3ZcpX2xZS0ebSELvlVJ7ply1Q=s4800-w800"
+  },
+  {
+    "name": "Figa Garden bar",
+    "lat": 45.808155,
+    "lon": 15.97262,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFop07YAyVu4bZ9QrwvtWsLX-x7zSg1lTp3ziSSrsZvQK83awhhHUuGkC5cUgslCaXPYDecXYh7X3ZFzhqMvEt7MBSUFJnpfA=s4800-w800"
+  },
+  {
+    "name": "Cogito Coffee Zagreb (Varsavska)",
+    "lat": 45.8118463,
+    "lon": 15.9725485,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF3vvvSRv1-LATq6CURvCjD4dEtS5AisgbaNTaWDtEDmvmU8Rw-QM9tUQZxuHkpuGFT4DBpJF9FSAN7GEGT2e5WOvECWlz_2g=s4800-w768"
+  },
+  {
+    "name": "Eliscaffe",
+    "lat": 45.8127303,
+    "lon": 15.9658333,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgYHK8Ll-PpuUrTmoaz04xmVftaPi6Ogu6b9rD5OZQXvha8Yvb22SqmAoFBNS-IJjeQrhC8St9K02z-RgJXmfsbl0ncFpd8g=s4800-w800"
+  },
+  {
+    "name": "Cafe u dvoristu",
+    "lat": 45.8073264,
+    "lon": 15.9729664,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYfyJWf66QuwfMR13APMdW7rAfS0wiRZJNiqrV9PcGJEvlmbFXnQUj1oXO0hQsPcX0BZh0sVrbLwMqFRZucF8xBktgA2kOjQ=s4800-w800"
+  },
+  {
+    "name": "Bonk coffee & bikes",
+    "lat": 45.794343,
+    "lon": 15.9094632,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqELU2YNg6xOLGerq7PmjvIAWFwcerTi54k3Kbq8F2Yzf1rghlw9nAGIwewommacblKx8Z6hs383tOuOgb0BHajHWo48jJWWaA=s4800-w800"
+  },
+  {
+    "name": "CHI - Specialty Coffee Roasters",
+    "lat": 45.8084697,
+    "lon": 15.9746103,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGRNGpduFUjNpdArKhgVT1tul16rZwjM78odlnEepfnghBzywV2Hol8usfrrusu77Rw2ug7R_Jhu59Hi6hDAptjWVJwgN4pryLmEvqj1qohOBxIVm7wlKTKjV6B3KUCTrtKttW1bQai0jKID1udEjk=s4800-w800"
+  },
+  {
+    "name": "Filteraj",
+    "lat": 45.8135392,
+    "lon": 15.9793723,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHZ_4YFnyd9sJeePratsSz0oL3bQDMCJsdx9WKq7BZ0COWzWASx25bVZ6FURK8SGi1sdxbWNVUyNOhA6dBpK_IyQzM-ZJil2A=s4800-w800"
+  },
+  {
+    "name": "Monocycle",
+    "lat": 45.809442,
+    "lon": 15.9862049,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHuX1gBHshDRfQARQhaZ50IPEYgY61-juf3LdOgJ9NzofyhLa2KHjpERs-TO1ohiuH6Lxa7qTv8F7tb77STqMeMYc2-hp8luA=s4800-w800"
+  },
+  {
+    "name": "Broom 44",
+    "lat": 45.814049,
+    "lon": 15.9775087,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFj2krr6NYNcD2SPTr0OVE7z-aKEwbXurynqu7QmkbpHO8z1wuifW2U-lncWPR31zwnmIAlGOUrDENlE6LYTHp6Cda0WA3wyA=s4800-w800"
+  },
+  {
+    "name": "Kavantura",
+    "lat": 45.7869424,
+    "lon": 15.9510682,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFIsl99KnDThi7IGIxGGIZTQCGMnGKUHjrgUyA3dkvjgKc7YJDA3poTxQy_dVJ3Gq3byLR4UO7dtH-_7f2nGbGbotHwgcH2WA=s4800-w750"
+  },
+  {
+    "name": "Quahwa",
+    "lat": 45.8109874,
+    "lon": 15.975528,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEVvnytHpL8eC1k5mBv0j57sqp29Pn4EoAVzX0K2zYKXeC-vLwuOexK7jBV_NtNlkyFMRpebS_EUkCjXa3iAyk8stIstMudjaDg-AkLenXuHMpl4WLvLzXUIOnoSVmrWXuyOv1rZnivV_Di=s4800-w800"
+  },
+  {
+    "name": "Cynic Zagreb",
+    "lat": 45.8122725,
+    "lon": 15.9860224,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFDaJ5xfKlNvqtveC2f-wnpWy29SmkaB4VbVPzH0tBHVo-Id99gVNVA1C-OLCNFjSsdsBQyfFExDUtX3_zeDGIirMwNHRyQ4kth25w0witV22Up_jGZwoTJZo_TuO5VFFUWKYIu_fhuQk-gBhQ5TONX=s4800-w800"
+  },
+  {
+    "name": "Luta",
+    "lat": 45.8110081,
+    "lon": 15.9893282,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGvZ9YG6dpIGKSknzgFGXDKUS-GCJFllJz_pSZOlN4Fhmr00prx0Kj6i-B6gfjWK9qTDRKRPzy18r9E8-k9_aj7NuMfxdG1GpvjJycpHFyLfpvT0FizQz2EPrd1rwK5AAq90JVs_e_WIUU=s4800-w800"
+  },
+  {
+    "name": "Cogito Coffee Deželićeva",
+    "lat": 45.8106798,
+    "lon": 15.963631,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHIoQQJabG8rJkXe7x7FUX_75uMVwjaN6pgcYjmO3_fzYq38mJAoIVn6Ppe049roYLmeBz8-4dLs42z20fEbMAdJm_veugk1A=s4800-w800"
+  },
+  {
+    "name": "Express Bar",
+    "lat": 45.8118867,
+    "lon": 15.9791301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEY5yKXw10F1SiPSSpU0vPsFpDbTSvWhZoP_Pkwsp42HK-iMrTu8UH091xkSIEZPeDDLOi8Jhe2Mhdi-SZM7bJzvhv2tLCoXNutr54_Pf4b4Angtdoqi9rXsFQDolgQ5QZr0OmdjvGZmbBaaK-brKo=s4800-w800"
+  },
+  {
+    "name": "Teneo Coffee Shop",
+    "lat": 45.8002933,
+    "lon": 15.9549616,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrgzIUROj8enx8ifhnbwDlTt61vcgOrUyO4TvtqcpuA37VcIi7Chi0zn21O3NL4zlu7VCBpHJmS8Dyo1ImyusU4ttSVxfyvw=s4800-w800"
+  },
+  {
+    "name": "WORKSHOP",
+    "lat": 45.8186363,
+    "lon": 15.979122,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEQAroHH9NpUtxTZIjyWig0S9gG0aQ9u8IRI1N3mpqBen1DJgWBhPhF2p5MJUIT9bxr5EqrVcOp86tDO7ySXplQcGkvYXG7qQ=s4800-w800"
+  },
+  {
+    "name": "Kava Kavana",
+    "lat": 45.8225288,
+    "lon": 16.0119653,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFxuxNil0PLdRUwArfmLWa6o_jBr_cCXWvqKPAeFeo7nVFCrn9uOVZubK0ZStbIR-xVUFe6Dl9pHcjplhgiaop3yG482H0fe6Fg2vdzBjkWeyQnHudMxopQE9Qbm4ekSsWvgYpplvucbzsO=s4800-w800"
+  },
+  {
+    "name": "Specialty Coffee Zagreb",
+    "lat": 45.8113676,
+    "lon": 15.9798255,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEVvnytHpL8eC1k5mBv0j57sqp29Pn4EoAVzX0K2zYKXeC-vLwuOexK7jBV_NtNlkyFMRpebS_EUkCjXa3iAyk8stIstMudjaDg-AkLenXuHMpl4WLvLzXUIOnoSVmrWXuyOv1rZnivV_Di=s4800-w800"
+  }
+]

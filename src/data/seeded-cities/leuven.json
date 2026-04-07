@@ -1,1 +1,82 @@
-[{"name": "Koffie Onan", "lat": 50.878560631, "lon": 4.699074626, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MOK Leuven", "lat": 50.881402056, "lon": 4.709634483, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Madmum Coffee Roasters Brusselsestraat", "lat": 50.8799907, "lon": 4.6981821, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Madmum Coffee Roasters Station Leuven", "lat": 50.881368, "lon": 4.71569, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Komfort", "lat": 50.8885689, "lon": 4.7029538, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Noir Coffeebar", "lat": 50.876719, "lon": 4.700518, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Madmum Coffee Roasters Vaartkom", "lat": 50.8877276, "lon": 4.7035478, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Madmum Coffee Roasters Tiensestraat", "lat": 50.8779579, "lon": 4.7035299, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Koffie Onan",
+    "lat": 50.878560631,
+    "lon": 4.699074626,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF9IqSCpKP4HbO2qNM64lJVuOA5Jg_XyVMicdxguBxol8DMH_pW1n9YYXxKRg8hx9SbkgSgwq3QcOVbTPGy3ES21jV4qq3oWA=s4800-w800"
+  },
+  {
+    "name": "MOK Leuven",
+    "lat": 50.881402056,
+    "lon": 4.709634483,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG2r6zrROlPihdJU3b4aHCPft0jJENq51DYGfBFWlKM96GQSG7ifBuNJcpsVW-_xqWBdNW2jPY4VwgOh8UGGeFE8Edug1f2Wg=s4800-w800"
+  },
+  {
+    "name": "Madmum Coffee Roasters Brusselsestraat",
+    "lat": 50.8799907,
+    "lon": 4.6981821,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE6bPHOx7qGnM60SWQ_MA50S4T9htBBBmp0gXfZUy7r8ax_5D7eg5b5Nj35KFH3Q8O4yxmYISEOF4OC2quiZfHOA0jsL28Ahw=s4800-w800"
+  },
+  {
+    "name": "Madmum Coffee Roasters Station Leuven",
+    "lat": 50.881368,
+    "lon": 4.71569,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHAZQVOrBQotEeTXLo6_Di5_UsqICZM7fU2DG3s3BXiyOUzRQ8bYDJXcFlaqfTtavKFqYrJ66N1BwiAvbKT_Tocc5qWjjMFhQ=s4800-w800"
+  },
+  {
+    "name": "Komfort",
+    "lat": 50.8885689,
+    "lon": 4.7029538,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFtwYyId_3dd_FZabmr8LFWdlQd23yLGAYz8qCZ0oAIqb0DBa3noqF7RugGCcCKPC1KqR0x0ZSuuMaBwrvEV84ucMJVM0c1EL3EPzsx9IsOQ-_Uy5qRnMnk_sxOOQQnrGcnvk1pKaFLAliUqBcaorc=s4800-w800"
+  },
+  {
+    "name": "Noir Coffeebar",
+    "lat": 50.876719,
+    "lon": 4.700518,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEimU0-p6o84tM0Eer-HuvYQevocjOwg1bmIkloh1UmFSSW08rln_NEkkTnDD_6XQ4kuZXCDXkzbyvk1xNrqS76qKCm8mJNQSfwKXlRxlrUCrZItD_Qp2yNuF0rDFCeWzWzXfDQEVjiojM=s4800-w800"
+  },
+  {
+    "name": "Madmum Coffee Roasters Vaartkom",
+    "lat": 50.8877276,
+    "lon": 4.7035478,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-e_kHBFUIZDKvUOAX9JRI0gg175qSDLKPVHPxtEr8t3hgefawxj3AyuLw0rfnVYkNxEmx3YwYET9hdmNMLhepoeyDFdWjCA=s4800-w800"
+  },
+  {
+    "name": "Madmum Coffee Roasters Tiensestraat",
+    "lat": 50.8779579,
+    "lon": 4.7035299,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGE73TYwIdukLmUdM3CG7RvcWBboKsSdy-nmhKOLNPahCCPBbHIYSe5fz_MJVvK7Kv-PRMGDzymXFz8yLtoDk8zEpqoO3N0lQ=s4800-w800"
+  }
+]

@@ -1,1 +1,92 @@
-[{"name": "Ratio Coffee", "lat": 47.804349, "lon": 13.048961, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Antiquariat Weinek", "lat": 47.8012418, "lon": 13.046002, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffeeothek", "lat": 47.799809, "lon": 13.0439584, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "220GRAD Nonntal", "lat": 47.7956033, "lon": 13.0524807, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffee Alchemie", "lat": 47.7989218, "lon": 13.0495174, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Velirium", "lat": 47.7995712, "lon": 13.0551891, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Idealist", "lat": 47.806851, "lon": 13.0582516, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kava Coffee Roasters", "lat": 47.8009197, "lon": 13.0405493, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "220 Grad", "lat": 47.7982177, "lon": 13.0431756, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Ratio Coffee",
+    "lat": 47.804349,
+    "lon": 13.048961,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE9clffylEaAVce9wQQhtTNPo-lbVti1LuOOng9SPscMcovkeGIxdCAVkkAkyVDknNBLBOnEQiyDXA8p3f4gQ-yj7QjtUFRkQ=s4800-w800"
+  },
+  {
+    "name": "Antiquariat Weinek",
+    "lat": 47.8012418,
+    "lon": 13.046002,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFaPdKWisA_8UZAoAoIoG4E286QZ0HrOTK7BJTpDe4ugjGWz1rJj9h9969z5Ri1HXj4neGmCenTolxeSmR83bkknzc7B6Bohg=s4800-w800"
+  },
+  {
+    "name": "Kaffeeothek",
+    "lat": 47.799809,
+    "lon": 13.0439584,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE4qejYGVKmHEYR4OHsvCrVk3CvyfVilgVqGH_a0a7466cdta_wT_AWZBsfxyp0p8v0kfbByiLwhmpbWGh9Hqh8q-Qg0IMHDnTXZMj2SDeg2smOxtYvsg0w_zQFjWQKzE7Wo05I7WsT092U6A78ufLG=s4800-w800"
+  },
+  {
+    "name": "220GRAD Nonntal",
+    "lat": 47.7956033,
+    "lon": 13.0524807,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFtsIP2TkNK5xQiKDm2Of9Pko6Z75jg67PvrmDOEl2loEG3ZJ9-_ASpcqIahi5tXFIcDDoAcy1Q_Lf7kzWD3tyTBG-Lflum-4RQIdCaeo_vwx-_G5jZBatLzy51Ixui_NMRHlDIvE1xo0ox=s4800-w800"
+  },
+  {
+    "name": "Kaffee Alchemie",
+    "lat": 47.7989218,
+    "lon": 13.0495174,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFp6QLw-zYRasDfzROFVJ9JI-XNbEdOqNCfQgHLc9B2q8YGMl5Nt3iNi9bJwTJn1JMakFMvb71x7ODFq8Bgi8_GTHdplHH4nGV4PL16ZEQu2c4PjFsBMZuMoTuYO-v4oMtoaU4mhoqm9ag=s4800-w800"
+  },
+  {
+    "name": "Velirium",
+    "lat": 47.7995712,
+    "lon": 13.0551891,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGFwFv6DjCI_OhxwUbEWLIZwllZZJGuSM2uw-QML6YjJXbL2iJoDnS_lUq7arEU61GzrBSHrGL38j3Of79qvrCOGFabezjgJ3CMbb_WLZ7Ci9zEiv3ThRNglC9Qy7AMJQVQpsxl4bGBs5mrNldUV7E=s4800-w800"
+  },
+  {
+    "name": "Idealist",
+    "lat": 47.806851,
+    "lon": 13.0582516,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNExQ47-iw6daQHcolfEdE2PI4VjBCgZFCrv3SXzyKYLqzeXpRBE5esLoqXhr4klZekIpUsrrOKdiRLQIOyfBme5SdxWYQnNO5Tx7qi1vux8iVbxQEc2L5sXeMxrlDK6iD7rMgsKKNEL-CW5X7ZVNyY=s4800-w800"
+  },
+  {
+    "name": "Kava Coffee Roasters",
+    "lat": 47.8009197,
+    "lon": 13.0405493,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGHDTdPDWrsfLFBqLHEY_uvkMwQBS_3IJMsCmT3FbAfQXb9m6j4T2pPERyMAJNlshWumEv2yhy4QiahYhWZd8Gq94JPx15rRA=s4800-w800"
+  },
+  {
+    "name": "220 Grad",
+    "lat": 47.7982177,
+    "lon": 13.0431756,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFtsIP2TkNK5xQiKDm2Of9Pko6Z75jg67PvrmDOEl2loEG3ZJ9-_ASpcqIahi5tXFIcDDoAcy1Q_Lf7kzWD3tyTBG-Lflum-4RQIdCaeo_vwx-_G5jZBatLzy51Ixui_NMRHlDIvE1xo0ox=s4800-w800"
+  }
+]

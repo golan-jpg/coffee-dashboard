@@ -1,1 +1,92 @@
-[{"name": "Nordic Brew Lab Malmö", "lat": 55.6057444, "lon": 13.004391, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "UGGLA KAFFEBAR", "lat": 55.5969399, "lon": 13.013759, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Noir Kaffekultur", "lat": 55.6049746, "lon": 12.9977882, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffebaren på Möllan", "lat": 55.5911022, "lon": 13.0087641, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafe Number 6", "lat": 55.596289298, "lon": 13.013970852, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "1998 coffee shop", "lat": 55.5974032, "lon": 13.0002144, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lilla Kafferosteriet", "lat": 55.6046029, "lon": 13.00296, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Atrium", "lat": 55.5974958, "lon": 12.9789303, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Solde Kaffebar & Kafferosteri", "lat": 55.6007946, "lon": 13.0003876, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Nordic Brew Lab Malmö",
+    "lat": 55.6057444,
+    "lon": 13.004391,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEtelQSO11dk-9pHNT-sig4-kPOrq9NG4foDOTAL8jgMecnwOBgC3rc-wXXRNZuMxGA32tOJFyF-u2T1dvbfK-cR_wNm0dMEA=s4800-w800"
+  },
+  {
+    "name": "UGGLA KAFFEBAR",
+    "lat": 55.5969399,
+    "lon": 13.013759,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH2OEdDJ0Lx6aT3I3AGtrPMNSt5j52YyAhDxRCWioj-wT36YUOAhAeGQdKNIpF7LKptqbqk6sWxCID6ydzjtzIV8XR3tUM78d9BDoOtl2DD3QtxXoJmLTTlHFGwCPQ2hA--vb6itQ_5Hei8Qg=s4800-w800"
+  },
+  {
+    "name": "Noir Kaffekultur",
+    "lat": 55.6049746,
+    "lon": 12.9977882,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGrSh2ykUCTYl2H0VHEHd7wDys1_9j3p1GkPqLGO43kjH6X4ai-Gm0M82sSFukCqoDmWlI3PlfUDtPRv3BNhv9a5fWGwCKfvg=s4800-w800"
+  },
+  {
+    "name": "Kaffebaren på Möllan",
+    "lat": 55.5911022,
+    "lon": 13.0087641,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHdrar37EC4koblvOFEqBjzGjBUFDg-KBGJxZ7MyJSabyhS4nxGdBUsrD5XXuIJbTRRCWbKCEqIm26bMQDS01tkAa-loYd2DPn7tCgJiFuP2yVjaS_ThopaTV8WjdOVy8csoXw8Qbca8YhB=s4800-w800"
+  },
+  {
+    "name": "Cafe Number 6",
+    "lat": 55.596289298,
+    "lon": 13.013970852,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEXbpq14bjzRbDKHpW6FAGvNHrsqGHmCd8bMgQ2fXB-zDyefoG8NzAdbgeXJQDuDsE-GXPgw1KupWQEbeSuvA3NDnFYmxiilA=s4800-w800"
+  },
+  {
+    "name": "1998 coffee shop",
+    "lat": 55.5974032,
+    "lon": 13.0002144,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHizDVOBR89sr04vgfdjhMZ69ZgBEK-qNfBi9JEDueKg3OI2Z28sPdVTRidD5O0vEDPMEkMYVmX2glDhPuuL6Ftc9kc5MxJCQ=s4800-w800"
+  },
+  {
+    "name": "Lilla Kafferosteriet",
+    "lat": 55.6046029,
+    "lon": 13.00296,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqELeJZyvh7jYCQ2IhQ6D5qeE4QD5hsIhSyC5vmPslW2nAWCGAmiT3kXBG5Tzo51CJkECUTvyIg5fWtJuyi2p9QZPrIb7gftfA=s4800-w800"
+  },
+  {
+    "name": "Atrium",
+    "lat": 55.5974958,
+    "lon": 12.9789303,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNENlWAZ9VIhLOwKaNws4X8YYRqEN-ul3ExzsEjqqNn_J-coqAHHPG8LrLWKT08m9bXF_ZygCgpM4purfKdhI2tBIzeoPKKfy9ca-6u3I75WGit_QvuZjFu3DDyJ1RXBeAyWco2L3cmmWkGX=s4800-w800"
+  },
+  {
+    "name": "Solde Kaffebar & Kafferosteri",
+    "lat": 55.6007946,
+    "lon": 13.0003876,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEqlpGL2bXQejpDAqHCdQdnjQGkC7pUctMzQ3JoOLH8AaOl5aDmIrzCiBLqjNaiWJVS3s_Ex5vdOci7a_ySZpsUwZ4-kqLsZcYRXtZjrwu7jrj6K3_b70o7KNwKF-KO4YLGhCP_JtWo12NJ=s4800-w800"
+  }
+]

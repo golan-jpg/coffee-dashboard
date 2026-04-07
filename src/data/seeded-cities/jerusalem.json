@@ -1,1 +1,55 @@
-[{"name": "Roasters", "lat": 31.78025, "lon": 35.21478, "address": "Jerusalem, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "OSM-confirmed specialty roaster"}, {"name": "Roasters - King George", "lat": 31.78471, "lon": 35.21279, "address": "King George St, Jerusalem, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "OSM-confirmed specialty roaster branch"}, {"name": "You Need Coffee", "lat": 31.78518, "lon": 35.21443, "address": "Jerusalem, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "OSM-confirmed specialty"}, {"name": "Hatch Coffee", "lat": null, "lon": null, "address": "Jerusalem, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": true}, {"name": "Coffee Mill Jerusalem", "lat": null, "lon": null, "address": "19 Ben Hillel, Jerusalem, Israel", "source": "seeded", "isSpecialty": true, "needsCoords": true}]
+[
+  {
+    "name": "Roasters",
+    "lat": 31.78025,
+    "lon": 35.21478,
+    "address": "Jerusalem, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "OSM-confirmed specialty roaster",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGxg6lkx5sYRSn7ZNPKAB2_wKTmObtFeOwQnswv16WSxBv4BwlRXlhqBPZWp9IeYkMKfNPwwRzGb7x6OdS4DgYrUuxAqdwD4g=s4800-w800"
+  },
+  {
+    "name": "Roasters - King George",
+    "lat": 31.78471,
+    "lon": 35.21279,
+    "address": "King George St, Jerusalem, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "OSM-confirmed specialty roaster branch",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGxg6lkx5sYRSn7ZNPKAB2_wKTmObtFeOwQnswv16WSxBv4BwlRXlhqBPZWp9IeYkMKfNPwwRzGb7x6OdS4DgYrUuxAqdwD4g=s4800-w800"
+  },
+  {
+    "name": "You Need Coffee",
+    "lat": 31.78518,
+    "lon": 35.21443,
+    "address": "Jerusalem, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "OSM-confirmed specialty",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEJlfwUbt9g2zGRI_xZVhK4S-qWNQ3toOCZR61Z6sqoyzVYppBR6iQU1ax6rwJquynaJVhtFFL2zugbhU_qaHHQ3sFlthbBuA=s4800-w800"
+  },
+  {
+    "name": "Hatch Coffee",
+    "lat": null,
+    "lon": null,
+    "address": "Jerusalem, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEAts3B6Sd36Liw_aeHBSKUI4o7TmbE2bBBJcDDy_VASuKGxEDjKYWS9NGMGoHnutT8JhIOo2O5UL7Jb5f-MP0rL-RS0JXzRQ=s4800-w800"
+  },
+  {
+    "name": "Coffee Mill Jerusalem",
+    "lat": null,
+    "lon": null,
+    "address": "19 Ben Hillel, Jerusalem, Israel",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHbL5_PIdhTKD4MvOG413Wn9Vvb2cS3iSOUUFHspHGPEIWJkBA0vthx0dYgZsapmyii9hJgzrX80oLKA779iir_SPIA1ak-dis7-pp0FvUrjiBsU2fd_2PCrXs_ZlNCtBeg5es98tBxK6hkwQ=s4800-w800"
+  }
+]

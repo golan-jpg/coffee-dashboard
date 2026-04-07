@@ -1,1 +1,982 @@
-[{"name": "[B]-bar", "lat": 40.4261071, "lon": -3.6705898, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Guayacán", "lat": 40.4351297, "lon": -3.7073221, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MINA SPECIALTY COFFEE", "lat": 40.4395128, "lon": -3.6792182, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Licensed Coffee", "lat": 40.4431576, "lon": -3.6695695, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Holgura x Placeo", "lat": 40.3922365, "lon": -3.7199034, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hey My Coffee - Sol", "lat": 40.4177328, "lon": -3.7033735, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Geisha Specialty Coffee", "lat": 40.4192139, "lon": -3.7065867, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Siniestro Cafe", "lat": 40.4261768, "lon": -3.7114126, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bianchi Kiosko Caffé", "lat": 40.4243932, "lon": -3.70164, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bahay Specialty Coffee", "lat": 40.4347365, "lon": -3.6761832, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Hermosilla", "lat": 40.4262363, "lon": -3.6831145, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Monkee", "lat": 40.440444, "lon": -3.707998, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Faraday", "lat": 40.423752, "lon": -3.696317, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nopa Bagels", "lat": 40.4328334, "lon": -3.715012, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Masamune Specialty Coffee", "lat": 40.4261031, "lon": -3.7014384, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Eloy", "lat": 40.4343316, "lon": -3.7006337, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ruda Café", "lat": 40.4104306, "lon": -3.7079721, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OSOM Specialty Coffee", "lat": 40.4262329, "lon": -3.6965183, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hey My Coffee - Goya", "lat": 40.4280291, "lon": -3.6768286, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Junta Café", "lat": 40.4310338, "lon": -3.6741956, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "El Perro de Pavlov", "lat": 40.4126199, "lon": -3.7106115, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Osom House", "lat": 40.434215, "lon": -3.6991542, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bocono Coffee", "lat": 40.4106002, "lon": -3.7066952, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "CapibaraCoffee", "lat": 40.4571171, "lon": -3.6876743, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pum pum Cafe", "lat": 40.4080634, "lon": -3.7019703, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ambu Coffee 3", "lat": 40.4138574, "lon": -3.6997539, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Miners Coffee Plaza de España", "lat": 40.4251466, "lon": -3.714018, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pink Bourbon", "lat": 40.4349359, "lon": -3.679686, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nomade Cafe", "lat": 40.4107147, "lon": -3.6993613, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Literal Coffee", "lat": 40.413128, "lon": -3.6957479, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ACID Café", "lat": 40.411898, "lon": -3.6949265, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Plein Cafe & Deli", "lat": 40.4694212, "lon": -3.8535255, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kissaten Place", "lat": 40.4195923, "lon": -3.6784311, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dosis Cafe", "lat": 40.4323347, "lon": -3.703262, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Príncipe", "lat": 40.455672, "lon": -3.6768762, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Angélica", "lat": 40.4232355, "lon": -3.7073303, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Junior’s coffee", "lat": 40.4423161, "lon": -3.6408383, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ambu Coffee 2", "lat": 40.425495, "lon": -3.6826311, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "VEIA Café and Clubhouse", "lat": 40.4166441, "lon": -3.6743842, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hola Coffee", "lat": 40.4070207, "lon": -3.6990835, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Nieremberg", "lat": 40.4478587, "lon": -3.6725243, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Diego", "lat": 40.4348677, "lon": -3.6847529, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Naji Specialty Coffee", "lat": 40.4316574, "lon": -3.7021703, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Parque café", "lat": 40.4522801, "lon": -3.6740519, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Wilko", "lat": 40.4351757, "lon": -3.7083646, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "UNFLTRD Coffee", "lat": 40.4281515, "lon": -3.7094872, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Placeo Coffee", "lat": 40.4427338, "lon": -3.6975133, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lille Drømme kaffe", "lat": 40.3744278, "lon": -3.7250341, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Misión Café", "lat": 40.4242084, "lon": -3.7087872, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "DABOV Specialty Coffee Madrid", "lat": 40.4101176, "lon": -3.6974377, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ambu Coffee", "lat": 40.4242162, "lon": -3.706317, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafeinnato Specialty Coffee & Food", "lat": 40.4262289, "lon": -3.6795195, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NEPO CAFÉ", "lat": 40.4438118, "lon": -3.8078767, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ochocero café lo-fi", "lat": 40.4281376, "lon": -3.6908748, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Baya", "lat": 40.4384503, "lon": -3.6947149, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Fix", "lat": 40.425722, "lon": -3.7149933, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Little Big Cafe", "lat": 40.435226, "lon": -3.712741, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COFI.", "lat": 40.4292923, "lon": -3.7076772, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Trava", "lat": 40.4094565, "lon": -3.7123506, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dot Café Bar", "lat": 40.3960039, "lon": -3.6988582, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Slow Café", "lat": 40.4101444, "lon": -3.7115889, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Aromme Boutique du Café Madrid", "lat": 40.4302803, "lon": -3.6720581, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "9 Lives Bakery", "lat": 40.4339292, "lon": -3.7068202, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "PANDA", "lat": 40.4359827, "lon": -3.7010508, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Drømme Kaffe House", "lat": 40.3967481, "lon": -3.6929007, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hey My Coffee - Alonso Martinez", "lat": 40.4283895, "lon": -3.6956804, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Botánica", "lat": 40.4125036, "lon": -3.6968553, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Utøpico - Specialty Coffee", "lat": 40.4328503, "lon": -3.6800421, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sood Coffee", "lat": 40.419273, "lon": -3.6765259, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ōfi cafe", "lat": 40.4583893, "lon": -3.6259522, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bucólico Café", "lat": 40.4207502, "lon": -3.6982084, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Almirante", "lat": 40.4223943, "lon": -3.6945469, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BRUTAL COFFEE", "lat": 40.4144218, "lon": -3.7021457, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Roto Café", "lat": 40.395108, "lon": -3.7322726, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bô Coffee", "lat": 40.4405396, "lon": -3.6977732, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nuna Coffee Shop", "lat": 40.4359387, "lon": -3.6963175, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Santa Kafeina", "lat": 40.435894, "lon": -3.700119, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Green Coffees Roaster", "lat": 40.4508788, "lon": -3.7094777, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pan y Pepinillos Café", "lat": 40.4237639, "lon": -3.7027066, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Etual Café", "lat": 40.4121117, "lon": -3.6939768, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pastora", "lat": 40.4109492, "lon": -3.7130563, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "UMAMI SPECIALTY COFFEE", "lat": 40.4123909, "lon": -3.6938576, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nica Specialty Coffee", "lat": 40.4476836, "lon": -3.6722272, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oways Café", "lat": 40.423565, "lon": -3.7087139, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Conde", "lat": 40.4271357, "lon": -3.6753246, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "East Crema Coffee Alfonso X", "lat": 40.4337943, "lon": -3.6922339, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "HanSo Café", "lat": 40.4235109, "lon": -3.7026311, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ÖSS Kaffe", "lat": 40.4307388, "lon": -3.6990571, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafeteando", "lat": 40.4331605, "lon": -3.700612, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Toma Café", "lat": 40.4264615, "lon": -3.7059434, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café del Art", "lat": 40.4101495, "lon": -3.7070647, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Syra Coffee - Santa Isabel", "lat": 40.4107823, "lon": -3.6980992, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Religion Speciality Coffee", "lat": 40.4375874, "lon": -3.685069, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hanso 2", "lat": 40.4186988, "lon": -3.7084173, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "L’Origine specialty coffee", "lat": 40.4116315, "lon": -3.7051227, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sistema Café", "lat": 40.4118346, "lon": -3.7146641, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pum pum bakery", "lat": 40.4113846, "lon": -3.7039369, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Toma Café Olavide", "lat": 40.4330877, "lon": -3.7001164, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "[B]-bar",
+    "lat": 40.4261071,
+    "lon": -3.6705898,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFz0fUGgODLmHPEdXNMTUnTN19hGbkTBT8d4CSHOGY0C4lEhxmVIDTj7igc5YGRghuwadOLPDrTDoO7tuMKCTGmtNZc4BK9BQ=s4800-w800"
+  },
+  {
+    "name": "Café Guayacán",
+    "lat": 40.4351297,
+    "lon": -3.7073221,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFY1Gp4V1v6JqQfiRfElS1OTqRCnj25OsNu5PhLcOX11EtH1vPaqh0lm_gf3QT31YBDYq0etsjjPZlAUpMxp55PGNWYa-Kd0PPsxdOhpmKpy3AHzLPtXeLvcP-ASXrnRwGIdQvnwO2Ge9Dt2w=s4800-w800"
+  },
+  {
+    "name": "MINA SPECIALTY COFFEE",
+    "lat": 40.4395128,
+    "lon": -3.6792182,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEHRAx2FbntpLcYO34bRSZDkV0L1GlDtyiSdOTEA10DfUplioVR10CvryiPYX-LL7EUjZO_IR-dfSgIM6EEog2zGCioxKDbpQ=s4800-w800"
+  },
+  {
+    "name": "Licensed Coffee",
+    "lat": 40.4431576,
+    "lon": -3.6695695,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGnOlpsudIQJLDCbuk-G2rgGlQh34tbtO7UgCPkwd-HFnmSIUxngNCQ-xHjof2wWIuPaYEmTXBIAMEvo-G-Vw6oJ_7IC4uaomrVcV1yWJw3uLYkwdQXbce7e7N5JWKdWUpu-c1ABfuEaXMxKpTYeoZX=s4800-w800"
+  },
+  {
+    "name": "Holgura x Placeo",
+    "lat": 40.3922365,
+    "lon": -3.7199034,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGRrTPeoUnLzcUXc0YSV7voNBy19gte_NyMeKOS4M6rjyNePzLmlTueQz6I_bDjb4Y8mY_elkhGqRxtcy1RXQ95MrYSL2pcdTUFllfX57ZrHQBpNejqD3znBvJjDev_o9pAcUfaWGoozPGBUxNNPjtH=s4800-w800"
+  },
+  {
+    "name": "Hey My Coffee - Sol",
+    "lat": 40.4177328,
+    "lon": -3.7033735,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGrUmWTVEXGdy_0pFNgWskccxNFVHYoEWEM0-Zhwrtc76FlDK2DlldpNz1bOTaYf6HrpVLfiPj4F8bpougriNSBNWCK8__HOg=s4800-w800"
+  },
+  {
+    "name": "Geisha Specialty Coffee",
+    "lat": 40.4192139,
+    "lon": -3.7065867,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFdhA0QCSROCTutiBHxHB6x8OCzNO_Ubv__yVCe0PnMCXDeeJ7nsvQ9mJ0ZQDaNrA8H3E2SV7SnZw5EFGhwCjIBfEgyoKL2UDrXvdxFXofJiKLp7w1QL8-8Bf-xNSmdfxy8DSLe7hGeQB4hN-KWNANW=s4800-w800"
+  },
+  {
+    "name": "Siniestro Cafe",
+    "lat": 40.4261768,
+    "lon": -3.7114126,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHyi74DpTWxjs8wxS2x19N7nwHeZLfWfWCZJval3yGlre_SqQz32ZUXfBKZ6z6fbrB1YtKxI9I1lTTnlrnIvsbwuHr25U0dKg=s4800-w800"
+  },
+  {
+    "name": "Bianchi Kiosko Caffé",
+    "lat": 40.4243932,
+    "lon": -3.70164,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFHIC0JbbYVHWC6xziqZzC1Ba01Uvfvf7Q0Vhk-VSOS7ECKx7eDRUv2vhll3WyaB0mluVPp5Vd6KwSKhV8VJk54v08enwXX3yb8lBXOFDuaWjI6wttq1nGmH6bmBM3oRF5UbCsdh9duFE8z=s4800-w800"
+  },
+  {
+    "name": "Bahay Specialty Coffee",
+    "lat": 40.4347365,
+    "lon": -3.6761832,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHVBqoFTkM3qJtymS7ucrTd9onuzEyx4P9GkeOYGAR4-IZGknXConTmPHQf4RfnQGHmdkXZitGqykDKkPh1zw-TeO8LEQhFkQ=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Hermosilla",
+    "lat": 40.4262363,
+    "lon": -3.6831145,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE1mPmTMSBsg7RSdF81TpfdudZ5S3bCpi92-8gWDGdKOT-tjPiGPsuZsJrsFzgwYUQSYPkNTVW_oFuUTRZ_OgnmeCjv_tOHAg=s4800-w800"
+  },
+  {
+    "name": "Monkee",
+    "lat": 40.440444,
+    "lon": -3.707998,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG4ynTPYdxDF_xx10V1cINOi74Bjz6gBDO5WXr2NTIgoKjpem_cQUsmbFIs-QKDmdwtn3g2O9Bes0q6nyvXDyAp5Q2Swn6HJw=s4800-w800"
+  },
+  {
+    "name": "Faraday",
+    "lat": 40.423752,
+    "lon": -3.696317,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHp0YnGwJMshp--f40_G4TpdbZocZdardLdMQUVHez6VHRk3AnsCCTQQR01jpbB_mwghs-WI5QRLyk2JQM3Ch7l0Vg8FdhlVw=s4800-w691"
+  },
+  {
+    "name": "Nopa Bagels",
+    "lat": 40.4328334,
+    "lon": -3.715012,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGtmSevkdZMNGvQ4v1yZLddQdtp4Kq9tGENSgbt36foNsr3K3V10fNRtcAJU1Jnl-QaYc00fYEcMcPFzRQhZvsYGMsojb9O3Q=s4800-w800"
+  },
+  {
+    "name": "Masamune Specialty Coffee",
+    "lat": 40.4261031,
+    "lon": -3.7014384,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGo603GDu_G9dKCDhVt-hjGmw68e11YlW0UO5E28jzeHxlzTunIA5NLPYGeyR-DOfPWmq7U3rrkMhm5uDO3xRw_PtIedkALvg=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Eloy",
+    "lat": 40.4343316,
+    "lon": -3.7006337,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYIP-Em9nBXc9Dr2w3PZTEEfV5VfhLdYoZahIrtWeqOTio0_zi16YCaA7kGD3XpSlYin2OUGl2FmjNtyBe41V1ltu5Um3Bew=s4800-w800"
+  },
+  {
+    "name": "Ruda Café",
+    "lat": 40.4104306,
+    "lon": -3.7079721,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGqWZ_Bp7i8r2_NcuoFDAj77SnW8n63u3UcBdH27PMgJGGmMCVm_XZiHsabAsQBFaDGQ6qgLYq3MIhvh7TeJTkD_UYzX64Vsw=s4800-w800"
+  },
+  {
+    "name": "OSOM Specialty Coffee",
+    "lat": 40.4262329,
+    "lon": -3.6965183,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFnICasQanCiI_Ia5Vegq98xgNMiv9DNdweC4GSrkmmR8KqYj6_lZWWyjfRxTbX2BY5CmMLBGUTVq1X4tfWuhifw4Ro_qOG9w=s4800-w800"
+  },
+  {
+    "name": "Hey My Coffee - Goya",
+    "lat": 40.4280291,
+    "lon": -3.6768286,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFlC7Mj-k8BgIFNLZxre31SBfn09_rfdj7IdgcDuk0E1O5xRZbo8gBBHz4fHtYO-DiEe0wfdDXshFmUGqUUWqSgnfjJSmRl4g=s4800-w800"
+  },
+  {
+    "name": "Junta Café",
+    "lat": 40.4310338,
+    "lon": -3.6741956,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHpGJPnm5jWBm65SM-OI4sd-CzJ__Yp_f7Q_qP8huz8hzo5V4f2ITcw67uhHBDGo9GvJGJGmP3fgcZjR4302_G8VMZjIR_IxA=s4800-w800"
+  },
+  {
+    "name": "El Perro de Pavlov",
+    "lat": 40.4126199,
+    "lon": -3.7106115,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEuY9_4AsIgt7iEEiGyd-0PdQA8v09741JOqaQfWAP0J9T530_7mOuJVVkv3ag4tDp72RYtxhdYgcnTe8nTDgSrzHtQvQXgNg=s4800-w800"
+  },
+  {
+    "name": "Osom House",
+    "lat": 40.434215,
+    "lon": -3.6991542,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGDaqMJItSK_IHFYW7aSYc_dSSXArwzVYT_sFkjvYsq10a-Z4zT_huaAt_HwKYylx0aH88eZypRm6Eay0gBbAqV4YxOnrpGiQ=s4800-w800"
+  },
+  {
+    "name": "Bocono Coffee",
+    "lat": 40.4106002,
+    "lon": -3.7066952,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG66zAKO5MeK0r17T1opV9T5XcQerhG2QLidg3DsKPHk3Ll6ZeBpl9jsCOuPF60qSJZfOCaGLvVafklpIpAh5yFiGQTQDIKGg=s4800-w800"
+  },
+  {
+    "name": "CapibaraCoffee",
+    "lat": 40.4571171,
+    "lon": -3.6876743,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGgzeAt96tRiWEoT0eDIgmT1igBu8qeDaUAYyqCysm1GjeyST4r9UBNKtrvvryHRruFw6Udv7ArR3Pf72zvpLmzLAmeoJc25A=s4800-w800"
+  },
+  {
+    "name": "Pum pum Cafe",
+    "lat": 40.4080634,
+    "lon": -3.7019703,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEcFNqwDAwXJuE3SfpB3D46hmqCkvxy7Ik01Eq3FV2bwmWZUnpIgApB6phjTNyUP66_eLiCgG0BSdVN58Ot0G7scWGZUxsytw=s4800-w800"
+  },
+  {
+    "name": "Ambu Coffee 3",
+    "lat": 40.4138574,
+    "lon": -3.6997539,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNErYEC3kQR651v2j2KF1APO2HoevIEyiTK6jO53OmGh-4uNwH60Z3cFjQYUmWiTKMJRjp7uYIU2llfp7dtmJhMgO1gDzFXOhN_61D6nM1unINW3opbOY-u7LfkMD2MpPIiHXRmgqjYjXO0GY9YZn5Sy=s4800-w800"
+  },
+  {
+    "name": "The Miners Coffee Plaza de España",
+    "lat": 40.4251466,
+    "lon": -3.714018,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFNQyyUBScGxZ8syeBUpkmOS8Fyr8RN462bwp_xTMrOhXDOS1ILHC0NTIKpeJ0Q1ykDrsMW5KEJNmdTsfWX0Kw7uCJrn1afoQ=s4800-w800"
+  },
+  {
+    "name": "Pink Bourbon",
+    "lat": 40.4349359,
+    "lon": -3.679686,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGrTlQTDJumaCXFzPh9qex5mHDupKn81BGpHSiUx7ST5jsaEvYmJr9CHVg1WRnwkEb56-B2DaWCkog0izyTdj2IKqjbEEo01Q=s4800-w800"
+  },
+  {
+    "name": "Nomade Cafe",
+    "lat": 40.4107147,
+    "lon": -3.6993613,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGfi-38_IoLZ2mlX-idQMx_bmxvf0bFGjcbJb57DlJmXHlbcO8lsx1r1I_KGT8GoG5MJE3JzKCKgp3mUDF7qPYMJUMWQ7IwwA=s4800-w800"
+  },
+  {
+    "name": "Literal Coffee",
+    "lat": 40.413128,
+    "lon": -3.6957479,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH1MUlnHp5DMDBXWMdAAJuE2ike5wWTf0Ov9Xk_gTl2dgOfSbchmHRfmpseWtYuyogMnF8rxx6AuuEwvNZIdGivIM_0qgC32A=s4800-w800"
+  },
+  {
+    "name": "ACID Café",
+    "lat": 40.411898,
+    "lon": -3.6949265,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFVQ9xs13puP74Gpv2Domb-G-k7iHef8nmQMDw8lgaTWlMe7z8iIE6dQj5ZWVvLAhgh0mTD6QaD4_KEAMA5YgkMCWXG9Dphlw=s4800-w800"
+  },
+  {
+    "name": "Plein Cafe & Deli",
+    "lat": 40.4694212,
+    "lon": -3.8535255,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFpGdBwEP7mCRgDMoqamxVNs8zV2wKVqoqHJjUjt8wPkBVfsQzfB9ZZSoxK4nECeEcoqvJVXQkm3AElOYa4o-bwW9ZEG5biDQ=s4800-w589"
+  },
+  {
+    "name": "Kissaten Place",
+    "lat": 40.4195923,
+    "lon": -3.6784311,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFgCJgZsU4sivwmiluhYco-tpUm1lwSfUwIeS4-G2SjE8JB2WaX4t1T1mfOs0wDpKYbBDPxQejv8pdoPz8w8XZm7oZXQvKyOA=s4800-w800"
+  },
+  {
+    "name": "Dosis Cafe",
+    "lat": 40.4323347,
+    "lon": -3.703262,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG94G9iqFQAHE1dii2wziaWhOLq5VfbuJdkjOb1DmBnMIrvD5j4EXQlR2wI4wPYxeZpPmd1fhJgoCL4f54PbU6jzQ-1cisoaQ=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Príncipe",
+    "lat": 40.455672,
+    "lon": -3.6768762,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_SCS4n38JEYiVUoDiEQ0B_k1_j2rMkfiZUll5EGL6TWr51-Lh4uL-eaEY9SWBpDH58m0HWgTnfiLubBGcyNlZtc2qt0SwoQ=s4800-w800"
+  },
+  {
+    "name": "Angélica",
+    "lat": 40.4232355,
+    "lon": -3.7073303,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGcmLc-4jjU9iULJ-RwZci6jTrIeca1_0V5pax-hUFYkdlCrqSJyYU1XzSYod_j0dU90cJO80MTchvwPcSvA-RgUBJae2SzbPshirEfaR4Crh591tYDMah3VgyJ1w-hg7h-fHMefUjqCywVq-95Ys44=s4800-w800"
+  },
+  {
+    "name": "Junior’s coffee",
+    "lat": 40.4423161,
+    "lon": -3.6408383,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGsM2X1hhVY7FTJcFLK5GQAUcfUQdToZhs4ucr95kikpqEPI1_Ti-OosjRtRWHCvBNXz6obtGn4lMKEZSa-MoxZbomHiEsCav9qXgLIriSXzCnUzbSRentIyTBeBH0fyGuKf5P3lyloVw0jG5TW544=s4800-w800"
+  },
+  {
+    "name": "Ambu Coffee 2",
+    "lat": 40.425495,
+    "lon": -3.6826311,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEwP13erdpS_v_NjGKuAW9VYD_bYQ4hKssQg6COdK6fIhjLv7Xziz6oSHWMLFth6czkWOTrEtor_ISwp4DmaTdThM_W_QwzV3LbJUuOElXquGOnkgf8t0vcwqBl_ISr28aF3w__GhdTc61ckb6zdi4=s4800-w800"
+  },
+  {
+    "name": "VEIA Café and Clubhouse",
+    "lat": 40.4166441,
+    "lon": -3.6743842,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG8w1krJnDAzudGzVWBtHL41iiVuVvuythpEaK54ana8aKzCTD1h0Qnj2GjYe2ze6xxQLTfc7y8AlE-dFyuW2ZAUfgMGot-8A=s4800-w800"
+  },
+  {
+    "name": "Hola Coffee",
+    "lat": 40.4070207,
+    "lon": -3.6990835,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG2f5gNKyRcqd6SmBO58kN_9X3_9g0UqOgg1SaXAZucv1aj7Vraj1Q2z4ijVvi03vLoIuMRcobxNpbMHSg_6bmpMdqRHcSivgy1kP07qKvaNL23UMolSg6lAmzvaD9HTFDoUaGO061_4qZ3=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Nieremberg",
+    "lat": 40.4478587,
+    "lon": -3.6725243,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFKu-9v5syz9Te3qCSMVWPLtGp5v-iuklmtYpSZE7whPDWr7J6FpVFaQP68pbMXBSAdkQ96c6a68tUX4POAj3SVuClI3dCI2g=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Diego",
+    "lat": 40.4348677,
+    "lon": -3.6847529,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEpRWJ1OEFbis2z6H03rdrYDEh1yFqOja4C9cIfr0jRIAtG5yEh365C_F6vFLKHnzfYT0V2GXmKhefs-R_jkdG0fNY9lkOcBw=s4800-w800"
+  },
+  {
+    "name": "Naji Specialty Coffee",
+    "lat": 40.4316574,
+    "lon": -3.7021703,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF01elNftq7BnIHU180r6iZJi7bsn1vPvx5sULTp2hh0_r5r5YYvuJ-P0OtWFlhb0V-OfMgNI3OEDRl0r7TlPY-Vf-rt1JS0g=s4800-w800"
+  },
+  {
+    "name": "Parque café",
+    "lat": 40.4522801,
+    "lon": -3.6740519,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHYNX-HeTbnoEchczWI_07u7QgvzCPV4HGKBAeDFEmDeYQqcBfisAJrTAPNZkkHpIj7zSgMiMOmVr92IQLG7urZjzqJDvWd7pXX2Fhipj-xDuyx62tOqJMQ4uYwU2Z1EEor8cJybtWLLxrD=s4800-w800"
+  },
+  {
+    "name": "Wilko",
+    "lat": 40.4351757,
+    "lon": -3.7083646,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHgQ1iIZQtu8rwo0Gu2sc2HVxFC6oBGQV2luv2QJn9EK3nQmmHqPuU5gmXxOS6DmkHjAL9SKtREhiJIzgR9t-w3vBcs3VN_lQ=s4800-w800"
+  },
+  {
+    "name": "UNFLTRD Coffee",
+    "lat": 40.4281515,
+    "lon": -3.7094872,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFRvRyq-zZHQpoNGJd_MYAIeCmod23Fk-bdKQNcHCHcEhlKXmCa9lHYEY7oV-ZvnvqtE1FjPtlHJQA4UrACKtPoulluida-Jg=s4800-w800"
+  },
+  {
+    "name": "Placeo Coffee",
+    "lat": 40.4427338,
+    "lon": -3.6975133,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEOkzXFPjm3trtblTiHAC-XPcl3BemnxCJA_ry3YQPAlDZNJXdhDE192oeo719cVDANzX_nE3a8v3Rfw3El2HkQn7o_66ainA=s4800-w800"
+  },
+  {
+    "name": "Lille Drømme kaffe",
+    "lat": 40.3744278,
+    "lon": -3.7250341,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFag0NsNnjz3_cy-mMMaZmBfnR6womALuEL75GanYUPD3v8q58UwfGFNrfGRG2NU1JFmyvlZ7JsXcyoxbF8T9ecoeMubr159Q=s4800-w800"
+  },
+  {
+    "name": "Misión Café",
+    "lat": 40.4242084,
+    "lon": -3.7087872,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF2LfMlkRzTkU6gLG3CUALyLEVAaenaIU37bJm98nU_J35Vd5L5ragd8BTaLLxs7MiBQxfmBLkyFe53nJws4lbZ6_i5RoywQg=s4800-w800"
+  },
+  {
+    "name": "DABOV Specialty Coffee Madrid",
+    "lat": 40.4101176,
+    "lon": -3.6974377,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoGjOnhZ7qgeQOn1rnbu-TTq97CskLuxHhh5wezDQnr27Q55AKh0ZPDnmCPFIAnRc626YGOLbAWC1_3zDI1-x6fvCuRLOK1k5LWzWNVByVMSgYMKZgul86-mWZPJwc_so97JFGdypBbW8uaYbxx55H=s4800-w800"
+  },
+  {
+    "name": "Ambu Coffee",
+    "lat": 40.4242162,
+    "lon": -3.706317,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFjix0D1lKlzjwWsgfiEb36jtOqTLxO5ycWdrXOURr9PowDZVH6Y93vqL-f1qeZufSIHF7vDHUIeODR3DYmScV1sXcypYiSg63RAh8mttQRvS4kNMmZF-QzqApz1vblrM8gwbN8DJNRYUL1=s4800-w800"
+  },
+  {
+    "name": "Kafeinnato Specialty Coffee & Food",
+    "lat": 40.4262289,
+    "lon": -3.6795195,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHR40Rvbd_u0e5TpFFmGWznewcrZNOt_85G0mEyVPLfqREDv0DLXaA_afhwb1ZorBsl6UTuc5JoPw8cvSKIy-RC79TaSfwRRg=s4800-w800"
+  },
+  {
+    "name": "NEPO CAFÉ",
+    "lat": 40.4438118,
+    "lon": -3.8078767,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGmn-GHz0QGzFoxBT0DXiiGZhQ22_YNPoyGS7C33S-8EOybbqgKxeSnNCUxetaEJ3ZZ6zZYiKmdkVz146nIL6Hbr5SXLu5VGg=s4800-w800"
+  },
+  {
+    "name": "Ochocero café lo-fi",
+    "lat": 40.4281376,
+    "lon": -3.6908748,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEaKjsdUhs5Rv8TJwrwYDYjGzwFO57LpjOpewDVIwbHui9ieZmtUtZ1UjU5-6b3JNq0WDmb_ufjd4-5c7XDyM-Qzs_lcaI1C28jeCQRu34IiqsMx_rCM9IxpMb0fuOy_18rwxJFph8Y5NzLDAT1sFwF=s4800-w800"
+  },
+  {
+    "name": "Baya",
+    "lat": 40.4384503,
+    "lon": -3.6947149,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGNU06HIi0qvtThBzIvSzpGPiSiJkTo38hi6OETAUSaNVX9iwDxGeD_PsxG1aZCze1-ueOZbzpkUBtoklZjZ5SkDGMP95gdLQ=s4800-w800"
+  },
+  {
+    "name": "The Fix",
+    "lat": 40.425722,
+    "lon": -3.7149933,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHzJt4IFW6xRKjWijjIJtD78S62juAbe1uddIVv2dDQMS49cSedlziHMycZJB_1DjehDzALTYcSQiGCt7-XCDKmmWjeSEYfRyXI84rYyWxdq-0IMvSKGzU9c9o-X29dleJIhN_SoKdmZFNijTNJQzHc=s4800-w800"
+  },
+  {
+    "name": "The Little Big Cafe",
+    "lat": 40.435226,
+    "lon": -3.712741,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFu-UlZ0CdZVJ--MG1lGSqnxv4SF3CsJgiN0xVVBPGVVM3X2fuHfv9mwgUaD_hpEwWbjmz0yvfDuqTpHhnuhXUHNT_f3Fd-Pw=s4800-w800"
+  },
+  {
+    "name": "COFI.",
+    "lat": 40.4292923,
+    "lon": -3.7076772,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTPxDFFXPR7lQR8eKG-52sLV2tU2ODNLnw-iPLkfhpK5oNXV5x7fhp6JzrO1A8cUBN2_kz5w1jHdFZCReabS33kFx4BpDKYA=s4800-w800"
+  },
+  {
+    "name": "Trava",
+    "lat": 40.4094565,
+    "lon": -3.7123506,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHghcycPGtUNKmQK6l2l-XQS03gGacd9fAlnL06Jnb-_w3zsbWX5WOvgQGVuD-TtMCLNaMpXd5DYBAXdM8k7sc0xAh3DcqZH8XimkfZgt5fx8oICtdRG8_U2MxIpf6Gsuj0ZAaVzXnYQiit2A=s4800-w800"
+  },
+  {
+    "name": "Dot Café Bar",
+    "lat": 40.3960039,
+    "lon": -3.6988582,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH8YoiN8xOI_D4njPN-ixosRfWBKLKbgghDr5QwgcNVdXKiTlSTvfUcgiMv3H3p5UVMhjpHHR2l1EXbcxp7Fqn_pda57ud5_lIjTLCtVOwvw0GQX1JcvtnIcFhoYxdsmOvnNmTJ-1w_DnA0yFKiECP1=s4800-w800"
+  },
+  {
+    "name": "Slow Café",
+    "lat": 40.4101444,
+    "lon": -3.7115889,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHIOok2aWn-eegQekiyZhr3xmW5QsiKH8R9d03A8PEQaYDbsTIWmyZb0dc2dzFpG-woHBEHXFhkA_sUoZMY1JwN6I_zdUxzYw=s4800-w800"
+  },
+  {
+    "name": "Aromme Boutique du Café Madrid",
+    "lat": 40.4302803,
+    "lon": -3.6720581,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFBSrwWHnmYNclLG0UR2tX5zTRp8EYl2hYMZH_BmYfbOCFag108XGirS7ajR98McCA4YTPmcOXSt-GwCkK4OF7asPdiXFw6-A=s4800-w800"
+  },
+  {
+    "name": "9 Lives Bakery",
+    "lat": 40.4339292,
+    "lon": -3.7068202,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFiFX40rCb4KYNn93R9Z2VjJRI_npA4usAXriqWT2Wb4ONOEEREWKypR3oH14TBXxNDY2Bi2LfbNl2PnSg6h1SMkFWa_RtAjQ=s4800-w800"
+  },
+  {
+    "name": "PANDA",
+    "lat": 40.4359827,
+    "lon": -3.7010508,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGOMU_VqbsjrQzc26Tae6F9hUKm6gbUa_EjYVbewtmQevs7kiZt6hQpMx3DqWQ5SuTl9-6gd5wyJ3ZWeyOHRW8XjQVWPJumkw=s4800-w800"
+  },
+  {
+    "name": "Drømme Kaffe House",
+    "lat": 40.3967481,
+    "lon": -3.6929007,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH-WSe2vqa_TPAISKIDNqg_du6lOx2FzWjCMMWc_z0EDA_GylxciaXPwz_L6te-nDkcdhbmcBwi0mQrLCXvUadek6DT3OvTpg=s4800-w800"
+  },
+  {
+    "name": "Hey My Coffee - Alonso Martinez",
+    "lat": 40.4283895,
+    "lon": -3.6956804,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqiz00qwB04lFwg3ksrqzP-7NWopP_n3HMzix7xjEhB58bKL_ZOr4sUTHS6F0nxahux3P3hDTIAOX3wgT6j2_Y6TW9O10Piw=s4800-w800"
+  },
+  {
+    "name": "Botánica",
+    "lat": 40.4125036,
+    "lon": -3.6968553,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFTDvyBNeHwjWJoFjfA-hLtJBp2V-flCZPyoN_FROB_eljwm5Hs8hlHRsq85LTbaEkzCUqfhVazso1jSwYmTUSuQpDby2tjeA=s4800-w720"
+  },
+  {
+    "name": "Utøpico - Specialty Coffee",
+    "lat": 40.4328503,
+    "lon": -3.6800421,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYLFr2JP6Ekd3WPuhlCp_Pl9mSBguU8NizGNuHWyospYJre3Ng-YqZeYgY8D17eaRjTbYMjHXj7u1HNVUL_5_VVSUlg_STrQ=s4800-w800"
+  },
+  {
+    "name": "Sood Coffee",
+    "lat": 40.419273,
+    "lon": -3.6765259,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEGz-9LDW1v1JaF2UV7aLfTFALt1bUA9TtSvwGcF6B2RBf1zeGozK-_xNQobZTpHTj9GLRKbJ_0-MyJBjmUhXbHCeFPrGpDQ0uZtLV3zIL8iUY8CZegnNs6FUFo5GHV5ogJ-SzGbiirRTCsaWVPKpNE=s4800-w800"
+  },
+  {
+    "name": "Ōfi cafe",
+    "lat": 40.4583893,
+    "lon": -3.6259522,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJ21NUun7YW4cc9CQBkKC3BvsuhAjnCdxfdZs8lAApmqVR9Sm7JNahMfNIFnuFVYGO-66mnS2IhSg_ETP-p6mjMR4hrGochw=s4800-w800"
+  },
+  {
+    "name": "Bucólico Café",
+    "lat": 40.4207502,
+    "lon": -3.6982084,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGGGUGCIzyOcuXNDOwQn6HuIubayBTo0zbQONnxF9H2wR4iBKDZ-4W7ypC-8BFwEz-ZzThjwtxqjUjyW5emVW37O1WRXhoTVhNeGUt6odQuYfxruEhsE0kVOB6m7pEv2Mf1SwKqh_g7zVPu=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Almirante",
+    "lat": 40.4223943,
+    "lon": -3.6945469,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH2nuOXBQftCLDpmLboRM1H1-KfAy8t_cMUty2PwRRz_LEAoeQ-S17nO17YQxVMGUk_PYA5-H4CGvRt-kh1P_-2PkVNCFteVA=s4800-w800"
+  },
+  {
+    "name": "BRUTAL COFFEE",
+    "lat": 40.4144218,
+    "lon": -3.7021457,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHaJrgiQ49DEyApm-In_yLYjaJqaSnot-A0dPcR_QAuA0n09hja6w4PAv1L7f_Of7WvtRAtVug2331i_wRoDsdOMuHxwoLh6A=s4800-w800"
+  },
+  {
+    "name": "Roto Café",
+    "lat": 40.395108,
+    "lon": -3.7322726,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH4CXayn55pBOs32UNebbi-9e3ax55iJcMdbOBxRoVyTvq6g50OR0v9Cc_Eh4ZNvrQAmYEVF-geyKM3dwcsJbHT4uxDrpTyXA=s4800-w800"
+  },
+  {
+    "name": "Bô Coffee",
+    "lat": 40.4405396,
+    "lon": -3.6977732,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqERnOPr-lCb7ob8JcrlTNhBGetn_3_Ofv9hPc-0mQrehwhScRjSBurWamUNxH_Rr5kgd4QtoaoPuFVLClCl6stL3CbMWIJm8g=s4800-w800"
+  },
+  {
+    "name": "Nuna Coffee Shop",
+    "lat": 40.4359387,
+    "lon": -3.6963175,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGAHCB8Veoq4HRxy9hzQrx24WzMqKSxBdClqeyClX-V0KePlXk_xsEtD_iHvXaHmMhp9x9rwLSPZXPjWPHgFqTDt9XblQXL1q7oZo_BO-x6Yw5OH1FE2zxarbkHsnFbk6IrZVVAyRwhyQ=s4800-w800"
+  },
+  {
+    "name": "Santa Kafeina",
+    "lat": 40.435894,
+    "lon": -3.700119,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmlEDoyXyEPhY5V-KHjfLjHdW-Bl59HarHR8eRPCteo_7KLLU2fAlgftoa4hrzSHp1GJ7-2OwTXNIJTVsMjmCAccZ116Rv7YHTW2QuUSfhtZxz9a1C0f1g09W0-pZmc6bX_05QJEB0nIU4=s4800-w800"
+  },
+  {
+    "name": "Green Coffees Roaster",
+    "lat": 40.4508788,
+    "lon": -3.7094777,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE0LgfS6f9k6oxtL7I1uZVb6-1lRjH0kli03cYn7reJz2Qb9e7YgOC8pi4-h9bHNY1PQsL3h6gJAg9wBVj749fO8TSmrCx7Lw=s4800-w800"
+  },
+  {
+    "name": "Pan y Pepinillos Café",
+    "lat": 40.4237639,
+    "lon": -3.7027066,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF8jXBNfUtHQ_v-FrAnM9p_-LdmM5FmsH0MFzlXTwcosZZDDJSFgtLJKxzq6sItXo82ZBwrMFgYSpM4iwWlaZC5fvlD0NLFEg=s4800-w409"
+  },
+  {
+    "name": "Etual Café",
+    "lat": 40.4121117,
+    "lon": -3.6939768,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGHYihQvCxNzcwmmzfe0LS-oCFkwlUD7V69iZGBXYt766KTz7ERvZLPZw0urNzCcypQ38B5IJQnJzhBz-F9leqU-uz1jo6G6RhsxmyoEgk4Z8pen6TBp8Zzs8eNet6OtSZLRVE5w7HsXsMhH-MePhE_=s4800-w800"
+  },
+  {
+    "name": "Pastora",
+    "lat": 40.4109492,
+    "lon": -3.7130563,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEbnD6K5NxUvVeZXqO9JkofvNjeK2QJgphxc_DqcxdQSrdWt3ajZ7vDppiGX-8Ay1wsCiyXXSCuvrpt1fjdRIYdSOZ71TrKWw=s4800-w800"
+  },
+  {
+    "name": "UMAMI SPECIALTY COFFEE",
+    "lat": 40.4123909,
+    "lon": -3.6938576,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGtaOIAih4kt46QE3MsDhWDoWt7soNHrdCAQaLY84Yz2G4_b0D4qfEnrJsv5dF2rt7nNf_q2SY1kb0voQzuZ2dHiKlZGWWU3w=s4800-w800"
+  },
+  {
+    "name": "Nica Specialty Coffee",
+    "lat": 40.4476836,
+    "lon": -3.6722272,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGogZJbBmZ_msoejm_TauZw4ysDl3uhZIRF1P-yxwTa1SL_wFKSanFo30beFnU0IB8TC0LPrd80Z3pS6XCr--2nl47biHOJbg=s4800-w642"
+  },
+  {
+    "name": "Oways Café",
+    "lat": 40.423565,
+    "lon": -3.7087139,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHiD-TlD0QxwdSkpHxlrD5zlYJ2pepX0yYpilvrsIZL7i3pz9BhrQIGV262-nuNDqCBBBZrvtGaNp9IMqcuYp2Bd--LIffqxg=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Conde",
+    "lat": 40.4271357,
+    "lon": -3.6753246,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEniXatv2tNoLKPZWkulJPnGFgyRzs_0XIaTMgiND4wDQD9cBvogcfHccKMogK3oUj9Y3OXLxI7-1ji7UTM5I7SI7ECt6gKzA=s4800-w800"
+  },
+  {
+    "name": "East Crema Coffee Alfonso X",
+    "lat": 40.4337943,
+    "lon": -3.6922339,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFVb577xDtZpyOtpq50zhNIEE7ZQg2E1POFKOFEEF4Na7QjmRcubCget_x3HNlsP4Ai0hcFeDQ-l__Kup8OiO9DrOF4-eQFqQ=s4800-w800"
+  },
+  {
+    "name": "HanSo Café",
+    "lat": 40.4235109,
+    "lon": -3.7026311,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGGHTKtm5UKylm-wGTCm3YkeKZAz2rQyDdLtFkRpnNMWqOx4gBS1Nvq_SN8d3Y4lqYNcwZCwOI1EoEKZhlaasQa012ZcLRmqA=s4800-w800"
+  },
+  {
+    "name": "ÖSS Kaffe",
+    "lat": 40.4307388,
+    "lon": -3.6990571,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF5FEGEasvUOuQupySlvDXZxIdmBvbLaZQlvvPp0yeaqHPcQovdkml-w4pbP1WHSWSxULHHLnRp-8c56077HjV3nDz1QUD4_A=s4800-w800"
+  },
+  {
+    "name": "Cafeteando",
+    "lat": 40.4331605,
+    "lon": -3.700612,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE0IArdJ7W-iXs-oyr5mpfQiAKpapE100YoOW-bPqVcik2YAqUzOHxTm7rnfl-QagNuOxE2eGNEjNOTR-QN5lM78GidsruFqw=s4800-w800"
+  },
+  {
+    "name": "Toma Café",
+    "lat": 40.4264615,
+    "lon": -3.7059434,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFV_tR4nCPwX6RLHlN6HGvg8ISHmU6XPdM1QjH6aJI8yhYxQ_5XvmseXOXJgnH_5vz__urI8HDOPwbf71krSWMdAKaMSHbBvg=s4800-w800"
+  },
+  {
+    "name": "Café del Art",
+    "lat": 40.4101495,
+    "lon": -3.7070647,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHfvizNxaJtZpaFLc_WtzojDgQvcTqQMmUZbUhytYuKWQqZ_7BOEBD0O4LCeogN6ripPLp5W98eCMLhTHx28rr4MHNFJ3lEUw=s4800-w800"
+  },
+  {
+    "name": "Syra Coffee - Santa Isabel",
+    "lat": 40.4107823,
+    "lon": -3.6980992,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGcj-hWD4iZH_CrsuqIwttuTqJu6OTKiinCrLIrHiKJCyONZWGO_TSQmAAcwNEa5YjxU7ApxqDPsrM1fUoWCZs-uBpLWIgoRA=s4800-w800"
+  },
+  {
+    "name": "Religion Speciality Coffee",
+    "lat": 40.4375874,
+    "lon": -3.685069,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGkFImLzG62LzVO-UHJdHD1tOLzUxnOQNVDoJyUBCCDJ9A3MPnHwEiP5m4AMxSaSNjqN4vilkAerS09WnXXLfOh2zwN24yQJBDqO-cCFDZ3-XWD0_QNQJDNCKbPBMQ1ZoklYSxS5HLta9QyDqbNvugj=s4800-w800"
+  },
+  {
+    "name": "Hanso 2",
+    "lat": 40.4186988,
+    "lon": -3.7084173,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHaoZ5L5-ZU4zU-qWYly-VO8sD8r7Czqq9adtPghBcf2U4E3b3wK6hBgi67sLKCgG8lQZhCw9nD6eW-czCHn4yTK6XQXAGznWfpf4IpmZiwwKFD9Cgrc4GLMnLbKa0fd5FXhPpy34qw-gv0=s4800-w800"
+  },
+  {
+    "name": "L’Origine specialty coffee",
+    "lat": 40.4116315,
+    "lon": -3.7051227,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_nw-F_Nz_SH0IK3vWveyD-BiA1dhmEYYFFolKGCnJRfPAD5fFfFw6VI593Ie6LupajZeoopzJNAEmJZxBHlqocML_tWBqjw=s4800-w800"
+  },
+  {
+    "name": "Sistema Café",
+    "lat": 40.4118346,
+    "lon": -3.7146641,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGD8TXf5O7hEJV282F90qvjJsEeqOBMldJw311C8hFqoATS9lsKSXUi94aaR_6C3IpGbpd6nRxShc6PB5ZB0frETyB5TIiIXg=s4800-w800"
+  },
+  {
+    "name": "Pum pum bakery",
+    "lat": 40.4113846,
+    "lon": -3.7039369,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGksGOpP_FDkpbWXyynMBaHaJJ9ThxebPDOE7PSd_tnmPNFMihRrXoL1ACJzyE1E9v72riFsF6ICaKp_XFoFuXEYk-jdM-1Cg=s4800-w800"
+  },
+  {
+    "name": "Toma Café Olavide",
+    "lat": 40.4330877,
+    "lon": -3.7001164,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG-Fm2paZ4PrUtgMdoO2_cq__oO6vnTGoNzUI7nGK2QB9-2HsHjsf3F7Wkkxy9Uzc69uOc6_HuLD3BxXdZp7OjJPoJn7at2Jw=s4800-w800"
+  }
+]

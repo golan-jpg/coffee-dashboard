@@ -1,1 +1,112 @@
-[{"name": "AUPA Specialty Coffee", "lat": 49.6021708, "lon": 6.1369514, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Curious Buds Specialty Coffee", "lat": 49.6126536, "lon": 6.1276459, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Intense Coffee", "lat": 49.6197502, "lon": 6.1199926, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bloom Coffee Shop", "lat": 49.600837, "lon": 6.1280625, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cereal Lovers", "lat": 49.6127394, "lon": 6.1302348, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Feierboun Coffeeroasters", "lat": 49.6133193, "lon": 6.129239, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Florence Specialty Coffee", "lat": 49.6022699, "lon": 6.1269483, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Intense Coffee", "lat": 49.5989302, "lon": 6.137677, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Vitalenta X The little bakeshop", "lat": 49.6119397, "lon": 6.1325301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Knopes Café", "lat": 49.6127334, "lon": 6.1275475, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Do for love", "lat": 49.6114135, "lon": 6.1263634, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "AUPA Specialty Coffee",
+    "lat": 49.6021708,
+    "lon": 6.1369514,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHdH3M18SjRGwCFOi2e9VFspqa_Uh-7_iozJbRQFgz3edZEsBdarByworLX6Bm2ywAt2eTeh-8wsP2jBz_AKXQPzsR1Qmg3=s4800-w800"
+  },
+  {
+    "name": "Curious Buds Specialty Coffee",
+    "lat": 49.6126536,
+    "lon": 6.1276459,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHNuIUq4qLrsSrmXy5Ll5wWqPtS8APNWBJJQXKbGE0ob9bH12T2UDyfz76jiMuROPX3T2_FTkMuLWjxMxCKgBoDaNB2Tn3lnAmwOVKvkaVnoZENO-wfLEjLnr30m5AYU3zSLPGcDUIb2-M7nQ=s4800-w800"
+  },
+  {
+    "name": "Intense Coffee",
+    "lat": 49.6197502,
+    "lon": 6.1199926,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEkyNoXZWYfPAw0p-6_EB3w25plEkPecitwmwSbuiGaxFJI7A45Y4Zx6s6jkl97SsU4GQ_GQ2sCwOwsXW3cG-rAODKVzd88u97SBPZQRz7PyoodJEwI2R4e56tVdLjcNplOtOzbjpxHpIWy1w=s4800-w800"
+  },
+  {
+    "name": "Bloom Coffee Shop",
+    "lat": 49.600837,
+    "lon": 6.1280625,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHGYE9XFRYQHc-Jfed3mO_IKt_wvQHTcNK9ouCBBbLUnoTfIoUqJnDTjLkBKbsI_BFSzujyLLpDSAbyx4RnvWt4u5FPlncLfBk9Mx-QGTVEQyw6vmKHpuum4oB0cdaq5MNZYQHVCLxTR3go=s4800-w800"
+  },
+  {
+    "name": "Cereal Lovers",
+    "lat": 49.6127394,
+    "lon": 6.1302348,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG5USpGMGSRS9pmPp5242hZJIv0j8d4IX0fKN3MQFnSuC9bIXYjCvL8ei0P4KfD-Z2TXbo84Ufsyqf10CiHLXeWRwLpQQlsJw=s4800-w800"
+  },
+  {
+    "name": "Feierboun Coffeeroasters",
+    "lat": 49.6133193,
+    "lon": 6.129239,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFbdXG9l4T9hwikRefFyJRQmsh5jcfs9bf9J6LjW2gR4RksSX0eq3aFkgkldav5zIkYUiBhCzVagESWHHCP7ARZYIezKr8OZw=s4800-w800"
+  },
+  {
+    "name": "Florence Specialty Coffee",
+    "lat": 49.6022699,
+    "lon": 6.1269483,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFpr9UJXo3N3lAcS85afirnn9pNi1qfBD5J5GqDjfYdc5sDDdbqa3ocRxLvDUCFNjJlQHAOlkXklCce_KWceq2u17eREZQ01w=s4800-w800"
+  },
+  {
+    "name": "Intense Coffee",
+    "lat": 49.5989302,
+    "lon": 6.137677,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEkyNoXZWYfPAw0p-6_EB3w25plEkPecitwmwSbuiGaxFJI7A45Y4Zx6s6jkl97SsU4GQ_GQ2sCwOwsXW3cG-rAODKVzd88u97SBPZQRz7PyoodJEwI2R4e56tVdLjcNplOtOzbjpxHpIWy1w=s4800-w800"
+  },
+  {
+    "name": "Vitalenta X The little bakeshop",
+    "lat": 49.6119397,
+    "lon": 6.1325301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF5j18WPhmcEtwDzayM_6NUH07O1ll0j50XzdKNMR7WvxZfFyS_KYJKSZSY9xpHJ0JRIZoPRWHardDU6f5VvP9y99maw91x4NsQxJvmUHmNl3WAeR0XC6s8oa9DRucAzw_y6F7L3X3Qb7SW8MXS4w4b=s4800-w800"
+  },
+  {
+    "name": "Knopes Café",
+    "lat": 49.6127334,
+    "lon": 6.1275475,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEP-F4IWpJ47gm4-2kuNyymXom_YDPrjdXc2QcDc5v8jRforbq6T7iMhQHHsr9jLauyMHxXjS4klK9QzNp7X2qYvJP2vRq3ng=s4800-w800"
+  },
+  {
+    "name": "Do for love",
+    "lat": 49.6114135,
+    "lon": 6.1263634,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHOxDEwb7vqWSpb0cLJGhnaHSXg2QtSCbZPifiYI-WBN8zA_00Mb8ARBYNOu226gx_8aqBzUC3XX92fQKC9DvrQWbqEKxdm-g=s4800-w800"
+  }
+]

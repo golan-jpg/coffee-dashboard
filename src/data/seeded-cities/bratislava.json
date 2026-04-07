@@ -1,1 +1,912 @@
-[{"name": "Kauka", "lat": 48.1465675, "lon": 17.106123, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Soren", "lat": 48.1464541, "lon": 17.123168008, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Concept Coffee Bratislava", "lat": 48.1471531, "lon": 17.1318265, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rano", "lat": 48.1527766, "lon": 17.1195079, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kolektív", "lat": 48.1462156, "lon": 17.1243241, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brixton House", "lat": 48.1442074, "lon": 17.108359, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kávička u Janíčka - Blumentál", "lat": 48.1535173, "lon": 17.119129, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mimoza gelato", "lat": 48.1453897, "lon": 17.1175119, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kofi.sk", "lat": 48.1673031, "lon": 17.1716691, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Liv a little", "lat": 48.150453, "lon": 17.109311, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kávozrnko", "lat": 48.1479502, "lon": 17.1110435, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kníhkaviareň Foxford Obchodná", "lat": 48.147186, "lon": 17.109933, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Baryk", "lat": 48.1552705, "lon": 17.1160743, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KAVOHOLIK", "lat": 48.1686068, "lon": 17.0743224, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Freddie I'm Ready", "lat": 48.1646302, "lon": 17.1367836, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Strettko", "lat": 48.1500807, "lon": 17.1162004, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaviareň Vták", "lat": 48.1490372, "lon": 17.1172152, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Temný OST BLOCK", "lat": 48.1453774, "lon": 17.1147446, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Le Miam", "lat": 48.1486475, "lon": 17.1169081, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KAVE kaviaren", "lat": 48.148669, "lon": 17.1130314, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "JOVIPOINT", "lat": 48.1492097, "lon": 17.1324483, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Žufet", "lat": 48.1774448, "lon": 17.074157, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MOGG", "lat": 48.129225, "lon": 17.1157786, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Grão", "lat": 48.1427171, "lon": 17.112275, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Miners TownHall", "lat": 48.1433817, "lon": 17.1087185, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kníhkaviareň Foxford Cubicon", "lat": 48.1583037, "lon": 17.0690732, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pekáreň Háj", "lat": 48.1192903, "lon": 17.1147505, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sweet Spot Café", "lat": 48.1473682, "lon": 17.1414237, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SUBO bakery", "lat": 48.1482011, "lon": 17.1068401, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Matsu Premium Tea & Coffee", "lat": 48.1489783, "lon": 17.1168007, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ROH", "lat": 48.1597525, "lon": 17.1298943, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Triple five new spot", "lat": 48.1621214, "lon": 17.1242286, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffia Cafe", "lat": 48.1452588, "lon": 17.1375207, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KATKAFFEE - coffee house", "lat": 48.1481563, "lon": 17.1063213, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MONO café", "lat": 48.1497788, "lon": 17.1267216, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Zákusok - kúsok dobra", "lat": 48.1465899, "lon": 17.1056649, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "6:57 a.m.", "lat": 48.1413857, "lon": 17.1121726, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SAY HELLO - specialty coffee", "lat": 48.236083, "lon": 17.0361189, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "MERCEK CAFE Coffee Shop & Chocolate", "lat": 48.1531761, "lon": 17.1242236, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lot Roastery", "lat": 48.1495949, "lon": 17.1171236, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fach", "lat": 48.1427109, "lon": 17.1065869, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Velikán", "lat": 48.1494967, "lon": 17.1115911, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brew Bar Café", "lat": 48.1676122, "lon": 17.1534482, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "FERN", "lat": 48.1542909, "lon": 17.1343301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jungle Blumental", "lat": 48.1557552, "lon": 17.1191673, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mandla Coffee", "lat": 48.1404668, "lon": 17.0968343, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rooster's Corner", "lat": 48.1581901, "lon": 17.1279853, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OST BLOCK", "lat": 48.1406307, "lon": 17.098592, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artelier", "lat": 48.1443562, "lon": 17.1177174, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "OST BLOCK", "lat": 48.155286, "lon": 17.1233904, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Korner kavabar", "lat": 48.1351606, "lon": 17.2060034, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Opera", "lat": 48.1420199, "lon": 17.110264, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Michelle Specialty Coffee Bratislava", "lat": 48.1610593, "lon": 17.1225585, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Just Lovely Café", "lat": 48.1968808, "lon": 17.0296013, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lab.cafe", "lat": 48.1446516, "lon": 17.1115288, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hrncheck", "lat": 48.157064, "lon": 17.1259093, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Buny Bakery", "lat": 48.1476202, "lon": 17.1258697, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "café suvenir _ gallery, design & art", "lat": 48.1413667, "lon": 17.1122023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urban Bistro", "lat": 48.144454985, "lon": 17.106615454, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Triple Five Roastery", "lat": 48.1750534, "lon": 17.1550632, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Otto", "lat": 48.1444432, "lon": 17.1180043, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blue Mondays Coffee", "lat": 48.1445274, "lon": 17.1156023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Volavka", "lat": 48.1511304, "lon": 17.1390721, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rooster's Corner", "lat": 48.14924, "lon": 17.1126753, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Urban House", "lat": 48.143651, "lon": 17.111183, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Svet Miriss", "lat": 48.1742116, "lon": 17.1270321, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "AM Coffee", "lat": 48.0926604, "lon": 17.1156991, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "black. Gorkého", "lat": 48.143467, "lon": 17.111947, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Triple Five roasters Cafe", "lat": 48.1509907, "lon": 17.1095256, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oproti", "lat": 48.155533, "lon": 17.1410451, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Giselle", "lat": 48.14258, "lon": 17.0977591, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Čiary", "lat": 48.1437875, "lon": 17.1109288, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brew Me", "lat": 48.1687824, "lon": 17.1295151, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Figafood Bistro", "lat": 48.1436132, "lon": 17.1100043, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mandlove srdco", "lat": 48.145484, "lon": 17.112498, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pasteleria", "lat": 48.1423995, "lon": 17.1081027, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pán Králiček Priestor", "lat": 48.147786882, "lon": 17.126716599, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kníhkaviareň Foxford Nivy", "lat": 48.1462892, "lon": 17.1288961, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SVÄG TO GO KOZIA 22", "lat": 48.1474948, "lon": 17.101641, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sweet Beans Roastery", "lat": 48.1478903, "lon": 17.111368, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Jungle Sky Park", "lat": 48.1442162, "lon": 17.1254091, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Goriffee", "lat": 48.1498698, "lon": 17.134948, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kávička u Janíčka - Železná studnička", "lat": 48.1761858, "lon": 17.0747652, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Miesto Rozkvitnutá Pekáreň", "lat": 48.1497796, "lon": 17.1143569, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "black. Trhová", "lat": 48.1873711, "lon": 17.0391095, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Schanz café", "lat": 48.157739, "lon": 17.1222987, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kávička u Janíčka - Kamzík", "lat": 48.1829543, "lon": 17.0986284, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "FIVE Points", "lat": 48.1420581, "lon": 17.1067382, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bajhart coffee & more", "lat": 48.1511449, "lon": 17.125348, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Emil", "lat": 48.1449394, "lon": 17.1078899, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pasteleria", "lat": 48.1434075, "lon": 17.1102227, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Kauka",
+    "lat": 48.1465675,
+    "lon": 17.106123,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHh95qldN8GmgYrqKfxqdVjZuqUykcBKknng1JghWAqpYzieLmhociL97oxsRiOXic70tEwzyMPlD90OPadCxT5fIfeBvrNpg=s4800-w800"
+  },
+  {
+    "name": "Soren",
+    "lat": 48.1464541,
+    "lon": 17.123168008,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFtkL6WcqsQBukjl1-RuSZZ9ruFMqI7ey6ulWu8eIARRud0KmmBB1G83mEN1w2MsdNNtf8EBBMF3JrZavM3N2hQ0u0fJ0F8Xw=s4800-w800"
+  },
+  {
+    "name": "Concept Coffee Bratislava",
+    "lat": 48.1471531,
+    "lon": 17.1318265,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEym7N65iZWUO0JYTMm0-PPzVjU7FMY3s-iu_CFHH9aUolpoMZppnk5bw_7wPrj1KbRCFV0SjQAt55lh3sEvGLzsDA2_dm2dQ=s4800-w800"
+  },
+  {
+    "name": "Rano",
+    "lat": 48.1527766,
+    "lon": 17.1195079,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGC0y2l72D4qCFcPSh37RaEBNbFXIMWHxoPeEI1ukRPyFN2PMHDzKpVjCHuaFbch9wNGaJqEwaXuutbJsN61SCEbkvnGi3wVYzHB4jHsQGKLclUBNb9gzTB7GRnFCR62zWzIAeFwQiBT8dFWc9c2bc=s4800-w800"
+  },
+  {
+    "name": "Kolektív",
+    "lat": 48.1462156,
+    "lon": 17.1243241,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG8Jy4ZsAH1U0jvWRnAIHgM88sWGz-SxHGeFyB_hQH2BzlLH997I3J-Rvu9b5HomPTfymfTpzfOUk53PSTVrHfnm93kcDLoBw=s4800-w800"
+  },
+  {
+    "name": "Brixton House",
+    "lat": 48.1442074,
+    "lon": 17.108359,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNET060FJVAoFwEuJkXxrlVnxC1FZSviBNaqQ5kJb0IcfMBZStayqBKxn6kYGo-kygJWIis3dFBMHvFtycwKjqe1vqZ0NiZ7JuFPTrY-1Y9GI3XUZYcIg497J_kISTellgpxTmr1ZX81Upc3F5Fuqu59=s4800-w800"
+  },
+  {
+    "name": "Kávička u Janíčka - Blumentál",
+    "lat": 48.1535173,
+    "lon": 17.119129,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG6ZXaJBUyrDG-6sF2X3ZE4RzT51jHa1y8LNikiPSJ9wGRELOugO_QFUqg4ORv6q04cGjc2NvlmHNI13hEaT6A3cvMTzad5aTpwJIDJHhIuQH5E0JI_I7pVQthrQPHLePQ73xL2qDzOTPm8fYMJNfPF=s4800-w800"
+  },
+  {
+    "name": "Mimoza gelato",
+    "lat": 48.1453897,
+    "lon": 17.1175119,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHKkfhl_Yh0AAlmqvQR8maB0E-sJR-1t_OM4kvJX7l4bsZU1owzqnw5kb8rRugxv2kdGg_aqPfD7fve7L0AUH-uJuPR9dcDDQ=s4800-w800"
+  },
+  {
+    "name": "Kofi.sk",
+    "lat": 48.1673031,
+    "lon": 17.1716691,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4Zb5MNmTAPg90B1xfwe8Dj9RwyJ-lVh8uum3qG6m2L9SKbogcSJTH6bUkFJbuQzh-Vz4F9Inf3Wna2D7vyUT5rWkQw_UHy0GoealIThiMx4a5lL1BfII7TYK0yIRlCoKQfkoMflMTjQM=s4800-w800"
+  },
+  {
+    "name": "Liv a little",
+    "lat": 48.150453,
+    "lon": 17.109311,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH2KJycsSatKGinH-CJUrF9NndhUr7oQcV01X2yi_BTXPFgFi0jUtEikNWNBQFibQ8ya-GA9i_2V7CGAqS9mYqwiQq5BrNVQQ=s4800-w800"
+  },
+  {
+    "name": "Kávozrnko",
+    "lat": 48.1479502,
+    "lon": 17.1110435,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqELhI_VFT17aFCGuhdDWP04y0kbS_OQm3yj07jpyywQ2tPY1TO7zpD-6o5G7JNmbmodVm4RIfETGIJcbeQKc6hDWZVcbs9pYw=s4800-w800"
+  },
+  {
+    "name": "Kníhkaviareň Foxford Obchodná",
+    "lat": 48.147186,
+    "lon": 17.109933,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFX7AnlHo4LsOZxsA3qrQk_c8FgAwBvInXl3NZfTvn0r1CFGA-bhLs72EsUzXOO93LVvbNxkTt1_BIYK74hr8bS2rckiVIQHg=s4800-w800"
+  },
+  {
+    "name": "Baryk",
+    "lat": 48.1552705,
+    "lon": 17.1160743,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHW5XgEiOxHT6gZ8pgA9aJn3RI7A0Pq49ODV-oSE79MiIHwsfhXeLLy_KIzHmdIsxL6EAgWUuuDGkjeInf1RD0W7HdcA18m2w=s4800-w800"
+  },
+  {
+    "name": "KAVOHOLIK",
+    "lat": 48.1686068,
+    "lon": 17.0743224,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGUO-kxaFd9Pk0Oe4jQQ6Kdv4dWklkOK9yEEGGpti8dZVzbxHDklIipvba3-SuBB6ufUoKRjwD-MbI6Xfnbh8N3kfyOFvAtfA=s4800-w800"
+  },
+  {
+    "name": "Freddie I'm Ready",
+    "lat": 48.1646302,
+    "lon": 17.1367836,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG1rXadHYuhVCVALrRG42sXuLfCJQhR9aSFedyvLzFq3g1_xyRdD_gyHSO6hp0qNL3D8UIn3KVwqf2TXR4liXNFtL9v7SsZwA=s4800-w800"
+  },
+  {
+    "name": "Strettko",
+    "lat": 48.1500807,
+    "lon": 17.1162004,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHVl3Om_NjxJsuWQgPkxOnIiVnWALj6jy2-5U5938_1NxY-PIcDPuMmno8YE6FPWfrQmzDDN_tF-8EPj2OVC3Hc9gUNuXqCaA=s4800-w800"
+  },
+  {
+    "name": "Kaviareň Vták",
+    "lat": 48.1490372,
+    "lon": 17.1172152,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqES1C1Mktp2ET9u4h-k-KWaZ-1UWLCd1iZIzuQjm6126IchQlnBr4BRQIkog-J5P6JGe3agYq8FmUdZUpd3JgV_2ogDk08gcA=s4800-w800"
+  },
+  {
+    "name": "Temný OST BLOCK",
+    "lat": 48.1453774,
+    "lon": 17.1147446,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHnl7VLDQVqpSpcp1U4kcAgjh4LyoDoSJ_jlGDSiMZv9EWxH0-LpegmGxtu800nVUD8uFN_m9Bsy8Wp3bm4gzuawsHZkUj2PQ=s4800-w800"
+  },
+  {
+    "name": "Le Miam",
+    "lat": 48.1486475,
+    "lon": 17.1169081,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH5yGe-ddjpJ9Gnz1Dqq_7_6tY-WRZjDLYSd8x37zctWLGgtYVW0wJSv2prlNZg0HnaQGUbPeMDFV4Tu2z7Hlxm5yihzCDTAQ=s4800-w800"
+  },
+  {
+    "name": "KAVE kaviaren",
+    "lat": 48.148669,
+    "lon": 17.1130314,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEtRIeTYkfDeJ5jB0v2HYJ3zVf-R4s-gzE1VYpmuI8i_7mvUBpAJ6iDQU-zynbgPm4341h2C5sKTIJ-rvj7EiZQHRF13nIpE9vYwSokNs9exzU70-SkuxASub_Z-yroo20-DzNqPUR_Krz2OsmoXC3g=s4800-w800"
+  },
+  {
+    "name": "JOVIPOINT",
+    "lat": 48.1492097,
+    "lon": 17.1324483,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFbZ8xi7yFwM2i8J76scROB6I-FdAdeHLWfbksHXIukhpzwtRCYkpyVQjvGyfXISGFeJv-PntFm5AUwOlWsBH1DJaD44s1Nmw=s4800-w800"
+  },
+  {
+    "name": "Žufet",
+    "lat": 48.1774448,
+    "lon": 17.074157,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGnh2vkw2N1L9khus_4L5co1GE_l54gHWvj072oZxPDytvss7dyFYGfdzHOVShAbxdT7mLpevX81TctNL0Lq6CBqwSSRcwbN8xjy_n5klNWMdWfq5fVNpncraQ8ubFOTvMnw4hmdZfeNq-VCUAe1QXB=s4800-w800"
+  },
+  {
+    "name": "MOGG",
+    "lat": 48.129225,
+    "lon": 17.1157786,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHB06AhSsBAT7aRtvL9917mDu9VlyHZAqEL6m3x4l3CdbC8RjgHKp0wf1iCVyociCogL1o3wlMais0VA9IgKVCYcDeDLSL1iiE9J-WJTrp2XwtqGGk9HUf-hcnwXA4gtbMXtpJz9fo5qXek-w=s4800-w800"
+  },
+  {
+    "name": "Grão",
+    "lat": 48.1427171,
+    "lon": 17.112275,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqExo0IJy0LbuYzyXSCDIsOnGkQW8hfMKVsLGuL8f9oYvEsucVMN0h8nrQfj8hUrj2hCsIbUnUqDLL4TF_9BIuyifatgY0hXHg=s4800-w800"
+  },
+  {
+    "name": "The Miners TownHall",
+    "lat": 48.1433817,
+    "lon": 17.1087185,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG6beF3S_nh0yO06ClTfn2YsS3I6DVfBnuLl8NYtWC8NGlS1eOVh7Sd_1ZqC-AeOo7Tj2dP6vlRePeIxrJt_rECioPDq7GOWA=s4800-w800"
+  },
+  {
+    "name": "Kníhkaviareň Foxford Cubicon",
+    "lat": 48.1583037,
+    "lon": 17.0690732,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGhdlBjng2WKlhebkUpidum8IfnnOifDG_lSQS9omQQZsmANZTYTcUyn4kLnBI0ej8G5Tk2DvmMpLnQj7ymB-DBl6NwzmORdl8B_xrfV5lMEes0p21DkII6HoSyW50aYclN_LdW90yMcJhU=s4800-w800"
+  },
+  {
+    "name": "Pekáreň Háj",
+    "lat": 48.1192903,
+    "lon": 17.1147505,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFLsBBDLO1eMGecXwHS2xSJf_C9cU3F7QwNUVCb-VXy8M-cGf-VthgIEzSobFUH_2uZTZpEfhk8lt2I8rkUOj_yooweS0Ljlg=s4800-w800"
+  },
+  {
+    "name": "Sweet Spot Café",
+    "lat": 48.1473682,
+    "lon": 17.1414237,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGw3yQ_bsEsQmwHlL7J2TwuMkZeZazmIHYuTmLmyxRs6UXx1F0aBhiQ-7AA-rSBNx_tYpWvOqibunXhekILqFx1AfcakzPoHsZ-I-dA3oA-A3IT5P7RMxJkDLOvMAKXsSAZRpq9PqgzrkBuig=s4800-w800"
+  },
+  {
+    "name": "SUBO bakery",
+    "lat": 48.1482011,
+    "lon": 17.1068401,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF5Uz6OWdEViG27eD7BlEVLLbxaG5hBisdq3NscJUdHqaOWiYd4kvyfwvxNZA2WlEa4duyhSU02Yt_GFvhXs592iKo-JNsGGSRZPu74K4TjnGoso587nHPdkGmyo7XV4K9ip1NM7bIBqm_z=s4800-w800"
+  },
+  {
+    "name": "Matsu Premium Tea & Coffee",
+    "lat": 48.1489783,
+    "lon": 17.1168007,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH6y7uAXkvPjhwgKdLdSe_Ut8XweqrUQy_AOSDo7399vOZ6VqsnyZUnT4H-fBww8ddtfmStCJxfdvsR6sbwwmORn0W6OvcC7Q=s4800-w800"
+  },
+  {
+    "name": "ROH",
+    "lat": 48.1597525,
+    "lon": 17.1298943,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFZNEQ6EP80AvBglxgmMDKAV-X6MaO9OAw1CHasX1qLYEYsSSRz-Kmhws8w8396ORu1ln_SPItblQQj9qWZFttOAXU2TqQY_nt7zG5X0zXJ_L88i6x4C-5BJvZemQFdKbzXRGZkfOBkfLLIZc5s2Esy=s4800-w800"
+  },
+  {
+    "name": "Triple five new spot",
+    "lat": 48.1621214,
+    "lon": 17.1242286,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYeMOnPjB0Xm7fBrGQdIKZoz6a41qmiTAa-wIp4L4XnhQ9Rmqs7iNuExV8JuBJbQHL4UjXgOdb6wDSZRaa3AXu4QDJLiWipw=s4800-w800"
+  },
+  {
+    "name": "Coffia Cafe",
+    "lat": 48.1452588,
+    "lon": 17.1375207,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGafISp7n19lmPCUL5QEhhRGyji-ele7go6HgwPNFopCra6pdW6Yz3M2O46vZ44kuS4vKre49DWIg3nRW7pY7bYmE1bNqdEPQ=s4800-w800"
+  },
+  {
+    "name": "KATKAFFEE - coffee house",
+    "lat": 48.1481563,
+    "lon": 17.1063213,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGtlsoHQPbP35hdATI-eQiviN1a-I-GjkqI61U5GS8tlHAdRFD5fGHxidoghClkkBzhnkXyfawt9LD4CakwFxPExPWtOoPg-w=s4800-w800"
+  },
+  {
+    "name": "MONO café",
+    "lat": 48.1497788,
+    "lon": 17.1267216,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGPNemo-SuycQ547PMsHbBgEc05byyNVHivFnWgVPvpQpvN3SqNJ_OEQ1RrY4qbvMWmTXnmEZgMX5u7HX3qKpGTaTzznZrUHw=s4800-w800"
+  },
+  {
+    "name": "Zákusok - kúsok dobra",
+    "lat": 48.1465899,
+    "lon": 17.1056649,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqExjZcSQo5vKrt9KfsElFnU61w7Sf1N118r9ZSq5PxrYFf6eo4r3SLDG1hkJR7iNrZQ5UsZsrmgMZw9WW63zxQooaUxDgk_cA=s4800-w800"
+  },
+  {
+    "name": "6:57 a.m.",
+    "lat": 48.1413857,
+    "lon": 17.1121726,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG01wrIqCS9IvXxwW2q40jMgnMA8SxcygucSLkOuzdzoo9dyBrdG45IUHUiXKRf6sCKAdFaLOXOjp3z4rD48EvnFazNOwfGiA=s4800-w800"
+  },
+  {
+    "name": "SAY HELLO - specialty coffee",
+    "lat": 48.236083,
+    "lon": 17.0361189,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGyMSSz2kih22oRziFgkQFW4Pu9gJFTXveTJfYhcgD2yKNmS-SVlBeNm1Z0e1xccFy3bezQryeVpv4TZxme3Napn22pwNMJ4CwNmEFYdAfJcaZ2ezeMERFP_ChLu3G46mHyalZmMBtWlw20lZ-e08v0=s4800-w800"
+  },
+  {
+    "name": "MERCEK CAFE Coffee Shop & Chocolate",
+    "lat": 48.1531761,
+    "lon": 17.1242236,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHtyJi8yv-yp1dQEqeX1ohidp3ZJnxle_nv-gisy-bC5PEmBV_pJd8kVTfK13Q76qUespN_ZwZ8B5iERkquqHWsP2lN5bh1Fw=s4800-w570"
+  },
+  {
+    "name": "Lot Roastery",
+    "lat": 48.1495949,
+    "lon": 17.1171236,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHBKluPgnS6K2OwRxin52zLJHqfYGZ_68skXcwU8H_EOonER7MOOvYuxogfVZUxtQRef-csR73yTKelaktRxILSNHu5UWKr=s4800-w800"
+  },
+  {
+    "name": "Fach",
+    "lat": 48.1427109,
+    "lon": 17.1065869,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHW0k9i5LemIovfv2kEuhdoqCbARJg6czJMff9fCR395E1FI3SIDVPvezMdjsh0iLFtmneOuSopBGjYd4NBk8-4mY_fZsHt5pAQsbKe4tL8e9uXxje-Qu4TAz2QbOWSC-n4dhDo5wsK42xY=s4800-w800"
+  },
+  {
+    "name": "Velikán",
+    "lat": 48.1494967,
+    "lon": 17.1115911,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE3IP4bwM0v9Q2RJgYmt_jtTD1355N1aCNuv0Hl_A_1Fs_5t2odU0Qyzpi_nyiP9xgMlCoCfHAvevnufO9WgmteMKL3W707lA=s4800-w800"
+  },
+  {
+    "name": "Brew Bar Café",
+    "lat": 48.1676122,
+    "lon": 17.1534482,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHl9S7ZCbOgHNMDIxE7ruiLmYUi8dRsv2Pg5YEx3Gwn2Jrxn9pWTHtgqXFTRQlKe1Aw3jpcZOmK2ND5F_i8r5Bg9nny6aL5Ob-bK1XGc4MOkLIdciSs7MVAajPoADRqKczgdk18kyZPGiedJQ=s4800-w800"
+  },
+  {
+    "name": "FERN",
+    "lat": 48.1542909,
+    "lon": 17.1343301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHVMkkYTQxfxQ1ctFpWpaw8r2W3tfB2ZUnBM9_urdLcxtywOCYmOM8I0P9DMA-6DEx6GK9j4lXdzQHYCOanlwyMWweXpLje3w=s4800-w800"
+  },
+  {
+    "name": "Jungle Blumental",
+    "lat": 48.1557552,
+    "lon": 17.1191673,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF4eZVy4AxuLcMWzO1jyRAw7HWhZbztmh5tM3Dx4mjBLLzQuHavCuqnt2TtO3zz2VVJ0pUShv51ffWvtVvV9AMd8Hf_I_uwzNIgBaufhlwioXJ60WAD7WPa3uQZ91DfAB1DSnUhQL7iLbbpJwHv2hY=s4800-w800"
+  },
+  {
+    "name": "Mandla Coffee",
+    "lat": 48.1404668,
+    "lon": 17.0968343,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEwD56DlYPhQYiLTiE43iPgtRUI8JXGc3NqgVe0OzTA0I_6HJVHCWsX6QopkdEtSAeHEYoh8ldFL1mF1hBtwJuLGv9yNrJi3Echy6d7faRv8GgNpiad2CT0tzAkcLlvnrex8MMMri6u8tI=s4800-w800"
+  },
+  {
+    "name": "Rooster's Corner",
+    "lat": 48.1581901,
+    "lon": 17.1279853,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH5fYGW9eFshd2HvA2Jxhcag2vbd41eXwOFDwMNInrIltFgpVUAx6TEtQXFT1yEcxuthSFxG2utvZgBtcBkQ77dEq7u1Ho21t48Jzs9PywcmfZOHsKlJga5dxwDiF71DL7QzJxjedjcQioweoUvmiQ=s4800-w800"
+  },
+  {
+    "name": "OST BLOCK",
+    "lat": 48.1406307,
+    "lon": 17.098592,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEVfUUwERP0hw-ZK2tdJe_4TBX6UZWyzTN_bgm-SCgFc-zaOb5IrcQkZi2diumqKFzqxrLZOazsOlZZ065w56Ko9RD3OSNkIA=s4800-w800"
+  },
+  {
+    "name": "Artelier",
+    "lat": 48.1443562,
+    "lon": 17.1177174,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFvjIGm_b3LizJa3JzV8lPtHv-e2DD3wXUq2VjclPbfKeWPp46lKze83GxmaqGh7dqGGqo7nKCdgzs23Ytsba40j5ZOfVYnqQ=s4800-w800"
+  },
+  {
+    "name": "OST BLOCK",
+    "lat": 48.155286,
+    "lon": 17.1233904,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEVfUUwERP0hw-ZK2tdJe_4TBX6UZWyzTN_bgm-SCgFc-zaOb5IrcQkZi2diumqKFzqxrLZOazsOlZZ065w56Ko9RD3OSNkIA=s4800-w800"
+  },
+  {
+    "name": "Korner kavabar",
+    "lat": 48.1351606,
+    "lon": 17.2060034,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHlSPAVSegMkO3Wm9oWHcgXmLzNC6r5tigmOA0DZgg8kDrRrqj7YzmybjHb90eriynz6LQcdbRCSYd7yRCNWpFkmA0J8G-rXpHUcyEEVx6jyuPhJBag-at60vXgUfvAHpPWkR-TvbML1WHWMw=s4800-w800"
+  },
+  {
+    "name": "Café Opera",
+    "lat": 48.1420199,
+    "lon": 17.110264,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGQUllb8IF780iwgPD_w81nFWQweSexBB2fsl3VLzOzbAtPZFGlPUEWuyRAgOSRstZkHJCrINr0Rrc1fyqwuHfzZZTxWsxGkg=s4800-w800"
+  },
+  {
+    "name": "Michelle Specialty Coffee Bratislava",
+    "lat": 48.1610593,
+    "lon": 17.1225585,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEHEKMCgtDfahRFfueGy9t9_oJ84QP7PaajilacxDWuA-eERFbVL46Ey737un-BFHpoKyuBGOaPpoSJPAk3VsSZwGHr-h6dxw=s4800-w800"
+  },
+  {
+    "name": "Just Lovely Café",
+    "lat": 48.1968808,
+    "lon": 17.0296013,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrwhPHG6e6YH4z4v6oYwIYAXaTM6Ofe60lMXIRaGn-KseSiy1Iu6zZQE2QoUz1N0VNv1c7s0tIU9546Ypmibr-tJdQYDpWaA=s4800-w800"
+  },
+  {
+    "name": "Lab.cafe",
+    "lat": 48.1446516,
+    "lon": 17.1115288,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGPFag3HdWTP_EU7PaSkdDwNRC1AbluHPHpyzzw6RygQqNOKgkfyqtJZX-XxH6K1MAr-D6jdJfUFOFcGBxp_CDOdMcg6A6ayw=s4800-w800"
+  },
+  {
+    "name": "Hrncheck",
+    "lat": 48.157064,
+    "lon": 17.1259093,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFhj_jGk-geJNiawM4keSadtqMWjvOcVy9plA2QGNrkAXPq-OfZZ_-xy1qxafBAIK2YAbg68lvMBwrpdaQCLDUOGWe3X9a7Ew=s4800-w800"
+  },
+  {
+    "name": "Buny Bakery",
+    "lat": 48.1476202,
+    "lon": 17.1258697,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHVVuNH5fKtruzORq_qppM3pO3rJNyk7cbUouNlkLUXt4DjcXblUMukgI0tAICE8hCmI-cW-WyUS6OJKTujDZhNa4hFVQRN0ntsWhjpZtyTjNPOfOaxJAdnNHlXhi2da7S1txXHL1FbQPW5GQ=s4800-w800"
+  },
+  {
+    "name": "café suvenir _ gallery, design & art",
+    "lat": 48.1413667,
+    "lon": 17.1122023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFiZeaESM86pM0yz0JqpRDHRLD30D1w1Jsfmy__c7oOTc1cl_WcVnTh2Zm0ydFvYHxiCtJ6HWZ6KGELRNEKvjAKAjo5lQT8jQ=s4800-w800"
+  },
+  {
+    "name": "Urban Bistro",
+    "lat": 48.144454985,
+    "lon": 17.106615454,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTzRrwAtigtrV3MsbsTCP3VhvTsZ1xCQPoika3yyB50lJPPEk312oD-C7W2NWGiHvRHfDqS3m7nnGiTPFaMpn_xHtm68VsMw=s4800-w800"
+  },
+  {
+    "name": "Triple Five Roastery",
+    "lat": 48.1750534,
+    "lon": 17.1550632,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGMbvY0SNcfHAqE8mFA6N0PoZw7BfqmFgSOg6GR4iR6bnE01lUKKeycRd8ildGGYWKQHYmOJBW3Dmf-gvcsbjEPqrJ29EVm0Q=s4800-w800"
+  },
+  {
+    "name": "Otto",
+    "lat": 48.1444432,
+    "lon": 17.1180043,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHRQLUdgMBHOq-onQMrwMLPHREUKXpC2n0UNpRNaVPi-Arn5-SBII1F9_qI00R52Wklj4Oj27E2mfhBfGh6sN1fgiqjxvdd3DQ5xc0rdOMYO1q19YUD7FIx_GcgjoiVGGZ85UWDl_x-RNRMRQ=s4800-w800"
+  },
+  {
+    "name": "Blue Mondays Coffee",
+    "lat": 48.1445274,
+    "lon": 17.1156023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE-U4hFJzlt8I5B13qVDicRiIGhr7dH1G0kPDqb0E3MMu3Cc2x-w9duSyV0K-28Cp7F42_cPRBAQ7Rb06fzuLgGBjrDT5V7PngNgaijlQZHzjOO_cQS68mP6hrSFuIsCygXun0KD438X3M=s4800-w800"
+  },
+  {
+    "name": "Volavka",
+    "lat": 48.1511304,
+    "lon": 17.1390721,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFwPLDBEVvs2vpVnVSOGhakJ5wG9pfJYhp_QhoTlvwcF66I4hED1P2zrbD96PDW4AiMhhg3n5RXjKwql4VaX-D-bG-D1-2avg=s4800-w800"
+  },
+  {
+    "name": "Rooster's Corner",
+    "lat": 48.14924,
+    "lon": 17.1126753,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH5fYGW9eFshd2HvA2Jxhcag2vbd41eXwOFDwMNInrIltFgpVUAx6TEtQXFT1yEcxuthSFxG2utvZgBtcBkQ77dEq7u1Ho21t48Jzs9PywcmfZOHsKlJga5dxwDiF71DL7QzJxjedjcQioweoUvmiQ=s4800-w800"
+  },
+  {
+    "name": "Urban House",
+    "lat": 48.143651,
+    "lon": 17.111183,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEOmZKx_MiVye4Lc3l8Ck4Ozo1bxsS6ZinzJQn9TnOG6tjAc8qcx1PnzHZo8Gei7vcHh0UMnfHRlmAPCzxsJHSP1fDWCXO6zw=s4800-w800"
+  },
+  {
+    "name": "Svet Miriss",
+    "lat": 48.1742116,
+    "lon": 17.1270321,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_yO-mWZpAcFk6bM4uukhXPXfbcwctjemy1zuynrOJ8isSvDXNF76JmKjSl4-6f0NrOIUDMFHL1lBXlMq0ACUCF0vh7qKiSQ=s4800-w800"
+  },
+  {
+    "name": "AM Coffee",
+    "lat": 48.0926604,
+    "lon": 17.1156991,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG21ZqOfXvCbsvK-d2E6fPDlZVFDq8xTJ0IWW_fgow36BrytZE-9wy2Nw6mE6ySWUJW6hsy0i4BQf_viQRrPquGkt7tSJ_2Tw=s4800-w800"
+  },
+  {
+    "name": "black. Gorkého",
+    "lat": 48.143467,
+    "lon": 17.111947,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFZP5pXZGIYj36duRlW2NYEJsmVTMOm1f8LXJeciOrYfi0xwcVoI_E34Joc1zA66vwjNJURb8tl-OvJV5CD_lGfRaV6o2_p2Q=s4800-w800"
+  },
+  {
+    "name": "Triple Five roasters Cafe",
+    "lat": 48.1509907,
+    "lon": 17.1095256,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGMbvY0SNcfHAqE8mFA6N0PoZw7BfqmFgSOg6GR4iR6bnE01lUKKeycRd8ildGGYWKQHYmOJBW3Dmf-gvcsbjEPqrJ29EVm0Q=s4800-w800"
+  },
+  {
+    "name": "Oproti",
+    "lat": 48.155533,
+    "lon": 17.1410451,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFAFs9Uwn1zWu4jrzhW-rOHsnUbMiFxJ733Hke10W5OXMSl12-botKmBYvqJqI2Xwkxs7pqqL15uUP59_QDkvsalQULoKBIEQ=s4800-w800"
+  },
+  {
+    "name": "Giselle",
+    "lat": 48.14258,
+    "lon": 17.0977591,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHaUVBtzFcs5K_2yeWah-_1SzETp4-uoIF_4lsWbAcl7G_KrUdeCyF5_XDj8jDM0tAFpwhydgHC4X2oDWcfbLJuVR3IgmNSsb12gPExEMS2iIyAPqOTr48dfSrLjCR4eaDiXNwlF6GNHAQ2-Q=s4800-w800"
+  },
+  {
+    "name": "Čiary",
+    "lat": 48.1437875,
+    "lon": 17.1109288,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG11dTB0k7r7iA7wRF6ExL-fPihnBOclvStZujnu1RwxbXPtAqrddyC-7xcP8nkZq6iR37sxnCj-QjaaD_Z_tjJRAvH2soRIQ=s4800-w800"
+  },
+  {
+    "name": "Brew Me",
+    "lat": 48.1687824,
+    "lon": 17.1295151,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHZwwdiwQx2BY99TEAn16rvmjajATXRBu-Fay7Xkz78wD1IhskPqg1OPxRoJ8u9FFhkUOIJGqD_t-XgNSA2Gn59Q-YaCM5SxvqL1umzIMmlzs2e6fhnXUHJXHewkEyDBfy4RuJx1zWuSONVb6707cFS=s4800-w800"
+  },
+  {
+    "name": "Figafood Bistro",
+    "lat": 48.1436132,
+    "lon": 17.1100043,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_LbixmJpgT6d_29URceV4y9eY3kDUe3R-yly6OqEF9vB8MOALYqONPr2fmW9xP5T0qIJcWeYKI8i9qZu2NWA9xog40s9YGw=s4800-w800"
+  },
+  {
+    "name": "Mandlove srdco",
+    "lat": 48.145484,
+    "lon": 17.112498,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFp26WItiDE6SazOoj4ahUlDOnW3o_yQZh6jxNBx9ai644kL9k_u1HRJgk_FV1DSEx4i4cARGhxlHoXyV0u8XwHdZYBn0sJiA=s4800-w800"
+  },
+  {
+    "name": "Pasteleria",
+    "lat": 48.1423995,
+    "lon": 17.1081027,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHzXAENnACSUjsGClN_BXcrBOHdzhf8kmvziwIOw-qYyQ4chy3lZD-tC1uMM4A6_qtTShhpb06WlPKMHAyUTkm_oBjMMCq_pw=s4800-w640"
+  },
+  {
+    "name": "Pán Králiček Priestor",
+    "lat": 48.147786882,
+    "lon": 17.126716599,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH1RzXTzlBD2GOt1sYrIjyiXOnAN5F-DN4zDt5J8Fn2VN0TtWlXZ0ni3897qGLq2MOjnMf_bc1Pq56gxtLPmIoSO_t524n-ig=s4800-w800"
+  },
+  {
+    "name": "Kníhkaviareň Foxford Nivy",
+    "lat": 48.1462892,
+    "lon": 17.1288961,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEDag0Rps3rKaCuf8sATfsn6jdVa4Oj2UzOIlLPk9NXwOHdU6UcgIVdqE-SJxs26APFb28T8SEYPgWUndr-ROzNq35H0gwrAg=s4800-w800"
+  },
+  {
+    "name": "SVÄG TO GO KOZIA 22",
+    "lat": 48.1474948,
+    "lon": 17.101641,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE3uxLxX9jQPAauYysdQnkcjqvofmsKIDS3l7w2-2ecU-7bggOMSWVhTKcxcdya5m7PPqAxhkKbb_FWhR9eGF1YYgoi1aIERg=s4800-w800"
+  },
+  {
+    "name": "Sweet Beans Roastery",
+    "lat": 48.1478903,
+    "lon": 17.111368,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGAQlYcGJ1gWwxQ72H7Xa_7TyyNphVZj2yRToQs8waG3cRP1D0jZYpAeB36hD9XcqfY4XUThSd7xTZHQeC1I3vREoeI3xIeQA=s4800-w800"
+  },
+  {
+    "name": "Jungle Sky Park",
+    "lat": 48.1442162,
+    "lon": 17.1254091,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH0ivESx3jNDPUbVHMFYg942EDtgHdR4X2Iw-goTRdw1VoLbWD5TpqXNlPAmBc8O7d7kcKp4vp2u3w2949QIeeioJ_jo-0jYg=s4800-w800"
+  },
+  {
+    "name": "Goriffee",
+    "lat": 48.1498698,
+    "lon": 17.134948,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHDUp7mREbD8DYRn6rmSeWLWXSy1LF_NxZzGVT2ve0VYm5skVPbFGK6UqTgYC6s4OSszCBbCi8Q7bmNIij71swQNca6K46O6A=s4800-w800"
+  },
+  {
+    "name": "Kávička u Janíčka - Železná studnička",
+    "lat": 48.1761858,
+    "lon": 17.0747652,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHgfHcurAytmiLSF3xfYWo-ZAeqYZDdoV79HAI9AUKoB-DHk1Fc9QXVAGgHCedrTPxLO4Latm7s3Nf7WStpgaI_wv0tmwF-5A=s4800-w800"
+  },
+  {
+    "name": "Miesto Rozkvitnutá Pekáreň",
+    "lat": 48.1497796,
+    "lon": 17.1143569,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEuziC66AcBeVwdwXo0ANcbapfsM4Kp0kEtYdYy1AKOGhw7tXLUGWL2LVdE2_Xw94UMCTrEog81gAoGDnccGwDkxckdOThFOQ=s4800-w800"
+  },
+  {
+    "name": "black. Trhová",
+    "lat": 48.1873711,
+    "lon": 17.0391095,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE5C6W8k1MzU0boJBc2riaqfRhf_pNldp4AIeCHqsrsk4G8s2s2BFzlMjaNLcQ_reuQThKB1viKUlTHYkHrg56E2aw9iYbUGQ=s4800-w800"
+  },
+  {
+    "name": "Schanz café",
+    "lat": 48.157739,
+    "lon": 17.1222987,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEm7WzYJE8aAAm29dOF2nUV94ksQJSIqdCkTbR7cvAkStXcGSaMoISw35FQis3kBu81dQ4WG431B4YDuGl0hL0IkSXrEw9qtA=s4800-w800"
+  },
+  {
+    "name": "Kávička u Janíčka - Kamzík",
+    "lat": 48.1829543,
+    "lon": 17.0986284,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHwftiag1LPm0eKz86ui8ASrUSN_pJKO_QYj1vG8mstxZndX7AWBPw4Jitqm-PjYPobe2Hgo2cZEcboccfUaaUqJPQFjANzhg=s4800-w720"
+  },
+  {
+    "name": "FIVE Points",
+    "lat": 48.1420581,
+    "lon": 17.1067382,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH4D0Vh8WjO15lPhCa3oGsTZc9UDi8ozbfHZ7I_BUiyrVhKFfdg-H98rmy-YKOJ7rrxXmuXnji72yr15TV01WBPym3ZjDzWtA=s4800-w800"
+  },
+  {
+    "name": "Bajhart coffee & more",
+    "lat": 48.1511449,
+    "lon": 17.125348,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEhkWzUCaqGu_gda4REkDoQuldn--oI8HB9mE8Dv20AjgV5BsOzm4lazV65oeITw939TK23x5VvVRwPnd50P1hi7QiGxK29YWGfsIIMhY1LvuRORDuaegT6rIUEirZKglSOii50WXlImX8p=s4800-w800"
+  },
+  {
+    "name": "Emil",
+    "lat": 48.1449394,
+    "lon": 17.1078899,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEig7__Hly3bSXZJot1zeZ59gqUKiRKet2OyM52jg5dgCYiSOsX6ENJopcZjwbUpW2SLzBUgX7CJRrGUwXxCzLUlfUr8PM3p7a1Z4uz8-Q8LSMGwQuTIagjDc3Gjs4ewosFePddH_vnGJ79wA=s4800-w800"
+  },
+  {
+    "name": "Pasteleria",
+    "lat": 48.1434075,
+    "lon": 17.1102227,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHzXAENnACSUjsGClN_BXcrBOHdzhf8kmvziwIOw-qYyQ4chy3lZD-tC1uMM4A6_qtTShhpb06WlPKMHAyUTkm_oBjMMCq_pw=s4800-w640"
+  }
+]

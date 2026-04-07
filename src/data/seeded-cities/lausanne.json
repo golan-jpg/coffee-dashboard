@@ -1,1 +1,112 @@
-[{"name": "CA PASSE CREME", "lat": 46.5163813, "lon": 6.6254908, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BEL-AIR COFFEE", "lat": 46.5227934, "lon": 6.6285203, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ordinary Man", "lat": 46.5186483, "lon": 6.6308674, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sleepy Bear Coffee Shop", "lat": 46.515338, "lon": 6.631369, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bold Coffee", "lat": 46.5132597, "lon": 6.6302614, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Greek Project", "lat": 46.5200266, "lon": 6.6377552, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Arteastry", "lat": 46.5163806, "lon": 6.6254079, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COFFEE PAGE", "lat": 46.518239, "lon": 6.6338247, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Station Lausanne", "lat": 46.5261087, "lon": 6.6233139, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Sleepy Bear Coffee Riponne", "lat": 46.5247728, "lon": 6.6329121, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "madeleine - CAFÉ, LIVRES & CO", "lat": 46.522322, "lon": 6.6328523, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "CA PASSE CREME",
+    "lat": 46.5163813,
+    "lon": 6.6254908,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEsDfySwekZZJZSTxNtP2ikhdJ-e-XGvXduUZ_qBHMUYz4xZm23BXDxsmYqJiwtuwfdbf90Ree1ZSsPzu08mCP_PXdXPEVP7Q=s4800-w800"
+  },
+  {
+    "name": "BEL-AIR COFFEE",
+    "lat": 46.5227934,
+    "lon": 6.6285203,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjonj0xK59ZnIcKQDvDC0iUFv_P-KriIJbXvw8XfTjAv4_Eh4hlNMoQRgPSsmJ3laqoWRZbvyh_LwDh3u9djqhHM0qekVb7g=s4800-w800"
+  },
+  {
+    "name": "Ordinary Man",
+    "lat": 46.5186483,
+    "lon": 6.6308674,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEXm5TwSRkbqjguNhsXrv3jqmnQzTfHi5-BnPY5xJmQ28_HRaf5Q9T79PclUW7vW-zXTTt08LdReUnLbnpWBpVX1YK_-jvUyA=s4800-w800"
+  },
+  {
+    "name": "Sleepy Bear Coffee Shop",
+    "lat": 46.515338,
+    "lon": 6.631369,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHyCd9w5n7myTJw9R491RZ9VmyBelDTcnxNTGSA-lg7qqE4r9L-CxSTaxF2lZesdiH6UC2KjVmBKrtsL2-Zu3tT82-azRVgjQ=s4800-w800"
+  },
+  {
+    "name": "Bold Coffee",
+    "lat": 46.5132597,
+    "lon": 6.6302614,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG4kZEwYX5mk5zra3ot3yu6a2CaLZXuesujormzHJ0IQg--TxWfb1RZM8u_pHBL2yYS2ZKov9jAAuO67bvTH2yEds8fTp9L8SbArjS4zrzLAdW7hADzvbgl3bzeQ-PmBpC6C8U3YdwI8ayo7Nwm7gFh=s4800-w800"
+  },
+  {
+    "name": "The Greek Project",
+    "lat": 46.5200266,
+    "lon": 6.6377552,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWZOEjcrcTB9UfyLq9YPzmivnY4kuPzBVOriSf4Y2oh9h_iFXko71bIW7Vfsrlhi_EYkDVjoa_2S0NqLkVHvDftopSwrj58H4kjp1m4UUCYK9WqJLUgq4A8LCwH4HfnxG-_1JcwW3eZbf74Q=s4800-w800"
+  },
+  {
+    "name": "Arteastry",
+    "lat": 46.5163806,
+    "lon": 6.6254079,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEScN_yodEOt634pUR185oCtZQt29Is6VLW9--rpQSeub1FR_7JL1VnTiJp0lTiigru82eeYuLBSxOw3ly9yXjJTOGWb4Ez3vWiPme4sAU1kMQ5R02e3OYJpPSmrTUM7KbJZcmP21niSJFA3Y15GFYu=s4800-w800"
+  },
+  {
+    "name": "COFFEE PAGE",
+    "lat": 46.518239,
+    "lon": 6.6338247,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjRX-y1QN4ZNILwQY8zO4eREfeWIGR8IOhs1ILsN45Q5Mbu08sez6eHVQeezMxXRHiVeTylISKhbEE6g_GOWH03viWkEPpUQ=s4800-w800"
+  },
+  {
+    "name": "La Station Lausanne",
+    "lat": 46.5261087,
+    "lon": 6.6233139,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFwavBCHPNQaIyOj-EMbEO3e4DQb9sVkguDVEaSgCSxmtcv7uBGelSKdfIZakPduAfN3mc22WRA0lEsF1hcRNTX7G4gmXHIiw=s4800-w800"
+  },
+  {
+    "name": "Sleepy Bear Coffee Riponne",
+    "lat": 46.5247728,
+    "lon": 6.6329121,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGdUU3SIBx0VNNbtgv5jny3K3zf5qXaKdd4DRmZ-SAkRtmJH8oHDvj6SE9dZWcF70iQTPrPYzOMAKyCNMr3W8JeWC3_HGnQbw=s4800-w800"
+  },
+  {
+    "name": "madeleine - CAFÉ, LIVRES & CO",
+    "lat": 46.522322,
+    "lon": 6.6328523,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH_1sPGd6SZUHrxzgitLoVeuQ6MTpbU_BwAZiIDRldgbCx3JFaw25NGESsAjMVG2rLo1EVfKbTz3CQtJ9-RVpX71ITkxHsjRg=s4800-w800"
+  }
+]

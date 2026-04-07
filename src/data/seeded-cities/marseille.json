@@ -1,1 +1,172 @@
-[{"name": "Risette", "lat": 43.2946463, "lon": 5.3768238, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Te miti", "lat": 43.2870472, "lon": 5.3798255, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Pollux", "lat": 43.3025647, "lon": 5.3900492, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Éclectique", "lat": 43.300374, "lon": 5.386986, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brulerie Moka", "lat": 43.297021, "lon": 5.3904869, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Les Lumieres", "lat": 43.297865, "lon": 5.3715988, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ben Mouture", "lat": 43.290386916, "lon": 5.368763387, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boujou Coffee", "lat": 43.2810545, "lon": 5.3516039, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Tisserie", "lat": 43.2865505, "lon": 5.3632266, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pétrin Couchette", "lat": 43.2957883, "lon": 5.3785234, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Fiancée", "lat": 43.2943568, "lon": 5.3768536, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Little Coffee", "lat": 43.2887028, "lon": 5.3583787, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Deep Coffee Roasters", "lat": 43.293499, "lon": 5.3751768, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "7VB Café", "lat": 43.2971314, "lon": 5.3688574, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coogee", "lat": 43.2876319, "lon": 5.3907786, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "FERMENTS BAKERY", "lat": 43.288055, "lon": 5.3885384, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mo:stera", "lat": 43.2880996, "lon": 5.3881495, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Risette",
+    "lat": 43.2946463,
+    "lon": 5.3768238,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnZZAQ4Dx-_DEecpw61SrB2nOXG1b-S8kttwZWZLTNPPW_pSOSLg9M_ZwZbsyHXXVx2euslU-J2I9DMlR_Et4vhIQgMy7bKg=s4800-w800"
+  },
+  {
+    "name": "Te miti",
+    "lat": 43.2870472,
+    "lon": 5.3798255,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEJ5VIQlKXroaB8-2BioTLesr87HEngzjD9vb-jZ7V4mzVci2o0jcVJIcufMEYZJv-jKsEtuOztQBWW62Ve9b9suzzx9SzYrw=s4800-w800"
+  },
+  {
+    "name": "Café Pollux",
+    "lat": 43.3025647,
+    "lon": 5.3900492,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEUe46HYMN-1Z6XJB-YP3HVw2EXIRA2NOfXdYM7GQSfgr5ndr0IvbEqWTOCKTriggntTzVSUp8j_jSO9y6nm4tE4HHaEn5sMg=s4800-w800"
+  },
+  {
+    "name": "Éclectique",
+    "lat": 43.300374,
+    "lon": 5.386986,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH29-o5xAMin3128udbpNGfmlTTanJwZ25XEm3EiHjVrS_rZDn1REUt-NGDr-HC0koCABeEtnrrpOkruM_COqbVF9xUdTjsUg=s4800-w800"
+  },
+  {
+    "name": "Brulerie Moka",
+    "lat": 43.297021,
+    "lon": 5.3904869,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEzxr4DGRj-qRZF_G147TRYlFkuL2ASbkgG_qzqMQuPtbtBKn3fRu93a28iGrcmEtiSOZPe8oPluAPzReaTJw_DAqvhnspMOA=s4800-w800"
+  },
+  {
+    "name": "Les Lumieres",
+    "lat": 43.297865,
+    "lon": 5.3715988,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGJZ3FkRqD3ySmwVAl3UncvlPXPepXCTTjgAmrNQE_Nw39cmKoy-5GrgTiqzh6DCp2cFhYdlea8Gl8NZgHnUdUcfueqwyZr3g=s4800-w800"
+  },
+  {
+    "name": "Ben Mouture",
+    "lat": 43.290386916,
+    "lon": 5.368763387,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHNTxBfUjqtoF5k9nny1kv_D9EsloM358HKJGWoiO3TwWcPrx59wzkFLnEf2smp1ylFHf-XwZGz8JRIg2Tg9aCrRH4m2dPyNw=s4800-w800"
+  },
+  {
+    "name": "Boujou Coffee",
+    "lat": 43.2810545,
+    "lon": 5.3516039,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGEcUBWNwW5MovyMoxyCIBfzUTjtZojvMy35Ycl0Dv8am_zHXnZUIkLNZPoP1PHGwRbQA-H5XzG1mtZQiPYyZUbAqtM_MIyWw=s4800-w800"
+  },
+  {
+    "name": "La Tisserie",
+    "lat": 43.2865505,
+    "lon": 5.3632266,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG7Y0w1WX7hnZU4l181KGKE-_bD5Fm4MsE9pnebs2IKL0hHM-WcXKvFrRSNYjnESharPAm6e2zeSybi0g0Zs2J4uV5jOW00uQ=s4800-w640"
+  },
+  {
+    "name": "Pétrin Couchette",
+    "lat": 43.2957883,
+    "lon": 5.3785234,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-CCoCJMN_4KSzHIYIEKNdJN4C-adnQUAB5dcqat8sdz8BPIb-qpnzt3gxFb6KVvRt9xPuTJrCVAzSIxa2Dy_gFi_v3AFPUw=s4800-w800"
+  },
+  {
+    "name": "La Fiancée",
+    "lat": 43.2943568,
+    "lon": 5.3768536,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHAGZaux_PBre0vpt_sxfuwjuZ2_UJu7k5lR22eD8ODPVGhByA51d-2eYKFAThyhjevntNK8Dm1xDbv6UOFswzP4FExf_yUrw=s4800-w800"
+  },
+  {
+    "name": "Little Coffee",
+    "lat": 43.2887028,
+    "lon": 5.3583787,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHuy56QIsAjiDuHJHsWFGlTUtDzrKEJCG_1VMfOmQpmktV-kjFHtpZSG3ODe6zHKnM_fRoFQluA0vozLs9WuXGkSMl_IOYcT6tYMf6_t4QLzMIJXbz_37hFhmxZZonNHzZCRp0kbLPgs4yBUmtsH7SY=s4800-w800"
+  },
+  {
+    "name": "Deep Coffee Roasters",
+    "lat": 43.293499,
+    "lon": 5.3751768,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFMG6KLUS_kupnSyrCTT5KDM3-SbgvTWyulH59rFFcXuMexkKrZojmtgcO6Jr9BCgydVtDUtXfOu4uSmlg9Mny_tEpj0znSRQ=s4800-w800"
+  },
+  {
+    "name": "7VB Café",
+    "lat": 43.2971314,
+    "lon": 5.3688574,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnlScVQZ-Jy2nVnJ9Z0PgCB-Mca76GOVW2jiB8V56Hd0whujmUMDtrPoysMVGZCU3OK9gYawdOZClRKSQTsLIaWht3JQdtRA=s4800-w800"
+  },
+  {
+    "name": "Coogee",
+    "lat": 43.2876319,
+    "lon": 5.3907786,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG2QYecs_m1VCHv9s3oGj_1dYvPShXKl7Ts2S-8X9JDG2LoQSrzsBX0Aw1YOagiK-AGt6UJUb_FjJImk7nNT2OwzBbwOE_FWHi2QcxByUl6nrjh4VIPlQLJDQp7ZTXNLazLGRFYeF8AAX3I=s4800-w800"
+  },
+  {
+    "name": "FERMENTS BAKERY",
+    "lat": 43.288055,
+    "lon": 5.3885384,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE-ZVOjLVeb9GPKVFXJJambNk_eYjBmmX-MF5zty3JghixUGqYId37r19ztofP9A56ey69Kdss2NvtfsBGI4bi6_dFKX4mZJUvMheEDf_p2lukJroF--RT-JgorrEjan6oQaYkdWFGqI6fqMhqP9ANb=s4800-w800"
+  },
+  {
+    "name": "Mo:stera",
+    "lat": 43.2880996,
+    "lon": 5.3881495,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFinAc8DaEJg8f2sXOWh1VvnxIc1O2G_9ZzbADqCr2BiWbG21uNk4Z2ifH1DhYy0fkYYfMDBVJeazxDFC_zG5YdUNOAfQZPv4LnuMaKlCdwmp0lzoYNHuQWmuUZd9t6Rhcu6-QO0x6f3gqA=s4800-w800"
+  }
+]

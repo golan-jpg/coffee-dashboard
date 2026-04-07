@@ -1,1 +1,242 @@
-[{"name": "Amulet", "lat": 55.871866, "lon": -4.301235, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ottoman Coffeehouse", "lat": 55.865142, "lon": -4.2748838, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Space Coffee House", "lat": 55.8708333, "lon": -4.3147222, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Perch and Rest", "lat": 55.8743727, "lon": -4.2817518, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Outlier", "lat": 55.8560114, "lon": -4.2432018, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Songbird Speciality Coffee", "lat": 55.8708492, "lon": -4.3123986, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Level11 coffee hub", "lat": 55.8724403, "lon": -4.2971537, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black Pine Coffee Co.", "lat": 55.87585, "lon": -4.28263, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Revival Coffee and Vinyl", "lat": 55.8718457, "lon": -4.3025478, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Spitfire Espresso", "lat": 55.8575205, "lon": -4.243169, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Through the House", "lat": 55.8570044, "lon": -4.2436395, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Godshot Studio", "lat": 55.8301381, "lon": -4.2807754, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Papercup Coffee Company", "lat": 55.876347566, "lon": -4.285321087, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Hinba Specialty Coffee", "lat": 55.8701668, "lon": -4.2977926, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Zennor Duke Street", "lat": 55.858323286, "lon": -4.220097068, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BAM Glasgow", "lat": 55.8369334, "lon": -4.2713646, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kahawa Mzuri Specialty Coffee", "lat": 55.8707013, "lon": -4.3072031, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Zennor Langside Road", "lat": 55.835155, "lon": -4.262668, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Thomson's Gallowgate", "lat": 55.8555005, "lon": -4.2384394, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaf", "lat": 55.8711091, "lon": -4.3028262, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "French Monkey", "lat": 55.8261291, "lon": -4.26728, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Laboratorio Espresso", "lat": 55.8631917, "lon": -4.2547611, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meadow Road Cafe", "lat": 55.8705615, "lon": -4.3167978, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "1841", "lat": 55.8771221, "lon": -4.2900418, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Amulet",
+    "lat": 55.871866,
+    "lon": -4.301235,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEb6grlRV-BwT0pbEf9AbHvSra2uWmwGaf5bqc698Y7a1Y9dysGz-t-q6hqq5eoytZ-Z2Q6okyEJAAgOTTx-8NmBZNRmu-H87zXfznV8VjN3DwieJS6w9jU-xIBNzoY98JnOe1f4nnxxQ6fCl_SIbQE=s4800-w800"
+  },
+  {
+    "name": "Ottoman Coffeehouse",
+    "lat": 55.865142,
+    "lon": -4.2748838,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFTva91UigDLT3luPS2PUfZ_oIAwUoZOaQfmEm9enxCyMLpo8SBJoFZqQOy6d1CGgwNskL4skLu3fOVcsHR78pHzw9AsBgUqQ=s4800-w800"
+  },
+  {
+    "name": "Space Coffee House",
+    "lat": 55.8708333,
+    "lon": -4.3147222,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEOTxFuW5aKhZd6Q3fzIKTWWmxDloFrr0Q1AuxG7an9xxFxZgfiJHbxEpEczy7xMzJPZ-Uzq6GO161ZtcxdTkRUA46VOmGzng=s4800-w800"
+  },
+  {
+    "name": "Perch and Rest",
+    "lat": 55.8743727,
+    "lon": -4.2817518,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHuLz2pMqL2jJv7Hv22lYcZLsUN8ssKbTlVbDMcVjmBU8V1e4cMnjcDxufc1tpcBpQ4q7ie5Qpy3_Xjk6hVGODbaRq9fSI8jw=s4800-w800"
+  },
+  {
+    "name": "Outlier",
+    "lat": 55.8560114,
+    "lon": -4.2432018,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHGlw5WkQ7ggHj3EhImFL9l5uYG9AFg6Sc81BLfQvN11xE3sRF_5Qiv72Fd70kI5-kah1J7o6Ksa4tyzDPlP9r82pD3rWn7FQ=s4800-w800"
+  },
+  {
+    "name": "Songbird Speciality Coffee",
+    "lat": 55.8708492,
+    "lon": -4.3123986,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHTv6v7dYFmhNYqP5psGCIsoB5UM56HXJVbDXtXIi1XyorR6f5CJmpskbgkhNjLhO2bRSF3LWwgPiCSqydM3U3tD0Wqy4ty=s4800-w720"
+  },
+  {
+    "name": "Level11 coffee hub",
+    "lat": 55.8724403,
+    "lon": -4.2971537,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEXOwN8Vl3xzrShZeTzCC7GiskerpdUMy3UY6gTyjArMgdA2w7tK2noH1do205pprTG35p1KeG0eLAQLRUyN22DNiEocAN_SA=s4800-w800"
+  },
+  {
+    "name": "Black Pine Coffee Co.",
+    "lat": 55.87585,
+    "lon": -4.28263,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEUoBFvaLsFiwt3Y7uka0ObJ7iaKJwFZMfACkNINO5sfPw27RqtvwNCpec4dVVs8KuRFC8JRwam535cUapPTVkrRSAVs8_aOg=s4800-w800"
+  },
+  {
+    "name": "Revival Coffee and Vinyl",
+    "lat": 55.8718457,
+    "lon": -4.3025478,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWeLYMJOTUibqPCi0UnwS1r-w6-tM1A0dIVDMWVrjOAZHv3OGPuUJ1gnZtFnTSYF1ZwEWY47bQGoS02c8T9XcZelERL6W4JU6yN-lZRuDsKYhNo2bMKT3gs5ND6H0KBRA3oa1bTv7k2QkG34RS2xRp=s4800-w800"
+  },
+  {
+    "name": "Spitfire Espresso",
+    "lat": 55.8575205,
+    "lon": -4.243169,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE9GoAwIoi5DDTK_b0AzTeGLA0nYPQQfAa4NlE4QMigZc-JRFVmkQnAjyIenNdI9ARlho4fY-c0E7Cq64hVoHTBL0xHZ3Y3kA=s4800-w800"
+  },
+  {
+    "name": "Through the House",
+    "lat": 55.8570044,
+    "lon": -4.2436395,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFr3aR0NtmQ3kaGSvRg9DMbmu38GNef0KZBuedCl3kif6_V38uNHRaDibFlF8pb8dix2VvzH8TQCYZFJaVpkOaieseFMolJ8TDur2Ox92BRZlvKfOvg-rjNrd1NtLUNTQKgowVJ1g7nqVoR=s4800-w800"
+  },
+  {
+    "name": "Godshot Studio",
+    "lat": 55.8301381,
+    "lon": -4.2807754,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG0zZPqpW2ScNaQgYF_gH1IgJIOod68xSxWCuejdENy3uVV7JdVFeYrIv6MOm9Pw-417jxDv1WrpquAkwWAemsUahlUckCdTw=s4800-w800"
+  },
+  {
+    "name": "Papercup Coffee Company",
+    "lat": 55.876347566,
+    "lon": -4.285321087,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEAu8akYoZUFrgTe7zn2QLRQVMYMbffU1F2B5Vtri8ewG5oDMSjDn5vlKrTtd0CcVNmpiBXq_G5eQlnKDcickV91KcAgcwZZNMyNtczi9JvJJQ2A49tEf4_uUMYPq7Fw1J0VyfV0SeYSu1leunO0IV8=s4800-w800"
+  },
+  {
+    "name": "Hinba Specialty Coffee",
+    "lat": 55.8701668,
+    "lon": -4.2977926,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEBgkaj4HoZUfPcQQiqYUcVqzWlZ3U4K5QzWQOxZyMZsryOtyC8vz3aVHM0U6T6hUnO8Ics2tgjbkeEQw_IfL7p2QjrDqsM6g=s4800-w800"
+  },
+  {
+    "name": "Zennor Duke Street",
+    "lat": 55.858323286,
+    "lon": -4.220097068,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYfQT-x58pkB3PeZzziUZ5ZKMllyIvyZai_8mKTrQ21wTRfqv-qi8uxvE1zDuY3_nZNyMgf36TzDfHs-BY3mX_VoW0coVS9Q=s4800-w800"
+  },
+  {
+    "name": "BAM Glasgow",
+    "lat": 55.8369334,
+    "lon": -4.2713646,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHjrd9rD2_9MipL-gxXbUwk_gFjoeQozyErbHdylSO8iSb0GktLhgPvxoqfD4c3pXsMZoNQljVLvwHYDOabsfUGfXzp6IVNdA=s4800-w800"
+  },
+  {
+    "name": "Kahawa Mzuri Specialty Coffee",
+    "lat": 55.8707013,
+    "lon": -4.3072031,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGd6O2ZBq8uFucANjqjCSAmhFGzXnZEPuhcgwz9YPhpbLm5fUcIyREidg7YUyw5j8pykQtffZ_u8L8kOrydk8QXmGSEdctK724358BbhBVKF68qKbgghtaoiRtN0HKIT-y2nXGFdjA8b2puVgHqlM4=s4800-w800"
+  },
+  {
+    "name": "Zennor Langside Road",
+    "lat": 55.835155,
+    "lon": -4.262668,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE3V5aTpJTT4fTR9w9IVH3dFIqSHI4_MGphL8RmUCqT22aOIUUMy6ymp665wBQdFKDozVFcIqBFXMhPWi0Z7ubkMg2pnHKFrudduvaEkhHfXWXkoycWd7fQbkzo3Q0G5DCr9wOGLQQWB1s=s4800-w800"
+  },
+  {
+    "name": "Thomson's Gallowgate",
+    "lat": 55.8555005,
+    "lon": -4.2384394,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF7_ZwfEhsWYoaXNpa7vdRBgQGMmXjEfssImg_ia4lxlbwpk66Sn-1_EX1_ujCWJXeAdmQAui7o-KSQNJkX-2jfe-KVoC2TSg=s4800-w800"
+  },
+  {
+    "name": "Kaf",
+    "lat": 55.8711091,
+    "lon": -4.3028262,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFewV5mvtuhfLW3DSgxXYUfTF_bhver449SG-6KJ_o_GosgAJwHqXtOL-obnyZysqVQzZSYMhYM7_wDHTRwKMov3Kg9o7Qx8w=s4800-w800"
+  },
+  {
+    "name": "French Monkey",
+    "lat": 55.8261291,
+    "lon": -4.26728,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGiIIFuDs1MoL5aYVcSVCOL6xrM6sWcnCa3wnmWwLbsj09CS34nV_61JlHh7U6YaTHW0ef1WpOO3rKdr6knryAXlLh8ylGrmw=s4800-w800"
+  },
+  {
+    "name": "Laboratorio Espresso",
+    "lat": 55.8631917,
+    "lon": -4.2547611,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHNTZ7X-y-_Pjju4okTd0l1RRmPAWgcL6xDwLjoHgyQQfzmyL_XYJaZ1K7oPm9OsjyCRG6HzRAj8Ma9REgluHeMtRUtAjvW6Zp2tAZtUhLUpl8h5J1AuMekyk4Ds-oChNBF_q1K0Kp11FSU=s4800-w800"
+  },
+  {
+    "name": "Meadow Road Cafe",
+    "lat": 55.8705615,
+    "lon": -4.3167978,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEA6c-W5QE9hX9Kpd7dS5vyL4ou3n_viWjCkSaNRZZULKb04jCAnDED9Ed61roOAsjgZSjwrsXxMidwdKNpJ9C6aYR-48jvco2-Ewr94NJ6Y7u381uYzeVmQ9YlJZc651ajVpIY7SYbp_4D=s4800-w800"
+  },
+  {
+    "name": "1841",
+    "lat": 55.8771221,
+    "lon": -4.2900418,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE4uV85X5v8903KrO07nqp92gOxu7VPRyjN1a18UsrsC1O4yPMAZaIH0ePkCR8jnrmYQ3h8FRvrzARxsaORF7Y8NahLoomPdscsqomUBnK6BQ7DaIjUcqBvombO0kLd3At_attvXi1SxBqV3EebdgQj=s4800-w800"
+  }
+]

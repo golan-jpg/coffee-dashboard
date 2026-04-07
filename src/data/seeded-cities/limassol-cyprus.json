@@ -1,1 +1,92 @@
-[{"name": "WAGMI COFFEE", "lat": 34.6751652, "lon": 33.0460581, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nomad Bread & Coffee", "lat": 34.6830013, "lon": 33.0481306, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bike & Bean Coffee Station", "lat": 34.6940399, "lon": 33.0847664, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nomad Bread & Coffee Germasogia", "lat": 34.6996821, "lon": 33.0974445, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Melao | concept store", "lat": 34.6862875, "lon": 33.0551817, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Deja Brew speciality coffee", "lat": 34.6908172, "lon": 33.0446058, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Uluwatu", "lat": 34.675204, "lon": 33.04662, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Grinder Caffe", "lat": 34.6661199, "lon": 33.0211632, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Shopkeeper", "lat": 34.6811769, "lon": 33.0454476, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "WAGMI COFFEE",
+    "lat": 34.6751652,
+    "lon": 33.0460581,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG4q0eUF0K-O0742sUwcbYbDKDumFL98khcUrLhV7eVifUoy-HJi5Z7wcQqy8OJEjx_05s8tGcM1-L8iXypj44MuHBBPq4Mvw=s4800-w800"
+  },
+  {
+    "name": "Nomad Bread & Coffee",
+    "lat": 34.6830013,
+    "lon": 33.0481306,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEgFSlgufT03ozPp0Mm4FIB6Z9TfRpC3HWjVV9njJyFa9ICtbmDz6IOYL5Z91jGI1bmOqyugzXnbUkR0nB0VVSCPo49bEY5Tg=s4800-w800"
+  },
+  {
+    "name": "Bike & Bean Coffee Station",
+    "lat": 34.6940399,
+    "lon": 33.0847664,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHVPGiXF0XM3uhFY6ft4GKALcBt76ZHmIdx12LNoFhqnsoBICpiL8Dz3PUc5NIQbG1hwSzUgzxselt0O14rsHr8r0QrJkDz9A=s4800-w800"
+  },
+  {
+    "name": "Nomad Bread & Coffee Germasogia",
+    "lat": 34.6996821,
+    "lon": 33.0974445,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHeWAzl53-NdhbkcP7DD7QRI3B5eGkUsxsm0lJnhhvUPQeEFZ7mp4J_V_LJE0xfZc3l_iziTjz7ii0ZgLLUmXhv5n21QRR6V_Re4Imhdgm8aWH_m0e09GwKwjemW-_wvlW6O0-nu7wgLuZAhQ=s4800-w800"
+  },
+  {
+    "name": "Melao | concept store",
+    "lat": 34.6862875,
+    "lon": 33.0551817,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEAUAnmYENKbg1WvC2yc27hawze6nMDY6-VjBiSHem8SkulBsQHbTw_7V5K8s12d-LQTlSb0m5SBlsMbkPkp8Hi4jFPY8dfmt0l6zGltdhlhhUKAkZUIcCUXs8W2pMbpiLSVG1xUnCwmP8B84MTH4fp=s4800-w800"
+  },
+  {
+    "name": "Deja Brew speciality coffee",
+    "lat": 34.6908172,
+    "lon": 33.0446058,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGO3WkZBCF54-hVogPDZ4mCFuh8aeo8JBB0r-T1NSviD6ZoxnGY2foz7HmXiHw3otg9IOgknH_f32lifDw1eNr7pwK8ZztyYTpUs-xIc8YTYYbLlyTVHJD3JkR7FU825BVEMrS54z9p_kwwVA=s4800-w800"
+  },
+  {
+    "name": "Uluwatu",
+    "lat": 34.675204,
+    "lon": 33.04662,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHT_N32yZ4qqLG6HNcGEYvGuLI_qcaviJv7PetiWwbqyZIHGmG_iwzvEG-DhAijOdigR_-62_j2BXZfP68cxNLYtaCVASw9fg=s4800-w800"
+  },
+  {
+    "name": "Grinder Caffe",
+    "lat": 34.6661199,
+    "lon": 33.0211632,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYclgR1pwUG-AFi6jueymt8UzUQybQ2aQpigIixIPue4EGP25BIl0zMpL4C-kRuFKeObknAmf6Dqc2pXErzVdqS4JRzSRGDA=s4800-w640"
+  },
+  {
+    "name": "The Shopkeeper",
+    "lat": 34.6811769,
+    "lon": 33.0454476,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFHTdf58u3-k5pmgZh7d4Lu4GeilICpgfzDYiavQblmtDadMkj939pa8gW1KC0XQFVzTLI3cwl24YkF17n-BR7HwMPV6r2I6Q=s4800-w800"
+  }
+]

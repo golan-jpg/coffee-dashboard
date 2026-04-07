@@ -1,1 +1,132 @@
-[{"name": "Llama Lloyd", "lat": 57.7178581, "lon": 11.9473999, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "da Matteo Vallgatan", "lat": 57.7031191, "lon": 11.96234, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "A43 Coffee", "lat": 57.6979997, "lon": 11.9778625, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Viktors Kaffe", "lat": 57.6972836, "lon": 11.9780634, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Alkemisten", "lat": 57.7222301, "lon": 11.945014, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaffelabbet", "lat": 57.6981268, "lon": 11.9526233, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Da Matteo Victoriapassagen", "lat": 57.703323, "lon": 11.965621, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gerd", "lat": 57.6982476, "lon": 11.9512321, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gringo Nordic", "lat": 57.6812485, "lon": 11.9061669, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kafferäven Rosteri & Butik", "lat": 57.7287987, "lon": 12.001969, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dabov Specialty Coffee", "lat": 57.7091196, "lon": 11.9425734, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "da Matteo Roastery", "lat": 57.702827, "lon": 11.962321, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Morgon Coffee Roasters", "lat": 57.7076075, "lon": 11.9506706, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Llama Lloyd",
+    "lat": 57.7178581,
+    "lon": 11.9473999,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGoec7SRYBUQIJUMhKobNaUvQh_zvK6BgyLy28NoTGKZdQaTYe9DHh_aSIM28cu_8FqNcrhNgR8SJR172cJdaa4wFy6s0NaZg=s4800-w800"
+  },
+  {
+    "name": "da Matteo Vallgatan",
+    "lat": 57.7031191,
+    "lon": 11.96234,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGu4CUECbWNHKb5KL2jhFqHG_mOaNyCnK_fpgzZCrGMHzb9W6w3jWpg8RtvyQx1j43S9UTQv6sfprkbiV7FGUxECS0xmIyXBwkDaSWSRtq7L3P4bv31NdBlCCViUJi_BJYqVfLOs6mGDt-P0g=s4800-w800"
+  },
+  {
+    "name": "A43 Coffee",
+    "lat": 57.6979997,
+    "lon": 11.9778625,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnecIBVMragWSn5XianfMmIf09X_EA4R8OyTIla8F1_Mf6-QGw0HnTWApmVF1-lzUvIl26y2a4JG_MjrZw8dm2AbsuYPkrGg=s4800-w800"
+  },
+  {
+    "name": "Viktors Kaffe",
+    "lat": 57.6972836,
+    "lon": 11.9780634,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGB0uUcSTWXoLKfZauONdaovO5h3-lebDPp3tFGQ04IljzpdVm4UeC9f1SMZcrvSj-e7crzJuq_cpDAq7YvbjnP7xTkrrXRbA=s4800-w800"
+  },
+  {
+    "name": "Alkemisten",
+    "lat": 57.7222301,
+    "lon": 11.945014,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGwwVPf0A5oAn-rgJXIlDScKOPZwxRAhVsFyv405M_YjfFIULF5BQSRo_YhSd2KIak1nNLUbbPHIpBdavejZ1LoP3VQHjjrUg=s4800-w800"
+  },
+  {
+    "name": "Kaffelabbet",
+    "lat": 57.6981268,
+    "lon": 11.9526233,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGsUl4GzF7Y9p-5rfHlghc-EIa0cetaLcVoYcG6DrktuupyI87kyWFl5Sjqj8QkfLJE2p55C6b3NWQSDNYazoapIR5SiAAptxxHMOtKu9wqYA89Cl26-oKxVnGtn3Wf2T1HYiE1GXdtiZJaEg=s4800-w800"
+  },
+  {
+    "name": "Da Matteo Victoriapassagen",
+    "lat": 57.703323,
+    "lon": 11.965621,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHWTaSg92c4rCujJizsIjmmgAUzdbuCCHMslcKXFEe82KfUXRETmRHG_muKwTzrUWZvywFgwmlxdCfZxngzojjyLH-W9lqXV_T_1EGp7Hgp83GJDJvYfKMIXQ7pwHc57H5jhq-TDOBex4M2Jg=s4800-w800"
+  },
+  {
+    "name": "Gerd",
+    "lat": 57.6982476,
+    "lon": 11.9512321,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEgG-3VpnXBRDjpDcQwEEhiadKAjZ9eifLrxsA9zjCseLeE2SOR69Pwjx9CNz7Vrw63UJP9S8COKY2qZWdtWbW69r6szpt6=s4800-w800"
+  },
+  {
+    "name": "Gringo Nordic",
+    "lat": 57.6812485,
+    "lon": 11.9061669,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGVppXXOipukwSFrRQtoErJ5F00sjAEpVZwQKtxJ9sz6xHENwifEoG4tc4uZFgXM3hA-uWgIRBK-CkCHqjE8WX8UpRlo76CQA=s4800-w800"
+  },
+  {
+    "name": "Kafferäven Rosteri & Butik",
+    "lat": 57.7287987,
+    "lon": 12.001969,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFkOaTYW9U-drvXnk5U02ruoHsi8WsxGm0gfs1kdNHIdXpTPqP5wLKkyjcsDrlU4Q-F-8T-EcDBptRvmw_RelePTDEylg_PiQ=s4800-w800"
+  },
+  {
+    "name": "Dabov Specialty Coffee",
+    "lat": 57.7091196,
+    "lon": 11.9425734,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH-_uvCyv7yYjISSXpjNG8N7wWzVnMVjRYBajtoeW6P8ceGq3EpfhdvEl9r7L7qhb_Zuyx1OJxsEHPE6Y9Snf8upsAqeQL7tw=s4800-w800"
+  },
+  {
+    "name": "da Matteo Roastery",
+    "lat": 57.702827,
+    "lon": 11.962321,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGNZYXWsFhovLRoat2DyK-Q7MtjMbKIethoSglQSIKqQldJxnaYIytWak1nP7hEseC_y3Fo4C_TaTq5bOdScRExCZmjaWwWDhRacqaY3CVrGO89ZAbZ9xMGOtbblvOrYGJ8oGeJBTazIk6p=s4800-w800"
+  },
+  {
+    "name": "Morgon Coffee Roasters",
+    "lat": 57.7076075,
+    "lon": 11.9506706,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFooZ70zqp6XiAVPhYCx7enOq1rUQ1a71MCn8lYBzaIGCW3WVBABVqgRgU3NLH99mExAIumTeYvToGmRz_Dmo66s4JUrtNOSA=s4800-w800"
+  }
+]

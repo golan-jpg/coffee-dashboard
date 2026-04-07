@@ -1,1 +1,142 @@
-[{"name": "Nico Caffé Košice", "lat": 48.7261865, "lon": 21.2494209, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Boston Café", "lat": 48.6956055, "lon": 21.2848416, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ponq", "lat": 48.7239693, "lon": 21.25921, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BOLGE.", "lat": 48.7300328, "lon": 21.2608379, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Na Peróne", "lat": 48.7208313, "lon": 21.2606883, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Botanicafé", "lat": 48.7356369, "lon": 21.2385088, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kníhkaviareň Foxford Košice Urban", "lat": 48.7254037, "lon": 21.2558595, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KROMKA - Masarykova", "lat": 48.7289752, "lon": 21.2613743, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Melody - fine roastery", "lat": 48.7195788, "lon": 21.2602946, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Doraz", "lat": 48.7329018, "lon": 21.2516645, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "kaveyo espresso & brew bar", "lat": 48.7172274, "lon": 21.2580364, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Doraz Cafe", "lat": 48.7206551, "lon": 21.2543131, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fristik", "lat": 48.7189377, "lon": 21.2597137, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Galdi Cafe", "lat": 48.7106332, "lon": 21.2274402, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Nico Caffé Košice",
+    "lat": 48.7261865,
+    "lon": 21.2494209,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFsG-FLrhlg9xUI5_VdaQ72MeKonr8eBfvZvdiHtzwXNA-1p1WjkM6kwp3bslXgFPiza_hypnHfsjMREd2AC6BjVt9SaV8pZQ=s4800-w800"
+  },
+  {
+    "name": "Boston Café",
+    "lat": 48.6956055,
+    "lon": 21.2848416,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEdeJ4RHG2_SOBSLL5b_w4U5Qqo1lNCPto9dyulSysD3HxBSjkIdDgZ6R-kzzM9kKdaPcI5iWk-0y5ZXX8QDa5q7M4Bl3FpWA=s4800-w800"
+  },
+  {
+    "name": "Ponq",
+    "lat": 48.7239693,
+    "lon": 21.25921,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEGf04TjLVDvBU1YAV85QTVtkRh6TY2tIVAu4dZ76qCme_I_TP5LcLh-Bk902Zyxz1yfcLGWN959bu36EqGJLdwGVCpMjRvmg=s4800-w800"
+  },
+  {
+    "name": "BOLGE.",
+    "lat": 48.7300328,
+    "lon": 21.2608379,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFrI0lktFTmGHCkItmVtOxwdeAtrRv0je09YjEFvk5o8-F7V1RVZIUgMkGZn47MKMib9tFH5ANdD3_QH7Ua2Sc7HnUnsPpabj7XwnzAlQQ4GMKADhu8eOGremJn8yxwpY9S6e8bMlo9ZWk=s4800-w800"
+  },
+  {
+    "name": "Café Na Peróne",
+    "lat": 48.7208313,
+    "lon": 21.2606883,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHhycI4Vgy2o0DvFILGTF0rUgpRIKzc69tSN91OQIDliQt1eG34F5KklM49KpP1HCp0vyQsc4SVSw0vpx9Ql2r7n-gqDyQnLg=s4800-w800"
+  },
+  {
+    "name": "Botanicafé",
+    "lat": 48.7356369,
+    "lon": 21.2385088,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF9hnba-7Y7Ep-GsowtaP0EjXyJzMueOZZHIypjjNUxyxhE-_mPbC0Bg9dTzboN_LqMPRjI_kUF21DW6xfXmYy_OzWlb1vvow=s4800-w800"
+  },
+  {
+    "name": "Kníhkaviareň Foxford Košice Urban",
+    "lat": 48.7254037,
+    "lon": 21.2558595,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHYqmwb0IWSTIc1C-jd7ajy5rlckmPHTnpK6I5PLXW_hI966HQagOQ7Cesid0Qq6mTZFS0YrQONoK3gb0A8203HadpnxAQ8=s4800-w800"
+  },
+  {
+    "name": "KROMKA - Masarykova",
+    "lat": 48.7289752,
+    "lon": 21.2613743,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHq-eSed1iyex3LFplx5f8F8AMFjM3sufxXGiRczs1sE3Xd9d3MQEGAk9IRoUXlG1QumVtPAp6z6hxMCQjB56-AdYeTHvYDa6nHsicLRs4i5DQe5-Em4cfiKgki_6r75Ek06_2dAQZCWzM=s4800-w800"
+  },
+  {
+    "name": "Melody - fine roastery",
+    "lat": 48.7195788,
+    "lon": 21.2602946,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTcmNURtqwKHnjQqDyYq79QNZjCrKNS_vPCcCW3LBp7HwNXuMrD150Yau7ShPDxhzCfMuZazVNERDYA2pA5pQNMTc-fOt2Og=s4800-w800"
+  },
+  {
+    "name": "Doraz",
+    "lat": 48.7329018,
+    "lon": 21.2516645,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqqc8uiMJ63C_uCb_tlDJ2KHH_LcJ2JGQHNLzrmfECKYDV_LF95h0T27ilrsceB6IEXoUvgZbNgy4e-cl-Y9H3_aveeGeuqQ=s4800-w800"
+  },
+  {
+    "name": "kaveyo espresso & brew bar",
+    "lat": 48.7172274,
+    "lon": 21.2580364,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGHkcswfGtKgas7ZlnqMyhZABH6fzRTDfeUuLPcbvub-YD_T0oDTPkaztWffJgk8dG6F8lRDzM_KWh6CP4be0u2GrOR1p6yrw=s4800-w800"
+  },
+  {
+    "name": "Doraz Cafe",
+    "lat": 48.7206551,
+    "lon": 21.2543131,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqqc8uiMJ63C_uCb_tlDJ2KHH_LcJ2JGQHNLzrmfECKYDV_LF95h0T27ilrsceB6IEXoUvgZbNgy4e-cl-Y9H3_aveeGeuqQ=s4800-w800"
+  },
+  {
+    "name": "Fristik",
+    "lat": 48.7189377,
+    "lon": 21.2597137,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFFi0SOxluDUvxY5kfFReG03uTgsZ6_swOJMG90gGUidPJ4u7d4Fe2rpTitMtX2HeLRg79176eueZQgbH5GC881cKITHtIl7ew-pDKq2g77Vz2gPCBJ7ySESumQVBFdILx6c7MXyzToT8w5kgPp0qk=s4800-w800"
+  },
+  {
+    "name": "Galdi Cafe",
+    "lat": 48.7106332,
+    "lon": 21.2274402,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGIFsPtTbYYS8Y5d3jsIyAFzQJJ_33s3ooSAGrcMLyIa2lWg7NrQdTyRvBvk-qXYKKw9MUpZOggYhJMUKkq2rL4jUosnJ6VZg=s4800-w800"
+  }
+]

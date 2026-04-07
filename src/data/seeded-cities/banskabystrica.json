@@ -1,1 +1,102 @@
-[{"name": "The Fleck coffee roasters", "lat": 48.734694, "lon": 19.141824, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Barovňa Brewbar", "lat": 48.7349575, "lon": 19.1451042, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "mlsnacava.priestor", "lat": 48.7373381, "lon": 19.1456995, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Leroy Bar & Café", "lat": 48.734978123, "lon": 19.144256115, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Výklad", "lat": 48.7341272, "lon": 19.1450029, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "mlsnacava.študovňa", "lat": 48.7394383, "lon": 19.1616425, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "365.cafe", "lat": 48.7369192, "lon": 19.1441116, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaviareň Poetika", "lat": 48.73746, "lon": 19.1440402, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ALOCAL", "lat": 48.7398165, "lon": 19.1592898, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Chlieb a láska", "lat": 48.7367621, "lon": 19.1460979, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "The Fleck coffee roasters",
+    "lat": 48.734694,
+    "lon": 19.141824,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFeiz7F6BmOelD2fUtnhtyj-ailWaWXbFjEI7bIGs_fRC0qEEaBvLzlVhgymGZZoFG2eOT2UOs7TomY8w-srmho6D0eKpBXjQ=s4800-w800"
+  },
+  {
+    "name": "Barovňa Brewbar",
+    "lat": 48.7349575,
+    "lon": 19.1451042,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH7R7B__yKgMva7mO9u2VcVexeFYwuJbSzjKR5SJSwq9uPzBXQKDF3R1barmF-mM5wjBYHXLWALpdVU-0hVTDtrv3XXHzktsQ=s4800-w800"
+  },
+  {
+    "name": "mlsnacava.priestor",
+    "lat": 48.7373381,
+    "lon": 19.1456995,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwss43WyK0NUQnD9FIBAwzHwLtgXu3JFnPzJU7oaphmSn5oWHDezhzSWNLf_uCp8dc-Uo5YltglXtPsa0B4rlLWGLjEP-h9aUszw49ufBMKIonmWWgYoJWbSKHqsbD4vffC991xW0eYJ2aJA=s4800-w800"
+  },
+  {
+    "name": "Leroy Bar & Café",
+    "lat": 48.734978123,
+    "lon": 19.144256115,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGOUhcHcyU7ZR08pG4uUWYAcvqysF-M4X4OzzzWcMtMArepZfS21xSnfMrskqG1WSLlwHfGAH1m5e_8c5gD7SwtIXeOrVLRHg=s4800-w800"
+  },
+  {
+    "name": "Výklad",
+    "lat": 48.7341272,
+    "lon": 19.1450029,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGTr-cNbr4cfdcYvWI7jzJa5dzOnaD6oc3RQp32D4t8ibrqDRA0CWDT-Dd3hAdFlzVgN1W0sqPMtP4PmCArh1y0KzNcKaQQbw=s4800-w800"
+  },
+  {
+    "name": "mlsnacava.študovňa",
+    "lat": 48.7394383,
+    "lon": 19.1616425,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwss43WyK0NUQnD9FIBAwzHwLtgXu3JFnPzJU7oaphmSn5oWHDezhzSWNLf_uCp8dc-Uo5YltglXtPsa0B4rlLWGLjEP-h9aUszw49ufBMKIonmWWgYoJWbSKHqsbD4vffC991xW0eYJ2aJA=s4800-w800"
+  },
+  {
+    "name": "365.cafe",
+    "lat": 48.7369192,
+    "lon": 19.1441116,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFISzdJvsvLdd4ih-wz18-MoX_YDn6VZDdcJqW01zuZzzqe7bJK0l9GzT3m1zn2NRre6OXMM3Cao4qeBFcoYWInD2pWAlVMZw=s4800-w800"
+  },
+  {
+    "name": "Kaviareň Poetika",
+    "lat": 48.73746,
+    "lon": 19.1440402,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHNuQ_DmGdXPWIk_bjfUQqxZW5jftwGFcHZPUvANTqGmYeR3fqaYd7UxHW8GEfJW7vsOZuwHYkzGwGkHSm39emDjqGggoktfg=s4800-w800"
+  },
+  {
+    "name": "ALOCAL",
+    "lat": 48.7398165,
+    "lon": 19.1592898,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEuvCxwgsc67YxZ94Bpn0nKdg7YTAdpyu4MYq8GnEp6CN-GuAw5PNApWt8Iqjw1VecEfEOsGlsz7BPiLme0-ktkvOgGEACgp5yF4mQNOAeMag49rSzeP0AoiUJiycZmrNaijgo15Vts7RF2=s4800-w800"
+  },
+  {
+    "name": "Chlieb a láska",
+    "lat": 48.7367621,
+    "lon": 19.1460979,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFk-nkSFYfd5IyvwM_e4JxnZZVRnVJ5I_K7JAenKO4B9OFDrqdewq0wJHWe15CcKqBNKAND-C5-jBRL-c1HHCpKVNYXYnXy7mmVlZiJpumkPbvny--SRQ_ehL_z67VhkU4D3hhVekZ4F5sx=s4800-w800"
+  }
+]

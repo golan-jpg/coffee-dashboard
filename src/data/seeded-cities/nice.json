@@ -1,1 +1,172 @@
-[{"name": "GOJI GOJI", "lat": 43.6978147, "lon": 7.2661169, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Claque Cafe", "lat": 43.6976845, "lon": 7.2763922, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Big Boy Coffee", "lat": 43.697302, "lon": 7.277064, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Maison Karlie", "lat": 43.7004663, "lon": 7.2701181, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Paulette", "lat": 43.7008747, "lon": 7.2826569, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Le Country Store", "lat": 43.699307, "lon": 7.2710994, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "HUG Café", "lat": 43.7036192, "lon": 7.2656862, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Selah Atelier", "lat": 43.7079022, "lon": 7.2617669, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Frisson", "lat": 43.6974736, "lon": 7.2757158, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Éburnie Coffee Culture", "lat": 43.695848, "lon": 7.261975, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Oh La La Café", "lat": 43.7045885, "lon": 7.269501, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Brume Coffee Nice", "lat": 43.6988882, "lon": 7.2785081, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Alvin’s cafe", "lat": 43.698676, "lon": 7.2840884, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Full Bloom Café", "lat": 43.6991103, "lon": 7.2829473, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Le Country Store", "lat": 43.6979003, "lon": 7.2617439, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blend Coffee Vinyl", "lat": 43.6968067, "lon": 7.2767355, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "La Hacienda Coffee Shop", "lat": 43.694277, "lon": 7.256416, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "GOJI GOJI",
+    "lat": 43.6978147,
+    "lon": 7.2661169,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGH1z1HaovKPImR-VfX7sZRgyU7M1d3g5TEw0fBbgY0jG47Yn8-FO4b1imd5C42FEV7Fy8dQiba5ba1Pjctgoh-b0_gfhlsuae0w6kMihhL_GjaPHCKiRX61I9-Xrheb11I3Ra2C9DjztfQfkiUEJlm=s4800-w800"
+  },
+  {
+    "name": "La Claque Cafe",
+    "lat": 43.6976845,
+    "lon": 7.2763922,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFfjs87YIDqwuFWatLmVUiugUo-irplQzhgcGFWoZjzGq0JeNIENuwR5LCihr7Z4-ixUIe-KmCUh0f8usH69YBG8JG1ZsQSrA=s4800-w800"
+  },
+  {
+    "name": "Big Boy Coffee",
+    "lat": 43.697302,
+    "lon": 7.277064,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGZxt7HCzvBwgRCJYj-L_4KonhxB08giO9iv6syPWU7r3IJc0SKqwICPIkgwIcwDXUaVO6VlhZJk2aex6ycSD8dh4i1FqMpqA=s4800-w800"
+  },
+  {
+    "name": "Maison Karlie",
+    "lat": 43.7004663,
+    "lon": 7.2701181,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGpKBNZaAnNexw_DI5eC9PKzEp_710N-odmfIDk5VLwEEi7rWO29LwjSwAdwgycYZh_Bnen7UQ2tva-dc8SBwmZtTWNm-EiOQ=s4800-w800"
+  },
+  {
+    "name": "Café Paulette",
+    "lat": 43.7008747,
+    "lon": 7.2826569,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF4gXQEKy8XxfjM2nEd-DtJFneaNtS-TU-rMZsPico022LbUikgsgxCrV_8JhzJXGqSWBjgh82Eda5fHAx90LId3VCzMBA9eQp8KBUJ74yHiZg-JWOdw_KJID9VmTYkQDLNuYXYDsGm-7QR=s4800-w800"
+  },
+  {
+    "name": "Le Country Store",
+    "lat": 43.699307,
+    "lon": 7.2710994,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEoQp3rT0Yp2vEi8lj9OeoYWatBlVKnuwjAFJ7EVdz9AA-S30CqkF-IxcTNFMNaUw_4ie5r7FTmIDHBP8v3rDnA2v-aa2AF4A=s4800-w800"
+  },
+  {
+    "name": "HUG Café",
+    "lat": 43.7036192,
+    "lon": 7.2656862,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGLtlSUDKSuRpYEagd5IIOVC346VD63VMmCJ6vjSuAUl1NsFbHSh3FBnoO7erg6Jzd5155zB1DDsTdlArDfQS2gQIZxE9biXh8vuJXY-PSYD1U7tGqYsrEDrponL8LL5AttQFcvkwWqVaZV=s4800-w800"
+  },
+  {
+    "name": "Selah Atelier",
+    "lat": 43.7079022,
+    "lon": 7.2617669,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFKLWOckff1hVl8UYeUv_xqvu3DCcJUjPLL1yNM8tgNag11v_X-rkJyRJWz7SHwyYApLN0KI6dE7LNIyN7wWbwnrpg1dS_pIA=s4800-w800"
+  },
+  {
+    "name": "Frisson",
+    "lat": 43.6974736,
+    "lon": 7.2757158,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFp7QjSwC4vY-t2uQlbiWjfkPl6TteHjLvEOBRe2QgwfwYmHxunUuc-hDsGNySM_0-xgJFi7yvFnPqEhOjvvjB7HQ9FcGYIYw=s4800-w800"
+  },
+  {
+    "name": "Éburnie Coffee Culture",
+    "lat": 43.695848,
+    "lon": 7.261975,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrHDBnvDC5OxcGzpUAwYw56CUvAvP5F8QNM3eP9_v6Gt8aqN94feh1PfeDDUO_hOVlKH2cHTebD5tOBXna0-6OKzgFu1cWvQ=s4800-w800"
+  },
+  {
+    "name": "Oh La La Café",
+    "lat": 43.7045885,
+    "lon": 7.269501,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH6i18CnQPRG0ZRfel4IsZlPOy_M95b77STQaNDM6T7mV_Ylt56Jyk3o8jE0xJa_zHmUujzf-btTNhisNgacrRcb2EdN_xyJg=s4800-w800"
+  },
+  {
+    "name": "Brume Coffee Nice",
+    "lat": 43.6988882,
+    "lon": 7.2785081,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGeaQUH1UNhmN2tZUKnhUjTinW0_eoo_USTFY7rLGLVjOM8nuQ0jqbWP-sx85-9oMfoJLrCF6XuZiYxMYcgcSNEAsJ7ulQUNA=s4800-w800"
+  },
+  {
+    "name": "Alvin’s cafe",
+    "lat": 43.698676,
+    "lon": 7.2840884,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHxuw001-vu5abojaLvXZo7BRxqekvL1KldBgNRD4wew7BXEoEwzX3FIesvCsJcxPPiAgZ7vco0EoiJKkGLvlX04-RV1V66sA=s4800-w800"
+  },
+  {
+    "name": "Full Bloom Café",
+    "lat": 43.6991103,
+    "lon": 7.2829473,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFF838iyOuvDtZgHKVsk0NU1A1jV5GdU_hmPbEXkhro1Ryao7zW6oZcQxK9xCpO2uPb5oRyFGIaIXHMB7KIZ-V8TiBv0VaoHw=s4800-w800"
+  },
+  {
+    "name": "Le Country Store",
+    "lat": 43.6979003,
+    "lon": 7.2617439,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEoQp3rT0Yp2vEi8lj9OeoYWatBlVKnuwjAFJ7EVdz9AA-S30CqkF-IxcTNFMNaUw_4ie5r7FTmIDHBP8v3rDnA2v-aa2AF4A=s4800-w800"
+  },
+  {
+    "name": "Blend Coffee Vinyl",
+    "lat": 43.6968067,
+    "lon": 7.2767355,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEg_p-PcKXo_6u9-vm5oDztiyD0HaiEBQUS2MRDq-r5w_OHuTQq6S-NSV34uX80KcKmxtqss55iNELhQI_4zS3E8ry2mJq0MA=s4800-w800"
+  },
+  {
+    "name": "La Hacienda Coffee Shop",
+    "lat": 43.694277,
+    "lon": 7.256416,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEPXqhpS6RU76NJF_cw2pPW3z32y3bCOuV2UCakwubHIYeP2BVJwpO0WAMqzlEbozsDv4H2qLHDSFUZKiO6fOK2B2n8kPT8PQ=s4800-w800"
+  }
+]

@@ -1,1 +1,132 @@
-[{"name": "Oishii Coffee", "lat": 45.0640863, "lon": 7.6770408, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "DAPPER Coffee", "lat": 45.0691915, "lon": 7.6955205, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ORSO Laboratorio Caffè | SAN SALVARIO", "lat": 45.0580174, "lon": 7.6839126, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ola Coffee Club", "lat": 45.0715229, "lon": 7.6821449, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pressato Coffee and Books", "lat": 45.0749876, "lon": 7.681375, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ARTIFACT", "lat": 45.0734235, "lon": 7.6772837, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Santaromero Coffee Roasters", "lat": 45.0751677, "lon": 7.697252, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mara dei Boschi", "lat": 45.0667762, "lon": 7.6884127, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Piattini Caffe Vini", "lat": 45.0732428, "lon": 7.6791528, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Seta sala da tè", "lat": 45.070999, "lon": 7.6953, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ORSO Laboratorio Caffè | ROSSINI", "lat": 45.075285, "lon": 7.697054, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Panificio Papale", "lat": 45.0584302, "lon": 7.6828671, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gocce di Cioccolato", "lat": 45.104719, "lon": 7.664301, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Oishii Coffee",
+    "lat": 45.0640863,
+    "lon": 7.6770408,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgwS0Sa85rWcWWGEPjw-SDuGoka_b8rkmnn_V7sr5o24uK43R4dtfXKY24HRhsxat5KUFd3gZ50pIzK6rDySriy2k__4DcD_MhRHNFOlUcXMJIj0b8yakpu7ZBargm9aeZchJkR5yXktWUWC3TIqZx=s4800-w800"
+  },
+  {
+    "name": "DAPPER Coffee",
+    "lat": 45.0691915,
+    "lon": 7.6955205,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG5U-vl0mC_6vs5kQ8PnxT2AgGCyQWE8mubWUEEx9GYSHAjUA8EUJvsKPPY-dvFgidkXcbt1AMLcDySX3pa0Eo-hQzRj9NvYw=s4800-w800"
+  },
+  {
+    "name": "ORSO Laboratorio Caffè | SAN SALVARIO",
+    "lat": 45.0580174,
+    "lon": 7.6839126,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqETZbngKgeClSvc-s18W5TB8U63NytHq6cI6RbM9Avg4eJcM-Ysbm1AArvSv72mUxiVw2O77m8Jt2p-mzLjQmqBONpj1CqzUQ=s4800-w800"
+  },
+  {
+    "name": "Ola Coffee Club",
+    "lat": 45.0715229,
+    "lon": 7.6821449,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEuPa0ra5wJbVtZYRdcXcZytgmMhKFarTLIDw6d1oV-OxlRy2gNuTJ75FcD9M7NGMTRiFbD0GdRCfTqItU1Tv61mVw2OGIpJlGRWHgkAsznASt1AanoLq_qELQDISJHmksgRNI2EhncS7ypYxbWe3c=s4800-w800"
+  },
+  {
+    "name": "Pressato Coffee and Books",
+    "lat": 45.0749876,
+    "lon": 7.681375,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGBbjsE_0RfzOwrNFOxHr8o07OuusyLyZiT1VPGjYB1lw6jKZ4ac7BiTb2CqharXQp5LhdotMtRXSrb8m_BByUINvJscGfNLw=s4800-w800"
+  },
+  {
+    "name": "ARTIFACT",
+    "lat": 45.0734235,
+    "lon": 7.6772837,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEJEX9LawgQZcejacgsOx00zV8w7hC28pWWnzyZ7HhIhWEXg4O-fuUdQFFTcH3RhBCg61prrpvdfEJJODEeY4szMKHgpvkHcA=s4800-w800"
+  },
+  {
+    "name": "Santaromero Coffee Roasters",
+    "lat": 45.0751677,
+    "lon": 7.697252,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGizNPthot6LIH_LEz-7MCizbiQlKpqX61iLK6PLJ53akbs7RO_ngwSTV0y2_gvaTZzzAEPCS8l7hG1EkAn6-h6qbaRN59Y2N-jybTpNdgtiuaCd-wYkamJWpIvS7yRoMJqYmJXSED0F2CH=s4800-w800"
+  },
+  {
+    "name": "Mara dei Boschi",
+    "lat": 45.0667762,
+    "lon": 7.6884127,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFQip-BfROUZaKoj9yX2UB9tgFs0nIH3wg0Jeziy8Bc47WS4FeomuNumKBkGR93IpQPZl0Dta9hqSXQ7RgAmUk68qQxsuiTJg=s4800-w800"
+  },
+  {
+    "name": "Piattini Caffe Vini",
+    "lat": 45.0732428,
+    "lon": 7.6791528,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEwAS9TrL4UNAuvoLD79-sHzKiuOzVC7YsfZwVQ27gvT8lGZoeDxYpX7NJE3N8xUFzYB3C2OVEnInYUCaS_4vioCuH076PRBA=s4800-w800"
+  },
+  {
+    "name": "Seta sala da tè",
+    "lat": 45.070999,
+    "lon": 7.6953,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFfi9hIIghZNFE5z0VIHUTmiV9Z0Oi34Ty-fb-IokRZo_L7ODvWY3YFw4r5Pw4YHuwyLVlnmpVoETRDE2nh0d784gVVyPwzOw=s4800-w800"
+  },
+  {
+    "name": "ORSO Laboratorio Caffè | ROSSINI",
+    "lat": 45.075285,
+    "lon": 7.697054,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqETZbngKgeClSvc-s18W5TB8U63NytHq6cI6RbM9Avg4eJcM-Ysbm1AArvSv72mUxiVw2O77m8Jt2p-mzLjQmqBONpj1CqzUQ=s4800-w800"
+  },
+  {
+    "name": "Panificio Papale",
+    "lat": 45.0584302,
+    "lon": 7.6828671,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFtSBbN8t2DkQGYVyrEeEh4TJNlm-jGJ40Fwh_wFWR1FBYykNAEgErk34bPZ0WuvSY_7TY6wdWKeRk1zHRp50tq83qN99d3OA=s4800-w800"
+  },
+  {
+    "name": "Gocce di Cioccolato",
+    "lat": 45.104719,
+    "lon": 7.664301,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFzC4rnJlUs2Mg-_XL8MuyUgAUvYziVsFZXbzVu0ujXeA7-B3coSkySkUPuMsrB7oZSxqzpAQUXMz-Eg2ci4hMoBRaV8reMy59YV3qJj7FnWknkNv9rOqCrWdBj-ymBBUM2Fm_f24pJi3_Y_g=s4800-w800"
+  }
+]

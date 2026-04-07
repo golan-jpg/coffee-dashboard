@@ -1,1 +1,102 @@
-[{"name": "SPOJKA ROASTERY", "lat": 48.9919932, "lon": 21.2305174, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nico Caffé Prešov", "lat": 48.989500398, "lon": 21.236479729, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SLØW coffee & brunch", "lat": 48.9980928, "lon": 21.2417278, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KROMKA - Záhradné Sady", "lat": 49.0119361, "lon": 21.2428885, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "M Caffé", "lat": 48.9753689, "lon": 21.2623473, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Grunt Kafe", "lat": 48.995524, "lon": 21.2419794, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kníhkaviareň Foxford Prešov Novum", "lat": 48.9928589, "lon": 21.2431606, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ZION espresso & brew bar", "lat": 49.022311, "lon": 21.2264053, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dublin Cafe", "lat": 48.999082, "lon": 21.2390232, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "This is Coffee.", "lat": 48.9968652, "lon": 21.2379967, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "SPOJKA ROASTERY",
+    "lat": 48.9919932,
+    "lon": 21.2305174,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG6XzILLzr_OJLtdhanofwlFTyTSXCVnBdNQwXDmqO9sre3iFfrcSsNIUCjzoqNMu-EpYPqcdgb0FGrDGhnZiSRa-HksYlpyiAFfrBUnBXi5IAv7i9kdoSDgDNaMkiR9Rb1tc7EXHun-jx08r1ynpxV=s4800-w800"
+  },
+  {
+    "name": "Nico Caffé Prešov",
+    "lat": 48.989500398,
+    "lon": 21.236479729,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHLhnPULDZSobXTPEi9M8oB0bwZP-5s8dahn2olm5AEMPibNPjNTRaTOo5yaHh7V22cXmP5GvwhaAgabIwQiypzqsCPzDXOXQ=s4800-w800"
+  },
+  {
+    "name": "SLØW coffee & brunch",
+    "lat": 48.9980928,
+    "lon": 21.2417278,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNECnioMIR3GNCp5GHYtCGzQ3Fl01yhHafb8KHKDMnW8wxgEdvIAt-5GADUcjITOp-WcxNuz5LK3Z_7mTF2_7peIOoZDlkSb6f3FORIQZ181yzihF0L4IQBVUQugXrm4CAcQ1SwwMgAYdeXUxZAgDeMg=s4800-w800"
+  },
+  {
+    "name": "KROMKA - Záhradné Sady",
+    "lat": 49.0119361,
+    "lon": 21.2428885,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_2uMwff21EcSFPzd-yEmk5C32Mo4vvNqHxqZKHllWhfggYCaB0451dEuu0XJSGPJVmN6WF-9WK5A0YUlzQ_1VxmIHxG7fYx-SCOBtR1yYkd4sKWkf5zXLQW61v4vO-1b64jRNgiKReYaD=s4800-w800"
+  },
+  {
+    "name": "M Caffé",
+    "lat": 48.9753689,
+    "lon": 21.2623473,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFrUxrAZFLL-oHANVmKB41Itny3sDFbWc0lZeg-2anFpHgHLl9WEv30LEqDFleUP0ldMea3sSKYvlsmC3tohtoV7zBhubiQXw=s4800-w800"
+  },
+  {
+    "name": "Grunt Kafe",
+    "lat": 48.995524,
+    "lon": 21.2419794,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEl0M99vELljIjB7EcourtPP_8RXmv5U3nk6KsYfmCnt4aZK2mWRWc8KlYXyC-Il4ZQkE7pA-oRKGVCabdBhwxq93EjuIaqlxm6UqQZta2Oo2-YXZ8SQnU1tFksC1IWSzNbqt97niv2xYOlsrNO4WgY=s4800-w800"
+  },
+  {
+    "name": "Kníhkaviareň Foxford Prešov Novum",
+    "lat": 48.9928589,
+    "lon": 21.2431606,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH8daKZCKua2XkXLvilU3UvejiCR0myUjiWeQ17B7P4lYz-3waPUgh8Y4_oRpQ9RGr-ognDIXTFbbnHT02fL2397roYFT271vMSJ9fQohllXochxT2fawrWjMBLpg4JbsWwaOiE9uqLo-cAkQ=s4800-w800"
+  },
+  {
+    "name": "ZION espresso & brew bar",
+    "lat": 49.022311,
+    "lon": 21.2264053,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH1tEkY1isoEgix3LFDkZDoX3echiPkGJMhx2m38knVQZusxV3arne8j0S9mzs_LT4LKbLeATLsi26gbJQN8ZcmE_UhQ3DESBzY1FvRTRsDS-Gq_BY5ejHe89_BBAcs1y3K4rlzy9YucVVAAemr9js=s4800-w800"
+  },
+  {
+    "name": "Dublin Cafe",
+    "lat": 48.999082,
+    "lon": 21.2390232,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFT-U_HsnEYzd4_Hz55I2yEVN0Zj0QmrXp0TRxx2GFZBknj2R1hBKOqG1DPKQDiu2rhtYASIOd2KFEs0w2_u2DpvPOXcOo8_Q=s4800-w800"
+  },
+  {
+    "name": "This is Coffee.",
+    "lat": 48.9968652,
+    "lon": 21.2379967,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFNu7XMIfY7IJBMHydFKBnX04SibGqGKTV5_7lbeSBM9liJj1UsWta6DNF5RQ37z6iCrz9KdwYmhULxxC7DL0E5ZLzWQBVnSA=s4800-w768"
+  }
+]

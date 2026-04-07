@@ -1,1 +1,442 @@
-[{"name": "Meet Lab Coffee", "lat": 40.9616517, "lon": 29.0789371, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Efsy Coffee", "lat": 40.9775488, "lon": 29.0466164, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Krea", "lat": 40.965758, "lon": 29.066474, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "VAA Coffee", "lat": 41.0727806, "lon": 29.0113334, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Collective", "lat": 40.9833881, "lon": 28.8480909, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Blum Coffee House", "lat": 41.04282, "lon": 28.999252, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Filtre Coffee & Roastery", "lat": 40.967461, "lon": 29.087964, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Casa Cooklife", "lat": 41.0580685, "lon": 28.9778697, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pangea Roasting Co.", "lat": 41.1555302, "lon": 28.9186509, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Khaldi Coffee Roastery", "lat": 41.0087966, "lon": 28.9762369, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Vøler Coffee", "lat": 40.9833373, "lon": 28.8449319, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Petra Coffee", "lat": 41.062116, "lon": 29.009512, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Good Coffee Roasting Co.", "lat": 40.9755029, "lon": 29.09188, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Envai Coffee House", "lat": 41.0652029, "lon": 29.0072338, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kahverengi Roastery", "lat": 41.0526469, "lon": 28.9920242, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cup of Joy", "lat": 41.0655402, "lon": 29.0179306, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Department", "lat": 41.032925225, "lon": 28.945780098, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meet Lab Coffee", "lat": 40.9842635, "lon": 29.0261469, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kronotrop", "lat": 41.0314353, "lon": 28.9823998, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Clean Cup", "lat": 40.9688909, "lon": 29.090858, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Sapiens", "lat": 41.025768504, "lon": 28.981277794, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Espressolab Roastery", "lat": 41.0108546, "lon": 28.8988651, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Old Java Coffee Roasters", "lat": 41.0258648, "lon": 28.9754824, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Das Café", "lat": 41.1783935, "lon": 28.8857803, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Answer Coffee", "lat": 41.0177734, "lon": 28.5895053, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "antre istanbul", "lat": 41.034783, "lon": 28.98629, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Whirl Roastery", "lat": 41.114159, "lon": 29.0191514, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Montag Coffee Bomonti", "lat": 41.0575386, "lon": 28.9816293, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cho Coffee Roastery", "lat": 40.9794012, "lon": 28.8761927, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Manifesto", "lat": 40.9892178, "lon": 29.0241073, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "RIFF Speacialty Coffee", "lat": 41.0243776, "lon": 29.0135766, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Calibre Coffee", "lat": 40.9611561, "lon": 29.0750509, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Story Coffee Moda", "lat": 40.984987981, "lon": 29.025508091, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Calibre Coffee", "lat": 41.0832985, "lon": 28.9778805, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Montag Coffee Moda", "lat": 40.9847833, "lon": 29.0257309, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meet Lab Coffee", "lat": 40.9568033, "lon": 29.0803847, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meet Lab Coffee", "lat": 40.965998, "lon": 29.0682718, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "VAA Coffee Galata", "lat": 41.0259871, "lon": 28.9736727, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Spada Roastery & Coffee Shop", "lat": 41.049963, "lon": 28.995367, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "William’s Roastery", "lat": 40.97347, "lon": 29.042046, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meet Lab Coffee", "lat": 40.9808146, "lon": 29.0902791, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rawsters Coffee & Supply Co.", "lat": 41.1125895, "lon": 29.0202414, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Montag Coffee Kadıköy", "lat": 40.9900393, "lon": 29.0242324, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Parsa Coffee Roasters", "lat": 41.0242778, "lon": 28.9779953, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Meet Lab Coffee",
+    "lat": 40.9616517,
+    "lon": 29.0789371,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHl2S7ofSDZNsN3KRFjMgTybvaKs551jydfofEZHHCIO3RNP03Eq6omNECvc8FWcS8GS-NIQiLhoMf3SgoWQXxUqg04NT-drw=s4800-w800"
+  },
+  {
+    "name": "Efsy Coffee",
+    "lat": 40.9775488,
+    "lon": 29.0466164,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHhltIkULtmDTF7asYqg_wiOZ9Dx_HpZWqWVqQjo0eIerdqQ2wbCysLkla7aAjzatoEGVnEk97EQk-ogXvX1Ph0kNxCVIqeqicELqBGbz_iPcywtORowbptc5m-2CIxBNHY8EDM8AGp30Ku=s4800-w800"
+  },
+  {
+    "name": "Krea",
+    "lat": 40.965758,
+    "lon": 29.066474,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHXKxsXJ8E8H03jnV7gBthZ8GBN_dJDzcBGB4YWROTpOURWNGyK0U82cvCfps3L-Xmrleg6iHrYeCSLvqHj_mf1B3LTUJm8Vg=s4800-w800"
+  },
+  {
+    "name": "VAA Coffee",
+    "lat": 41.0727806,
+    "lon": 29.0113334,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE4BYSvFlOIr09FYCs0-3Av4axIBdwCMXsbkZ6JL_pV6BkUSpMUNFiLNbKFmrYEg8cbGwqiZM8NEg9YVxi621Fk2Vfgre82qQ=s4800-w765"
+  },
+  {
+    "name": "Collective",
+    "lat": 40.9833881,
+    "lon": 28.8480909,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGHxArxqJU7w8VIq3F3tbkgJ2qskKWckP3MwUzGrDKq2KYuxo5s5_7U_jfNZ2b9H32uL9ZvN7-GG4yKp69NUMwWxT0RZ8nYWA=s4800-w800"
+  },
+  {
+    "name": "Blum Coffee House",
+    "lat": 41.04282,
+    "lon": 28.999252,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEpFhir0oo5lnoyVkI14YknhMo5USzeFN4eBS43uDWYk0cinNM_iUd1EW6f4JKamusoj4-xMJpnhPr9LYWbHm1v89-5qZuePg=s4800-w800"
+  },
+  {
+    "name": "Filtre Coffee & Roastery",
+    "lat": 40.967461,
+    "lon": 29.087964,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFuCKkuf8dcdmIXb4PU9ijTnLSEOlb7UqSW1rG_WqrhiJ8Sqwn2ZQ-qMIGvX9Ys5HTweY9DBWZ2AP1-aX00CC-I1MWC6BVvNg=s4800-w800"
+  },
+  {
+    "name": "Casa Cooklife",
+    "lat": 41.0580685,
+    "lon": 28.9778697,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHOs3jgSvn3ac2cqFh7Ap8Du5njSUnX5YNdoG959N4DSbMSz7g2Pdz7lZ3I4FdkjW6qbsXt0GffIMhaHztftDFbs-kGyoUh4w=s4800-w800"
+  },
+  {
+    "name": "Pangea Roasting Co.",
+    "lat": 41.1555302,
+    "lon": 28.9186509,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGqxYIEVlE09lzfxlbQSeGa6OmeXc-5zFZqnw-cSl-02jN8vx5cENfHtoS8iHo9xDpF7QVUhhNF65xiX76uZMo3TsyFTP0G2w=s4800-w800"
+  },
+  {
+    "name": "Khaldi Coffee Roastery",
+    "lat": 41.0087966,
+    "lon": 28.9762369,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHs4fmWmhZR5SHLbi3jROnGSwxJ_JC3RyDMuFjhHRpkXPGGyaflsylX948KPWJNh7Za0Ba5hpiHA8qQcl4YfSyrX8_8T0ZbMQ=s4800-w800"
+  },
+  {
+    "name": "Vøler Coffee",
+    "lat": 40.9833373,
+    "lon": 28.8449319,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFjSpUSN5wUiuGfe2vKCOyGd_Z_2sySpZOkymnm0_WnmuOYE9NeevXBHFXuzlluPpyieFKCpnKhYO5HomX0lx0_ZmwZghZlmA=s4800-w800"
+  },
+  {
+    "name": "Petra Coffee",
+    "lat": 41.062116,
+    "lon": 29.009512,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEnCYw_h35MlK7B9_59WviLtHWIVVP6U21ZAII2D5aC96Fqei1e8dAYO-UYKZMYsI_WnjvniPzbNu3Qg1FL-L1FWtWD7aT9MA=s4800-w800"
+  },
+  {
+    "name": "Good Coffee Roasting Co.",
+    "lat": 40.9755029,
+    "lon": 29.09188,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH807JhEERmZtHY4SYzRgZnMTQ_E20ZxsKnQHGxuMkSOvwxiXi-I-KbMQdmD1zhfeeQFZLjDWsOzlcEXHDnOIX82bSbeDdvMg=s4800-w800"
+  },
+  {
+    "name": "Envai Coffee House",
+    "lat": 41.0652029,
+    "lon": 29.0072338,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHQI_mgAiHi7nbpYf65DUm2fZmIL7V9z-z6oDsphlSHFpCsBpaXzYETp-gHrBTF6zdxfc0pp_ivXroIe0ya6g-cd1yuxgpfZw=s4800-w800"
+  },
+  {
+    "name": "Kahverengi Roastery",
+    "lat": 41.0526469,
+    "lon": 28.9920242,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG1-E--weM8fh9JmOb2HegxDFPgfEiq2enXDOR4EqNr76VLFjG6eBfrw541iMv8FVQrze-2bb0arcs2W5cbLptLXV2ei25nIQ=s4800-w768"
+  },
+  {
+    "name": "Cup of Joy",
+    "lat": 41.0655402,
+    "lon": 29.0179306,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFKDX9yX5upvTYCWaHMHjUhDt0k2u1oKKaa4QPIEzT68bV5va1qD6P0hkVoh3XyjHqkf-fJNL3kl-4HR-IwW3eQBqQXpvQ0Sg=s4800-w800"
+  },
+  {
+    "name": "Coffee Department",
+    "lat": 41.032925225,
+    "lon": 28.945780098,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHShdDpaXzlGDt314Osn7UF5ij34PTQC7GMYjCQyjrPdgjbzC6XtwYouia8j_rJiFlt0vj7QxkQWTxpLB6XvJ4QvMRgqrlzYg=s4800-w800"
+  },
+  {
+    "name": "Meet Lab Coffee",
+    "lat": 40.9842635,
+    "lon": 29.0261469,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHl2S7ofSDZNsN3KRFjMgTybvaKs551jydfofEZHHCIO3RNP03Eq6omNECvc8FWcS8GS-NIQiLhoMf3SgoWQXxUqg04NT-drw=s4800-w800"
+  },
+  {
+    "name": "Kronotrop",
+    "lat": 41.0314353,
+    "lon": 28.9823998,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGLQiqjMyvSMjXM7JtgGM7O9gdAyXn-yl8dn6JRI6mHLKpPa4uSxuTOa4VDhRQSD4YnKbuT8_DlYLQ_9-xFST1AWzvnkeCnCIR-3krOtEYBvHcJMemh5kPS4BR_ZIOGU2fQue28UXjbxgT9FyXtnWw=s4800-w800"
+  },
+  {
+    "name": "Clean Cup",
+    "lat": 40.9688909,
+    "lon": 29.090858,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFWvlThFgcnKuoX3sY9UDaNkj_YrNLq3ApZHgAlnKu4NpnpZjdSGmmZ_4nGwbQJVWOGwcy2JnBrCKZsc88-TBIrpuMDQhjbxg=s4800-w800"
+  },
+  {
+    "name": "Coffee Sapiens",
+    "lat": 41.025768504,
+    "lon": 28.981277794,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqPjx6NAoELkr8qeGgBUlbBXoy-woLIfGLz0DrRqdS_qrXNr1sxovG-B9nD6pe6dbi--ifysjYZ_p1qXIxmSEWIxF7Eeup-Q=s4800-w800"
+  },
+  {
+    "name": "Espressolab Roastery",
+    "lat": 41.0108546,
+    "lon": 28.8988651,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHi86Z1qE93GqgZEx15IBA7DCtamD9UM8uZPmSx61FWdT_xm3rht1bqB3pZdKBs3Y91Vk3o5wrLAvEEpVnW4w0Ym1soDLapjg=s4800-w800"
+  },
+  {
+    "name": "Old Java Coffee Roasters",
+    "lat": 41.0258648,
+    "lon": 28.9754824,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF_KGaDo_beg2JsEFS1_HUrvtolminOsFNxgismXUk58Yd63ZKLHxNI-CUY-KPe22jVlwYaYcXjh8V44-5clXKKHixpLnrv6A=s4800-w800"
+  },
+  {
+    "name": "Das Café",
+    "lat": 41.1783935,
+    "lon": 28.8857803,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFYTe5pHcFpRL9DBJfAh5gmOrVTwr0pdsp3F2YNAz99o0ykYXrHlbYHEunHyBoA1-CJ_GFnBu0Eg0JfTuch7zGIO1dX4qlxWGaivio3pF2WwiLrccNpLyMYUYg3-NlwdcH64RYYn6dWIEX2exRVz9qc=s4800-w800"
+  },
+  {
+    "name": "The Answer Coffee",
+    "lat": 41.0177734,
+    "lon": 28.5895053,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFvgWjEMkPYztx-SCxolGroLdW4BEbNYJ3WgLUUt-0cSelduL_Pcv7PAbr3jxB3zxTtYOfZYrT55IV-bfeJAMYk3iBtUckICA=s4800-w800"
+  },
+  {
+    "name": "antre istanbul",
+    "lat": 41.034783,
+    "lon": 28.98629,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEWf3USbsf7aJ3ATRWc3iOyxUIqkHTldPxbwTxXvOOcd9mzrazDLvgR0xH_CT1q-kM0iYm0nSz9VdCYsKiVAjShX3GaBOMuPw=s4800-w800"
+  },
+  {
+    "name": "The Whirl Roastery",
+    "lat": 41.114159,
+    "lon": 29.0191514,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGovXd-IWuXUFVmaTq5mJ-udwoJ8_sZEvJtuBRYtZ-NYz__fvIP6DkrFlGEHeaeELfBVysavIe_aYtSkD8x91V7_90Hp6DeMjHzO8ny7FyXZJVqg8mjDncYE6tEDACWQcs9B8oiKeWgW-ky-ombbzXR=s4800-w800"
+  },
+  {
+    "name": "Montag Coffee Bomonti",
+    "lat": 41.0575386,
+    "lon": 28.9816293,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF7xpGAbKpyzRLVDakI5DUs4hOPIN0m-vgI1qSJCN1lBSHY2z5UYy3BODM__qicWWZn3KPKY6Mds0etX-UfhLM2ZaYCWBoWpXxgPQtawvR9sIdg7cKYqosQd1-6Srpb9zv5e2x8jBkztQP5aA=s4800-w800"
+  },
+  {
+    "name": "Cho Coffee Roastery",
+    "lat": 40.9794012,
+    "lon": 28.8761927,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGnWi5lW7CYI8XpntpqSugFF8pZzJxmGWSz9nwatUouuHfXYDXEnfNDl_7PctO6EQZVqUb5axCRAZBBXC5654aRSr6dGe5zZx6Uwy8-OSlIUOnbVC4rytR2QfLwItADgE4aacaaQBoNh6TdgN6CwUm2=s4800-w800"
+  },
+  {
+    "name": "Coffee Manifesto",
+    "lat": 40.9892178,
+    "lon": 29.0241073,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHuPtv0EjpItqh_bxXX30EI0_La8UvTVJCA7uBeNpq42M4e2sgSuoaTtrTrhVuDCeezLwz4AmJAj0xljn1RDmpFYkILKuKO-g=s4800-w800"
+  },
+  {
+    "name": "RIFF Speacialty Coffee",
+    "lat": 41.0243776,
+    "lon": 29.0135766,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHcJqaG4jHm27Mntd47AdRgUfaASVPQeyqIfn-qiN-tkeKrvtr9D3dWeEOt2ibOi7xxrUKoB8Djufuwcm8Ovda3hMM4yRfR_8RhuuHK515TBZR3NrMIWYElfi9U0wenkd1FdUKo8t1EGveMx4Xjw4dy=s4800-w800"
+  },
+  {
+    "name": "Calibre Coffee",
+    "lat": 40.9611561,
+    "lon": 29.0750509,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHO-SinMuQ7FqY6QG5iawA8Rjb9T48Nr9sMWMu8_2gntrKAolXzHWJSM9GQo-fKBUcAg3IalK73P1bvCOrq0sL5druvJwIJyiS-ZZLl_kNRhsmWkV7rH8NekBStyIgCKLxRf4Tu5AlnngNsmg=s4800-w800"
+  },
+  {
+    "name": "Story Coffee Moda",
+    "lat": 40.984987981,
+    "lon": 29.025508091,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHE1J4qwVjg4urlRhTuhWEj5sHfIeIb5p_xMepq7wmg7FLlp-QcKsVK4Z5jFbOiFr40F0KAi47R0ttiUW3nBDkZwWR4ufumZQ=s4800-w800"
+  },
+  {
+    "name": "Calibre Coffee",
+    "lat": 41.0832985,
+    "lon": 28.9778805,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHO-SinMuQ7FqY6QG5iawA8Rjb9T48Nr9sMWMu8_2gntrKAolXzHWJSM9GQo-fKBUcAg3IalK73P1bvCOrq0sL5druvJwIJyiS-ZZLl_kNRhsmWkV7rH8NekBStyIgCKLxRf4Tu5AlnngNsmg=s4800-w800"
+  },
+  {
+    "name": "Montag Coffee Moda",
+    "lat": 40.9847833,
+    "lon": 29.0257309,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmixZEcyNGbqVKfULu1Upa6lcmJrVcVoI3zaCXu-oB7TopjRODHNzBhdpY2zN8OIpeRMzzELVs86B3oXJzqD7PgUJmZIMuzvaWw28-kjw-8PrCxIV-4SMmJ23HGPEAMgh_odyHZKC-c3T24m4_k0bA=s4800-w800"
+  },
+  {
+    "name": "Meet Lab Coffee",
+    "lat": 40.9568033,
+    "lon": 29.0803847,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHl2S7ofSDZNsN3KRFjMgTybvaKs551jydfofEZHHCIO3RNP03Eq6omNECvc8FWcS8GS-NIQiLhoMf3SgoWQXxUqg04NT-drw=s4800-w800"
+  },
+  {
+    "name": "Meet Lab Coffee",
+    "lat": 40.965998,
+    "lon": 29.0682718,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHl2S7ofSDZNsN3KRFjMgTybvaKs551jydfofEZHHCIO3RNP03Eq6omNECvc8FWcS8GS-NIQiLhoMf3SgoWQXxUqg04NT-drw=s4800-w800"
+  },
+  {
+    "name": "VAA Coffee Galata",
+    "lat": 41.0259871,
+    "lon": 28.9736727,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE4BYSvFlOIr09FYCs0-3Av4axIBdwCMXsbkZ6JL_pV6BkUSpMUNFiLNbKFmrYEg8cbGwqiZM8NEg9YVxi621Fk2Vfgre82qQ=s4800-w765"
+  },
+  {
+    "name": "Spada Roastery & Coffee Shop",
+    "lat": 41.049963,
+    "lon": 28.995367,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG2m22lHo0Gh57arKIrrcvrYCazmBaJvmgfS18BjDDezhrC2V5-4gLA0URvawm-pj0bA1VSkGC2x3eq1_UhOhXKZ8enXff_nw=s4800-w800"
+  },
+  {
+    "name": "William’s Roastery",
+    "lat": 40.97347,
+    "lon": 29.042046,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFWwqonaGPjyd623WVsbsMlbuYeSzxSjFGmoqikGbSOB8s0TZ-eztdKGB1VgFfXOis0kmhDF_SICkJr6twN4CJUz65cmbeAgw=s4800-w800"
+  },
+  {
+    "name": "Meet Lab Coffee",
+    "lat": 40.9808146,
+    "lon": 29.0902791,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHl2S7ofSDZNsN3KRFjMgTybvaKs551jydfofEZHHCIO3RNP03Eq6omNECvc8FWcS8GS-NIQiLhoMf3SgoWQXxUqg04NT-drw=s4800-w800"
+  },
+  {
+    "name": "Rawsters Coffee & Supply Co.",
+    "lat": 41.1125895,
+    "lon": 29.0202414,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGuDSjXf69edJzpd-bGCQN1MIUYmgTfURNL_yB7Pal7vP6wP-cfZtCy5SEnVhDUEl2Pz9J10GjCdZt8EPGym-OJNpLPUWYrcAyLzKq8QLUPvTEkwF5Fd8ob_lHpVMYvpuuuspjC-ZW1i-HA=s4800-w800"
+  },
+  {
+    "name": "Montag Coffee Kadıköy",
+    "lat": 40.9900393,
+    "lon": 29.0242324,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHPmAYQotYW9vnX8AaLWnSAK1skXlrGgcu2kbk0tpSHIkJIKYapxNk9ynyrFGXEOsg_TnxwYNekv-zEEj750nZLhrtSDUbZeg=s4800-w800"
+  },
+  {
+    "name": "Parsa Coffee Roasters",
+    "lat": 41.0242778,
+    "lon": 28.9779953,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGo8vZyhNZkl_41T77iFw61_dwq2TMDnjZhidLWNuXLJTjXPImu4mfWGI9kYCqkt1b9wcmZxEsbLQVIiOeol8h5lbwd4XhxCw=s4800-w800"
+  }
+]

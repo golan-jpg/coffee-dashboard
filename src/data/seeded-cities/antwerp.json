@@ -1,1 +1,282 @@
-[{"name": "Humm", "lat": 51.20675, "lon": 4.4299873, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffenation Roastery and Bar Pakt", "lat": 51.2025038, "lon": 4.4217882, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kasette Koffie", "lat": 51.2230862, "lon": 4.4024755, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Normo Coffee", "lat": 51.2225462, "lon": 4.4043076, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tartoer Ossenmarkt", "lat": 51.2216152, "lon": 4.4134527, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ray's Coffee", "lat": 51.220651, "lon": 4.399949, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kolonel Coffee", "lat": 51.2036774, "lon": 4.3921434, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mono", "lat": 51.1796106, "lon": 4.441095, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cabardouche Taproom", "lat": 51.2133383, "lon": 4.4451889, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Melbourne Coffee Berchem", "lat": 51.2002829, "lon": 4.4326131, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffenation", "lat": 51.2114802, "lon": 4.4073642, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rush Rush", "lat": 51.20675, "lon": 4.4326478, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffe Mundi", "lat": 51.2218007, "lon": 4.4008023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Koffie Dealers", "lat": 51.2246487, "lon": 4.4140798, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ToiToiToi", "lat": 51.22254, "lon": 4.4022216, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Velka Koffie", "lat": 51.2207224, "lon": 4.4100832, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Black & Yellow coffee bar", "lat": 51.230851, "lon": 4.405704, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Nordica31", "lat": 51.2051764, "lon": 4.3951216, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Viggo's", "lat": 51.2218068, "lon": 4.4203865, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Georges espressobar", "lat": 51.2311657, "lon": 4.4108236, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Daily Dose", "lat": 51.2052213, "lon": 4.3885498, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "kolonel&reede", "lat": 51.227438, "lon": 4.4114728, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Andy Roasters", "lat": 51.2077006, "lon": 4.3976582, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kornél", "lat": 51.1996788, "lon": 4.419349854, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cuperus Horseymarket", "lat": 51.2249815, "lon": 4.4088241, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffenation goes Koco", "lat": 51.2119549, "lon": 4.3966953, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Butchers Coffee", "lat": 51.2164759, "lon": 4.4360501, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Caffenation Blue", "lat": 51.2060137, "lon": 4.4106328, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Humm",
+    "lat": 51.20675,
+    "lon": 4.4299873,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGxaJO6jcnJzcHQgJNkhxHYpypyAXr-wF-vt7FxRkoyjWqjugj71E3KqRZCvdbKKdsnv7ujFodyazG12OlEnEJ3YzZgUixc1Q=s4800-w800"
+  },
+  {
+    "name": "Caffenation Roastery and Bar Pakt",
+    "lat": 51.2025038,
+    "lon": 4.4217882,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEYuhmux_8MW0jRr2QqBVz0P11QuPxhckG3nnIL_-Smm4E9meOOEAJoWtPW-F2x6DtNtUIRsTjMb5qMLNw0jo-XycHxcNDXsnUfHi9ff64-MuCI_Am4bY5HQohkjSBtMPS2JNqUlP6zyADy=s4800-w800"
+  },
+  {
+    "name": "Kasette Koffie",
+    "lat": 51.2230862,
+    "lon": 4.4024755,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGD-OtVn1ds8ng5LiYnkH9JCukVw4hGLJMWwpnK7vn3aDibbQg-Yip8wL9PXcVlNhZBwQnYZ0Q-21QcgIRPzdUm3HN5JzAqFA=s4800-w800"
+  },
+  {
+    "name": "Normo Coffee",
+    "lat": 51.2225462,
+    "lon": 4.4043076,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFx1o7y1yD1-KlLQ8ADItQXRP1FVs4sJgmzhqo-aGpsGB1mPfqJUxMfkKba8VejrJMzfz85qZD8f3ihVFq5RPsDY9VTH37xvKfgQ8o3_B1wgMmbWOA3vSN2rJkzzrY_yOGASBuer4AuxPVk=s4800-w800"
+  },
+  {
+    "name": "Tartoer Ossenmarkt",
+    "lat": 51.2216152,
+    "lon": 4.4134527,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF6zv892KpBB0PZoQgtu3QRBPhpsXlR_Vygs2qb419-Sznt_ioVuFuCEJwxsGSYes41WrD6UB1kB2SeiAjOZySwdi_qARCf5Q=s4800-w800"
+  },
+  {
+    "name": "Ray's Coffee",
+    "lat": 51.220651,
+    "lon": 4.399949,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEylmuhonQM3A5WwItLLtQeNd1JZX3h6CphB4QMu4JkLQnAG72GQ9hgmS-6UNnpCJ_Re4IbSHhEagWyO9BKaknj8IYbGS3_8I6dwYhTFRZjDmt6Bx5G0mBSPiaOEfCTgpK9zHzOA6V0q_MMhQ=s4800-w800"
+  },
+  {
+    "name": "Kolonel Coffee",
+    "lat": 51.2036774,
+    "lon": 4.3921434,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFE8TzYhIfYsZ_FuiDxEUOPjqnkFfOxqvOc6lAdrAS9K9-21r9W_ZS5MABPRRxq6H1sjV5KHaRhdXiUjJyk_Zq8qmTWgjHj=s4800-w800"
+  },
+  {
+    "name": "Mono",
+    "lat": 51.1796106,
+    "lon": 4.441095,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG1c49PsApVoRs6iMgNxzyuXA3ASdkLaNWsavO1Pncci3BVGV1nG3tqGYVqhbkwNXQ397JXPH7vW8Fq4ZS9-J0I5L_PvdcUhQ=s4800-w800"
+  },
+  {
+    "name": "Cabardouche Taproom",
+    "lat": 51.2133383,
+    "lon": 4.4451889,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFJEYwi3KXDYm0VI2-XIVlF21Z2YHjD6eONpcCAKZqGkoJ6H8nQVX1Pxs8N_oV1nJYmq-rwYGyMc2PpNlbiR5WUUi98TlNztQ=s4800-w800"
+  },
+  {
+    "name": "Melbourne Coffee Berchem",
+    "lat": 51.2002829,
+    "lon": 4.4326131,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGd1BoL-TJ-WVFITvghSErWmMPXcc0iddMLmrkkCzviaKtONPeKarICj1f-o0L_57qrC5ulRzCf_FyVnYBhGXFAUYtRYBO2Kw=s4800-w800"
+  },
+  {
+    "name": "Caffenation",
+    "lat": 51.2114802,
+    "lon": 4.4073642,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF0eY_AsTg5xdKrQfi6ZA5m-FNkLdCsELnbMqCFODpBzNWnjhyN6LbxaD1YG-YCC-FJHXInEYdyxRSqaj-EJibDOqYo2j_n9Q=s4800-w800"
+  },
+  {
+    "name": "Rush Rush",
+    "lat": 51.20675,
+    "lon": 4.4326478,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG2NFqySOBaQipdqLR554QvvZpuze20TVnbyQZkOxWMFEXfnWCu4eDsaqKtMKHCgKKA6UMXVyaovO1WNEjuR36JBPSpBEXAsQ=s4800-w800"
+  },
+  {
+    "name": "Caffe Mundi",
+    "lat": 51.2218007,
+    "lon": 4.4008023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGyead8DpQU-gZYKffoSf9YKG_ocFJPvT3PaVU5i1oG1JxIVJPN7rTN05bg5wAdNffHcVYjLHq1Y_InJrLeiVY_yk4y-Jmvsg=s4800-w800"
+  },
+  {
+    "name": "Koffie Dealers",
+    "lat": 51.2246487,
+    "lon": 4.4140798,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_bbItUWnazEgsSuuNs8OQhUg0EuxS7D_nNtaq1ER08Dm8uDZ_p6ALokZHEq6YgZKC1Suhyn86JyaGGGn4cX00yPpyt8sLHKGLp3kmHPrSrkNN1eHQ0t6BxD6bowZbuydgDtMPSOus79ul8A=s4800-w800"
+  },
+  {
+    "name": "ToiToiToi",
+    "lat": 51.22254,
+    "lon": 4.4022216,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFK2U8uXYWx1G_ERCs0nirLg47yY12mPamhHK-3QF7VOi6n3DjG07D7o7rOyL5dyHGDgS9tQnYoMsmshErJocp-otSVgwLAOw=s4800-w800"
+  },
+  {
+    "name": "Velka Koffie",
+    "lat": 51.2207224,
+    "lon": 4.4100832,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH_jtaEilXP66RsRE1ZVuCsqzh9yscwKWKpUa3BAXYz4yxzgI-y55a0UxO18-kwLCtqy7PvyV5yGtOaoa2kMy1MMm1epFjsDM8nPYUQohGowxUviMC6Pvpwkzu924k6MPArldf0RxvNtPbm6w=s4800-w800"
+  },
+  {
+    "name": "Black & Yellow coffee bar",
+    "lat": 51.230851,
+    "lon": 4.405704,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHSlHE9H7X0C8EVKoJRIDCm8kTjgCd3wh3aeBJvCEytZHXlSc8enS6xmIYOLP7xC_MXiew0JTALhNFKr2IcphlrFNPz7n2u_qmvPpifXKw70lG9BbVpBODzP29XBaRej5xPcksfQdJjLxbp=s4800-w800"
+  },
+  {
+    "name": "Nordica31",
+    "lat": 51.2051764,
+    "lon": 4.3951216,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEYBN3oUzkvmQZm4LTTm6TettZQnYLM9VvWAIhedusNr_Qqp571KfXhRDECELx03zYXq9T_nDDnFI4iuAiW7la0v1kiaS-lOw=s4800-w800"
+  },
+  {
+    "name": "Viggo's",
+    "lat": 51.2218068,
+    "lon": 4.4203865,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF0s7pltQvJm5IuRpW7FQBiyn66XeT_fytr_jCo5ufYOPNK0Cd2KRU6ZT58r6Wtm87gGogPyZENOe-F46QSb5qPAJoXUXN9MGz0F4MKQNMod3H8XZnBNCSzVtnoE3WLQLLOyLbs0bwl6Bh4=s4800-w800"
+  },
+  {
+    "name": "Georges espressobar",
+    "lat": 51.2311657,
+    "lon": 4.4108236,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHzecy2YqHio0euyQeiWsNysvHt_5274O5WTMTNTP9aJinDHhA78J3OBrW1KqbvHYgW6iBPwzVGrvHL8sjb56SrDv_aQjvDkB_sYkBZlSO3cLKObVEIklmGVHC8K2KntvKtwvVoIWLz3LjRfQ=s4800-w800"
+  },
+  {
+    "name": "Daily Dose",
+    "lat": 51.2052213,
+    "lon": 4.3885498,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEGERU3tpKx707zifp7YOQzp6QG7DODVAx8BPF_DyH7mKLLNa4pF86Uk7HhB_RlSdZ712lmH-2kTeDjnWcG0mtWv5v8x-Cz06emt9y5ls9WG4n3FQOtkYtmFgDIl636ufyY85UEvw6RS_4frbssnEl5=s4800-w800"
+  },
+  {
+    "name": "kolonel&reede",
+    "lat": 51.227438,
+    "lon": 4.4114728,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHkAzSyWEbx0FnhAk3_giaK1cbeOK_jJGdOB85CRT7sCNUZeM3b__X1OiMZ_YANI6kLlUan0tRjIF5ceRZYK-yaVnQfDp6sFg=s4800-w800"
+  },
+  {
+    "name": "Andy Roasters",
+    "lat": 51.2077006,
+    "lon": 4.3976582,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFV7K9ZlTZ6h0wkZ57xG8fZQhpoSLq4sP44dwLaAIcuZVWEFmunQxNRZiRMZJdIuGMAUl1eBnLY_2EMwAo1nID4vDFg0WAebs6z8xu2XjEFxmHQxN8HTwhfUPVacY_-I-W9XZ8-2HNMcln2=s4800-w800"
+  },
+  {
+    "name": "Kornél",
+    "lat": 51.1996788,
+    "lon": 4.419349854,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFeBEcfFRcBPLocbL5zhphcxqxMLh_U0b8j45T_bfzpOvdVjjaDfYnRlW14ZDU7hCWwuZ3A3rYz7rs5Lh93R7rsrIAmzMF7Zg=s4800-w800"
+  },
+  {
+    "name": "Cuperus Horseymarket",
+    "lat": 51.2249815,
+    "lon": 4.4088241,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG-iyb1arrs-warTeOg8DE06AEl2f9cqXnz-THhanKr3UvrlVX1i-Vt1AYre2vAoCrMA6mivkb3IhWdhkw5KBJAjNX6PgJxNDuBsQIo5tL8vb5jVUZQWx9I14CcLOQ8rSoSApzZ0wb6Ieg=s4800-w800"
+  },
+  {
+    "name": "Caffenation goes Koco",
+    "lat": 51.2119549,
+    "lon": 4.3966953,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE1IRH-e9zII-Vyy8s0dmUQ0ZzNys9DGb7SH9UUSqDgQCWiTxbFnrU3en8aC6gowBfGwlpBaDUweo9GVH9PW2u2e_0Deyo5zA=s4800-w687"
+  },
+  {
+    "name": "Butchers Coffee",
+    "lat": 51.2164759,
+    "lon": 4.4360501,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFVDejz7tL9uFxkoCVy7jz-x2-npJkRUYFhKB3EhBdYFZCnq_71i7Z0OSmL0bqwTxLZgUBca4DUUljXPljJ3T1nfEXVw2GgEg=s4800-w800"
+  },
+  {
+    "name": "Caffenation Blue",
+    "lat": 51.2060137,
+    "lon": 4.4106328,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFqr66N9NAGYkXYZ1QoFEddCx-sTKdRtWi34U9fRgjUgz8YJQ48HkEiH1gVnCBm6_h6jjdBcFB4rK1cRxq8gSglRtebWog4MIdfpRf6AwBcApr6HFLorkULaK32GLZyCKiBWtDGblNbq4sU10oZYAss=s4800-w800"
+  }
+]

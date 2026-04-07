@@ -1,1 +1,122 @@
-[{"name": "Loué Espressobar", "lat": 52.0687317, "lon": 4.2214787, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ief&ido Koffiebranderij Shop", "lat": 52.0798309, "lon": 4.3041374, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "August", "lat": 52.0796518, "lon": 4.3216875, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Chiva Coffee", "lat": 52.104875, "lon": 4.2754041, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Single Estate Coffee Roasters", "lat": 52.082499594, "lon": 4.30004986, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Papan", "lat": 52.1015088, "lon": 4.2691244, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tigershark", "lat": 52.1052104, "lon": 4.2793379, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kaafi", "lat": 52.078711, "lon": 4.306176, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Filtro Koffie Bar", "lat": 52.0791657, "lon": 4.308142, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "DuckRabbit Coffee Brewers", "lat": 52.079504, "lon": 4.3050673, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Shore", "lat": 52.1024524, "lon": 4.2638048, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Haley's Comet Breakfastclub", "lat": 52.0810262, "lon": 4.2965497, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Loué Espressobar",
+    "lat": 52.0687317,
+    "lon": 4.2214787,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHsmSvMtayPEei_lXe_lDL_tKacr9DK-XcOqsSWQAUvYR7QTkb0T7fQmzFzcoShwe8-LuOQ1CALfgoYujr8Xens9fojQ2XlBw=s4800-w800"
+  },
+  {
+    "name": "ief&ido Koffiebranderij Shop",
+    "lat": 52.0798309,
+    "lon": 4.3041374,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHERNNP7kjZZ2aeTHvmiMkK9wkFbGwUhNnUraz3sbEZLey5t6mH_HEXsKUZJ2EdTQX0fwSAylH-nbzKvlaU5S3GQIiJMAegdw=s4800-w800"
+  },
+  {
+    "name": "August",
+    "lat": 52.0796518,
+    "lon": 4.3216875,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH2mHE7mdz9TldBTxLiW0eRs-32-5UgAa1HsbutK7RixbCCFSJXJYy7sq90DpieReulxLCfFH1ZxFjtr7mHjbgr753eJ8EHow=s4800-w800"
+  },
+  {
+    "name": "Chiva Coffee",
+    "lat": 52.104875,
+    "lon": 4.2754041,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE0gquNQeZa1RlIJJRQ_EUOsO2uLu_70yACMokQZDtlil7JbWdohyynqpuMfSuJMJ__RG116EEo0scJzT1m3K8SYVI63lhEag=s4800-w800"
+  },
+  {
+    "name": "Single Estate Coffee Roasters",
+    "lat": 52.082499594,
+    "lon": 4.30004986,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqExs0-KYOAgOvBsUEcvDfI6eEBYXpDALs8eH_usz1iRW5rlFE2NaQTu_568ohmrOqq5G8kySUqoFWFMxN2uj1u6IyFu2Qv43g=s4800-w800"
+  },
+  {
+    "name": "Papan",
+    "lat": 52.1015088,
+    "lon": 4.2691244,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFxmsuJHuv4-o1TU6YehWB6VZVGxxfPOUCFddBrtMrzLdkw46n_dHSfzZISKtCCIyvJ6zyXS7EUd6_MzBsgqzp744qiMb3sxg=s4800-w800"
+  },
+  {
+    "name": "Tigershark",
+    "lat": 52.1052104,
+    "lon": 4.2793379,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGWG1iGv4teMntg-vJ_2RnB3NoiCTwvd7LW5NTQS8eeNj1igHdZ7k6oaBu34DhUCCZiQncj3s80F4Np7dNYl-Iiix5nhTgv66yltRQ-t1qgzP60dMAnp3-jmsTvQvYeowO_M6dsK65iIUuOPQ=s4800-w800"
+  },
+  {
+    "name": "Kaafi",
+    "lat": 52.078711,
+    "lon": 4.306176,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG6YbX0RK6ukKp5vRDC550ttI-qs37aUFdQSTfTfe5cKEJT1Pammei_vehCde8uKh_0hthlONBs3CQPFaxbaFH2B3TdZ6XRjQ=s4800-w800"
+  },
+  {
+    "name": "Filtro Koffie Bar",
+    "lat": 52.0791657,
+    "lon": 4.308142,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF6Kjjg9Kx4cP22_IavLHmdtZNvi3Srtu9-3_cXUolN2aprp8-sbFpi8YDDoG4FZUSl2kwyw5-UEXIK8WhrZGXzUgzrBLO2Mg=s4800-w800"
+  },
+  {
+    "name": "DuckRabbit Coffee Brewers",
+    "lat": 52.079504,
+    "lon": 4.3050673,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEZICrm994U_6XVmt04IZG7Kv2yLIbm0LKxOAPmOXHUDZv2M1DX94jL2k5yafaRPUO1Z2cEW5sSKcTm-jEEK4tFT00mo-R3-cZndi1Ojdbz_eNBQjar3NandnQvnp8nAU0BMsOzMrTAFABX5v67Zfc=s4800-w800"
+  },
+  {
+    "name": "The Shore",
+    "lat": 52.1024524,
+    "lon": 4.2638048,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE8D__hOmDa1u4scYr0goEkCOpWj4se36xg-nBvXwrKCdJf4XoTYPsF1OjxomnJnRooxnTkJJkVPA6efcKnsO0BbISasGBJzw=s4800-w800"
+  },
+  {
+    "name": "Haley's Comet Breakfastclub",
+    "lat": 52.0810262,
+    "lon": 4.2965497,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFvCXy636yJpu3eUJQXtbVaj-5vIYpgdeDdaT2gdvEWMbn0qpaV-Rx-3lTixff8PppB-UQRYLQVp0TtvYy4mMJJEsKergcOdd2EW3egznGEn9TqJkbd_BMDECWKDcpafnGxg6l4BnqqlnfE=s4800-w800"
+  }
+]

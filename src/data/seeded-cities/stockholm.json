@@ -1,1 +1,162 @@
-[{"name": "Nordic Brew Lab Stockholm", "lat": 59.3412336, "lon": 18.0381583, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Solkant, Café & Roastery", "lat": 59.331584, "lon": 18.0464064, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Standout Coffee", "lat": 59.3433374, "lon": 18.1190335, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Johan & Nyström Swedenborgsgatan", "lat": 59.3163374, "lon": 18.0640546, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "A.B.Café", "lat": 59.2995718, "lon": 17.998539, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Café Blom", "lat": 59.3258463, "lon": 18.085316, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Drop Coffee", "lat": 59.3169083, "lon": 18.0627779, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pascal Café & Bakery", "lat": 59.3120479, "lon": 18.0789464, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lykke", "lat": 59.3133473, "lon": 18.0820066, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pascal Kaffebar", "lat": 59.3368863, "lon": 18.073758, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pascal Café", "lat": 59.3421357, "lon": 18.0520902, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Volca Coffee Roaster", "lat": 59.3286286, "lon": 18.0466498, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Slow Hands Cafe", "lat": 59.2952811, "lon": 17.9797418, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Höga Kusten Kaffe Rosteri", "lat": 59.3336647, "lon": 18.0376511, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Muttley & Jack's Coffee Roasters", "lat": 59.311765, "lon": 18.0965883, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Gast", "lat": 59.33967, "lon": 18.056765, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Nordic Brew Lab Stockholm",
+    "lat": 59.3412336,
+    "lon": 18.0381583,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFcmD4nQ5558V3NCxShcRmkRnOvESzD1o_FP02_ZWgPBFfddBDg3jdEjFMssFjAVo9ynWkvjgSjGnnZ3xpiKnDOvJUDXcaZgg=s4800-w800"
+  },
+  {
+    "name": "Solkant, Café & Roastery",
+    "lat": 59.331584,
+    "lon": 18.0464064,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG0HYwS--qK0NOQFDRTvCLgYDyDgtC4RR9a61hmN8mDEw7hlbxgjZEFhrz8OCNm-Oty-I3RzgLf5jRPMzKXtuXhjQ7zAzj9JQ=s4800-w800"
+  },
+  {
+    "name": "Standout Coffee",
+    "lat": 59.3433374,
+    "lon": 18.1190335,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEr5Xo5KMkOm-AM7UDloNZFJa5e3fKxpuRp34H7Iso7W7hkE6nZq_KxIwPSn4lw796rQbo7mySIu_ELLEMx4yE9dF_XsVY7eQ=s4800-w800"
+  },
+  {
+    "name": "Johan & Nyström Swedenborgsgatan",
+    "lat": 59.3163374,
+    "lon": 18.0640546,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEIo9KCg2cvDbHeVhzIqHh4yxJqNOv6E5KZnjN12p3rPkFUlixhLe9RoBA9K0DYg-QHzv3xuorJIFcWlmgVHObwqNsYEZOssg=s4800-w800"
+  },
+  {
+    "name": "A.B.Café",
+    "lat": 59.2995718,
+    "lon": 17.998539,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFBaOFqsIXqIPFGBWFV56XDl1grAHuqQDqb0Kt7_M1td-H7ru7G6Jc0X0mZZUFOYsb4QcNPZPrS8js25nNvoaqx9twC2WaL47p8BUJZk0EmsIjng3JWMsDCSEqqcxzLi6k4Nlst5b1qH4rq=s4800-w800"
+  },
+  {
+    "name": "Café Blom",
+    "lat": 59.3258463,
+    "lon": 18.085316,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH_lfdiZd_9r6XxIWELL_4S1bvMijgGZCklh-Z-isoNM-Be1s25wHwq1jpTEePn1BpzGAlWRM9wmlBIWvpZ1vjkqQhfzRlyTA=s4800-w800"
+  },
+  {
+    "name": "Drop Coffee",
+    "lat": 59.3169083,
+    "lon": 18.0627779,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFx3lYPpit2DxI5fLzm9cbtx6DwNi_DS5iaqlNtzxwhH3jW9RZJEmIKKa-kpucIuB0_S4adJ8tMe3Nc6Xz7YnJODVUGs6yO6w=s4800-w800"
+  },
+  {
+    "name": "Pascal Café & Bakery",
+    "lat": 59.3120479,
+    "lon": 18.0789464,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGQ4Te2qechZrF-yaHed_B09x2F_zXKes5h_YUUu-QIJtRYUdzAg5Ms7AAGosk9TePTVV_o9abmOr7uc6zf2A1vbevq3HGpRg=s4800-w800"
+  },
+  {
+    "name": "Lykke",
+    "lat": 59.3133473,
+    "lon": 18.0820066,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG76hnwwt8MX0dCO9FxlTCdOxxZRC5UBda-OMpPgAoB7-P23nnd4vW0T1a1E_UnsiUslDikhRxl8Pp6suWR-L-0zLpFxxquIg=s4800-w800"
+  },
+  {
+    "name": "Pascal Kaffebar",
+    "lat": 59.3368863,
+    "lon": 18.073758,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGQ4Te2qechZrF-yaHed_B09x2F_zXKes5h_YUUu-QIJtRYUdzAg5Ms7AAGosk9TePTVV_o9abmOr7uc6zf2A1vbevq3HGpRg=s4800-w800"
+  },
+  {
+    "name": "Pascal Café",
+    "lat": 59.3421357,
+    "lon": 18.0520902,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGQ4Te2qechZrF-yaHed_B09x2F_zXKes5h_YUUu-QIJtRYUdzAg5Ms7AAGosk9TePTVV_o9abmOr7uc6zf2A1vbevq3HGpRg=s4800-w800"
+  },
+  {
+    "name": "Volca Coffee Roaster",
+    "lat": 59.3286286,
+    "lon": 18.0466498,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGjtm4s1Dech7lZdarc9iMjmb5SNH9TI_fe_0Pz7XJ8-TRXjiDQHbcN6qKvELYKnB4NNeVSaCmd-CW6sPBOOXlcX1Hx1WJfXQ=s4800-w800"
+  },
+  {
+    "name": "Slow Hands Cafe",
+    "lat": 59.2952811,
+    "lon": 17.9797418,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEZh1AANzm-Q8J1fSnouM8sxBnhBBb_IDZUo_b0_jExKqp94WCNmIrItCVRAp78VWHX157oukiwQXX2mwFohJkWe-Lb9xuiaw=s4800-w800"
+  },
+  {
+    "name": "Höga Kusten Kaffe Rosteri",
+    "lat": 59.3336647,
+    "lon": 18.0376511,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGkq5_5obEta43jn6GPzAKwgspUBuuR_dRbsiqU4Cu4opccaWoAbQUVv6X8GK0YEYMtadGJTbGPjB0D_euDzAOHUjFDsL1iQT8zVVN0jBLzHqhI-AcD1ny0fNGgnB5NFSsDQSANT3zVj6xp=s4800-w800"
+  },
+  {
+    "name": "Muttley & Jack's Coffee Roasters",
+    "lat": 59.311765,
+    "lon": 18.0965883,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGIF9S9lPWPmBFp_a61xJAqfbQV33oEqQevOtjN6bQV_j_-uk1SD5ZduCHebsxWwb1g4bYdO8iInRamf9e9JHR-Oh2rXNqgq_cSTGwyy6b72Ng_3hzyGcDJO6TZwS9j7uylnmRKbrcuCjLvvQ=s4800-w800"
+  },
+  {
+    "name": "Gast",
+    "lat": 59.33967,
+    "lon": 18.056765,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGLxSBd2bqeuSmINDZFheP7aDboUqqRdTKkzUfa7XwW62qf7H8pxKFZQ-b6XU72nvXuo2SHS-EU8NT43_9q3Actx5EjF7vsNw=s4800-w593"
+  }
+]

@@ -1,1 +1,24 @@
-[{"name": "Mae - בית הקלייה", "lat": 32.0861469, "lon": 34.8030371, "address": "תובל 15, רמת גן (הבורסה)", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "Mae Cafe flagship roastery branch"}, {"name": "Mae - המגדל", "lat": 32.0826, "lon": 34.8037, "address": "החילזון 9, מגדל וואן, רמת גן", "source": "seeded", "isSpecialty": true, "needsCoords": false, "notes": "Mae Cafe branch, Migdal One tower — coords from known location"}]
+[
+  {
+    "name": "Mae - בית הקלייה",
+    "lat": 32.0861469,
+    "lon": 34.8030371,
+    "address": "תובל 15, רמת גן (הבורסה)",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "Mae Cafe flagship roastery branch",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFUwsfzYjpGIQ_F3dt_4Ojt6pM5rY1ebQIw9hx9q32BD89SqXbUjttk2j-JtKpbEI25ylkEXYG5bY-PtFghlQcXjbd9YoesaA=s4800-w800"
+  },
+  {
+    "name": "Mae - המגדל",
+    "lat": 32.0826,
+    "lon": 34.8037,
+    "address": "החילזון 9, מגדל וואן, רמת גן",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "notes": "Mae Cafe branch, Migdal One tower — coords from known location",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHDirhcYGC_i5a4XnDxarmlQPs2Qis2hM9pcQ28ji76ou7jIrNEXNl52NQTKhwI57eCrHRr4qifdCk7UxPdStJaHZQWYEHW8A=s4800-w800"
+  }
+]

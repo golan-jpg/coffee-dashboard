@@ -1,1 +1,232 @@
-[{"name": "Kavalo Coffee House", "lat": 49.830285, "lon": 18.1678275, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kikafe", "lat": 49.8374397, "lon": 18.2902877, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Laura Coffee - kafeBistro", "lat": 49.7751524, "lon": 18.2688356, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COKAFE Organica", "lat": 49.8294447, "lon": 18.2865803, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COKAFE Centrum", "lat": 49.836655606, "lon": 18.285981417, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Meraki", "lat": 49.8277531, "lon": 18.1782504, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Laura Coffee - kafeHrabůvka", "lat": 49.7880914, "lon": 18.256474, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavárna Pant", "lat": 49.8357092, "lon": 18.2867821, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Malö Kafe", "lat": 49.8365425, "lon": 18.2937158, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Alternativa Café", "lat": 49.834103875, "lon": 18.166657984, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ambrosias", "lat": 49.8330104, "lon": 18.2897857, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Pikola Ostrava", "lat": 49.8379616, "lon": 18.2847678, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Essko Ostrava", "lat": 49.8373452, "lon": 18.2862065, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "U Černého stromu", "lat": 49.840857451, "lon": 18.290036917, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COKAFE Poruba", "lat": 49.8309011, "lon": 18.165275, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Shothouse Ostrava", "lat": 49.8381885, "lon": 18.2846812, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "COKAFE DOV", "lat": 49.8217414, "lon": 18.277966, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "V Zahradní", "lat": 49.8377014, "lon": 18.2887044, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "PetPunk", "lat": 49.839506, "lon": 18.284459, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Dock Ostrava", "lat": 49.8364594, "lon": 18.2962117, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lajka žije", "lat": 49.8372588, "lon": 18.2953679, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Trouble Cafe", "lat": 49.832488, "lon": 18.2905291, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Miluju Cafe", "lat": 49.8364841, "lon": 18.2915389, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Kavalo Coffee House",
+    "lat": 49.830285,
+    "lon": 18.1678275,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEKiXsBI-S738rsl6D0dq03zoMDbQ8mdxv9LgrDiwAwwyz9nqSTDw3vjnoqYbkwMsFkV275ItvxIgZuy3y4zFXUkhYaDQzW2Q=s4800-w640"
+  },
+  {
+    "name": "Kikafe",
+    "lat": 49.8374397,
+    "lon": 18.2902877,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFzOlR931zvtP2xIEfMMmsYjZt1TZ21j8mXo3e6hmZFa4D-wqJEhMEfdg_9i5bwqS38qn4QKLCJae2LcGozp4ODl9Mu0zpOwg=s4800-w800"
+  },
+  {
+    "name": "Laura Coffee - kafeBistro",
+    "lat": 49.7751524,
+    "lon": 18.2688356,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHA-KM4-E-1hr5B8qQBL94-oe7VneFZUELdqaAEV6wqkKCc2A1IP4HBycgm-I4W15v6TzbCF-sOiwfpC_-6DFTD2cN2IuIEGA=s4800-w800"
+  },
+  {
+    "name": "COKAFE Organica",
+    "lat": 49.8294447,
+    "lon": 18.2865803,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH8Hgst8qHmKlk6vR76Wn8korGGNawki8JkH6mAlFw_uSLd0EqLnojdwWLZ7z8rMU1If-rCMjiI_8vgL6gV2w_e1FFKw161Rw=s4800-w800"
+  },
+  {
+    "name": "COKAFE Centrum",
+    "lat": 49.836655606,
+    "lon": 18.285981417,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHW0vNenwVBEsCyeJOJepkKiwRL31pPnlCYSGvSP15OKTpufV7kE61hnP11ufZZoyc2ACxwkk1b6fFfFcBtbFmM3F3-SIjlX8mHQa2m-uEguxLEeTj1PIBSK6IOQNY4IhlHXzX_MtMGsXc=s4800-w800"
+  },
+  {
+    "name": "Meraki",
+    "lat": 49.8277531,
+    "lon": 18.1782504,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE5yLsfOCpk3y8BX4eGrgcT6X8LAWwgOp6m2XzdZJeM-yLi-e9h_rYSEUJk8664EO2PLbjlX6T54ap4Ndd6DQyHzsu2cd9aQw=s4800-w640"
+  },
+  {
+    "name": "Laura Coffee - kafeHrabůvka",
+    "lat": 49.7880914,
+    "lon": 18.256474,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGvdbMpqN1Yz4FJAKMNleyCHdCDFQmZUfD-6rmnAXP9gPgKy4sZB8xO5P1RXQU4c5-ZCN7JtkucNt7W1lyjMKpfMxWNIjsq5A=s4800-w800"
+  },
+  {
+    "name": "Kavárna Pant",
+    "lat": 49.8357092,
+    "lon": 18.2867821,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFnTvIUDkeRzaJc6x2fw_3Cg0zvzPW33RxlXUwEaw8Blv5z4sky2rMr_SAC9fitlI_tW7OVV-tnRoNCj3C4YIxOaXAWDfkvjaxzf-Qh_mCGOhOfNaKDM1ybvImVnI0AggpB4p8-RXWY4sI=s4800-w800"
+  },
+  {
+    "name": "Malö Kafe",
+    "lat": 49.8365425,
+    "lon": 18.2937158,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFHXy7axQpeoyVnWzxW8hg_DXUOaR14nSakTNDsTIGlMKDr9g4zKh4sUZ0mYcdd-hXFlS4FT82fdZMqB0useumIA1euxEh1grn-jP-CyhmFokYxz-o3mRi5L7nEIl4hmwWkzoGiYMVIJzzLEtulPPUn=s4800-w800"
+  },
+  {
+    "name": "Alternativa Café",
+    "lat": 49.834103875,
+    "lon": 18.166657984,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNELBDNhMIKKYv502fHYGuqAaCDV-zT6fHmvWKGIFMGhD7O5vf0qiXkaQ20gFfHjn3g5g7AM2QRQg-EBA-vgJOYc0OXDTJZ87n3ijvDcqoZRy-jMXfWR8ZHYLnfiYekg0M8_XhqoOqO6OO-5=s4800-w800"
+  },
+  {
+    "name": "Ambrosias",
+    "lat": 49.8330104,
+    "lon": 18.2897857,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEf2pZ0fXSOxGgE0oQAP8ityAGbBgb26MV9oAX5o6h3PAI_7G9p73wTQwKkc8PgNGkWPxD8SeeYu3KC5yHu-auIVUEvUVKWVg=s4800-w800"
+  },
+  {
+    "name": "Pikola Ostrava",
+    "lat": 49.8379616,
+    "lon": 18.2847678,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE_IkptYjhSvr7EbknhVh4YPEhMIgunWpx0wPBUoyPxMmOwvyiGMtlTMj5d1kZ8dDDrxJhjfMuBmfs8UKivVNklNtlyTJNp2w=s4800-w800"
+  },
+  {
+    "name": "Essko Ostrava",
+    "lat": 49.8373452,
+    "lon": 18.2862065,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHrMt2oeFfAUrIAiopkFb7pdIIAcYtj_bZr-4BUUJMJb5_qLLNd8n-0ycNYvEPCLSdoXjTg_9JwN6usRKsmXU__ItxkoPgAy3tqDgjqgMJlGQa_RRyVcn_SojDMSUVUXXsQSrhbqX1pHtL7=s4800-w800"
+  },
+  {
+    "name": "U Černého stromu",
+    "lat": 49.840857451,
+    "lon": 18.290036917,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE5ucUhr2ZRLH45_9nuU6KZB699WvrpZa-kKrWNk_FWCwQb4kmcvptIdueQbMeKbuVuFqdzYPZtExDONMXMY6zBDE23RVDFVU6EXywvLCFkquQg8abuQFmGIbvZ2_FkTPgLRKt29KHfqhC3jQhZCNHp=s4800-w800"
+  },
+  {
+    "name": "COKAFE Poruba",
+    "lat": 49.8309011,
+    "lon": 18.165275,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4zA3XNUgzQymN0KsoGwloujMdbl9n7LznxV6fFOP4tpVxfRC8H1Erzas0X8iM7ViYG6E-NNW40UaewaV0F-CmzrgWqpgBdYYLSgaVpNnBiK5Fdl-lSu6kyEpy-Qz1v-DwVyHO10uD27s=s4800-w800"
+  },
+  {
+    "name": "Shothouse Ostrava",
+    "lat": 49.8381885,
+    "lon": 18.2846812,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGVY1nr9AY4WMVr5U_iO69dFgVpAub6JavxF3hgn1SHbsjwJWibQkc1x2OqH5VOVOjHSzaXSy32CrNd1sYuSlrESbqEkH1M1BhWyo7JQ0mk7oIj5QAwu852E5ruAWauhI-cOIcqF28kgcTX=s4800-w800"
+  },
+  {
+    "name": "COKAFE DOV",
+    "lat": 49.8217414,
+    "lon": 18.277966,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEUR0bhIFRl8nma8t-P7tHjr_dbXy9382K9CSbDp_7bqAmKpcLOnD_Cudge-kbEmRwoT0ZhgxXBHDPSMKbHWQkXSYPUx4HKFh7s5RR0SUrJY88a3X9LRe337ICMMSX_Hvn9OQWYnq6CVuny=s4800-w800"
+  },
+  {
+    "name": "V Zahradní",
+    "lat": 49.8377014,
+    "lon": 18.2887044,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEqJMYQtSoN8Mc7g18Cc2Wnl7wIRBnLnCQHeYBIhrW2BMLEJlbPaCM5lrkTEdxXi7QKPHQdTOpeNNpxRpYRFk3ix1W-JhI1Yw=s4800-w800"
+  },
+  {
+    "name": "PetPunk",
+    "lat": 49.839506,
+    "lon": 18.284459,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGYXVJUGQlGC13ClcBqpFTcBLksgp8jI5sCIsf8u8tCLeTSLNnsUwjB1c-IUyQJyUGv9MPlZSWfi9J886Gand88cqm_kgY4wQ=s4800-w800"
+  },
+  {
+    "name": "Dock Ostrava",
+    "lat": 49.8364594,
+    "lon": 18.2962117,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFpuD2vr8QYtza4jdjxQWWGgVLAkWK2w9Hn7Uk9z-hFrz03C9x6RRYnZCpnfVtKeLmQec67XpWs2PqhlQcK0FMsRii7ayXlnQ=s4800-w800"
+  },
+  {
+    "name": "Lajka žije",
+    "lat": 49.8372588,
+    "lon": 18.2953679,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFcVDgsjoWRL3gprkzI0dxe5CkPQN_6Lfx3jpjZd8paXqNEX9-9b3WO7fhESHEXc0h6qhvS6jCSWV1MjkiIqWybr8k0kVSKBQ=s4800-w800"
+  },
+  {
+    "name": "Trouble Cafe",
+    "lat": 49.832488,
+    "lon": 18.2905291,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHOm6qZp7ou2VYmDYx2fqTOO_BUwWEmp8SPLW0jSkIyp8WQeFPJY9GpVwMppxzY1_udJ2EsNUkSWzddIQMC90wdxzbo_OF88w=s4800-w800"
+  },
+  {
+    "name": "Miluju Cafe",
+    "lat": 49.8364841,
+    "lon": 18.2915389,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGztolKNVMMQjJVbgSttwgnY-m08VXqmhk7wm2cReYAe-8YQEMubZZwmDmaNyOSAzA-jvDsmSzPe0jK2sjUTDFXCpKKDnvoOQ=s4800-w800"
+  }
+]

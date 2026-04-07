@@ -1,1 +1,212 @@
-[{"name": "Bugan Coffee Lab", "lat": 45.4528469, "lon": 9.1738348, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "ORSONERO COFFEE", "lat": 45.477641088, "lon": 9.211336076, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bar Affori", "lat": 45.517206431, "lon": 9.171235979, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mascherpa tiramisù + specialty coffee", "lat": 45.457329, "lon": 9.1804828, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafezal Specialty Coffee - Magenta", "lat": 45.466099, "lon": 9.1663055, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Bgood", "lat": 45.44633, "lon": 9.1802278, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ditta Artigianale", "lat": 45.4658338, "lon": 9.1758816, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Altura Specialty Coffee", "lat": 45.4463017, "lon": 9.1247098, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "SISU.", "lat": 45.4561985, "lon": 9.1750149, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafezal Specialty Coffee - Brera", "lat": 45.4786284, "lon": 9.188206, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Il Cafetero", "lat": 45.467528, "lon": 9.1389219, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Coffee", "lat": 45.4711464, "lon": 9.2068677, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafezal Specialty Coffee - Porta Venezia", "lat": 45.4796231, "lon": 9.2040814, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafezal Specialty Coffee - Bicocca", "lat": 45.5124954, "lon": 9.2098596, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "NOWHERE - FUTURE COFFEE ROASTERS", "lat": 45.4560061, "lon": 9.181708, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Studio 7Gr.", "lat": 45.469726, "lon": 9.1996877, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "June Collective", "lat": 45.5031992, "lon": 9.1395227, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Loste Cafe", "lat": 45.4670758, "lon": 9.2087922, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Serra di quartiere", "lat": 45.4726281, "lon": 9.2098222, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cafezal Specialty Coffee - The Coffee Hub", "lat": 45.4641645, "lon": 9.2076383, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Loste Cafe", "lat": 45.5051586, "lon": 9.1369417, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "Bugan Coffee Lab",
+    "lat": 45.4528469,
+    "lon": 9.1738348,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFSFrWy8iw6qbELsFEvzlwO02Dp3KzDk5dixblfmhhRP7E9ReGA3xMR_NkVH2YOIBE-ZQyTjCmDNbs96f49LPXjVsC5bcCZ9cqV_IsjZn3e2VIw9-t8nPDHjZFjbgW-nGjUH1lICr-YVw8KOMym86c9=s4800-w800"
+  },
+  {
+    "name": "ORSONERO COFFEE",
+    "lat": 45.477641088,
+    "lon": 9.211336076,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGTaceoZULZ0TKU8KiaGM53AODDyeW6zFVl4dn-ijXaxKeoXuQajRhf3uIuDs8_RaVJ3hToJ2Pg-F74djNpvyWYuWnN0eO5eSY-UACD71b1-QxdPJ-BJJM0BgabiyYUFABHtCgz0rN5m0tP=s4800-w800"
+  },
+  {
+    "name": "Bar Affori",
+    "lat": 45.517206431,
+    "lon": 9.171235979,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGm1UKxFxv05MVcrriLieBg8Q0AIRkIlXMkMcqo4MKBxQFERliKv3OYK_UCDQrkIoO-x9mU5wv_S7BAKHiTQSOIHp__H8Kybw=s4800-w800"
+  },
+  {
+    "name": "Mascherpa tiramisù + specialty coffee",
+    "lat": 45.457329,
+    "lon": 9.1804828,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGtKYxp8SX2qLGoG-zCuw6rSwwWJG4-6qSoz9QkY6zWXBZMozUFfj09ulRp6vmgCadqDJ0MOc0DpFaI_JQ6v05QiphSDBhDZdf8NhaNkKCIrqZ9t_EQQOOglZqOI3rmbOeBfJh9hktBMAfh=s4800-w800"
+  },
+  {
+    "name": "Cafezal Specialty Coffee - Magenta",
+    "lat": 45.466099,
+    "lon": 9.1663055,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFuV2IvTu1lZIF7Tve-0Zsg6ZuAPVS2__MK_SBHp2LBfrLXVkhZIoPE9CmlfiPbfdRaXglEnOofYnNPvlo-vpLYwZFWkDx41A=s4800-w800"
+  },
+  {
+    "name": "Bgood",
+    "lat": 45.44633,
+    "lon": 9.1802278,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGTaceoZULZ0TKU8KiaGM53AODDyeW6zFVl4dn-ijXaxKeoXuQajRhf3uIuDs8_RaVJ3hToJ2Pg-F74djNpvyWYuWnN0eO5eSY-UACD71b1-QxdPJ-BJJM0BgabiyYUFABHtCgz0rN5m0tP=s4800-w800"
+  },
+  {
+    "name": "Ditta Artigianale",
+    "lat": 45.4658338,
+    "lon": 9.1758816,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFxGy906g4szcuPL0lrbo4nQ5eodGHezlTGggScfI3JrdRcBUq5vujsbf8Qqfv_xsZeh77QqdgEIDm6047J6S5Bnjks6gYJ4Q=s4800-w800"
+  },
+  {
+    "name": "Altura Specialty Coffee",
+    "lat": 45.4463017,
+    "lon": 9.1247098,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGJxoAzOSnEn4DHiowVOQGkmMM8nbNAdI2B-fPcNuaT2eXXo62gJHCtW4Znx2twKwJ0XR8azFnjBqi4--cz1RV3TTrJrPTOlEtESuIpXOBndfk40jf00YE5IyTkpzKLYcZsTnBAMgHq6GDo77y1aJ0L=s4800-w800"
+  },
+  {
+    "name": "SISU.",
+    "lat": 45.4561985,
+    "lon": 9.1750149,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHazYLC_nBFOfBscnK1Zz4ZCkPmb3pB_SsYRx2bdr_9TCsAoFG_4L9aChNemoPQtY9EE4Pm_eg7qC7jRENz3N_KjRPt_VtSHSxMVKJcJV6NlNY0x0T6FyqManPu_FD6OrBV2rBiWqI_kJ8=s4800-w800"
+  },
+  {
+    "name": "Cafezal Specialty Coffee - Brera",
+    "lat": 45.4786284,
+    "lon": 9.188206,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYof-OBnVC8soVjfpGWslz6bwX5zy2r6rs9rRBxGIzd2N0TMTtwnvylPl0eFBfBYhUyW6MLDjG93DL-WBsDswoc2eqEsU2Ew=s4800-w800"
+  },
+  {
+    "name": "Il Cafetero",
+    "lat": 45.467528,
+    "lon": 9.1389219,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHDZ18xzCyNemH7LkSXCRXE-F7wEBt1D_6xRCtN93YkvMvM3zNgsGXGOJwR6Fi18O4YphhOveobKbf6nes1Mx14q9EuH57Vfw=s4800-w800"
+  },
+  {
+    "name": "The Coffee",
+    "lat": 45.4711464,
+    "lon": 9.2068677,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH8uY5-eV5nekVZkINKHsqYGi0ejrYSOXsGBuWRKdrSDECi9SvNKWvQTOAJBvDVmaL2JUjFPx9SPgHwvmmFR4mmm6KZMEoSpw=s4800-w800"
+  },
+  {
+    "name": "Cafezal Specialty Coffee - Porta Venezia",
+    "lat": 45.4796231,
+    "lon": 9.2040814,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG1mtXDVThxJlT7jX9l6ZH4BF-M0TeOBxUERBv2tCm50PjCqD2r99iA_KmBMWMlzKYuumpMas4CibGCS-u5neK4Y_V9kv2EGg=s4800-w800"
+  },
+  {
+    "name": "Cafezal Specialty Coffee - Bicocca",
+    "lat": 45.5124954,
+    "lon": 9.2098596,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE-NnDF5_TIfT8FszahwjO6yrm92HNankK7woJnyjtLCCP1LjUW2BPggGaIyFLuL_M--PWHKLQdBmmXG2yDAZ2fL94GMJ2B=s4800-w800"
+  },
+  {
+    "name": "NOWHERE - FUTURE COFFEE ROASTERS",
+    "lat": 45.4560061,
+    "lon": 9.181708,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGyc7dsyMtzIVE44yxmCX_CUxKh7VDMsj0kmPAHOcnqFIZLNvR2kzmi8LWa0PSkZldxb6JRn7_NtsBVXY_I6tx7Q0MndsjJWfYRc1tSUDeaJO8C0Q4pv-VecUN98UMbH4rTrxQTFZdhRbXec389Eo0-=s4800-w800"
+  },
+  {
+    "name": "Coffee Studio 7Gr.",
+    "lat": 45.469726,
+    "lon": 9.1996877,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFnlYC9ZmlC6ySZdfBvKbjWiLnIIgV73J_2mxcfXstRdkSg1jTFYymDlk7VqjfoA7qjym9jbeySCJ_qv4M9jsanTLnBgAzUTw=s4800-w800"
+  },
+  {
+    "name": "June Collective",
+    "lat": 45.5031992,
+    "lon": 9.1395227,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHx4y0ISCj5DZuLwmZZMT5RonIHTJBWXQnKLYLPhdPOpfAlXUMxsB9oFkpEcm_Kb3yPAMnDsayMjeW3KXqEL-beE1hZCKh-8EckWhJRW8QtA-X37Zu8VLgxQYAMhAgO-IHEf7jwrNMJMd6N=s4800-w800"
+  },
+  {
+    "name": "Loste Cafe",
+    "lat": 45.4670758,
+    "lon": 9.2087922,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHiQIZeBPrp3-Bg6vT11m1uua5gvRyTUE1MKE803razQoE54ul_gwXX7LLoyzTey6jzInevSVsSHPPr7gYs2OO-ui3vlXcUoA=s4800-w800"
+  },
+  {
+    "name": "Serra di quartiere",
+    "lat": 45.4726281,
+    "lon": 9.2098222,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNESyNe6S2f5lMjqvI06wTdVFZL-xmgLvYFGuJHmBNb-dYLZZCU4ALlQ5tfDCWebkYPLx7xBZU_flEdVuB3BkRH-QfXc0FSnygMB9_rkYhoRjspVS5AFKOBy12xDmDH5-niwzZEKe-syV2_3OQ=s4800-w800"
+  },
+  {
+    "name": "Cafezal Specialty Coffee - The Coffee Hub",
+    "lat": 45.4641645,
+    "lon": 9.2076383,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFYof-OBnVC8soVjfpGWslz6bwX5zy2r6rs9rRBxGIzd2N0TMTtwnvylPl0eFBfBYhUyW6MLDjG93DL-WBsDswoc2eqEsU2Ew=s4800-w800"
+  },
+  {
+    "name": "Loste Cafe",
+    "lat": 45.5051586,
+    "lon": 9.1369417,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHiQIZeBPrp3-Bg6vT11m1uua5gvRyTUE1MKE803razQoE54ul_gwXX7LLoyzTey6jzInevSVsSHPPr7gYs2OO-ui3vlXcUoA=s4800-w800"
+  }
+]

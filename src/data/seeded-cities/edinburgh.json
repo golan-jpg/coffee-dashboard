@@ -1,1 +1,282 @@
-[{"name": "cafēn", "lat": 55.9575794, "lon": -3.1996767, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mr Eion Trinity Shop", "lat": 55.9771052, "lon": -3.1999842, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Lovecrumbs", "lat": 55.945965, "lon": -3.2018268, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan Roast Stockbridge", "lat": 55.9592821, "lon": -3.2137712, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BEATNIK", "lat": 55.9427843, "lon": -3.2012512, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan Roast", "lat": 55.957905, "lon": -3.188894, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Milkman", "lat": 55.9506877, "lon": -3.1909208, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KUL COFFEE", "lat": 55.9587332, "lon": -3.1833763, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Leo’s Beanery", "lat": 55.9565219, "lon": -3.2021247, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Milkman", "lat": 55.9504116, "lon": -3.1885376, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan Roast Leith Walk", "lat": 55.9694271, "lon": -3.1730026, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Origin Coffee", "lat": 55.9470189, "lon": -3.1866166, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BRAW BRUNCH", "lat": 55.9456967, "lon": -3.2023356, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cairngorm Coffee", "lat": 55.951208, "lon": -3.211036, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cult Espresso", "lat": 55.9415628, "lon": -3.1837443, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Tanifiki Coffee Bar", "lat": 55.9550669, "lon": -3.1177165, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "meh.", "lat": 55.9514659, "lon": -3.2117233, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Mr Eion Stockbridge Shop", "lat": 55.9587831, "lon": -3.2148441, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Machina Coffee", "lat": 55.9381642, "lon": -3.1950419, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "The Tailor", "lat": 55.9574382, "lon": -3.1708777, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Modern Standard Coffee", "lat": 55.9396717, "lon": -3.204387, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Williams & Johnson Coffee Co.", "lat": 55.976863499, "lon": -3.170536101, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Ante", "lat": 55.9592522, "lon": -3.1838404, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Little Fitzroy", "lat": 55.958494, "lon": -3.1717057, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Fortitude Stockbridge", "lat": 55.9592104, "lon": -3.2071367, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "the source coffee roasters", "lat": 55.9460068, "lon": -3.2032241, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Twelve Triangles", "lat": 55.9606895, "lon": -3.1809829, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Artisan Roast Bruntsfield", "lat": 55.9366897, "lon": -3.2080454, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "cafēn",
+    "lat": 55.9575794,
+    "lon": -3.1996767,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEKL0B_VmBUP5TWuTbic-RqrZRT2KpPXoi2tRzhpjk8iSugQz0XOoMTERKK3p9mkC_KLm7GlPR9kynUUG04kIhv57_aKbPuO1v013iekwlv4DOAVRIM-g7UydLvusEpSoMCkL-QAX-HkGka=s4800-w800"
+  },
+  {
+    "name": "Mr Eion Trinity Shop",
+    "lat": 55.9771052,
+    "lon": -3.1999842,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHXc7jtxWvPBhrfxuizTkveOwP6eB7xtDiFVxWo721QxzMPOVF7su3pReSXYxvRcWSe-yAOvmZ4EvatrQDVn774I6v9gJnfURRmJYizF-TVjQK-qyOFfNa_zHY0JnK_pn-EA8XLyUpUQZn7uw=s4800-w800"
+  },
+  {
+    "name": "Lovecrumbs",
+    "lat": 55.945965,
+    "lon": -3.2018268,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEtvmFRzMCmnvJP_JJFPpa_30SPoaku2GL3n-GiCnGQmSlTZ5WYW0aUpfwXav3XQSh7f1TQ7W_UvXXPAgB2arDyMvR7zT8v8bDY8sEqd4Lr-HMIprSs7HeYFuK0sw8rx6aAvqwfelNAoyLvmL_-LVk=s4800-w800"
+  },
+  {
+    "name": "Artisan Roast Stockbridge",
+    "lat": 55.9592821,
+    "lon": -3.2137712,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNERW1hRBpLPeFm8RXSespIyb5m8wEg-IuCqWs6hhJUFSX5F1YcDcolttKiV29BfTJvjvRSnNeqAvNet8umFyPMPaZqrEzKiTaKeWJZsaipAXaByEwEERfi962w4AxMHtw8Hv18d-P-unCU=s4800-w800"
+  },
+  {
+    "name": "BEATNIK",
+    "lat": 55.9427843,
+    "lon": -3.2012512,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGZhh7J7cYtEMRPnGVvP2YZ7ccpMmtQD8bT2XbE0nU0as9wXcXEDQvQdcb_MQY0sjSbhD9fVLcIome5uPmSzbdk3CYtCITM-w=s4800-w800"
+  },
+  {
+    "name": "Artisan Roast",
+    "lat": 55.957905,
+    "lon": -3.188894,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGrWVh3G8OG5NjLf5nnETVYcGxO5ENzsRQFHserlaaH2JrwhjlXvbbZGuVsXCt7baGLs3QNbAWte_1f6NwhSFzykKwY3PdE6g=s4800-w800"
+  },
+  {
+    "name": "The Milkman",
+    "lat": 55.9506877,
+    "lon": -3.1909208,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH7Utpz4AmNDdbEI_nuVm4jRPS76gasAkUZjL3kA3qRlSh1lXjoLZJVgj6s-zi_Rk6drRY78LSK7yE1pm46F-1yzbbVApa_ePglIDkyjQWzTCdIngRVBjK0YgW8uPXTKCrfkA6DVib7KCEAuQ=s4800-w800"
+  },
+  {
+    "name": "KUL COFFEE",
+    "lat": 55.9587332,
+    "lon": -3.1833763,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH9eRfu0PBo56fXX1Qr42lWC4fmeKeJZpXQOBHrjtgHy8DxmTTi3HNXUvLvXoAml8t1x5DcClEWn_c_aHKXb8ODxkuWjSaqIw=s4800-w800"
+  },
+  {
+    "name": "Leo’s Beanery",
+    "lat": 55.9565219,
+    "lon": -3.2021247,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHWSxoWNjeziETateOi9WgHqg1LU_iSR6Ivx79w3sSduiv3bfwTREIuQZGAVaHC9SQZJlzhfiI2h5_jUaZUOfkw2UpJ5z0PIg=s4800-w440"
+  },
+  {
+    "name": "The Milkman",
+    "lat": 55.9504116,
+    "lon": -3.1885376,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH7Utpz4AmNDdbEI_nuVm4jRPS76gasAkUZjL3kA3qRlSh1lXjoLZJVgj6s-zi_Rk6drRY78LSK7yE1pm46F-1yzbbVApa_ePglIDkyjQWzTCdIngRVBjK0YgW8uPXTKCrfkA6DVib7KCEAuQ=s4800-w800"
+  },
+  {
+    "name": "Artisan Roast Leith Walk",
+    "lat": 55.9694271,
+    "lon": -3.1730026,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqErXLZamhaODCZdo8fxp8lb4WyVEG79eVdV8_CUAS7XVTmQzLME46eDH980A010yj1p6X1IFh6uXfGM7FFJR_evq6_PCGTuRw=s4800-w800"
+  },
+  {
+    "name": "Origin Coffee",
+    "lat": 55.9470189,
+    "lon": -3.1866166,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE6cbJFScb4stufSQ-_aHJ5mpWGo1hude70yy38AtmIXU8tqvvttVc1_C5JdXTA0wvFqd1PGxSG5OZ_EyS95raqES-IQhP0gg=s4800-w800"
+  },
+  {
+    "name": "BRAW BRUNCH",
+    "lat": 55.9456967,
+    "lon": -3.2023356,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHatDJbflsuRW70B_JQOvlf5JOIgvZtqfBVlWskd3NLideFNpTR9_TqMKp1oJDPdRuXFNdQ8nkX4b89yjB0xJCIhki_kUxf5A=s4800-w800"
+  },
+  {
+    "name": "Cairngorm Coffee",
+    "lat": 55.951208,
+    "lon": -3.211036,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFOq5SrRxTQqjAUuNXBX47ritfXH9uO8FYqRB8i0w7qYkwV5wviikA4mU0z10zMGINRIfgv-SO-kB3qVOgMGRKiW5b8vpBnXg=s4800-w800"
+  },
+  {
+    "name": "Cult Espresso",
+    "lat": 55.9415628,
+    "lon": -3.1837443,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqE1PdIBLDP9Q1UhGAVQ05UODZlEwkQDlE5V9KnBMm34O_18ctQn1Ri-0Ktp-croWCUEa6gNpI6PAlVgNLSv3siipkR9tKUl1Q=s4800-w800"
+  },
+  {
+    "name": "Tanifiki Coffee Bar",
+    "lat": 55.9550669,
+    "lon": -3.1177165,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHhuHUdTIHy-_Ye-VobxA1YVXOiqcIXRt2M_aMe8WQLinviROK713fA2CLsV1KmVpKRvDgNx3OY9HhYupgHKbXOj4zgGetoh4K45LZZTOXF7EvNBzyVDULEij2itipQy1X3qCi3rUqgxYGEjQ=s4800-w800"
+  },
+  {
+    "name": "meh.",
+    "lat": 55.9514659,
+    "lon": -3.2117233,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGEJIftP288mHP9zmv6uxrgZWjoSnlvklWmpj8j9rtZ-aFcpPvpB1e8RZoZJ0v6rN_KXaEL3W7_Inee6LXtnWJGC_6qw6jwGw=s4800-w800"
+  },
+  {
+    "name": "Mr Eion Stockbridge Shop",
+    "lat": 55.9587831,
+    "lon": -3.2148441,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHbzYBTeqP5c1YNN24TEpTK-9m0Fm1Y10uWEKhd7VVQIyB1Dc8j5q8iiFdAgtYNJjv4ztIomw5OAN8nci5UCsmwNpzeswzhYkpAi55YfQZVTCXGZcVVTnhAGYv8KI_JoeWyfPTSPXmBxFgp=s4800-w800"
+  },
+  {
+    "name": "Machina Coffee",
+    "lat": 55.9381642,
+    "lon": -3.1950419,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFHAjAA16vYoWc021pJjQ1s9XDYGV-PzSo5bxzTjedp5FD0pkqmU1Y2T0YFVG82lyE43Xt4Qq66SNrDnvHeduWg1Vps2YJXVQ=s4800-w800"
+  },
+  {
+    "name": "The Tailor",
+    "lat": 55.9574382,
+    "lon": -3.1708777,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEni89Xtn44iV3ZRdWZrxFLZ9bamA-jW4lI45xJPkyQIhK4YEFxg6Fi-J9p2LYRs_S_hj6-fXqSo3q5IObJsAioXzX_OOolDA=s4800-w800"
+  },
+  {
+    "name": "Modern Standard Coffee",
+    "lat": 55.9396717,
+    "lon": -3.204387,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEgpKXrW3tWWcrJCTqDlH6_lRQdKxBPMUu-BoTYW6RAbc0qiOG4Atv9M_qwjvJqX5eCyQCY6dTCtmZZgqtEgotRh7SFSu3WZg=s4800-w800"
+  },
+  {
+    "name": "Williams & Johnson Coffee Co.",
+    "lat": 55.976863499,
+    "lon": -3.170536101,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGgRdYxWdJzB47a_Ty4vQ0xH3EtBwPQFS-tCSIKuypOGDrWIcUr3iGynkxLUCa2dZWhHam8idJpE2Px4G1dwmNojjRxjoVWqQ=s4800-w800"
+  },
+  {
+    "name": "Ante",
+    "lat": 55.9592522,
+    "lon": -3.1838404,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF7cWss9pvKx-LM_zqnnYHvrK49HLYl0abxGJk5eYcLzWmoI1CVVM28cJKqpSouxgdS407xd6oUoH7Q_TCiMjPYniQDBX8fUbWx4qIacJ5VP5zDx5A7gIfthAKvGLbhOzVfL4aYUYBBam4U79zznt3q=s4800-w800"
+  },
+  {
+    "name": "Little Fitzroy",
+    "lat": 55.958494,
+    "lon": -3.1717057,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFx5nxjTcuuzE5kFj_KFKzlOXKXDGMCYk6CGOee9X5gHAJJwHNwUgdJzNaqwHO7ngyNRQtpSOWs5xkJGyyOHcLCyCYS4mWmnQ=s4800-w800"
+  },
+  {
+    "name": "Fortitude Stockbridge",
+    "lat": 55.9592104,
+    "lon": -3.2071367,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHZgwEd4dp7gkylwADxiq39uEE0F6Y35Nu9z9XCGbJhQSGWJK5lGky1gvjmHaYfVO1FWoZCPOvGNjwZ18Qe9rZZWys7SYT5lL5rC7RV7V7NurZUUIdmx6DK8Kym0XahJDHMJHhAwQgEXBmwM5bKhNGj=s4800-w800"
+  },
+  {
+    "name": "the source coffee roasters",
+    "lat": 55.9460068,
+    "lon": -3.2032241,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGSrwboiGVfmORnrhEvZa6f3StuFBYU7ZUS1AbWoXtoEdhetI5UMl-FVsB3TYFvDRix02KwKgHZj2PJTvI8nXLfa8ccZNhHbw=s4800-w800"
+  },
+  {
+    "name": "Twelve Triangles",
+    "lat": 55.9606895,
+    "lon": -3.1809829,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGqLeWDwu6J_jDtuesTMjVeujgaF00wMcsUP97u8a2uHYxD7IjnZpExov3j9__UPTM8E-lzHe-8g4xk5G-h19bYImhjSw1xVKbwNRFuTD7gXla3EabV20yqSjBR3F8DIcMgaT6qwZayImQnF4klsX0=s4800-w800"
+  },
+  {
+    "name": "Artisan Roast Bruntsfield",
+    "lat": 55.9366897,
+    "lon": -3.2080454,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFjV_urCyg04v65gzUw-_xadQWDfHhqL7r5uC5zUU6TDdF1u_CS-GP1sGGKECx9tZcPDs1yqOTs4vTsg35sbAYQ9ua0YDew-g=s4800-w800"
+  }
+]

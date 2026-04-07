@@ -1,1 +1,312 @@
-[{"name": "TASTE MAP SENSORY ROOM", "lat": 54.682149, "lon": 25.2653348, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TASTE MAP COFFEE ROASTERS", "lat": 54.6822972, "lon": 25.2653641, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Eskedar Coffee Terrace", "lat": 54.6893511, "lon": 25.2953508, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Eskedar Coffee Flow", "lat": 54.6959132, "lon": 25.2800029, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Elska Coffee", "lat": 54.6847998, "lon": 25.2772588, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "StrangeLove", "lat": 54.6850831, "lon": 25.2935827, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Her Excellency by Vero Cafe", "lat": 54.68868385, "lon": 25.267937372, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "KIRAS", "lat": 54.6857314, "lon": 25.2821092, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "mon.", "lat": 54.6789609, "lon": 25.2830989, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Backstage Cafe", "lat": 54.674833, "lon": 25.266001, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BREW. Specialty Coffee", "lat": 54.6790189, "lon": 25.2780376, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavos Reikalai", "lat": 54.689935778, "lon": 25.27387619, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee Spells", "lat": 54.6762701, "lon": 25.2817215, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TASTE MAP COFFEE PARK", "lat": 54.6990231, "lon": 25.3091945, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Huracan Coffee", "lat": 54.680404845, "lon": 25.283277333, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kavos Reikalai", "lat": 54.6794457, "lon": 25.3033312, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Rocket Bean Café", "lat": 54.6735089, "lon": 25.2842871, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Cuproom café", "lat": 54.6800773, "lon": 25.2793643, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Eskedar Coffee Bar", "lat": 54.6823286, "lon": 25.289351, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TASTE MAP ROCKIT", "lat": 54.6932861, "lon": 25.2646681, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Italala Caffè", "lat": 54.6785822, "lon": 25.2859445, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Coffee1", "lat": 54.6805479, "lon": 25.2956105, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kiras", "lat": 54.6782949, "lon": 25.2781023, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Karštos galvos", "lat": 54.6837869, "lon": 25.289359, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Espresine", "lat": 54.692102, "lon": 25.25706, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kitchen Coffee", "lat": 54.6830905, "lon": 25.2899594, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "TASTE MAP TECH CAFE", "lat": 54.6979075, "lon": 25.3118798, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Kalve Coffee Vasario", "lat": 54.6919595, "lon": 25.2719314, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Stories Cafe", "lat": 54.7245354, "lon": 25.3212278, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "BREW. Specialty Coffee / Bakery & Cafe", "lat": 54.674024, "lon": 25.2727027, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}, {"name": "Backstage Cafe", "lat": 54.6783953, "lon": 25.2850281, "address": "", "source": "seeded", "isSpecialty": true, "needsCoords": false}]
+[
+  {
+    "name": "TASTE MAP SENSORY ROOM",
+    "lat": 54.682149,
+    "lon": 25.2653348,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHvYnipCGQ_yniI5Schw_YlTff4V8ZSTg6IAymM5rNBB5Z7-sBkgXBtDr_9p4ZOp50ER67nwsFlRhN9sxo3H8PnTzAXMdTekg=s4800-w800"
+  },
+  {
+    "name": "TASTE MAP COFFEE ROASTERS",
+    "lat": 54.6822972,
+    "lon": 25.2653641,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFRpmudtAz98cc5-fWG3Q7keGs15OyergrScaYImKEekEXyY52e2WjwO7SrDpTWmTD4Kfh7iLqINYQ4iQAbqCB4vd7qYBFPEvaLuwQRqQdawCnKlD-g7AMPURKV-YzKtXOBAxH5vMuAmAF6sw=s4800-w800"
+  },
+  {
+    "name": "Eskedar Coffee Terrace",
+    "lat": 54.6893511,
+    "lon": 25.2953508,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEmEClBIFr_CASI_LRYG5yXvYPi7hgZTuviebLob_DWLILma374Twabl6liG-A71WElfoPgTq1ku11NHDJheKwdNDdD-qLA6TKNYkYvxhM-3h-ZpNrvKlFVzII8WKj_LUb2PY8R_ooUQqk=s4800-w800"
+  },
+  {
+    "name": "Eskedar Coffee Flow",
+    "lat": 54.6959132,
+    "lon": 25.2800029,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqECwwSeUqUIGQP2auGPwlcG-8msUARo2Sr8kSUbduGTkfikpEaZ8jo8r_qNq80tgxHJMcS_UXsAYoEiZkBpLQQq_GR4par7Mg=s4800-w800"
+  },
+  {
+    "name": "Elska Coffee",
+    "lat": 54.6847998,
+    "lon": 25.2772588,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqF-dQP-IR_mu08bo3HD4WYyC7FE6i9WHRmbR03VCXY2495yCdzEZ_YV4Fm9PP2_9Bfb1h1qQvKyX3UKIxgTlz4WbKhlbSsK=s4800-w800"
+  },
+  {
+    "name": "StrangeLove",
+    "lat": 54.6850831,
+    "lon": 25.2935827,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqG1QYxPEUVG4V-pVhmIbovWzbPJpsNbeYCRkKo8pl-nLU37ryY2CiqEzzs6ZIBiCMhqUDesNaFG4C7t66c61nNmVaBaz8LMTg=s4800-w800"
+  },
+  {
+    "name": "Her Excellency by Vero Cafe",
+    "lat": 54.68868385,
+    "lon": 25.267937372,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGk98-qEFdjvHncg4BBsxzVh6l-vNOhGjYnwDLxOpqf6ryzxRiTnYbp7-OIGSf9AXmNRD0FTUAF2-nca7Xx1HLrB4EWw4E75otnRmOExtNcz2v4MH_aTmv2RkgZauGWv4OLQPghCdijdCUx=s4800-w800"
+  },
+  {
+    "name": "KIRAS",
+    "lat": 54.6857314,
+    "lon": 25.2821092,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoJFvclZPSYw_ozffuWxvoDL09k5a1PiP7RVmezDjNjvXb40HwSuZtevTemlF-AF8aWpa35wgv7AF2RjAntO06LPJJPycpqmSXRfrBlatUlggkWENkHf-qvrmSe0iFh0xgA8KUCIT7KFd_0KMK-zIU=s4800-w800"
+  },
+  {
+    "name": "mon.",
+    "lat": 54.6789609,
+    "lon": 25.2830989,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH4VLrsRHV6Vfsbb2anxACmGfCObNIFxcPIWu1eoPAyu81tPXPaK6zFI-cg2cSekQek1HmxBEOFTkIaPOhdZkBpeG7iaMqR-Wg5mByPU4MGNKRFeoz29QmXTeMg_xtbvI-_-xU1LiRm0EqS=s4800-w800"
+  },
+  {
+    "name": "Backstage Cafe",
+    "lat": 54.674833,
+    "lon": 25.266001,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHew7zrcN-kEufA7-9jc72qQcdLuizw9rE0P8HoxnWU39cLQq_DcrpPi_-P9l7NKl7eq8hQ83eP4q4uLUp9LtUWYbF56Ax86g=s4800-w800"
+  },
+  {
+    "name": "BREW. Specialty Coffee",
+    "lat": 54.6790189,
+    "lon": 25.2780376,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHqLvX770m3IxTqCo0lnOlkSLGZh7NQonGt0vZr8q2Da7BpAoBW-Klx-30ZS9oD8Mcyj7q8MmUcgDt9JlzGwSPb8uEtaBs0bU1Ggj9ELLlGIA6dLfKIlboPzMQPPr0pngUbRvF4dWGXFzk-HOABjZ0=s4800-w800"
+  },
+  {
+    "name": "Kavos Reikalai",
+    "lat": 54.689935778,
+    "lon": 25.27387619,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHqlHpLGV3jEiSWqCeszqJ4x0kLuE8O_TV0T5ZFAA71F34FUc8qeIScrPu751qtNiqdRiYpeI8CZVizFcMyKUJbCygh2bLKVw=s4800-w800"
+  },
+  {
+    "name": "Coffee Spells",
+    "lat": 54.6762701,
+    "lon": 25.2817215,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqH7paPxasZ3PoK91N1BkgHR3ZPReMe1iBldiQZUdocByXDftSJTomNe-TSjzMjo73sOBow3GJFvxWWDwPnkjkmPb9wQgAK3_w=s4800-w800"
+  },
+  {
+    "name": "TASTE MAP COFFEE PARK",
+    "lat": 54.6990231,
+    "lon": 25.3091945,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqFy_KUTpzJ3hAU5u5gTTUJo9ih28ypDa5_DHdtx3wXWnUaGWZ5wrYtWKCJ5B3QnLaQu2oQjnKU7U31PY55Gek9hstrV9V18ng=s4800-w800"
+  },
+  {
+    "name": "Huracan Coffee",
+    "lat": 54.680404845,
+    "lon": 25.283277333,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHarUb5OaiyY0hHsNWAuKhV1tGuL_9XitMVHm63rE0KdaIwB2AUIOh2WLowjsMN9Y05MYSEh4uJswTX4LDJPDE0QzWkKt0LZg=s4800-w800"
+  },
+  {
+    "name": "Kavos Reikalai",
+    "lat": 54.6794457,
+    "lon": 25.3033312,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHqlHpLGV3jEiSWqCeszqJ4x0kLuE8O_TV0T5ZFAA71F34FUc8qeIScrPu751qtNiqdRiYpeI8CZVizFcMyKUJbCygh2bLKVw=s4800-w800"
+  },
+  {
+    "name": "Rocket Bean Café",
+    "lat": 54.6735089,
+    "lon": 25.2842871,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHk7m3aEHtCmx0ogtnIGijJcuF3wsmvtkj3bGTF7uKFRsSIxdebKetDJljTYscRXewh_fnU7GaEbE5ZR1ZpTzC6v7kDVuYleOZUAmV1PnQmObrLGZZ2q6v0Iv4qjRuwbj2b5hQLt7kGmsOaJAeBfoI=s4800-w800"
+  },
+  {
+    "name": "Cuproom café",
+    "lat": 54.6800773,
+    "lon": 25.2793643,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHx2t-m3UGcJ9ZdKF2QTGjVsCHMEyJ8EzVewELZqJy2E9mgw7iIAPUIZExuBmWGusKCjoIKhwHjS_WvMyKv4OLu9vMp3ZSf-w=s4800-w800"
+  },
+  {
+    "name": "Eskedar Coffee Bar",
+    "lat": 54.6823286,
+    "lon": 25.289351,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE50rPKZNFgcGFCvVufUkDojPhTtxYupm5pplFvEvfspwTJKce8eR_PpQ-cDxtMlCakzH6wMG8H14yo1CkcmUyLZbbRwR0uG55Wz7NZKNE2bA2NvParqsVcjCNc53rgYaxl_7W40NBvZfWJ=s4800-w800"
+  },
+  {
+    "name": "TASTE MAP ROCKIT",
+    "lat": 54.6932861,
+    "lon": 25.2646681,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNETORuuBgBipmQRD0D0-mHVe8CausICLDy8tiBNeC0NoqLmcUn5popsdQ9DWghMEYBpLcx7rm-MmbDzWA--F8BEKmRNFOIS_WH2gihhR4srdjxPMpgEgKM3OGS1JHpbHWFjRxby3f1BykELoA=s4800-w800"
+  },
+  {
+    "name": "Italala Caffè",
+    "lat": 54.6785822,
+    "lon": 25.2859445,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqEVXegjeGFFX76MKBIZ4xFqOWdBfYCRY7cig-R8HPKM0XaCjMAQHWhLJl4SIa7obd9yB0M9HTYEKIowj_lwBp0EiLfJ0CYcMA=s4800-w800"
+  },
+  {
+    "name": "Coffee1",
+    "lat": 54.6805479,
+    "lon": 25.2956105,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHtvlJy-cD8laydFrGVte-ITx2wx1LnlKIx74HG234gPaS1CYIvhxS45opAEpwPV_1VOD4pm15WU_FLALwJyCppww5c70q4aQ=s4800-w683"
+  },
+  {
+    "name": "Kiras",
+    "lat": 54.6782949,
+    "lon": 25.2781023,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEoJFvclZPSYw_ozffuWxvoDL09k5a1PiP7RVmezDjNjvXb40HwSuZtevTemlF-AF8aWpa35wgv7AF2RjAntO06LPJJPycpqmSXRfrBlatUlggkWENkHf-qvrmSe0iFh0xgA8KUCIT7KFd_0KMK-zIU=s4800-w800"
+  },
+  {
+    "name": "Karštos galvos",
+    "lat": 54.6837869,
+    "lon": 25.289359,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF5GHOL61yEboC9I7FxwiGZGPynqdTXc6seNWBI40Z3K2repKnBwnIa4lEqqmBPyLji9-Zl-z3zEWGmSNl26nM9yUl6SrapTYlXJnAOoCWMAQEHnMyI6XAQpzawYLg6qdkumuCOqtYS2JVFOb5UGZEG=s4800-w800"
+  },
+  {
+    "name": "Espresine",
+    "lat": 54.692102,
+    "lon": 25.25706,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHqqrRCWhYrGsUwvsFev85OEHTkoqrboEigtJugy8FsiVNaq5nrCMdq3mReNjjTEzE_DV5PN3HozZE4VGt_6vxSpr5dbhs5cQ=s4800-w800"
+  },
+  {
+    "name": "Kitchen Coffee",
+    "lat": 54.6830905,
+    "lon": 25.2899594,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEguKbPr3w1Ky93ST7GTPgKQ9UyzhK0OWGzsPrsStoEKVYokG5YC5m3FubS_Vg9NBR_G5mV0z7KdBPjU-xJHqkpKFVtgjgcGLQlOCOYGFk6nNbdnhHX9ca91zDgY7tW_VCTtMDqaukoZg-v=s4800-w800"
+  },
+  {
+    "name": "TASTE MAP TECH CAFE",
+    "lat": 54.6979075,
+    "lon": 25.3118798,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG9ALFYgltVB3RalZim8BVd4uK8oE0_8mj8O8jVxeT2bguxXqJOqxS3jde7eULtuAWRs4wyOCK6-OveLPESYr49BqGLl0zb1R4JEe3uBduOjoYA4Lbciwu1bB2zP9FAW8tcZA2UwWSiGysn=s4800-w800"
+  },
+  {
+    "name": "Kalve Coffee Vasario",
+    "lat": 54.6919595,
+    "lon": 25.2719314,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE2CU8nwe9SCsJ2SSG87N_D1y69Z2Rgig14OFt_Nbx7ksctMf4c1X7vW6pFuBuPdzqrfNDPWO03aWOLJrR0aADO9Ve5carahQdRhisWTx6JeY-qeacI5z2NPpC82sonlHa201mpfJVvMgILtGBJzdZ_=s4800-w800"
+  },
+  {
+    "name": "Stories Cafe",
+    "lat": 54.7245354,
+    "lon": 25.3212278,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHmc-ELONY9qe5OdOzltl-Kh-OgPFV5nzX6O5xaNLcqIKRfuOu0FLm1SpaeVuxZaVnO_NRDTDe2qQIlMRgJ4e7sDe62ermoNA=s4800-w800"
+  },
+  {
+    "name": "BREW. Specialty Coffee / Bakery & Cafe",
+    "lat": 54.674024,
+    "lon": 25.2727027,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGFHZYptgJHN4ssqv8vWMFVjlHbHsJyrt6tzb1GLICnhfO7QNYZhQSnfy-mb-Xl2DfSWia8z9RFEsl-kBN9RqIqkxVviW9q7IjLCF0xDt9t63M8HMla9XK1M2Ye1AUYkfCmASamI-lukbbTkMy_NujR=s4800-w800"
+  },
+  {
+    "name": "Backstage Cafe",
+    "lat": 54.6783953,
+    "lon": 25.2850281,
+    "address": "",
+    "source": "seeded",
+    "isSpecialty": true,
+    "needsCoords": false,
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqHew7zrcN-kEufA7-9jc72qQcdLuizw9rE0P8HoxnWU39cLQq_DcrpPi_-P9l7NKl7eq8hQ83eP4q4uLUp9LtUWYbF56Ax86g=s4800-w800"
+  }
+]

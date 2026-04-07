@@ -3840,71 +3840,6 @@ function App() {
 
       {activePage === "home" ? (
       <div className="main-content">
-        <aside className="sidebar-top">
-
-          <div className="city-selector city-selector-panel">
-            <div className="city-selector-group">
-              <label htmlFor="country">Country</label>
-              <select id="country" value={selectedCountry} onChange={handleCountryChange}>
-                {availableCountries.map((country) => (
-                  <option key={country} value={country}>{country}</option>
-                ))}
-              </select>
-            </div>
-            <div className="city-selector-group">
-              <label htmlFor="city">City</label>
-              <select id="city" value={selectedCity.name} onChange={handleCityChange}>
-                {visibleCities.map((city) => (
-                  <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          <div className="sidebar-header-content">
-            <h2>Best specialty coffee in {getDisplayCityName(selectedCity.name)}</h2>
-            <p className="sidebar-subtitle">Discover standout cafes, coffee shops, and roasters in {getDisplayCityName(selectedCity.name)}.</p>
-            <details className="advanced-tools utility-tools">
-              <summary>Manage saved places</summary>
-              <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
-                <button onClick={handleExportManualPlaces}>Export saved places</button>
-                <button onClick={() => importInputRef.current?.click()}>Import saved places</button>
-                <input
-                  type="file"
-                  accept="application/json"
-                  style={{ display: 'none' }}
-                  ref={importInputRef}
-                  onChange={handleImportManualPlaces}
-                />
-              </div>
-            </details>
-            <div className="sidebar-header-right">
-              <span className="city-name">{getDisplayCityName(selectedCity.name)}</span>
-              {loading && dataMode !== "google" && <span className="loading">Loading...</span>}
-              {(!loading || dataMode === "google") && <span className="count">{effectivePlaces.length} found</span>}
-              {nearestPlaceInfo && (
-                <span className="nearest-badge" title={nearestPlaceInfo.place.name}>
-                  Nearest: {nearestPlaceInfo.place.name} ({formatDistance(nearestPlaceInfo.distanceKm)})
-                </span>
-              )}
-              <button className="fit-button" onClick={fitToResults} title="Fit to results">Fit</button>
-              <button
-                className={`fit-button${showScoreLabels ? " fit-button-active" : ""}`}
-                onClick={() => setShowScoreLabels(v => !v)}
-                title="Toggle score labels on map"
-              >Show scores</button>
-            </div>
-          </div>
-
-          {shouldShowOsmError && (
-            <div className="error">
-              <span>Oops! Unable to fetch places.</span>
-              <button className="retry-button" onClick={retryFetch}>Retry</button>
-            </div>
-          )}
-
-        </aside>
-
         <div
           ref={mapContainerRef}
           className={`map-container ${isMobileTouch ? (mapInteractionEnabled || hasActivePlaceSelection ? "map-interaction-enabled" : "map-interaction-locked") : ""} ${hasActivePlaceSelection ? "map-selection-active" : ""}`}
@@ -4062,6 +3997,67 @@ function App() {
         </div>
 
         <aside className={`${isMobileTouch ? "mobile-bottom-panel" : "sidebar"} sidebar-bottom`} ref={sidebarRef}>
+
+          <div className="city-selector city-selector-panel">
+            <div className="city-selector-group">
+              <label htmlFor="country">Country</label>
+              <select id="country" value={selectedCountry} onChange={handleCountryChange}>
+                {availableCountries.map((country) => (
+                  <option key={country} value={country}>{country}</option>
+                ))}
+              </select>
+            </div>
+            <div className="city-selector-group">
+              <label htmlFor="city">City</label>
+              <select id="city" value={selectedCity.name} onChange={handleCityChange}>
+                {visibleCities.map((city) => (
+                  <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          <div className="sidebar-header-content">
+            <h2>Best specialty coffee in {getDisplayCityName(selectedCity.name)}</h2>
+            <p className="sidebar-subtitle">Discover standout cafes, coffee shops, and roasters in {getDisplayCityName(selectedCity.name)}.</p>
+            <details className="advanced-tools utility-tools">
+              <summary>Manage saved places</summary>
+              <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
+                <button onClick={handleExportManualPlaces}>Export saved places</button>
+                <button onClick={() => importInputRef.current?.click()}>Import saved places</button>
+                <input
+                  type="file"
+                  accept="application/json"
+                  style={{ display: 'none' }}
+                  ref={importInputRef}
+                  onChange={handleImportManualPlaces}
+                />
+              </div>
+            </details>
+            <div className="sidebar-header-right">
+              <span className="city-name">{getDisplayCityName(selectedCity.name)}</span>
+              {loading && dataMode !== "google" && <span className="loading">Loading...</span>}
+              {(!loading || dataMode === "google") && <span className="count">{effectivePlaces.length} found</span>}
+              {nearestPlaceInfo && (
+                <span className="nearest-badge" title={nearestPlaceInfo.place.name}>
+                  Nearest: {nearestPlaceInfo.place.name} ({formatDistance(nearestPlaceInfo.distanceKm)})
+                </span>
+              )}
+              <button className="fit-button" onClick={fitToResults} title="Fit to results">Fit</button>
+              <button
+                className={`fit-button${showScoreLabels ? " fit-button-active" : ""}`}
+                onClick={() => setShowScoreLabels(v => !v)}
+                title="Toggle score labels on map"
+              >Show scores</button>
+            </div>
+          </div>
+
+          {shouldShowOsmError && (
+            <div className="error">
+              <span>Oops! Unable to fetch places.</span>
+              <button className="retry-button" onClick={retryFetch}>Retry</button>
+            </div>
+          )}
 
           <div className="search-controls">
             <input

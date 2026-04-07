@@ -176,7 +176,9 @@ html, body, #root {
   /* ensure sidebar fills the available height and scrolls internally */
   height: 100%;
   min-height: 0;
-  overflow: visible;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
   padding-bottom: 32px;
   box-sizing: border-box;
 }
@@ -185,19 +187,21 @@ html, body, #root {
   grid-column: 1;
   grid-row: 1;
   height: auto;
-  max-height: none;
-  overflow: visible;
+  max-height: 38vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   padding-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-top {
+    max-height: 45vh;
+  }
 }
 
 .sidebar-bottom {
   grid-column: 1;
   grid-row: 2;
-  height: 100%;
-  min-height: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  scrollbar-gutter: stable;
 }
 
 .mobile-bottom-panel {

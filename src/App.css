@@ -30,6 +30,13 @@ html, body, #root {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
 .header-left h1 {
   font-size: var(--text-2xl);
   font-weight: 700;
@@ -43,10 +50,47 @@ html, body, #root {
   margin-top: 2px;
 }
 
+.header-cta-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.header-cta-row .fit-button {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.header-cta-row .fit-button:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
 .city-selector {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.top-nav {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.top-nav-button {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+}
+
+.top-nav-button.active,
+.top-nav-button:hover {
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .city-selector-group {
@@ -210,6 +254,75 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+}
+
+.home-copy-sections {
+  margin-top: 0.6rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.home-copy-sections section {
+  border: 1px solid rgba(111, 78, 55, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  padding: 0.55rem 0.65rem;
+}
+
+.home-copy-sections h3 {
+  font-size: 0.83rem;
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.home-copy-sections p,
+.home-copy-sections li {
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.home-copy-sections ul {
+  margin: 0.35rem 0 0.45rem 1rem;
+}
+
+.content-page {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.4rem;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #f8f4ef 0%, #f4efe9 100%);
+}
+
+.content-card {
+  width: min(860px, 100%);
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid rgba(111, 78, 55, 0.14);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  padding: 1.2rem 1.25rem;
+}
+
+.content-card h2 {
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+}
+
+.content-card p {
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 0.65rem;
+}
+
+.content-highlight {
+  color: var(--text-primary) !important;
+  font-weight: 600;
+}
+
+.content-muted {
+  margin-bottom: 0;
 }
 .search-input {
   padding: 0.85rem 1rem;
@@ -1158,6 +1271,13 @@ html, body, #root {
   font-size: 0.82rem;
   color: var(--text-secondary);
   margin: 0;
+}
+
+.sidebar-intro {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  margin-top: 0.25rem;
 }
 .sidebar-header-right {
   display: flex;

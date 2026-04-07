@@ -1266,6 +1266,47 @@ function isTopScorePlace(place) {
   return Number.isFinite(place?.specialtyScore) && place.specialtyScore >= 95;
 }
 
+const CAFE_CARD_COPY = [
+  "A standout neighborhood cafe known for quality coffee and a calm atmosphere.",
+  "A specialty coffee spot worth visiting for espresso, pour-over, and carefully sourced beans.",
+  "A well-loved stop for serious coffee drinkers looking for consistency and craft.",
+  "A relaxed cafe with thoughtful coffee and a space that invites you to stay.",
+];
+
+const ROASTER_CARD_COPY = [
+  "A respected local roaster focused on quality, balance, and traceable sourcing.",
+  "Known for thoughtful roasting and coffees that highlight clarity and character.",
+  "A standout roaster helping define the city’s specialty coffee scene.",
+];
+
+function getStableCopyIndex(value, mod) {
+  if (!mod) return 0;
+  const text = String(value || "cuproam");
+  let hash = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    hash = (hash * 31 + text.charCodeAt(i)) >>> 0;
+  }
+  return hash % mod;
+}
+
+function isRoasterLikePlace(place) {
+  const text = [place?.name, place?.description, place?.notes, place?.brand, place?.operator]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  return place?.placeType === "roaster"
+    || text.includes("roaster")
+    || text.includes("roastery")
+    || text.includes("roast");
+}
+
+function getEditorialCardDescription(place) {
+  const descriptions = isRoasterLikePlace(place) ? ROASTER_CARD_COPY : CAFE_CARD_COPY;
+  const stableKey = place?.id || place?.name || "cuproam";
+  return descriptions[getStableCopyIndex(stableKey, descriptions.length)];
+}
+
 const PRIORITY_SPECIALTY_TAG_KEYS = [
   "specialty_coffee",
   "third_wave",
@@ -1925,6 +1966,7 @@ function App() {
   );
 
   const [selectedCity, setSelectedCity] = useState(() => getInitialCityFromStorage(cities));
+  const [activePage, setActivePage] = useState("home");
   const [selectedCountry, setSelectedCountry] = useState(() => {
     const savedCountry = localStorage.getItem("selectedCountry");
     if (savedCountry) return savedCountry;
@@ -2020,6 +2062,35 @@ function App() {
     if (visibleCities.length === 0) return;
     setSelectedCity(visibleCities[0]);
   }, [visibleCities, selectedCity?.name]);
+
+  useEffect(() => {
+    const cityName = getDisplayCityName(selectedCity?.name);
+    if (activePage === "about") {
+      document.title = "About CupRoam";
+    } else if (activePage === "contact") {
+      document.title = "Contact CupRoam";
+    } else {
+      document.title = cityName
+        ? `Best specialty coffee in ${cityName} | CupRoam`
+        : "CupRoam | Explore the best specialty coffee near you";
+    }
+
+    const ensureMeta = (selector, attributes) => {
+      let element = document.head.querySelector(selector);
+      if (!element) {
+        element = document.createElement("meta");
+        Object.entries(attributes).forEach(([key, value]) => {
+          element.setAttribute(key, value);
+        });
+        document.head.appendChild(element);
+      }
+      return element;
+    };
+
+    ensureMeta('meta[name="description"]', { name: "description" }).setAttribute("content", "Discover specialty coffee shops, cafes, and roasters by city. CupRoam helps you find coffee spots actually worth visiting.");
+    ensureMeta('meta[property="og:title"]', { property: "og:title" }).setAttribute("content", "CupRoam");
+    ensureMeta('meta[property="og:description"]', { property: "og:description" }).setAttribute("content", "Discover coffee spots worth visiting.");
+  }, [activePage, selectedCity?.name]);
 
   const selectedCitySeededPlaces = seededPlacesByCity[selectedCity?.name];
 
@@ -3646,35 +3717,56 @@ function App() {
     <div className="app">
       <header className="header">
         <div className="header-left">
-          <h1>CupRoam</h1>
-          <p className="header-subtitle">CupRoam — Your next great cup</p>
+          <h1>Explore the best specialty coffee near you</h1>
+          <p className="header-subtitle">CupRoam helps you discover coffee spots actually worth visiting.</p>
+          <div className="header-cta-row">
+            <button className="fit-button" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>
+              Explore cafes
+            </button>
+            <button className="fit-button" type="button" onClick={() => document.getElementById("city")?.focus()}>
+              Browse cities
+            </button>
+          </div>
         </div>
-        <div className="city-selector">
-          <div className="city-selector-group">
-            <label htmlFor="country">Country:</label>
-            <select id="country" value={selectedCountry} onChange={handleCountryChange}>
-              {availableCountries.map((country) => (
-                <option key={country} value={country}>{country}</option>
-              ))}
-            </select>
-          </div>
-          <div className="city-selector-group">
-            <label htmlFor="city">City:</label>
-            <select id="city" value={selectedCity.name} onChange={handleCityChange}>
-              {visibleCities.map((city) => (
-                <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
-              ))}
-            </select>
-          </div>
+        <div className="header-right">
+          <nav className="top-nav" aria-label="Main navigation">
+            <button className={`top-nav-button${activePage === "home" ? " active" : ""}`} type="button" onClick={() => setActivePage("home")}>Explore</button>
+            <button className={`top-nav-button${activePage === "about" ? " active" : ""}`} type="button" onClick={() => setActivePage("about")}>About</button>
+            <button className={`top-nav-button${activePage === "contact" ? " active" : ""}`} type="button" onClick={() => setActivePage("contact")}>Contact</button>
+          </nav>
+          {activePage === "home" && (
+            <div className="city-selector">
+              <div className="city-selector-group">
+                <label htmlFor="country">Country:</label>
+                <select id="country" value={selectedCountry} onChange={handleCountryChange}>
+                  {availableCountries.map((country) => (
+                    <option key={country} value={country}>{country}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="city-selector-group">
+                <label htmlFor="city">Browse cities:</label>
+                <select id="city" value={selectedCity.name} onChange={handleCityChange}>
+                  {visibleCities.map((city) => (
+                    <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
+                  ))}
+                </select>
+              </div>
+            </div>
+          )}
         </div>
       </header>
 
+      {activePage === "home" ? (
       <div className="main-content">
         <aside className="sidebar sidebar-top">
 
           <div className="sidebar-header-content">
-            <h2>Coffee Shops</h2>
-            <p className="sidebar-subtitle">Search, filter, and explore</p>
+            <h2>Best specialty coffee in {getDisplayCityName(selectedCity.name)}</h2>
+            <p className="sidebar-subtitle">Discover standout cafes, coffee shops, and roasters in {getDisplayCityName(selectedCity.name)}.</p>
+            <p className="sidebar-intro">Looking for great specialty coffee in {getDisplayCityName(selectedCity.name)}? CupRoam helps you discover places worth visiting, from neighborhood favorites to destination coffee spots.</p>
+            <p className="sidebar-intro">CupRoam is a curated guide for discovering standout specialty coffee shops, cafes, and roasters by city.</p>
+            <p className="sidebar-intro">Discover specialty coffee worth going out of your way for.</p>
             <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
               <button onClick={handleExportManualPlaces}>ייצוא מקומות ידניים (JSON)</button>
               <button onClick={() => importInputRef.current?.click()}>ייבוא מקובץ JSON</button>
@@ -3702,6 +3794,43 @@ function App() {
                 title="Toggle score labels on map"
               >Scores</button>
             </div>
+
+            <div className="home-copy-sections">
+              <section>
+                <h3>Explore coffee by city</h3>
+                <p>Browse cities and discover standout coffee spots, local favorites, and places worth adding to your list.</p>
+                <button className="reset-hidden" type="button" onClick={() => document.getElementById("city")?.focus()}>See all cities</button>
+              </section>
+              <section>
+                <h3>Places worth the stop</h3>
+                <p>A curated selection of cafes and coffee spots known for quality, consistency, and experience.</p>
+                <button className="reset-hidden" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: sidebarRef.current?.scrollHeight || 0, behavior: "smooth" })}>See all cafes</button>
+              </section>
+              <section>
+                <h3>Standout roasters to know</h3>
+                <p>Explore roasters shaping the coffee scene, from local favorites to destination names.</p>
+                <button className="reset-hidden" type="button" onClick={() => setSearchQuery("roaster")}>Explore roasters</button>
+              </section>
+              <section>
+                <h3>Why CupRoam</h3>
+                <p>Not every coffee shop is worth the stop. CupRoam helps people discover places known for quality coffee, thoughtful craft, and a better overall experience.</p>
+                <ul>
+                  <li>Discover specialty coffee by city</li>
+                  <li>Explore standout cafes and roasters</li>
+                  <li>Find places actually worth visiting</li>
+                </ul>
+              </section>
+              <section>
+                <h3>Discover your next coffee stop</h3>
+                <p>Whether you are traveling, exploring your neighborhood, or planning your next weekend stop, CupRoam makes it easier to find better coffee.</p>
+                <button className="reset-hidden" type="button" onClick={fitToResults}>Discover spots</button>
+              </section>
+              <section>
+                <h3>About CupRoam</h3>
+                <p>CupRoam was created to make finding great specialty coffee easier. Instead of relying on generic map results, CupRoam helps people discover cafes and roasters that stand out for quality, craft, and experience.</p>
+                <button className="reset-hidden" type="button" onClick={() => setActivePage("about")}>View city guide</button>
+              </section>
+            </div>
           </div>
 
           {shouldShowOsmError && (
@@ -3715,7 +3844,7 @@ function App() {
             <input
               type="search"
               className="search-input"
-              placeholder="Search name, address, tags..."
+              placeholder="Search by city or cafe"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
@@ -3910,7 +4039,7 @@ function App() {
                         <p className="popup-links">
                           {getPlaceDirectLink(place) && (
                             <a href={getPlaceDirectLink(place)} target="_blank" rel="noopener noreferrer">
-                              Open place
+                              View cafe
                             </a>
                           )}
                           {getPlaceCoordinatesLink(place) && (
@@ -4147,13 +4276,13 @@ function App() {
               {orderedEffectivePlaces.length === 0 && (
                 <li className="empty-state">
                   <span className="empty-state-icon" aria-hidden="true">🔎</span>
-                  <strong>No places match your current filters</strong>
+                  <strong>No results found. Try another city or search term.</strong>
                   <span>
                     {dataMode !== "google" && minScore > 0
-                      ? `Minimum score is set to ${minScore}. Lower it or reset filters to see more places.`
+                      ? `Minimum score is set to ${minScore}. Lower it to discover more spots.`
                       : !hasAnyCityScopedData
-                        ? `No local data is available for ${selectedCity.name} yet. Try another city.`
-                        : "Try clearing search, hidden items, or filter toggles."}
+                        ? "No cafes listed yet. Check back soon."
+                        : "We are still brewing this page."}
                   </span>
                   <button className="reset-hidden" onClick={resetAllFilters}>Reset all filters</button>
                 </li>
@@ -4263,7 +4392,7 @@ function App() {
                   </div>
 
                   {place.source !== "google" && manualRating <= 0 && (
-                    <div className="cafe-explanation">{place.scoreExplanation}</div>
+                    <div className="cafe-explanation">{getEditorialCardDescription(place)}</div>
                   )}
                   {place.source !== "google" && showBreakdown && place.scoreReasons && place.scoreReasons.length > 0 && (
                     <div className="score-breakdown">
@@ -4287,7 +4416,7 @@ function App() {
                     <div className="location-links" onClick={(e) => e.stopPropagation()}>
                       {getPlaceDirectLink(place) && (
                         <a className="google-link" href={getPlaceDirectLink(place)} target="_blank" rel="noopener noreferrer">
-                          Open place
+                          View cafe
                         </a>
                       )}
                       {getPlaceCoordinatesLink(place) && (
@@ -4307,10 +4436,33 @@ function App() {
             </ul>
         </aside>
       </div>
+      ) : (
+      <main className="content-page" role="main">
+        {activePage === "about" ? (
+          <section className="content-card">
+            <h2>About CupRoam</h2>
+            <p>CupRoam was created to make finding truly great coffee easier.</p>
+            <p>Instead of scrolling through endless generic results, CupRoam helps people discover specialty cafes, coffee shops, and roasters that actually stand out.</p>
+            <p>Whether you are at home, traveling, or exploring a new neighborhood, CupRoam is designed to help you find places worth your time.</p>
+            <p className="content-highlight">To help more people discover better coffee, one city at a time.</p>
+            <p className="content-muted">CupRoam is a curated guide to specialty coffee by city.</p>
+          </section>
+        ) : (
+          <section className="content-card">
+            <h2>Contact CupRoam</h2>
+            <p>Have a suggestion, correction, or coffee spot we should know about? We would love to hear from you.</p>
+            <p>
+              For suggestions, updates, or general inquiries, email us at {" "}
+              <a href="mailto:golanp75@gmail.com">golanp75@gmail.com</a>
+            </p>
+          </section>
+        )}
+      </main>
+      )}
       <footer className="app-footer">
-        <div className="footer-left">© {new Date().getFullYear()} Coffee Dashboard</div>
-        <div className="footer-legal">Goldfinger Media Ltd. 2026. All rights reserved.</div>
-        <div className="footer-right">Data: OpenStreetMap · Google Lists</div>
+        <div className="footer-left">© {new Date().getFullYear()} CupRoam</div>
+        <div className="footer-legal">CupRoam helps you discover specialty coffee spots worth visiting.</div>
+        <div className="footer-right">Discover coffee spots worth visiting.</div>
       </footer>
     </div>
   );

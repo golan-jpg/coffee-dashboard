@@ -2302,6 +2302,47 @@ function App() {
     }
   }, []);
 
+  // Auto-prompt for location permission on first visit
+  useEffect(() => {
+    if (typeof window === "undefined" || !window.navigator?.geolocation || !window.isSecureContext) return;
+
+    const tryAutoLocation = () => {
+      window.navigator.geolocation.getCurrentPosition(
+        (position) => {
+          applyGeolocationSuccess(position);
+          setIsTrackingUserLocation(true);
+          beginGeolocationWatch(PRIMARY_GEOLOCATION_OPTIONS);
+        },
+        () => {
+          // Silently ignore — user denied or dismissed; they can still click the button manually
+        },
+        PRIMARY_GEOLOCATION_OPTIONS
+      );
+    };
+
+    if (window.navigator?.permissions?.query) {
+      window.navigator.permissions
+        .query({ name: "geolocation" })
+        .then((result) => {
+          if (result.state === "granted") {
+            // Already allowed — auto-start silently
+            setIsTrackingUserLocation(true);
+            beginGeolocationWatch(PRIMARY_GEOLOCATION_OPTIONS);
+          } else if (result.state === "prompt") {
+            // Not yet asked — trigger the browser permission dialog
+            tryAutoLocation();
+          }
+          // If "denied" — do nothing, avoid showing an error
+        })
+        .catch(() => {
+          // Permissions API not available — try directly (will show dialog or fail silently)
+          tryAutoLocation();
+        });
+    } else {
+      tryAutoLocation();
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   function resetManualFormState() {
     setEditingManualId(null);
     setManualForm({ name: "", lat: "", lon: "", notes: "" });

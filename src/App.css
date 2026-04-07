@@ -128,8 +128,8 @@ html, body, #root {
   grid-template-columns: 370px minmax(0, 1fr);
   grid-template-rows: auto minmax(0, 1fr);
   flex: 1;
-  /* allow inner scrolling containers to work properly */
-  overflow: visible;
+  /* keep content clipped to viewport while sidebars manage their own scrolling */
+  overflow: hidden;
   /* allow flex children to shrink correctly (important for child overflow) */
   min-height: 0;
 }
@@ -156,7 +156,9 @@ html, body, #root {
   grid-column: 1;
   grid-row: 1;
   height: auto;
-  overflow: visible;
+  max-height: 42vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   padding-bottom: 12px;
 }
 

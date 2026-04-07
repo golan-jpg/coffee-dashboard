@@ -293,6 +293,7 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  visibility: visible;
 }
 
 .home-copy-sections {
@@ -364,13 +365,24 @@ html, body, #root {
   margin-bottom: 0;
 }
 .search-input {
+  display: block;
+  width: 100%;
   padding: 0.85rem 1rem;
   border: 1px solid rgba(111, 78, 55, 0.14);
   border-radius: 18px;
   font-size: 1rem;
   background: #fffcf8;
+  color: var(--text-primary);
   transition: border-color var(--transition), box-shadow var(--transition);
   outline: none;
+}
+
+@media (min-width: 769px) {
+  .search-controls {
+    position: sticky;
+    top: 0.65rem;
+    z-index: 3;
+  }
 }
 
 .search-input:focus {

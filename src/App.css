@@ -156,10 +156,16 @@ html, body, #root {
   grid-column: 1;
   grid-row: 1;
   height: auto;
-  max-height: 42vh;
+  max-height: 38vh;
   overflow-y: auto;
   overflow-x: hidden;
   padding-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-top {
+    max-height: 45vh;
+  }
 }
 
 .sidebar-bottom {

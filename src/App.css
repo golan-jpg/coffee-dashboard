@@ -22,22 +22,39 @@ html, body, #root {
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
   padding: 1.25rem 1.5rem;
   background: var(--brand-brown);
   color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.header-right {
+.brand-block {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 0.5rem;
+  align-items: flex-start;
+  gap: 0.1rem;
 }
 
-.header-left h1 {
+.brand-name {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: clamp(1.3rem, 1.8vw, 1.6rem);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  padding: 0;
+}
+
+.brand-line {
+  font-size: var(--text-xs);
+  opacity: 0.82;
+}
+
+.hero-block h1 {
   font-size: var(--text-2xl);
   font-weight: 700;
   line-height: 1.2;
@@ -45,9 +62,9 @@ html, body, #root {
 
 .header-subtitle {
   font-size: var(--text-sm);
-  opacity: 0.75;
+  opacity: 0.88;
   font-weight: 400;
-  margin-top: 2px;
+  margin-top: 0.35rem;
 }
 
 .header-cta-row {
@@ -73,24 +90,12 @@ html, body, #root {
   gap: 0.75rem;
 }
 
-.top-nav {
-  display: flex;
-  gap: 0.35rem;
-}
-
-.top-nav-button {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  border-radius: 999px;
-  font-size: var(--text-xs);
-  padding: 0.3rem 0.75rem;
-  cursor: pointer;
-}
-
-.top-nav-button.active,
-.top-nav-button:hover {
-  background: rgba(255, 255, 255, 0.24);
+.city-selector-panel {
+  margin: 0.75rem 1rem 0.25rem;
+  padding: 0.7rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.64);
+  border: 1px solid rgba(111, 78, 55, 0.12);
 }
 
 .city-selector-group {
@@ -103,6 +108,10 @@ html, body, #root {
   font-weight: 500;
 }
 
+.city-selector-panel label {
+  color: var(--text-secondary);
+}
+
 .city-selector select {
   padding: 0.5rem 1rem;
   font-size: var(--text-base);
@@ -110,6 +119,11 @@ html, body, #root {
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: opacity var(--transition);
+}
+
+.city-selector-panel select {
+  background: #fff;
+  border: 1px solid rgba(111, 78, 55, 0.2);
 }
 
 .city-selector select:focus {
@@ -1251,11 +1265,11 @@ html, body, #root {
 }
 
 .json-actions button {
-  font-size: 0.72rem;
-  padding: 0.3rem 0.65rem;
+  font-size: 0.68rem;
+  padding: 0.24rem 0.55rem;
   border-radius: 999px;
-  border: 1px solid rgba(111, 78, 55, 0.25);
-  background: rgba(111, 78, 55, 0.06);
+  border: 1px solid rgba(111, 78, 55, 0.18);
+  background: rgba(255, 255, 255, 0.45);
   color: var(--text-secondary);
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
@@ -1278,7 +1292,7 @@ html, body, #root {
 .sidebar-subtitle {
   font-size: 0.82rem;
   color: var(--text-secondary);
-  margin: 0;
+  margin: 0 0 0.2rem;
 }
 
 .sidebar-intro {
@@ -1297,6 +1311,34 @@ html, body, #root {
   padding-top: 0.2rem;
   border-top: 1px solid rgba(111, 78, 55, 0.1);
   margin-top: 0.25rem;
+}
+
+.utility-tools {
+  margin-top: 0.2rem;
+}
+
+.utility-tools > summary {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.footer-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.footer-links button {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+  cursor: pointer;
+  padding: 0;
+}
+
+.footer-links button:hover {
+  color: var(--text-primary);
 }
 
 .city-name {
@@ -1756,12 +1798,12 @@ html, body, #root {
     padding: 1rem;
   }
 
-  .header-left {
+  .brand-block {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 
-  .header-left h1 {
+  .hero-block h1 {
     font-size: var(--text-xl);
   }
 
@@ -1946,8 +1988,8 @@ html, body, #root {
     padding: 0.9rem 0.8rem;
   }
 
-  .header-left h1 {
-    font-size: 2rem;
+  .hero-block h1 {
+    font-size: 1.45rem;
   }
 
   .city-selector-group {
@@ -2100,8 +2142,10 @@ html, body, #root {
 
   .footer-left,
   .footer-right,
-  .footer-legal {
+  .footer-legal,
+  .footer-links {
     width: 100%;
     text-align: center;
+    justify-content: center;
   }
 }

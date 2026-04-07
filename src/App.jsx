@@ -3716,68 +3716,66 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <div className="header-left">
-          <h1>Explore the best specialty coffee near you</h1>
-          <p className="header-subtitle">CupRoam helps you discover coffee spots actually worth visiting.</p>
-          <div className="header-cta-row">
-            <button className="fit-button" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>
-              Explore cafes
-            </button>
-            <button className="fit-button" type="button" onClick={() => document.getElementById("city")?.focus()}>
-              Browse cities
-            </button>
-          </div>
+        <div className="brand-block">
+          <button className="brand-name" type="button" onClick={() => setActivePage("home")}>CupRoam</button>
+          <p className="brand-line">Discover coffee spots worth visiting</p>
         </div>
-        <div className="header-right">
-          <nav className="top-nav" aria-label="Main navigation">
-            <button className={`top-nav-button${activePage === "home" ? " active" : ""}`} type="button" onClick={() => setActivePage("home")}>Explore</button>
-            <button className={`top-nav-button${activePage === "about" ? " active" : ""}`} type="button" onClick={() => setActivePage("about")}>About</button>
-            <button className={`top-nav-button${activePage === "contact" ? " active" : ""}`} type="button" onClick={() => setActivePage("contact")}>Contact</button>
-          </nav>
-          {activePage === "home" && (
-            <div className="city-selector">
-              <div className="city-selector-group">
-                <label htmlFor="country">Country:</label>
-                <select id="country" value={selectedCountry} onChange={handleCountryChange}>
-                  {availableCountries.map((country) => (
-                    <option key={country} value={country}>{country}</option>
-                  ))}
-                </select>
-              </div>
-              <div className="city-selector-group">
-                <label htmlFor="city">Browse cities:</label>
-                <select id="city" value={selectedCity.name} onChange={handleCityChange}>
-                  {visibleCities.map((city) => (
-                    <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
-                  ))}
-                </select>
-              </div>
+        {activePage === "home" && (
+          <div className="hero-block">
+            <h1>Explore the best specialty coffee near you</h1>
+            <p className="header-subtitle">Find coffee spots actually worth visiting.</p>
+            <div className="header-cta-row">
+              <button className="fit-button" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>
+                Explore cafes
+              </button>
+              <button className="fit-button" type="button" onClick={() => document.getElementById("city")?.focus()}>
+                Browse cities
+              </button>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </header>
 
       {activePage === "home" ? (
       <div className="main-content">
         <aside className="sidebar sidebar-top">
 
+          <div className="city-selector city-selector-panel">
+            <div className="city-selector-group">
+              <label htmlFor="country">Country</label>
+              <select id="country" value={selectedCountry} onChange={handleCountryChange}>
+                {availableCountries.map((country) => (
+                  <option key={country} value={country}>{country}</option>
+                ))}
+              </select>
+            </div>
+            <div className="city-selector-group">
+              <label htmlFor="city">City</label>
+              <select id="city" value={selectedCity.name} onChange={handleCityChange}>
+                {visibleCities.map((city) => (
+                  <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
           <div className="sidebar-header-content">
             <h2>Best specialty coffee in {getDisplayCityName(selectedCity.name)}</h2>
             <p className="sidebar-subtitle">Discover standout cafes, coffee shops, and roasters in {getDisplayCityName(selectedCity.name)}.</p>
-            <p className="sidebar-intro">Looking for great specialty coffee in {getDisplayCityName(selectedCity.name)}? CupRoam helps you discover places worth visiting, from neighborhood favorites to destination coffee spots.</p>
-            <p className="sidebar-intro">CupRoam is a curated guide for discovering standout specialty coffee shops, cafes, and roasters by city.</p>
-            <p className="sidebar-intro">Discover specialty coffee worth going out of your way for.</p>
-            <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
-              <button onClick={handleExportManualPlaces}>Export saved places</button>
-              <button onClick={() => importInputRef.current?.click()}>Import saved places</button>
-              <input
-                type="file"
-                accept="application/json"
-                style={{ display: 'none' }}
-                ref={importInputRef}
-                onChange={handleImportManualPlaces}
-              />
-            </div>
+            <details className="advanced-tools utility-tools">
+              <summary>Manage saved places</summary>
+              <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
+                <button onClick={handleExportManualPlaces}>Export saved places</button>
+                <button onClick={() => importInputRef.current?.click()}>Import saved places</button>
+                <input
+                  type="file"
+                  accept="application/json"
+                  style={{ display: 'none' }}
+                  ref={importInputRef}
+                  onChange={handleImportManualPlaces}
+                />
+              </div>
+            </details>
             <div className="sidebar-header-right">
               <span className="city-name">{getDisplayCityName(selectedCity.name)}</span>
               {loading && dataMode !== "google" && <span className="loading">Loading...</span>}
@@ -3793,43 +3791,6 @@ function App() {
                 onClick={() => setShowScoreLabels(v => !v)}
                 title="Toggle score labels on map"
               >Show scores</button>
-            </div>
-
-            <div className="home-copy-sections">
-              <section>
-                <h3>Explore coffee by city</h3>
-                <p>Browse cities and discover standout coffee spots, local favorites, and places worth adding to your list.</p>
-                <button className="reset-hidden" type="button" onClick={() => document.getElementById("city")?.focus()}>See all cities</button>
-              </section>
-              <section>
-                <h3>Places worth the stop</h3>
-                <p>A curated selection of cafes and coffee spots known for quality, consistency, and experience.</p>
-                <button className="reset-hidden" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: sidebarRef.current?.scrollHeight || 0, behavior: "smooth" })}>See all cafes</button>
-              </section>
-              <section>
-                <h3>Standout roasters to know</h3>
-                <p>Explore roasters shaping the coffee scene, from local favorites to destination names.</p>
-                <button className="reset-hidden" type="button" onClick={() => setSearchQuery("roaster")}>Explore roasters</button>
-              </section>
-              <section>
-                <h3>Why CupRoam</h3>
-                <p>Not every coffee shop is worth the stop. CupRoam helps people discover places known for quality coffee, thoughtful craft, and a better overall experience.</p>
-                <ul>
-                  <li>Discover specialty coffee by city</li>
-                  <li>Explore standout cafes and roasters</li>
-                  <li>Find places actually worth visiting</li>
-                </ul>
-              </section>
-              <section>
-                <h3>Discover your next coffee stop</h3>
-                <p>Whether you are traveling, exploring your neighborhood, or planning your next weekend stop, CupRoam makes it easier to find better coffee.</p>
-                <button className="reset-hidden" type="button" onClick={fitToResults}>Discover spots</button>
-              </section>
-              <section>
-                <h3>About CupRoam</h3>
-                <p>CupRoam was created to make finding great specialty coffee easier. Instead of relying on generic map results, CupRoam helps people discover cafes and roasters that stand out for quality, craft, and experience.</p>
-                <button className="reset-hidden" type="button" onClick={() => setActivePage("about")}>View city guide</button>
-              </section>
             </div>
           </div>
 
@@ -4463,6 +4424,10 @@ function App() {
         <div className="footer-left">© {new Date().getFullYear()} CupRoam</div>
         <div className="footer-legal">CupRoam helps you discover specialty coffee spots worth visiting.</div>
         <div className="footer-right">Discover coffee spots worth visiting.</div>
+        <div className="footer-links">
+          <button type="button" onClick={() => setActivePage("about")}>About</button>
+          <button type="button" onClick={() => setActivePage("contact")}>Contact</button>
+        </div>
       </footer>
     </div>
   );

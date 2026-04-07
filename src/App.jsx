@@ -3792,7 +3792,7 @@ function App() {
                 className={`fit-button${showScoreLabels ? " fit-button-active" : ""}`}
                 onClick={() => setShowScoreLabels(v => !v)}
                 title="Toggle score labels on map"
-              >Scores</button>
+              >Show scores</button>
             </div>
 
             <div className="home-copy-sections">
@@ -3855,7 +3855,7 @@ function App() {
                 onChange={(e) => setSelectedArea(e.target.value)}
                 aria-label="Filter by area"
               >
-                <option value="">All areas</option>
+                <option value="">All neighborhoods</option>
                 {availableAreas.map((area) => (
                   <option key={area} value={area}>{area}</option>
                 ))}
@@ -3880,7 +3880,7 @@ function App() {
                 type="button"
                 title={isTrackingUserLocation ? "Stop live location tracking" : "Use my location"}
               >
-                {isTrackingUserLocation ? "Tracking location" : "Use my location"}
+                {isTrackingUserLocation ? "Using current location" : "Use current location"}
               </button>
               <button
                 className="fit-button"
@@ -3889,7 +3889,7 @@ function App() {
                 disabled={!userLocation}
                 title="Center map on my location"
               >
-                My location
+                Center on me
               </button>
             </div>
             {userLocationError && <div className="location-error">{userLocationError}</div>}
@@ -4033,7 +4033,7 @@ function App() {
                         <span className="popup-badge non-pure-popup">Non-pure (capped 40)</span>
                       )}
                       {placeAddress && <p>{placeAddress}</p>}
-                      {!placeAddress && <p>Address not available</p>}
+                      {!placeAddress && <p>Address coming soon</p>}
                       {place.source !== "google" && place.opening_hours && <p>Hours: {place.opening_hours}</p>}
                       {(getPlaceDirectLink(place) || getPlaceCoordinatesLink(place)) && (
                         <p className="popup-links">
@@ -4046,7 +4046,7 @@ function App() {
                             <details className="popup-coords-details">
                               <summary>Details</summary>
                               <a href={getPlaceCoordinatesLink(place)} target="_blank" rel="noopener noreferrer">
-                                Open coordinates
+                                View map coordinates
                               </a>
                             </details>
                           )}
@@ -4074,13 +4074,13 @@ function App() {
                   checked={googleFilterMode === "coffeeOnly"}
                   onChange={(e) => setGoogleFilterMode(e.target.checked ? "coffeeOnly" : "coffeeAndBakery")}
                 />
-                Coffee-only filtering
+                Focus on coffee only
               </label>
             )}
 
             {dataMode !== "google" && (
               <div className="scoring-mode">
-                <span className="scoring-mode-label">Scoring:</span>
+                <span className="scoring-mode-label">Ranking style:</span>
                 {Object.entries(SCORING_PRESETS).map(([key, preset]) => (
                   <button
                     key={key}
@@ -4108,7 +4108,7 @@ function App() {
                   checked={showBreakdown}
                   onChange={(e) => setShowBreakdown(e.target.checked)}
                 />
-                Show score breakdown
+                Show why places are ranked this way
               </label>
             )}
 
@@ -4124,12 +4124,12 @@ function App() {
 
           <div className="legend">
             <span className="legend-item">
-              <span className="dot top-score"></span> Top score
+              <span className="dot top-score"></span> Top rated
             </span>
             {dataMode !== "google" && (
               <>
                 <span className="legend-item">
-                  <span className="dot specialty"></span> Likely specialty
+                  <span className="dot specialty"></span> Specialty coffee
                 </span>
                 <span className="legend-item">
                   <span className="dot regular"></span> Cafe
@@ -4138,7 +4138,7 @@ function App() {
             )}
             {dataMode !== "osm" && (
               <span className="legend-item">
-                <span className="dot google"></span> Google Lists
+                <span className="dot google"></span> Curated imports
               </span>
             )}
           </div>
@@ -4257,7 +4257,7 @@ function App() {
 
           {dataMode !== "google" && (
             <div className="filter-control">
-              <label htmlFor="minScore">Minimum score: {minScore}</label>
+              <label htmlFor="minScore">Minimum quality score: {minScore}</label>
               <input
                 type="range"
                 id="minScore"
@@ -4270,7 +4270,7 @@ function App() {
           )}
 
           {loading && dataMode !== "google" && (
-            <div className="loading-banner">⏳ Loading OSM data…</div>
+            <div className="loading-banner">⏳ Loading coffee spots…</div>
           )}
           <ul className="cafe-list">
               {orderedEffectivePlaces.length === 0 && (
@@ -4279,12 +4279,12 @@ function App() {
                   <strong>No results found. Try another city or search term.</strong>
                   <span>
                     {dataMode !== "google" && minScore > 0
-                      ? `Minimum score is set to ${minScore}. Lower it to discover more spots.`
+                      ? `Minimum quality score is set to ${minScore}. Lower it to discover more spots.`
                       : !hasAnyCityScopedData
                         ? "No cafes listed yet. Check back soon."
                         : "We are still brewing this page."}
                   </span>
-                  <button className="reset-hidden" onClick={resetAllFilters}>Reset all filters</button>
+                  <button className="reset-hidden" onClick={resetAllFilters}>Clear filters</button>
                 </li>
               )}
               {orderedEffectivePlaces.map(place => (
@@ -4404,7 +4404,7 @@ function App() {
                     </div>
                   )}
                   {!placeAddress && (
-                    <div className="cafe-meta">{place.needsCoords ? "Missing map coordinates" : "Address not available"}</div>
+                    <div className="cafe-meta">{place.needsCoords ? "Missing map coordinates" : "Address coming soon"}</div>
                   )}
                   {placeAddress && <div className="cafe-address">{placeAddress}</div>}
                   <StarRating
@@ -4423,7 +4423,7 @@ function App() {
                         <details className="coords-details" onClick={(e) => e.stopPropagation()}>
                           <summary>Details</summary>
                           <a className="google-link coords-link" href={getPlaceCoordinatesLink(place)} target="_blank" rel="noopener noreferrer">
-                            Open coordinates
+                            View map coordinates
                           </a>
                         </details>
                       )}

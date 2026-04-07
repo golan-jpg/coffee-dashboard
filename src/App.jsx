@@ -1627,6 +1627,30 @@ function getPlaceArea(place) {
   return extractAreaFromNotes(place?.notes);
 }
 
+function getPlaceSourceKey(place) {
+  const raw = String(place?.source || "").trim().toLowerCase();
+  if (raw === "google") return "google";
+  if (raw === "seeded") return "seeded";
+  if (raw === "manual") return "manual";
+  if (raw === "osm" || raw === "overpass") return "osm";
+  return raw || "other";
+}
+
+function getPlaceSourceLabel(sourceKey) {
+  switch (sourceKey) {
+    case "google":
+      return "Google Lists";
+    case "seeded":
+      return "Curated seeds";
+    case "manual":
+      return "Manual entries";
+    case "osm":
+      return "OpenStreetMap";
+    default:
+      return "Other";
+  }
+}
+
 function buildOsmAddress(tags = {}) {
   const street = tags["addr:street"];
   const houseNumber = tags["addr:housenumber"];
@@ -1643,6 +1667,7 @@ function passesUiFilters(place, {
   selectedCityName,
   normalizedQuery,
   selectedArea,
+  selectedSource,
   filterOpenNow,
 }) {
   if (isPlaceCityLockedOut(place, selectedCityName)) return false;
@@ -1658,6 +1683,10 @@ function passesUiFilters(place, {
   if (selectedArea) {
     const placeArea = getPlaceArea(place);
     if (placeArea !== selectedArea) return false;
+  }
+
+  if (selectedSource) {
+    if (getPlaceSourceKey(place) !== selectedSource) return false;
   }
 
   if (normalizedQuery) {
@@ -2693,6 +2722,7 @@ function App() {
   // UI filters + search (persisted)
   const [searchQuery, setSearchQuery] = useState(() => localStorage.getItem("searchQuery") || "");
   const [selectedArea, setSelectedArea] = useState(() => localStorage.getItem("selectedArea") || "");
+  const [selectedSource, setSelectedSource] = useState(() => localStorage.getItem("selectedSource") || "");
   const [filterOpenNow, setFilterOpenNow] = useState(() => JSON.parse(localStorage.getItem("filterOpenNow") || "false"));
   const [liveClockTick, setLiveClockTick] = useState(() => Date.now());
 
@@ -2716,6 +2746,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem("selectedArea", selectedArea);
   }, [selectedArea]);
+
+  useEffect(() => {
+    localStorage.setItem("selectedSource", selectedSource);
+  }, [selectedSource]);
 
   useEffect(() => {
     localStorage.setItem("filterOpenNow", JSON.stringify(filterOpenNow));
@@ -2771,6 +2805,7 @@ function App() {
     setDataMode("combined");
     setGoogleFilterMode("coffeeOnly");
     setSearchQuery("");
+    setSelectedSource("");
     setFilterOpenNow(false);
   }, [cities]);
 
@@ -3175,11 +3210,34 @@ function App() {
     return areas.sort((a, b) => a.localeCompare(b));
   }, [displayedPlaces]);
 
+  const availableSourceOptions = useMemo(() => {
+    const counts = displayedPlaces.reduce((acc, place) => {
+      const key = getPlaceSourceKey(place);
+      acc.set(key, (acc.get(key) || 0) + 1);
+      return acc;
+    }, new Map());
+
+    const sourceOrder = ["google", "seeded", "manual", "osm", "other"];
+    return sourceOrder
+      .filter((key) => counts.has(key))
+      .map((key) => ({
+        value: key,
+        label: getPlaceSourceLabel(key),
+        count: counts.get(key) || 0,
+      }));
+  }, [displayedPlaces]);
+
   useEffect(() => {
     if (!selectedArea) return;
     if (availableAreas.includes(selectedArea)) return;
     setSelectedArea("");
   }, [selectedArea, availableAreas]);
+
+  useEffect(() => {
+    if (!selectedSource) return;
+    if (availableSourceOptions.some((option) => option.value === selectedSource)) return;
+    setSelectedSource("");
+  }, [selectedSource, availableSourceOptions]);
 
   // UI-level filtering (search + basic filters) applied to both list and markers
   const filteredPlaces = useMemo(() => {
@@ -3194,14 +3252,16 @@ function App() {
         selectedCityName: selectedCity.name,
         normalizedQuery,
         selectedArea,
+        selectedSource,
         filterOpenNow,
       });
     });
-  }, [displayedPlaces, selectedCity.name, searchQuery, selectedArea, filterOpenNow, minScore, userRatings]);
+  }, [displayedPlaces, selectedCity.name, searchQuery, selectedArea, selectedSource, filterOpenNow, minScore, userRatings]);
 
   const hasActiveUiFilters = Boolean(
     (searchQuery || "").trim()
     || selectedArea
+    || selectedSource
     || minScore > 0
     || filterOpenNow
   );
@@ -3733,6 +3793,7 @@ function App() {
   const resetAllFilters = () => {
     setSearchQuery("");
     setSelectedArea("");
+    setSelectedSource("");
     setFilterOpenNow(false);
     setHiddenPlaceIds([]);
     setMinScore(0);
@@ -3860,6 +3921,21 @@ function App() {
                 <option value="">All neighborhoods</option>
                 {availableAreas.map((area) => (
                   <option key={area} value={area}>{area}</option>
+                ))}
+              </select>
+            )}
+            {availableSourceOptions.length > 1 && (
+              <select
+                className="filter-select"
+                value={selectedSource}
+                onChange={(e) => setSelectedSource(e.target.value)}
+                aria-label="Filter by source"
+              >
+                <option value="">All sources</option>
+                {availableSourceOptions.map((sourceOption) => (
+                  <option key={sourceOption.value} value={sourceOption.value}>
+                    {sourceOption.label} ({sourceOption.count})
+                  </option>
                 ))}
               </select>
             )}

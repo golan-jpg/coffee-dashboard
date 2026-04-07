@@ -4104,6 +4104,7 @@ function App() {
                   <Popup>
                     <div className="popup-content">
                       <strong>{place.name}</strong>
+                      <span className={`popup-badge source-badge-${getPlaceSourceKey(place)}`}>{getPlaceSourceLabel(getPlaceSourceKey(place))}</span>
                       {place.source !== "google" && place.isSpecialty && <span className="popup-badge">Specialty</span>}
                       {openNowStatus === true && <span className="popup-badge popup-badge-open">Open</span>}
                       {openNowStatus === false && <span className="popup-badge popup-badge-closed">Closed</span>}
@@ -4430,6 +4431,9 @@ function App() {
                       )}
                     </div>
                     <div className="cafe-badges">
+                      <span className={`source-badge source-badge-${getPlaceSourceKey(place)}`}>
+                        {getPlaceSourceLabel(getPlaceSourceKey(place))}
+                      </span>
                       {pinnedCafeId === place.id && (
                         <span className="pinned-badge" title="Pinned" aria-label="Pinned">📌</span>
                       )}

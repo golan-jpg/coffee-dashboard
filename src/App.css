@@ -1903,6 +1903,8 @@ html, body, #root {
 
   .city-selector-panel {
     margin-top: 0.25rem;
+    padding: 0.85rem;
+    gap: 0.75rem;
   }
 
   .city-selector {
@@ -1914,10 +1916,14 @@ html, body, #root {
 
   .city-selector-group {
     width: 100%;
-    display: grid;
-    grid-template-columns: 78px minmax(0, 1fr);
-    align-items: center;
-    gap: 0.4rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+  }
+
+  .city-selector-panel .city-selector-group {
+    flex: 0 0 auto;
   }
 
   .city-selector label {
@@ -2107,11 +2113,6 @@ html, body, #root {
 
   .header-cta-row .fit-button {
     width: 100%;
-  }
-
-  .city-selector-group {
-    grid-template-columns: 1fr;
-    gap: 0.3rem;
   }
 
   .city-selector label {

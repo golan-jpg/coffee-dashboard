@@ -1839,6 +1839,10 @@ html, body, #root {
     padding: 0.6rem 0.9rem;
   }
 
+  .city-selector-panel {
+    margin-top: 0.25rem;
+  }
+
   .city-selector {
     width: 100%;
     flex-direction: column;

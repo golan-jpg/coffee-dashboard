@@ -296,6 +296,11 @@ html, body, #root {
   visibility: visible;
 }
 
+.sidebar-top .search-controls {
+  order: -2;
+  margin-top: 0.55rem;
+}
+
 .home-copy-sections {
   margin-top: 0.6rem;
   display: grid;

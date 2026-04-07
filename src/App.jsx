@@ -3903,86 +3903,6 @@ function App() {
             </div>
           )}
 
-          <div className="search-controls">
-            <input
-              type="search"
-              className="search-input"
-              placeholder="Search by city or cafe"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            {availableAreas.length > 0 && (
-              <select
-                className="filter-select"
-                value={selectedArea}
-                onChange={(e) => setSelectedArea(e.target.value)}
-                aria-label="Filter by area"
-              >
-                <option value="">All neighborhoods</option>
-                {availableAreas.map((area) => (
-                  <option key={area} value={area}>{area}</option>
-                ))}
-              </select>
-            )}
-            {availableSourceOptions.length > 1 && (
-              <select
-                className="filter-select"
-                value={selectedSource}
-                onChange={(e) => setSelectedSource(e.target.value)}
-                aria-label="Filter by source"
-              >
-                <option value="">All sources</option>
-                {availableSourceOptions.map((sourceOption) => (
-                  <option key={sourceOption.value} value={sourceOption.value}>
-                    {sourceOption.label} ({sourceOption.count})
-                  </option>
-                ))}
-              </select>
-            )}
-            <div className="filter-row">
-              <label className="checkbox-control small">
-                <input
-                  type="checkbox"
-                  checked={filterOpenNow}
-                  disabled={dataMode === "google"}
-                  onChange={(e) => setFilterOpenNow(e.target.checked)}
-                />
-                Open
-              </label>
-            </div>
-
-            <div className="location-controls">
-              <button
-                className={`fit-button${isTrackingUserLocation ? " fit-button-active" : ""}`}
-                onClick={toggleUserLocationTracking}
-                type="button"
-                title={isTrackingUserLocation ? "Stop live location tracking" : "Use my location"}
-              >
-                {isTrackingUserLocation ? "Using current location" : "Use current location"}
-              </button>
-              <button
-                className="fit-button"
-                onClick={focusOnMyLocation}
-                type="button"
-                disabled={!userLocation}
-                title="Center map on my location"
-              >
-                Center on me
-              </button>
-            </div>
-            {userLocationError && <div className="location-error">{userLocationError}</div>}
-            {userLocation && (
-              <div className="location-hint">
-                Your location: {userLocation.lat.toFixed(5)}, {userLocation.lon.toFixed(5)}
-                {Number.isFinite(userLocation.accuracy) ? ` (±${Math.round(userLocation.accuracy)}m)` : ""}
-              </div>
-            )}
-            {import.meta.env.DEV && devSwappedCoordsCount > 0 && (
-              <div className="location-hint" title="Number of unique places where lat/lon was auto-swapped in this session">
-                Coord swaps (session): {devSwappedCoordsCount}
-              </div>
-            )}
-          </div>
         </aside>
 
         <div
@@ -4142,6 +4062,87 @@ function App() {
         </div>
 
         <aside className={`${isMobileTouch ? "mobile-bottom-panel" : "sidebar"} sidebar-bottom`} ref={sidebarRef}>
+
+          <div className="search-controls">
+            <input
+              type="search"
+              className="search-input"
+              placeholder="Search by city or cafe"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            {availableAreas.length > 0 && (
+              <select
+                className="filter-select"
+                value={selectedArea}
+                onChange={(e) => setSelectedArea(e.target.value)}
+                aria-label="Filter by area"
+              >
+                <option value="">All neighborhoods</option>
+                {availableAreas.map((area) => (
+                  <option key={area} value={area}>{area}</option>
+                ))}
+              </select>
+            )}
+            {availableSourceOptions.length > 1 && (
+              <select
+                className="filter-select"
+                value={selectedSource}
+                onChange={(e) => setSelectedSource(e.target.value)}
+                aria-label="Filter by source"
+              >
+                <option value="">All sources</option>
+                {availableSourceOptions.map((sourceOption) => (
+                  <option key={sourceOption.value} value={sourceOption.value}>
+                    {sourceOption.label} ({sourceOption.count})
+                  </option>
+                ))}
+              </select>
+            )}
+            <div className="filter-row">
+              <label className="checkbox-control small">
+                <input
+                  type="checkbox"
+                  checked={filterOpenNow}
+                  disabled={dataMode === "google"}
+                  onChange={(e) => setFilterOpenNow(e.target.checked)}
+                />
+                Open
+              </label>
+            </div>
+
+            <div className="location-controls">
+              <button
+                className={`fit-button${isTrackingUserLocation ? " fit-button-active" : ""}`}
+                onClick={toggleUserLocationTracking}
+                type="button"
+                title={isTrackingUserLocation ? "Stop live location tracking" : "Use my location"}
+              >
+                {isTrackingUserLocation ? "Using current location" : "Use current location"}
+              </button>
+              <button
+                className="fit-button"
+                onClick={focusOnMyLocation}
+                type="button"
+                disabled={!userLocation}
+                title="Center map on my location"
+              >
+                Center on me
+              </button>
+            </div>
+            {userLocationError && <div className="location-error">{userLocationError}</div>}
+            {userLocation && (
+              <div className="location-hint">
+                Your location: {userLocation.lat.toFixed(5)}, {userLocation.lon.toFixed(5)}
+                {Number.isFinite(userLocation.accuracy) ? ` (±${Math.round(userLocation.accuracy)}m)` : ""}
+              </div>
+            )}
+            {import.meta.env.DEV && devSwappedCoordsCount > 0 && (
+              <div className="location-hint" title="Number of unique places where lat/lon was auto-swapped in this session">
+                Coord swaps (session): {devSwappedCoordsCount}
+              </div>
+            )}
+          </div>
 
           <details className="advanced-tools">
             <summary>View tools</summary>

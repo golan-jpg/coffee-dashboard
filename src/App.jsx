@@ -3768,8 +3768,8 @@ function App() {
             <p className="sidebar-intro">CupRoam is a curated guide for discovering standout specialty coffee shops, cafes, and roasters by city.</p>
             <p className="sidebar-intro">Discover specialty coffee worth going out of your way for.</p>
             <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
-              <button onClick={handleExportManualPlaces}>ייצוא מקומות ידניים (JSON)</button>
-              <button onClick={() => importInputRef.current?.click()}>ייבוא מקובץ JSON</button>
+              <button onClick={handleExportManualPlaces}>Export saved places</button>
+              <button onClick={() => importInputRef.current?.click()}>Import saved places</button>
               <input
                 type="file"
                 accept="application/json"
@@ -3869,7 +3869,7 @@ function App() {
                   disabled={dataMode === "google"}
                   onChange={(e) => setFilterOpenNow(e.target.checked)}
                 />
-                Open now
+                Open
               </label>
             </div>
 
@@ -4027,8 +4027,8 @@ function App() {
                     <div className="popup-content">
                       <strong>{place.name}</strong>
                       {place.source !== "google" && place.isSpecialty && <span className="popup-badge">Specialty</span>}
-                      {openNowStatus === true && <span className="popup-badge popup-badge-open">Open now</span>}
-                      {openNowStatus === false && <span className="popup-badge popup-badge-closed">Closed now</span>}
+                      {openNowStatus === true && <span className="popup-badge popup-badge-open">Open</span>}
+                      {openNowStatus === false && <span className="popup-badge popup-badge-closed">Closed</span>}
                       {place.placeType && place.placeType !== "coffee" && (
                         <span className="popup-badge non-pure-popup">Non-pure (capped 40)</span>
                       )}
@@ -4044,7 +4044,7 @@ function App() {
                           )}
                           {getPlaceCoordinatesLink(place) && (
                             <details className="popup-coords-details">
-                              <summary>More</summary>
+                              <summary>Details</summary>
                               <a href={getPlaceCoordinatesLink(place)} target="_blank" rel="noopener noreferrer">
                                 Open coordinates
                               </a>
@@ -4065,7 +4065,7 @@ function App() {
         <aside className={`${isMobileTouch ? "mobile-bottom-panel" : "sidebar"} sidebar-bottom`} ref={sidebarRef}>
 
           <details className="advanced-tools">
-            <summary>Advanced tools</summary>
+            <summary>View tools</summary>
 
             {dataMode !== "osm" && (
               <label className="checkbox-control">
@@ -4118,7 +4118,7 @@ function App() {
                 checked={auditMode}
                 onChange={(e) => setAuditMode(e.target.checked)}
               />
-              Audit mode (show filtered-out reasons)
+              Review hidden candidates
             </label>
           </details>
 
@@ -4146,7 +4146,7 @@ function App() {
           {editingPlaceOverrideId && (
             <div className="manual-panel">
               <div className="manual-panel-header">
-                <strong>Edit live record</strong>
+                <strong>Edit listing details</strong>
               </div>
               <form className="manual-form" onSubmit={handlePlaceOverrideSubmit}>
                 <input
@@ -4178,7 +4178,7 @@ function App() {
                 />
                 {placeOverrideError && <div style={{ color: "red", marginBottom: 8 }}>{placeOverrideError}</div>}
                 <div className="manual-form-actions">
-                  <button className="reset-hidden" type="submit">Save live override</button>
+                  <button className="reset-hidden" type="submit">Save changes</button>
                   <button className="reset-hidden" type="button" onClick={resetPlaceOverrideFormState}>Cancel</button>
                   <button
                     className="reset-hidden"
@@ -4193,7 +4193,7 @@ function App() {
                       }
                     }}
                   >
-                    Reset record
+                    Reset listing
                   </button>
                 </div>
               </form>
@@ -4202,7 +4202,7 @@ function App() {
 
           {managedPlaceOverrides.length > 0 && (
             <details className="advanced-tools">
-              <summary>Live overrides ({managedPlaceOverrides.length})</summary>
+              <summary>Saved listing updates ({managedPlaceOverrides.length})</summary>
               <ul className="manual-list">
                 {managedPlaceOverrides.map((entry) => (
                   <li key={entry.id} className="manual-list-item">
@@ -4212,7 +4212,7 @@ function App() {
                         {[entry.cityName, entry.source].filter(Boolean).join(" · ") || entry.id}
                       </span>
                       <span className="manual-list-notes">
-                        {entry.deleted ? "Deleted by live override" : "Edited by live override"}
+                        {entry.deleted ? "Removed from listing" : "Updated listing details"}
                       </span>
                     </div>
                     <div className="manual-list-actions">
@@ -4238,9 +4238,9 @@ function App() {
 
           {auditMode && (
             <div className="audit-panel">
-              <div className="audit-title">Filtered out (top {auditExcludedPlaces.length})</div>
+              <div className="audit-title">Hidden results ({auditExcludedPlaces.length})</div>
               {auditExcludedPlaces.length === 0 ? (
-                <div className="audit-empty">No filtered-out candidates for current mode/city.</div>
+                <div className="audit-empty">No hidden results for this city right now.</div>
               ) : (
                 <ul className="audit-list">
                   {auditExcludedPlaces.map((entry) => (
@@ -4342,7 +4342,7 @@ function App() {
                           title="Remove this place from the site"
                           onClick={(e) => {
                             e.stopPropagation();
-                            if (window.confirm('האם אתה בטוח שברצונך להסיר את המקום הזה?')) {
+                            if (window.confirm("Remove this place from the site?")) {
                               handleDeletePlace(place);
                             }
                           }}
@@ -4356,10 +4356,10 @@ function App() {
                         <span className="pinned-badge" title="Pinned" aria-label="Pinned">📌</span>
                       )}
                       {hasPersistedPlaceOverride(place, placeOverrides) && (
-                        <span className="user-verified-badge" title="Live override active">Live override</span>
+                        <span className="user-verified-badge" title="Saved update applied">Updated</span>
                       )}
                       {place.needsCoords && !getFiniteLatLon(place) && (
-                        <span className="low-data-badge" title="Missing map coordinates">Needs coords</span>
+                        <span className="low-data-badge" title="Missing map coordinates">Missing coordinates</span>
                       )}
                       {Number.isFinite(place.specialtyScore) && (
                         <>
@@ -4375,9 +4375,9 @@ function App() {
                             <span className="non-pure-badge">Non-pure (capped 40)</span>
                           )}
                           {openNowStatus === true ? (
-                            <span className="open-now-badge">Open now</span>
+                            <span className="open-now-badge">Open</span>
                           ) : openNowStatus === false ? (
-                            <span className="closed-now-badge">Closed now</span>
+                            <span className="closed-now-badge">Closed</span>
                           ) : null}
                           {manualRating > 0 ? (
                             <span className="user-verified-badge" title="Approved by Barista">
@@ -4421,7 +4421,7 @@ function App() {
                       )}
                       {getPlaceCoordinatesLink(place) && (
                         <details className="coords-details" onClick={(e) => e.stopPropagation()}>
-                          <summary>More</summary>
+                          <summary>Details</summary>
                           <a className="google-link coords-link" href={getPlaceCoordinatesLink(place)} target="_blank" rel="noopener noreferrer">
                             Open coordinates
                           </a>

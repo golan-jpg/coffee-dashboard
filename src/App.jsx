@@ -3840,7 +3840,7 @@ function App() {
 
       {activePage === "home" ? (
       <div className="main-content">
-        <aside className="sidebar sidebar-top">
+        <aside className="sidebar-top">
 
           <div className="city-selector city-selector-panel">
             <div className="city-selector-group">

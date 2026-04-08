@@ -285,6 +285,208 @@
       ],
       "explicitCoffeeAllowKeywords": []
     },
+    "Vienna": {
+      "aliases": [
+        "vienna",
+        "wien"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "tchibo"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Prague": {
+      "aliases": [
+        "prague",
+        "praha"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Lisbon": {
+      "aliases": [
+        "lisbon",
+        "lisboa"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "dunkin"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Porto": {
+      "aliases": [
+        "porto"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "dunkin"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Milan": {
+      "aliases": [
+        "milan",
+        "milano"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "dunkin"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Munich": {
+      "aliases": [
+        "munich",
+        "münchen",
+        "munchen"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "coffee fellows",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "tchibo"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Zurich": {
+      "aliases": [
+        "zurich",
+        "zürich"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Warsaw": {
+      "aliases": [
+        "warsaw",
+        "warszawa"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "green caffe nero",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Budapest": {
+      "aliases": [
+        "budapest"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "cafe frei",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Dublin": {
+      "aliases": [
+        "dublin"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "caffe nero",
+        "cafe nero",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Stockholm": {
+      "aliases": [
+        "stockholm"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "espresso house",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "waynes coffee"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Oslo": {
+      "aliases": [
+        "oslo"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "espresso house",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "waynes coffee"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Helsinki": {
+      "aliases": [
+        "helsinki"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "espresso house",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "waynes coffee"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
     "Haifa": {
       "aliases": [
         "haifa",

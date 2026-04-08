@@ -1,7 +1,9 @@
 import { readFileSync } from "node:fs";
 
-const cities = ["london", "berlin"];
-const pattern = /starbucks|costa|nero|joe\s*&\s*the\s*juice|joe\s*&\s*juice|pret|blank street|paul|greggs|dunkin|mccafe|mcdonald|coffee fellows|espresso house|balzac|einstein|backwerk|bakery|brunch|restaurant|bar\b/i;
+const defaultCities = ["london", "berlin", "new-york"];
+const cliCities = process.argv.slice(2).map((value) => String(value || "").trim()).filter(Boolean);
+const cities = cliCities.length > 0 ? cliCities : defaultCities;
+const pattern = /starbucks|costa|nero|joe\s*&\s*the\s*juice|joe\s*&\s*juice|pret|blank street|paul|greggs|dunkin|mccafe|mcdonald|coffee fellows|espresso house|balzac|einstein|backwerk|tim hortons|panera|au bon pain|bakery|brunch|restaurant|bar\b/i;
 
 for (const city of cities) {
   const filePath = `src/data/seeded-cities/${city}.json`;

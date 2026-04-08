@@ -168,6 +168,33 @@
       ],
       "explicitCoffeeAllowKeywords": []
     },
+    "New York": {
+      "aliases": [
+        "new york",
+        "new york city",
+        "nyc",
+        "מנהטן",
+        "ניו יורק"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "dunkin'",
+        "pret",
+        "pret a manger",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "blank street",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "tim hortons",
+        "panera",
+        "au bon pain"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
     "Paris": {
       "aliases": [
         "paris",

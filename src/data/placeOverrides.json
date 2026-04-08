@@ -944,6 +944,171 @@
       ],
       "explicitCoffeeAllowKeywords": []
     },
+    "Geneva": {
+      "aliases": [
+        "geneva",
+        "genève",
+        "geneve"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Lausanne": {
+      "aliases": [
+        "lausanne"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Florence": {
+      "aliases": [
+        "florence",
+        "firenze"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Torino": {
+      "aliases": [
+        "torino",
+        "turin"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Nice": {
+      "aliases": [
+        "nice"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "paul",
+        "paul bakery",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Marseille": {
+      "aliases": [
+        "marseille"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "paul",
+        "paul bakery",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Lyon": {
+      "aliases": [
+        "lyon"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "paul",
+        "paul bakery",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Cologne": {
+      "aliases": [
+        "cologne",
+        "köln",
+        "koln"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "coffee fellows",
+        "tchibo",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Hamburg": {
+      "aliases": [
+        "hamburg"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "coffee fellows",
+        "tchibo",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Istanbul": {
+      "aliases": [
+        "istanbul",
+        "i̇stanbul"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "gloria jean",
+        "kahve dünyası",
+        "kahve dunyasi",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Ankara": {
+      "aliases": [
+        "ankara"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "gloria jean",
+        "kahve dünyası",
+        "kahve dunyasi",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
     "Haifa": {
       "aliases": [
         "haifa",

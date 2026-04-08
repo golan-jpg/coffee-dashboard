@@ -200,7 +200,18 @@
         "paris",
         "פריז"
       ],
-      "explicitNonCoffeeKeywords": [],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "pret",
+        "pret a manger",
+        "paul",
+        "paul bakery",
+        "le pain quotidien",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
       "explicitCoffeeAllowKeywords": []
     },
     "Copenhagen": {
@@ -209,8 +220,68 @@
         "københavn"
       ],
       "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "espresso house",
+        "dunkin",
         "kabys",
         "kaby's"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Amsterdam": {
+      "aliases": [
+        "amsterdam"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "bagels & beans"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Barcelona": {
+      "aliases": [
+        "barcelona"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Madrid": {
+      "aliases": [
+        "madrid"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Rome": {
+      "aliases": [
+        "rome",
+        "roma"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "dunkin"
       ],
       "explicitCoffeeAllowKeywords": []
     },

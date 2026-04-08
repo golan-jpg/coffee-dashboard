@@ -487,6 +487,130 @@
       ],
       "explicitCoffeeAllowKeywords": []
     },
+    "Brussels": {
+      "aliases": [
+        "brussels",
+        "bruxelles",
+        "brussel"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "exki",
+        "le pain quotidien",
+        "paul",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Antwerp": {
+      "aliases": [
+        "antwerp",
+        "antwerpen"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "le pain quotidien",
+        "paul",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Rotterdam": {
+      "aliases": [
+        "rotterdam"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "bagels & beans",
+        "coffee company",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "The Hague": {
+      "aliases": [
+        "the hague",
+        "den haag"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "bagels & beans",
+        "coffee company",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Utrecht": {
+      "aliases": [
+        "utrecht"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "bagels & beans",
+        "coffee company",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Ghent": {
+      "aliases": [
+        "ghent",
+        "gent"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "le pain quotidien",
+        "paul",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Leuven": {
+      "aliases": [
+        "leuven"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Luxembourg City": {
+      "aliases": [
+        "luxembourg city",
+        "luxembourg"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
     "Haifa": {
       "aliases": [
         "haifa",

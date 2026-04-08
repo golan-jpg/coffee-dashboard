@@ -120,7 +120,52 @@
         "berlin",
         "ברלין"
       ],
-      "explicitNonCoffeeKeywords": [],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "coffee fellows",
+        "espresso house",
+        "balzac coffee",
+        "balzac",
+        "einstein kaffee",
+        "einstein koffie",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "dunkin",
+        "backwerk",
+        "le crobag",
+        "zeit für brot",
+        "zeit fur brot"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "London": {
+      "aliases": [
+        "london",
+        "לונדון"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "caffe nero",
+        "cafe nero",
+        "joe & juice",
+        "joe & the juice",
+        "joe and the juice",
+        "pret",
+        "pret a manger",
+        "blank street",
+        "greggs",
+        "paul bakery",
+        "paul",
+        "le pain quotidien",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "dunkin",
+        "black sheep coffee"
+      ],
       "explicitCoffeeAllowKeywords": []
     },
     "Paris": {

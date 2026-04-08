@@ -69,6 +69,13 @@
         "קופיקס",
         "cafe joe",
         "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר",
         "the streets",
         "streets",
         "the street",
@@ -159,7 +166,14 @@
         "cofix",
         "קופיקס",
         "cafe joe",
-        "קפה ג'ו"
+        "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר"
       ],
       "explicitCoffeeAllowKeywords": [
         "טליק קפה",
@@ -208,7 +222,14 @@
         "cofix",
         "קופיקס",
         "cafe joe",
-        "קפה ג'ו"
+        "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -238,6 +259,13 @@
         "קופיקס",
         "cafe joe",
         "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר",
         "cafelix shlomo hamelech",
         "קפליקס שלמה המלך"
       ],
@@ -267,7 +295,14 @@
         "cofix",
         "קופיקס",
         "cafe joe",
-        "קפה ג'ו"
+        "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -296,7 +331,14 @@
         "cofix",
         "קופיקס",
         "cafe joe",
-        "קפה ג'ו"
+        "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -324,7 +366,14 @@
         "cofix",
         "קופיקס",
         "cafe joe",
-        "קפה ג'ו"
+        "קפה ג'ו",
+        "greg",
+        "גרג",
+        "קפה גרג",
+        "גרג קפה",
+        "rebar",
+        "re:bar",
+        "ריבר"
       ],
       "explicitCoffeeAllowKeywords": []
     }

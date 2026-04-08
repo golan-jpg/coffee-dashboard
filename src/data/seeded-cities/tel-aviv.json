@@ -196,7 +196,7 @@
     "name": "Coffee Shop 51",
     "lat": 32.0865,
     "lon": 34.771,
-    "address": "Ahad HaAm 51, Tel Aviv-Jaffa",
+    "address": "Ariel Sharon St 10, Tel Aviv-Yafo",
     "city": "Tel Aviv",
     "cityName": "Tel Aviv",
     "source": "specialty-finder",
@@ -205,6 +205,23 @@
     "confidence": 95,
     "specialty": true,
     "scoreExplanation": "Specialty coffee roastery",
+    "notes": "Branch 1/2 - Ariel Sharon",
+    "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGC2u595zIchXfdV8X8_9Nac1qTlE6jFV448qnkbOEzEDWfTwfZrBXT4YpB4VueZWtNcxxV-JAtJyx1WuE_fxVeN55lToR_=s4800-w800"
+  },
+  {
+    "id": "seeded-telaviv-coffee-shop-51-yad-eliyahu",
+    "name": "Coffee Shop 51 - יד אליהו",
+    "lat": null,
+    "lon": null,
+    "address": "Sderot HaHayil 12, Tel Aviv-Yafo",
+    "city": "Tel Aviv",
+    "cityName": "Tel Aviv",
+    "source": "seeded",
+    "placeType": "coffee",
+    "isSpecialty": true,
+    "needsCoords": true,
+    "notes": "Branch 2/2 - יד אליהו. Coordinates pending verification.",
+    "scoreExplanation": "Specialty coffee",
     "photoUrl": "https://lh3.googleusercontent.com/places/ANXAkqGC2u595zIchXfdV8X8_9Nac1qTlE6jFV448qnkbOEzEDWfTwfZrBXT4YpB4VueZWtNcxxV-JAtJyx1WuE_fxVeN55lToR_=s4800-w800"
   },
   {

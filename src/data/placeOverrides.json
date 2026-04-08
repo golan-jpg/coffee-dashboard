@@ -1109,6 +1109,367 @@
       ],
       "explicitCoffeeAllowKeywords": []
     },
+    "Banskabystrica": {
+      "aliases": [
+        "banskabystrica",
+        "banská bystrica"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "tchibo"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Bern": {
+      "aliases": [
+        "bern",
+        "berne"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Brasov": {
+      "aliases": [
+        "brasov",
+        "brașov"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "5 to go",
+        "5togo",
+        "tucano coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Chisinau Moldova": {
+      "aliases": [
+        "chisinau",
+        "chișinău"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "tucano coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Cork": {
+      "aliases": [
+        "cork"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "caffe nero",
+        "cafe nero",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Edinburgh": {
+      "aliases": [
+        "edinburgh"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "caffe nero",
+        "cafe nero",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Glasgow": {
+      "aliases": [
+        "glasgow"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "caffe nero",
+        "cafe nero",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Kharkiv": {
+      "aliases": [
+        "kharkiv",
+        "харків"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Krakow": {
+      "aliases": [
+        "krakow",
+        "kraków"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "green caffe nero",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Kyiv": {
+      "aliases": [
+        "kyiv",
+        "kiev",
+        "київ"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Limassol Cyprus": {
+      "aliases": [
+        "limassol",
+        "lemesos"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Lviv": {
+      "aliases": [
+        "lviv",
+        "львів"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Manchester": {
+      "aliases": [
+        "manchester"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "caffe nero",
+        "cafe nero",
+        "pret",
+        "pret a manger",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Minsk": {
+      "aliases": [
+        "minsk",
+        "мінск"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Nicosia": {
+      "aliases": [
+        "nicosia",
+        "lefkosia"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Olomouc": {
+      "aliases": [
+        "olomouc"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "tchibo"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Palma": {
+      "aliases": [
+        "palma",
+        "palma de mallorca"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Poznan": {
+      "aliases": [
+        "poznan",
+        "poznań"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "green caffe nero",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Salzburg": {
+      "aliases": [
+        "salzburg"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald",
+        "tchibo"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Skopje Northmacedonia": {
+      "aliases": [
+        "skopje",
+        "скопје"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Tbilisi": {
+      "aliases": [
+        "tbilisi",
+        "თბილისი"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Valencia": {
+      "aliases": [
+        "valencia"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "dunkin",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Varna Bulgaria": {
+      "aliases": [
+        "varna"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
+    "Wroclaw": {
+      "aliases": [
+        "wroclaw",
+        "wrocław"
+      ],
+      "explicitNonCoffeeKeywords": [
+        "starbucks",
+        "costa",
+        "costa coffee",
+        "green caffe nero",
+        "mccafe",
+        "mc cafe",
+        "mcdonald"
+      ],
+      "explicitCoffeeAllowKeywords": []
+    },
     "Haifa": {
       "aliases": [
         "haifa",

@@ -20,16 +20,12 @@ function readRatingsFile(filePath) {
   }
 }
 
-function mergeRatings(existing, incoming) {
-  const merged = { ...(existing || {}) };
-  Object.entries(incoming || {}).forEach(([id, value]) => {
-    const current = Number(merged[id] || 0);
-    const next = Number(value || 0);
-    if (next > current) {
-      merged[id] = next;
-    }
-  });
-  return merged;
+function normalizeIncomingRatings(value) {
+  const payload = value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  if (payload.ratings && typeof payload.ratings === 'object' && !Array.isArray(payload.ratings)) {
+    return payload.ratings;
+  }
+  return payload;
 }
 
 function readHiddenIdsFile(filePath) {
@@ -154,7 +150,7 @@ app.get('/api/backup-user-ratings', (_req, res) => {
     const backupPath = path.resolve('src/data/userRatings-backup.json');
     const primary = readRatingsFile(ratingsPath);
     const fallback = readRatingsFile(backupPath);
-    const ratings = mergeRatings(fallback, primary);
+    const ratings = Object.keys(primary).length > 0 ? primary : fallback;
 
     res.json({ ok: true, ratings });
   } catch (error) {
@@ -165,17 +161,14 @@ app.get('/api/backup-user-ratings', (_req, res) => {
 
 app.post('/api/backup-user-ratings', (req, res) => {
   try {
-    const incoming = req.body && typeof req.body === 'object' ? req.body : {};
+    const incoming = normalizeIncomingRatings(req.body);
     const ratingsPath = path.resolve('userRatings.json');
     const backupPath = path.resolve('src/data/userRatings-backup.json');
 
-    const existing = mergeRatings(readRatingsFile(backupPath), readRatingsFile(ratingsPath));
-    const merged = mergeRatings(existing, incoming);
+    fs.writeFileSync(ratingsPath, JSON.stringify(incoming, null, 2), 'utf8');
+    fs.writeFileSync(backupPath, JSON.stringify(incoming, null, 2), 'utf8');
 
-    fs.writeFileSync(ratingsPath, JSON.stringify(merged, null, 2), 'utf8');
-    fs.writeFileSync(backupPath, JSON.stringify(merged, null, 2), 'utf8');
-
-    res.json({ ok: true, message: 'Ratings saved.', count: Object.keys(merged).length });
+    res.json({ ok: true, message: 'Ratings saved.', count: Object.keys(incoming).length });
   } catch (error) {
     console.error('backup-user-ratings failed:', error);
     res.status(500).json({ ok: false, error: 'Failed saving ratings backup' });

@@ -102,18 +102,12 @@ function asPlaceOverridesMap(value) {
   }, {});
 }
 
-function mergeRatings(existing, incoming) {
-  const merged = { ...asObject(existing) };
-
-  Object.entries(asObject(incoming)).forEach(([id, value]) => {
-    const current = Number(merged[id] || 0);
-    const next = Number(value || 0);
-    if (next > current) {
-      merged[id] = next;
-    }
-  });
-
-  return merged;
+function normalizeIncomingRatings(incoming) {
+  const payload = asObject(incoming);
+  if (payload.ratings && typeof payload.ratings === "object" && !Array.isArray(payload.ratings)) {
+    return asObject(payload.ratings);
+  }
+  return payload;
 }
 
 export function isKvConfigured() {
@@ -132,10 +126,9 @@ export async function saveRatings(ratings) {
 }
 
 export async function mergeAndSaveRatings(incomingRatings) {
-  const existing = await loadRatings();
-  const merged = mergeRatings(existing, incomingRatings);
-  await saveRatings(merged);
-  return merged;
+  const normalized = normalizeIncomingRatings(incomingRatings);
+  await saveRatings(normalized);
+  return normalized;
 }
 
 export async function loadHiddenPlaceIds() {

@@ -2673,6 +2673,9 @@ function App() {
     }
   });
   const [isRatingsBackupReady, setIsRatingsBackupReady] = useState(false);
+  const [ratingsSyncStatus, setRatingsSyncStatus] = useState("idle");
+  const ratingsSyncRequestIdRef = useRef(0);
+  const ratingsSyncResetTimeoutRef = useRef(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -2700,6 +2703,14 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    return () => {
+      if (ratingsSyncResetTimeoutRef.current) {
+        clearTimeout(ratingsSyncResetTimeoutRef.current);
+      }
+    };
+  }, []);
+
   // On every change, save to localStorage and also POST to a backup endpoint
   useEffect(() => {
     localStorage.setItem("userRatings", JSON.stringify(userRatings));
@@ -2709,14 +2720,37 @@ function App() {
     );
 
     if (!isRatingsBackupReady) return;
-    if (Object.keys(userRatings || {}).length === 0) return;
+
+    const requestId = ratingsSyncRequestIdRef.current + 1;
+    ratingsSyncRequestIdRef.current = requestId;
+    setRatingsSyncStatus("saving");
 
     // Backup to file via a simple endpoint (if running dev server with write access)
     fetch("/api/backup-user-ratings", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(userRatings)
-    }).catch(() => {});
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error("Failed ratings sync");
+        if (requestId !== ratingsSyncRequestIdRef.current) return;
+
+        setRatingsSyncStatus("saved");
+
+        if (ratingsSyncResetTimeoutRef.current) {
+          clearTimeout(ratingsSyncResetTimeoutRef.current);
+        }
+
+        ratingsSyncResetTimeoutRef.current = setTimeout(() => {
+          if (requestId === ratingsSyncRequestIdRef.current) {
+            setRatingsSyncStatus("idle");
+          }
+        }, 1800);
+      })
+      .catch(() => {
+        if (requestId !== ratingsSyncRequestIdRef.current) return;
+        setRatingsSyncStatus("error");
+      });
   }, [userRatings, isRatingsBackupReady]);
   
   // UI filters + search (persisted)
@@ -3814,6 +3848,15 @@ function App() {
 
   const hasCityScopedSeededData = Boolean(seededMetaByCityName.get(selectedCity.name));
   const hasAnyCityScopedData = hasCityScopedGoogleData || hasCityScopedSeededData;
+  const ratingsSyncLabel = !isRatingsBackupReady
+    ? "Ratings sync: initializing"
+    : ratingsSyncStatus === "saving"
+      ? "Ratings sync: saving..."
+      : ratingsSyncStatus === "saved"
+        ? "Ratings sync: saved"
+        : ratingsSyncStatus === "error"
+          ? "Ratings sync: failed"
+          : "Ratings sync: idle";
 
   return (
     <div className="app">
@@ -3826,6 +3869,9 @@ function App() {
           <div className="hero-block">
             <h1>Explore the best specialty coffee near you</h1>
             <p className="header-subtitle">Find coffee spots actually worth visiting.</p>
+            <div className={`ratings-sync-indicator sync-${isRatingsBackupReady ? ratingsSyncStatus : "initializing"}`}>
+              {ratingsSyncLabel}
+            </div>
             <div className="header-cta-row">
               <button className="fit-button" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>
                 Explore cafes
@@ -3998,29 +4044,32 @@ function App() {
 
         <aside className={`${isMobileTouch ? "mobile-bottom-panel" : "sidebar"} sidebar-bottom`} ref={sidebarRef}>
 
-          <div className="city-selector city-selector-panel">
-            <div className="city-selector-group">
-              <label htmlFor="country">Country</label>
-              <select id="country" value={selectedCountry} onChange={handleCountryChange}>
-                {availableCountries.map((country) => (
-                  <option key={country} value={country}>{country}</option>
-                ))}
-              </select>
+          <section className="location-selection-panel" aria-label="Choose location">
+            <p className="section-kicker">Choose location</p>
+            <div className="city-selector city-selector-panel">
+              <div className="city-selector-group">
+                <label htmlFor="country">Country</label>
+                <select id="country" value={selectedCountry} onChange={handleCountryChange}>
+                  {availableCountries.map((country) => (
+                    <option key={country} value={country}>{country}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="city-selector-group">
+                <label htmlFor="city">City</label>
+                <select id="city" value={selectedCity.name} onChange={handleCityChange}>
+                  {visibleCities.map((city) => (
+                    <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
+                  ))}
+                </select>
+              </div>
             </div>
-            <div className="city-selector-group">
-              <label htmlFor="city">City</label>
-              <select id="city" value={selectedCity.name} onChange={handleCityChange}>
-                {visibleCities.map((city) => (
-                  <option key={city.name} value={city.name}>{getDisplayCityName(city.name)}</option>
-                ))}
-              </select>
-            </div>
-          </div>
+          </section>
 
           <div className="sidebar-header-content">
             <h2>Best specialty coffee in {getDisplayCityName(selectedCity.name)}</h2>
             <p className="sidebar-subtitle">Discover standout cafes, coffee shops, and roasters in {getDisplayCityName(selectedCity.name)}.</p>
-            <details className="advanced-tools utility-tools">
+            <details className="advanced-tools utility-tools utility-tools-muted">
               <summary>Manage saved places</summary>
               <div className="json-actions" style={{ display: 'flex', gap: 8, margin: '8px 0' }}>
                 <button onClick={handleExportManualPlaces}>Export saved places</button>
@@ -4060,13 +4109,18 @@ function App() {
           )}
 
           <div className="search-controls">
+            <p className="section-kicker">Search within {getDisplayCityName(selectedCity.name)}</p>
             <input
               type="search"
               className="search-input"
-              placeholder="Search by city or cafe"
+              placeholder={`Search cafes in ${getDisplayCityName(selectedCity.name)}`}
+              aria-label={`Search within ${getDisplayCityName(selectedCity.name)}`}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
+            <p className="search-helper-text">
+              Search for cafes, roasters, or neighborhoods in {getDisplayCityName(selectedCity.name)}.
+            </p>
             {availableAreas.length > 0 && (
               <select
                 className="filter-select"

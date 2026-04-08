@@ -96,16 +96,12 @@ function asPlaceOverridesMap(value) {
   }, {});
 }
 
-function mergeRatings(existing, incoming) {
-  const merged = { ...asObject(existing) };
-  Object.entries(asObject(incoming)).forEach(([id, value]) => {
-    const current = Number(merged[id] || 0);
-    const next = Number(value || 0);
-    if (next > current) {
-      merged[id] = next;
-    }
-  });
-  return merged;
+function normalizeIncomingRatings(incoming) {
+  const payload = asObject(incoming);
+  if (payload.ratings && typeof payload.ratings === "object" && !Array.isArray(payload.ratings)) {
+    return asObject(payload.ratings);
+  }
+  return payload;
 }
 
 function getKv(env) {
@@ -126,10 +122,9 @@ export async function saveRatings(env, ratings) {
 }
 
 export async function mergeAndSaveRatings(env, incomingRatings) {
-  const existing = await loadRatings(env);
-  const merged = mergeRatings(existing, incomingRatings);
-  await saveRatings(env, merged);
-  return merged;
+  const normalized = normalizeIncomingRatings(incomingRatings);
+  await saveRatings(env, normalized);
+  return normalized;
 }
 
 export async function loadHiddenPlaceIds(env) {

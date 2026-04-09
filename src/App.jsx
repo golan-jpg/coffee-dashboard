@@ -93,6 +93,14 @@ const defaultExplicitCoffeeAllowKeywords = [
   "קופי לאב",
 ];
 
+const temporaryClosedKeywords = [
+  "temporarily closed",
+  "temporary closure",
+  "closed temporarily",
+  "סגור זמנית",
+  "סגורה זמנית",
+];
+
 function normalizeCityKey(value) {
   return String(value || "").trim().toLowerCase();
 }
@@ -383,7 +391,6 @@ function isLikelyOffshoreOutlier(place, selectedCity) {
 
   return false;
 }
-
 function isCoffeePlace(place) {
   const text = [place.name, place.address, place.description]
     .filter(Boolean)
@@ -419,6 +426,19 @@ function isBakeryPlace(place) {
   ].filter(Boolean).join(" ").toLowerCase();
 
   return bakeryKeywords.some(k => text.includes(k));
+}
+
+function isTemporarilyClosed(place) {
+  const text = [
+    place.name,
+    place.address,
+    place.description,
+    place.status,
+    place.businessStatus,
+    place.operatingStatus,
+  ].filter(Boolean).join(" ").toLowerCase();
+
+  return temporaryClosedKeywords.some((k) => text.includes(k));
 }
 
 function getStrictOsmCoffeeDecision(place, cityName) {
@@ -487,6 +507,10 @@ function isStrictOsmCoffeePlace(place, cityName) {
 }
 
 function getGooglePlaceDecision(place, googleFilterMode, selectedCityName) {
+  if (isTemporarilyClosed(place)) {
+    return { included: false, reason: "temporarily closed" };
+  }
+
   if (isExplicitlyExcludedPlace(place, selectedCityName)) {
     return { included: false, reason: "explicit non-coffee keyword" };
   }
@@ -592,6 +616,7 @@ function flattenGoogleListsData(data) {
       const coords = getFiniteLatLon(place) || { lat: null, lon: null };
 
       return {
+        ...place,
         id: `google-${listIdx}-${placeIdx}`,
         name: place.name,
         lat: coords.lat,
@@ -3012,6 +3037,7 @@ function App() {
   const filteredGooglePlaces = useMemo(
     () => dedupePlaces(
       filterGooglePlacesByModeAndCity(googlePlaces, googleFilterMode, selectedCity, cityFilterRadiusKm, localScopeCities)
+        .filter((place) => !isTemporarilyClosed(place))
         .filter((place) => !isLikelyOffshoreOutlier(place, selectedCity)),
       selectedCity.name
     ),

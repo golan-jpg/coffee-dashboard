@@ -72,55 +72,6 @@ html, body, #root {
   max-width: 52ch;
 }
 
-.ratings-sync-indicator {
-  margin-top: 0.45rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.2rem 0.58rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  background: rgba(255, 255, 255, 0.14);
-  color: #fff;
-}
-
-.ratings-sync-indicator.sync-saving,
-.ratings-sync-indicator.sync-initializing {
-  opacity: 0.95;
-}
-
-.ratings-sync-indicator.sync-saved,
-.ratings-sync-indicator.sync-idle {
-  opacity: 0.86;
-}
-
-.ratings-sync-indicator.sync-error {
-  opacity: 1;
-  border-color: rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.22);
-}
-
-.header-cta-row {
-  display: flex;
-  gap: 0.55rem;
-  margin-top: 0.6rem;
-  flex-wrap: wrap;
-}
-
-.header-cta-row .fit-button {
-  background: rgba(255, 255, 255, 0.16);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  min-height: 36px;
-  padding: 0.45rem 0.85rem;
-}
-
-.header-cta-row .fit-button:hover {
-  background: rgba(255, 255, 255, 0.22);
-}
-
 .city-selector {
   display: flex;
   align-items: center;
@@ -1169,6 +1120,106 @@ html, body, #root {
   color: var(--text-muted);
 }
 
+.place-agent-section {
+  margin: 0.5rem 0 0.65rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid rgba(120, 53, 15, 0.16);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.place-agent-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.place-agent-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #7c2d12;
+  font-weight: 700;
+}
+
+.place-agent-score {
+  font-size: 0.98rem;
+  color: #9a3412;
+}
+
+.place-agent-story {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  color: #3f3f46;
+  line-height: 1.35;
+}
+
+.place-agent-group {
+  margin-top: 0.45rem;
+}
+
+.place-agent-chips {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+}
+
+.place-agent-chip {
+  font-size: 0.72rem;
+  line-height: 1;
+  padding: 0.26rem 0.44rem;
+  border-radius: 999px;
+  background: rgba(154, 52, 18, 0.08);
+  border: 1px solid rgba(154, 52, 18, 0.18);
+  color: #7c2d12;
+}
+
+.place-agent-sources {
+  margin: 0.3rem 0 0;
+  padding-left: 1.05rem;
+  color: #52525b;
+  font-size: 0.77rem;
+}
+
+.place-agent-review-list,
+.place-agent-breakdown-list {
+  margin: 0.3rem 0 0;
+  padding-left: 1.05rem;
+  color: #3f3f46;
+  font-size: 0.76rem;
+}
+
+.place-agent-breakdown-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.place-agent-flags {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.place-agent-flag {
+  font-size: 0.68rem;
+  line-height: 1;
+  padding: 0.22rem 0.4rem;
+  border-radius: 999px;
+  color: #7f1d1d;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.place-agent-no-flags {
+  margin-top: 0.32rem;
+  font-size: 0.72rem;
+  color: #166534;
+}
+
 /* ── Star Rating ───────────────────────────────── */
 
 .star-rating {
@@ -1226,8 +1277,10 @@ html, body, #root {
 .open-now-badge,
 .closed-now-badge,
 .user-verified-badge,
+.needs-review-badge,
 .non-pure-badge,
-.manual-rating-badge {
+.manual-rating-badge,
+.quality-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1294,6 +1347,36 @@ html, body, #root {
   color: #166534;
 }
 
+.needs-review-badge {
+  background: rgba(245, 158, 11, 0.2);
+  border: 1px solid rgba(245, 158, 11, 0.36);
+  color: #92400e;
+}
+
+.quality-badge {
+  background: rgba(100, 116, 139, 0.16);
+  border: 1px solid rgba(100, 116, 139, 0.3);
+  color: #334155;
+}
+
+.quality-badge-coffee_led {
+  background: rgba(22, 163, 74, 0.14);
+  border-color: rgba(22, 163, 74, 0.28);
+  color: #166534;
+}
+
+.quality-badge-mixed {
+  background: rgba(234, 179, 8, 0.2);
+  border-color: rgba(202, 138, 4, 0.36);
+  color: #854d0e;
+}
+
+.quality-badge-weak {
+  background: rgba(239, 68, 68, 0.14);
+  border-color: rgba(239, 68, 68, 0.32);
+  color: #991b1b;
+}
+
 /* ── Specialty Badge (sidebar) ─────────────────── */
 
 .specialty-badge {
@@ -1318,14 +1401,21 @@ html, body, #root {
   height: 100%;
   position: relative;
   overscroll-behavior: contain;
+  /* Mobile touch gesture handling */
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
-/* Ensure Leaflet's internal container fills the map container */
-.leaflet-container,
-.map-container > .leaflet-container {
+.leaflet-container {
   height: 100% !important;
   width: 100% !important;
   min-height: 0;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .map-touch-hint {
@@ -1929,7 +2019,7 @@ html, body, #root {
   }
 
   .map-container.map-interaction-locked .leaflet-container {
-    touch-action: auto !important;
+    touch-action: none !important;
   }
 
   .map-container.map-interaction-enabled .leaflet-container {
@@ -2002,16 +2092,6 @@ html, body, #root {
   .header-subtitle {
     font-size: 0.84rem;
     line-height: 1.35;
-  }
-
-  .header-cta-row {
-    width: 100%;
-    gap: 0.45rem;
-  }
-
-  .header-cta-row .fit-button {
-    min-height: 42px;
-    padding: 0.6rem 0.9rem;
   }
 
   .city-selector-panel {
@@ -2264,16 +2344,6 @@ html, body, #root {
   .hero-block .header-subtitle {
     font-size: 0.8rem;
     margin-top: 0.3rem;
-  }
-
-  .header-cta-row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.4rem;
-  }
-
-  .header-cta-row .fit-button {
-    width: 100%;
   }
 
   .city-selector label {

@@ -124,6 +124,47 @@ const explicitNonCoffeeKeywords = placeOverrides.explicitNonCoffeeKeywords;
 const explicitCoffeeAllowKeywords = placeOverrides.explicitCoffeeAllowKeywords;
 const citySpecificOverrides = placeOverrides.citySpecificOverrides;
 
+const AGENT_TAGGING_VERSION = 'cuproam-tagging-v1';
+const AGENT_SCORING_VERSION = 'cuproam-score-v1';
+
+const AGENT_TAG_RULES = [
+  { tag: 'specialty_coffee', patterns: ['specialty', 'single origin', 'micro-lot', 'third wave'] },
+  { tag: 'espresso_bar', patterns: ['espresso bar', 'espresso'] },
+  { tag: 'pour_over', patterns: ['pour over', 'pour-over', 'filter coffee'] },
+  { tag: 'v60', patterns: ['v60'] },
+  { tag: 'chemex', patterns: ['chemex'] },
+  { tag: 'aeropress', patterns: ['aeropress', 'aero press'] },
+  { tag: 'roastery', patterns: ['roaster', 'roastery', 'roast'] },
+  { tag: 'bakery', patterns: ['bakery', 'pastry', 'croissant', 'patisserie'] },
+  { tag: 'brunch', patterns: ['brunch', 'breakfast', 'sandwich', 'kitchen'] },
+  { tag: 'work_friendly', patterns: ['laptop', 'wifi', 'work', 'workspace', 'quiet'] },
+  { tag: 'takeaway_friendly', patterns: ['take away', 'takeaway', 'to-go', 'to go'] },
+];
+
+const AGENT_TAG_POINTS = {
+  specialty_coffee: 18,
+  espresso_bar: 8,
+  pour_over: 10,
+  v60: 7,
+  chemex: 7,
+  aeropress: 7,
+  roastery: 12,
+  bakery: 2,
+  brunch: -4,
+  work_friendly: 4,
+  takeaway_friendly: 2,
+};
+
+const AGENT_SOURCE_POINTS = {
+  seeded: 8,
+  manual: 7,
+  google: 4,
+  osm: 3,
+};
+
+const PUBLIC_METADATA_TIMEOUT_MS = 5000;
+const PUBLIC_METADATA_HEAD_SLICE_CHARS = 50000;
+
 function getPlaceText(place) {
   return [place.name, place.address].filter(Boolean).join(" ").toLowerCase();
 }
@@ -159,18 +200,384 @@ function isExplicitlyAllowedCoffeePlace(place) {
   return coffeeAllowKeywords.some((keyword) => text.includes(keyword));
 }
 
-function looksLikeCoffeePlace(place, mode = "coffeeOnly") {
+function normalizeAgentText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function getAgentText(place) {
+  const typesText = Array.isArray(place?.types)
+    ? place.types.join(' ')
+    : (typeof place?.types === 'string' ? place.types : '');
+
+  return normalizeAgentText([
+    place?.name,
+    place?.description,
+    place?.notes,
+    place?.address,
+    typesText,
+    place?.source,
+  ].filter(Boolean).join(' '));
+}
+
+function tagPlaceDeterministic(place) {
+  const text = getAgentText(place);
+  const tags = [];
+  const tagEvidence = {};
+
+  AGENT_TAG_RULES.forEach((rule) => {
+    const matches = rule.patterns.filter((pattern) => text.includes(pattern));
+    if (matches.length === 0) return;
+    tags.push(rule.tag);
+    tagEvidence[rule.tag] = matches;
+  });
+
+  if (typeof place?.specialtyScore === 'number' && place.specialtyScore >= 80 && !tags.includes('specialty_coffee')) {
+    tags.push('specialty_coffee');
+    tagEvidence.specialty_coffee = [`specialtyScore:${Math.round(place.specialtyScore)}`];
+  }
+
+  return {
+    version: AGENT_TAGGING_VERSION,
+    tags: tags.sort((a, b) => a.localeCompare(b)),
+    tagEvidence,
+  };
+}
+
+function scorePlaceDeterministic(place, tags) {
+  const components = [];
+
+  const specialtyRaw = Number(place?.specialtyScore);
+  const specialtyBase = Number.isFinite(specialtyRaw)
+    ? clamp(Math.round(specialtyRaw * 0.45), 0, 45)
+    : 0;
+  components.push({ key: 'specialtyScore', points: specialtyBase });
+
+  const sourceKey = String(place?.source || '').toLowerCase();
+  const sourcePoints = AGENT_SOURCE_POINTS[sourceKey] || 0;
+  if (sourcePoints !== 0) {
+    components.push({ key: `source:${sourceKey}`, points: sourcePoints });
+  }
+
+  tags.forEach((tag) => {
+    const points = AGENT_TAG_POINTS[tag] || 0;
+    if (points !== 0) {
+      components.push({ key: `tag:${tag}`, points });
+    }
+  });
+
+  return {
+    version: AGENT_SCORING_VERSION,
+    value: clamp(Math.round(components.reduce((sum, entry) => sum + entry.points, 0)), 0, 100),
+    components,
+  };
+}
+
+function firstSentence(value) {
+  const text = String(value || '').trim().replace(/\s+/g, ' ');
+  if (!text) return '';
+  const idx = text.search(/[.!?]/);
+  if (idx === -1) return text.slice(0, 180);
+  return text.slice(0, Math.min(idx + 1, 180));
+}
+
+function getSourceDomain(url) {
+  try {
+    return new URL(url).hostname || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+function collectAgentSources(place) {
+  const sources = [];
+
+  if (place?.source) {
+    sources.push({ id: 'source-primary', type: 'dataset', title: String(place.source).toUpperCase() });
+  }
+
+  if (place?.googleMapsUrl) {
+    const url = String(place.googleMapsUrl);
+    sources.push({ id: 'google-maps-url', type: 'map', title: 'Google Maps', url, domain: getSourceDomain(url) });
+  }
+
+  if (place?.sourceUrl) {
+    const url = String(place.sourceUrl);
+    sources.push({ id: 'source-url', type: 'source_url', title: 'Source', url, domain: getSourceDomain(url) });
+  }
+
+  if (place?.website) {
+    const url = String(place.website);
+    sources.push({ id: 'website', type: 'website', title: 'Website', url, domain: getSourceDomain(url) });
+  }
+
+  const dedupedById = new Map();
+  sources.forEach((source) => {
+    if (!dedupedById.has(source.id)) dedupedById.set(source.id, source);
+  });
+
+  return Array.from(dedupedById.values());
+}
+
+function sanitizeSourceTitle(value) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+  return text.slice(0, 120);
+}
+
+async function fetchPublicSourceMetadata(url, metadataCache) {
+  const normalizedUrl = normalizeGoogleMapsUrl(url);
+  if (!normalizedUrl) return null;
+
+  if (metadataCache.has(normalizedUrl)) {
+    return metadataCache.get(normalizedUrl);
+  }
+
+  const metadataPromise = (async () => {
+    let timeoutId = null;
+    try {
+      const controller = new AbortController();
+      timeoutId = setTimeout(() => controller.abort(), PUBLIC_METADATA_TIMEOUT_MS);
+
+      const response = await fetch(normalizedUrl, {
+        method: 'GET',
+        redirect: 'follow',
+        signal: controller.signal,
+        headers: {
+          accept: 'text/html,application/xhtml+xml',
+        },
+      });
+
+      if (!response.ok) return null;
+      const contentType = String(response.headers.get('content-type') || '').toLowerCase();
+      if (!contentType.includes('text/html')) {
+        return {
+          title: null,
+          domain: getSourceDomain(normalizedUrl),
+        };
+      }
+
+      const html = await response.text();
+      const headSlice = html.slice(0, PUBLIC_METADATA_HEAD_SLICE_CHARS);
+      const titleMatch = headSlice.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+      const title = sanitizeSourceTitle(titleMatch?.[1] || '');
+
+      return {
+        title: title || null,
+        domain: getSourceDomain(normalizedUrl),
+      };
+    } catch {
+      return {
+        title: null,
+        domain: getSourceDomain(normalizedUrl),
+      };
+    } finally {
+      if (timeoutId) clearTimeout(timeoutId);
+    }
+  })();
+
+  metadataCache.set(normalizedUrl, metadataPromise);
+  return metadataPromise;
+}
+
+async function enrichAgentSourcesWithPublicMetadata(baseSources, metadataCache) {
+  const enrichedSources = [];
+
+  for (const source of baseSources) {
+    if (!source?.url) {
+      enrichedSources.push(source);
+      continue;
+    }
+
+    const normalizedUrl = normalizeGoogleMapsUrl(source.url);
+    const metadata = await fetchPublicSourceMetadata(normalizedUrl, metadataCache);
+    const hasGenericTitle = ['Website', 'Source', 'Google Maps'].includes(String(source.title || '').trim());
+    const bestTitle = metadata?.title && hasGenericTitle
+      ? metadata.title
+      : source.title;
+
+    enrichedSources.push({
+      ...source,
+      title: sanitizeSourceTitle(bestTitle) || source.title,
+      url: normalizedUrl,
+      domain: metadata?.domain || source.domain || getSourceDomain(normalizedUrl),
+    });
+  }
+
+  return enrichedSources;
+}
+
+function formatTagLabel(tag) {
+  return String(tag || '').replace(/_/g, ' ').trim();
+}
+
+function buildOriginalStorySummary(place, tags, sources) {
+  const tagSet = new Set(Array.isArray(tags) ? tags : []);
+  const sentences = [];
+
+  const hasSpecialty = tagSet.has('specialty_coffee');
+  const hasRoastery = tagSet.has('roastery');
+  const hasBakery = tagSet.has('bakery');
+  const hasEspresso = tagSet.has('espresso_bar');
+  const hasPourSignals = ['pour_over', 'v60', 'chemex', 'aeropress'].some((tag) => tagSet.has(tag));
+
+  if (hasRoastery && hasSpecialty) {
+    sentences.push('A roastery-forward coffee spot with specialty signals in its public-facing metadata.');
+  } else if (hasBakery && (hasEspresso || hasSpecialty)) {
+    sentences.push('A bakery-and-coffee stop with visible espresso cues and a broader cafe profile.');
+  } else if (hasSpecialty || hasEspresso || hasPourSignals) {
+    const cueParts = [];
+    if (hasPourSignals) cueParts.push('pour-over');
+    if (hasEspresso) cueParts.push('espresso');
+    if (cueParts.length === 0 && hasSpecialty) cueParts.push('specialty coffee');
+    sentences.push(`A specialty-leaning cafe with clear ${cueParts.join(' and ')} signals in its public-facing metadata.`);
+  } else {
+    sentences.push('A coffee-oriented venue with structured public source references.');
+  }
+
+  const referencedSources = (Array.isArray(sources) ? sources : [])
+    .filter((source) => source?.url)
+    .map((source) => source.domain || source.title)
+    .filter(Boolean);
+  const uniqueRefs = Array.from(new Set(referencedSources)).slice(0, 2);
+  if (uniqueRefs.length > 0) {
+    sentences.push(`Source metadata references ${uniqueRefs.join(' and ')}.`);
+  }
+
+  if (place?.address) {
+    sentences.push('Address metadata is available for location context.');
+  }
+
+  return sentences.slice(0, 3).join(' ');
+}
+
+function buildAgentStory(place, tags, sources) {
+  const summary = buildOriginalStorySummary(place, tags, sources);
+  if (!summary) return undefined;
+
+  const sourceIds = (Array.isArray(sources) ? sources : [])
+    .map((source) => source?.id)
+    .filter(Boolean);
+
+  return {
+    summary,
+    status: 'draft',
+    generatedAt: new Date().toISOString(),
+    sourceIds,
+  };
+}
+
+async function enrichPlaceWithAgent(place, metadataCache) {
+  if (place?.agent && typeof place.agent === 'object') return place;
+
+  const tagging = tagPlaceDeterministic(place);
+  const baseSources = collectAgentSources(place);
+  const sources = await enrichAgentSourcesWithPublicMetadata(baseSources, metadataCache);
+  const story = buildAgentStory(place, tagging.tags, sources);
+
+  return {
+    ...place,
+    agent: {
+      story,
+      sources,
+      tags: tagging.tags,
+      tagEvidence: tagging.tagEvidence,
+      score: scorePlaceDeterministic(place, tagging.tags),
+      enrichmentStatus: tagging.tags.length > 0 ? 'scored' : 'none',
+    },
+  };
+}
+
+function normalizeGoogleMapsUrl(url) {
+  const raw = String(url || '').trim();
+  if (!raw) return '';
+  try {
+    const parsed = new URL(raw);
+    parsed.hash = '';
+    return parsed.toString().replace(/\/$/, '');
+  } catch {
+    return raw.replace(/\/$/, '');
+  }
+}
+
+function dedupePlacesByGoogleMapsUrl(places) {
+  const deduped = [];
+  const indexByUrlKey = new Map();
+
+  places.forEach((place) => {
+    const urlKey = normalizeGoogleMapsUrl(place?.googleMapsUrl);
+    if (!urlKey) {
+      deduped.push(place);
+      return;
+    }
+
+    const existingIndex = indexByUrlKey.get(urlKey);
+    if (existingIndex == null) {
+      indexByUrlKey.set(urlKey, deduped.length);
+      deduped.push({ ...place, googleMapsUrl: urlKey });
+      return;
+    }
+
+    const base = deduped[existingIndex] || {};
+    const next = { ...base, googleMapsUrl: urlKey };
+
+    Object.keys(place || {}).forEach((key) => {
+      const incomingValue = place[key];
+      const baseValue = next[key];
+      if (key === 'googleMapsUrl') return;
+
+      if (key === 'types' || key === 'notes') {
+        const toArray = (value) => {
+          if (Array.isArray(value)) return value.filter(Boolean);
+          if (typeof value === 'string' && value.trim()) return [value.trim()];
+          return [];
+        };
+
+        const merged = Array.from(new Set([...toArray(baseValue), ...toArray(incomingValue)]));
+        if (merged.length > 0) {
+          next[key] = merged;
+        }
+        return;
+      }
+
+      const baseMissing = baseValue == null || baseValue === '';
+      if (baseMissing && incomingValue != null && incomingValue !== '') {
+        next[key] = incomingValue;
+      }
+    });
+
+    deduped[existingIndex] = next;
+  });
+
+  return deduped;
+}
+
+function placePassesGoogleFilterMode(place, mode = 'coffeeOnly') {
   if (isExplicitlyExcludedPlace(place)) return false;
-  if (mode !== "all" && isExplicitlyAllowedCoffeePlace(place)) return true;
+  if (isExplicitlyAllowedCoffeePlace(place)) return true;
 
-  const text = [place.name, place.address].filter(Boolean).join(" ").toLowerCase();
-  const isCoffee = coffeeKeywords.some((keyword) => text.includes(keyword));
-  const isBakery = bakeryKeywords.some((keyword) => text.includes(keyword));
-  const isNegative = negativeKeywords.some((keyword) => text.includes(keyword));
+  const tags = Array.isArray(place?.agent?.tags) ? place.agent.tags : [];
+  const hasCoffeeTag = tags.some((tag) => [
+    'specialty_coffee',
+    'roastery',
+    'espresso_bar',
+    'pour_over',
+    'v60',
+    'chemex',
+    'aeropress',
+  ].includes(tag));
 
-  if (mode === "all") return true;
-  if (mode === "coffeeAndBakery") return (isCoffee || isBakery) && !isNegative;
-  return isCoffee && !isNegative;
+  if (mode === 'coffeeAndBakery') {
+    return hasCoffeeTag || tags.includes('bakery');
+  }
+
+  return hasCoffeeTag;
 }
 /**
  * Extract coordinates from a Google Maps URL
@@ -713,14 +1120,25 @@ async function main() {
         }
       }
 
+      const totalBeforeDedupe = listData.places.length;
+      listData.places = dedupePlacesByGoogleMapsUrl(listData.places);
+      console.log(`  Dedupe by googleMapsUrl: kept ${listData.places.length}/${totalBeforeDedupe}`);
+
+      const metadataCache = new Map();
+      const enrichedPlaces = [];
+      for (const place of listData.places) {
+        enrichedPlaces.push(await enrichPlaceWithAgent(place, metadataCache));
+      }
+      listData.places = enrichedPlaces;
+
       const rawFilterMode = process.env.GOOGLE_FILTER_MODE || 'coffeeOnly';
-      const filterMode = ['coffeeOnly', 'coffeeAndBakery', 'all'].includes(rawFilterMode)
+      const filterMode = ['coffeeOnly', 'coffeeAndBakery'].includes(rawFilterMode)
         ? rawFilterMode
         : 'coffeeOnly';
       const totalBeforeFilter = listData.places.length;
 
-      listData.places = listData.places.filter((place) => looksLikeCoffeePlace(place, filterMode));
-      console.log(`  Coffee filter: kept ${listData.places.length}/${totalBeforeFilter} (${filterMode})`);
+      listData.places = listData.places.filter((place) => placePassesGoogleFilterMode(place, filterMode));
+      console.log(`  Google filter (post-enrich): kept ${listData.places.length}/${totalBeforeFilter} (${filterMode})`);
     }
     results.lists.push(listData);
   }

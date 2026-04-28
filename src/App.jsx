@@ -27,6 +27,9 @@ import { usePlaceOverrides } from "./hooks/usePlaceOverrides";
 import { geocodeAddress } from "./utils/geocodeAddress";
 
 import AdvancedScoringPanel from "./components/AdvancedScoringPanel";
+import PlaceAgentSection from "./components/PlaceAgentSection";
+import { enrichPlaceWithAgent } from "./lib/agent/enrich";
+import { computeAgentReview, getCoffeeQualityLabel } from "./lib/agent/review";
 // Check if a Google Lists place is coffee-related by name
 const sidebarRef = typeof window !== 'undefined' ? (window.__sidebarRef = window.__sidebarRef || { current: null }) : { current: null };
 const coffeeKeywords = [
@@ -1979,7 +1982,8 @@ function App() {
   const sidebarRef = useRef(null);
   const sidebarScrollRestoreRef = useRef(null);
   const cityAutoFitRef = useRef({ cityName: null, fittedWithPlaces: false });
-  const geolocationWatchRef = useRef(null);
+  const watchIdRef = useRef(null);
+  const lastLocationRef = useRef(null);
   const [googleListsData, setGoogleListsData] = useState(null);
   const [seededPlacesByCity, setSeededPlacesByCity] = useState({});
 
@@ -2230,8 +2234,8 @@ function App() {
   const [editingManualId, setEditingManualId] = useState(null);
   const [pickedPoint, setPickedPoint] = useState(null);
   const [userLocation, setUserLocation] = useState(null);
-  const [isTrackingUserLocation, setIsTrackingUserLocation] = useState(false);
-  const [userLocationError, setUserLocationError] = useState("");
+  const [geoError, setGeoError] = useState(null);
+  const [isTracking, setIsTracking] = useState(false);
   const [devSwappedCoordsCount, setDevSwappedCoordsCount] = useState(() => loggedSwappedCoordinatePlaceIds.size);
 
   useEffect(() => {
@@ -2242,160 +2246,132 @@ function App() {
     });
   }, []);
 
-  const PRIMARY_GEOLOCATION_OPTIONS = {
+  const GEOLOCATION_OPTIONS = {
     enableHighAccuracy: true,
-    maximumAge: 15000,
-    timeout: 20000,
+    maximumAge: 5000,
+    timeout: 15000,
   };
 
-  const FALLBACK_GEOLOCATION_OPTIONS = {
-    enableHighAccuracy: false,
-    maximumAge: 120000,
-    timeout: 20000,
+  const centerOnLiveLocation = (lat, lon) => {
+    if (!mapInstance) return;
+
+    const previous = lastLocationRef.current;
+    const movedKm = previous
+      ? haversineKm(previous.lat, previous.lon, lat, lon)
+      : Number.POSITIVE_INFINITY;
+    const movedMeters = Number.isFinite(movedKm) ? movedKm * 1000 : Number.POSITIVE_INFINITY;
+
+    // Recenter only for first fix or meaningful movement to avoid jumpy updates.
+    if (movedMeters < 20) return;
+
+    const currentZoom = typeof mapInstance.getZoom === "function" ? mapInstance.getZoom() : DEFAULT_CITY_ZOOM;
+    try {
+      mapInstance.setView([lat, lon], Math.max(currentZoom, 15), { animate: true });
+    } catch {
+      // Ignore transient map lifecycle errors while location updates are in flight.
+    }
   };
 
-  const applyGeolocationSuccess = (position) => {
-    setUserLocation({
-      lat: position.coords.latitude,
-      lon: position.coords.longitude,
-      accuracy: position.coords.accuracy,
-    });
-    setUserLocationError("");
-  };
-
-  const applyGeolocationError = (error) => {
+  const handleGeoError = (error) => {
     if (error?.code === 1) {
-      setUserLocationError("Location permission was denied. Allow location in browser site settings and try again.");
+      setGeoError("Location permission was denied. Enable location access in your browser site settings and try again.");
     } else if (error?.code === 2) {
-      setUserLocationError("Unable to get current location. Check GPS/network and try again.");
+      setGeoError("Unable to determine your location right now. Check GPS/network and try again.");
     } else if (error?.code === 3) {
-      setUserLocationError("Location request timed out. Please try again.");
+      setGeoError("Location request timed out. Please try again.");
     } else {
-      setUserLocationError("Failed to track your location.");
+      setGeoError("Unable to start live location tracking.");
     }
-    setIsTrackingUserLocation(false);
-    geolocationWatchRef.current = null;
-  };
 
-  const beginGeolocationWatch = (options = PRIMARY_GEOLOCATION_OPTIONS) => {
-    if (typeof window === "undefined" || !window.navigator?.geolocation) return;
-
-    geolocationWatchRef.current = window.navigator.geolocation.watchPosition(
-      applyGeolocationSuccess,
-      applyGeolocationError,
-      options
-    );
-  };
-
-  const stopUserLocationTracking = () => {
-    if (typeof window !== "undefined" && window.navigator?.geolocation && geolocationWatchRef.current != null) {
-      window.navigator.geolocation.clearWatch(geolocationWatchRef.current);
+    if (typeof window !== "undefined" && window.navigator?.geolocation && watchIdRef.current != null) {
+      window.navigator.geolocation.clearWatch(watchIdRef.current);
+      watchIdRef.current = null;
     }
-    geolocationWatchRef.current = null;
-    setIsTrackingUserLocation(false);
+    setIsTracking(false);
   };
 
-  const startUserLocationTracking = () => {
-    if (typeof window === "undefined" || !window.navigator?.geolocation) {
-      setUserLocationError("Geolocation is not supported in this browser");
+  const stopLiveLocation = () => {
+    if (typeof window !== "undefined" && window.navigator?.geolocation && watchIdRef.current != null) {
+      window.navigator.geolocation.clearWatch(watchIdRef.current);
+      watchIdRef.current = null;
+    }
+    setIsTracking(false);
+  };
+
+  const startLiveLocation = async () => {
+    if (typeof window === "undefined") {
+      setGeoError("Location is not available in this environment.");
       return;
     }
 
-    if (!window.isSecureContext) {
-      setUserLocationError("Location requires HTTPS secure context.");
+    if (!window.navigator?.geolocation) {
+      setGeoError("Geolocation is not supported in this browser.");
+      return;
+    }
+
+    const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    if (!window.isSecureContext && !isLocalhost) {
+      setGeoError("Location requires HTTPS.");
       return;
     }
 
     if (window.navigator?.permissions?.query) {
-      window.navigator.permissions
-        .query({ name: "geolocation" })
-        .then((result) => {
-          if (result?.state === "denied") {
-            setUserLocationError("Location permission is blocked in browser settings.");
-          }
-        })
-        .catch(() => {});
-    }
-
-    if (geolocationWatchRef.current != null) {
-      window.navigator.geolocation.clearWatch(geolocationWatchRef.current);
-      geolocationWatchRef.current = null;
-    }
-
-    setUserLocationError("");
-    setIsTrackingUserLocation(true);
-
-    window.navigator.geolocation.getCurrentPosition(
-      (position) => {
-        applyGeolocationSuccess(position);
-        beginGeolocationWatch(PRIMARY_GEOLOCATION_OPTIONS);
-      },
-      (error) => {
-        if (error?.code === 1) {
-          applyGeolocationError(error);
+      try {
+        const permission = await window.navigator.permissions.query({ name: "geolocation" });
+        if (permission?.state === "denied") {
+          setGeoError("Location permission is blocked. Enable it in browser site settings to continue.");
           return;
         }
+      } catch {
+        // Ignore and continue: some browsers do not fully support geolocation permission queries.
+      }
+    }
 
-        beginGeolocationWatch(FALLBACK_GEOLOCATION_OPTIONS);
-      },
-      PRIMARY_GEOLOCATION_OPTIONS
-    );
+    if (watchIdRef.current != null) {
+      window.navigator.geolocation.clearWatch(watchIdRef.current);
+      watchIdRef.current = null;
+    }
+
+    setGeoError(null);
+
+    try {
+      watchIdRef.current = window.navigator.geolocation.watchPosition(
+        (position) => {
+          const lat = position.coords.latitude;
+          const lon = position.coords.longitude;
+
+          setUserLocation({ lat, lon });
+          setGeoError(null);
+          setIsTracking(true);
+          centerOnLiveLocation(lat, lon);
+          lastLocationRef.current = { lat, lon };
+        },
+        (error) => {
+          handleGeoError(error);
+        },
+        GEOLOCATION_OPTIONS
+      );
+    } catch {
+      watchIdRef.current = null;
+      setIsTracking(false);
+      setGeoError("Unable to start live location tracking. Check browser permissions and site settings.");
+    }
   };
 
   const toggleUserLocationTracking = () => {
-    if (isTrackingUserLocation) {
-      stopUserLocationTracking();
+    if (isTracking) {
+      stopLiveLocation();
       return;
     }
-    startUserLocationTracking();
+    startLiveLocation();
   };
 
   useEffect(() => () => {
-    if (typeof window !== "undefined" && window.navigator?.geolocation && geolocationWatchRef.current != null) {
-      window.navigator.geolocation.clearWatch(geolocationWatchRef.current);
+    if (typeof window !== "undefined" && window.navigator?.geolocation && watchIdRef.current != null) {
+      window.navigator.geolocation.clearWatch(watchIdRef.current);
+      watchIdRef.current = null;
     }
   }, []);
-
-  // Auto-prompt for location permission on first visit
-  useEffect(() => {
-    if (typeof window === "undefined" || !window.navigator?.geolocation || !window.isSecureContext) return;
-
-    const tryAutoLocation = () => {
-      window.navigator.geolocation.getCurrentPosition(
-        (position) => {
-          applyGeolocationSuccess(position);
-          setIsTrackingUserLocation(true);
-          beginGeolocationWatch(PRIMARY_GEOLOCATION_OPTIONS);
-        },
-        () => {
-          // Silently ignore — user denied or dismissed; they can still click the button manually
-        },
-        PRIMARY_GEOLOCATION_OPTIONS
-      );
-    };
-
-    if (window.navigator?.permissions?.query) {
-      window.navigator.permissions
-        .query({ name: "geolocation" })
-        .then((result) => {
-          if (result.state === "granted") {
-            // Already allowed — auto-start silently
-            setIsTrackingUserLocation(true);
-            beginGeolocationWatch(PRIMARY_GEOLOCATION_OPTIONS);
-          } else if (result.state === "prompt") {
-            // Not yet asked — trigger the browser permission dialog
-            tryAutoLocation();
-          }
-          // If "denied" — do nothing, avoid showing an error
-        })
-        .catch(() => {
-          // Permissions API not available — try directly (will show dialog or fail silently)
-          tryAutoLocation();
-        });
-    } else {
-      tryAutoLocation();
-    }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function resetManualFormState() {
     setEditingManualId(null);
@@ -2613,6 +2589,9 @@ function App() {
 
   const [showBreakdown, setShowBreakdown] = useState(false);
   const [auditMode, setAuditMode] = useState(false);
+  const [reviewModeEnabled, setReviewModeEnabled] = useState(false);
+  const [showOnlyNeedsReview, setShowOnlyNeedsReview] = useState(false);
+  const [hideWeakOrNonCoffee, setHideWeakOrNonCoffee] = useState(false);
   const [customWeights, setCustomWeights] = useState(() => {
     // Load custom weights from localStorage or initialize from balanced preset
     const saved = localStorage.getItem("customScoringWeights");
@@ -3407,6 +3386,69 @@ function App() {
     return [selected, ...effectivePlaces.slice(0, selectedIndex), ...effectivePlaces.slice(selectedIndex + 1)];
   }, [effectivePlaces, pinnedCafeId, selectedCafe, hasActiveUiFilters]);
 
+  const enrichedOrderedEffectivePlaces = useMemo(
+    () => orderedEffectivePlaces.map((place) => enrichPlaceWithAgent(place)),
+    [orderedEffectivePlaces]
+  );
+
+  const isWeakOrNonCoffeeLeaning = (agentReview, place) => {
+    if (!agentReview) return false;
+
+    if (agentReview.coffeeQualityBucket === "weak") return true;
+
+    const weakByReviewSignals = (
+      agentReview.sourceQuality === "weak"
+      || agentReview.scoreBand === "low"
+      || agentReview.flags.includes("weak_sources")
+      || agentReview.flags.includes("low_score")
+      || agentReview.flags.includes("no_specialty_signals")
+    );
+    if (weakByReviewSignals) return true;
+
+    const tags = Array.isArray(place?.agent?.tags) ? place.agent.tags : [];
+    const hasBakeryOrBrunch = tags.includes("bakery") || tags.includes("brunch");
+    if (!hasBakeryOrBrunch) return false;
+
+    const coffeeLeadingTags = [
+      "specialty_coffee",
+      "roastery",
+      "espresso_bar",
+      "pour_over",
+      "v60",
+      "chemex",
+      "aeropress",
+    ];
+    const hasCoffeeLeadingTag = tags.some((tag) => coffeeLeadingTags.includes(tag));
+
+    return !hasCoffeeLeadingTag;
+  };
+
+  const reviewAnnotatedPlaces = useMemo(() => {
+    return enrichedOrderedEffectivePlaces.map((place) => {
+      const agentReview = place?.agent ? computeAgentReview(place.agent) : null;
+      const needsReview = Boolean(agentReview && agentReview.flags.length > 0);
+      const isWeakOrNonCoffee = isWeakOrNonCoffeeLeaning(agentReview, place);
+
+      return {
+        place,
+        agentReview,
+        needsReview,
+        isWeakOrNonCoffee,
+      };
+    });
+  }, [enrichedOrderedEffectivePlaces]);
+
+  const renderedReviewPlaces = useMemo(() => {
+    let next = reviewAnnotatedPlaces;
+    if (reviewModeEnabled && showOnlyNeedsReview) {
+      next = next.filter((entry) => entry.needsReview);
+    }
+    if (reviewModeEnabled && hideWeakOrNonCoffee) {
+      next = next.filter((entry) => !entry.isWeakOrNonCoffee);
+    }
+    return next;
+  }, [reviewAnnotatedPlaces, reviewModeEnabled, showOnlyNeedsReview, hideWeakOrNonCoffee]);
+
   const knownPlacesByOverrideKey = useMemo(() => {
     const map = new Map();
 
@@ -3748,7 +3790,8 @@ function App() {
 
   const focusOnMyLocation = () => {
     if (!mapInstance || !userLocation) return;
-    mapInstance.setView([userLocation.lat, userLocation.lon], DEFAULT_CITY_ZOOM);
+    const currentZoom = typeof mapInstance.getZoom === "function" ? mapInstance.getZoom() : DEFAULT_CITY_ZOOM;
+    mapInstance.setView([userLocation.lat, userLocation.lon], Math.max(currentZoom, 15), { animate: true });
   };
 
   const handleHidePlace = (placeId) => {
@@ -3874,15 +3917,6 @@ function App() {
 
   const hasCityScopedSeededData = Boolean(seededMetaByCityName.get(selectedCity.name));
   const hasAnyCityScopedData = hasCityScopedGoogleData || hasCityScopedSeededData;
-  const ratingsSyncLabel = !isRatingsBackupReady
-    ? "Ratings sync: initializing"
-    : ratingsSyncStatus === "saving"
-      ? "Ratings sync: saving..."
-      : ratingsSyncStatus === "saved"
-        ? "Ratings sync: saved"
-        : ratingsSyncStatus === "error"
-          ? "Ratings sync: failed"
-          : "Ratings sync: idle";
 
   return (
     <div className="app">
@@ -3895,17 +3929,6 @@ function App() {
           <div className="hero-block">
             <h1>Explore the best specialty coffee near you</h1>
             <p className="header-subtitle">Find coffee spots actually worth visiting.</p>
-            <div className={`ratings-sync-indicator sync-${isRatingsBackupReady ? ratingsSyncStatus : "initializing"}`}>
-              {ratingsSyncLabel}
-            </div>
-            <div className="header-cta-row">
-              <button className="fit-button" type="button" onClick={() => sidebarRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>
-                Explore cafes
-              </button>
-              <button className="fit-button" type="button" onClick={() => document.getElementById("city")?.focus()}>
-                Browse cities
-              </button>
-            </div>
           </div>
         )}
       </header>
@@ -3924,6 +3947,9 @@ function App() {
           <MapContainer
             center={[selectedCity.lat, selectedCity.lon]}
             zoom={DEFAULT_CITY_ZOOM}
+            tap={false}
+            doubleClickZoom={false}
+            scrollWheelZoom={false}
             style={{ height: "100%", width: "100%" }}
           >
             <MapInstanceCapture onMap={setMapInstance} />
@@ -3969,7 +3995,7 @@ function App() {
               >
                 <Popup>
                   <div className="popup-content">
-                    <strong>Your location</strong>
+                    <strong>You are here</strong>
                     <p>Coordinates: {userLocation.lat.toFixed(5)}, {userLocation.lon.toFixed(5)}</p>
                     {nearestPlaceInfo && (
                       <p>Nearest: {nearestPlaceInfo.place.name} ({formatDistance(nearestPlaceInfo.distanceKm)})</p>
@@ -4189,12 +4215,12 @@ function App() {
 
             <div className="location-controls">
               <button
-                className={`fit-button${isTrackingUserLocation ? " fit-button-active" : ""}`}
+                className={`fit-button${isTracking ? " fit-button-active" : ""}`}
                 onClick={toggleUserLocationTracking}
                 type="button"
-                title={isTrackingUserLocation ? "Stop live location tracking" : "Use my location"}
+                title={isTracking ? "Stop tracking" : "Use my location"}
               >
-                {isTrackingUserLocation ? "Using current location" : "Use current location"}
+                {isTracking ? "Stop tracking" : "Use my location"}
               </button>
               <button
                 className="fit-button"
@@ -4206,11 +4232,10 @@ function App() {
                 Center on me
               </button>
             </div>
-            {userLocationError && <div className="location-error">{userLocationError}</div>}
+            {geoError && <div className="location-error">{geoError}</div>}
             {userLocation && (
               <div className="location-hint">
                 Your location: {userLocation.lat.toFixed(5)}, {userLocation.lon.toFixed(5)}
-                {Number.isFinite(userLocation.accuracy) ? ` (±${Math.round(userLocation.accuracy)}m)` : ""}
               </div>
             )}
             {import.meta.env.DEV && devSwappedCoordsCount > 0 && (
@@ -4275,6 +4300,35 @@ function App() {
                 onChange={(e) => setAuditMode(e.target.checked)}
               />
               Review hidden candidates
+            </label>
+
+            <label className="checkbox-control">
+              <input
+                type="checkbox"
+                checked={reviewModeEnabled}
+                onChange={(e) => setReviewModeEnabled(e.target.checked)}
+              />
+              Review mode (Agent debug)
+            </label>
+
+            <label className="checkbox-control">
+              <input
+                type="checkbox"
+                checked={showOnlyNeedsReview}
+                onChange={(e) => setShowOnlyNeedsReview(e.target.checked)}
+                disabled={!reviewModeEnabled}
+              />
+              Show only needs review
+            </label>
+
+            <label className="checkbox-control">
+              <input
+                type="checkbox"
+                checked={hideWeakOrNonCoffee}
+                onChange={(e) => setHideWeakOrNonCoffee(e.target.checked)}
+                disabled={!reviewModeEnabled}
+              />
+              Hide weak / non-coffee places
             </label>
           </details>
 
@@ -4429,12 +4483,14 @@ function App() {
             <div className="loading-banner">⏳ Loading coffee spots…</div>
           )}
           <ul className="cafe-list">
-              {orderedEffectivePlaces.length === 0 && (
+              {renderedReviewPlaces.length === 0 && (
                 <li className="empty-state">
                   <span className="empty-state-icon" aria-hidden="true">🔎</span>
                   <strong>No results found. Try another city or search term.</strong>
                   <span>
-                    {dataMode !== "google" && minScore > 0
+                    {reviewModeEnabled && (showOnlyNeedsReview || hideWeakOrNonCoffee)
+                      ? "No places match the active review filters."
+                      : dataMode !== "google" && minScore > 0
                       ? `Minimum quality score is set to ${minScore}. Lower it to discover more spots.`
                       : !hasAnyCityScopedData
                         ? "No cafes listed yet. Check back soon."
@@ -4443,7 +4499,7 @@ function App() {
                   <button className="reset-hidden" onClick={resetAllFilters}>Clear filters</button>
                 </li>
               )}
-              {orderedEffectivePlaces.map(place => (
+              {renderedReviewPlaces.map(({ place, agentReview, needsReview }) => (
                 (() => {
                   const openNowStatus = getPlaceOpenNowStatus(place);
                   const placeAddress = getPlaceAddress(place);
@@ -4517,6 +4573,22 @@ function App() {
                       {hasPersistedPlaceOverride(place, placeOverrides) && (
                         <span className="user-verified-badge" title="Saved update applied">Updated</span>
                       )}
+                      {reviewModeEnabled && needsReview && (
+                        <span
+                          className="needs-review-badge"
+                          title={agentReview ? `Needs review: ${agentReview.flags.join(", ")}` : "Needs review"}
+                        >
+                          Needs review
+                        </span>
+                      )}
+                      {reviewModeEnabled && agentReview && (
+                        <span
+                          className={`quality-badge quality-badge-${agentReview.coffeeQualityBucket}`}
+                          title={`Coffee profile: ${getCoffeeQualityLabel(agentReview.coffeeQualityBucket)}`}
+                        >
+                          {getCoffeeQualityLabel(agentReview.coffeeQualityBucket)}
+                        </span>
+                      )}
                       {place.needsCoords && !getFiniteLatLon(place) && (
                         <span className="low-data-badge" title="Missing map coordinates">Missing coordinates</span>
                       )}
@@ -4566,6 +4638,7 @@ function App() {
                     <div className="cafe-meta">{place.needsCoords ? "Missing map coordinates" : "Address coming soon"}</div>
                   )}
                   {placeAddress && <div className="cafe-address">{placeAddress}</div>}
+                  <PlaceAgentSection place={place} showReviewDetails={reviewModeEnabled} />
                   <StarRating
                     placeId={place.id}
                     rating={manualRating || 0}

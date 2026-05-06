@@ -26,6 +26,12 @@ export interface PlaceAgentSource {
   domain?: string;
 }
 
+export interface PlaceAgentImage {
+  url: string;
+  source: "google" | "website";
+  attribution?: string;
+}
+
 export interface PlaceAgentData {
   story?: PlaceAgentStory;
   sources: PlaceAgentSource[];
@@ -33,6 +39,8 @@ export interface PlaceAgentData {
   tagEvidence: Record<string, string[]>;
   score: PlaceAgentScore;
   enrichmentStatus: AgentEnrichmentStatus;
+  image?: PlaceAgentImage;
+  imageStatus?: "ok" | "missing";
 }
 
 export interface PlaceLike {

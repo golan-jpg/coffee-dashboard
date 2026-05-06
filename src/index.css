@@ -1,23 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;900&family=Playfair+Display:wght@600;700&display=swap");
+
 :root {
   /* Brand palette */
-  --brand-brown: #6f4e37;
-  --brand-brown-dark: #5a3e2b;
-  --brand-gold: #daa520;
-  --brand-gold-dark: #b8860b;
-  --brand-green: #28a745;
-  --brand-green-dark: #1e7e34;
-  --brand-blue: #2e86de;
+  --brand-brown: #151515;
+  --brand-brown-dark: #050505;
+  --brand-gold: #d1d1d1;
+  --brand-gold-dark: #a8a8a8;
+  --brand-green: #2f2f2f;
+  --brand-green-dark: #1c1c1c;
+  --brand-blue: #3e3e3e;
 
   /* Neutrals */
-  --gray-50: #fafafa;
-  --gray-100: #f5f5f5;
-  --gray-200: #e8e8e8;
-  --gray-300: #e0e0e0;
-  --gray-400: #bbb;
-  --gray-500: #888;
-  --gray-600: #666;
-  --gray-700: #555;
-  --gray-800: #333;
+  --gray-50: #f9f9f9;
+  --gray-100: #f1f1f1;
+  --gray-200: #e5e5e5;
+  --gray-300: #d4d4d4;
+  --gray-400: #b1b1b1;
+  --gray-500: #7f7f7f;
+  --gray-600: #575757;
+  --gray-700: #313131;
+  --gray-800: #191919;
 
   /* Semantic text */
   --text-primary: var(--gray-800);
@@ -53,7 +55,7 @@
   /* Transition */
   --transition: 150ms ease;
 
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Inter", "Segoe UI", Tahoma, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }

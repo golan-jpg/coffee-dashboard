@@ -164,9 +164,132 @@ const AGENT_SOURCE_POINTS = {
 
 const PUBLIC_METADATA_TIMEOUT_MS = 5000;
 const PUBLIC_METADATA_HEAD_SLICE_CHARS = 50000;
+const IMAGE_META_TIMEOUT_MS = 4000;
+const IMAGE_FIELD_CANDIDATES = [
+  'photoUrl',
+  'photoURL',
+  'photo_url',
+  'photo',
+  'googlePhoto',
+  'googlePhotoUrl',
+  'googlePhotoURL',
+  'imageUrl',
+  'imageURL',
+  'image_url',
+  'thumbnailUrl',
+  'thumbnailURL',
+  'thumbnail_url',
+];
+
+const OBVIOUS_NON_COFFEE_KEYWORDS = [
+  'pizza',
+  'sushi',
+  'ice cream',
+  'gelato',
+  'frozen yogurt',
+  'yogurt',
+  'bubble tea',
+  'bubble_tea',
+  'boba',
+  'tea house',
+  'teahouse',
+  'dessert',
+  'waffle',
+  'crepe',
+  'donut',
+  'mochi',
+];
+
+const STRONG_COFFEE_TEXT_KEYWORDS = [
+  'coffee',
+  'cafe',
+  'café',
+  'espresso',
+  'coffee shop',
+  'specialty coffee',
+  'roaster',
+  'roastery',
+  'pour over',
+  'pour-over',
+  'filter coffee',
+  'v60',
+  'chemex',
+  'aeropress',
+  'קפה',
+  'בית קפה',
+  'אספרסו',
+  'רוסטר',
+  'קלייה',
+];
+
+function toNonEmptyString(value) {
+  const text = String(value || '').trim();
+  return text || null;
+}
+
+function resolveAbsoluteUrl(url, baseUrl) {
+  const raw = toNonEmptyString(url);
+  if (!raw) return null;
+  try {
+    return new URL(raw, baseUrl || undefined).toString();
+  } catch {
+    return null;
+  }
+}
+
+async function fetchImageMeta(url, metadataCache) {
+  if (!url) return null;
+  const cacheKey = `image:${url}`;
+  if (metadataCache.has(cacheKey)) return metadataCache.get(cacheKey);
+
+  const p = (async () => {
+    try {
+      const controller = new AbortController();
+      const tid = setTimeout(() => controller.abort(), IMAGE_META_TIMEOUT_MS);
+      const res = await fetch(url, {
+        method: 'GET', redirect: 'follow', signal: controller.signal,
+        headers: { accept: 'text/html,application/xhtml+xml' },
+      });
+      clearTimeout(tid);
+      if (!res.ok) return null;
+      const ct = String(res.headers.get('content-type') || '').toLowerCase();
+      if (!ct.includes('text/html')) return null;
+      const html = await res.text();
+      const head = html.slice(0, PUBLIC_METADATA_HEAD_SLICE_CHARS);
+      const ogMatch =
+        head.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) ||
+        head.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+      const twMatch =
+        head.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i) ||
+        head.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i);
+      const rawImage = ogMatch?.[1] || twMatch?.[1] || null;
+      const absoluteImage = resolveAbsoluteUrl(rawImage, res.url || url);
+      return absoluteImage;
+    } catch {
+      return null;
+    }
+  })();
+
+  metadataCache.set(cacheKey, p);
+  return p;
+}
 
 function getPlaceText(place) {
   return [place.name, place.address].filter(Boolean).join(" ").toLowerCase();
+}
+
+function getPlaceSearchText(place) {
+  const typesText = Array.isArray(place?.types)
+    ? place.types.join(' ')
+    : (typeof place?.types === 'string' ? place.types : '');
+
+  return [
+    place?.name,
+    place?.address,
+    place?.description,
+    place?.notes,
+    typesText,
+  ].filter(Boolean).join(' ').toLowerCase();
 }
 
 function getOverrideKeywordsForPlace(place, normalizedText) {
@@ -473,24 +596,89 @@ function buildAgentStory(place, tags, sources) {
   };
 }
 
+function normalizeAgentImageState(agent) {
+  if (!agent || typeof agent !== 'object') return agent;
+
+  const imageValue = agent.image && typeof agent.image === 'object' ? agent.image : null;
+  const imageUrl = toNonEmptyString(imageValue?.url || imageValue?.src || imageValue?.photoUrl || imageValue?.imageUrl);
+
+  if (!imageUrl) {
+    return {
+      ...agent,
+      imageStatus: toNonEmptyString(agent.imageStatus) || 'missing',
+    };
+  }
+
+  const rawSource = toNonEmptyString(imageValue?.source)?.toLowerCase();
+  let source = rawSource;
+  if (source !== 'google' && source !== 'website') {
+    source = /googleusercontent\.com|google\./i.test(imageUrl) ? 'google' : 'website';
+  }
+
+  return {
+    ...agent,
+    image: {
+      ...imageValue,
+      url: imageUrl,
+      source,
+      attribution: imageValue?.attribution || (source === 'google' ? 'google-maps' : imageValue?.attribution),
+    },
+    imageStatus: 'ok',
+  };
+}
+
 async function enrichPlaceWithAgent(place, metadataCache) {
-  if (place?.agent && typeof place.agent === 'object') return place;
+  if (place?.agent && typeof place.agent === 'object') {
+    return {
+      ...place,
+      agent: normalizeAgentImageState(place.agent),
+    };
+  }
 
   const tagging = tagPlaceDeterministic(place);
   const baseSources = collectAgentSources(place);
   const sources = await enrichAgentSourcesWithPublicMetadata(baseSources, metadataCache);
   const story = buildAgentStory(place, tagging.tags, sources);
 
+  // Resolve image: existing Google photoUrl first, then website og:image/twitter:image.
+  let image = null;
+  let imageStatus = 'missing';
+  const googlePhoto = getGoogleImageCandidate(place);
+  if (googlePhoto) {
+    image = { url: googlePhoto, source: 'google', attribution: 'google-maps' };
+    imageStatus = 'ok';
+  } else {
+    const googleMapsUrl = normalizeGoogleMapsUrl(place.googleMapsUrl);
+    if (googleMapsUrl) {
+      const googleMetaImage = await fetchImageMeta(googleMapsUrl, metadataCache);
+      if (googleMetaImage) {
+        image = { url: googleMetaImage, source: 'google', attribution: 'google-maps' };
+        imageStatus = 'ok';
+      }
+    }
+
+    const websiteUrl = place.website ? String(place.website).trim() : null;
+    if (!image && websiteUrl) {
+      const ogUrl = await fetchImageMeta(websiteUrl, metadataCache);
+      if (ogUrl) {
+        image = { url: ogUrl, source: 'website', attribution: getSourceDomain(websiteUrl) || websiteUrl };
+        imageStatus = 'ok';
+      }
+    }
+  }
+
   return {
     ...place,
-    agent: {
+    agent: normalizeAgentImageState({
       story,
       sources,
       tags: tagging.tags,
       tagEvidence: tagging.tagEvidence,
       score: scorePlaceDeterministic(place, tagging.tags),
       enrichmentStatus: tagging.tags.length > 0 ? 'scored' : 'none',
-    },
+      ...(image ? { image } : {}),
+      imageStatus,
+    }),
   };
 }
 
@@ -558,26 +746,153 @@ function dedupePlacesByGoogleMapsUrl(places) {
   return deduped;
 }
 
+const STRONG_COFFEE_TAGS = ['specialty_coffee', 'roastery', 'espresso_bar', 'pour_over', 'v60', 'chemex', 'aeropress'];
+const COFFEE_NAME_KEYWORDS = ['coffee', 'cafe', 'café', 'espresso', 'roaster', 'roastery', 'specialty'];
+const FOOD_FIRST_KEYWORDS = [
+  'brunch',
+  'breakfast',
+  'all day breakfast',
+  'sandwich',
+  'kitchen',
+  'restaurant',
+  'steakhouse',
+  'ramen',
+  'noodle',
+  'burger',
+  'hotdog',
+  'taco',
+  'bbq',
+  'barbecue',
+  'grill',
+  'bistro',
+  'diner',
+  'wine',
+  'cocktail',
+  'ארוחת בוקר',
+  'בראנץ',
+  'מסעדה',
+  'gelato',
+  'ice cream',
+];
+
+function getGoogleImageCandidate(place) {
+  for (const key of IMAGE_FIELD_CANDIDATES) {
+    const value = toNonEmptyString(place?.[key]);
+    if (value) return value;
+  }
+
+  const photoArrays = [place?.photos, place?.photoUrls, place?.images];
+  for (const arr of photoArrays) {
+    if (!Array.isArray(arr)) continue;
+    for (const item of arr) {
+      if (typeof item === 'string') {
+        const value = toNonEmptyString(item);
+        if (value) return value;
+      } else if (item && typeof item === 'object') {
+        const value = toNonEmptyString(item.url || item.src || item.photoUrl || item.imageUrl);
+        if (value) return value;
+      }
+    }
+  }
+
+  return null;
+}
+
+function hasCoffeeLeadingSignal(place) {
+  const text = getPlaceSearchText(place);
+  return STRONG_COFFEE_TEXT_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
+function hasCoffeeNameSignal(place) {
+  const nameText = normalizeAgentText(place?.name);
+  if (!nameText) return false;
+  return COFFEE_NAME_KEYWORDS.some((keyword) => nameText.includes(keyword));
+}
+
+function isObviousNonCoffeePlace(place) {
+  const text = getPlaceSearchText(place);
+  return OBVIOUS_NON_COFFEE_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
+function hasStrongCoffeeTag(place) {
+  const tags = Array.isArray(place?.agent?.tags) ? place.agent.tags : [];
+  return tags.some((t) => STRONG_COFFEE_TAGS.includes(t));
+}
+
+function hasBakeryOrBrunchSignal(place) {
+  const tags = Array.isArray(place?.agent?.tags) ? place.agent.tags : [];
+  if (tags.includes('bakery') || tags.includes('brunch')) return true;
+  const text = [place?.name, place?.address].filter(Boolean).join(' ').toLowerCase();
+  return ['bakery', 'patisserie', 'boulangerie', 'brunch', 'breakfast', 'sandwich', 'kitchen'].some((k) => text.includes(k));
+}
+
+function hasFoodFirstSignal(place) {
+  const text = getPlaceSearchText(place);
+  return FOOD_FIRST_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
 function placePassesGoogleFilterMode(place, mode = 'coffeeOnly') {
   if (isExplicitlyExcludedPlace(place)) return false;
   if (isExplicitlyAllowedCoffeePlace(place)) return true;
 
-  const tags = Array.isArray(place?.agent?.tags) ? place.agent.tags : [];
-  const hasCoffeeTag = tags.some((tag) => [
-    'specialty_coffee',
-    'roastery',
-    'espresso_bar',
-    'pour_over',
-    'v60',
-    'chemex',
-    'aeropress',
-  ].includes(tag));
+  const hasStrongTag = hasStrongCoffeeTag(place);
+  const hasCoffeeName = hasCoffeeNameSignal(place);
+  const hasCoffeeText = hasCoffeeLeadingSignal(place);
+  const hasCoffeeEvidence = hasStrongTag || hasCoffeeName;
+  const hasBakeryBrunch = hasBakeryOrBrunchSignal(place);
+  const hasFoodFirst = hasFoodFirstSignal(place);
+  const specialtyScore = Number(place?.specialtyScore);
+  const hasNeutralCoffeeScore = Number.isFinite(specialtyScore) && specialtyScore >= 48;
+
+  if (isObviousNonCoffeePlace(place) && !hasStrongTag) return false;
 
   if (mode === 'coffeeAndBakery') {
-    return hasCoffeeTag || tags.includes('bakery');
+    if (hasCoffeeEvidence || hasCoffeeText) return true;
+    return hasBakeryBrunch && !isObviousNonCoffeePlace(place);
   }
 
-  return hasCoffeeTag;
+  // coffeeOnly: food-primary and bakery/brunch places must have strong coffee-leading tags.
+  if ((hasBakeryBrunch || hasFoodFirst) && !hasStrongTag) return false;
+
+  // Coffee-led acceptance: either a strong coffee tag (covers non-obvious names),
+  // or a direct coffee-led name, or strong coffee text without food-first signals.
+  if (hasCoffeeEvidence) return true;
+  if (hasCoffeeText && !hasBakeryBrunch && !hasFoodFirst) return true;
+
+  // Slightly relax neutral places: keep plausible coffee candidates with decent specialty score
+  // only when they are neither food-first nor bakery/brunch-led.
+  if (!hasBakeryBrunch && !hasFoodFirst && hasNeutralCoffeeScore) return true;
+
+  return false;
+}
+function findFirstGoogleImageUrl(value, depth = 0) {
+  if (depth > 6 || value == null) return null;
+
+  if (typeof value === 'string') {
+    const text = value.trim();
+    if (!text) return null;
+    if (!/^https:\/\//i.test(text)) return null;
+    if (!/googleusercontent\.com/i.test(text)) return null;
+    // Accept any HTTPS googleusercontent.com URL — covers /p/, /places/, /place-photos/, and other CDN paths
+    return text;
+  }
+
+  if (Array.isArray(value)) {
+    for (const entry of value) {
+      const found = findFirstGoogleImageUrl(entry, depth + 1);
+      if (found) return found;
+    }
+    return null;
+  }
+
+  if (typeof value === 'object') {
+    for (const entry of Object.values(value)) {
+      const found = findFirstGoogleImageUrl(entry, depth + 1);
+      if (found) return found;
+    }
+  }
+
+  return null;
 }
 /**
  * Extract coordinates from a Google Maps URL
@@ -649,6 +964,11 @@ function extractPlacesFromEntityListResponse(responseText) {
         place.latitude = coords[2];
         place.longitude = coords[3];
         place.googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${coords[2]},${coords[3]}`;
+      }
+
+      const photoUrl = findFirstGoogleImageUrl(item);
+      if (photoUrl) {
+        place.photoUrl = photoUrl;
       }
 
       places.push(place);
@@ -1109,7 +1429,22 @@ async function main() {
               place.address = addressText;
             }
 
-            console.log(`    ${i + 1}/${listData.places.length}: ${place.name} ${coords ? '(coords found)' : ''}`);
+            // Extract the first Google photo from the place detail panel
+            if (!place.photoUrl) {
+              const photoUrl = await page.evaluate(() => {
+                const imgs = document.querySelectorAll('img[src*="googleusercontent.com"]');
+                for (const img of imgs) {
+                  const src = img.getAttribute('src') || '';
+                  if (src.startsWith('https://')) return src;
+                }
+                return null;
+              });
+              if (photoUrl) {
+                place.photoUrl = photoUrl;
+              }
+            }
+
+            console.log(`    ${i + 1}/${listData.places.length}: ${place.name} ${coords ? '(coords found)' : ''}${place.photoUrl ? ' (photo)' : ''}`);
 
             // Go back to the list
             await page.goBack();

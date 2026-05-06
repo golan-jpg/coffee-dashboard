@@ -1,27 +1,1783 @@
 {
-  "exportedAt": "2026-03-21T18:49:00.848Z",
+  "exportedAt": "2026-05-05T13:19:37.073Z",
   "lists": [
     {
-      "url": "https://maps.app.goo.gl/dWLsBPwJyAn8wtnP8",
+      "url": "https://maps.app.goo.gl/p7LjQVN1SVy3PKUW9",
       "places": [
         {
-          "name": "Nomena Roasters - נומנה",
-          "latitude": 32.0707348,
-          "longitude": 34.7697016,
-          "googleMapsUrl": "https://www.google.com/maps/place/Nomena+Roasters+-+%D7%A0%D7%95%D7%9E%D7%A0%D7%94%E2%80%AD/@32.075273,34.7783661,16z/data=!4m10!1m3!11m2!2ss3psk1jtBQN5C7Di11-rZA!3e3!3m5!1s0x151d4d468db7bb9d:0xc1626ca63a986718!8m2!3d32.0707348!4d34.7697016!16s%2Fg%2F11vym0r8mt?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D",
-          "address": "אלנבי 54, תל אביב-יפו, 6382205"
+          "name": "Café Oliv",
+          "address": "Münzstraße 8, 10178 Berlin, גרמניה",
+          "latitude": 52.5243824,
+          "longitude": 13.4086803,
+          "googleMapsUrl": "https://www.google.com/maps/place/Caf%C3%A9+Oliv/@52.5173861,13.4635328,12z/data=!4m10!1m3!11m2!2sIChxH7JZd0hFi42xV0vM6KMiewuwGg!3e3!3m5!1s0x47a84e1e27af170b:0xa8980915c9a9bac1!8m2!3d52.5243824!4d13.4086803!16s%2Fg%2F1tgq5p4x?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:25:54.368Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Caf%C3%A9+Oliv/@52.5173861,13.4635328,12z/data=!4m10!1m3!11m2!2sIChxH7JZd0hFi42xV0vM6KMiewuwGg!3e3!3m5!1s0x47a84e1e27af170b:0xa8980915c9a9bac1!8m2!3d52.5243824!4d13.4086803!16s%2Fg%2F1tgq5p4x?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
         },
         {
-          "name": "Nahat Coffee",
-          "latitude": 32.0798109,
-          "longitude": 34.7754178,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=32.0798109,34.7754178"
+          "name": "Bonanza Coffee",
+          "address": "Jägerstraße 58 - 60, 10117 Berlin, גרמניה",
+          "latitude": 52.5141052,
+          "longitude": 13.390607,
+          "googleMapsUrl": "https://www.google.com/maps/place/Bonanza+Coffee/@52.532864,13.552821,12z/data=!3m1!5s0x47a851dae58c2799:0x5486988caa8c677!4m10!1m3!11m2!2sIChxH7JZd0hFi42xV0vM6KMiewuwGg!3e3!3m5!1s0x47a8514a313f54d1:0x2272e7b01ffd9b83!8m2!3d52.5141052!4d13.390607!16s%2Fg%2F11fvsc4t3s?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:26:01.204Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Bonanza+Coffee/@52.532864,13.552821,12z/data=!3m1!5s0x47a851dae58c2799:0x5486988caa8c677!4m10!1m3!11m2!2sIChxH7JZd0hFi42xV0vM6KMiewuwGg!3e3!3m5!1s0x47a8514a313f54d1:0x2272e7b01ffd9b83!8m2!3d52.5141052!4d13.390607!16s%2Fg%2F11fvsc4t3s?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
         },
         {
-          "name": "Cafelix Shlomo Hamelech",
-          "latitude": 32.077466799999996,
-          "longitude": 34.7767309,
-          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=32.077466799999996,34.7767309"
+          "name": "The Barn Café",
+          "address": "Alte Potsdamer Str. 5, 10785 Berlin, Germany",
+          "latitude": 52.5084071,
+          "longitude": 13.3746093,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=52.5084071,13.3746093",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:26:01.532Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=52.5084071,13.3746093",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Bonanza Coffee Roasters",
+          "latitude": 52.5041653,
+          "longitude": 13.4203241,
+          "googleMapsUrl": "https://www.google.com/maps/place/Bonanza+Coffee+Roasters/@52.532864,13.552821,12z/data=!4m10!1m3!11m2!2sIChxH7JZd0hFi42xV0vM6KMiewuwGg!3e3!3m5!1s0x47a84e31446cec7b:0x2ac07dc4e40383f6!8m2!3d52.5041653!4d13.4203241!16s%2Fg%2F11cmpjr8fh?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "address": "Adalbertstraße 70, 10999 Berlin, גרמניה",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:26:02.202Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Bonanza+Coffee+Roasters/@52.532864,13.552821,12z/data=!4m10!1m3!11m2!2sIChxH7JZd0hFi42xV0vM6KMiewuwGg!3e3!3m5!1s0x47a84e31446cec7b:0x2ac07dc4e40383f6!8m2!3d52.5041653!4d13.4203241!16s%2Fg%2F11cmpjr8fh?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/M3cFi5P9BsfMGS186",
+      "places": [
+        {
+          "name": "Curators Coffee Studio",
+          "latitude": 51.5120832,
+          "longitude": -0.0825571,
+          "googleMapsUrl": "https://www.google.com/maps/place/Curators+Coffee+Studio/@51.5120832,1.0710074,9z/data=!3m1!5s0x4876034d82877179:0xc52f08d27b323c96!4m10!1m3!11m2!2sAcjYzSovQG6uWDvEXbDzlA!3e3!3m5!1s0x487603527c22b8bd:0x40ee0017a0a5431b!8m2!3d51.5120832!4d-0.0825571!16s%2Fg%2F1hc66qd6r?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "address": "9A Cullum St, London EC3M 7JJ, בריטניה",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:06.909Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Curators+Coffee+Studio/@51.5120832,1.0710074,9z/data=!3m1!5s0x4876034d82877179:0xc52f08d27b323c96!4m10!1m3!11m2!2sAcjYzSovQG6uWDvEXbDzlA!3e3!3m5!1s0x487603527c22b8bd:0x40ee0017a0a5431b!8m2!3d51.5120832!4d-0.0825571!16s%2Fg%2F1hc66qd6r?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Rosslyn Coffee Queen Victoria Street",
+          "latitude": 51.5125801,
+          "longitude": -0.0935035,
+          "googleMapsUrl": "https://www.google.com/maps/place/Rosslyn+Coffee+Queen+Victoria+Street/@51.5063844,1.0623714,9z/data=!3m1!5s0x487603557926404b:0x212ce7c2520caa88!4m10!1m3!11m2!2sAcjYzSovQG6uWDvEXbDzlA!3e3!3m5!1s0x487603557ecfd3c9:0xc513fac093744438!8m2!3d51.5125801!4d-0.0935035!16s%2Fg%2F11f3tv21w6?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "address": "78 Queen Victoria St, London EC4N 4SJ, בריטניה",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:07.274Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Rosslyn+Coffee+Queen+Victoria+Street/@51.5063844,1.0623714,9z/data=!3m1!5s0x487603557926404b:0x212ce7c2520caa88!4m10!1m3!11m2!2sAcjYzSovQG6uWDvEXbDzlA!3e3!3m5!1s0x487603557ecfd3c9:0xc513fac093744438!8m2!3d51.5125801!4d-0.0935035!16s%2Fg%2F11f3tv21w6?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Monmouth Coffee Company",
+          "address": "27 Monmouth St, London WC2H 9EU, בריטניה",
+          "latitude": 51.5143891,
+          "longitude": -0.1268041,
+          "googleMapsUrl": "https://www.google.com/maps/place/Monmouth+Coffee+Company/@51.5063844,1.0623714,9z/data=!4m10!1m3!11m2!2sAcjYzSovQG6uWDvEXbDzlA!3e3!3m5!1s0x487604cd2fa45b6b:0x88cf5801f76b8d84!8m2!3d51.5143891!4d-0.1268041!16s%2Fg%2F11b75pw4tt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:07.946Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Monmouth+Coffee+Company/@51.5063844,1.0623714,9z/data=!4m10!1m3!11m2!2sAcjYzSovQG6uWDvEXbDzlA!3e3!3m5!1s0x487604cd2fa45b6b:0x88cf5801f76b8d84!8m2!3d51.5143891!4d-0.1268041!16s%2Fg%2F11b75pw4tt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Attendant Coffee Roasters",
+          "latitude": 51.5256737,
+          "longitude": -0.0825347,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=51.5256737,-0.0825347",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:13.063Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=51.5256737,-0.0825347",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Square Mile Coffee Roasters",
+          "latitude": 51.5912613,
+          "longitude": -0.042701499999999996,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=51.5912613,-0.042701499999999996",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:15.109Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=51.5912613,-0.042701499999999996",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Ozone Coffee Roasters, Shoreditch",
+          "latitude": 51.524665,
+          "longitude": -0.086785,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=51.524665,-0.086785",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:15.435Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=51.524665,-0.086785",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Allpress Espresso Bar London",
+          "latitude": 51.524401,
+          "longitude": -0.07426039999999999,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=51.524401,-0.07426039999999999",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A specialty-leaning cafe with clear espresso signals in its public-facing metadata. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:15.708Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=51.524401,-0.07426039999999999",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "espresso_bar"
+            ],
+            "tagEvidence": {
+              "espresso_bar": [
+                "espresso bar",
+                "espresso"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 8,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:espresso_bar",
+                  "points": 8
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Prufrock Coffee",
+          "latitude": 51.519934899999996,
+          "longitude": -0.10943009999999999,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=51.519934899999996,-0.10943009999999999",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:16.344Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=51.519934899999996,-0.10943009999999999",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Eat-Aroi Cafe",
+          "latitude": 51.489447399999996,
+          "longitude": -0.2063238,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=51.489447399999996,-0.2063238",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:42:18.960Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=51.489447399999996,-0.2063238",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/V7XxfsN4viaX1RNKA",
+      "places": [
+        {
+          "name": "East Crema Coffee Hermosilla (Specialty Coffee Madrid)",
+          "address": "C. de Hermosilla, 38, Salamanca, 28001 Madrid, ספרד",
+          "latitude": 40.4262363,
+          "longitude": -3.6831145,
+          "googleMapsUrl": "https://www.google.com/maps/place/East+Crema+Coffee+Hermosilla+(Specialty+Coffee+Madrid)/@40.4262363,-3.6470656,14z/data=!4m10!1m3!11m2!2su3p_e97PQgOjQ1qCGBNc4A!3e3!3m5!1s0xd4229d8e38e39b9:0xc324ddf7f086ee02!8m2!3d40.4262363!4d-3.6831145!16s%2Fg%2F11nn3vb28c?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A specialty-leaning cafe with clear specialty coffee signals in its public-facing metadata. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:43:47.711Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/East+Crema+Coffee+Hermosilla+(Specialty+Coffee+Madrid)/@40.4262363,-3.6470656,14z/data=!4m10!1m3!11m2!2su3p_e97PQgOjQ1qCGBNc4A!3e3!3m5!1s0xd4229d8e38e39b9:0xc324ddf7f086ee02!8m2!3d40.4262363!4d-3.6831145!16s%2Fg%2F11nn3vb28c?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "specialty_coffee"
+            ],
+            "tagEvidence": {
+              "specialty_coffee": [
+                "specialty"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 18,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:specialty_coffee",
+                  "points": 18
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/1Frzhd6cJyGJuAAa9",
+      "places": [
+        {
+          "name": "Monmouth Coffee Company",
+          "address": "27 Monmouth St, London WC2H 9EU, בריטניה",
+          "latitude": 51.5143891,
+          "longitude": -0.1268041,
+          "googleMapsUrl": "https://www.google.com/maps/place/Monmouth+Coffee+Company/@51.5143891,-0.1087797,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0x487604cd2fa45b6b:0x88cf5801f76b8d84!8m2!3d51.5143891!4d-0.1268041!16s%2Fg%2F11b75pw4tt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:19.599Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Monmouth+Coffee+Company/@51.5143891,-0.1087797,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0x487604cd2fa45b6b:0x88cf5801f76b8d84!8m2!3d51.5143891!4d-0.1268041!16s%2Fg%2F11b75pw4tt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "The Coffee",
+          "address": "R. dos Douradores 96, 1100-619 Lisboa, פורטוגל",
+          "latitude": 38.7113517,
+          "longitude": -9.1365788,
+          "googleMapsUrl": "https://www.google.com/maps/place/The+Coffee/@38.7113517,-9.1185544,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd19350ecaabab5f:0x587999af254fcd3e!8m2!3d38.7113517!4d-9.1365788!16s%2Fg%2F11tjgkshvj?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:20.181Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/The+Coffee/@38.7113517,-9.1185544,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd19350ecaabab5f:0x587999af254fcd3e!8m2!3d38.7113517!4d-9.1365788!16s%2Fg%2F11tjgkshvj?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Café Janis",
+          "address": "R. da Moeda 1A, 1200-109 Lisboa, פורטוגל",
+          "latitude": 38.7076493,
+          "longitude": -9.1472553,
+          "googleMapsUrl": "https://www.google.com/maps/place/Caf%C3%A9+Janis/@38.7076493,-9.1292309,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd193480cb12c5bd:0xca7504cb134f1942!8m2!3d38.7076493!4d-9.1472553!16s%2Fg%2F11hd6zrxmr?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:21.934Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Caf%C3%A9+Janis/@38.7076493,-9.1292309,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd193480cb12c5bd:0xca7504cb134f1942!8m2!3d38.7076493!4d-9.1472553!16s%2Fg%2F11hd6zrxmr?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Copenhagen Coffee Lab - Baixa",
+          "address": "R. de Santa Justa 14, 1100-230 Lisboa, פורטוגל",
+          "latitude": 38.7127944,
+          "longitude": -9.1371429,
+          "googleMapsUrl": "https://www.google.com/maps/place/Copenhagen+Coffee+Lab+-+Baixa/@38.708802,-9.1163245,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd19350c5959b54f:0x4d26e78d91f856f!8m2!3d38.7127944!4d-9.1371429!16s%2Fg%2F11pxw8sgmv?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:22.815Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Copenhagen+Coffee+Lab+-+Baixa/@38.708802,-9.1163245,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd19350c5959b54f:0x4d26e78d91f856f!8m2!3d38.7127944!4d-9.1371429!16s%2Fg%2F11pxw8sgmv?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "FÁBRICA COFFEE ROASTERS - PORTO",
+          "address": "R. de José Falcão 122, 4050-315 Porto, Portugal",
+          "latitude": 41.148979399999995,
+          "longitude": -8.6141615,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.148979399999995,-8.6141615",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:23.391Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=41.148979399999995,-8.6141615",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "C'alma Coffee Room",
+          "address": "R. de Sampaio Bruno 12 2° piso, 4000-439 Porto, פורטוגל",
+          "latitude": 41.146756,
+          "longitude": -8.6104463,
+          "googleMapsUrl": "https://www.google.com/maps/place/C'alma+Coffee+Room/@41.1494613,-8.5969009,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd2465b62def74ff:0xc3430ff632c0d1a1!8m2!3d41.146756!4d-8.6104463!16s%2Fg%2F11g1pn0l58?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:24.954Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/C'alma+Coffee+Room/@41.1494613,-8.5969009,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd2465b62def74ff:0xc3430ff632c0d1a1!8m2!3d41.146756!4d-8.6104463!16s%2Fg%2F11g1pn0l58?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "DOM | Specialty Coffee & Food",
+          "address": "R. da Boavista 469, 4050-108 Porto, Portugal",
+          "latitude": 41.156155299999995,
+          "longitude": -8.6188634,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=41.156155299999995,-8.6188634",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A specialty-leaning cafe with clear specialty coffee signals in its public-facing metadata. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:25.287Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=41.156155299999995,-8.6188634",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "specialty_coffee"
+            ],
+            "tagEvidence": {
+              "specialty_coffee": [
+                "specialty"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 18,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:specialty_coffee",
+                  "points": 18
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "7g Roaster Apartments & Restaurant",
+          "address": "R. de França 52, 4400-174 Vila Nova de Gaia, פורטוגל",
+          "latitude": 41.13695,
+          "longitude": -8.61402,
+          "googleMapsUrl": "https://www.google.com/maps/place/7g+Roaster+Apartments+%26+Restaurant/@41.1494613,-8.5969009,15z/data=!4m13!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m8!1s0xd2464dfaf8a545d:0x2d8e1df422c420d1!5m2!4m1!1i2!8m2!3d41.13695!4d-8.61402!16s%2Fg%2F11c2y1yn74?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:25.613Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/7g+Roaster+Apartments+%26+Restaurant/@41.1494613,-8.5969009,15z/data=!4m13!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m8!1s0xd2464dfaf8a545d:0x2d8e1df422c420d1!5m2!4m1!1i2!8m2!3d41.13695!4d-8.61402!16s%2Fg%2F11c2y1yn74?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Majestic Café",
+          "address": "R. de Santa Catarina 112, 4000-442 Porto, פורטוגל",
+          "latitude": 41.1471799,
+          "longitude": -8.6066041,
+          "googleMapsUrl": "https://www.google.com/maps/place/Majestic+Caf%C3%A9/@41.1471799,-8.5885797,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd2464e5a52a2493:0x1dc3afde71cae5f4!8m2!3d41.1471799!4d-8.6066041!16s%2Fg%2F1hhzg00d5?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:51:26.927Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Majestic+Caf%C3%A9/@41.1471799,-8.5885797,15z/data=!4m10!1m3!11m2!2sknFt6iZNyhl-llMT410E7uMMVKdkpw!3e3!3m5!1s0xd2464e5a52a2493:0x1dc3afde71cae5f4!8m2!3d41.1471799!4d-8.6066041!16s%2Fg%2F1hhzg00d5?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/7cyEig6EHEYMrdhD6",
+      "places": [
+        {
+          "name": "Café Imperial",
+          "address": "Na Poříčí 1072/15, 110 00 Petrská čtvrť, צ׳כיה",
+          "latitude": 50.0897986,
+          "longitude": 14.4326642,
+          "googleMapsUrl": "https://www.google.com/maps/place/Caf%C3%A9+Imperial/@50.0855094,14.5512039,12z/data=!4m10!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m5!1s0x470b949558c1bf45:0x9fea082416e2f3e9!8m2!3d50.0897986!4d14.4326642!16s%2Fg%2F120t9wgt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:54:44.894Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Caf%C3%A9+Imperial/@50.0855094,14.5512039,12z/data=!4m10!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m5!1s0x470b949558c1bf45:0x9fea082416e2f3e9!8m2!3d50.0897986!4d14.4326642!16s%2Fg%2F120t9wgt?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Mazelab Roastery & Store",
+          "latitude": 50.100913899999995,
+          "longitude": 14.398621799999999,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=50.100913899999995,14.398621799999999",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:54:48.123Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=50.100913899999995,14.398621799999999",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roaster",
+                "roastery",
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "onesip coffee",
+          "latitude": 50.0912818,
+          "longitude": 14.4253929,
+          "googleMapsUrl": "https://www.google.com/maps/place/onesip+coffee/@50.0838678,14.5520373,12z/data=!4m10!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m5!1s0x470b94c1f9439a73:0x5bd8f901e9a27a7f!8m2!3d50.0912818!4d14.4253929!16s%2Fg%2F11cjnpt2r0?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "address": "Haštalská 755 /15, 110 00 Staré Město, צ׳כיה",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:54:48.988Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/onesip+coffee/@50.0838678,14.5520373,12z/data=!4m10!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m5!1s0x470b94c1f9439a73:0x5bd8f901e9a27a7f!8m2!3d50.0912818!4d14.4253929!16s%2Fg%2F11cjnpt2r0?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "may cafe",
+          "latitude": 50.077591,
+          "longitude": 14.4459126,
+          "googleMapsUrl": "https://www.google.com/maps/place/may+cafe/@50.0838678,14.5520373,12z/data=!4m9!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m4!1s0x470b953d94d0715d:0x8e276b5090215c88!8m2!3d50.077591!4d14.4459126?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:54:49.294Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/may+cafe/@50.0838678,14.5520373,12z/data=!4m9!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m4!1s0x470b953d94d0715d:0x8e276b5090215c88!8m2!3d50.077591!4d14.4459126?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "EMA espresso bar",
+          "latitude": 50.0887283,
+          "longitude": 14.4335019,
+          "googleMapsUrl": "https://www.google.com/maps/place/EMA+espresso+bar/@50.0838678,14.5520373,12z/data=!4m10!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m5!1s0x470b94956eb2b3c1:0xa6728f7d54b487d0!8m2!3d50.0887283!4d14.4335019!16s%2Fg%2F12mkvn9b3?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "address": "Na Florenci 1420/3, 110 00 Nové Město, צ׳כיה",
+          "agent": {
+            "story": {
+              "summary": "A specialty-leaning cafe with clear espresso signals in its public-facing metadata. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:54:49.557Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/EMA+espresso+bar/@50.0838678,14.5520373,12z/data=!4m10!1m3!11m2!2s90d_O3wdSKGJZltf9zSMbQ!3e3!3m5!1s0x470b94956eb2b3c1:0xa6728f7d54b487d0!8m2!3d50.0887283!4d14.4335019!16s%2Fg%2F12mkvn9b3?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "espresso_bar"
+            ],
+            "tagEvidence": {
+              "espresso_bar": [
+                "espresso bar",
+                "espresso"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 8,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:espresso_bar",
+                  "points": 8
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/6xNTmmKNPT1ia68x8",
+      "places": [
+        {
+          "name": "ROAST Coffee",
+          "address": "Vestmannagade 4, 2300 København, דנמרק",
+          "latitude": 55.6683323,
+          "longitude": 12.5795253,
+          "googleMapsUrl": "https://www.google.com/maps/place/ROAST+Coffee/@55.6683323,12.5975497,15z/data=!3m1!5s0x4652536aefa01d17:0x5af5c828a3f0738c!4m10!1m3!11m2!2s-1_8utJog_6tQoWfpEcm7WLFPjZtXg!3e3!3m5!1s0x4652536aee25278d:0xcb7b34ee823a5849!8m2!3d55.6683323!4d12.5795253!16s%2Fg%2F11ckwzxhc4?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T13:58:36.718Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/ROAST+Coffee/@55.6683323,12.5975497,15z/data=!3m1!5s0x4652536aefa01d17:0x5af5c828a3f0738c!4m10!1m3!11m2!2s-1_8utJog_6tQoWfpEcm7WLFPjZtXg!3e3!3m5!1s0x4652536aee25278d:0xcb7b34ee823a5849!8m2!3d55.6683323!4d12.5795253!16s%2Fg%2F11ckwzxhc4?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "roastery"
+            ],
+            "tagEvidence": {
+              "roastery": [
+                "roast"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 12,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:roastery",
+                  "points": 12
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/MP9bqjUeD9rM4tNv7",
+      "places": [
+        {
+          "name": "Café des Musées",
+          "latitude": 43.6577583,
+          "longitude": 6.9221189,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=43.6577583,6.9221189",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T14:07:23.328Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=43.6577583,6.9221189",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Breizh Café",
+          "latitude": 48.8606104,
+          "longitude": 2.3618178,
+          "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=48.8606104,2.3618178",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T14:07:23.633Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/search/?api=1&query=48.8606104,2.3618178",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://maps.app.goo.gl/DB8gr1ycrs8GBvGL6",
+      "places": [
+        {
+          "name": "Coffee Novi",
+          "address": "106 Njegoševa, Herceg - Novi 85340, מונטנגרו",
+          "latitude": 42.4543023,
+          "longitude": 18.5301932,
+          "googleMapsUrl": "https://www.google.com/maps/place/Coffee+Novi/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134c3bf07fbb9715:0x8da7020f746c41cd!8m2!3d42.4543023!4d18.5301932!16s%2Fg%2F11kpf0z8px?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T14:16:17.436Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Coffee+Novi/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134c3bf07fbb9715:0x8da7020f746c41cd!8m2!3d42.4543023!4d18.5301932!16s%2Fg%2F11kpf0z8px?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "CUPS Coffeeshop",
+          "address": "zgrada, 2 13. Jula, Budva 85310, מונטנגרו",
+          "latitude": 42.2842137,
+          "longitude": 18.836021,
+          "googleMapsUrl": "https://www.google.com/maps/place/CUPS+Coffeeshop/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134dd58e29aa0627:0x82b9b217ac4eb16c!8m2!3d42.2842137!4d18.836021!16s%2Fg%2F11krkg0mxj?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T14:16:18.010Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/CUPS+Coffeeshop/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134dd58e29aa0627:0x82b9b217ac4eb16c!8m2!3d42.2842137!4d18.836021!16s%2Fg%2F11krkg0mxj?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "FABRIKA COFFEE Podgorica",
+          "address": "27 Moskovska, Podgorica 81000, מונטנגרו",
+          "latitude": 42.4422374,
+          "longitude": 19.2475546,
+          "googleMapsUrl": "https://www.google.com/maps/place/FABRIKA+COFFEE+Podgorica/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134deb81ba33e13d:0xdb4144d21915b91c!8m2!3d42.4422374!4d19.2475546!16s%2Fg%2F11s9hm86bx?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A coffee-oriented venue with structured public source references. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T14:16:19.272Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/FABRIKA+COFFEE+Podgorica/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134deb81ba33e13d:0xdb4144d21915b91c!8m2!3d42.4422374!4d19.2475546!16s%2Fg%2F11s9hm86bx?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [],
+            "tagEvidence": {},
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 0,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                }
+              ]
+            },
+            "enrichmentStatus": "none",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
+        },
+        {
+          "name": "Koffein Specialty coffee shop",
+          "address": "2 Stepeniste 28 oktobra, Herceg Novi, מונטנגרו",
+          "latitude": 42.4514946,
+          "longitude": 18.536786,
+          "googleMapsUrl": "https://www.google.com/maps/place/Koffein+Specialty+coffee+shop/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134c3bb55d7a8ca7:0xbf6ff33175df791!8m2!3d42.4514946!4d18.536786!16s%2Fg%2F11sv14sjlc?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+          "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+          "agent": {
+            "story": {
+              "summary": "A specialty-leaning cafe with clear specialty coffee signals in its public-facing metadata. Source metadata references www.google.com. Address metadata is available for location context.",
+              "status": "draft",
+              "generatedAt": "2026-05-05T14:16:19.877Z",
+              "sourceIds": [
+                "google-maps-url"
+              ]
+            },
+            "sources": [
+              {
+                "id": "google-maps-url",
+                "type": "map",
+                "title": "מפות ‪Google‬‏",
+                "url": "https://www.google.com/maps/place/Koffein+Specialty+coffee+shop/@28.1022855,106.0586307,3z/data=!4m10!1m3!11m2!2sC6agEDve1IE-2iW9_74D1E9wlV0c7g!3e3!3m5!1s0x134c3bb55d7a8ca7:0xbf6ff33175df791!8m2!3d42.4514946!4d18.536786!16s%2Fg%2F11sv14sjlc?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D",
+                "domain": "www.google.com"
+              }
+            ],
+            "tags": [
+              "specialty_coffee"
+            ],
+            "tagEvidence": {
+              "specialty_coffee": [
+                "specialty"
+              ]
+            },
+            "score": {
+              "version": "cuproam-score-v1",
+              "value": 18,
+              "components": [
+                {
+                  "key": "specialtyScore",
+                  "points": 0
+                },
+                {
+                  "key": "tag:specialty_coffee",
+                  "points": 18
+                }
+              ]
+            },
+            "enrichmentStatus": "scored",
+            "image": {
+              "url": "https://lh3.googleusercontent.com/a-/ALV-UjV86VV23joSEjkTz05lO-FzC9pMuKLwkK2GJi2QDmy0PxQEBsw",
+              "source": "google",
+              "attribution": "google-maps"
+            },
+            "imageStatus": "ok"
+          }
         }
       ]
     }

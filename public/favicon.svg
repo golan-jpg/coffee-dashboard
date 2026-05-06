@@ -1,0 +1,7 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">CupRoam icon</title>
+  <circle cx="128" cy="128" r="112" fill="#ffffff" stroke="#0047AB" stroke-width="16"/>
+  <path d="M82 90H174V128C174 154 153 175 127 175C101 175 82 154 82 128V90Z" fill="#8B5A2B"/>
+  <path d="M174 98H188C202 98 214 110 214 124V132C214 146 202 158 188 158H174V98ZM174 110V146H188C195 146 202 139 202 132V124C202 117 195 110 188 110H174Z" fill="#8B5A2B"/>
+  <rect x="90" y="188" width="74" height="8" rx="4" fill="#8B5A2B"/>
+</svg>

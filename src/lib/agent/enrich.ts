@@ -1,4 +1,4 @@
-import type { PlaceAgentData, PlaceAgentSource, PlaceAgentStory, PlaceLike } from "../../types/place";
+import type { PlaceAgentData, PlaceAgentImage, PlaceAgentSource, PlaceAgentStory, PlaceLike } from "../../types/place";
 import { scorePlaceDeterministic } from "./scoring";
 import { tagPlaceDeterministic } from "./tagging";
 
@@ -142,11 +142,68 @@ function collectSources(place: PlaceLike): PlaceAgentSource[] {
   return Array.from(dedupedById.values());
 }
 
+function toNonEmptyString(value: unknown): string | undefined {
+  const text = String(value || "").trim();
+  return text ? text : undefined;
+}
+
+function getWebsiteImageCandidate(place: PlaceLike): string | undefined {
+  const candidates = [
+    place.websiteOgImage,
+    place.websiteOgImageUrl,
+    place.ogImage,
+    place.ogImageUrl,
+    place.siteImage,
+    place.siteImageUrl,
+    place.image,
+    place.imageUrl,
+  ];
+
+  for (const candidate of candidates) {
+    const url = toNonEmptyString(candidate);
+    if (url) return url;
+  }
+
+  return undefined;
+}
+
+function getImageAttributionFromWebsite(place: PlaceLike): string | undefined {
+  const fromWebsite = toPrettyDomain(getDomain(String(place.website || "")));
+  if (fromWebsite) return fromWebsite;
+  const fromSource = toPrettyDomain(getDomain(String(place.sourceUrl || "")));
+  return fromSource || undefined;
+}
+
+function resolveAgentImage(place: PlaceLike): { image?: PlaceAgentImage; imageStatus: "ok" | "missing" } {
+  const googleImageUrl = toNonEmptyString(place.photoUrl);
+  if (googleImageUrl) {
+    return {
+      image: { url: googleImageUrl, source: "google", attribution: "google-maps" },
+      imageStatus: "ok",
+    };
+  }
+
+  const websiteImageUrl = getWebsiteImageCandidate(place);
+  if (websiteImageUrl) {
+    return {
+      image: {
+        url: websiteImageUrl,
+        source: "website",
+        attribution: getImageAttributionFromWebsite(place) || undefined,
+      },
+      imageStatus: "ok",
+    };
+  }
+
+  return { image: undefined, imageStatus: "missing" };
+}
+
 function buildAgentData(place: PlaceLike): PlaceAgentData {
   const tagging = tagPlaceDeterministic(place);
   const score = scorePlaceDeterministic(place, tagging.tags);
   const story = buildStory(place, tagging.tags);
   const sources = collectSources(place);
+  const { image, imageStatus } = resolveAgentImage(place);
 
   return {
     story,
@@ -155,6 +212,8 @@ function buildAgentData(place: PlaceLike): PlaceAgentData {
     tagEvidence: tagging.tagEvidence,
     score,
     enrichmentStatus: tagging.tags.length > 0 ? "scored" : "none",
+    ...(image ? { image } : {}),
+    imageStatus,
   };
 }
 

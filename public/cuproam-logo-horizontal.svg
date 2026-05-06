@@ -1,0 +1,22 @@
+<svg width="450" height="120" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- רקע לבן עם פינות מעוגלות (אופציונלי, ניתן להסיר לרקע שקוף) -->
+  <rect width="450" height="120" rx="15" fill="white" opacity="0"/>
+
+  <!-- אייקון הספל בצד שמאל - צבע חום קפה -->
+  <g transform="translate(20, 20) scale(0.8)">
+    <circle cx="50" cy="50" r="48" fill="none" stroke="#0047AB" stroke-width="4"/>
+    <path d="M25 30H75V55C75 68.8 63.8 80 50 80C36.2 80 25 68.8 25 55V30Z" fill="#8B5A2B"/>
+    <path d="M75 35H82C87.5 35 92 39.5 92 45V50C92 55.5 87.5 60 82 60H75V35ZM75 40V55H82C84.8 55 87 52.8 87 50V45C87 42.2 84.8 40 82 40H75Z" fill="#8B5A2B"/>
+    <rect x="30" y="85" width="40" height="4" rx="2" fill="#8B5A2B"/>
+  </g>
+
+  <!-- שם המותג CupRoam במרכז -->
+  <text x="120" y="65" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="900" font-size="52" letter-spacing="1">
+    <tspan fill="#0047AB">CUP</tspan><tspan fill="#8B5A2B">ROAM</tspan>
+  </text>
+
+  <!-- סלוגן מתחת לשם -->
+  <text x="122" y="95" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#666" font-weight="bold" letter-spacing="1.2">
+    Discover coffee spots worth visiting
+  </text>
+</svg>

@@ -5,6 +5,7 @@ import { CircleMarker, MapContainer, TileLayer, Marker, Popup, Tooltip, useMap }
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "./App.css";
+import cuproamLogo from "./assets/cuproam-logo.svg";
 import { MapClickHandler } from "./MapClickHandler";
 import placeOverridesData from "./data/placeOverrides.json";
 import seededCitiesMetaData from "./data/seededCitiesMeta.json";
@@ -106,6 +107,10 @@ const temporaryClosedKeywords = [
 
 function normalizeCityKey(value) {
   return String(value || "").trim().toLowerCase();
+}
+
+function normalizePopupTheme(value) {
+  return value === "light" || value === "dark" || value === "auto" ? value : "auto";
 }
 
 function normalizeKeywords(list, fallback) {
@@ -431,6 +436,54 @@ function isBakeryPlace(place) {
   return bakeryKeywords.some(k => text.includes(k));
 }
 
+function hasBrunchSignal(place) {
+  const text = [
+    place.name,
+    place.address,
+    place.description,
+  ].filter(Boolean).join(" ").toLowerCase();
+
+  return ["brunch", "breakfast", "sandwich", "kitchen", "בוקר", "בראנץ"].some((k) => text.includes(k));
+}
+
+function hasStrongCoffeeLeadingTag(place) {
+  const typesText = Array.isArray(place?.types)
+    ? place.types.join(" ").toLowerCase()
+    : String(place?.types || "").toLowerCase();
+
+  const text = [place?.name, place?.description, place?.address]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  const strongTypeSignals = [
+    "cafe",
+    "caf\u00e9",
+    "coffee",
+    "coffee_shop",
+    "coffee shop",
+    "espresso",
+    "espresso_bar",
+    "espresso bar",
+    "roastery",
+    "roaster",
+  ].some((k) => typesText.includes(k));
+
+  const strongTextSignals = [
+    "coffee",
+    "cafe",
+    "caf\u00e9",
+    "espresso",
+    "roastery",
+    "roaster",
+    "specialty coffee",
+    "בית קפה",
+    "קפה",
+  ].some((k) => text.includes(k));
+
+  return strongTypeSignals || strongTextSignals;
+}
+
 function isTemporarilyClosed(place) {
   const text = [
     place.name,
@@ -539,6 +592,9 @@ function getGooglePlaceDecision(place, googleFilterMode, selectedCityName) {
   }
 
   if (googleFilterMode === "coffeeOnly") {
+    if ((isBakery || hasBrunchSignal(place)) && !hasStrongCoffeeLeadingTag(place)) {
+      return { included: false, reason: "bakery/brunch without strong coffee-leading tags" };
+    }
     return isCoffee
       ? { included: true, reason: "coffeeOnly match" }
       : { included: false, reason: "not classified as coffee" };
@@ -640,9 +696,9 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
 });
 
-// Custom round marker with coffee SVG icon, color by type
-function getCafeDivIcon({ size = 38, beanColor = '#4B2E13' } = {}) {
-  // Map pin with coffee bean, brown or red bean for top score
+// Custom round marker with coffee SVG icon, color by brand palette
+function getCafeDivIcon({ size = 38, beanColor = '#8B5A2B', pinStroke = '#8B5A2B' } = {}) {
+  // Map pin in Coffee Brown by default; active markers switch to Royal Blue
   return L.divIcon({
     className: 'custom-cafe-marker',
     iconSize: [size, size],
@@ -650,7 +706,7 @@ function getCafeDivIcon({ size = 38, beanColor = '#4B2E13' } = {}) {
     popupAnchor: [0, -size/2],
     html: `
       <svg width="38" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;">
-        <path d="M19 44C19 44 34 32.5 34 19C34 9.61116 27.3888 3 19 3C10.6112 3 4 9.61116 4 19C4 32.5 19 44 19 44Z" fill="#fff" stroke="#4B2E13" stroke-width="2.5"/>
+        <path d="M19 44C19 44 34 32.5 34 19C34 9.61116 27.3888 3 19 3C10.6112 3 4 9.61116 4 19C4 32.5 19 44 19 44Z" fill="#fff" stroke="${pinStroke}" stroke-width="2.5"/>
         <ellipse cx="19" cy="19" rx="11" ry="11" fill="${beanColor}"/>
         <path d="M15.5 10C18 18 20 26 22.5 28" stroke="#fff" stroke-width="2" fill="none"/>
         <ellipse cx="19" cy="44.5" rx="10" ry="2" fill="#222" fill-opacity="0.18"/>
@@ -662,7 +718,8 @@ function getCafeDivIcon({ size = 38, beanColor = '#4B2E13' } = {}) {
 const specialtyIcon = getCafeDivIcon();
 const googleIcon = getCafeDivIcon();
 const defaultIcon = getCafeDivIcon();
-const topScoreIcon = getCafeDivIcon({ beanColor: '#e11d48' }); // red bean for top score
+const topScoreIcon = getCafeDivIcon();
+const activeMarkerIcon = getCafeDivIcon({ beanColor: '#0047AB', pinStroke: '#0047AB' });
 
 const defaultCityCenters = {
   "Berlin": { lat: 52.52, lon: 13.405 },
@@ -834,7 +891,8 @@ function isSpecialtyCoffee(cafe) {
   return specialtyKeywords.some(keyword => searchText.includes(keyword));
 }
 
-// Basic opening_hours parser (minimal): supports '24/7', 'Mo-Su hh:mm-hh:mm' and simple ranges like 'Mo-Fr 08:00-18:00'
+// OSM opening_hours parser: supports '24/7', 'Mo-Fr 08:00-18:00', time-only '08:00-20:00',
+// comma-separated rules, and the Israeli work week (Su-Th).
 function isOpenNow(opening_hours) {
   if (!opening_hours) return null; // unknown
   const now = new Date();
@@ -846,41 +904,49 @@ function isOpenNow(opening_hours) {
   const s = opening_hours.toLowerCase();
   if (s.includes('24/7') || s.includes('24h') || s.includes('24 hours')) return true;
 
-  // parse patterns like 'mo-fr 08:00-18:00' or 'mo-su 07:00-22:00'
-  const parts = s.split(';').map(p => p.trim());
-  for (const p of parts) {
-    const m = p.match(/([a-z]{2})(?:-([a-z]{2}))?\s+(\d{1,2}:\d{2})-(\d{1,2}:\d{2})/i);
-    if (m) {
-      const startDay = m[1];
-      const endDay = m[2] || m[1];
-      const startTime = m[3];
-      const endTime = m[4];
+  const dayMap = { su:0, mo:1, tu:2, we:3, th:4, fr:5, sa:6 };
 
-      const dayMap = { su:0, mo:1, tu:2, we:3, th:4, fr:5, sa:6 };
-      const sd = dayMap[startDay.substring(0,2)];
-      const ed = dayMap[endDay.substring(0,2)];
+  const checkTimeRange = (startTime, endTime) => {
+    const [sh, sm] = startTime.split(':').map(Number);
+    const [eh, em] = endTime.split(':').map(Number);
+    const startMinutes = sh * 60 + sm;
+    const endMinutes = eh * 60 + em;
+    if (startMinutes <= endMinutes) {
+      return minutesNow >= startMinutes && minutesNow <= endMinutes;
+    }
+    // overnight range
+    return minutesNow >= startMinutes || minutesNow <= endMinutes;
+  };
+
+  // split on ; or , (OSM uses both as rule separators)
+  const parts = s.split(/[;,]/).map(p => p.trim()).filter(Boolean);
+  for (const p of parts) {
+    // skip "off" / "closed" rules
+    if (/\boff\b|\bclosed\b/.test(p)) continue;
+
+    // Case 1: day-range + time  e.g. "mo-fr 08:00-18:00" or "mo 08:00-18:00"
+    const mDay = p.match(/([a-z]{2})(?:-([a-z]{2}))?\s+(\d{1,2}:\d{2})-(\d{1,2}:\d{2})/);
+    if (mDay) {
+      const sd = dayMap[mDay[1].substring(0, 2)];
+      const ed = dayMap[(mDay[2] || mDay[1]).substring(0, 2)];
       if (sd == null || ed == null) continue;
 
-      // check if today is in range (handles wrap)
       let inDayRange = false;
       if (sd <= ed) {
         inDayRange = day >= sd && day <= ed;
       } else {
+        // wrapping range e.g. su-th (0-4) or fr-sa (5-6) — no wrap needed here
         inDayRange = day >= sd || day <= ed;
       }
       if (!inDayRange) continue;
+      if (checkTimeRange(mDay[3], mDay[4])) return true;
+      continue;
+    }
 
-      const [sh, sm] = startTime.split(':').map(Number);
-      const [eh, em] = endTime.split(':').map(Number);
-      const startMinutes = sh * 60 + sm;
-      const endMinutes = eh * 60 + em;
-
-      if (startMinutes <= endMinutes) {
-        if (minutesNow >= startMinutes && minutesNow <= endMinutes) return true;
-      } else {
-        // overnight range
-        if (minutesNow >= startMinutes || minutesNow <= endMinutes) return true;
-      }
+    // Case 2: time only, no day prefix  e.g. "08:00-20:00" (means every day)
+    const mTime = p.match(/^(\d{1,2}:\d{2})-(\d{1,2}:\d{2})$/);
+    if (mTime) {
+      if (checkTimeRange(mTime[1], mTime[2])) return true;
     }
   }
 
@@ -2762,6 +2828,7 @@ function App() {
   const [selectedArea, setSelectedArea] = useState(() => localStorage.getItem("selectedArea") || "");
   const [selectedSource, setSelectedSource] = useState(() => localStorage.getItem("selectedSource") || "");
   const [filterOpenNow, setFilterOpenNow] = useState(() => JSON.parse(localStorage.getItem("filterOpenNow") || "false"));
+  const [popupTheme, setPopupTheme] = useState(() => normalizePopupTheme(localStorage.getItem("popupTheme")));
   const [liveClockTick, setLiveClockTick] = useState(() => Date.now());
 
   const cityFilterRadiusKm = useMemo(
@@ -2792,6 +2859,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem("filterOpenNow", JSON.stringify(filterOpenNow));
   }, [filterOpenNow]);
+
+  useEffect(() => {
+    localStorage.setItem("popupTheme", popupTheme);
+  }, [popupTheme]);
 
   useEffect(() => {
     localStorage.setItem("hiddenPlaceIds", JSON.stringify(hiddenPlaceIds));
@@ -2858,9 +2929,16 @@ function App() {
   const [isMobileTouch, setIsMobileTouch] = useState(false);
   const [mapInteractionEnabled, setMapInteractionEnabled] = useState(false);
   const [showMapTouchHint, setShowMapTouchHint] = useState(false);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const mapContainerRef = useRef(null);
   const [showScoreLabels, setShowScoreLabels] = useState(false);
   const hasActivePlaceSelection = Boolean(pinnedCafeId || selectedCafe?.id);
+
+  useEffect(() => {
+    if (!isMobileTouch) {
+      setMobileFiltersOpen(true);
+    }
+  }, [isMobileTouch]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -3659,6 +3737,14 @@ function App() {
     sidebarScrollRestoreRef.current = null;
   };
 
+  const getStickyOffset = (sidebar) => {
+    const CARD_SCROLL_GAP = 16;
+    const stickyControls = sidebar.querySelector(".search-controls");
+    if (!stickyControls) return CARD_SCROLL_GAP;
+    const topInset = parseFloat(window.getComputedStyle(stickyControls).top) || 0;
+    return stickyControls.offsetHeight + topInset + CARD_SCROLL_GAP;
+  };
+
   const scrollSidebarToPinnedItem = (placeId) => {
     if (!sidebarRef.current || !placeId) return;
 
@@ -3667,13 +3753,19 @@ function App() {
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         if (!sidebarRef.current) return;
+        const sidebar = sidebarRef.current;
         const safeId = String(placeId).replaceAll('"', '\\"');
-        const item = sidebarRef.current.querySelector(`[data-place-id="${safeId}"]`);
-        if (item) {
-          item.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        const item = sidebar.querySelector(`[data-place-id="${safeId}"]`);
+        if (!item) {
+          sidebar.scrollTo({ top: 0, behavior: "smooth" });
           return;
         }
-        sidebarRef.current.scrollTo({ top: 0, behavior: "smooth" });
+        const sidebarRect = sidebar.getBoundingClientRect();
+        const itemTop = sidebar.scrollTop + (item.getBoundingClientRect().top - sidebarRect.top);
+        const stickyOffset = getStickyOffset(sidebar);
+        // Always position the item just below the sticky controls so it's
+        // fully visible regardless of card height or image loading state.
+        sidebar.scrollTo({ top: Math.max(0, itemTop - stickyOffset), behavior: "smooth" });
       });
     });
   };
@@ -3917,18 +4009,36 @@ function App() {
 
   const hasCityScopedSeededData = Boolean(seededMetaByCityName.get(selectedCity.name));
   const hasAnyCityScopedData = hasCityScopedGoogleData || hasCityScopedSeededData;
+  const popupThemeClass = popupTheme === "dark"
+    ? "popup-theme-dark"
+    : popupTheme === "light"
+      ? "popup-theme-light"
+      : "popup-theme-auto";
+
+  const cyclePopupTheme = () => {
+    setPopupTheme((prev) => {
+      if (prev === "auto") return "light";
+      if (prev === "light") return "dark";
+      return "auto";
+    });
+  };
 
   return (
     <div className="app">
       <header className="header">
         <div className="brand-block">
-          <button className="brand-name" type="button" onClick={() => setActivePage("home")}>CupRoam</button>
-          <p className="brand-line">Discover coffee spots worth visiting</p>
+          <button className="brand-link" type="button" onClick={() => setActivePage("home")} aria-label="Go to CupRoam home">
+            <img src={cuproamLogo} alt="CupRoam logo" className="brand-logo" />
+            <div className="brand-text-block">
+              <span className="brand-name">CUPROAM</span>
+              <p className="brand-line">best specialty coffee</p>
+            </div>
+          </button>
         </div>
         {activePage === "home" && (
           <div className="hero-block">
-            <h1>Explore the best specialty coffee near you</h1>
-            <p className="header-subtitle">Find coffee spots actually worth visiting.</p>
+            <h1>Find specialty cafes worth your time</h1>
+            <p className="header-subtitle">Curated city-by-city coffee discovery with quality-first filtering.</p>
           </div>
         )}
       </header>
@@ -3937,7 +4047,7 @@ function App() {
       <div className="main-content">
         <div
           ref={mapContainerRef}
-          className={`map-container ${isMobileTouch ? (mapInteractionEnabled || hasActivePlaceSelection ? "map-interaction-enabled" : "map-interaction-locked") : ""} ${hasActivePlaceSelection ? "map-selection-active" : ""}`}
+          className={`map-container ${popupThemeClass} ${isMobileTouch ? (mapInteractionEnabled || hasActivePlaceSelection ? "map-interaction-enabled" : "map-interaction-locked") : ""} ${hasActivePlaceSelection ? "map-selection-active" : ""}`}
         >
           {isMobileTouch && !mapInteractionEnabled && !hasActivePlaceSelection && !addMode && (
             <div className={`map-touch-hint ${showMapTouchHint ? "visible" : ""}`}>
@@ -4013,8 +4123,8 @@ function App() {
                 const openNowStatus = getPlaceOpenNowStatus(place);
                 const isPinnedMarker = pinnedCafeId === place.id;
                 const isSelectedMarker = selectedCafe?.id === place.id;
-                const showMarkerHighlight = isPinnedMarker || isSelectedMarker;
-                const highlightColor = isPinnedMarker ? "#f97316" : "#0ea5e9";
+                const showMarkerHighlight = isPinnedMarker;
+                const highlightColor = "#0047AB";
                 const markerOpacity = openNowStatus === false ? 0.45 : 1;
                 const showScoreLabel = Number.isFinite(place.specialtyScore) &&
                   (showMarkerHighlight || showScoreLabels);
@@ -4037,7 +4147,15 @@ function App() {
                 <Marker
                   position={[coords.lat, coords.lon]}
                   opacity={markerOpacity}
-                  icon={isTopScorePlace(place) ? topScoreIcon : place.source === "google" ? googleIcon : place.isSpecialty ? specialtyIcon : defaultIcon}
+                  icon={showMarkerHighlight
+                    ? activeMarkerIcon
+                    : isTopScorePlace(place)
+                      ? topScoreIcon
+                      : place.source === "google"
+                        ? googleIcon
+                        : place.isSpecialty
+                          ? specialtyIcon
+                          : defaultIcon}
                   eventHandlers={{
                     click: () => handleMapMarkerClick(place),
                     mouseover: () => handleMapMarkerHover(place),
@@ -4162,6 +4280,25 @@ function App() {
 
           <div className="search-controls">
             <p className="section-kicker">Search within {getDisplayCityName(selectedCity.name)}</p>
+            {isMobileTouch && (
+              <button
+                type="button"
+                className="mobile-filters-toggle"
+                onClick={() => setMobileFiltersOpen((prev) => !prev)}
+                aria-expanded={mobileFiltersOpen}
+                aria-controls="mobile-search-controls-body"
+              >
+                {mobileFiltersOpen ? "Hide search and filters" : "Show search and filters"}
+              </button>
+            )}
+            <div
+              id="mobile-search-controls-body"
+              className={isMobileTouch
+                ? `mobile-search-controls-body ${mobileFiltersOpen ? "is-open" : "is-collapsed"}`
+                : "mobile-search-controls-body is-open"
+              }
+              aria-hidden={isMobileTouch ? !mobileFiltersOpen : false}
+            >
             <input
               type="search"
               className="search-input"
@@ -4231,6 +4368,15 @@ function App() {
               >
                 Center on me
               </button>
+              <button
+                className={`fit-button${popupTheme !== "auto" ? " fit-button-active" : ""}`}
+                onClick={cyclePopupTheme}
+                type="button"
+                title="Cycle popup theme: Auto, Light, Dark"
+                aria-label={`Popup theme: ${popupTheme}`}
+              >
+                Popup: {popupTheme === "auto" ? "Auto" : popupTheme === "light" ? "Light" : "Dark"}
+              </button>
             </div>
             {geoError && <div className="location-error">{geoError}</div>}
             {userLocation && (
@@ -4243,6 +4389,7 @@ function App() {
                 Coord swaps (session): {devSwappedCoordsCount}
               </div>
             )}
+            </div>
           </div>
 
           <details className="advanced-tools">
@@ -4514,18 +4661,19 @@ function App() {
                 >
                   {place.photoUrl && (
                     <img
-                      src={place.photoUrl}
+                      src={place.agent?.image?.url ?? place.photoUrl}
                       alt={place.name}
                       style={{
                         width: 'calc(100% + 2.1rem)',
                         height: '160px',
                         objectFit: 'cover',
-                        borderRadius: '20px 20px 0 0',
+                        borderRadius: '16px 16px 0 0',
                         marginLeft: '-1.05rem',
                         marginRight: '-1.05rem',
                         marginTop: '-1rem',
                         marginBottom: '0.75rem'
                       }}
+                      onLoad={() => { if (pinnedCafeId === place.id) scrollSidebarToPinnedItem(place.id); }}
                       onError={(e) => { e.target.style.display = 'none'; }}
                     />
                   )}
@@ -4648,14 +4796,14 @@ function App() {
                     <div className="location-links" onClick={(e) => e.stopPropagation()}>
                       {getPlaceDirectLink(place) && (
                         <a className="google-link" href={getPlaceDirectLink(place)} target="_blank" rel="noopener noreferrer">
-                          View cafe
+                          Navigation
                         </a>
                       )}
                       {getPlaceCoordinatesLink(place) && (
                         <details className="coords-details" onClick={(e) => e.stopPropagation()}>
                           <summary>Details</summary>
                           <a className="google-link coords-link" href={getPlaceCoordinatesLink(place)} target="_blank" rel="noopener noreferrer">
-                            View map coordinates
+                            View map
                           </a>
                         </details>
                       )}

@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CUPROAM logo</title>
+  <desc id="desc">Circular black and white badge with a cup icon and CUPROAM wordmark.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#f3f3f3"/>
+      <stop offset="100%" stop-color="#e6e6e6"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="224" fill="url(#bg)" stroke="#1a1a1a" stroke-width="4"/>
+  <path d="M186 188h132c0 25-17 45-38 45h-56c-21 0-38-20-38-45z" fill="#000"/>
+  <path d="M318 194h18c12 0 20 9 20 21 0 12-8 21-20 21h-8" fill="none" stroke="#000" stroke-width="8" stroke-linecap="round"/>
+  <rect x="180" y="247" width="156" height="9" rx="4.5" fill="#000"/>
+  <text x="256" y="318" text-anchor="middle" font-size="56" font-weight="800" letter-spacing="2" font-family="Orbitron, Rajdhani, Arial, sans-serif" fill="#000">CUPROAM</text>
+  <text x="256" y="350" text-anchor="middle" font-size="15" letter-spacing="5" font-family="DM Sans, Arial, sans-serif" fill="#202020">BEST SPECIALTY COFFEE</text>
+</svg>

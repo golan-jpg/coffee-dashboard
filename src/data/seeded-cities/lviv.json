@@ -56,8 +56,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEDl1DlMSugz1FS0hD0P-WoRL4fnVfAKapoifD7o9i961anaxSXUu4IskK6ct_MkRfQy7bCi11wtoWqfTXTbfkYk86E3fa9FOXBbIZ_Qo_7nIwYqWUwkQKVOq-C12pDQZFeesA1nSrYdDiR=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Svit Kavy na Rynku",
@@ -116,8 +115,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEZABzTcbvnxap6Rv9znZu1ILgEwJAJVvYbXyP_UiKvCb72Q9vH1LxFhWOGWTtTbdTr78BpNa2tfzTh4OYF4MPUjVdmoNR5oUoQapT0G2Qcondf4GxO4TXyTWDv8aJplJKN35LI2EoQvljU=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Karpe Coffee",
@@ -156,7 +154,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHpvU5N4k7lB68rLvxPB4iF-mK0MDtJS8vq1Wl94rJcE9avceI61yYZ0N7t8_YZdiFKpLl6VWMpk2o8z696hr6BLnukYDPnP7lTHJQL47eZfs7camqKNU2Y2hjJRUYQjQRQFnBFYS2wfagG-9tjL1A=s4800-w900"
+    "needsCoords": false
   }
 ]

@@ -36,8 +36,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFEM9ALOqFbnRu_hxDf0MzgqfG2hIe7WqlT-J6PoXWtgPNM6Rzdn0PJBOcHLCkW5fdIX5V3qgj-FDAxCdePadM2mwb9Ir3lJAmVGxHqLTunfuKwVs5rxD6VYGaS1f9xNyNmgdyasSpC2Fzo=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "WAY Specialty Coffee Shop",
@@ -46,8 +45,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWYS2lTYHhSf8YQuXlax8v8KzEsOPkWw9oiB_l3djTOMGld85-CKryV_kKu8BwfrBFwp1k8e-k6PxUUWzPAHjiCFyWyArGltkn_mfbAIwEVuuQO7LfnbO4HgPp6eTV15_fol9nL7FHU5vj=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Bidon Coffee&Bicycle",
@@ -86,8 +84,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH3qBtjpC7_q9sBlH3wjaR4chCw1FKq1aDvmFBFlmdH1SiQNQUTeTXEeWpyoLY_zjnF0QFaGSA8n5BoUEqJjOZpjiiQ4So3319Xn719ey2Ydfp9kFoYzmBRq8FIfU39stZiJuvqI6eDThSj=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Goya Coffee",
@@ -96,8 +93,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHT593UfMcjXRe8pDmxFL6yQ06s-XFuHJKHkVsFs8miQHPw6g8ZbrvEWl9aJkbm0B_hgBp9fxmNvhaj55-T4qDyc0JXr4xaLaIf2yVtREDMUVQYx6vNN8GpwNrapNHTR1HFdH4JBXOfFzwYaz4LX3nD=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Full Circle Astrid",
@@ -106,8 +102,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF2ZWCRDd9-KkKiUhF7___G3lvJhDOSI5w-r1Pmf6JmhPziCUdsVUHopInydb6rYY2aKPE3QbDV4Wvj827TEHa9Rpzo7Od8mH22jUq2dXjmCvQDxf23L367YLjoJeFfN_B72xpiCPwKCUA=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "The Chocolate Maker",
@@ -146,8 +141,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFL8gs9MmaANuAIuiyvPg7TABKMvB1_w8srkZz17jxWzcb4tEk0oBM-d0Ao66QZu5zaY20fpS5p-CZHCGzAuUgvVUVrtzKSWQUgAglcTM-FjrntVBNuHuG60TFFCukJbvfq9wlIpDgZJqI=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "WAY Specialty Coffee Bar",
@@ -176,7 +170,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHNL58XCYbcY-YdhyUBEEyYDtI34iWBQ5IKkY5dZ7X4gSj0sJxf83UYYuVdTvudzINlcJ2Bwtludmh0ZXquoq6nKODWBFRUaOY8lE48ipoxzQn5L9JkZgv3nX3jMD5wjzF5JUitcZu6XXTa=s4800-w800"
+    "needsCoords": false
   }
 ]

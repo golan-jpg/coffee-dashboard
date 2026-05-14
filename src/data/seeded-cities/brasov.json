@@ -96,8 +96,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFKZN-wXVondz7SdxkaJNSdAunVwIsZJ9pLLu8ATh8DSX46wRxhgFvXepXk4_h_-K3EZj6-XTy2vFaOdeAz-QgJe7PKcUwvqzr3oORSm2SddbcbXzhjdsdy5YR2ftQGhbm9TeoXX2L6uEn0Ylug7nLk=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "CH9 Specialty Coffee",
@@ -136,8 +135,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG9EE3LPHwhklvWd8RoTpRlv1QuKC1_RP1WEqaxdSH_I2PbMow2ilHc7-qZHGNXx1Mgcuusgpq6N-4Cmx6jkyr2x2xSFWJH-epUpPqXocdmv1lBZIzSA1nlubhMMNhLdYKz_UROW_lk9sihqA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Manole Coffee Roastery",
@@ -166,8 +164,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEdCvyKOdF530iVkK0rowFBcKiExc3mTyL26ov0S3fHmfozYQKi7z4yT--SrIwbIjTx7t-7MackfJXPB6-3tob7ehF47CjWCNoHSAhjcI_t5MvOrj_7oU-4AANHNM-3Ic38Lb7uclPmhlOTbA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Twinbeans Coffeeshop",
@@ -176,8 +173,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFcqJIjS2Sfgw0CrCq4z0smgAcYq6LCt2Msdm_UgvMZDKkx1gqerFYveL3-7ovkV2TVj0YMsxBGz8t543xsVDovVwGDw2GGA9ujLgzdDy9qA6Z1ojVPUMMUPgJPsAaL2sLy_TJDj_rWRILzrQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Breakaway",

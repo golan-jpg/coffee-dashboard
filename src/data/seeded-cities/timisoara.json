@@ -16,8 +16,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEvivQ7DGw-Z6HvsdsF1pBisvlA9aEwYYBK45V1NyBx7N4sfXB6wK7h9mSIbkxBKHyWZYpcicIWV9lwbRSACNynOs2M_uf3OvrURt0ZkgtuDovvJ85iB4Z_BOLf2h1KzfwmazADbGW7K6Vd=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "acas specialty coffee",
@@ -56,8 +55,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGtl174A-_nwWzpf_aMwf8MM07UDDXXAfoQMmFsHFyz6sfBOYCEqNMPlTbRQZR9AlDwHWwa_B-8s5MbhLNxqkM8FkrY6kHj7b8rgokrzQVLndQAj7IewFwsbidtHVfaUaJMOfiQnVJpe8x-=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Ovride Specialty Coffee",
@@ -86,8 +84,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHivYf8YFM0zDCKef6JrzDuRrZMsHiNaz-TWxskAHiP4rm9zH94hLP0Y2vIw1UyDOMLUdDPkzRCfTgiRfXmxS8mbIwhqoUaun0F0uMlhWppzTuNtF_I3ErDZMtfRiIt3TfBiooYHZC-sjEt3w=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Brick by brick",
@@ -106,8 +103,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNELf3dwu4rTVlDPjxVBRQvwgrrmC7JrleuIfHJSx5PCsdpttknCW-3z0wsr7OM7dnn1WWp-DgCuc2Si0fKhaf9LvVWEbHYf98yDNGGlBaDGRpDLFVkmYqnN0M6GnF0nEF2kzlEfaf8JmsPl=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "AIM Café",
@@ -136,7 +132,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHeyxAM6TGQahw-SDS83NeAQze1SZFlRW85ArjMY52LDB6wHKh0gVw-JBrp9ahxkm5kYHS1gFOGr0iFRH0Sr_VVjuigM7kRLzmxbN1bkVP_cH2gYQOQ1E6wcczf5KxW858XIEgQwWsVnu_Ei5-CQzM-=s4800-w900"
+    "needsCoords": false
   }
 ]

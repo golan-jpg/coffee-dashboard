@@ -174,9 +174,14 @@ function getImageAttributionFromWebsite(place: PlaceLike): string | undefined {
   return fromSource || undefined;
 }
 
+function isKnownBrokenPhotoUrl(url: string): boolean {
+  // Google's place-photos/AL8-* CDN path requires authentication and returns 403 in browser context
+  return url.includes("/place-photos/AL8");
+}
+
 function resolveAgentImage(place: PlaceLike): { image?: PlaceAgentImage; imageStatus: "ok" | "missing" } {
   const googleImageUrl = toNonEmptyString(place.photoUrl);
-  if (googleImageUrl) {
+  if (googleImageUrl && !isKnownBrokenPhotoUrl(googleImageUrl)) {
     return {
       image: { url: googleImageUrl, source: "google", attribution: "google-maps" },
       imageStatus: "ok",

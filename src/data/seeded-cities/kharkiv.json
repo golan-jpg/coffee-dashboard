@@ -6,8 +6,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEPqziU147KsVZnPDWAlZE99-0qpWD3S9UX-VODgL2dzm2dktdbzDJwT5ODkPOdsvMFCgdLABi0uD5TekfMJY2oT4yApZAtq8X0P1AyAAYL1hhYxRYWJGifQlflOvt-owdlXVDJ-EvLXtLF0BEcdr7l=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Makers",
@@ -16,8 +15,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFJwDvjLUPOwvmGLBlTWa0qNnuYipMRx4z_5_cpTM1zmHtezigCa84d5P0JuK5tZ_vH02nesNY0Kxtrcz-6TUfRyGOBA-7ukqKpHTJ1DbN1wbQPfpGgylnNrukvVOS5G4rH_JON669H8cmKFfvEtTY1=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Cats and Coffee",
@@ -76,7 +74,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH-paaOsKxrqOfHFGtNEaLItA2e8oDd2AUCG3_MJogHLU20KnNmvXM_RA7G060-_c-NmQGIRVw7LhGf-J6HuMqQSEPe7DQB502xeGk1qtOMwE1J7KkBv5f9TAFxIF2LpeMcm6jFIxnWoqQnjQ=s4800-w900"
+    "needsCoords": false
   }
 ]

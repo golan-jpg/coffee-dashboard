@@ -26,7 +26,7 @@ export default async function handler(req, res) {
 
     const payload = await response.json();
     return res.status(200).json(payload);
-  } catch (error) {
+  } catch {
     return res.status(200).json({ display_name: "" });
   }
 }

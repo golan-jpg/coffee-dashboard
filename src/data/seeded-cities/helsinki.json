@@ -46,8 +46,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFpI_bvYorjgtshlbl3kIio8Gmws9Jy0kLYpSLRHdvPuwAIkIParTcO1mapIcadVzmCyLnB-4TzvwLxAIm7Vx2-PDACjhW0XWtKZMrV4-0uKfkLDcrMt4OJBo9fQ9AUuk4ce-Uh9RPXlJnuYw=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Cafetoria Café & Shop",
@@ -76,8 +75,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHuvEU7P3PPF2NSkYeJaiUHdmANoYxlm798iqspvRY7hvU2ybP14EPDvSl_xdxz7qVrrnJiJCXJWi3MHOu8GsoR8i5ZkBHXG-rwbH_qT9fxEtkUTblanat67SezoCqNoAx__DCd3J7JDPhD=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kahvila Sävy",
@@ -116,8 +114,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGH-3M5bI1ZqMbokgdJJBxsWBTEjewBuAHgzoR_f2UV8vKwCks_RyIR0N9adnJaL_4ZoM5bq2Wjcy-r93VjxGP_hsUA9uBBYJ0q1_26xZBv6ReT2yq_2BbjcvXu8UziAxH_VVDHVpvBTfvYplKE2_c4=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Enchanté Café",
@@ -136,8 +133,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFyhZpRlNnyXc9tM-fak10MG64kMcwJMOTLWI4KmOhy9S3k7cd7SZrL6tzMqZlkddpgvcrSXUkEGmK0gxg_rfKZmQ6iDwYw7vMNerGlX9xub6gOEArybahlRKJmjCixCkyHxNBnGvHPIM9M=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Maja Coffee Roastery",
@@ -146,7 +142,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFO80-J_rzr6-rSAB2Hv3jXfbGsNkhhN4fKaoBzafxWoVVN3kmiUSHxZK3zxhOnSeW5rbfbKWpj_uEGBQOFa3bGEZfykHSkgX1BtJxEUQMOrjO4DQDyChWdcCUe0kwWk7RCRMUUP4L40k-3JQ=s4800-w900"
+    "needsCoords": false
   }
 ]

@@ -6,8 +6,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgwS0Sa85rWcWWGEPjw-SDuGoka_b8rkmnn_V7sr5o24uK43R4dtfXKY24HRhsxat5KUFd3gZ50pIzK6rDySriy2k__4DcD_MhRHNFOlUcXMJIj0b8yakpu7ZBargm9aeZchJkR5yXktWUWC3TIqZx=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "DAPPER Coffee",
@@ -36,8 +35,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEuPa0ra5wJbVtZYRdcXcZytgmMhKFarTLIDw6d1oV-OxlRy2gNuTJ75FcD9M7NGMTRiFbD0GdRCfTqItU1Tv61mVw2OGIpJlGRWHgkAsznASt1AanoLq_qELQDISJHmksgRNI2EhncS7ypYxbWe3c=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Pressato Coffee and Books",
@@ -66,8 +64,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGizNPthot6LIH_LEz-7MCizbiQlKpqX61iLK6PLJ53akbs7RO_ngwSTV0y2_gvaTZzzAEPCS8l7hG1EkAn6-h6qbaRN59Y2N-jybTpNdgtiuaCd-wYkamJWpIvS7yRoMJqYmJXSED0F2CH=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Mara dei Boschi",
@@ -126,7 +123,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFOUGY6_pa-YyfXmHlPs8owIXg4AJCVSgF2ZiTyY6wfMXuhe4fvvCHzKHzvUyhXZN7jb2R5dlQtZIBVWjT-MhphVcbCLbU_gSqTzXOKG2BAYyzGljDGNOaxNhhZPFgbKo5jEKEm6OXxLLTccw=s4800-w900"
+    "needsCoords": false
   }
 ]

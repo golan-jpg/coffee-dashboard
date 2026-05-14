@@ -6,8 +6,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEGCpe47-0eOqH8x59K8DHvuX-zqFfpUCmfVJjIW8wTW-hHypaB2oVCTMMIX7JHkBBJMjzryKgAk7V9lQxjb8i8AF8PrLiViqhqRCW4dCe10iSDwiyD5H1aCHtnfE3PqnGZasFZVdMrSc4uSQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Ditta Artigianale Dittaneri",
@@ -96,8 +95,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEp0QvOKCPh8YN9XG-xHipYzrLiswL8_20NqNskg18M4Sk7LrO3-sIVtpqNGxk8vuvko3v3R8lSd4iTEJygP4RJ7ybxJz2JTLw5zgYuaTDCPr7Lk7qMm0x6paBfAzZgoGQSOPTaGWj9QuUffOxOJcRz=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "CAFFETTERIA EMMETI",
@@ -106,7 +104,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHUlMMKL6DhxNtLx4bJfPdhW6AdOjP3vOID5xVeQSKUGrBUE4XslZXp49M_T41r-48BSf04rycMJKZjjPcTJMdDlAYZk75GzVHRdLQ3DX8szjTatgxhd-dJDFp_-NGVc4f3CacuJAcphsM5=s4800-w900"
+    "needsCoords": false
   }
 ]

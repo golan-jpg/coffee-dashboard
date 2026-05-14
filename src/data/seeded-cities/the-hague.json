@@ -66,8 +66,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGWG1iGv4teMntg-vJ_2RnB3NoiCTwvd7LW5NTQS8eeNj1igHdZ7k6oaBu34DhUCCZiQncj3s80F4Np7dNYl-Iiix5nhTgv66yltRQ-t1qgzP60dMAnp3-jmsTvQvYeowO_M6dsK65iIUuOPQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kaafi",
@@ -96,8 +95,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEZICrm994U_6XVmt04IZG7Kv2yLIbm0LKxOAPmOXHUDZv2M1DX94jL2k5yafaRPUO1Z2cEW5sSKcTm-jEEK4tFT00mo-R3-cZndi1Ojdbz_eNBQjar3NandnQvnp8nAU0BMsOzMrTAFABX5v67Zfc=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "The Shore",
@@ -116,7 +114,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGHgkMpR92Sibq3nUSMbrnF6QNdhEZY_UZgEO3nlKeLd8eDsxIjbQlxv0V0H0tB-bQSLeHwvzgRAdujwCc4hcW7SzVkou7OqqZrmZlbTxbNO5VNr_dEZnFkhZXH4U_W-i-5Setid-h7hGhf=s4800-w900"
+    "needsCoords": false
   }
 ]

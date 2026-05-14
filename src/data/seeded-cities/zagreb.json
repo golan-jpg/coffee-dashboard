@@ -6,8 +6,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHGjJxOh40IrwYfSvHDvv3LeMme5oqgDwV5e6qBArRhkXZ1KDzqCUvX_cIe9B0DWUI3Br8iGyFSpnXsDg56jmw06rBsa7Lc4eN04HlGfd9Ks79icsJwLzTNSohNd0QddGJzTiXThB23q4an=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Urania Bar",
@@ -76,8 +75,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGRNGpduFUjNpdArKhgVT1tul16rZwjM78odlnEepfnghBzywV2Hol8usfrrusu77Rw2ug7R_Jhu59Hi6hDAptjWVJwgN4pryLmEvqj1qohOBxIVm7wlKTKjV6B3KUCTrtKttW1bQai0jKID1udEjk=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Filteraj",
@@ -126,8 +124,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEVvnytHpL8eC1k5mBv0j57sqp29Pn4EoAVzX0K2zYKXeC-vLwuOexK7jBV_NtNlkyFMRpebS_EUkCjXa3iAyk8stIstMudjaDg-AkLenXuHMpl4WLvLzXUIOnoSVmrWXuyOv1rZnivV_Di=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Cynic Zagreb",
@@ -136,8 +133,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFDaJ5xfKlNvqtveC2f-wnpWy29SmkaB4VbVPzH0tBHVo-Id99gVNVA1C-OLCNFjSsdsBQyfFExDUtX3_zeDGIirMwNHRyQ4kth25w0witV22Up_jGZwoTJZo_TuO5VFFUWKYIu_fhuQk-gBhQ5TONX=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Luta",
@@ -146,8 +142,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGvZ9YG6dpIGKSknzgFGXDKUS-GCJFllJz_pSZOlN4Fhmr00prx0Kj6i-B6gfjWK9qTDRKRPzy18r9E8-k9_aj7NuMfxdG1GpvjJycpHFyLfpvT0FizQz2EPrd1rwK5AAq90JVs_e_WIUU=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Cogito Coffee Deželićeva",
@@ -166,8 +161,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEY5yKXw10F1SiPSSpU0vPsFpDbTSvWhZoP_Pkwsp42HK-iMrTu8UH091xkSIEZPeDDLOi8Jhe2Mhdi-SZM7bJzvhv2tLCoXNutr54_Pf4b4Angtdoqi9rXsFQDolgQ5QZr0OmdjvGZmbBaaK-brKo=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Teneo Coffee Shop",
@@ -196,8 +190,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFxuxNil0PLdRUwArfmLWa6o_jBr_cCXWvqKPAeFeo7nVFCrn9uOVZubK0ZStbIR-xVUFe6Dl9pHcjplhgiaop3yG482H0fe6Fg2vdzBjkWeyQnHudMxopQE9Qbm4ekSsWvgYpplvucbzsO=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Specialty Coffee Zagreb",
@@ -206,7 +199,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEBR3URT8jfk6eRcNnvMTWmrRnOGO6ytI8_xd6dccROSgba0ODGP9lp5MyiOP5COobDT-N_WKhckaZB6UThwcwJtyUHJx5KEOP-uLPQVkeDkm8VQPpUAsRbJWOjIcYSF_ZljKpmFcBsPqTB=s4800-w900"
+    "needsCoords": false
   }
 ]

@@ -8,8 +8,7 @@
     "address": "Carrer de l'Arc de Sant Ramon del Call, 11, Ciutat Vella, 08002 Barcelona",
     "website": "https://satanscoffee.com",
     "needsCoords": false,
-    "confidence": 0.97,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE8uaYRG60UsSKxISoqAfca-Wj1x3zQMk66RmbsOoKT0AAZH79UFACRV0lMvVbZWoIYiF8NmeY2D7FTKpLPAv1I2MViRcQJKuvl2rklblKkeTNoEWD7ibzv8oJkc53fAO2Ya40Vq6BEzsft=s4800-w800"
+    "confidence": 0.97
   },
   {
     "name": "Coffee Casa",
@@ -58,8 +57,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWqtZy8zNiqFL6AENDUO7VCl4X6ZQrhpZfa7REihOS4k0Ph5GWvG4Te3Rw7I3F5RS_XZltzv6jfcF0Tj8wQuSXk-JuyTS6z5MFsp4BU-EuJPWvWBOt5jQJHSzKud2wIb9SWibbiNwm1b4=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "The Coffee - Comte Borrell",
@@ -109,8 +107,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHs9W_wrQy_nePw5QOL60ddOSdo4e1sDY43PGX69nuJB45Uj06zCt6G_RAaRwHqYIWHiK1MKReGU28z8HPo--ewGNAwhh_utpL9ioC5xfCrwwDKiO9qqNGlFSUogQXFkc4KLHd9rs9ze9tK=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "ÖSS Kaffe Barcelona",
@@ -129,8 +126,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFjwnpFBuUHlu5lJoExuVHwwmJZG7IfDWM96DFfCAPMJk22rOyNt9NzZpJamMs5981SKtPbmggunJU2scEjjwfls0bOmYWAAji2amelIdoMYlkEBNdz147n4aM_NohqG5b3-uxK6wJwk3Ta-mr02IRc=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "CASA TAOS",
@@ -169,8 +165,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEpf8pDmwsgV03aHNJO-WKoH9hBvMMPL3s2LgcyyGl8p5a4-npezG6bLUrvtIY7YHvfsamr1DCpkRUqYBi1sIA15kFacjCt14EWNfqYHWd1DASWx4cVkM9LU-oQ1V73fT_lDvLw6YWl_U1n-3VO1vla=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Lodetto",
@@ -189,8 +184,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEkd9utJrtHgVgAgSd_MFOBWGy1Ht6uvEXx70MzhFUeL-IE0fSTnq5x3hMButWqKj_RDW1-KnuAk-TPLlpMbcJlixaFYSxp-wm5f4WYVLSHQkRB9t3caARvBNWUI6YudW1EYxgyyurxkJ_vLV_2cbM=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Orval Studio",
@@ -209,8 +203,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE4TXSlY2mzxBAVxGQgH6yFnrCU2-fC0ghqjHOutNJcWAhic7eXr1bjrAEJpCsj9hk_Wsm9ANePJZTxW8NgcXKj9w2JQj7oGcZOakaZPjlB8aGuLb-t_hdPIKGykyOJbXCC5I0MhoKtmis=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Viatger Cafe",
@@ -229,8 +222,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE_OsXeZ1XkYWBuZ7Dst3HMTJXT2Kj-zJyJhkQph1rNBTREk7l6z0vLQgz_Bx_70OApkYFY-__VjLWJt_vClKH76FuIpucUrKFgFYvq65OxuURvuWarMLM_dOe_c_Ju3oH8bgjX1seFy8p-3Q=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Híbrid",
@@ -249,8 +241,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFWSqMPklqTPGMKB1mwPk-ptMv4QZfrS25q7GZ0LpxVi8oaE3APiog3QgUBlrR2CdFkS-KHf0cng_6spU0M_UnWD0GSXHjZzXdmwG-s1qI6mWttZUesQ2RJSynE2J8MBCKBVwCMW-whpKfq=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "OMA Bistro",
@@ -299,8 +290,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNExy_vbQUSwPdOscbwRAPrWA3lNtY1RopUI2hIQ_NEyO-9x0h3_bIw1_4MrtJ8JuSrcgf3nh1eZYP2_ZNw4obg3ChrSK5DStTvtkbFHgXCR9_QHKSfSha4LCDHM19w2K8scS5WiW7FIvpg1tQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Syra Coffee - Pg. de Gràcia",
@@ -309,8 +299,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHMORybBcUPtPHvlhw1W5FwxcCJHDlGZ7lGXU5-YKGa_Idl2sI4QUWPTVzmPC835XkTzvBramDqkXbyQ_BslJS8dhiaQ22Rmr6is2JMcwcrOQH0h97jjbXqzVXLfoZSLAZWMHCnYtJdiIMb=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Roast Club Cafe",
@@ -389,8 +378,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFe5xQbS8a6IJI0IUNL1q1seTFFu3aUhKpcucsCTla9K8qSp1-qQgZ-1Xq-qkMQ3JL-nFSR6EMDyut_VpvnFmYRwJ6BnW1G8Q9ujKC6wNnLyij1p2M0lxb3XVWBGDL0PPYPbraVPNYaI4NgJ-A216zY=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Syra Coffee - Vía Augusta",
@@ -399,8 +387,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEOLY-_BNNiz4L0yZhiVbacdJo3R6N575UH7VTddnksSmiUQDqtBTju0CxhPJGGe6tqpSUUB_07TuFAYCFOw8bo5OKs3xF8nu7i1X9QfASSklgJlgnX6Q5QcsoaJOvK4ZSFtkcNbXSxY-8T=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Origo",
@@ -449,8 +436,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFaonuWN2qiiV-AcO1xjdXGHwA9_5Q-2U6Cl6smZ9mhJIMZ2udvRBK7ZalqOerHlGK5SqLyHOKe8PWHLJCPkIudypl4khQtCK16siuUn7OqLA4D47dgmCZubtIP2P8R6pI6V-jRR-W41G0Z=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Elocuente",
@@ -480,8 +466,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGTwzwo4RHURDTod7omPUdaiCmRu9Ti0KBfUXwLsetEfUxiF2H9YjcaFvt0u5quZGrMOcmOUXJZDiwELAUhkBEbGACT5bJ-9QrZh-SkQZsUMkzPHwzycyqq6JmCgcHFc6yfTffvkxTd5Jc=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "BLAVA Coffee Roaster",
@@ -540,8 +525,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEeg9nLQeCqu2SuTqplHj3r_mTH1iJbENqjn98uljYWx0JoJ1NPK25-oWpv-TJZapuTWgEcgttLfCPNHVTlVYQygYBDbFNBtPCMKfdR-F5Dv9Om1phkkEJa64Gqjlo2UFYbjAq5zaRj-GLo=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "The Miners Hospital Clinic",
@@ -620,8 +604,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHUiMgYV2kpViPmGLSuuj6-LtRxhRFqB82T2yt3fCNSI0oRXZt5WuYvGvCtNEE0xSne2I-bEBunV2CSdC8YQA-AxCiPYMRNw-MdV5l0yVu_srMs_Bc2av_M7GS7yxEtcr-HcnoouIp7XD8=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Syra Coffee - Poble Nou",
@@ -681,8 +664,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH2hTt61ms2ZAO4H08vO9kaGOwQKQxu0wJ1e0-LHFG0MYCwVl6DkXTiU2m0-tBe-pH8YhHH8SP7Y58NyZrDb9P10DjJc7f_rHK0PgF5x7A-OV4Y5ZAvFAm49y-Ip64L6ImWA7XhD1Uxo4M0=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Syra Coffee - Universitat",
@@ -753,8 +735,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFZFM7q7so-sMUUKkwiV9-dS2994KUO3TPqaZp3eOQWT4KPlFrHL4E-mGn8gRxGTxYcimdcCvTyNK8lrFl1g3F6M8q1HblJphOotv7B8uF2HQqhZYPoSK9lvVnXUSnpB3QZc91nUJZNf7t44Bbqh5Q=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Morrow Coffee",
@@ -824,8 +805,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE9tJ_daHtuJcBOIdbA4wcdPiEFcIQoTWGowjqTpWDDs70zrMcRiOeGheg7ztjWwJVFS-36sP-yGOgqeZuH-ZM4zks4Y0iOV5YG6G5kEImA5Duwf3RPPpAqEHuaUXQvHUO48OXj3sjlss7a=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Xiloteca",
@@ -906,8 +886,7 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "geocoded (Syra Coffee - Bonavista, Barcelona, Spain)",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHHhly-PmZDOj3aE9EOU3r7y1TxRUalEPIL_ezlU1vw6R_YR869aSmFcV3nsAy69AUwwFJszwQrVH-FFyUU_36-sxYXkuWpcQjr7Mp3_8a28Ke2U7JHjY-swc7dblWaIeA_B0DZAWpsvZ-lFw=s4800-w900"
+    "notes": "geocoded (Syra Coffee - Bonavista, Barcelona, Spain)"
   },
   {
     "name": "Synchro Station",
@@ -927,8 +906,7 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "geocoded (El Noa Noa, Barcelona, Spain)",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHtDTjRAc98eXhdNpMHE_kazLuUyxHawp7Xf9W8p4xWaev-mArkfhfr3BKGrKRsASQObnixUlcBK39C9ikjQygJJvZ1KpB8WvOje0JxONTWC39IXU3osEs_AWeg-6MGBAwzqtiB_JlKxzbBBg=s4800-w900"
+    "notes": "geocoded (El Noa Noa, Barcelona, Spain)"
   },
   {
     "name": "KEFIR cofee&bakery",
@@ -937,8 +915,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE8LfJxzu1AjwFMYVb5CtXW9hBZrNkL8Q0UaiYQThAhD0NcmvnfFXp7V9ubCDQJch4rZqqRX5G5vFSj2BiLRAT44gyS76EJMauY1NqWqL-wcIHtaR4Gce-DFQxgOrxLlQHcDn_udu9iPo-hAQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "The Miners Via Augusta",
@@ -967,8 +944,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEDqfOrmGSIQPU5FhRxxkPpmuPtxBQ-3TC-JV30yIY_nsfUurowhpOISB6izlqEX3MjdU_0zWBXxTF_VG8UIfYGJ_r0-AeiYO4dT5veizaisax2LIXn4QE2ZgTXMfV9VJOciRthI8TA6kNLM-izeG9A=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Café Local",
@@ -978,8 +954,7 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "geocoded (Café Local, Barcelona)",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFqave3DeSfijF_5ArLng7Pdu7n_iH7_lTp4Mc-PYk2dK_SVxWbmFHb5JI2dCImvcIGM0GB6Nlnw6RwwKCSshrZ1vjXgD3kNO9jDcQao9rjC8JZB2NFEpTaNaLJThCg-q09s9qB68j2kEZJJyhhHSk=s4800-w800"
+    "notes": "geocoded (Café Local, Barcelona)"
   },
   {
     "name": "Merle",
@@ -1059,8 +1034,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNExfrjeOnsaxzO5RRZve6XJh_7C2nK0gPvzRufCnQlcuCN7Wn1V-tXf6fhIKy9Oi3i-SURSsIUHmbw43XBElGz7IuWf6Pphgb4ft3-sjQ_VQYtGYcicogQ05MAwHlLYmeozPCn7MiR0fKhy=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Pipol Coffee",
@@ -1159,8 +1133,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHkXv5U3JIek4L2DrQLZpNsFMM7l7kAlHnKqx9I0nu8cKw9KXtPxdgB_V6ML_QPF0uDOrI_ofyV3gdKYbKc9hjDqs0f_xA_PiIzOD_MUViGhrtXM-Af-WDtERQrxbn4E_rOFxkP7qiT2R-V=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "The Madness Speciality Coffee Shop",
@@ -1169,8 +1142,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGR64wFSgX92HXQ-nj8GmuW-Fc_UjfXxhma4wJ3aLTI-1bqajLEsHg_AbiaB_00Xc5sOadD2Oky4h7xzTs7XbZFWVqyl-hJxRQ6bHus1j9J6nMQ1gwzxY4z-ShDKUkReUeFYkT_bZwjs7Z4hhaiAHn2=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Ruma’s coffee",
@@ -1199,8 +1171,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHkRPBwzhT1S82wUeiWaYbT-qRGMqYljH_0Vhc5IpJhRjvEz8-SD_RNBMvC8OayP6jAyKbUWb-1m4it3uo_5aorw8t8LA2wmzPutAQN4R7Hs5F1U_c_euNqQamr05psqc3qqiA5Gac5tG-Y=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Coto",
@@ -1209,8 +1180,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF7DexNeuETeNMRpGu22IhMMpZZuLJSR0k56yjQj9WlG2iJS9aqfqANFxVDa3jP5MMdULFfuI-Jau1O8lUKbHA_TKn6S-VDWXmOElh9m7uiJEd1FQSi-8KcwMq9A0q7uHIxJ3TRolLzY_qgUA=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Skye Coffee Co.",

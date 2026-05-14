@@ -6,8 +6,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFslLtIPWnv4SXOvmr3ZTH4d2X3ODSggpoqOPiXkEieYUW4wnnplaV1koDi914Fta1iuxiDuRMJuI4j-acPjAbipo4-fa43KYI7T8nuq27wO0a8kxva3DjgrVA5oaeXD0fqa34OvyqqayDD=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Drupe coffee&stuff",
@@ -46,8 +45,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEtIrVOn5MFGB9t1phNz8cVWgvl0r4H12w4PCTcAPPN5MZomTwVHBVMoZxFqiBoL0vyk-lQvgWz4roG-MzV5fYQqzGO2hhGxhuGGVfrB8efb-cxt_XP1HNEh-ddp42T2X_DPa_20VYfT8c=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Yiti Kahve",
@@ -56,8 +54,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFFItdzu2FCs3g2jyOtibv5zpefEMgC006e6410F35ezTD4NBTvJTVJ13EwbNthwUMZBon_J3ARyIBim2CdKdTXqZpZnKgaxMy3NmiGE3L97q_LEeQM7BbRjoXzS4KDr3bV6eZHsBYbf_6p=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Rispetto Coffee Co.",
@@ -66,8 +63,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGRE1Sc9IHXDHAIm44PGkdhfSlC7kKpWkcDI4LaLeWdthbLxZtR2bCle4VHZPTglGYEUqi_xzpD6LoN0OIFaYyg3my92-nXVtQiZJQD7b_WO6l6Uk8Xd6I6nYD0U1DEgfZ0qUSWRnSh08rV=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Lagetom Coffee",
@@ -96,8 +92,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHrNcpusQ80I147GD_CMdGI6gbTF_qrZ691RWoOAwiTjMJLFHePmO6r8G62tqkofGVzpfCV1_iAR_X_KQH7QlYYHF3lmNMomk9-923zjNTPRdQVxXbiAco5aZI2J5NpYHDu-k3KOcfEtLpC=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "PROD Coffee & Roastery",
@@ -106,8 +101,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHfQa9cDdK4X5DFmjfUmXU82kXhsmxQzduRtKk7X7nmLZXrjlI33NCKA8zyXkq9X3XppXZy1EVEbF9P_trblGKsYnyr_kzducQVChCIo35yUlPCJGBTeeB6MdwH4dJLOxzWQLYG2_2R-izy=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Solvay 1927 Coffee",
@@ -136,8 +130,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEx6Cz29dkC06IoDRhj7kf2TcmXMNjub0HnVz07JQM_bR-JDsrVofkdIiB0yDQ-SRA64YIUnfim7-vDjZm02cXydGr3ljM1bKcP6L39veke_TQT8aVZbQHQ-NcGx5uvzA63vT7uMOISc0Q=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Nitka Coffee & Roastery",
@@ -146,7 +139,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFTWkI3dpng3kiQBOBqx22OMMZ6YDu4LhGgxzc_f_iywhQpGG_lxInc7hV7RFhIieKkstQEaLXT4I52csSeXd_NqQdXEfDXhyYsVm5rv-_mpxvyEpsD2tlEJNS8whNUcl9EU-UXDt578BnsnQ=s4800-w900"
+    "needsCoords": false
   }
 ]

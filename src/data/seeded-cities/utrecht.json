@@ -56,8 +56,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgqc5LaYykRq6QWfNmnO06SBAcWWv0i0BRjOo8hW1PNW3bTWOyF-w7xeWuv3kFgRQpDKoDtt0N3IOX13jKsNN1m5O5n11Kk3diPORN5IHCVbDS4n49hi4m0h1z9bE5mjte-zUtSxOA-rk=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Mos Coffee Bar",
@@ -66,8 +65,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwQt0IUeYkDZtjA1_S7aM801SCpAT_ICg2eTLlqf1dLoeH6I8k6hM8M1AiYaFd8SFsRDQpSpFYXJc2rgoCANeK2s2GHJD4OmHJaLHkezHNOcvgekb6vSGzwLMAUJFcIMeVGhqKL1yQGwHG=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Dagger Coffee",
@@ -76,8 +74,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwlxd9YrCst2oHZiC3BsqYyY3LVRwLQ0a-pi13v6iGy2XjSzvn2iaadEDCXqrxlPpMkJVOM_N9tOiXAeeblpOcjLcjM2Uypjt8sr4CiI_-ascyOeJ4jRXiHov0fEnx-qEf8qPKqVv-gS4=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Ukiyo Koffie",
@@ -126,8 +123,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE-Os8I47Fv31EfJ9Pq0ZNg1nm4yXGRlqStKrsPYJEMprOx7_oSejbIg7KjGJts7dc7ld2TLn2a4L32cmG9UV8ETLY3ZdsbLVgRHQ0VrdbvcmfbGCSCzs2G_3ZyQDD_YhOmZJBVYmTvQzgK_w=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "‘t Koffieboontje",
@@ -176,8 +172,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNE6FfHV0Cv-iZxBWDGIzigaMhJYm0fyMB4s4zbIf7tbLFNLX4XnbCVsyKOdp8tTq7FXCr-_-QF6pdD3ku2_NQqHTAUI8MmqVm2w39-YvI9_yruwR3yUKKgDavi0PLKito88jHB2bnyFMy1o=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Tijm Centrum",
@@ -196,8 +191,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNF1mNE_wVRwyLgL56Myg5VobFG1ASGElpJw1Dz5SG_8AHATJ8D5F37uIeivtJBbT7aMlkAILqaZeD9pyT_UNlsEhdW2ybkcjlyV_-h-1cwI50WyeF4s6fbOro0rY-YSUn2sF9uGnzXZT6us=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kaffeetaria",
@@ -206,7 +200,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGZHmhMGwHuKefPYpNWA_6zDHqwmZGlybW9nKEfPeGe0o2W4aCQdu1XQRgZuPMpFtRJVC4SmgPtPIwrCN_yaj4ASLBeq-OkTtXjmt9j7c5_QSuE-6thcPauBSZXCtqKR0KarWvQc2AVw3M=s4800-w800"
+    "needsCoords": false
   }
 ]

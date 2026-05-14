@@ -56,8 +56,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGvNaZxEzPY0YSZ1xg8-3ApffHb08OLwoTjHEdhGYYB88AsF1fbcsioGUG3Wbs35Bb805EtbJszfdv-BShydmKu-uAsYgRPDhmt-ETVe4xyF_BYJBpTMQGW3rk4_hVH5E6cd_iCeKVwXByA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "AME café",
@@ -106,8 +105,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGb2SFc7SSguZMQl3XzmLTHy98BHUc3GQaiGqI6wKoS_anGBYetlUibMuu17fO7rKg7RT8cmSvj8N_lLG1K0Gam4ma-wAyFUERu8QFeyZRNp0z_FwxGo3Qbb9xRF0cxyATcO_OOWVZ9vkMUF54VNmjx=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Slake Terreaux (Formerly known as Diploid)",
@@ -186,8 +184,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEM-p-3q6n7foQghb49vVgo5VzRBC41FmIzti4RQs1YF7YMISoJXt3O4BLJIdqOM3u3FzAjwey1tAULlTqstKnbxb_856-U9UDWa9HZufp7TSWluS11WwP7BdoSS0OMf9JwA4IRUIbtvoh7JXiw5XYV=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Mill factory",

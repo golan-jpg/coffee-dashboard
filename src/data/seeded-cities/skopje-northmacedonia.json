@@ -66,8 +66,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGJRn2bJhsziH3qBcC-eSkHufVMFPiXvdLwL9w54aN2QLtdPf8YtSuE3Rqh3fD_i-ZTx84W7QytHZVKCrsLvsaAdN3Pllf26sxM2dfZAOj5XKEY4stEqJ4yNh7QQC9ETPXPF_lZ4QxR9BTScA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Arrosto.specialtycaffe",
@@ -116,7 +115,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHdvXYbwh4dOwYys7flOoIdKekA2Upz_qQJ59V2m1VJTnSL8-j2Si-Cff_hlA6do9mOTb1NpyBmYSN8eZTvhGZZPQZbWY6FoZefZK_sIyoEzS0nKQ6wJx9bfvPIO9n8g767IxdtL_Vs-nOkKw=s4800-w900"
+    "needsCoords": false
   }
 ]

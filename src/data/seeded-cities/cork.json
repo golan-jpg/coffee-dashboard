@@ -6,8 +6,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHhG6dNcUXZF1_b1-nWjuxT6vdF52tugwjpQl_TUDGIZr4lIKucVkbWq7qqjozk8VlLGKISCZej4LMhBKbmW9XKHOobb-cGTheg2fdbHH5EDgbgETSDpe062uQ5DiHGa9eXyRpP5kapmBQ4Wqq0jTs=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Three Fools Coffee",
@@ -16,8 +15,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFGMtlMTEOmXMbUpK5Cpw6IZZd7h82mc5LLhHkvrU7RBb81j4m_VIP4ynbI3pUBR_0UaXMWvy4T_8hWFFabBgAByIATw_C53P63xrXj0w6-OZRjG4cD5eXRW1T7XZOCJUOfr6ApLsSRuBQtp-dN_D3T=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "The Bookshelf Coffee House",
@@ -46,8 +44,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEhOaLArxvDLI1e8FOaIEmLFmOBaBvpu1V49MglkQduXmgph76lt8Zu1Up6lK1CG6UnlUFa1xWdd1ulCZINVqiHmgYjmYZlYPf5S7QctXSKC6k5RarEjLmvzJRINiv4b78cD62wUKffyKpEvxYRsdk=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Cork Coffee Roasters",
@@ -56,8 +53,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFRIDJuj_DTfinPfAKz6L3jPTw4QP2jQbQA9CyZzEC-84JGBcxMYwKv4TP4KAu9KH1JqGfh_6_TAFQlpVu_gKYIKVK1t-pQGfUQ5aQdvnBmmeHgU7Zf6duPbWlLkFQ0t-41QckKUw5UG0QYXA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Filter Espresso Bar and Brew Bar",
@@ -66,8 +62,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEMY0hrm5rEEqBSyfN_GWGxkZj9tbEvqMUFA9HjcZymzFkaPAEUDjgswP2W7bawEBwz09jGn3xLDtMrDfVTVwwTfMhdX9sG1_oNZlHLb2OJdkTijLBuBn3CL7SpMIWYwM2TMOpm3p02OgS9vIu-AhLD=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "The Bookshelf at The Elysian",
@@ -96,7 +91,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFlS4PXfKAu6hElJcpJr4jT_qXA6VyOLnMEOPFFoQS6QylKOl04EYyetGGVqOpflYvyU0zUJln-SiPPLLYjYXus61JJPVXVROZKWmw4BGUch0smQVIQqhy69oa9WT2GdMrrDWQHRIg57Ilqcg=s4800-w900"
+    "needsCoords": false
   }
 ]

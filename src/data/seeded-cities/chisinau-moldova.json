@@ -36,8 +36,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwtmy-aqjADDNdtzBIQdSss2LFlstgwJbG8XUfKyBKzlgPhacsQQ5he1TSSxcTiV9GT4nuX5A6ljzKEUnEqFKabCR9AShvy8awGQDKOtJg8AFtTsqSRa1XcoMAQc7-0EmLreEyFChtipyXNw=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kosmonavtika",
@@ -66,8 +65,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEiqoTmGnOL1v-Dmv1668f8N9JwbZ0I30-2Qv2TSS1KOztH_s5s_TL1HHeIShJx9sgKvca9U6FtfMPK7Q3-7JEOypnJeL5QlgMzn0-5CZHcgIU1T1qc5jvV6XCOSGZlSfKCwzqYChpD7ymJ=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Pasio",

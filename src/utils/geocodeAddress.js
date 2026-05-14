@@ -19,7 +19,7 @@ export async function geocodeAddress(address) {
       return { lat: parseFloat(lat), lon: parseFloat(lon) };
     }
     return null;
-  } catch (err) {
+  } catch {
     return null;
   }
 }

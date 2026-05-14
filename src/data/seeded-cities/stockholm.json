@@ -46,8 +46,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHtBE-CES0UHB97u2RRIOo6s6FdDABd3iI1pm51qv4x71KEjOTEZb2Puu_B39fHvN_QB65SsqvC8eAMscBtcKjIiBOWvNNquEBHafJE5jqj0XswPQccPy2RyiyJ4T9joMWC_mX1a4TUxYZf=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Café Blom",
@@ -136,8 +135,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGkq5_5obEta43jn6GPzAKwgspUBuuR_dRbsiqU4Cu4opccaWoAbQUVv6X8GK0YEYMtadGJTbGPjB0D_euDzAOHUjFDsL1iQT8zVVN0jBLzHqhI-AcD1ny0fNGgnB5NFSsDQSANT3zVj6xp=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Muttley & Jack's Coffee Roasters",
@@ -146,8 +144,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGIF9S9lPWPmBFp_a61xJAqfbQV33oEqQevOtjN6bQV_j_-uk1SD5ZduCHebsxWwb1g4bYdO8iInRamf9e9JHR-Oh2rXNqgq_cSTGwyy6b72Ng_3hzyGcDJO6TZwS9j7uylnmRKbrcuCjLvvQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Gast",

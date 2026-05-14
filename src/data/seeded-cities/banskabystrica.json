@@ -26,8 +26,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHwss43WyK0NUQnD9FIBAwzHwLtgXu3JFnPzJU7oaphmSn5oWHDezhzSWNLf_uCp8dc-Uo5YltglXtPsa0B4rlLWGLjEP-h9aUszw49ufBMKIonmWWgYoJWbSKHqsbD4vffC991xW0eYJ2aJA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Leroy Bar & Café",
@@ -56,8 +55,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFOZ7s6YgGxR4XVOt4ZoZQpI_7E9k37490v8VkB7b8ubni9EKb4hiXkN_NGO-D-QbEoTep_qqO9sanfSUVMz_Y4ANl37pyQsJXWbj3CkfNg-cMvnmeMhcy1k1mo8-a-d5iQkr4lLN7DeSBbw2QV1ur-=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "365.cafe",
@@ -86,8 +84,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEuvCxwgsc67YxZ94Bpn0nKdg7YTAdpyu4MYq8GnEp6CN-GuAw5PNApWt8Iqjw1VecEfEOsGlsz7BPiLme0-ktkvOgGEACgp5yF4mQNOAeMag49rSzeP0AoiUJiycZmrNaijgo15Vts7RF2=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Chlieb a láska",
@@ -96,7 +93,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFk-nkSFYfd5IyvwM_e4JxnZZVRnVJ5I_K7JAenKO4B9OFDrqdewq0wJHWe15CcKqBNKAND-C5-jBRL-c1HHCpKVNYXYnXy7mmVlZiJpumkPbvny--SRQ_ehL_z67VhkU4D3hhVekZ4F5sx=s4800-w800"
+    "needsCoords": false
   }
 ]

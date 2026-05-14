@@ -16,8 +16,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNH2OEdDJ0Lx6aT3I3AGtrPMNSt5j52YyAhDxRCWioj-wT36YUOAhAeGQdKNIpF7LKptqbqk6sWxCID6ydzjtzIV8XR3tUM78d9BDoOtl2DD3QtxXoJmLTTlHFGwCPQ2hA--vb6itQ_5Hei8Qg=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Noir Kaffekultur",
@@ -36,8 +35,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHdrar37EC4koblvOFEqBjzGjBUFDg-KBGJxZ7MyJSabyhS4nxGdBUsrD5XXuIJbTRRCWbKCEqIm26bMQDS01tkAa-loYd2DPn7tCgJiFuP2yVjaS_ThopaTV8WjdOVy8csoXw8Qbca8YhB=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Cafe Number 6",
@@ -76,8 +74,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNENlWAZ9VIhLOwKaNws4X8YYRqEN-ul3ExzsEjqqNn_J-coqAHHPG8LrLWKT08m9bXF_ZygCgpM4purfKdhI2tBIzeoPKKfy9ca-6u3I75WGit_QvuZjFu3DDyJ1RXBeAyWco2L3cmmWkGX=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Solde Kaffebar & Kafferosteri",
@@ -86,7 +83,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEqlpGL2bXQejpDAqHCdQdnjQGkC7pUctMzQ3JoOLH8AaOl5aDmIrzCiBLqjNaiWJVS3s_Ex5vdOci7a_ySZpsUwZ4-kqLsZcYRXtZjrwu7jrj6K3_b70o7KNwKF-KO4YLGhCP_JtWo12NJ=s4800-w800"
+    "needsCoords": false
   }
 ]

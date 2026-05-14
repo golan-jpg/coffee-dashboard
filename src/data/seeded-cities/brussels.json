@@ -66,8 +66,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHis2uqwpehGu44k6iUg1ZcfqS-ahdEnlq2gWrnnflOQIOcaRo2T1KMGz8zsm7THdUUQc9Dt9CP5jF2npkpst-wAg7cIJ5yxRb3FrPRQVOxDGPNRcfU2ZZi6g-cIbNtNGW0vO1kxXuuyXgw3l4Bka9C=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kaffabar",
@@ -146,8 +145,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFEF7XZlGAKZuxn1vdmyRwR9fvTC0j0C3yvrGjovJIsH7MbBuuE-QxhHB5UtO4Pno8RXtkDk4qSATdwlEwTe35w-cIwXxFj3yGOCdENP7hxlobIPjBGH70Rvz7ReQtK98pPX5KeEv7veOcW=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Frank.",
@@ -186,8 +184,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGSr2a5HojfEQHCC2m5fm3l0X8G6CWwBiHMOMmSDlWhrzGdWe82BzTS7po6e90UeKd5Za0kGSnPT-Ahxw5s8TS6TEQgx7LMSi2sYTvyyLR9P4ESN--p82BqvjOFhwS7ms2zpD6Fy9M7zahWqw=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kami",
@@ -226,8 +223,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGXpIxjTG_GolqA6A_yPdhwrcpNGtjA527SAW19Gg19338vn9Rr2xaw_HXQYGa3YIKLOMFUCemmHqJxtJ3rFnhTALX9uQqt7A0blbG1g5ApX1D6q6oftu0nxxdht95pCysU15AlvRMNSkxC=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Café Winok",
@@ -286,7 +282,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGDK0M594iE1BsXd7lDBlgVLw19Zv0KA-T4KfJ-Ibu90gmG4Vk0OLh8zcC3iuH_CrU8HvNCxbc0hDmKXWHHW_1pvsgFSz9iarWq5o-VbTyJzsd3Stmtl37fAybcYawmzB1Hx7KhLz0Igk_R_w=s4800-w900"
+    "needsCoords": false
   }
 ]

@@ -7,8 +7,7 @@
     "source": "seeded",
     "isSpecialty": true,
     "needsCoords": false,
-    "notes": "OSM-confirmed",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGtEMa5cmr-ct5xcUyXcyL4jkgTuTh36UwZHurnPYX_mSp1R4HcQewCLUOX4xqX4V0ZOqUfTwZwpqYoT_gPN86W4g0GpeZd_boep9KmH57hv-KQ4WRSVLj01pN6KokCQrpkxBYUDZtLjqKwvA=s4800-w900"
+    "notes": "OSM-confirmed"
   },
   {
     "name": "שתיים סוכר",
@@ -29,8 +28,7 @@
     "source": "seeded",
     "isSpecialty": false,
     "needsCoords": false,
-    "notes": "OSM-confirmed",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNG6Nbgy6lfExEiUjBSIG2QoTQS8IbVhHx6K1Bu9Rx0N52Cb8FwiSvWju3glGV62PSQk6LS1zDj2FQJyULqJ4PFAMJga34lS9mFsEu_pZbScYV1UH_YSNB9Ng4emG6n-iPoXCqowI0jpNPs4=s4800-w800"
+    "notes": "OSM-confirmed"
   },
   {
     "name": "קפה ליבירה",
@@ -51,8 +49,7 @@
     "needsCoords": true,
     "lat": null,
     "lon": null,
-    "notes": "added from hey-fa specialty list; needs exact coords",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFtoHWam7l3bhfBvIsPsyasKeR5eT8TIElS68Zs9CoVGOqthMhQASOguArgolTACqf-JnFW1tgjd6N7L7PnDk7KQerIU7AZ1v7Y3SqOkcSii4cK2ZRmKrcG53USm6WXeIR_PKGtXalB0UWCxQ=s4800-w800"
+    "notes": "added from hey-fa specialty list; needs exact coords"
   },
   {
     "name": "קפה אווא",
@@ -73,8 +70,7 @@
     "needsCoords": true,
     "lat": null,
     "lon": null,
-    "notes": "added from hey-fa specialty list; needs exact coords",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGi17bFD3u_QJ27NF0Z2ZwBr-nD6byzAtesC6bG4c_aQmqluCJ8X9tKTDHokSlQ8H2Uwv53B_qf8It6wdzaLxXiaoCjmdbH-9-mZQdCxfa6aiK9hvRPE9Qj8YRQdah2LagDzexlb6T9334i=s4800-w800"
+    "notes": "added from hey-fa specialty list; needs exact coords"
   },
   {
     "name": "קפה נעימה - ואדי סאליב",
@@ -84,8 +80,7 @@
     "needsCoords": false,
     "lat": 32.8068111,
     "lon": 35.0074283,
-    "notes": "added from hey-fa specialty list; geocoded by Wadi Salib 2, Haifa, Israel",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGi17bFD3u_QJ27NF0Z2ZwBr-nD6byzAtesC6bG4c_aQmqluCJ8X9tKTDHokSlQ8H2Uwv53B_qf8It6wdzaLxXiaoCjmdbH-9-mZQdCxfa6aiK9hvRPE9Qj8YRQdah2LagDzexlb6T9334i=s4800-w900"
+    "notes": "added from hey-fa specialty list; geocoded by Wadi Salib 2, Haifa, Israel"
   },
   {
     "name": "סמרה",
@@ -117,8 +112,7 @@
     "needsCoords": false,
     "lat": 32.8098515,
     "lon": 35.0001562,
-    "notes": "added from hey-fa specialty list; geocoded by Sirkin 21, Haifa, Israel",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGCuEFxuTR2xPUyq_NfqQEVZWtYYxVr7F2fIsoRzEjyjiu_sVqdCZvcOukGYdU77iA0QeQ8ARrf8JRufYtzjEKfZktd27UT_yRCUZGajMgefuuuOorQrdkn6PYcdyJsowASXyz1e76fhiatTw=s4800-w800"
+    "notes": "added from hey-fa specialty list; geocoded by Sirkin 21, Haifa, Israel"
   },
   {
     "name": "קפה דקל",
@@ -128,8 +122,7 @@
     "needsCoords": false,
     "lat": 32.807933,
     "lon": 34.9996765,
-    "notes": "added from hey-fa specialty list; geocoded by Nordau 26, Haifa, Israel",
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFlj5GLFpcb9iaspFpTey8pr6kJrJG_buxZVgt7qZWzmqvMc5RsPQBrD2HyCvJwCZVsrbxDq6rbBjylsHZA6KkzKrjuXrvYrECDaVo3Jxpm8qGXnzq-QYpVDdQRIb3QN0KnSnEeqm2UAik=s4800-w800"
+    "notes": "added from hey-fa specialty list; geocoded by Nordau 26, Haifa, Israel"
   },
   {
     "name": "קפה שכנים",

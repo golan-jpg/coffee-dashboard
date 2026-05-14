@@ -56,8 +56,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGB7eYvLdNJW6BN8pMArEsTd38-2RkU3BOfjVZwakRC9a3LpT2B_zK1cEiR2YhfxwSYGVt6GVj-louNE9tviqYZ02J9pVIt8g9wfiSirdV0UKan678LTt8F04fi7L-Y3Dxnhsm1lt2zDxyFWQ=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Hopper Noord",
@@ -66,8 +65,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEQjUIIgIYe86X8LNC2mWh67iimXP6WBmfx9b6NXXNFf723AFxo9KIYYaz10xmci4074v98FVxCNXWjuIXHBECac7-NEtqHX1lVNDLwHZS__SrXBfoXmNxKQQNZ2V7bO66Uimymgr1qJ82f=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Harvest Cafe & Bakery",
@@ -76,8 +74,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgA1UojBCZtyrZ_jwOG4KJoLvxk_ppnZXtaC7sa-tVVOghvBfG1bavUvOx-txikghzyuLNQGmXYy6vF6Ucsk-HdszW4mHJa-JFwNsrdD0uFZTvu8uPQKg0aZSdFtakXGz0kf9yTobIsFmM_WRrkxX1=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Roast",
@@ -96,8 +93,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHsQ2vorrPfIShCFMAxoVoDL1FMm4D9eEKZHRhtTOdZyx6rMj0tYFztSW6ZvdFWvUTMKIAtCqmwg_MXn3IqZ1SOwFg1in75ZcKBKQaohYImzSNQrT1BYl71nHLoQTp-00X4XC2CbgpK-W37Nzeaq_k=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Dune",
@@ -136,8 +132,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEl5pgkZkUThdvh1VCNMi1yaCrUbmNbqn6aNyJu6MoMzdgQzNYhivVGiQCPK1DCBxaPH9INwX-qUoM_DYaK28r91XN38YM8wYhOzDFua1AAQSRSK1z1ojpJ-AA2-UmUqJdKAitCFBbT3FX191r_9lnl=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "33rd street coffee",
@@ -226,8 +221,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEUNEKR7EVs6fqbZvC9fTNS8bVMEb0FzrOzSA7KS-ZxFvKGQvIhMXNp84BuEXAe2vECQr90iAS7JjXXLCgXa9nVylUbiDXYDcp1-cSMs_TMAMevx1y1WC1e3qz9NbFDMhmDKPQPf0Nu__AgqKB1FU8h=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Spicekix Coffee Lab",
@@ -256,8 +250,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEDEDahcqgmlorBo5yAAL0wpynYRYomzmg9ZVGpp3-P9N5tu1QedU66z0C9dNq0t8m_TfErkmQe7o7jVl6_tZguC23hrQ8H6Gh_EnwzbRoQcfMDB-sJZmEXdPVIOzvPEVTescTeIC6sQccl=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Giraffe coffee bar & academy",
@@ -276,7 +269,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGgpq619cPG1O34UcwMFA8fXDvYYY1QLYsqAt4byQiuB3RGVZ2b2-viE8o_ktiENmuBK97-XDxDMIP_At8HDR5gaZ8Hpe7kZZ4IQeuDVxi0GCRuFe87a3KJPP0XwkICi6w9zh5XWi8EjJbWDKai8bO1=s4800-w900"
+    "needsCoords": false
   }
 ]

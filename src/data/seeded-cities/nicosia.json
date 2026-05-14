@@ -16,8 +16,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHfNniglnTp0n1gn7QwfdE6t4FfTrXMPvUedi2YRXJeKWPehjuhYYBbkJkv9JbySbp_cBaomcbpIDTEOM9AK2h8rfO1AQzw378ys1gFYNKpuezm9Xdc4FGAkdBgUQe0-74Ti-ZJ8iuCMwKprqP3Z5OO=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Amber and Joe",
@@ -36,8 +35,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFAFAwwGVAebAnemv810r8DX8R85yuaoSoEN2-yBAKFP_2lWhIxlmyET4r46Vn464VigNtRoZqb6b7Z2ah1qKUF3R0rLXOXTAmD9yJpn_nq4XOcYKUZSiP6hdkGkbcKwCkHPmER2hhvoeXM=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "BLCKBRD SOCIAL",
@@ -56,8 +54,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEXkYkevcPtPkgF9b41CRGHCxBPxA8kM_M_-ozxDwMsACPyrOVhd_6UhKbXBk3_XgxJufj6k99khc6TA_2VOtgBdIVefBKgeTp7A0x7k2D8j5ja_W7CGaM-nzXl7iV_Pqh2v0Jvy9DYTbQU=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Amber and Joe",
@@ -96,8 +93,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNESkKyiPPkBbkWdZohz61mmtyTq6nx8dJqeB8I2AIgRXHDllQXTfSruNZC7dyqXsLYcch5TLbv9cdvOK4qtaHVe1-3ZDyA_RxN1XuoLOMRvuRXcwi75gAlskEOCkDzH1dKED9HinDA54RO74Sfjl6YA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "simpl.",
@@ -126,8 +122,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGBZOE349VZFpg-4YAb_nFXwVr-lYh1WagtjvpgLN6dHc6sKIxdfm3zzG_vLtM7pAnn0pCyXb0903YrhnjlFNLF5neiBqRAPJdfjj36uLoqyNx9DdAqyHKFVjD4p8G58n-gc8Xg4nfXKQik=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Mana Specialty Coffee",
@@ -136,8 +131,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFmvF6k_wP6FHi_l9kQGEAVH2VyKQnxEnYTcSfvvkovvAfujmnqyBZgFiuZ4ySSTgy5PD2hcfT59r9H3xeTKuMng51hC-SR84IkrT3rd1VVQR-pVNHa3MkNu-F3mvAuXmBym3W3JTMdHNraag=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Kollaborative coffee roasters",
@@ -146,7 +140,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGuEc30xDBODsMzQx8aPLzGP6mVUdq_BdriJuUQpKNdoHngOzwkriNswobEJ9PEgjqidxa83MUU0uAeeLEqvd6_SmAHEDZ5X0M9KdWoibIik5ZhziYyTN5d6PnUScr2DBOF4hzjdYxV2UoD=s4800-w900"
+    "needsCoords": false
   }
 ]

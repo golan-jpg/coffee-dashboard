@@ -46,8 +46,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGJ9NHgHkLS5regRjEzh38kWGFLU92vE0GSmigKzW9ZWo30nzTthXeCc2Ta-9gWS1j8P2hz5Tta1Sewl7i6bVAK-cekNm33NOuNqUOoiAWpc848yzrHRgi7K_e5Pw63T3Nax7e5XAiR8p8=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Wholehearted Cafe",
@@ -66,8 +65,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNEFHNLZILeMjSFRCMdGh8TKHKHLxdJUoYa4dK-MFLAJRkrT7lPOqGCnWJj2W8G0bwQNov-37vPbF4h0bVFdJMBopCqr-zFZ9iBk-mlez9jAwWzY0_WaVYvaaM-6TVDaaOGftJqG7v0htYks=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "The Bookstore",

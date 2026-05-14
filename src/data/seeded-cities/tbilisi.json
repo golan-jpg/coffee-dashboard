@@ -36,8 +36,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGS7-eRZQtpaDyt_BSV1L_sMvl9KfYEowvwOphNOfM71uoZ92yuYYn8ZvnqwwH-7QqOz0OIKjxGVzhbbsOCGJ4ttYyZWAntcABZYfIOFAmrI7CUQO-kOdvrkaZoilI6ASnSPmZiYi7gfyCo5VpUe2Iq=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "OKRO Coffee Roastery & Bakery",
@@ -86,8 +85,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGS7-eRZQtpaDyt_BSV1L_sMvl9KfYEowvwOphNOfM71uoZ92yuYYn8ZvnqwwH-7QqOz0OIKjxGVzhbbsOCGJ4ttYyZWAntcABZYfIOFAmrI7CUQO-kOdvrkaZoilI6ASnSPmZiYi7gfyCo5VpUe2Iq=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "They said books coffeeshop",
@@ -126,8 +124,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNGazSzEdDilvC0pYsBFjzL1S71-VzAKgs3wUzFNlDFq-3Iy8ShBX3pOWpxxKTGET9EkN7h-ku7pg5OABe_GuXhkna3RXAixXlMvyrlFIUJ4GhWhdd-61j6sDt8cDitu9LWwWSjbF3TZW6CA=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Brewio",
@@ -176,8 +173,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNECm1Xc5SVXUt0KJhNUBbf2gi1Qu1dhLmnvMurYCVlCybzvBEPn4HUw6RVoRUItYRPBCT_GfS1AQYpbtH25ybw14GixbliHV5WvHRqdDRpEA8IABQQUXsz8z-Qo3nWS9olaZBMM5axpxokQWlMRfRv-=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Brewio Old Town",
@@ -226,8 +222,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFyj8Xlg4fYc4Mq3UnIDFebQ7-KGNHcthHjrafdS9_dvQDNQH1p6T0f4d1XQllM3rsoq0rjJ7D-nuV60_DYoOXs1GHbXxNZRDfqljpmQqP7LzbKmTLP0V_-onQde0fUyPIFNEGjP4th7Mv7-A=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "BNKR",
@@ -236,7 +231,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNFSRFkhNw-o2DASY9lRcneFZFJ9c6TX-jX52Oaf6dD54WCg1chUd_A0Ms21AjGLgMYtXiZmrU6AL8pWmnbwDQvaH4OwLcdDZTof5SVDTFCqf9SoaTfofd_XN4vAMLAx1mJVT4_oncxhqItXrw=s4800-w900"
+    "needsCoords": false
   }
 ]

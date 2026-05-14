@@ -46,8 +46,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHabytLmvNIZAdvwOr3bdYoWPJ1cSR5XviQh-9B9xv6eJq-iqzLeiY8ybiXmjti8NhDheIzZ0VzLM7nO50Wtty2hKOQ7GRYn9-URiAvXxSr2acVSuQF6JIo3y8o8RvxnzFJi9EEejQPb4Sy3A=s4800-w900"
+    "needsCoords": false
   },
   {
     "name": "Ka Kantun",
@@ -66,8 +65,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHU3JCpic0Oaq_nQItApYfs5T7VhPTCs_vctf4al44IQQEc-eaYOmq-XeC1e1DALBd1EDl0AZOMif6jXTrP9iEzbLIQeSGiaJb-9DOpBbW7TnbRQJW6PBEohknIHz1gZOcMQOZfnOyLJ7oFUIGGSlj2=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "Stow Coffee Roasters Split",
@@ -86,8 +84,7 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHWewuMtV6c3K4qBp6tyrlTCuHwsZI4YUoXK59NQuxuuMEWrif1qflTjzjitPmhaqH5ZuIFk-LUMyxioXg1tW1C6VAxVVE6wS7h_fiDFrJNtSNzWHK0h83h7oxoHlCksIzoPlT7DCKT53vZ=s4800-w800"
+    "needsCoords": false
   },
   {
     "name": "D16 Coffee",
@@ -96,7 +93,6 @@
     "address": "",
     "source": "seeded",
     "isSpecialty": true,
-    "needsCoords": false,
-    "photoUrl": "https://lh3.googleusercontent.com/place-photos/AL8-SNHU3JCpic0Oaq_nQItApYfs5T7VhPTCs_vctf4al44IQQEc-eaYOmq-XeC1e1DALBd1EDl0AZOMif6jXTrP9iEzbLIQeSGiaJb-9DOpBbW7TnbRQJW6PBEohknIHz1gZOcMQOZfnOyLJ7oFUIGGSlj2=s4800-w900"
+    "needsCoords": false
   }
 ]

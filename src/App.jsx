@@ -22,6 +22,7 @@ import {
   SCORING_PRESETS,
   DEFAULT_WEIGHT_KEYS,
 } from "./utils/calculateSpecialtyScore";
+import { isRemoteBackupEnabled } from "./utils/remoteBackupConfig";
 
 import { useManualPlaces } from "./hooks/useManualPlaces";
 import { usePlaceOverrides } from "./hooks/usePlaceOverrides";
@@ -2758,9 +2759,14 @@ function App() {
       return [];
     }
   });
-  const [isHiddenBackupReady, setIsHiddenBackupReady] = useState(false);
+  const [isHiddenBackupReady, setIsHiddenBackupReady] = useState(() => !isRemoteBackupEnabled);
 
   useEffect(() => {
+    if (!isRemoteBackupEnabled) {
+      setIsHiddenBackupReady(true);
+      return;
+    }
+
     let cancelled = false;
 
     const hydrateHiddenFromServer = async () => {
@@ -2806,12 +2812,17 @@ function App() {
       return {};
     }
   });
-  const [isRatingsBackupReady, setIsRatingsBackupReady] = useState(false);
+  const [isRatingsBackupReady, setIsRatingsBackupReady] = useState(() => !isRemoteBackupEnabled);
   const [ratingsSyncStatus, setRatingsSyncStatus] = useState("idle");
   const ratingsSyncRequestIdRef = useRef(0);
   const ratingsSyncResetTimeoutRef = useRef(null);
 
   useEffect(() => {
+    if (!isRemoteBackupEnabled) {
+      setIsRatingsBackupReady(true);
+      return;
+    }
+
     let cancelled = false;
 
     const hydrateRatingsFromServer = async () => {
@@ -2853,6 +2864,7 @@ function App() {
       JSON.stringify({ ts: Date.now(), data: userRatings })
     );
 
+    if (!isRemoteBackupEnabled) return;
     if (!isRatingsBackupReady) return;
 
     const requestId = ratingsSyncRequestIdRef.current + 1;
@@ -2935,6 +2947,7 @@ function App() {
       JSON.stringify({ ts: Date.now(), data: hiddenPlaceIds })
     );
 
+    if (!isRemoteBackupEnabled) return;
     if (!isHiddenBackupReady) return;
 
     fetch("/api/backup-hidden-place-ids", {

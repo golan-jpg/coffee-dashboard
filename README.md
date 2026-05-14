@@ -136,6 +136,18 @@ Local development can keep using the Node server:
 - `npm run dev:api`
 - `npm run dev` (or `npm run dev:full`)
 
+### Optional: local-only mode (disable remote backup sync)
+
+By default, ratings/hidden places/manual places/place overrides sync to `/api/backup-*` endpoints.
+
+To disable remote backup sync and keep data local-only in browser storage, set:
+
+- `VITE_ENABLE_REMOTE_BACKUP=false`
+
+Example:
+
+- `VITE_ENABLE_REMOTE_BACKUP=false npm run dev`
+
 ## Map Tuning (Zoom + Radius)
 
 Map behavior is configured in src/constants/map.js.

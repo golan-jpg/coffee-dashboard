@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { loadManualPlaces, saveManualPlaces } from "../utils/manualPlacesStore";
+import { isRemoteBackupEnabled } from "../utils/remoteBackupConfig";
 
 const REMOTE_MANUAL_PLACES_URL = "/api/backup-manual-places";
 const REMOTE_MANUAL_PLACES_MIGRATED_KEY = "scf_manual_places_remote_migrated_v1";
@@ -16,9 +17,14 @@ function markRemoteManualPlacesMigrated() {
 
 export function useManualPlaces() {
   const [manualPlaces, setManualPlaces] = useState(() => loadManualPlaces());
-  const [isRemoteReady, setIsRemoteReady] = useState(false);
+  const [isRemoteReady, setIsRemoteReady] = useState(() => !isRemoteBackupEnabled);
 
   useEffect(() => {
+    if (!isRemoteBackupEnabled) {
+      setIsRemoteReady(true);
+      return;
+    }
+
     let cancelled = false;
 
     const hydrateRemoteManualPlaces = async () => {
@@ -64,6 +70,7 @@ export function useManualPlaces() {
   }, [manualPlaces]);
 
   useEffect(() => {
+    if (!isRemoteBackupEnabled) return;
     if (!isRemoteReady) return;
 
     fetch(REMOTE_MANUAL_PLACES_URL, {

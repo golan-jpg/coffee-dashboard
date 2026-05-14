@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { isRemoteBackupEnabled } from "../utils/remoteBackupConfig";
 
 const PLACE_OVERRIDES_STORAGE_KEY = "cuproam_place_overrides_v1";
 const REMOTE_PLACE_OVERRIDES_URL = "/api/backup-place-overrides";
@@ -35,9 +36,14 @@ function markRemotePlaceOverridesMigrated() {
 
 export function usePlaceOverrides() {
   const [placeOverrides, setPlaceOverrides] = useState(() => loadStoredPlaceOverrides());
-  const [isRemoteReady, setIsRemoteReady] = useState(false);
+  const [isRemoteReady, setIsRemoteReady] = useState(() => !isRemoteBackupEnabled);
 
   useEffect(() => {
+    if (!isRemoteBackupEnabled) {
+      setIsRemoteReady(true);
+      return;
+    }
+
     let cancelled = false;
 
     const hydrateRemotePlaceOverrides = async () => {
@@ -85,6 +91,7 @@ export function usePlaceOverrides() {
   }, [placeOverrides]);
 
   useEffect(() => {
+    if (!isRemoteBackupEnabled) return;
     if (!isRemoteReady) return;
 
     fetch(REMOTE_PLACE_OVERRIDES_URL, {

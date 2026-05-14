@@ -25,14 +25,12 @@ import {
 
 import { useManualPlaces } from "./hooks/useManualPlaces";
 import { usePlaceOverrides } from "./hooks/usePlaceOverrides";
-import { geocodeAddress } from "./utils/geocodeAddress";
 
 import AdvancedScoringPanel from "./components/AdvancedScoringPanel";
 import PlaceAgentSection from "./components/PlaceAgentSection";
 import { enrichPlaceWithAgent } from "./lib/agent/enrich";
 import { computeAgentReview, getCoffeeQualityLabel } from "./lib/agent/review";
 // Check if a Google Lists place is coffee-related by name
-const sidebarRef = typeof window !== 'undefined' ? (window.__sidebarRef = window.__sidebarRef || { current: null }) : { current: null };
 const coffeeKeywords = [
   "coffee", "cafe", "café", "cafè", "caffè", "espresso", "roaster", "roastery",
   "specialty", "barista",
@@ -132,6 +130,64 @@ const explicitCoffeeAllowKeywords = normalizeKeywords(
   placeOverridesData?.explicitCoffeeAllowKeywords,
   defaultExplicitCoffeeAllowKeywords
 );
+
+const cityAreaDefinitions = {
+  london: [
+    { canonical: "Covent Garden", aliases: ["covent garden"] },
+    { canonical: "Soho", aliases: ["soho"] },
+    { canonical: "Fitzrovia", aliases: ["fitzrovia"] },
+    { canonical: "Shoreditch", aliases: ["shoreditch"] },
+    { canonical: "Southwark", aliases: ["southwark"] },
+    { canonical: "Clerkenwell", aliases: ["clerkenwell"] },
+    { canonical: "Spitalfields", aliases: ["spitalfields"] },
+    { canonical: "Seven Dials", aliases: ["seven dials"] },
+    { canonical: "Borough", aliases: ["borough", "boroughs"] },
+    { canonical: "Marylebone", aliases: ["marylebone"] },
+    { canonical: "Mayfair", aliases: ["mayfair"] },
+    { canonical: "Notting Hill", aliases: ["notting hill"] },
+    { canonical: "Chelsea", aliases: ["chelsea"] },
+    { canonical: "Camden", aliases: ["camden"] },
+    { canonical: "King's Cross", aliases: ["king's cross", "kings cross", "king cross"] },
+    { canonical: "Westminster", aliases: ["westminster"] },
+    { canonical: "Brixton", aliases: ["brixton"] },
+    { canonical: "Peckham", aliases: ["peckham"] },
+    { canonical: "Hackney", aliases: ["hackney"] },
+  ],
+};
+
+function escapeRegExp(value) {
+  return String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function normalizeAreaName(value) {
+  return String(value || "").trim().replace(/\s+/g, " ");
+}
+
+function getCityAreaDefinitions(cityName) {
+  return cityAreaDefinitions[normalizeCityKey(cityName)] || [];
+}
+
+function findCityAreaMatch(text, cityName) {
+  const haystack = String(text || "").toLowerCase();
+  if (!haystack) return "";
+
+  const definitions = getCityAreaDefinitions(cityName);
+  for (const definition of definitions) {
+    const variants = [definition.canonical, ...(definition.aliases || [])]
+      .map((item) => String(item || "").trim().toLowerCase())
+      .filter(Boolean)
+      .sort((a, b) => b.length - a.length);
+
+    for (const variant of variants) {
+      const pattern = new RegExp(`\\b${escapeRegExp(variant)}\\b`, "i");
+      if (pattern.test(haystack)) {
+        return definition.canonical;
+      }
+    }
+  }
+
+  return "";
+}
 
 const citySpecificOverrides = Object.entries(placeOverridesData?.byCity || {}).reduce((acc, [cityName, config]) => {
   const cityKey = normalizeCityKey(cityName);
@@ -1717,8 +1773,14 @@ function extractAreaFromNotes(notes) {
   return String(match[1] || "").trim();
 }
 
-function getPlaceArea(place) {
-  return extractAreaFromNotes(place?.notes);
+function getPlaceArea(place, cityName) {
+  const explicitArea = extractAreaFromNotes(place?.notes);
+  if (explicitArea) return normalizeAreaName(explicitArea);
+
+  const inferredArea = findCityAreaMatch(buildPlaceSearchText(place), cityName || place?.cityName || place?.city);
+  if (inferredArea) return inferredArea;
+
+  return "";
 }
 
 function getPlaceSourceKey(place) {
@@ -1775,7 +1837,7 @@ function passesUiFilters(place, {
   if (getExplicitExclusionKeyword(place, selectedCityName)) return false;
 
   if (selectedArea) {
-    const placeArea = getPlaceArea(place);
+    const placeArea = getPlaceArea(place, selectedCityName);
     if (placeArea !== selectedArea) return false;
   }
 
@@ -2003,7 +2065,7 @@ function MapInstanceCapture({ onMap }) {
 
 function App() {
     // State for add-in-progress indicator
-    const [addingManual, setAddingManual] = useState(false);
+  const [_addingManual, setAddingManual] = useState(false);
   const latestFetchRef = useRef(0);
   // Ref for file input (import)
   const importInputRef = useRef();
@@ -2050,6 +2112,7 @@ function App() {
   const cityAutoFitRef = useRef({ cityName: null, fittedWithPlaces: false });
   const watchIdRef = useRef(null);
   const lastLocationRef = useRef(null);
+  const confirmDeleteTimerRef = useRef(null);
   const [googleListsData, setGoogleListsData] = useState(null);
   const [seededPlacesByCity, setSeededPlacesByCity] = useState({});
 
@@ -2072,7 +2135,7 @@ function App() {
   }, []);
 
   const manualPlacesApi = useManualPlaces();
-  const { manualPlaces, add: addManualPlace, update: updateManualPlace, remove: removeManualPlace, setAll: setAllManualPlaces } = manualPlacesApi;
+  const { manualPlaces, add: addManualPlace, update: updateManualPlace, remove: removeManualPlace, setAll: _setAllManualPlaces } = manualPlacesApi;
   const placeOverridesApi = usePlaceOverrides();
   const { placeOverrides, upsert: upsertPlaceOverride, remove: removePlaceOverride } = placeOverridesApi;
 
@@ -2254,7 +2317,7 @@ function App() {
     };
   }, [selectedCity?.name, selectedCitySeededPlaces, seededMetaByCityName]);
   const [rawCafes, setRawCafes] = useState([]);
-  const [osmUnnamedFilteredCount, setOsmUnnamedFilteredCount] = useState(0);
+  const [_osmUnnamedFilteredCount, setOsmUnnamedFilteredCount] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedCafe, setSelectedCafe] = useState(null);
@@ -2294,10 +2357,11 @@ function App() {
   const [placeOverrideForm, setPlaceOverrideForm] = useState({ name: "", address: "", notes: "", specialtyScore: "" });
   const [editingPlaceOverrideId, setEditingPlaceOverrideId] = useState(null);
   const [placeOverrideError, setPlaceOverrideError] = useState("");
-  const [geocodeError, setGeocodeError] = useState(null);
+  const [_geocodeError, setGeocodeError] = useState(null);
   const [addMode, setAddMode] = useState(false);
-  const [showManualForm, setShowManualForm] = useState(false);
+  const [_showManualForm, setShowManualForm] = useState(false);
   const [editingManualId, setEditingManualId] = useState(null);
+  const [confirmDeleteId, setConfirmDeleteId] = useState(null);
   const [pickedPoint, setPickedPoint] = useState(null);
   const [userLocation, setUserLocation] = useState(null);
   const [geoError, setGeoError] = useState(null);
@@ -2452,7 +2516,7 @@ function App() {
     setPlaceOverrideError("");
   }
 
-  function handleManualSubmit(e) {
+  function _handleManualSubmit(e) {
     e.preventDefault();
     if (!manualForm.name) return;
 
@@ -3319,7 +3383,7 @@ function App() {
     const areas = Array.from(
       new Set(
         displayedPlaces
-          .map((place) => getPlaceArea(place))
+          .map((place) => getPlaceArea(place, selectedCity.name))
           .filter(Boolean)
       )
     );
@@ -3373,7 +3437,7 @@ function App() {
         filterOpenNow,
       });
     });
-  }, [displayedPlaces, selectedCity.name, searchQuery, selectedArea, selectedSource, filterOpenNow, minScore, userRatings]);
+  }, [displayedPlaces, selectedCity.name, searchQuery, selectedArea, selectedSource, filterOpenNow, minScore]);
 
   const hasActiveUiFilters = Boolean(
     (searchQuery || "").trim()
@@ -3886,7 +3950,7 @@ function App() {
     mapInstance.setView([userLocation.lat, userLocation.lon], Math.max(currentZoom, 15), { animate: true });
   };
 
-  const handleHidePlace = (placeId) => {
+  const _handleHidePlace = (placeId) => {
     const allKnownPlaces = [
       ...orderedEffectivePlaces,
       ...effectivePlaces,
@@ -3911,6 +3975,145 @@ function App() {
       setPinnedCafeId(null);
       restoreSidebarScroll();
     }
+  };
+
+  const handleCardImageError = (event) => {
+    if (!event?.currentTarget) return;
+    event.currentTarget.style.display = "none";
+  };
+
+  const renderCafeActions = (place) => (
+    <div className={`cafe-actions${confirmDeleteId === place.id ? " confirming" : ""}`}>
+      <button
+        className="hide-button"
+        aria-label="Edit"
+        title="Edit record"
+        onClick={(e) => {
+          e.stopPropagation();
+          if (place.source === "manual") {
+            handleManualEdit(place);
+            return;
+          }
+          handlePlaceOverrideEdit(place);
+        }}
+      >
+        ✎
+      </button>
+      {confirmDeleteId === place.id ? (
+        <span className="remove-confirm-row">
+          <button
+            className="remove-confirm-yes"
+            aria-label="Confirm hide"
+            title="Yes, hide this place"
+            onClick={(e) => {
+              e.stopPropagation();
+              clearTimeout(confirmDeleteTimerRef.current);
+              setConfirmDeleteId(null);
+              handleDeletePlace(place);
+            }}
+          >
+            ✓
+          </button>
+          <button
+            className="remove-confirm-no"
+            aria-label="Cancel"
+            title="Cancel"
+            onClick={(e) => {
+              e.stopPropagation();
+              clearTimeout(confirmDeleteTimerRef.current);
+              setConfirmDeleteId(null);
+            }}
+          >
+            ✕
+          </button>
+        </span>
+      ) : (
+        <button
+          className="remove-button"
+          aria-label="Remove"
+          title="Hide this place"
+          onClick={(e) => {
+            e.stopPropagation();
+            clearTimeout(confirmDeleteTimerRef.current);
+            setConfirmDeleteId(place.id);
+            confirmDeleteTimerRef.current = setTimeout(() => {
+              setConfirmDeleteId(null);
+            }, 3000);
+          }}
+        >
+          🗑️
+        </button>
+      )}
+    </div>
+  );
+
+  const renderCafeBadges = ({ place, displayScore, manualRating, openNowStatus }) => (
+    <div className="cafe-badges">
+      <span className={`source-badge source-badge-${getPlaceSourceKey(place)}`}>
+        {getPlaceSourceLabel(getPlaceSourceKey(place))}
+      </span>
+      {pinnedCafeId === place.id && (
+        <span className="pinned-badge" title="Pinned" aria-label="Pinned">📌</span>
+      )}
+      {hasPersistedPlaceOverride(place, placeOverrides) && (
+        <span className="user-verified-badge" title="Saved update applied">Updated</span>
+      )}
+      {place.needsCoords && !getFiniteLatLon(place) && (
+        <span className="low-data-badge" title="Missing map coordinates">Missing coordinates</span>
+      )}
+      {Number.isFinite(place.specialtyScore) && (
+        <>
+          <span className={`score-badge ${displayScore >= 95 ? "score-top" : displayScore >= 80 ? "score-high" : displayScore >= 50 ? "score-mid" : "score-low"}`}>
+            {displayScore}
+          </span>
+          {manualRating > 0 && (
+            <span className="manual-rating-badge" title={`Your rating: ${manualRating} stars`}>
+              ★ {manualRating}
+            </span>
+          )}
+          {place.placeType && place.placeType !== "coffee" && (
+            <span className="non-pure-badge">Non-pure (capped 40)</span>
+          )}
+          {openNowStatus === true ? (
+            <span className="open-now-badge">Open</span>
+          ) : openNowStatus === false ? (
+            <span className="closed-now-badge">Closed</span>
+          ) : null}
+          {manualRating > 0 ? (
+            <span className="user-verified-badge" title="Approved by Barista">
+              Approved by Barista
+            </span>
+          ) : Number.isFinite(place.confidence) && place.confidence < 40 ? (
+            <span className="low-data-badge">Low data</span>
+          ) : null}
+        </>
+      )}
+    </div>
+  );
+
+  const renderLocationLinks = (place) => {
+    const directLink = getPlaceDirectLink(place);
+    const coordinatesLink = getPlaceCoordinatesLink(place);
+
+    if (!directLink && !coordinatesLink) return null;
+
+    return (
+      <div className="location-links" onClick={(e) => e.stopPropagation()}>
+        {directLink && (
+          <a className="google-link" href={directLink} target="_blank" rel="noopener noreferrer">
+            View cafe
+          </a>
+        )}
+        {coordinatesLink && (
+          <details className="coords-details" onClick={(e) => e.stopPropagation()}>
+            <summary>Details</summary>
+            <a className="google-link coords-link" href={coordinatesLink} target="_blank" rel="noopener noreferrer">
+              View map coordinates
+            </a>
+          </details>
+        )}
+      </div>
+    );
   };
 
   const handleRatePlace = (placeId, rating) => {
@@ -3963,16 +4166,6 @@ function App() {
       });
       return next;
     });
-
-    // Update specialtyScore in memory for displayedPlaces and manualPlacesForCity (UI only)
-    // This ensures the UI shows the updated score immediately, even for seededPlaces
-    if (ratedPlace) {
-      const updated = applyPriorityBoost(ratedPlace, rating);
-      // Try to update in displayedPlaces (if possible)
-      setDisplayedPlaces && setDisplayedPlaces((prev) => prev.map((p) => p.id === ratedPlace.id ? { ...p, ...updated } : p));
-      // Try to update in manualPlacesForCity (if possible)
-      setManualPlacesForCity && setManualPlacesForCity((prev) => prev.map((p) => p.id === ratedPlace.id ? { ...p, ...updated } : p));
-    }
 
     const idsToUnhide = new Set(ratedPlace ? getPlaceHideKeys(ratedPlace) : [placeId]);
     setHiddenPlaceIds((prev) => prev.filter((hiddenId) => !idsToUnhide.has(hiddenId)));

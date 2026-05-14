@@ -223,13 +223,45 @@ function buildAgentData(place: PlaceLike): PlaceAgentData {
 }
 
 export function enrichPlaceWithAgent<T extends PlaceLike>(place: T): T & { agent: PlaceAgentData } {
+  const computedAgent = buildAgentData(place);
   const existing = place?.agent;
   if (existing && typeof existing === "object") {
-    return place as T & { agent: PlaceAgentData };
+    const existingImageUrl = toNonEmptyString((existing as PlaceAgentData)?.image?.url);
+    const hasUsableExistingImage = Boolean(existingImageUrl && !isKnownBrokenPhotoUrl(existingImageUrl));
+
+    return {
+      ...place,
+      agent: {
+        ...computedAgent,
+        ...existing,
+        story: (existing as PlaceAgentData).story || computedAgent.story,
+        sources:
+          Array.isArray((existing as PlaceAgentData).sources) && (existing as PlaceAgentData).sources.length > 0
+            ? (existing as PlaceAgentData).sources
+            : computedAgent.sources,
+        tags:
+          Array.isArray((existing as PlaceAgentData).tags) && (existing as PlaceAgentData).tags.length > 0
+            ? (existing as PlaceAgentData).tags
+            : computedAgent.tags,
+        tagEvidence:
+          (existing as PlaceAgentData).tagEvidence &&
+          typeof (existing as PlaceAgentData).tagEvidence === "object" &&
+          Object.keys((existing as PlaceAgentData).tagEvidence || {}).length > 0
+            ? (existing as PlaceAgentData).tagEvidence
+            : computedAgent.tagEvidence,
+        image: hasUsableExistingImage ? (existing as PlaceAgentData).image : computedAgent.image,
+        imageStatus: hasUsableExistingImage ? "ok" : computedAgent.imageStatus,
+        score: (existing as PlaceAgentData).score || computedAgent.score,
+        enrichmentStatus:
+          (existing as PlaceAgentData).enrichmentStatus && (existing as PlaceAgentData).enrichmentStatus !== "none"
+            ? (existing as PlaceAgentData).enrichmentStatus
+            : computedAgent.enrichmentStatus,
+      },
+    };
   }
 
   return {
     ...place,
-    agent: buildAgentData(place),
+    agent: computedAgent,
   };
 }

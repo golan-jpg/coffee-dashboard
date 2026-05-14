@@ -5015,6 +5015,7 @@ function App() {
                   const placeAddress = getPlaceAddress(place);
                   const manualRating = getPlaceUserRating(place, userRatings);
                   const displayScore = manualRating === 1 ? 50 : place.specialtyScore;
+                  const placeImageUrl = place.agent?.image?.url || place.photoUrl;
                   return (
                 <li
                   key={place.id}
@@ -5022,9 +5023,9 @@ function App() {
                   className={`cafe-item ${place.source === "google" ? "google-place" : place.isSpecialty ? "specialty" : ""} ${selectedCafe?.id === place.id ? "selected" : ""} ${openNowStatus === false ? "closed-now" : openNowStatus === true ? "open-now" : ""}`}
                   onClick={() => handleSidebarCafeClick(place)}
                 >
-                  {place.photoUrl && (
+                  {placeImageUrl && (
                     <img
-                      src={place.agent?.image?.url ?? place.photoUrl}
+                      src={placeImageUrl}
                       alt={place.name}
                       style={{
                         width: 'calc(100% + 2.1rem)',
@@ -5037,7 +5038,16 @@ function App() {
                         marginBottom: '0.75rem'
                       }}
                       onLoad={() => { if (pinnedCafeId === place.id) scrollSidebarToPinnedItem(place.id); }}
-                      onError={(e) => { e.target.style.display = 'none'; }}
+                      onError={(e) => {
+                        const imageElement = e.currentTarget;
+                        const fallbackUrl = place.photoUrl;
+                        if (!imageElement.dataset.fallbackTried && fallbackUrl && imageElement.src !== fallbackUrl) {
+                          imageElement.dataset.fallbackTried = "1";
+                          imageElement.src = fallbackUrl;
+                          return;
+                        }
+                        imageElement.style.display = 'none';
+                      }}
                     />
                   )}
                   <div className="cafe-header">

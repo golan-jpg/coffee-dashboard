@@ -38,16 +38,16 @@
   "byCity": {
     "Tel Aviv": {
       "aliases": [
-          "tel aviv",
-          "תל אביב",
-          "tel aviv-yafo",
-          "תל אביב-יפו",
-          "tel-aviv",
-          "yafo",
-          "jaffa",
-          "יפו",
-          "rabin square",
-          "kikar rabin"
+        "tel aviv",
+        "תל אביב",
+        "tel aviv-yafo",
+        "תל אביב-יפו",
+        "tel-aviv",
+        "yafo",
+        "jaffa",
+        "יפו",
+        "rabin square",
+        "kikar rabin"
       ],
       "explicitNonCoffeeKeywords": [
         "cafe cafe",
@@ -250,11 +250,13 @@
         "barcelona"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "amiko gelato",
         "dunkin",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "oma bistro",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -305,12 +307,15 @@
         "praha"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "an bistro - ăn quán",
+        "bistro karel",
+        "bistro palačinka",
         "costa",
         "costa coffee",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -715,13 +720,16 @@
         "bratislava"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "costa",
         "costa coffee",
-        "mccafe",
+        "figafood bistro",
         "mc cafe",
+        "mccafe",
         "mcdonald",
-        "tchibo"
+        "mimoza gelato",
+        "starbucks",
+        "tchibo",
+        "urban bistro"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -730,12 +738,13 @@
         "brno"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "bistro od vedle",
         "costa",
         "costa coffee",
-        "mccafe",
         "mc cafe",
+        "mccafe",
         "mcdonald",
+        "starbucks",
         "tchibo"
       ],
       "explicitCoffeeAllowKeywords": []
@@ -884,13 +893,14 @@
         "cluj-napoca"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "5 to go",
         "5togo",
-        "tucano coffee",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "olivo bistro & caffe",
+        "starbucks",
+        "tucano coffee"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1362,11 +1372,12 @@
         "palma de mallorca"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "dunkin",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "rosevelvet eatery",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1432,11 +1443,12 @@
         "valencia"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "butter eatery house",
         "dunkin",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },

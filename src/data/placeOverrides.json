@@ -630,13 +630,14 @@
         "rotterdam"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
-        "dunkin",
         "bagels & beans",
         "coffee company",
-        "mccafe",
+        "dunkin",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "sound kitchen",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },

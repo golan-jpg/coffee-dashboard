@@ -145,26 +145,27 @@
         "לונדון"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "black sheep coffee",
+        "blank street",
+        "cafe nero",
+        "caffe nero",
         "costa",
         "costa coffee",
-        "caffe nero",
-        "cafe nero",
+        "dunkin",
+        "greggs",
         "joe & juice",
         "joe & the juice",
         "joe and the juice",
+        "le pain quotidien",
+        "mc cafe",
+        "mccafe",
+        "mcdonald",
+        "no41 coffee and kitchen",
+        "paul",
+        "paul bakery",
         "pret",
         "pret a manger",
-        "blank street",
-        "greggs",
-        "paul bakery",
-        "paul",
-        "le pain quotidien",
-        "mccafe",
-        "mc cafe",
-        "mcdonald",
-        "dunkin",
-        "black sheep coffee"
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -177,21 +178,22 @@
         "ניו יורק"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "au bon pain",
+        "blank street",
         "dunkin",
         "dunkin'",
-        "pret",
-        "pret a manger",
+        "frisson espresso",
         "joe & juice",
         "joe & the juice",
         "joe and the juice",
-        "blank street",
-        "mccafe",
         "mc cafe",
+        "mccafe",
         "mcdonald",
-        "tim hortons",
         "panera",
-        "au bon pain"
+        "pret",
+        "pret a manger",
+        "starbucks",
+        "tim hortons"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -220,14 +222,15 @@
         "københavn"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "alice ice cream & coffee",
+        "dunkin",
+        "espresso house",
         "joe & juice",
         "joe & the juice",
         "joe and the juice",
-        "espresso house",
-        "dunkin",
+        "kaby's",
         "kabys",
-        "kaby's"
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -265,11 +268,12 @@
         "madrid"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "[b]-bar",
         "dunkin",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -279,11 +283,12 @@
         "roma"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
-        "mccafe",
+        "bar sota",
+        "dunkin",
         "mc cafe",
+        "mccafe",
         "mcdonald",
-        "dunkin"
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -293,11 +298,13 @@
         "wien"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
-        "mccafe",
+        "balthasar kaffee bar",
         "mc cafe",
+        "mccafe",
         "mcdonald",
-        "tchibo"
+        "starbucks",
+        "tchibo",
+        "top 02 – desserts, gelato & coffee"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -315,6 +322,7 @@
         "mc cafe",
         "mccafe",
         "mcdonald",
+        "schody home bar",
         "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
@@ -352,11 +360,12 @@
         "milano"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
-        "mccafe",
+        "bar affori",
+        "dunkin",
         "mc cafe",
+        "mccafe",
         "mcdonald",
-        "dunkin"
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -382,13 +391,14 @@
         "zürich"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "bar butter",
         "joe & juice",
         "joe & the juice",
         "joe and the juice",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -413,13 +423,15 @@
         "budapest"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "badass coffee & donut",
+        "cafe frei",
         "costa",
         "costa coffee",
-        "cafe frei",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "seed coffee shop • eatery",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -463,14 +475,16 @@
         "oslo"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
+        "dapper bar",
         "espresso house",
         "joe & juice",
         "joe & the juice",
         "joe and the juice",
-        "mccafe",
+        "kampen kaffe & bar",
         "mc cafe",
+        "mccafe",
         "mcdonald",
+        "starbucks",
         "waynes coffee"
       ],
       "explicitCoffeeAllowKeywords": []
@@ -513,13 +527,14 @@
         "vilnius"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "caffeine",
         "coffee inn",
         "double coffee",
-        "mccafe",
+        "kitchen coffee",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -631,6 +646,7 @@
       ],
       "explicitNonCoffeeKeywords": [
         "bagels & beans",
+        "bar bocht",
         "coffee company",
         "dunkin",
         "mc cafe",
@@ -647,13 +663,14 @@
         "den haag"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
-        "dunkin",
         "bagels & beans",
         "coffee company",
-        "mccafe",
+        "dunkin",
+        "filtro koffie bar",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -802,12 +819,15 @@
         "zagreb"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "costa",
         "costa coffee",
-        "mccafe",
+        "express bar",
+        "figa garden bar",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks",
+        "urania bar"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -816,12 +836,13 @@
         "ljubljana"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "costa",
         "costa coffee",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "sir william´s pub",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -846,12 +867,15 @@
         "sofia"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "costa",
         "costa coffee",
-        "mccafe",
+        "kolichka bar",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "savi gelato & specialty coffee",
+        "savi gelato & specialty coffee south park",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1080,12 +1104,13 @@
         "hamburg"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "coffee fellows",
-        "tchibo",
-        "mccafe",
+        "erste liebe bar",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks",
+        "tchibo"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1110,13 +1135,14 @@
         "ankara"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "gloria jean",
-        "kahve dünyası",
+        "hound coffee&eatery",
         "kahve dunyasi",
-        "mccafe",
+        "kahve dünyası",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1254,13 +1280,15 @@
         "kraków"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "costa",
         "costa coffee",
         "green caffe nero",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "senna bar kawowy",
+        "starbucks",
+        "zielna bar kawowy"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1330,10 +1358,11 @@
         "мінск"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
-        "mccafe",
+        "kitchen coffee roasters",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },
@@ -1388,13 +1417,14 @@
         "poznań"
       ],
       "explicitNonCoffeeKeywords": [
-        "starbucks",
         "costa",
         "costa coffee",
         "green caffe nero",
-        "mccafe",
         "mc cafe",
-        "mcdonald"
+        "mccafe",
+        "mcdonald",
+        "oldskulowa cafe & restaurant",
+        "starbucks"
       ],
       "explicitCoffeeAllowKeywords": []
     },

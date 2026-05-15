@@ -160,14 +160,15 @@
         "mc cafe",
         "mccafe",
         "mcdonald",
-        "no41 coffee and kitchen",
         "paul",
         "paul bakery",
         "pret",
         "pret a manger",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "no41 coffee and kitchen"
+      ]
     },
     "New York": {
       "aliases": [
@@ -182,7 +183,6 @@
         "blank street",
         "dunkin",
         "dunkin'",
-        "frisson espresso",
         "joe & juice",
         "joe & the juice",
         "joe and the juice",
@@ -195,7 +195,9 @@
         "starbucks",
         "tim hortons"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "frisson espresso"
+      ]
     },
     "Paris": {
       "aliases": [
@@ -222,7 +224,6 @@
         "københavn"
       ],
       "explicitNonCoffeeKeywords": [
-        "alice ice cream & coffee",
         "dunkin",
         "espresso house",
         "joe & juice",
@@ -232,7 +233,9 @@
         "kabys",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "alice ice cream & coffee"
+      ]
     },
     "Amsterdam": {
       "aliases": [
@@ -298,15 +301,16 @@
         "wien"
       ],
       "explicitNonCoffeeKeywords": [
-        "balthasar kaffee bar",
         "mc cafe",
         "mccafe",
         "mcdonald",
         "starbucks",
-        "tchibo",
-        "top 02 – desserts, gelato & coffee"
+        "tchibo"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "balthasar kaffee bar",
+        "top 02 – desserts, gelato & coffee"
+      ]
     },
     "Prague": {
       "aliases": [
@@ -423,17 +427,18 @@
         "budapest"
       ],
       "explicitNonCoffeeKeywords": [
-        "badass coffee & donut",
         "cafe frei",
         "costa",
         "costa coffee",
         "mc cafe",
         "mccafe",
         "mcdonald",
-        "seed coffee shop • eatery",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "badass coffee & donut",
+        "seed coffee shop • eatery"
+      ]
     },
     "Dublin": {
       "aliases": [
@@ -530,13 +535,14 @@
         "caffeine",
         "coffee inn",
         "double coffee",
-        "kitchen coffee",
         "mc cafe",
         "mccafe",
         "mcdonald",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "kitchen coffee"
+      ]
     },
     "Tallinn": {
       "aliases": [
@@ -666,13 +672,14 @@
         "bagels & beans",
         "coffee company",
         "dunkin",
-        "filtro koffie bar",
         "mc cafe",
         "mccafe",
         "mcdonald",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "filtro koffie bar"
+      ]
     },
     "Utrecht": {
       "aliases": [
@@ -873,11 +880,12 @@
         "mc cafe",
         "mccafe",
         "mcdonald",
-        "savi gelato & specialty coffee",
-        "savi gelato & specialty coffee south park",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "savi gelato & specialty coffee",
+        "savi gelato & specialty coffee south park"
+      ]
     },
     "Bucharest": {
       "aliases": [
@@ -1136,7 +1144,6 @@
       ],
       "explicitNonCoffeeKeywords": [
         "gloria jean",
-        "hound coffee&eatery",
         "kahve dunyasi",
         "kahve dünyası",
         "mc cafe",
@@ -1144,7 +1151,9 @@
         "mcdonald",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "hound coffee&eatery"
+      ]
     },
     "Banskabystrica": {
       "aliases": [
@@ -1358,13 +1367,14 @@
         "мінск"
       ],
       "explicitNonCoffeeKeywords": [
-        "kitchen coffee roasters",
         "mc cafe",
         "mccafe",
         "mcdonald",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "kitchen coffee roasters"
+      ]
     },
     "Nicosia": {
       "aliases": [
@@ -1423,10 +1433,11 @@
         "mc cafe",
         "mccafe",
         "mcdonald",
-        "oldskulowa cafe & restaurant",
         "starbucks"
       ],
-      "explicitCoffeeAllowKeywords": []
+      "explicitCoffeeAllowKeywords": [
+        "oldskulowa cafe & restaurant"
+      ]
     },
     "Salzburg": {
       "aliases": [

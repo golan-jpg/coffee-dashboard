@@ -3237,6 +3237,26 @@ function App() {
     if (!container) return;
 
     let hintTimeoutId = null;
+    // Safety-net only: touchend/touchcancel below is what normally clears the
+    // enabled state on release. This just guards against a missed release
+    // event during an unusually long, continuous two-finger session — it
+    // re-arms on every touchmove so it never fires mid-gesture.
+    let safetyTimeoutId = null;
+
+    const clearSafetyTimeout = () => {
+      if (safetyTimeoutId) {
+        window.clearTimeout(safetyTimeoutId);
+        safetyTimeoutId = null;
+      }
+    };
+
+    const armSafetyTimeout = () => {
+      clearSafetyTimeout();
+      if (addMode || hasActivePlaceSelection) return;
+      safetyTimeoutId = window.setTimeout(() => {
+        setMapInteractionEnabled(false);
+      }, 6500);
+    };
 
     const onTouchStart = (event) => {
       if (event.touches.length >= 2) {
@@ -3246,6 +3266,7 @@ function App() {
           window.clearTimeout(hintTimeoutId);
           hintTimeoutId = null;
         }
+        armSafetyTimeout();
         return;
       }
 
@@ -3259,35 +3280,37 @@ function App() {
       }
     };
 
+    const onTouchMove = (event) => {
+      if (event.touches.length >= 2) armSafetyTimeout();
+    };
+
     const onTouchEnd = (event) => {
       if (addMode) return;
-      if (event.touches.length < 2) {
+      // Only re-lock once every finger has actually lifted. Two-finger
+      // gestures rarely release both fingers in the same instant, so
+      // locking as soon as the count drops below 2 froze the map mid-pan
+      // whenever one finger lifted a moment before the other.
+      if (event.touches.length === 0) {
         setMapInteractionEnabled(false);
+        clearSafetyTimeout();
       }
     };
 
     container.addEventListener("touchstart", onTouchStart, { passive: true });
+    container.addEventListener("touchmove", onTouchMove, { passive: true });
     container.addEventListener("touchend", onTouchEnd, { passive: true });
     container.addEventListener("touchcancel", onTouchEnd, { passive: true });
 
     return () => {
       container.removeEventListener("touchstart", onTouchStart);
+      container.removeEventListener("touchmove", onTouchMove);
       container.removeEventListener("touchend", onTouchEnd);
       container.removeEventListener("touchcancel", onTouchEnd);
       if (hintTimeoutId) {
         window.clearTimeout(hintTimeoutId);
       }
+      clearSafetyTimeout();
     };
-  }, [isMobileTouch, mapInteractionEnabled, addMode]);
-
-  useEffect(() => {
-    if (!isMobileTouch || !mapInteractionEnabled || addMode || hasActivePlaceSelection) return;
-
-    const timeoutId = window.setTimeout(() => {
-      setMapInteractionEnabled(false);
-    }, 6500);
-
-    return () => window.clearTimeout(timeoutId);
   }, [isMobileTouch, mapInteractionEnabled, addMode, hasActivePlaceSelection]);
 
   // Re-score cafes when scoring mode or custom weights change

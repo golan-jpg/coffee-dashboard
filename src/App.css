@@ -2503,20 +2503,26 @@ html, body, #root {
 
   /* Locked: let a single finger scroll the page past the map instead of
      swallowing the touch (touch-action must match on both the wrapper and
-     the leaflet element, since a non-auto value on either one wins). */
+     the leaflet element, since a non-auto value on either one wins).
+     overscroll-behavior: contain must also be off here — even with
+     touch-action allowing the pan, "contain" stops the scroll from
+     chaining up to the page, which is what made the touch feel dead. */
   .map-container.map-interaction-locked,
   .map-container.map-interaction-locked .leaflet-container {
     touch-action: pan-y !important;
+    overscroll-behavior: auto !important;
   }
 
   .map-container.map-interaction-enabled,
   .map-container.map-interaction-enabled .leaflet-container {
     touch-action: none !important;
+    overscroll-behavior: contain !important;
   }
 
   .map-container.map-selection-active,
   .map-container.map-selection-active .leaflet-container {
     touch-action: none !important;
+    overscroll-behavior: contain !important;
   }
 
   .map-container.map-interaction-locked .leaflet-control-zoom {

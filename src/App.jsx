@@ -1,5 +1,5 @@
 // All imports must be at the very top of the file
-import { Fragment, useState, useEffect, useMemo, useRef } from "react";
+import { Fragment, useState, useEffect, useMemo, useRef, useCallback } from "react";
 import userRatingsBackup from "./data/userRatings-backup.json";
 import { CircleMarker, MapContainer, TileLayer, Marker, Popup, Tooltip, useMap } from "react-leaflet";
 import L from "leaflet";
@@ -110,6 +110,34 @@ function normalizeCityKey(value) {
 
 function normalizePopupTheme(value) {
   return value === "light" || value === "dark" || value === "auto" ? value : "auto";
+}
+
+function getGeolocationSupportHint() {
+  if (typeof window === "undefined") return "";
+
+  const userAgent = window.navigator?.userAgent || "";
+  let isEmbedded = false;
+  try {
+    isEmbedded = window.self !== window.top;
+  } catch {
+    isEmbedded = true;
+  }
+  const isIOSDevice = /iPad|iPhone|iPod/.test(userAgent) || (window.navigator?.platform === "MacIntel" && window.navigator?.maxTouchPoints > 1);
+  const isInAppBrowser = /(FBAN|FBAV|Instagram|Line\/|WebView|wv|Twitter|Snapchat|TikTok|LinkedInApp)/i.test(userAgent);
+
+  if (isEmbedded) {
+    return "Open the app directly in a Safari/Chrome tab (not inside an embedded frame), then allow location.";
+  }
+
+  if (isInAppBrowser) {
+    return "Open this page in Safari or Chrome instead of an in-app browser.";
+  }
+
+  if (isIOSDevice) {
+    return "On iPhone, check Settings > Privacy & Security > Location Services > Safari Websites, then allow location for this site.";
+  }
+
+  return "";
 }
 
 function normalizeKeywords(list, fallback) {
@@ -1193,6 +1221,7 @@ const OSM_CACHE_STORAGE_KEY = "scf_osm_cache_v1";
 const OSM_CACHE_TTL_MS = 30 * 60 * 1000;
 const UI_STATE_VERSION_KEY = "scf_ui_state_version";
 const UI_STATE_VERSION = "5";
+const MOBILE_LOCATION_PROMPT_DISMISSED_KEY = "scf_mobile_location_prompt_dismissed_v1";
 const DATA_MODES = ["google", "osm", "combined"];
 const GOOGLE_FILTER_MODES = ["coffeeOnly", "coffeeAndBakery", "all"];
 
@@ -2534,10 +2563,16 @@ function App() {
     });
   }, []);
 
-  const GEOLOCATION_OPTIONS = {
+  const GEOLOCATION_INITIAL_OPTIONS = {
+    enableHighAccuracy: false,
+    maximumAge: 60000,
+    timeout: 30000,
+  };
+
+  const GEOLOCATION_WATCH_OPTIONS = {
     enableHighAccuracy: true,
-    maximumAge: 5000,
-    timeout: 15000,
+    maximumAge: 10000,
+    timeout: 30000,
   };
 
   const centerOnLiveLocation = (lat, lon) => {
@@ -2561,8 +2596,16 @@ function App() {
   };
 
   const handleGeoError = (error) => {
-    if (error?.code === 1) {
-      setGeoError("Location permission was denied. Enable location access in your browser site settings and try again.");
+    const isInsecureContext = typeof window !== "undefined" && !window.isSecureContext;
+    const supportHint = getGeolocationSupportHint();
+    if (isInsecureContext) {
+      setGeoError("Location requires HTTPS. Open the app over https:// or use localhost during development.");
+    } else if (error?.code === 1) {
+      setGeoError(
+        supportHint
+          ? `Location permission was denied. ${supportHint}`
+          : "Location permission was denied. Enable location access in your browser site settings and try again."
+      );
     } else if (error?.code === 2) {
       setGeoError("Unable to determine your location right now. Check GPS/network and try again.");
     } else if (error?.code === 3) {
@@ -2597,22 +2640,19 @@ function App() {
       return;
     }
 
-    const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    const isLocalhost =
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1" ||
+      window.location.hostname.endsWith(".localhost");
     if (!window.isSecureContext && !isLocalhost) {
-      setGeoError("Location requires HTTPS.");
+      setGeoError("Location requires HTTPS. Open the app over https:// or use localhost during development.");
       return;
     }
 
-    if (window.navigator?.permissions?.query) {
-      try {
-        const permission = await window.navigator.permissions.query({ name: "geolocation" });
-        if (permission?.state === "denied") {
-          setGeoError("Location permission is blocked. Enable it in browser site settings to continue.");
-          return;
-        }
-      } catch {
-        // Ignore and continue: some browsers do not fully support geolocation permission queries.
-      }
+    const permissionsPolicy = document.permissionsPolicy || document.featurePolicy;
+    if (permissionsPolicy?.allowsFeature && !permissionsPolicy.allowsFeature("geolocation")) {
+      setGeoError("Location is blocked by embed/site permissions. Open the app directly in a browser tab and try again.");
+      return;
     }
 
     if (watchIdRef.current != null) {
@@ -2621,8 +2661,25 @@ function App() {
     }
 
     setGeoError(null);
+    setIsTracking(true);
+
+    const getInitialPosition = () =>
+      new Promise((resolve, reject) => {
+        window.navigator.geolocation.getCurrentPosition(resolve, reject, GEOLOCATION_INITIAL_OPTIONS);
+      });
 
     try {
+      try {
+        const initialPosition = await getInitialPosition();
+        const lat = initialPosition.coords.latitude;
+        const lon = initialPosition.coords.longitude;
+        setUserLocation({ lat, lon });
+        centerOnLiveLocation(lat, lon);
+        lastLocationRef.current = { lat, lon };
+      } catch {
+        // Keep going: watchPosition can still succeed after an initial timeout.
+      }
+
       watchIdRef.current = window.navigator.geolocation.watchPosition(
         (position) => {
           const lat = position.coords.latitude;
@@ -2637,7 +2694,7 @@ function App() {
         (error) => {
           handleGeoError(error);
         },
-        GEOLOCATION_OPTIONS
+        GEOLOCATION_WATCH_OPTIONS
       );
     } catch {
       watchIdRef.current = null;
@@ -2651,6 +2708,21 @@ function App() {
       stopLiveLocation();
       return;
     }
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem(MOBILE_LOCATION_PROMPT_DISMISSED_KEY, "1");
+    }
+    setShowMobileLocationPrompt(false);
+    startLiveLocation();
+  };
+
+  const dismissMobileLocationPrompt = (persist = true) => {
+    setShowMobileLocationPrompt(false);
+    if (!persist || typeof window === "undefined") return;
+    window.localStorage.setItem(MOBILE_LOCATION_PROMPT_DISMISSED_KEY, "1");
+  };
+
+  const handleEnableMobileLocationPrompt = () => {
+    dismissMobileLocationPrompt(true);
     startLiveLocation();
   };
 
@@ -3164,6 +3236,7 @@ function App() {
   const [mapInteractionEnabled, setMapInteractionEnabled] = useState(false);
   const [showMapTouchHint, setShowMapTouchHint] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [showMobileLocationPrompt, setShowMobileLocationPrompt] = useState(false);
   const mapContainerRef = useRef(null);
   const [showScoreLabels, setShowScoreLabels] = useState(false);
   const hasActivePlaceSelection = Boolean(pinnedCafeId || selectedCafe?.id);
@@ -3191,35 +3264,59 @@ function App() {
   }, []);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    if (!isMobileTouch || isTracking || userLocation) {
+      setShowMobileLocationPrompt(false);
+      return;
+    }
+
+    const dismissed = window.localStorage.getItem(MOBILE_LOCATION_PROMPT_DISMISSED_KEY) === "1";
+    setShowMobileLocationPrompt(!dismissed);
+  }, [isMobileTouch, isTracking, userLocation]);
+
+  const applyMapGestureHandlers = useCallback((map, allowFullMapGestures) => {
+    if (!map) return;
+    if (map.dragging) {
+      if (allowFullMapGestures) map.dragging.enable();
+      else map.dragging.disable();
+    }
+    if (map.doubleClickZoom) {
+      if (allowFullMapGestures) map.doubleClickZoom.enable();
+      else map.doubleClickZoom.disable();
+    }
+    if (map.boxZoom) {
+      if (allowFullMapGestures) map.boxZoom.enable();
+      else map.boxZoom.disable();
+    }
+    if (map.scrollWheelZoom) {
+      if (allowFullMapGestures) map.scrollWheelZoom.enable();
+      else map.scrollWheelZoom.disable();
+    }
+    if (map.keyboard) {
+      if (allowFullMapGestures) map.keyboard.enable();
+      else map.keyboard.disable();
+    }
+  }, []);
+
+  useEffect(() => {
     if (!mapInstance) return;
-
     const allowFullMapGestures = !isMobileTouch || mapInteractionEnabled || hasActivePlaceSelection;
+    applyMapGestureHandlers(mapInstance, allowFullMapGestures);
+  }, [mapInstance, isMobileTouch, mapInteractionEnabled, hasActivePlaceSelection, applyMapGestureHandlers]);
 
-    if (mapInstance.dragging) {
-      if (allowFullMapGestures) mapInstance.dragging.enable();
-      else mapInstance.dragging.disable();
-    }
-    if (mapInstance.touchZoom) {
-      if (allowFullMapGestures) mapInstance.touchZoom.enable();
-      else mapInstance.touchZoom.disable();
-    }
-    if (mapInstance.doubleClickZoom) {
-      if (allowFullMapGestures) mapInstance.doubleClickZoom.enable();
-      else mapInstance.doubleClickZoom.disable();
-    }
-    if (mapInstance.boxZoom) {
-      if (allowFullMapGestures) mapInstance.boxZoom.enable();
-      else mapInstance.boxZoom.disable();
-    }
-    if (mapInstance.scrollWheelZoom) {
-      if (allowFullMapGestures) mapInstance.scrollWheelZoom.enable();
-      else mapInstance.scrollWheelZoom.disable();
-    }
-    if (mapInstance.keyboard) {
-      if (allowFullMapGestures) mapInstance.keyboard.enable();
-      else mapInstance.keyboard.disable();
-    }
-  }, [mapInstance, isMobileTouch, mapInteractionEnabled, hasActivePlaceSelection]);
+  useEffect(() => {
+    // touchZoom is intentionally always on, never gated by the lock/unlock
+    // state below. It only ever activates on an actual 2-finger touchstart
+    // (guarded internally by Leaflet itself), so it can never hijack the
+    // single-finger touches we want passed through to page scroll - and
+    // toggling it reactively is exactly what caused pinch gestures to
+    // sometimes do nothing: Leaflet's touchZoom.enable() attaches its own
+    // touchstart listener, which (per DOM semantics) can't catch the very
+    // touchstart event that triggered the enable, only the next one.
+    if (!mapInstance || !mapInstance.touchZoom) return;
+    mapInstance.touchZoom.enable();
+  }, [mapInstance]);
 
   useEffect(() => {
     if (!isMobileTouch) return;
@@ -4735,6 +4832,28 @@ function App() {
                 Open
               </label>
             </div>
+
+            {isMobileTouch && showMobileLocationPrompt && !isTracking && !userLocation && (
+              <div className="location-onboarding-banner" role="status">
+                <p>Enable location to quickly find the nearest specialty coffee around you.</p>
+                <div className="location-onboarding-actions">
+                  <button
+                    className="fit-button fit-button-active"
+                    onClick={handleEnableMobileLocationPrompt}
+                    type="button"
+                  >
+                    Enable location
+                  </button>
+                  <button
+                    className="fit-button"
+                    onClick={() => dismissMobileLocationPrompt(true)}
+                    type="button"
+                  >
+                    Not now
+                  </button>
+                </div>
+              </div>
+            )}
 
             <div className="location-controls">
               <button

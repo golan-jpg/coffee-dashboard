@@ -517,6 +517,29 @@ html, body, #root {
   color: var(--text-secondary);
   word-break: break-word;
 }
+
+.location-onboarding-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  border: 1px solid rgba(0, 71, 171, 0.2);
+  background: linear-gradient(180deg, rgba(0, 71, 171, 0.06), rgba(0, 71, 171, 0.02));
+  border-radius: 12px;
+  padding: 0.7rem;
+}
+
+.location-onboarding-banner p {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.location-onboarding-actions {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
 .checkbox-control.small {
   margin: 0;
   padding: 0.2rem 0;
@@ -2856,7 +2879,8 @@ html, body, #root {
   }
 
   .filter-row,
-  .location-controls {
+  .location-controls,
+  .location-onboarding-actions {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;

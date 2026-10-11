@@ -15,13 +15,13 @@ It combines multiple sources (Google lists, OSM, seeded curated places), calcula
 
 Requirements:
 
-- Node.js 18+
+- Node.js 24 LTS (also pinned in `package.json` and `.nvmrc`)
 - npm
 
 Install and run:
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
@@ -38,6 +38,9 @@ LAN mode:
 npm run dev:lan
 npm run preview:lan
 ```
+
+Use LAN mode only on a trusted local network; it exposes the development or
+preview server to other devices. Keep Vite security patches current.
 
 ## Project Structure
 
